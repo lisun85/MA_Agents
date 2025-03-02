@@ -1,0 +1,68 @@
+# config/tasks.yaml
+discovery_task:
+  description: >
+    Conduct thorough research to identify family office investors located in Chicago, Illinois that have Assets Under Management (AUM) of $100 million or more.
+    
+    Focus on genuine family offices that manage substantial wealth for ultra-high-net-worth families,
+    not wealth management firms that merely use "family office" in their marketing.
+    
+    For each family office discovered:
+    1. Obtain their name
+    2. Find their official website URL (if available)
+    3. Note their location within Chicago (if specified)
+    4. Identify any available information about their AUM (must be $100M+)
+    5. Identify any available information about their investment focus
+    
+    Search specifically for phrases like:
+    - "Chicago family office investors $100 million"
+    - "Chicago-based family offices large AUM"
+    - "private investment offices Chicago substantial assets"
+    - "single family offices Chicago high net worth"
+    - "multi-family offices Chicago $100M+"
+    
+    Use the EXA search tool to comprehensively search across multiple sources.
+    Verify each entity you find is truly a family office (not a wealth management firm) AND likely has AUM of at least $100 million.
+    
+    Note: For family offices that don't publicly disclose their AUM, look for indirect indicators such as:
+    - Size and value of known investments
+    - Number of staff/professionals
+    - Size and prestige of office location
+    - Notable wealthy families associated with the office
+    - Language indicating "substantial wealth" or similar terms
+    
+  expected_output: >
+    A structured JSON array containing Chicago-based family offices with 
+    their names, website URLs, locations, approximate AUM (when available), and investment focus.
+    Each entry should include fields: name, url, location, estimated_aum, investment_focus, and a 
+    confidence_score (1-10) indicating your confidence that this is a legitimate family office with AUM of $100M+.
+    Include an aum_evidence field that briefly explains your reasoning for believing the family office meets the $100M+ threshold.
+  agent: family_office_discovery_agent
+
+profile_scraper_task:
+  description: >
+    For each family office URL in this list: {discovered_offices}
+    
+    Visit their website and extract comprehensive profile information including:
+    1. Low-level data: Full address, phone number, email (if available), founding year, key leadership team members and their roles
+    2. AUM data: Look specifically for any direct or indirect information about Assets Under Management (AUM)
+    3. High-level data: Investment philosophy, target sectors, geographic preferences, typical investment size,
+       types of investments (direct, fund, etc.), and any specific statements about investment criteria
+    
+    Structure this information in a consistent format for each family office. Pay particular attention to 
+    any mentions of previous investments or portfolio companies, especially the scale of investments that might 
+    indicate substantial AUM. Look for information that indicates their investment approach, values, and decision-making criteria.
+    
+    Use the FirecrawlScrapeWebsiteTool to efficiently extract content from each website.
+    
+    For family offices without a website or with limited information, note this and provide whatever 
+    information you can find.
+  expected_output: >
+    Detailed, structured profiles for each family office in JSON format, with consistent fields
+    across all entries, capturing both factual information and investment approach insights.
+    Include an "aum_estimate" field with your best estimate of their AUM (if available) and an
+    "aum_evidence" field explaining what information supports this estimate.
+    Include a "completeness_score" field for each profile (1-10) that indicates how complete
+    the profile information is based on available data.
+  agent: family_office_profile_agent
+  context:
+    - discovery_task

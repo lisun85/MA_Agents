@@ -1,0 +1,21 @@
+# config/tasks.yaml
+discovery_task:
+  description: >
+    Create the universe of potential buyers beyond initial seed lists, focusing on identifying qualified family offices and private equity funds
+    
+    Using geography ({target_regions}) and AUM criteria (minimum {min_aum}), identify additional 
+    qualified buyers that might be interested in acquiring a company in the any industry.
+    
+    For each potential buyer you find:
+    1. Obtain their name, website URL, location, and primary industry focus
+    2. Focus specifically on family offices and private equity funds that match our criteria
+    3. Include firms that have made acquisitions in related sectors in the past 24 months
+    
+    Use both Exa.ai search tools to ensure comprehensive coverage. Your goal is to 
+    discover high-quality potential buyers that might not be on typical radar.
+  expected_output: >
+    A refined list of at least 15-20 potential buyers with their names, 
+    website URLs, locations, and primary industry focuses. Format the output 
+    as a structured JSON array, with each entry containing the fields: 
+    name, url, location, industry_focus, type (family office/PE fund/other).
+  agent: discovery_agent
