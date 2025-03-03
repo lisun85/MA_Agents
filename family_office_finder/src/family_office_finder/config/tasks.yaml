@@ -1,7 +1,7 @@
 # config/tasks.yaml
 discovery_task:
   description: >
-    Conduct thorough research to identify family office investors located in Chicago, Illinois that have Assets Under Management (AUM) of $100 million or more.
+    Conduct thorough research to identify family office investors located within a 300-mile radius of Chicago, Illinois that have Assets Under Management (AUM) of $100 million or more.
     
     Focus on genuine family offices that manage substantial wealth for ultra-high-net-worth families,
     not wealth management firms that merely use "family office" in their marketing.
@@ -9,19 +9,29 @@ discovery_task:
     For each family office discovered:
     1. Obtain their name
     2. Find their official website URL (if available)
-    3. Note their location within Chicago (if specified)
+    3. Note their location (can be anywhere within 300 miles of Chicago)
     4. Identify any available information about their AUM (must be $100M+)
     5. Identify any available information about their investment focus
     
-    Search specifically for phrases like:
-    - "Chicago family office investors $100 million"
-    - "Chicago-based family offices large AUM"
-    - "private investment offices Chicago substantial assets"
-    - "single family offices Chicago high net worth"
-    - "multi-family offices Chicago $100M+"
+    IMPORTANT: When using the EXASearchTool, be sure to use the correct format with the 'search_query' parameter.
+    For example: {"search_query": "family offices within 300 miles of Chicago $100+ million AUM"}
+    
+    Perform multiple searches with different queries to ensure comprehensive coverage, such as:
+    - "family office investors 300 miles Chicago $100 million AUM"
+    - "family offices near Chicago large AUM Michigan Wisconsin Indiana"
+    - "private investment offices midwest substantial assets"
+    - "single family offices Illinois Wisconsin Michigan Indiana high net worth"
+    - "multi-family offices midwest $100M+"
+    - "ultra high net worth family offices Chicago area"
+    - "Chicago area wealthy family investment offices Milwaukee Detroit"
+    
+    Aim to find as many legitimate family offices within the 300-mile radius as possible. If your first search doesn't yield enough results,
+    try additional search queries.
     
     Use the EXA search tool to comprehensively search across multiple sources.
     Verify each entity you find is truly a family office (not a wealth management firm) AND likely has AUM of at least $100 million.
+    
+    Cities within 300 miles of Chicago include Milwaukee, Indianapolis, Detroit, Madison, Grand Rapids, Cincinnati, Cleveland, and others.
     
     Note: For family offices that don't publicly disclose their AUM, look for indirect indicators such as:
     - Size and value of known investments
@@ -31,7 +41,7 @@ discovery_task:
     - Language indicating "substantial wealth" or similar terms
     
   expected_output: >
-    A structured JSON array containing Chicago-based family offices with 
+    A structured JSON array containing family offices within 300 miles of Chicago with 
     their names, website URLs, locations, approximate AUM (when available), and investment focus.
     Each entry should include fields: name, url, location, estimated_aum, investment_focus, and a 
     confidence_score (1-10) indicating your confidence that this is a legitimate family office with AUM of $100M+.
@@ -44,23 +54,26 @@ profile_scraper_task:
     
     Visit their website and extract comprehensive profile information including:
     1. Low-level data: Full address, phone number, email (if available), founding year, key leadership team members and their roles
-    2. AUM data: Look specifically for any direct or indirect information about Assets Under Management (AUM)
-    3. High-level data: Investment philosophy, target sectors, geographic preferences, typical investment size,
+    2. Team members: Look for and extract information about team members, including names, titles, and roles. Include as many team members as you can find, not just the leadership team.
+    3. AUM data: Look specifically for any direct or indirect information about Assets Under Management (AUM)
+    4. High-level data: Investment philosophy, target sectors, geographic preferences, typical investment size,
        types of investments (direct, fund, etc.), and any specific statements about investment criteria
     
     Structure this information in a consistent format for each family office. Pay particular attention to 
     any mentions of previous investments or portfolio companies, especially the scale of investments that might 
     indicate substantial AUM. Look for information that indicates their investment approach, values, and decision-making criteria.
     
-    Use the FirecrawlScrapeWebsiteTool to efficiently extract content from each website.
+    Use the FirecrawlScrapeWebsiteTool to efficiently extract content from each website. When using this tool,
+    make sure to provide a valid URL parameter, for example: {"url": "https://example.com"}
     
     For family offices without a website or with limited information, note this and provide whatever 
-    information you can find.
+    information you can find. If you cannot find team member information for some family offices, that's okay - include what you can find.
   expected_output: >
     Detailed, structured profiles for each family office in JSON format, with consistent fields
-    across all entries, capturing both factual information and investment approach insights.
+    across all entries, capturing both factual information, team members when available, and investment approach insights.
     Include an "aum_estimate" field with your best estimate of their AUM (if available) and an
     "aum_evidence" field explaining what information supports this estimate.
+    Include a "team_members" array that lists any identified team members with their names and roles when available.
     Include a "completeness_score" field for each profile (1-10) that indicates how complete
     the profile information is based on available data.
   agent: family_office_profile_agent

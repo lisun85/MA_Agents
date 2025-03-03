@@ -23,12 +23,57 @@ def clean_json_output(output_text):
         json_str = json_match.group(1)
         return json_str
     
-    # If no code blocks, return the original text
-    return output_text
+    # Look for JSON arrays
+    if output_text.strip().startswith('[') and ']' in output_text:
+        # Find balanced brackets
+        open_brackets = 0
+        for i, char in enumerate(output_text):
+            if char == '[':
+                open_brackets += 1
+            elif char == ']':
+                open_brackets -= 1
+                if open_brackets == 0:
+                    # Found the end of the JSON array
+                    return output_text[:i+1]
+    
+    # Look for JSON objects
+    if output_text.strip().startswith('{') and '}' in output_text:
+        # Find balanced braces
+        open_braces = 0
+        for i, char in enumerate(output_text):
+            if char == '{':
+                open_braces += 1
+            elif char == '}':
+                open_braces -= 1
+                if open_braces == 0:
+                    # Found the end of the JSON object
+                    return output_text[:i+1]
+    
+    # As a fallback, try to find and fix any incomplete JSON
+    try:
+        # Try to parse as is
+        return output_text
+    except:
+        # If it fails, try to salvage the JSON
+        # This is a more aggressive approach to recover JSON
+        if output_text.strip().startswith('['):
+            # It's an array but might be incomplete
+            # Find the last complete object in the array
+            matches = list(re.finditer(r'}\s*,?', output_text))
+            if matches:
+                last_complete = matches[-1].end()
+                # Return everything up to the last complete object plus closing bracket
+                return output_text[:last_complete].rstrip(',') + ']'
+        elif output_text.strip().startswith('{'):
+            # It's an object but might be incomplete
+            return output_text.strip() + '}'
+        
+        # If all else fails, return the original
+        return output_text
 
 def run():
     """
-    Run the Family Office Finder crew to discover family offices in Chicago.
+    Run the Family Office Finder crew to discover family offices in a 300-mile radius of Chicago.
     """
     # Initialize the crew
     crew = FamilyOfficeFinderCrew().crew()
@@ -86,7 +131,7 @@ def run():
                 "name": office.get("name", ""),
                 "url": office.get("url", ""),
                 "location": office.get("location", ""),
-                "estimated_aum": office.get("aum_estimate", ""),
+                "estimated_aum": office.get("aum_estimate", office.get("estimated_aum", "")),
                 "investment_focus": ", ".join(office.get("investment_focus", {}).get("target_sectors", [])) if isinstance(office.get("investment_focus"), dict) else "",
                 "aum_evidence": office.get("aum_evidence", ""),
                 "confidence_score": office.get("confidence_score", "")
@@ -129,6 +174,10 @@ def run():
                 # Create a flattened structure for CSV
                 flattened_profiles = []
                 for profile in profile_data:
+                    # Handle team members - convert to string for CSV
+                    team_members = ", ".join([f"{member.get('name', 'Unknown')} ({member.get('role', 'Unknown')})" 
+                                          for member in profile.get("team_members", [])]) if profile.get("team_members") else ""
+                    
                     # Convert complex nested structures to strings for CSV
                     leadership = ", ".join([f"{leader.get('name')} ({leader.get('role')})" 
                                          for leader in profile.get("leadership_team", [])]) if profile.get("leadership_team") else ""
@@ -153,6 +202,7 @@ def run():
                         "email": email,
                         "founding_year": profile.get("founding_year", ""),
                         "leadership_team": leadership,
+                        "team_members": team_members,  # Added team members field
                         "aum_estimate": profile.get("aum_estimate", ""),
                         "aum_evidence": profile.get("aum_evidence", ""),
                         "investment_philosophy": profile.get("investment_philosophy", ""),
@@ -166,7 +216,7 @@ def run():
                 
                 if flattened_profiles:
                     profile_fieldnames = ["name", "url", "address", "phone", "email", "founding_year", 
-                                      "leadership_team", "aum_estimate", "aum_evidence", "investment_philosophy", 
+                                      "leadership_team", "team_members", "aum_estimate", "aum_evidence", "investment_philosophy", 
                                       "target_sectors", "geographic_preferences", "investment_size", 
                                       "investment_types", "completeness_score"]
                     
@@ -217,9 +267,9 @@ def run():
         
         # Print a summary
         print("\n==========================================")
-        print("CHICAGO FAMILY OFFICE FINDER ($100M+ AUM)")
+        print("CHICAGO AREA FAMILY OFFICE FINDER ($100M+ AUM)")
         print("==========================================")
-        print(f"Discovered {len(discovery_data)} family offices in Chicago with estimated AUM of $100M+")
+        print(f"Discovered {len(discovery_data)} family offices within 300 miles of Chicago with estimated AUM of $100M+")
         print(f"Run date: {current_date}, Run #: {next_run_number}")
         print(f"All results saved to: {run_dir}")
         print("==========================================")
@@ -239,7 +289,7 @@ def run():
         if preview_count > 0:
             print("Preview of discovered high-AUM family offices:")
             for i, office in enumerate(discovery_data[:preview_count]):
-                aum = office.get('aum_estimate', 'AUM not specified')
+                aum = office.get('aum_estimate', office.get('estimated_aum', 'AUM not specified'))
                 print(f"{i+1}. {office.get('name')} - AUM: {aum} - {office.get('url', 'No URL found')}")
         
     except Exception as e:

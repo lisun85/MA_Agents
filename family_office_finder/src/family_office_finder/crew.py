@@ -21,11 +21,15 @@ class FamilyOfficeFinderCrew():
         if not exa_api_key:
             raise ValueError("EXA_API_KEY environment variable is not set")
         
+        #Create an instance of the EXA search tool
+        exa_search_tool = EXASearchTool(api_key=exa_api_key)
+
         return Agent(
             config=self.agents_config['family_office_discovery_agent'],
             verbose=True,
-            tools=[EXASearchTool(api_key=exa_api_key)],  # Pass the API key directly
-            llm="gpt-4o-mini"  # Using a capable model for complex research
+            tools=[exa_search_tool],  # Pass the API key directly
+            llm="gpt-4o-mini",  # Using a capable model for complex research
+            max_iter=30
         )
     @agent
     def family_office_profile_agent(self) -> Agent:
@@ -41,7 +45,8 @@ class FamilyOfficeFinderCrew():
             config=self.agents_config['family_office_profile_agent'],
             verbose=True,
             tools=[FirecrawlScrapeWebsiteTool(api_key=firecrawl_api_key)],
-            llm="gpt-4o-mini"
+            llm="gpt-4o-mini",
+            max_iter=25
         )    
 
     @task

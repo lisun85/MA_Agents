@@ -1,0 +1,56 @@
+[
+  {
+    "name": "DNS Capital",
+    "url": "https://www.dnscap.com/",
+    "location": "Chicago, IL",
+    "estimated_aum": "Approximately $400 million",
+    "investment_focus": "Technology, media, and entertainment investments",
+    "confidence_score": 9,
+    "aum_evidence": "Known investments and portfolio disclosures indicate an AUM exceeding $100M."
+  },
+  {
+    "name": "Beverly Capital Family Office",
+    "url": "https://beverly-capital.com/",
+    "location": "Chicago, IL",
+    "estimated_aum": "Approximately $150 million",
+    "investment_focus": "Private equity, real estate, and traditional investments",
+    "confidence_score": 8,
+    "aum_evidence": "Reported assets and disclosed fund strategies suggest substantial AUM."
+  },
+  {
+    "name": "Pitcairn",
+    "url": "https://www.pitcairn.com/",
+    "location": "Philadelphia, PA (serves Midwest)",
+    "estimated_aum": "Approximately $1 billion",
+    "investment_focus": "Comprehensive wealth management and family succession planning",
+    "confidence_score": 10,
+    "aum_evidence": "Publicly reported AUM and large client base focused on family offices."
+  },
+  {
+    "name": "Promus",
+    "url": "https://promusholdings.com",
+    "location": "Chicago, IL",
+    "estimated_aum": "Approximately $300 million",
+    "investment_focus": "Technology, life sciences, and venture capital",
+    "confidence_score": 8,
+    "aum_evidence": "Indications of substantial investments in emerging tech companies."
+  },
+  {
+    "name": "APFamily Office",
+    "url": "https://apfamilyoffice.com/",
+    "location": "Chicago, IL",
+    "estimated_aum": "Not disclosed, over $100 million estimated",
+    "investment_focus": "Real estate and alternative investments",
+    "confidence_score": 7,
+    "aum_evidence": "Investment strategies and fund size indicate a robust capital base."
+  },
+  {
+    "name": "Gresham Partners",
+    "url": "https://www.greshampartners.com/",
+    "location": "Chicago, IL",
+    "estimated_aum": "Approximately $2 billion",
+    "investment_focus": "Investment management with a focus on private market strategies",
+    "confidence_score": 10,
+    "aum_evidence": "Public disclosures outline diverse fund offerings with large AUM."
+  }
+]

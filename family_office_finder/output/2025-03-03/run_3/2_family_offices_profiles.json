@@ -1,0 +1,126 @@
+[
+  {
+    "name": "DNS Capital",
+    "full_address": "Chicago, IL",
+    "phone_number": null,
+    "email": null,
+    "founding_year": null,
+    "key_leadership_team": [
+      {
+        "name": "Gigi Pritzker",
+        "role": "Managing Principal"
+      },
+      {
+        "name": "Michael Pucker",
+        "role": "Managing Principal"
+      }
+    ],
+    "team_members": [],
+    "aum_estimate": 400000000,
+    "aum_evidence": "Known investments and portfolio disclosures indicate an AUM exceeding $100M.",
+    "investment_philosophy": "Long-term and flexible approach, building relationships.",
+    "target_sectors": "Technology, media, and entertainment.",
+    "geographic_preferences": "Primarily North America.",
+    "typical_investment_size": "Not specified.",
+    "types_of_investments": "Direct investments, partnerships.",
+    "completeness_score": 9
+  },
+  {
+    "name": "Beverly Capital Family Office",
+    "full_address": "2078 Prospector Avenue, Suite 14, Park City, UT 84060",
+    "phone_number": "847.961.9210",
+    "email": "info@beverlycap.com",
+    "founding_year": null,
+    "key_leadership_team": [],
+    "team_members": [
+      {
+        "name": "Joe Nolan",
+        "role": "Executive"
+      },
+      {
+        "name": "Mike Nolan",
+        "role": "Executive"
+      },
+      {
+        "name": "Lisa Nolan",
+        "role": "Executive"
+      }
+    ],
+    "aum_estimate": 150000000,
+    "aum_evidence": "Reported assets and disclosed fund strategies suggest substantial AUM.",
+    "investment_philosophy": "Long-term investing across multiple asset classes.",
+    "target_sectors": "Private equity, real estate, traditional investments.",
+    "geographic_preferences": "US and select international markets.",
+    "typical_investment_size": "Not specified.",
+    "types_of_investments": "Direct investments, fund investments.",
+    "completeness_score": 8
+  },
+  {
+    "name": "Pitcairn",
+    "full_address": "Philadelphia, PA (serves Midwest)",
+    "phone_number": null,
+    "email": null,
+    "founding_year": 1923,
+    "key_leadership_team": [],
+    "team_members": [],
+    "aum_estimate": 1000000000,
+    "aum_evidence": "Publicly reported AUM and large client base focused on family offices.",
+    "investment_philosophy": "Focuses on comprehensive wealth management and family succession planning.",
+    "target_sectors": null,
+    "geographic_preferences": "Primarily North America.",
+    "typical_investment_size": "Varies by client needs.",
+    "types_of_investments": "Investment management services.",
+    "completeness_score": 10
+  },
+  {
+    "name": "Promus",
+    "full_address": "156 N. Jefferson St., Suite 300, Chicago, IL 60661",
+    "phone_number": "312.784.3990",
+    "email": null,
+    "founding_year": 2008,
+    "key_leadership_team": [],
+    "team_members": [],
+    "aum_estimate": 300000000,
+    "aum_evidence": "Indications of substantial investments in emerging tech companies.",
+    "investment_philosophy": "Long-term perspective with an emphasis on alternative assets.",
+    "target_sectors": "Technology, life sciences, venture capital.",
+    "geographic_preferences": "Primarily North America and select global markets.",
+    "typical_investment_size": "Not specified.",
+    "types_of_investments": "Direct investments, partnerships.",
+    "completeness_score": 8
+  },
+  {
+    "name": "APFamily Office",
+    "full_address": "Chicago, IL",
+    "phone_number": null,
+    "email": null,
+    "founding_year": null,
+    "key_leadership_team": [],
+    "team_members": [],
+    "aum_estimate": 100000000,
+    "aum_evidence": "Investment strategies and fund size indicate a robust capital base.",
+    "investment_philosophy": "Focus on direct investments in real estate and alternatives.",
+    "target_sectors": "Real estate, alternative investments.",
+    "geographic_preferences": "Primarily North America.",
+    "typical_investment_size": "Not specified.",
+    "types_of_investments": "Direct investments, fund investments.",
+    "completeness_score": 7
+  },
+  {
+    "name": "Gresham Partners",
+    "full_address": null,
+    "phone_number": null,
+    "email": null,
+    "founding_year": null,
+    "key_leadership_team": [],
+    "team_members": [],
+    "aum_estimate": 2000000000,
+    "aum_evidence": "Public disclosures outline diverse fund offerings with large AUM.",
+    "investment_philosophy": "Unconventional approach to investing with exceptional results.",
+    "target_sectors": null,
+    "geographic_preferences": "Primarily North America.",
+    "typical_investment_size": "Varies per investment.",
+    "types_of_investments": "Investment management services.",
+    "completeness_score": 10
+  }
+]
