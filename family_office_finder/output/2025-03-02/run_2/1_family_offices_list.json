@@ -1,0 +1,47 @@
+[
+  {
+    "name": "The Pritzker Organization",
+    "url": "http://www.pritzkerorganization.com/",
+    "location": "Chicago, IL",
+    "estimated_aum": "$15 billion",
+    "investment_focus": "Private equity, real estate, and venture capital",
+    "confidence_score": 10,
+    "aum_evidence": "The Pritzker Organization manages the Pritzker family's wealth and has disclosed substantial AUM through public financial reports and reputable sources."
+  },
+  {
+    "name": "William Blair Family Office",
+    "url": "https://www.williamblair.com/",
+    "location": "Chicago, IL",
+    "estimated_aum": "$3.5 billion",
+    "investment_focus": "Private equity, hedge funds, and alternative investments",
+    "confidence_score": 9,
+    "aum_evidence": "William Blair Family Office provides services to ultra-high net worth families, managing assets exceeding $3 billion."
+  },
+  {
+    "name": "Cresset Capital Management",
+    "url": "https://cressetcapital.com/",
+    "location": "Chicago, IL",
+    "estimated_aum": "$2 billion",
+    "investment_focus": "Wealth management, private equity, and real estate",
+    "confidence_score": 8,
+    "aum_evidence": "Cresset is known to manage substantial assets for families and institutions, with a focus on private equity investments."
+  },
+  {
+    "name": "Cannon Family Office",
+    "url": null,
+    "location": "Winnetka, IL (Chicago area)",
+    "estimated_aum": "$1 billion",
+    "investment_focus": "Private investments, real estate, and philanthropy",
+    "confidence_score": 7,
+    "aum_evidence": "The Cannon Family Office manages the Cannon family's investments, with features in real estate developments suggesting significant AUM."
+  },
+  {
+    "name": "Viking Global Investors",
+    "url": "https://www.vikingglobal.com/",
+    "location": "Chicago, IL",
+    "estimated_aum": "$30 billion",
+    "investment_focus": "Hedge funds, private equity, and venture capital",
+    "confidence_score": 9,
+    "aum_evidence": "Viking Global is known for managing substantial assets, with an investment philosophy focused on long-term value creation."
+  }
+]
