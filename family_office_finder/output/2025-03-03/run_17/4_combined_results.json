@@ -1,0 +1,420 @@
+{
+  "run_info": {
+    "date": "2025-03-03",
+    "run_number": 17,
+    "timestamp": "2025-03-03_22-02-02"
+  },
+  "discovery_results": {
+    "family_offices": [
+      {
+        "name": "DNS Capital",
+        "url": "https://www.dnscap.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $100M",
+        "investment_focus": "Venture capital, private equity, and wealth management for the Pritzker family.",
+        "confidence_score": 9,
+        "aum_evidence": "Highly associated with the Pritzker family, known for significant investments."
+      },
+      {
+        "name": "APFamily",
+        "url": "https://apfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Multi-asset class investment strategies.",
+        "confidence_score": 8,
+        "aum_evidence": "The firm's diverse asset management approach suggests substantial capital."
+      },
+      {
+        "name": "Promus Holdings",
+        "url": "https://promusholdings.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Private equity and venture capital.",
+        "confidence_score": 8,
+        "aum_evidence": "Involved in significant investments implying a high level of assets under management."
+      },
+      {
+        "name": "Henry Family Office",
+        "url": "https://henryfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $100M",
+        "investment_focus": "Strategic investments across multiple asset classes.",
+        "confidence_score": 8,
+        "aum_evidence": "The wide-ranging investment strategy indicates substantial capital handling."
+      },
+      {
+        "name": "Cresset Capital",
+        "url": "https://cressetcapital.com/locations/chicago/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $100M",
+        "investment_focus": "High-net-worth individuals and multi-family office services.",
+        "confidence_score": 9,
+        "aum_evidence": "Cresset services high-net-worth families, indicating a high AUM level."
+      },
+      {
+        "name": "Bessemer Trust",
+        "url": "https://www.bessemertrust.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $200 billion",
+        "investment_focus": "Wealth management for ultra-high-net-worth families.",
+        "confidence_score": 9,
+        "aum_evidence": "Well-known for managing significant assets for numerous client families."
+      },
+      {
+        "name": "Gresham Partners",
+        "url": "https://www.greshampartners.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Approximately $9 billion",
+        "investment_focus": "Investment advisory and family wealth management.",
+        "confidence_score": 9,
+        "aum_evidence": "Managing a significant amount of wealth for numerous affluent families."
+      },
+      {
+        "name": "Whitnell Family Office",
+        "url": "https://rcm.rockco.com/whitnell/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Comprehensive investment and family office services.",
+        "confidence_score": 8,
+        "aum_evidence": "Focuses on multi-generational wealth management which implies substantial AUM."
+      }
+    ]
+  },
+  "profile_results": {
+    "family_offices": [
+      {
+        "name": "DNS Capital",
+        "website": "https://www.dnscap.com/",
+        "location": "Chicago, IL",
+        "aum_estimate": "Over $100M",
+        "aum_evidence": "Highly associated with the Pritzker family, known for significant investments.",
+        "investment_philosophy": "",
+        "target_sectors": "Venture capital, private equity, and wealth management for the Pritzker family.",
+        "geographic_preferences": "",
+        "typical_investment_size": "",
+        "investment_types": "",
+        "team_members": [],
+        "completeness_score": 3
+      },
+      {
+        "name": "APFamily",
+        "website": "https://apfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "aum_estimate": "Estimated at $100M+",
+        "aum_evidence": "The firm's diverse asset management approach suggests substantial capital.",
+        "investment_philosophy": "",
+        "target_sectors": "Multi-asset class investment strategies.",
+        "geographic_preferences": "",
+        "typical_investment_size": "",
+        "investment_types": "",
+        "team_members": [],
+        "completeness_score": 3
+      },
+      {
+        "name": "Promus Holdings",
+        "website": "https://promusholdings.com/",
+        "location": "Chicago, IL",
+        "aum_estimate": "Estimated at $100M+",
+        "aum_evidence": "Involved in significant investments implying a high level of assets under management.",
+        "investment_philosophy": "",
+        "target_sectors": "Private equity and venture capital.",
+        "geographic_preferences": "",
+        "typical_investment_size": "",
+        "investment_types": "",
+        "team_members": [],
+        "completeness_score": 3
+      },
+      {
+        "name": "Henry Family Office",
+        "website": "https://henryfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "aum_estimate": "Over $100M",
+        "aum_evidence": "The wide-ranging investment strategy indicates substantial capital handling.",
+        "investment_philosophy": "",
+        "target_sectors": "Strategic investments across multiple asset classes.",
+        "geographic_preferences": "",
+        "typical_investment_size": "",
+        "investment_types": "",
+        "team_members": [],
+        "completeness_score": 3
+      },
+      {
+        "name": "Cresset Capital",
+        "website": "https://cressetcapital.com/locations/chicago/",
+        "location": "Chicago, IL",
+        "aum_estimate": "Over $100M",
+        "aum_evidence": "Cresset services high-net-worth families, indicating a high AUM level.",
+        "investment_philosophy": "",
+        "target_sectors": "High-net-worth individuals and multi-family office services.",
+        "geographic_preferences": "",
+        "typical_investment_size": "",
+        "investment_types": "",
+        "team_members": [],
+        "completeness_score": 3
+      },
+      {
+        "name": "Bessemer Trust",
+        "website": "https://www.bessemertrust.com/",
+        "location": "Chicago, IL",
+        "aum_estimate": "Over $200 billion",
+        "aum_evidence": "Well-known for managing significant assets for numerous client families.",
+        "investment_philosophy": "",
+        "target_sectors": "Wealth management for ultra-high-net-worth families.",
+        "geographic_preferences": "",
+        "typical_investment_size": "",
+        "investment_types": "",
+        "team_members": [],
+        "completeness_score": 3
+      },
+      {
+        "name": "Gresham Partners",
+        "website": "https://www.greshampartners.com/",
+        "location": "Chicago, IL",
+        "aum_estimate": "Approximately $9 billion",
+        "aum_evidence": "Managing a significant amount of wealth for numerous affluent families.",
+        "investment_philosophy": "",
+        "target_sectors": "Investment advisory and family wealth management.",
+        "geographic_preferences": "",
+        "typical_investment_size": "",
+        "investment_types": "",
+        "team_members": [],
+        "completeness_score": 3
+      },
+      {
+        "name": "Whitnell Family Office",
+        "website": "https://rcm.rockco.com/whitnell/",
+        "location": "Chicago, IL",
+        "aum_estimate": "Estimated at $100M+",
+        "aum_evidence": "Focuses on multi-generational wealth management which implies substantial AUM.",
+        "investment_philosophy": "",
+        "target_sectors": "Comprehensive investment and family office services.",
+        "geographic_preferences": "",
+        "typical_investment_size": "",
+        "investment_types": "",
+        "team_members": [],
+        "completeness_score": 3
+      }
+    ]
+  },
+  "news_results": {
+    "family_offices": [
+      {
+        "name": "DNS Capital",
+        "recent_activities": [
+          {
+            "date": "2025-01-02",
+            "headline": "Vermillio Secures $16 Million Funding From Sony Music, DNS Capital",
+            "description": "Vermillio, an AI licensing and protection platform, has secured $16 million in series A funding from Sony Music and DNS Capital.",
+            "source": "Variety",
+            "url": "https://variety.com/2025/music/news/vermillio-sony-music-dns-capital-16-million-funding-1236326448/",
+            "activity_type": "investment",
+            "full_text": "Vermillio, an AI licensing and protection platform, has secured $16 million in series A funding from Sony Music and DNS Capital."
+          },
+          {
+            "date": "N/A",
+            "headline": "Investment Portfolio - DNS Capital",
+            "description": "Overview of DNS Capital's investment strategies and portfolio.",
+            "source": "DNS Capital",
+            "url": "https://www.dnscap.com/investments/",
+            "activity_type": "strategy_shift",
+            "full_text": "Our typical initial equity investment is $25M\u2013$100M, with the ability to invest more over time."
+          }
+        ],
+        "key_transactions": [
+          {
+            "date": "N/A",
+            "transaction_type": "investment",
+            "target": "Various Startups",
+            "amount": "N/A",
+            "description": "Focused on long-term investments across various sectors."
+          }
+        ],
+        "strategy_insights": "DNS Capital focuses on flexible long-term investments, primarily in venture capital and private equity.",
+        "leadership_changes": "N/A",
+        "news_presence_score": 7
+      },
+      {
+        "name": "APFamily",
+        "recent_activities": [
+          {
+            "date": "N/A",
+            "headline": "Limited News Coverage",
+            "description": "Very little recent news regarding APFamily's investment activities was found.",
+            "source": "N/A",
+            "url": "N/A",
+            "activity_type": "other",
+            "full_text": "Limited news availability."
+          }
+        ],
+        "key_transactions": [
+          {
+            "date": "N/A",
+            "transaction_type": "N/A",
+            "target": "N/A",
+            "amount": "N/A",
+            "description": "No notable transactions found."
+          }
+        ],
+        "strategy_insights": "The investment strategy remains unclear due to limited available information.",
+        "leadership_changes": "N/A",
+        "news_presence_score": 3
+      },
+      {
+        "name": "Promus Holdings",
+        "recent_activities": [
+          {
+            "date": "2022-04-25",
+            "headline": "Dover Saddlery Announces Change of Ownership to Promus Equity Partners, LLC",
+            "description": "Dover Saddlery, the leading omni-channel retailer, announces acquisition by Promus Equity Partners.",
+            "source": "The Plaid Horse",
+            "url": "https://www.theplaidhorse.com/2022/04/25/dover-saddlery-announces-change-of-ownership-to-promus-equity-partners-llc/",
+            "activity_type": "acquisition",
+            "full_text": "Dover Saddlery, the leading omni-channel retailer of equestrian products, today announces its acquisition by an affiliate of Promus Equity Partners, LLC."
+          }
+        ],
+        "key_transactions": [
+          {
+            "date": "2019-03-20",
+            "transaction_type": "acquisition",
+            "target": "Quest Products",
+            "amount": "N/A",
+            "description": "Promus acquired a majority stake in Quest Products."
+          }
+        ],
+        "strategy_insights": "Promus Holdings pursues strategic acquisitions and focuses on innovative partnerships.",
+        "leadership_changes": "N/A",
+        "news_presence_score": 6
+      },
+      {
+        "name": "Henry Family Office",
+        "recent_activities": [
+          {
+            "date": "N/A",
+            "headline": "Limited News Coverage",
+            "description": "News articles primarily about their official site and services, limited investment activity reported.",
+            "source": "N/A",
+            "url": "N/A",
+            "activity_type": "other",
+            "full_text": "The Henry Family Office is focused on building an enduring family legacy."
+          }
+        ],
+        "key_transactions": [
+          {
+            "date": "N/A",
+            "transaction_type": "N/A",
+            "target": "N/A",
+            "amount": "N/A",
+            "description": "No transactions noted."
+          }
+        ],
+        "strategy_insights": "The focus appears to be on maintaining wealth through strategic investments, but specific strategies are unclear.",
+        "leadership_changes": "N/A",
+        "news_presence_score": 3
+      },
+      {
+        "name": "Cresset Capital",
+        "recent_activities": [
+          {
+            "date": "2024-01-01",
+            "headline": "Cresset Announces Minority Investment from Constellation Wealth Capital",
+            "description": "Cresset closed on a $150 million minority investment from Constellation Wealth Capital.",
+            "source": "Cresset Capital",
+            "url": "https://cressetcapital.com/post/cresset-announces-minority-investment-from-constellation-wealth-capital/",
+            "activity_type": "fundraising",
+            "full_text": "Cresset announced today that it has closed on a $150 million minority, long-duration investment."
+          }
+        ],
+        "key_transactions": [
+          {
+            "date": "2020-01-01",
+            "transaction_type": "investment",
+            "target": "Various Funds",
+            "amount": "150M",
+            "description": "Grew through various investments and fund launches."
+          }
+        ],
+        "strategy_insights": "Cresset focuses on innovative, client-centered investment strategies.",
+        "leadership_changes": "N/A",
+        "news_presence_score": 8
+      },
+      {
+        "name": "Bessemer Trust",
+        "recent_activities": [
+          {
+            "date": "2023-01-01",
+            "headline": "Bessemer Trust | Wealth Management & Investment Services",
+            "description": "Bessemer Trust oversees more than $200 billion for over 3000 client relationships.",
+            "source": "Bessemer Trust",
+            "url": "https://www.bessemertrust.com/",
+            "activity_type": "strategy_shift",
+            "full_text": "Bessemer Trust, founded in 1907, is a private multifamily office."
+          }
+        ],
+        "key_transactions": [
+          {
+            "date": "N/A",
+            "transaction_type": "investment",
+            "target": "Various Funds",
+            "amount": "200B+",
+            "description": "Manages significant wealth for high-net-worth families."
+          }
+        ],
+        "strategy_insights": "Bessemer Trust offers comprehensive wealth management tailored for ultra-high-net-worth families.",
+        "leadership_changes": "N/A",
+        "news_presence_score": 9
+      },
+      {
+        "name": "Gresham Partners",
+        "recent_activities": [
+          {
+            "date": "2024-07-01",
+            "headline": "Gresham Partners Investment Update Q2 2024",
+            "description": "Updates on investment performance and strategies.",
+            "source": "Gresham Partners",
+            "url": "https://www.greshampartners.com/insights/gresham-partners-investment-update-q2-2024/",
+            "activity_type": "strategy_shift",
+            "full_text": "Watch the Q2 2024 Investment Update from Gresham Partners."
+          }
+        ],
+        "key_transactions": [
+          {
+            "date": "2025-02-11",
+            "transaction_type": "promotion",
+            "target": "Irene Zhang promoted to Investment Director",
+            "amount": "N/A",
+            "description": "Highlights leadership development within the firm."
+          }
+        ],
+        "strategy_insights": "Gresham focuses on personalized investment management and unconventional strategies.",
+        "leadership_changes": "Irene Zhang promoted to Investment Director.",
+        "news_presence_score": 7
+      },
+      {
+        "name": "Whitnell Family Office",
+        "recent_activities": [
+          {
+            "date": "2021-01-12",
+            "headline": "Rockefeller Capital Management Acquires Whitnell & Co.",
+            "description": "Whitnell was acquired by Rockefeller, which expanded their footprint in the Midwest.",
+            "source": "Investment News",
+            "url": "https://www.investmentnews.com/industry-news/rockefeller-acquires-14-billion-chicago-family-office/200954",
+            "activity_type": "acquisition",
+            "full_text": "Rockefeller Capital Management has expanded its Midwest footprint with the acquisition of Whitnell & Co."
+          }
+        ],
+        "key_transactions": [
+          {
+            "date": "2021-01-12",
+            "transaction_type": "acquisition",
+            "target": "Whitnell & Co.",
+            "amount": "1.4B",
+            "description": "Acquisition amidst the expansion of Rockefeller Capital Management's service capabilities."
+          }
+        ],
+        "strategy_insights": "Whitnell is now integrated into Rockefeller's service model, enhancing family office capabilities.",
+        "leadership_changes": "N/A",
+        "news_presence_score": 6
+      }
+    ]
+  }
+}

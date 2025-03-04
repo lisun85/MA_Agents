@@ -1,0 +1,78 @@
+{
+  "family_office": {
+    "name": "DNS Capital",
+    "url": "https://www.dnscap.com/",
+    "location": "Chicago, IL",
+    "founding_year": 2014,
+    "address": "Not explicitly listed",
+    "phone": "Not explicitly listed",
+    "email": "Not explicitly listed",
+    "estimated_aum": "Approximately $400 million",
+    "aum_evidence": "Known investments and portfolio disclosures indicate an AUM exceeding $100M.",
+    "investment_focus": "Technology, media, and entertainment investments",
+    "investment_philosophy": "Long-term and flexible investment approach focused on relationships with business owners and management teams.",
+    "target_sectors": "Industries including tech, media, and entertainment.",
+    "geographic_preferences": "Not explicitly listed",
+    "typical_investment_size": "Not explicitly listed",
+    "types_of_investments": "Equity and debt investments, venture capital.",
+    "team_members": [
+      {
+        "name": "Michael A. Pucker",
+        "title": "Chairman & CEO"
+      },
+      {
+        "name": "Jason Schroeder",
+        "title": "Managing Director"
+      },
+      {
+        "name": "Scott Hairston",
+        "title": "Chief Operating Officer"
+      },
+      {
+        "name": "Alan Bakhos",
+        "title": "General Counsel"
+      },
+      {
+        "name": "Lauren Hirsch",
+        "title": "Chief Administrative Officer"
+      },
+      {
+        "name": "Emily Casey Brown",
+        "title": "Principal"
+      },
+      {
+        "name": "Brian Stal",
+        "title": "Director of GSD"
+      },
+      {
+        "name": "Lizzie Osmundson",
+        "title": "Senior Counsel"
+      },
+      {
+        "name": "Jeff Ehlers",
+        "title": "Operating Partner"
+      },
+      {
+        "name": "Pat Atwood",
+        "title": "Vice President"
+      },
+      {
+        "name": "George Lyman",
+        "title": "Associate"
+      },
+      {
+        "name": "Grace Martin",
+        "title": "Associate"
+      },
+      {
+        "name": "Mary Kate Holland",
+        "title": "Executive Assistant / Office Facilities Manager"
+      },
+      {
+        "name": "Charles Tollinche",
+        "title": "Senior Advisor"
+      }
+    ],
+    "completeness_score": 8
+  }
+}

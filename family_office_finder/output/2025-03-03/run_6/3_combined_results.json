@@ -1,0 +1,177 @@
+{
+  "run_info": {
+    "date": "2025-03-03",
+    "run_number": 6,
+    "timestamp": "2025-03-03_14-32-16"
+  },
+  "discovery_results": [
+    {
+      "name": "DNS Capital",
+      "url": "https://www.dnscap.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Approximately $400 million",
+      "investment_focus": "Technology, media, and entertainment investments",
+      "confidence_score": 9,
+      "aum_evidence": "Known investments and portfolio disclosures indicate an AUM exceeding $100M."
+    },
+    {
+      "name": "Beverly Capital Family Office",
+      "url": "https://beverly-capital.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Approximately $150 million",
+      "investment_focus": "Private equity, real estate, and traditional investments",
+      "confidence_score": 8,
+      "aum_evidence": "Reported assets and disclosed fund strategies suggest substantial AUM."
+    },
+    {
+      "name": "Pitcairn",
+      "url": "https://www.pitcairn.com/",
+      "location": "Philadelphia, PA (serves Midwest)",
+      "estimated_aum": "Approximately $1 billion",
+      "investment_focus": "Comprehensive wealth management and family succession planning",
+      "confidence_score": 10,
+      "aum_evidence": "Publicly reported AUM and large client base focused on family offices."
+    },
+    {
+      "name": "Promus",
+      "url": "https://promusholdings.com",
+      "location": "Chicago, IL",
+      "estimated_aum": "Approximately $300 million",
+      "investment_focus": "Technology, life sciences, and venture capital",
+      "confidence_score": 8,
+      "aum_evidence": "Indications of substantial investments in emerging tech companies."
+    },
+    {
+      "name": "APFamily Office",
+      "url": "https://apfamilyoffice.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Not disclosed, over $100 million estimated",
+      "investment_focus": "Real estate and alternative investments",
+      "confidence_score": 7,
+      "aum_evidence": "Investment strategies and fund size indicate a robust capital base."
+    },
+    {
+      "name": "Gresham Partners",
+      "url": "https://www.greshampartners.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Approximately $2 billion",
+      "investment_focus": "Investment management with a focus on private market strategies",
+      "confidence_score": 10,
+      "aum_evidence": "Public disclosures outline diverse fund offerings with large AUM."
+    },
+    {
+      "name": "Cresset",
+      "url": "https://www.forbes.com/companies/cresset/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Over $1 billion",
+      "investment_focus": "Wealth management and investment services for families and institutions",
+      "confidence_score": 9,
+      "aum_evidence": "Substantial capital reported in press and disclosures."
+    },
+    {
+      "name": "Ariel Investments",
+      "url": "https://www.arielinvestments.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Approximately $15 billion",
+      "investment_focus": "Investment management with a focus on value-oriented and growth strategies",
+      "confidence_score": 10,
+      "aum_evidence": "Public filings and press releases confirm significant total assets under management."
+    },
+    {
+      "name": "Najarian Family Office",
+      "url": "https://www.najarianfamilyoffice.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Approximately $500 million",
+      "investment_focus": "Diverse investments including private equity and venture capital",
+      "confidence_score": 8,
+      "aum_evidence": "Available reports indicate significant asset holdings."
+    },
+    {
+      "name": "ArchPoint Investors",
+      "url": "https://archpointinvestors.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Not disclosed, but believed to be quite substantial",
+      "investment_focus": "Focused on various private investment opportunities",
+      "confidence_score": 7,
+      "aum_evidence": "Indications based on collaborative investments and partnerships."
+    }
+  ],
+  "profile_results": {
+    "family_office": {
+      "name": "DNS Capital",
+      "url": "https://www.dnscap.com/",
+      "location": "Chicago, IL",
+      "founding_year": 2014,
+      "address": "Not explicitly listed",
+      "phone": "Not explicitly listed",
+      "email": "Not explicitly listed",
+      "estimated_aum": "Approximately $400 million",
+      "aum_evidence": "Known investments and portfolio disclosures indicate an AUM exceeding $100M.",
+      "investment_focus": "Technology, media, and entertainment investments",
+      "investment_philosophy": "Long-term and flexible investment approach focused on relationships with business owners and management teams.",
+      "target_sectors": "Industries including tech, media, and entertainment.",
+      "geographic_preferences": "Not explicitly listed",
+      "typical_investment_size": "Not explicitly listed",
+      "types_of_investments": "Equity and debt investments, venture capital.",
+      "team_members": [
+        {
+          "name": "Michael A. Pucker",
+          "title": "Chairman & CEO"
+        },
+        {
+          "name": "Jason Schroeder",
+          "title": "Managing Director"
+        },
+        {
+          "name": "Scott Hairston",
+          "title": "Chief Operating Officer"
+        },
+        {
+          "name": "Alan Bakhos",
+          "title": "General Counsel"
+        },
+        {
+          "name": "Lauren Hirsch",
+          "title": "Chief Administrative Officer"
+        },
+        {
+          "name": "Emily Casey Brown",
+          "title": "Principal"
+        },
+        {
+          "name": "Brian Stal",
+          "title": "Director of GSD"
+        },
+        {
+          "name": "Lizzie Osmundson",
+          "title": "Senior Counsel"
+        },
+        {
+          "name": "Jeff Ehlers",
+          "title": "Operating Partner"
+        },
+        {
+          "name": "Pat Atwood",
+          "title": "Vice President"
+        },
+        {
+          "name": "George Lyman",
+          "title": "Associate"
+        },
+        {
+          "name": "Grace Martin",
+          "title": "Associate"
+        },
+        {
+          "name": "Mary Kate Holland",
+          "title": "Executive Assistant / Office Facilities Manager"
+        },
+        {
+          "name": "Charles Tollinche",
+          "title": "Senior Advisor"
+        }
+      ],
+      "completeness_score": 8
+    }
+  }
+}

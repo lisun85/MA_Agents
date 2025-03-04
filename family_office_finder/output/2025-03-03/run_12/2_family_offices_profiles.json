@@ -1,0 +1,163 @@
+{
+  "family_office_profiles": [
+    {
+      "name": "DNS Capital",
+      "url": "https://www.dnscap.com/",
+      "location": "Chicago, IL",
+      "key_contact": {
+        "phone": null,
+        "email": null
+      },
+      "founding_year": null,
+      "investment_focus": "Venture capital, private equity, and investment management for the Pritzker family.",
+      "team_members": [
+        {
+          "name": "Gigi Pritzker",
+          "role": "Member"
+        },
+        {
+          "name": "Michael Pucker",
+          "role": "Member"
+        }
+      ],
+      "aum_estimate": "Over $100M",
+      "aum_evidence": "The firm is associated with the Pritzker family, a highly recognized ultra-high-net-worth family in the U.S.",
+      "completeness_score": 9
+    },
+    {
+      "name": "APFamily",
+      "url": "https://apfamilyoffice.com/",
+      "location": "Chicago, IL",
+      "key_contact": {
+        "phone": null,
+        "email": null
+      },
+      "founding_year": null,
+      "investment_focus": "Multi-asset class investment strategies.",
+      "team_members": [],
+      "aum_estimate": "Estimated at $100M+",
+      "aum_evidence": "The firm's diverse asset management approach indicates substantial assets.",
+      "completeness_score": 8
+    },
+    {
+      "name": "Promus Holdings",
+      "url": "https://promusholdings.com/",
+      "location": "Chicago, IL",
+      "key_contact": {
+        "phone": "312.784.3990",
+        "email": null
+      },
+      "founding_year": "2008",
+      "investment_focus": "Private equity and venture capital investments.",
+      "team_members": [],
+      "aum_estimate": "Estimated at $100M+",
+      "aum_evidence": "The involvement in significant investments suggests a high level of assets under management.",
+      "completeness_score": 8
+    },
+    {
+      "name": "Henry Family Office",
+      "url": "https://henryfamilyoffice.com/",
+      "location": "Chicago, IL",
+      "key_contact": {
+        "phone": null,
+        "email": null
+      },
+      "founding_year": null,
+      "investment_focus": "Strategic investments across various asset classes.",
+      "team_members": [],
+      "aum_estimate": "Over $100M",
+      "aum_evidence": "The variety in investment strategy indicates substantial capital is employed.",
+      "completeness_score": 8
+    },
+    {
+      "name": "Cresset Capital",
+      "url": "https://cressetcapital.com/locations/chicago/",
+      "location": "Chicago, IL",
+      "key_contact": {
+        "phone": "312.429.2456",
+        "email": null
+      },
+      "founding_year": null,
+      "investment_focus": "High-net-worth individuals and family office services.",
+      "team_members": [],
+      "aum_estimate": "Over $100M",
+      "aum_evidence": "Cresset caters to ultra-high-net-worth families, strongly indicating a high AUM.",
+      "completeness_score": 9
+    },
+    {
+      "name": "Bessemer Trust",
+      "url": "https://www.bessemertrust.com/",
+      "location": "Chicago, IL",
+      "key_contact": {
+        "phone": null,
+        "email": null
+      },
+      "founding_year": "1907",
+      "investment_focus": "Wealth management for ultra-high-net-worth families.",
+      "team_members": [],
+      "aum_estimate": "Over $200 billion",
+      "aum_evidence": "Known for substantial assets,under management across client families.",
+      "completeness_score": 9
+    },
+    {
+      "name": "Gresham Partners",
+      "url": "https://www.greshampartners.com/",
+      "location": "Chicago, IL",
+      "key_contact": {
+        "phone": null,
+        "email": null
+      },
+      "founding_year": null,
+      "investment_focus": "Wealth management and investment services for ultra-high-net-worth families.",
+      "team_members": [],
+      "aum_estimate": "Approximately $9 billion",
+      "aum_evidence": "The firm manages a significant amount of assets on behalf of numerous client families, highlighting its capacity.",
+      "completeness_score": 9
+    },
+    {
+      "name": "Beverly Capital",
+      "url": "https://beverly-capital.com/",
+      "location": "Beverly Hills, CA",
+      "key_contact": {
+        "phone": "847.961.9210",
+        "email": "info@beverlycap.com"
+      },
+      "founding_year": null,
+      "investment_focus": "Private investments and asset management.",
+      "team_members": [],
+      "aum_estimate": "Estimated at $100M+",
+      "aum_evidence": "The firm's management of substantial private investment portfolios points to significant AUM.",
+      "completeness_score": 8
+    },
+    {
+      "name": "Dolan Family Partners",
+      "url": "https://www.dolanfamilypartners.com/",
+      "location": "Chicago, IL",
+      "key_contact": {
+        "phone": null,
+        "email": null
+      },
+      "founding_year": null,
+      "investment_focus": "Asset and investment management for the Dolan family.",
+      "team_members": [],
+      "aum_estimate": "Over $100M",
+      "aum_evidence": "The Dolan family's ownership and operations within large media companies suggest substantial AUM.",
+      "completeness_score": 8
+    },
+    {
+      "name": "Najarian Family Office",
+      "url": "https://www.najarianfamilyoffice.com/",
+      "location": "Chicago, IL",
+      "key_contact": {
+        "phone": null,
+        "email": null
+      },
+      "founding_year": null,
+      "investment_focus": "Investment management and strategic advisory.",
+      "team_members": [],
+      "aum_estimate": "Estimated at $100M+",
+      "aum_evidence": "The office manages significant assets from the Najarian family, known for their finance and media ventures.",
+      "completeness_score": 7
+    }
+  ]
+}

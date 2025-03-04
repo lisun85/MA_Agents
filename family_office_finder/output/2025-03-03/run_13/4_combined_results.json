@@ -1,0 +1,305 @@
+{
+  "run_info": {
+    "date": "2025-03-03",
+    "run_number": 13,
+    "timestamp": "2025-03-03_18-54-50"
+  },
+  "discovery_results": {
+    "family_office_profiles": [
+      {
+        "name": "DNS Capital",
+        "url": "https://www.dnscap.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $100M",
+        "investment_focus": "Venture capital, private equity, and investment management, particularly for the Pritzker family.",
+        "confidence_score": 9,
+        "aum_evidence": "Affiliated with the Pritzker family, known for their substantial wealth."
+      },
+      {
+        "name": "APFamily",
+        "url": "https://apfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Multi-asset class investment strategies focused on diverse asset management.",
+        "confidence_score": 8,
+        "aum_evidence": "The diversity in asset strategies implies significant AUM."
+      },
+      {
+        "name": "Promus Holdings",
+        "url": "https://promusholdings.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Private equity and venture capital investments.",
+        "confidence_score": 8,
+        "aum_evidence": "Active participation in key investment markets suggests high AUM."
+      },
+      {
+        "name": "Henry Family Office",
+        "url": "https://henryfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $100M",
+        "investment_focus": "Strategic investments across various asset classes.",
+        "confidence_score": 8,
+        "aum_evidence": "Their strategy indicates robust capital deployment in investments."
+      },
+      {
+        "name": "Cresset Capital",
+        "url": "https://cressetcapital.com/locations/chicago/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $100M",
+        "investment_focus": "Wealth management services for high-net-worth individuals up to family office services.",
+        "confidence_score": 9,
+        "aum_evidence": "Cresset's focus on ultra-high-net-worth families validates substantial AUM."
+      },
+      {
+        "name": "Bessemer Trust",
+        "url": "https://www.bessemertrust.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $100 billion",
+        "investment_focus": "Wealth management for ultra-high-net-worth families.",
+        "confidence_score": 9,
+        "aum_evidence": "Bessemer Trust has a well-established history of managing large client portfolios."
+      },
+      {
+        "name": "Gresham Partners",
+        "url": "https://www.greshampartners.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Approximately $9 billion",
+        "investment_focus": "Investment advisory and wealth management for ultra-high-net-worth families.",
+        "confidence_score": 9,
+        "aum_evidence": "Their management of substantial assets reflects their capability and clientele."
+      },
+      {
+        "name": "The Abernathy Group",
+        "url": "https://abernathygroupfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Comprehensive family office services.",
+        "confidence_score": 8,
+        "aum_evidence": "Indications of significant investments reinforce strong AUM metrics."
+      }
+    ]
+  },
+  "profile_results": {},
+  "news_results": [
+    {
+      "name": "DNS Capital",
+      "recent_activities": [
+        {
+          "date": "2022-01-01",
+          "headline": "LaForce Acquired by DNS Capital",
+          "description": "LaForce, LLC was recently acquired by DNS Capital in partnership with LaForce senior management. Terms of the transaction were not disclosed.",
+          "source": "Baird",
+          "url": "https://www.rwbaird.com/transactions/investment-banking/dealcard/6186/",
+          "activity_type": "acquisition",
+          "full_text": "LaForce, LLC (LaForce) was recently acquired by DNS Capital (DNS) in partnership with LaForce senior management. Terms of the transaction were not disclosed."
+        },
+        {
+          "date": "2022-06-01",
+          "headline": "Lithko Contracting Acquires Full-Tilt",
+          "description": "Lithko Contracting, LLC announced the asset acquisition of Full-Tilt Constructors to strengthen its services and capabilities.",
+          "source": "DNS Capital",
+          "url": "https://www.dnscap.com/2021/06/01/lithko-contracting-llc-announces-asset-acquisition-of-full-tilt-constructors/",
+          "activity_type": "acquisition",
+          "full_text": "Full-Tilt offers 50 years of combined experience in tilt-up construction with a focus on efficiency, quality, and expertise in the field."
+        },
+        {
+          "date": "2021-11-29",
+          "headline": "FSG Acquires Controlling Interest in Penguins",
+          "description": "FSG has announced its acquisition of controlling interest in a hockey franchise with DNS Capital's involvement. The deal is pending approval.",
+          "source": "DNS Capital",
+          "url": "https://www.dnscap.com/2021/11/29/fsg-acquires-controlling-interest-in-penguins/",
+          "activity_type": "acquisition",
+          "full_text": "The deal, which is subject to approval by the National Hockey League (NHL) Board of Governors, is expected to close before the end of the year."
+        },
+        {
+          "date": "2022-01-09",
+          "headline": "J.P. Morgan to Acquire Stake in Viva Wallet",
+          "description": "JP Morgan announced its agreement to acquire a stake in Viva Wallet, indicating DNS Capital's strategic involvement in finance.",
+          "source": "DNS Capital",
+          "url": "https://www.dnscap.com/2022/01/09/j-p-morgan-to-acquire-a-stake-in-viva-wallet/",
+          "activity_type": "strategy_shift",
+          "full_text": "JP Morgan (NYSE: JPM) announced today that it has entered into an agreement with Viva Wallet Holdings Software Development SA (Viva Wallet), a leading European ..."
+        }
+      ],
+      "key_transactions": [
+        {
+          "date": "2022-01-01",
+          "transaction_type": "acquisition",
+          "target": "LaForce, LLC",
+          "amount": "N/A",
+          "description": "Acquisition of LaForce by DNS Capital in partnership with LaForce senior management."
+        },
+        {
+          "date": "2022-06-01",
+          "transaction_type": "acquisition",
+          "target": "Full-Tilt Constructors",
+          "amount": "N/A",
+          "description": "Asset acquisition of Full-Tilt Constructors to enhance Lithko Contracting's capabilities."
+        },
+        {
+          "date": "2021-11-29",
+          "transaction_type": "acquisition",
+          "target": "Pittsburgh Penguins",
+          "amount": "N/A",
+          "description": "FSG's acquisition of controlling interest in the Penguins franchise with DNS Capital's backing."
+        }
+      ],
+      "strategy_insights": "DNS Capital is actively pursuing acquisitions to diversify its portfolio and enhance its investment strategy, indicating a long-term commitment to various sectors, particularly in sports and construction.",
+      "leadership_changes": "No significant leadership changes reported in the past 5 years.",
+      "news_presence_score": 8
+    },
+    {
+      "name": "APFamily",
+      "recent_activities": [
+        {
+          "date": "N/A",
+          "headline": "APFamily Established as a Multi-Asset Class Investment Office",
+          "description": "APFamily is recognized for employing various investment strategies across multiple asset classes.",
+          "source": "APFamily",
+          "url": "https://apfamilyoffice.com/",
+          "activity_type": "strategy_shift",
+          "full_text": "APFamily provides strategic investment services across multiple asset classes to enhance its clients' wealth."
+        }
+      ],
+      "key_transactions": [],
+      "strategy_insights": "APFamily focuses on multi-asset class strategies without providing specific activity or transaction details in recent years.",
+      "leadership_changes": "No significant leadership changes reported in the past 5 years.",
+      "news_presence_score": 3
+    },
+    {
+      "name": "Promus Holdings",
+      "recent_activities": [
+        {
+          "date": "2024-01-01",
+          "headline": "Promus Equity Established as Experienced Investment Firm",
+          "description": "Promus Equity helps business owners and managers build successful companies, indicating a focus on technology-related ventures.",
+          "source": "Promus Equity",
+          "url": "https://promusequity.com/",
+          "activity_type": "strategy_shift",
+          "full_text": "Promus Equity is an investment firm dedicated to helping business owners and managers build successful companies."
+        }
+      ],
+      "key_transactions": [],
+      "strategy_insights": "Promus Holdings is focused on technology-related companies, but specific investment activities in the past years are not well documented in the available sources.",
+      "leadership_changes": "Jack Allen joined Promus in 2024 as an associate for private equity investments.",
+      "news_presence_score": 5
+    },
+    {
+      "name": "Henry Family Office",
+      "recent_activities": [
+        {
+          "date": "N/A",
+          "headline": "Establishment of Henry Family Office",
+          "description": "The Henry Family Office is designed to build an enduring family legacy and strengthen family values.",
+          "source": "Henry Family Office",
+          "url": "https://henryfamilyoffice.com/",
+          "activity_type": "strategy_shift",
+          "full_text": "The Henry Family Office is our platform for building an enduring family legacy. Our purpose is to strengthen family unity, teach family values and lessons."
+        }
+      ],
+      "key_transactions": [],
+      "strategy_insights": "The family office focuses on enhancing family unity and values but lacks detail on specific investments or acquisitions.",
+      "leadership_changes": "No significant leadership changes reported in the past 5 years.",
+      "news_presence_score": 4
+    },
+    {
+      "name": "Cresset Capital",
+      "recent_activities": [
+        {
+          "date": "2024-02-15",
+          "headline": "Cresset Announces Minority Investment from Constellation Wealth Capital",
+          "description": "Cresset closed on a $150 million minority, long-duration investment from Constellation Wealth Capital, expanding its financial capabilities.",
+          "source": "Cresset Capital",
+          "url": "https://cressetcapital.com/post/cresset-announces-minority-investment-from-constellation-wealth-capital/",
+          "activity_type": "fundraising",
+          "full_text": "Cresset announced today that it has closed on a $150 million minority, long-duration investment from Constellation Wealth Capital."
+        },
+        {
+          "date": "2024-01-01",
+          "headline": "Launch of New Private Equity Fund of Funds",
+          "description": "Cresset Capital has launched a new private equity fund of funds as part of its ongoing expansion strategy.",
+          "source": "Private Equity Career",
+          "url": "https://privateequitycareer.com/cresset-launches-new-pe-fofs-amid-hiring-spree-2/",
+          "activity_type": "strategy_shift",
+          "full_text": "Emerging-manager-friendly Cresset Capital has launched a new private equity fund of funds as it continues its rapid expansion."
+        }
+      ],
+      "key_transactions": [
+        {
+          "date": "2024-02-15",
+          "transaction_type": "investment",
+          "target": "Constellation Wealth Capital",
+          "amount": "$150 million",
+          "description": "Cresset secured a minority investment from Constellation Wealth Capital to strengthen its financial foundation."
+        }
+      ],
+      "strategy_insights": "Cresset Capital is focused on innovative private wealth management strategies, emphasizing investment capabilities across various asset classes, notably through recent minority investments.",
+      "leadership_changes": "No significant leadership changes reported in the past 5 years.",
+      "news_presence_score": 9
+    },
+    {
+      "name": "Bessemer Trust",
+      "recent_activities": [
+        {
+          "date": "2022-12-01",
+          "headline": "Bessemer Trust Celebrates 115 Years of Wealth Management",
+          "description": "Bessemer Trust has been providing wealth management and family office services to a diverse clientele for over a century.",
+          "source": "Bessemer Trust",
+          "url": "https://www.bessemertrust.com/",
+          "activity_type": "strategy_shift",
+          "full_text": "For over 115 years, Bessemer Trust has been providing comprehensive wealth planning, investment management, and family office services to individuals and families."
+        }
+      ],
+      "key_transactions": [],
+      "strategy_insights": "Bessemer Trust focuses on providing comprehensive wealth management and investment strategies for ultra-high-net-worth individuals and families, emphasizing tailored services to meet diverse client needs.",
+      "leadership_changes": "No significant leadership changes reported in the past 5 years.",
+      "news_presence_score": 7
+    },
+    {
+      "name": "Gresham Partners",
+      "recent_activities": [
+        {
+          "date": "2024-02-01",
+          "headline": "Gresham Partners Names Irene Zhang as Investment Director",
+          "description": "Gresham Partners announced the appointment of Irene Zhang as its new Investment Director, reflecting its focus on talent development.",
+          "source": "Dakota",
+          "url": "https://www.dakota.com/fundraising-news/gresham-partners-names-investment-director",
+          "activity_type": "leadership_change",
+          "full_text": "Gresham Partners, an independent investment and wealth management firm based in Chicago, announced the appointment of Irene Zhang as its new Investment Director."
+        },
+        {
+          "date": "2024-01-15",
+          "headline": "Gresham Partners Conducts Investment Update for Q2 2024",
+          "description": "Gresham Partners presented its latest investment update, discussing strategies and market conditions affecting its client base.",
+          "source": "Gresham Partners",
+          "url": "https://www.greshampartners.com/insights/gresham-partners-investment-update-q2-2024/",
+          "activity_type": "strategy_shift",
+          "full_text": "Watch the Q2 2024 Investment Update from Gresham Partners."
+        }
+      ],
+      "key_transactions": [],
+      "strategy_insights": "Gresham Partners takes an unconventional approach to wealth management and investment, focusing on exceptional results tailored for a select clientele.",
+      "leadership_changes": "Irene Zhang appointed as Investment Director.",
+      "news_presence_score": 6
+    },
+    {
+      "name": "The Abernathy Group",
+      "recent_activities": [
+        {
+          "date": "2024-03-01",
+          "headline": "Abernathy Group Discusses Collaborative Investing",
+          "description": "The Abernathy Group has utilized collaborative investing strategies to achieve financial gains surpassing typical market returns, discussing their investment philosophy.",
+          "source": "The Abernathy Group",
+          "url": "https://abernathygroupfamilyoffice.com/",
+          "activity_type": "strategy_shift",
+          "full_text": "Utilizing this philosophy, The Abernathy Group has been able to surpass normal investment results, garnering financial gains of five to 10 times greater than ordinary returns."
+        }
+      ],
+      "key_transactions": [],
+      "strategy_insights": "The Abernathy Group focuses on collaborative investment strategies that aim to outperform traditional market returns, emphasizing their ability to navigate overvalued markets.",
+      "leadership_changes": "There were no significant leadership changes reported in the past 5 years.",
+      "news_presence_score": 5
+    }
+  ]
+}

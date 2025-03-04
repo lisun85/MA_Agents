@@ -1,0 +1,319 @@
+{
+  "family_office_profiles": [
+    {
+      "name": "DNS Capital",
+      "url": "https://www.dnscap.com/",
+      "location": "Chicago, IL",
+      "founding_year": null,
+      "contact_info": {
+        "phone_number": null,
+        "email": null
+      },
+      "investment_focus": "Venture capital, private equity, and investment management for the Pritzker family.",
+      "estimated_aum": "Over $100M",
+      "aum_evidence": "The firm is associated with the Pritzker family, a well-known ultra-high-net-worth family, indicating substantial AUM.",
+      "investment_philosophy": "Long-term and flexible approach to investing, focusing on building relationships with business owners, management teams, and entrepreneurs.",
+      "target_sectors": null,
+      "geographic_preferences": null,
+      "typical_investment_size": null,
+      "types_of_investments": [
+        "direct",
+        "fund"
+      ],
+      "investment_criteria": null,
+      "portfolio_companies": null,
+      "team_members": [
+        {
+          "name": "Michael A. Pucker",
+          "title": "Chairman & CEO"
+        },
+        {
+          "name": "Jason Schroeder",
+          "title": "Managing Director"
+        },
+        {
+          "name": "Scott Hairston",
+          "title": "Chief Operating Officer"
+        },
+        {
+          "name": "Alan Bakhos",
+          "title": "General Counsel"
+        },
+        {
+          "name": "Lauren Hirsch",
+          "title": "Chief Administrative Officer"
+        },
+        {
+          "name": "Emily Casey Brown",
+          "title": "Principal"
+        },
+        {
+          "name": "Brian Stal",
+          "title": "Director of GSD"
+        },
+        {
+          "name": "Lizzie Osmundson",
+          "title": "Senior Counsel"
+        },
+        {
+          "name": "Jeff Ehlers",
+          "title": "Operating Partner"
+        },
+        {
+          "name": "Pat Atwood",
+          "title": "Vice President"
+        },
+        {
+          "name": "George Lyman",
+          "title": "Associate"
+        },
+        {
+          "name": "Grace Martin",
+          "title": "Associate"
+        },
+        {
+          "name": "Mary Kate Holland",
+          "title": "Executive Assistant / Office Facilities Manager"
+        },
+        {
+          "name": "Charles Tollinche",
+          "title": "Senior Advisor"
+        }
+      ],
+      "completeness_score": 9
+    },
+    {
+      "name": "Beverly Capital",
+      "url": "https://beverly-capital.com/",
+      "location": "Park City, UT",
+      "founding_year": null,
+      "contact_info": {
+        "phone_number": "847-961-9210",
+        "email": "info@beverlycap.com"
+      },
+      "investment_focus": "Private investments and asset management.",
+      "estimated_aum": "Estimated to be above $100M",
+      "aum_evidence": "The firm's management of substantial private investment portfolios points to significant AUM.",
+      "investment_philosophy": "Long-term perspective and history of investing across multiple asset classes, contributing positively to community-based organizations.",
+      "target_sectors": null,
+      "geographic_preferences": null,
+      "typical_investment_size": null,
+      "types_of_investments": [
+        "direct",
+        "fund"
+      ],
+      "investment_criteria": null,
+      "portfolio_companies": [
+        "Juno Capital"
+      ],
+      "team_members": [
+        {
+          "name": "Joseph P. Nolan",
+          "title": "Managing Director",
+          "email": "jnolan@beverlycap.com",
+          "phone": "847-961-9211"
+        },
+        {
+          "name": "Michael T. Nolan",
+          "title": "Principal",
+          "email": "mnolan@beverlycap.com",
+          "phone": "847-961-9212"
+        },
+        {
+          "name": "Lisa S. Weil",
+          "title": "Associate",
+          "email": "lweil@beverlycap.com",
+          "phone": "847-961-9213"
+        }
+      ],
+      "completeness_score": 8
+    },
+    {
+      "name": "Pitcairn",
+      "url": "https://www.pitcairn.com/",
+      "location": "Philadelphia, PA",
+      "founding_year": null,
+      "contact_info": {
+        "phone_number": null,
+        "email": null
+      },
+      "investment_focus": "Family wealth management, private equity.",
+      "estimated_aum": "Over $100M",
+      "aum_evidence": "Active management for ultra-high-net-worth families indicates a significant AUM.",
+      "investment_philosophy": "Conflict-free investment approach aligned with families' desires to sustain wealth through generational transitions.",
+      "target_sectors": null,
+      "geographic_preferences": null,
+      "typical_investment_size": null,
+      "types_of_investments": [
+        "equities",
+        "fixed income",
+        "private credit",
+        "real assets"
+      ],
+      "investment_criteria": null,
+      "portfolio_companies": null,
+      "team_members": [],
+      "completeness_score": 6
+    },
+    {
+      "name": "Promus Holdings",
+      "url": "https://promusholdings.com/",
+      "location": "Chicago, IL",
+      "founding_year": 2008,
+      "contact_info": {
+        "phone_number": "312-784-3990",
+        "email": null
+      },
+      "investment_focus": "Private equity and venture capital investments.",
+      "estimated_aum": "Estimated to be at least $100M",
+      "aum_evidence": "Involvement in large-scale investments suggests substantial wealth under management.",
+      "investment_philosophy": "Helping families preserve and grow wealth through thoughtful investment strategies.",
+      "target_sectors": [
+        "alternative investments",
+        "traditional assets"
+      ],
+      "geographic_preferences": null,
+      "typical_investment_size": null,
+      "types_of_investments": [
+        "direct investments",
+        "fund investments"
+      ],
+      "investment_criteria": null,
+      "portfolio_companies": null,
+      "team_members": [
+        {
+          "name": "Andy Code",
+          "title": "Co-Founder"
+        },
+        {
+          "name": "Zach Musso, CFA",
+          "title": "Co-Founder"
+        },
+        {
+          "name": "Brian Musso",
+          "title": "Co-Founder"
+        },
+        {
+          "name": "Steve Brown",
+          "title": "Senior Advisor"
+        },
+        {
+          "name": "Sarah Wuellner",
+          "title": "Senior Associate"
+        },
+        {
+          "name": "Patrick Fisher",
+          "title": "Vice President"
+        },
+        {
+          "name": "Charlie Adair",
+          "title": "Associate"
+        },
+        {
+          "name": "Jack Allen",
+          "title": "Analyst"
+        },
+        {
+          "name": "Jake Barton",
+          "title": "Analyst"
+        },
+        {
+          "name": "Joe Chang",
+          "title": "Research Analyst"
+        },
+        {
+          "name": "Joseph Cheff",
+          "title": "Research Analyst"
+        },
+        {
+          "name": "Adam Code",
+          "title": "Investment Associate"
+        }
+      ],
+      "completeness_score": 8
+    },
+    {
+      "name": "Mandell Ventures",
+      "url": "https://www.mandellventuresllc.com/",
+      "location": "Chicago, IL",
+      "founding_year": 2013,
+      "contact_info": {
+        "phone_number": null,
+        "email": null
+      },
+      "investment_focus": "Investments in early-stage companies and real estate.",
+      "estimated_aum": "Over $100M",
+      "aum_evidence": "Focus on diverse sectors and portfolio suggests substantial AUM.",
+      "investment_philosophy": "Invest in businesses with unique products, high barriers to entry, and passionate teams.",
+      "target_sectors": [
+        "consumer packaged goods",
+        "cannabis",
+        "technology",
+        "real estate"
+      ],
+      "geographic_preferences": null,
+      "typical_investment_size": "Seed, Series A, and Series B financing.",
+      "types_of_investments": [
+        "direct investments"
+      ],
+      "investment_criteria": null,
+      "portfolio_companies": [
+        "Chicago Seed Co."
+      ],
+      "team_members": [
+        {
+          "name": "Steve Mandell",
+          "title": "Managing Partner"
+        },
+        {
+          "name": "Scott Mandell",
+          "title": "Partner"
+        }
+      ],
+      "completeness_score": 7
+    },
+    {
+      "name": "Ariel Investments",
+      "url": "https://www.arielinvestments.com/",
+      "location": "Chicago, IL",
+      "founding_year": 1983,
+      "contact_info": {
+        "phone_number": null,
+        "email": null
+      },
+      "investment_focus": "Equity investments in various sectors.",
+      "estimated_aum": "Approximately $13 billion",
+      "aum_evidence": "While primarily an investment management firm, it has family office characteristics in its operations.",
+      "investment_philosophy": "Good outcomes take time; we actively seek value for our clients who entrust us with their financial futures.",
+      "target_sectors": null,
+      "geographic_preferences": null,
+      "typical_investment_size": null,
+      "types_of_investments": [
+        "separate accounts",
+        "mutual funds",
+        "private equity"
+      ],
+      "investment_criteria": null,
+      "portfolio_companies": null,
+      "team_members": [
+        {
+          "name": "John W. Rogers, Jr.",
+          "title": "Chairman, Co-CEO and Chief Investment Officer"
+        },
+        {
+          "name": "Mellody Hobson",
+          "title": "Co-CEO and President"
+        },
+        {
+          "name": "Charles K. Bobrinskoy",
+          "title": "Vice Chairman, Head of Investment Group"
+        },
+        {
+          "name": "Henry Mallari-D\u2019Auria, CFA\u00ae",
+          "title": "Executive Vice President"
+        }
+      ],
+      "completeness_score": 8
+    }
+  ]
+}

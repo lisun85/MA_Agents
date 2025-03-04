@@ -1,0 +1,58 @@
+{
+  "family_office_profiles": [
+    {
+      "name": "Beverly Capital",
+      "url": "https://beverly-capital.com/",
+      "location": "Beverly Hills, CA",
+      "estimated_aum": "Estimated to be above $100M",
+      "investment_focus": "Private investments and asset management.",
+      "confidence_score": 8,
+      "aum_evidence": "The firm's management of substantial private investment portfolios suggests they manage significant assets."
+    },
+    {
+      "name": "Najarian Family Office",
+      "url": "https://www.najarianfamilyoffice.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Estimated at $100M+",
+      "investment_focus": "Investment management and strategic advisory.",
+      "confidence_score": 7,
+      "aum_evidence": "Manages significant assets from the Najarian family, known for their finance and media ventures."
+    },
+    {
+      "name": "Promus Holdings",
+      "url": "https://promusholdings.com",
+      "location": "Chicago, IL",
+      "estimated_aum": "Estimated to be at least $100M",
+      "investment_focus": "Private equity and venture capital investments.",
+      "confidence_score": 8,
+      "aum_evidence": "Involvement in large-scale investments indicates substantial wealth under management."
+    },
+    {
+      "name": "APFamily",
+      "url": "https://apfamilyoffice.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Estimated at $100M+",
+      "investment_focus": "Multi-asset class investment strategies.",
+      "confidence_score": 8,
+      "aum_evidence": "The diversified asset strategy implies significant assets are managed."
+    },
+    {
+      "name": "Cresset Capital",
+      "url": "https://cressetcapital.com/locations/chicago/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Over $100M",
+      "investment_focus": "High-net-worth individuals and family office services.",
+      "confidence_score": 9,
+      "aum_evidence": "Cresset caters to ultra-high-net-worth families, strongly indicating a high AUM."
+    },
+    {
+      "name": "Dolan Family Partners",
+      "url": "https://www.dolanfamilypartners.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Over $100M",
+      "investment_focus": "Family office services and asset management for the Dolan family.",
+      "confidence_score": 8,
+      "aum_evidence": "The Dolan family's involvement in substantial media companies suggests significant assets."
+    }
+  ]
+}

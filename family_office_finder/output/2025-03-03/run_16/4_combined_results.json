@@ -1,0 +1,141 @@
+{
+  "run_info": {
+    "date": "2025-03-03",
+    "run_number": 16,
+    "timestamp": "2025-03-03_20-51-46"
+  },
+  "discovery_results": {
+    "family_offices": [
+      {
+        "name": "DNS Capital",
+        "url": "https://www.dnscap.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $100M",
+        "investment_focus": "Venture capital and private equity for the Pritzker family.",
+        "confidence_score": 9,
+        "aum_evidence": "This family office manages investments for one of the wealthiest families in the U.S."
+      },
+      {
+        "name": "Cresset Capital",
+        "url": "https://cressetcapital.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Approximately $52B",
+        "investment_focus": "Family office and private wealth management.",
+        "confidence_score": 9,
+        "aum_evidence": "Highly regarded for serving ultra-high-net-worth families, indicating significant AUM."
+      },
+      {
+        "name": "Promus Holdings",
+        "url": "https://promusholdings.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $100M",
+        "investment_focus": "Private equity and venture capital.",
+        "confidence_score": 8,
+        "aum_evidence": "Active involvement in various high-value investments."
+      },
+      {
+        "name": "Gresham Partners",
+        "url": "https://www.greshampartners.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Approximately $9B",
+        "investment_focus": "Investment management for families and their entities.",
+        "confidence_score": 9,
+        "aum_evidence": "The substantial AUM is derived from managing large portfolios for several families."
+      },
+      {
+        "name": "Henry Family Office",
+        "url": "https://henryfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $100M",
+        "investment_focus": "Strategic investments across various asset classes.",
+        "confidence_score": 8,
+        "aum_evidence": "The diversity of their investment portfolio indicates a substantial capital base."
+      },
+      {
+        "name": "Bessemer Trust",
+        "url": "https://www.bessemertrust.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $200B",
+        "investment_focus": "Wealth management for ultra-high-net-worth families.",
+        "confidence_score": 9,
+        "aum_evidence": "Well-known for handling substantial assets for numerous families."
+      },
+      {
+        "name": "APFamily",
+        "url": "https://apfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Multi-asset class investment strategies.",
+        "confidence_score": 8,
+        "aum_evidence": "The firm's approach to diversified asset management indicates meaningful assets."
+      },
+      {
+        "name": "Crescent Grove Advisors",
+        "url": "https://www.crescentgrove.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Family office services for affluent families.",
+        "confidence_score": 7,
+        "aum_evidence": "Focuses on wealth management indicating high client net worth."
+      }
+    ]
+  },
+  "profile_results": {
+    "family_offices": []
+  },
+  "news_results": {
+    "family_offices": [
+      {
+        "name": "DNS Capital",
+        "recent_activities": [
+          {
+            "date": "2023-06-11",
+            "headline": "Food Innovator Hero Bread\u2122 Announces Series B Fundraise and National Retail Launch",
+            "description": "Hero Bread is expanding its distribution and product line following a significant consumer response.",
+            "source": "DNS Capital",
+            "url": "https://www.dnscap.com/2023/06/11/food-innovator-hero-bread-announces-series-b-fundraise-and-national-retail-launch-in-2300-stores/",
+            "activity_type": "fundraising",
+            "full_text": "The proceeds from the raise will be used to accelerate expanded availability of Hero Bread's groundbreaking product line in grocery retail as..."
+          },
+          {
+            "date": "2025-02-28",
+            "headline": "Vermillio Completes $16 Million Series A Funding Round",
+            "description": "Vermillio, an AI licensing and protection platform, has secured $16 million in series A funding led by Sony Music and DNS Capital.",
+            "source": "Business Wire",
+            "url": "https://www.businesswire.com/news/home/20250228026074/en/Vermillio-Completes-16-Million-Series-A-Funding-Round-Led-by-Sony-Music-and-DNS-Capital",
+            "activity_type": "investment",
+            "full_text": "Vermillio Completes $16 Million Series A Funding Round Led by Sony Music and DNS Capital. Vermillio, the AI licensing and protection platform, ..."
+          },
+          {
+            "date": "2021-11-29",
+            "headline": "FSG acquires controlling interest in Penguins",
+            "description": "DNS Capital participated in a deal for FSG to gain controlling interest in a sports franchise.",
+            "source": "DNS Capital",
+            "url": "https://www.dnscap.com/2021/11/29/fsg-acquires-controlling-interest-in-penguins/",
+            "activity_type": "acquisition",
+            "full_text": "The deal, which is subject to approval by the National Hockey League (NHL) Board of Governors, is expected to close before the end of the year."
+          }
+        ],
+        "key_transactions": [
+          {
+            "date": "2022-01-01",
+            "transaction_type": "acquisition",
+            "target": "IMI Holding Corp.",
+            "amount": "Not disclosed",
+            "description": "DNS Capital announced the acquisition of IMI Holding Corp., enhancing their capabilities in the industrial sector."
+          },
+          {
+            "date": "2020-07-15",
+            "transaction_type": "investment",
+            "target": "Glympse Bio",
+            "amount": "$46.7 Million",
+            "description": "DNS Capital was part of a financing round for Glympse Bio aimed at advancing their diagnostics technology."
+          }
+        ],
+        "strategy_insights": "DNS Capital maintains a flexible long-term investment approach, focusing on businesses with experienced management teams and significant growth potential. They are actively involved in sectors with high returns such as technology and consumer goods.",
+        "leadership_changes": "No notable leadership changes have been reported in the past 10 years for DNS Capital.",
+        "news_presence_score": 7
+      }
+    ]
+  }
+}

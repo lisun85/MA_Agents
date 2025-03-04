@@ -1,0 +1,163 @@
+{
+  "run_info": {
+    "date": "2025-03-03",
+    "run_number": 14,
+    "timestamp": "2025-03-03_20-15-55"
+  },
+  "discovery_results": {
+    "family_office_profiles": [
+      {
+        "name": "DNS Capital",
+        "url": "https://www.dnscap.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $100M",
+        "investment_focus": "Venture capital, private equity, and investment management for the Pritzker family.",
+        "confidence_score": 9,
+        "aum_evidence": "The firm is associated with the Pritzker family, a highly recognized ultra-high-net-worth family in the U.S."
+      },
+      {
+        "name": "APFamily",
+        "url": "https://apfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Multi-asset class investment strategies.",
+        "confidence_score": 8,
+        "aum_evidence": "The firm's diverse asset management approach indicates substantial assets."
+      },
+      {
+        "name": "Promus Holdings",
+        "url": "https://promusholdings.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Private equity and venture capital investments.",
+        "confidence_score": 8,
+        "aum_evidence": "The involvement in significant investments suggests a high level of assets under management."
+      },
+      {
+        "name": "Henry Family Office",
+        "url": "https://henryfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $100M",
+        "investment_focus": "Strategic investments across various asset classes.",
+        "confidence_score": 8,
+        "aum_evidence": "The variety in investment strategy indicates substantial capital is employed."
+      },
+      {
+        "name": "Cresset Capital",
+        "url": "https://cressetcapital.com/locations/chicago/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $100M",
+        "investment_focus": "High-net-worth individuals and family office services.",
+        "confidence_score": 9,
+        "aum_evidence": "Cresset caters to ultra-high-net-worth families, strongly indicating a high AUM."
+      },
+      {
+        "name": "Gresham Partners",
+        "url": "https://www.greshampartners.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Approximately $9 billion",
+        "investment_focus": "Family wealth management and investment advisory.",
+        "confidence_score": 9,
+        "aum_evidence": "Manages assets for numerous client families, highlighting significant capacity."
+      },
+      {
+        "name": "Beverly Capital",
+        "url": "https://beverly-capital.com/",
+        "location": "Beverly Hills, CA",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Private investments and asset management.",
+        "confidence_score": 8,
+        "aum_evidence": "The firm's management of significant private investment portfolios points to high AUM."
+      },
+      {
+        "name": "Chicago Capital",
+        "url": "https://www.chi-cap.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Wealth management and investment advisory services.",
+        "confidence_score": 8,
+        "aum_evidence": "Caters to affluent individuals, suggesting substantial AUM."
+      }
+    ]
+  },
+  "profile_results": {
+    "family_office_profiles": [
+      {
+        "name": "DNS Capital",
+        "url": "https://www.dnscap.com/",
+        "location": "Chicago, IL",
+        "address": "501 W. 34th St, Suite 200, Chicago, IL 60616",
+        "phone_number": "N/A",
+        "email": "N/A",
+        "founding_year": "N/A",
+        "team_members": [
+          {
+            "name": "Gigi Pritzker",
+            "title": "Co-Founder"
+          },
+          {
+            "name": "Michael Pucker",
+            "title": "Co-Founder"
+          }
+        ],
+        "estimated_aum": "Over $100M",
+        "investment_focus": "Venture capital, private equity, and investment management for the Pritzker family.",
+        "aum_evidence": "The firm is associated with the Pritzker family, a highly recognized ultra-high-net-worth family in the U.S.",
+        "completeness_score": 7
+      }
+    ]
+  },
+  "news_results": [
+    {
+      "name": "DNS Capital",
+      "recent_activities": [
+        {
+          "date": "2021-06-01",
+          "headline": "Lithko Contracting, LLC Announces Asset Acquisition of Full-Tilt",
+          "description": "Full-Tilt, specializing in tilt-up construction, was acquired by DNS Capital, enhancing DNS's construction expertise.",
+          "source": "DNS Capital",
+          "url": "https://www.dnscap.com/2021/06/01/lithko-contracting-llc-announces-asset-acquisition-of-full-tilt-constructors/",
+          "activity_type": "acquisition",
+          "full_text": "Lithko Contracting, LLC (Lithko) is excited to announce its recent asset acquisition of Full-Tilt Constructors (Full-Tilt)..."
+        },
+        {
+          "date": "2020-08-10",
+          "headline": "DNS Capital Announces Acquisition of IMI Holding Corp.",
+          "description": "DNS Capital has acquired IMI Holding Corp., the parent company of Industrial Magnetics, Inc., to strengthen its manufacturing portfolio.",
+          "source": "Magnetics",
+          "url": "https://www.magnetics.com/company/whats-up/press-releases/dns-capital-announces-aquisition-of-imi-holding-corp?srsltid=AfmBOorjp6GZ926yU_wEtDUlRooVO6D_wDhA8ujuHd8fGmr4quJ6J9TG",
+          "activity_type": "acquisition",
+          "full_text": "DNS Capital today announced the acquisition of IMI Holding Corp. (IMI Holdings)..."
+        },
+        {
+          "date": "2021-11-29",
+          "headline": "FSG acquires controlling interest in Penguins - DNS Capital",
+          "description": "DNS Capital participated in the acquisition of a controlling interest in the Pittsburgh Penguins, subject to NHL approval.",
+          "source": "DNS Capital",
+          "url": "https://www.dnscap.com/2021/11/29/fsg-acquires-controlling-interest-in-penguins/",
+          "activity_type": "acquisition",
+          "full_text": "The deal, which is subject to approval by the National Hockey League (NHL) Board of Governors, is expected to close before the end of the year."
+        }
+      ],
+      "key_transactions": [
+        {
+          "date": "2020-02-16",
+          "transaction_type": "acquisition",
+          "target": "Industrial Magnetics, Inc.",
+          "amount": "Undisclosed",
+          "description": "Acquisition of Industrial Magnetics, enhancing DNS Capital's portfolio in manufacturing."
+        },
+        {
+          "date": "2021-12-01",
+          "transaction_type": "investment",
+          "target": "Sierra Space",
+          "amount": "$1 billion",
+          "description": "DNS Capital led a significant investment in Sierra Space, a tech company focused on space exploration."
+        }
+      ],
+      "strategy_insights": "DNS Capital focuses on long-term investments in sectors such as manufacturing, technology, and real estate. Their strategy reflects a commitment to diversifying their portfolio while supporting innovative companies.",
+      "leadership_changes": "No notable leadership changes reported in the past 10 years.",
+      "news_presence_score": 8
+    }
+  ]
+}

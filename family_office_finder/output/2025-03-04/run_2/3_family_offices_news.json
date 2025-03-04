@@ -1,0 +1,142 @@
+{
+  "family_offices": [
+    {
+      "name": "DNS Capital",
+      "recent_activities": [
+        {
+          "date": "2021-02-17",
+          "headline": "Recogni Raises $48.9 Million Series B Investment",
+          "description": "In a financing round led by WRVI Capital, Recogni raised $48.9 million with participation from several investors including DNS Capital.",
+          "source": "DNS Capital",
+          "url": "https://www.dnscap.com/2021/02/17/recogni-raises-48-9-million-series-b-investment-led-by-wrvi-capital/",
+          "activity_type": "investment",
+          "full_text": "Recogni has successfully closed a $48.9 million Series B investment round led by WRVI Capital, supplemented by support from DNS Capital, GreatPoint Ventures, Toyota AI Ventures, BMW i Ventures, and Fluxunit \u2013 OSRAM Ventures. The funds are set to accelerate the deployment of Recogni\u2019s advanced perception technology."
+        }
+      ],
+      "key_transactions": [
+        {
+          "date": "2021-02-17",
+          "transaction_type": "investment",
+          "target": "Recogni",
+          "amount": "48.9 million",
+          "description": "DNS Capital participated in the Series B round to support Recogni's growth."
+        }
+      ],
+      "strategy_insights": "DNS Capital focuses on long-term investments in technology and innovative sectors, aiming to partner with founders and management teams that have proven track records.",
+      "leadership_changes": "No significant leadership changes reported in the past 10 years.",
+      "news_presence_score": 6
+    },
+    {
+      "name": "APFamily",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "Limited information available about the investment strategies or activities of APFamily.",
+      "leadership_changes": "No notable changes reported in the past 10 years.",
+      "news_presence_score": 2
+    },
+    {
+      "name": "Promus Holdings",
+      "recent_activities": [
+        {
+          "date": "2024-01-15",
+          "headline": "Promus Equity Partners Focuses on Tech Investments",
+          "description": "Promus Equity Partners recently launched a new investment strategy centered around technology-related companies across North America and Western Europe.",
+          "source": "Promus Holdings",
+          "url": "https://promusequity.com/",
+          "activity_type": "strategy_shift",
+          "full_text": "Promus Equity is now focusing on technology-related investments as part of a broader strategy to diversify its portfolio. The partners believe that tech innovations are crucial for long-term growth and sustainability in various sectors."
+        }
+      ],
+      "key_transactions": [],
+      "strategy_insights": "Promus Holdings is shifting its investment focus towards technology, reflecting a trend in the family office sector that favors growth-oriented industries.",
+      "leadership_changes": "Jack Allen joined the team as an associate in 2024.",
+      "news_presence_score": 5
+    },
+    {
+      "name": "Henry Family Office",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "Limited information available about specific investment strategies or recent activities.",
+      "leadership_changes": "Wendi Henry remains the Managing Partner with no notable changes reported.",
+      "news_presence_score": 3
+    },
+    {
+      "name": "Cresset Capital",
+      "recent_activities": [
+        {
+          "date": "2022-01-10",
+          "headline": "Cresset Secures $150 Million Investment from Constellation Wealth",
+          "description": "Cresset Capital announced the completion of a $150 million minority investment from Constellation Wealth Capital, enhancing its growth potential.",
+          "source": "Cresset Capital",
+          "url": "https://cressetcapital.com/post/cresset-secures-150m-investment-from-constellation-wealth",
+          "activity_type": "fundraising",
+          "full_text": "Cresset Capital has successfully raised $150 million in a minority, long-duration investment from Constellation Wealth Capital."
+        },
+        {
+          "date": "2023-05-15",
+          "headline": "Cresset Launches New Private Equity Fund of Funds",
+          "description": "Cresset Capital launched a new private equity fund of funds, focusing on emerging managers.",
+          "source": "Private Equity Career",
+          "url": "https://privateequitycareer.com/cresset-launches-new-pe-fofs-amid-hiring-spree-2/",
+          "activity_type": "strategy_shift",
+          "full_text": "Cresset Capital has introduced a new private equity fund of funds aiming to leverage emerging managers."
+        }
+      ],
+      "key_transactions": [
+        {
+          "date": "2022-01-10",
+          "transaction_type": "investment",
+          "target": "Cresset Capital",
+          "amount": "150 million",
+          "description": "Funding secured from Constellation Wealth to expand Cresset's investment capabilities."
+        }
+      ],
+      "strategy_insights": "Cresset's recent focus on growth-oriented investment strategies, including private equity fund of funds and equity stakes in innovative firms.",
+      "leadership_changes": "No notable leadership changes reported in the last 10 years.",
+      "news_presence_score": 8
+    },
+    {
+      "name": "Gresham Partners",
+      "recent_activities": [
+        {
+          "date": "2024-01-10",
+          "headline": "Gresham Partners Investment Update Q2 2024",
+          "description": "Gresham Partners provided an investment update highlighting key performance metrics and future outlooks for its investment portfolio.",
+          "source": "Gresham Partners",
+          "url": "https://www.greshampartners.com/insights/gresham-partners-investment-update-q2-2024/",
+          "activity_type": "investment",
+          "full_text": "In the Q2 2024 Investment Update, Gresham Partners outlined its performance metrics, discussing highlights from the past quarter."
+        },
+        {
+          "date": "2023-11-22",
+          "headline": "Irene Zhang Promoted to Investment Director",
+          "description": "Gresham Partners announced the promotion of Irene Zhang to investment director, enhancing its investment strategy execution.",
+          "source": "Family Wealth Report",
+          "url": "https://www.familywealthreport.com/article.php/Who%27s-Moving-Where-In-Wealth-Management%3F-%E2%80%93-Gresham-Partners%2C-Integrated-Partners%2C-Others?id=203616",
+          "activity_type": "leadership_change",
+          "full_text": "Gresham Partners has promoted Irene Zhang to investment director."
+        }
+      ],
+      "key_transactions": [],
+      "strategy_insights": "Gresham Partners continues to leverage its expertise in financial services and residential sectors while maintaining a focus on client-centric investment strategies.",
+      "leadership_changes": "Irene Zhang was promoted to investment director in November 2023.",
+      "news_presence_score": 7
+    },
+    {
+      "name": "Bessemer Trust",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "Bessemer Trust continues to provide comprehensive wealth management and investment services for ultra-high-net-worth families.",
+      "leadership_changes": "No notable changes reported in leadership within the last 10 years.",
+      "news_presence_score": 4
+    },
+    {
+      "name": "Whitnell Family Office",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "No recent news available for this family office.",
+      "leadership_changes": "No leadership changes reported recently.",
+      "news_presence_score": 1
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "run_date": "2025-03-03",
+  "run_time": "2025-03-03_18-23-36",
+  "run_number": 11,
+  "discovery_count": 0,
+  "profile_count": 0,
+  "news_count": 10,
+  "files_generated": [
+    "1_family_offices_list.json",
+    "1_family_offices_list.csv",
+    "",
+    "",
+    "3_family_offices_news.json",
+    "3_family_offices_news.csv",
+    "4_combined_results.json"
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "run_info": {
+    "date": "2025-03-03",
+    "run_number": 15,
+    "timestamp": "2025-03-03_20-25-15"
+  },
+  "discovery_results": {
+    "family_office_profiles": [
+      {
+        "name": "Najarian Family Office",
+        "url": "https://www.najarianfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Investment management and strategic advisory services for the Najarian family.",
+        "confidence_score": 8,
+        "aum_evidence": "The family office manages significant wealth from the Najarian family, known for their achievements in finance and media."
+      },
+      {
+        "name": "Henry Family Office",
+        "url": "https://henryfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $100M",
+        "investment_focus": "Strategic investments across various asset classes.",
+        "confidence_score": 9,
+        "aum_evidence": "The diversified investment strategies employed by the office indicate a substantial level of assets under management."
+      },
+      {
+        "name": "ArchPoint Investors",
+        "url": "https://archpointinvestors.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Investment strategy focused on private equity and venture capital.",
+        "confidence_score": 8,
+        "aum_evidence": "The firm\u2019s focus on large-scale commercial investments suggests a significant level of AUM."
+      },
+      {
+        "name": "Stokes Family Office",
+        "url": "https://stokesfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Focused on private equity and real estate investments.",
+        "confidence_score": 7,
+        "aum_evidence": "The office's engagement in multiple substantial investment projects indicates high AUM."
+      },
+      {
+        "name": "G1 Partners, LLC",
+        "url": "https://www.g1team.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Investment management and advisory for ultra-high-net-worth families.",
+        "confidence_score": 7,
+        "aum_evidence": "The firm's management of diverse investment assets suggests a significant portfolio size."
+      },
+      {
+        "name": "Whitnell Family Office",
+        "url": "https://rcm.rockco.com/whitnell/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Comprehensive wealth management and advisory services tailored for the Whitnell family.",
+        "confidence_score": 9,
+        "aum_evidence": "Serves affluent families and handles substantial financial portfolios, indicating high AUM."
+      },
+      {
+        "name": "Cresset Capital",
+        "url": "https://cressetcapital.com/locations/chicago/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $100M",
+        "investment_focus": "Wealth management and investment services for high-net-worth individuals.",
+        "confidence_score": 9,
+        "aum_evidence": "Cresset is known to manage large sums for ultra-high-net-worth families, confirming its substantial AUM."
+      }
+    ]
+  },
+  "profile_results": {},
+  "news_results": [
+    {
+      "name": "Najarian Family Office",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "Limited recent news presence indicates potentially stable investment strategies focused on their legacy, but specific details are lacking.",
+      "leadership_changes": "No reported changes in leadership.",
+      "news_presence_score": 2
+    },
+    {
+      "name": "Henry Family Office",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "Information is sparse; suggests traditional investment focus with no significant changes or notable transactions identified.",
+      "leadership_changes": "No notable leadership changes reported.",
+      "news_presence_score": 3
+    },
+    {
+      "name": "ArchPoint Investors",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "Limited information suggests a stable investment approach, with no changes in focus areas or leadership.",
+      "leadership_changes": "No reported changes.",
+      "news_presence_score": 2
+    },
+    {
+      "name": "Stokes Family Office",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "Engagement in multiple substantial investment projects noted, indicating consistent investment focus.",
+      "leadership_changes": "No changes highlighted in recent reports.",
+      "news_presence_score": 3
+    },
+    {
+      "name": "G1 Partners, LLC",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "Information is limited; hints at stability in operations but lacks significant news coverage or transaction details.",
+      "leadership_changes": "No reported changes in leadership.",
+      "news_presence_score": 2
+    },
+    {
+      "name": "Whitnell Family Office",
+      "recent_activities": [
+        {
+          "date": "2021-01-06",
+          "headline": "Rockefeller Capital Management Acquires Whitnell & Co.",
+          "description": "Rockefeller Capital Management has entered into an agreement to acquire Whitnell & Co., a $1.4 billion wealth management firm based in Chicago.",
+          "source": "ThinkAdvisor",
+          "url": "https://www.thinkadvisor.com/2021/01/06/rockefeller-adds-1-4b-illinois-ria/",
+          "activity_type": "acquisition",
+          "full_text": "Rockefeller Capital Management has reached an agreement to acquire Oak Brook, Illinois-based Whitnell & Co., a $1.4 billion RIA."
+        }
+      ],
+      "key_transactions": [
+        {
+          "date": "2021-01-06",
+          "transaction_type": "acquisition",
+          "target": "Whitnell & Co.",
+          "amount": "$1.4 billion",
+          "description": "Whitnell & Co. was acquired to enhance Rockefeller's wealth management footprint in the Midwest."
+        }
+      ],
+      "strategy_insights": "The acquisition indicates a strategic push to acquire client bases and expand wealth management services in the Midwest.",
+      "leadership_changes": "No specific changes reported.",
+      "news_presence_score": 8
+    },
+    {
+      "name": "Cresset Capital",
+      "recent_activities": [
+        {
+          "date": "2023-01-15",
+          "headline": "Cresset Secures $150M Minority Investment from Constellation Wealth Capital",
+          "description": "Cresset announced a strategic investment aimed at enhancing its growth and expansion in wealth management services.",
+          "source": "Cresset Capital",
+          "url": "https://cressetcapital.com/post/cresset-announces-minority-investment-from-constellation-wealth-capital/",
+          "activity_type": "fundraising",
+          "full_text": "Cresset announced that it has closed on a $150 million minority, long-duration investment from Constellation Wealth Capital."
+        }
+      ],
+      "key_transactions": [
+        {
+          "date": "2023-01-15",
+          "transaction_type": "investment",
+          "target": "Constellation Wealth Capital",
+          "amount": "$150 million",
+          "description": "Investment to expand Cresset's services and growth in the ultra-high-net-worth space."
+        }
+      ],
+      "strategy_insights": "Cresset appears to be actively focusing on expanding its wealth management offerings through notable investments.",
+      "leadership_changes": "No notable leadership changes reported.",
+      "news_presence_score": 7
+    }
+  ]
+}

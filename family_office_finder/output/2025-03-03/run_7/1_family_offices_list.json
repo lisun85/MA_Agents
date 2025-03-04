@@ -1,0 +1,92 @@
+[
+  {
+    "name": "DNS Capital",
+    "url": "https://www.dnscap.com/",
+    "location": "Chicago, IL",
+    "estimated_aum": "Over $100M",
+    "investment_focus": "Venture capital, private equity, and investment management for the Pritzker family.",
+    "confidence_score": 9,
+    "aum_evidence": "The firm is associated with the Pritzker family, a well-known ultra-high-net-worth family, indicating substantial AUM."
+  },
+  {
+    "name": "Beverly Capital",
+    "url": "https://beverly-capital.com/",
+    "location": "Beverly Hills, CA",
+    "estimated_aum": "Estimated to be above $100M",
+    "investment_focus": "Private investments and asset management.",
+    "confidence_score": 8,
+    "aum_evidence": "The firm's management of substantial private investment portfolios points to significant AUM."
+  },
+  {
+    "name": "Pitcairn",
+    "url": "https://www.pitcairn.com/home",
+    "location": "Philadelphia, PA",
+    "estimated_aum": "Over $100M",
+    "investment_focus": "Family wealth management, private equity.",
+    "confidence_score": 9,
+    "aum_evidence": "Active management for ultra-high-net-worth families indicates a significant AUM."
+  },
+  {
+    "name": "Promus Holdings",
+    "url": "https://promusholdings.com",
+    "location": "Chicago, IL",
+    "estimated_aum": "Estimated to be at least $100M",
+    "investment_focus": "Private equity and venture capital investments.",
+    "confidence_score": 8,
+    "aum_evidence": "Involvement in large-scale investments suggests substantial wealth under management."
+  },
+  {
+    "name": "APFamily",
+    "url": "https://apfamilyoffice.com/",
+    "location": "Chicago, IL",
+    "estimated_aum": "Estimated at $100M+",
+    "investment_focus": "Multi-asset class investment strategies.",
+    "confidence_score": 8,
+    "aum_evidence": "The diversified asset strategy implies significant assets are managed."
+  },
+  {
+    "name": "Mandell Ventures",
+    "url": "https://www.mandellventuresllc.com/",
+    "location": "Chicago, IL",
+    "estimated_aum": "Over $100M",
+    "investment_focus": "Investments across a variety of technology sectors.",
+    "confidence_score": 8,
+    "aum_evidence": "Focus on diverse sectors and portfolio suggests substantial AUM."
+  },
+  {
+    "name": "Chicago Capital",
+    "url": "https://www.chi-cap.com/",
+    "location": "Chicago, IL",
+    "estimated_aum": "Estimated to exceed $100M",
+    "investment_focus": "Wealth management and family office services.",
+    "confidence_score": 7,
+    "aum_evidence": "The firm provides services to ultra-high-net-worth clients indicating large AUM."
+  },
+  {
+    "name": "Ariel Investments",
+    "url": "https://www.arielinvestments.com/",
+    "location": "Chicago, IL",
+    "estimated_aum": "Approximately $13 billion (not solely a family office)",
+    "investment_focus": "Equity investments in various sectors.",
+    "confidence_score": 6,
+    "aum_evidence": "While primarily an investment management firm, it has family office characteristics in its operations."
+  },
+  {
+    "name": "Gresham Partners",
+    "url": "https://www.greshampartners.com/",
+    "location": "Chicago, IL",
+    "estimated_aum": "Over $100M",
+    "investment_focus": "Investment advisory and wealth management for families.",
+    "confidence_score": 9,
+    "aum_evidence": "The provision of wealth management services to families aligns with characteristics of family offices."
+  },
+  {
+    "name": "Henry Family Office",
+    "url": "https://henryfamilyoffice.com/",
+    "location": "Chicago, IL",
+    "estimated_aum": "Over $100M",
+    "investment_focus": "Strategic investments in various asset classes.",
+    "confidence_score": 8,
+    "aum_evidence": "The nature of the investments managed indicates a significant AUM."
+  }
+]
