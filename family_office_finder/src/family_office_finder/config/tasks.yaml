@@ -97,11 +97,31 @@ profile_scraper_task:
 
 news_scraper_task:
  description: >
-   For each family office profiled in the previous task: {profiled_offices}
+   For each family office in this list: {profiled_offices}
   
    Research and collect recent news articles, press releases, and media coverage related to these family offices from the past 10 years.
    
+   IMPORTANT: You must process ALL family offices in the list, not just the first one.
+   
    IMPORTANT: Your final output MUST be valid JSON. Double-check your formatting before submitting.
+   To ensure valid JSON:
+   - Use double quotes (") for all strings and keys, not single quotes (')
+   - Don't include trailing commas in arrays or objects
+   - Ensure all strings are properly escaped
+   - Format your response as a single JSON object with this structure:
+   
+   {
+     "family_offices": [
+       {
+         "name": "Family Office Name",
+         "recent_activities": [],
+         "key_transactions": [],
+         "strategy_insights": "",
+         "leadership_changes": "",
+         "news_presence_score": 0
+       }
+     ]
+   }
    
    Focus particularly on:
    1. Recent acquisitions or investments (past 10 years)
@@ -135,42 +155,43 @@ news_scraper_task:
    3. Ensure you're gathering at least 3-5 articles per family office when available
    
    If little or no news is found for a family office, note this and provide whatever limited information you can find.
-  
- expected_output: >
-   A structured JSON array containing news intelligence on each family office, including:
    
-   [
-     {
-       "name": "Family Office Name",
-       "recent_activities": [
-         {
-           "date": "YYYY-MM-DD", 
-           "headline": "Brief headline or summary",
-           "description": "Detailed description of the activity",
-           "source": "Source of the information (e.g., website name)",
-           "url": "URL to the news source (if available)",
-           "activity_type": "acquisition|investment|fundraising|leadership_change|strategy_shift|other",
-           "full_text": "The complete text of the article or press release"
-         }
-       ],
-       "key_transactions": [
-         {
-           "date": "YYYY-MM-DD",
-           "transaction_type": "acquisition|investment|partnership",
-           "target": "Name of the acquired/invested company",
-           "amount": "Dollar amount if available",
-           "description": "Brief description of the transaction"
-         }
-       ],
-       "strategy_insights": "Analysis of the family office's investment strategy based on news",
-       "leadership_changes": "Notable leadership changes in the past 10 years",
-       "news_presence_score": 7 // 1-10 scale indicating how active/visible the family office is in news
-     }
-   ]
+ expected_output: >
+   A structured JSON object containing news intelligence on each family office, with this format:
+   
+   {
+     "family_offices": [
+       {
+         "name": "Family Office Name",
+         "recent_activities": [
+           {
+             "date": "YYYY-MM-DD", 
+             "headline": "Brief headline or summary",
+             "description": "Detailed description of the activity",
+             "source": "Source of the information (e.g., website name)",
+             "url": "URL to the news source (if available)",
+             "activity_type": "acquisition|investment|fundraising|leadership_change|strategy_shift|other",
+             "full_text": "The complete text of the article or press release"
+           }
+         ],
+         "key_transactions": [
+           {
+             "date": "YYYY-MM-DD",
+             "transaction_type": "acquisition|investment|partnership",
+             "target": "Name of the acquired/invested company",
+             "amount": "Dollar amount if available",
+             "description": "Brief description of the transaction"
+           }
+         ],
+         "strategy_insights": "Analysis of the family office's investment strategy based on news",
+         "leadership_changes": "Notable leadership changes in the past 10 years",
+         "news_presence_score": 7
+       }
+     ]
+   }
    
    Keep the structure consistent but note that some family offices may have minimal or no news coverage.
    In such cases, provide what information is available and note the limited news presence.
-   
  agent: family_office_news_agent
  context:
-   - profile_scraper_task
+   - discovery_task

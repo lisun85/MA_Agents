@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 import warnings
 
 # Add this at the top of your main.py file
-warnings.filterwarnings("ignore", category=DeprecationWarning)
+#warnings.filterwarnings("ignore", category=DeprecationWarning)
 #warnings.filterwarnings("ignore", category=UserWarning)
 
 # Set up logging
@@ -216,28 +216,34 @@ class DataProcessor:
                 team_members = []
                 for member in office["team_members"]:
                     if isinstance(member, dict):
-                        member_str = f"{member.get('name', 'Unknown')}: {member.get('role', 'Unknown')}"
-                        team_members.append(member_str)
+                        name = member.get('name', '')
+                        title = member.get('title', member.get('role', ''))
+                        if name:
+                            member_str = f"{name}: {title}" if title else name
+                            team_members.append(member_str)
                 team_members_str = "; ".join(team_members)
             
+            # Extract contact information
+            address = ""
+            phone = ""
+            email = ""
+            if "contact_information" in office and isinstance(office["contact_information"], dict):
+                address = office["contact_information"].get("address", "")
+                phone = office["contact_information"].get("phone_number", "")
+                email = office["contact_information"].get("email", "")
+            
             # Create flattened profile
-            target_sectors = ""
-            if isinstance(office.get("target_sectors"), list):
-                target_sectors = ", ".join(office.get("target_sectors", []))
-            else:
-                target_sectors = office.get("target_sectors", "")
-                
             flat_profile = {
                 "name": office.get("name", ""),
-                "website": office.get("website", office.get("url", "")),
-                "address": office.get("address", ""),
-                "phone": office.get("phone", ""),
-                "email": office.get("email", ""),
+                "website": office.get("url", office.get("website", "")),
+                "address": address,
+                "phone": phone,
+                "email": email,
                 "founding_year": office.get("founding_year", ""),
-                "aum_estimate": office.get("aum_estimate", ""),
+                "aum_estimate": office.get("aum_estimate", office.get("estimated_aum", "")),
                 "aum_evidence": office.get("aum_evidence", ""),
                 "investment_philosophy": office.get("investment_philosophy", ""),
-                "target_sectors": target_sectors,
+                "target_sectors": office.get("target_sectors", office.get("investment_focus", "")),
                 "geographic_preferences": office.get("geographic_preferences", ""),
                 "typical_investment_size": office.get("typical_investment_size", ""),
                 "investment_types": office.get("investment_types", ""),
@@ -524,85 +530,32 @@ class ResultsProcessor:
             logger.error(traceback.format_exc())
     
     def process_news_output(self, task_output):
-        """Process the output from the news agent"""
+        """Process news scraper task output"""
         try:
-            # Clean and parse JSON
-            cleaned_news = self.json_processor.clean_json_output(task_output.raw)
-            logger.info(f"News data snippet: {cleaned_news[:200]}...")
+            # Clean the JSON output by removing any code block wrapper
+            cleaned_output = self.json_processor.clean_json_output(task_output.raw)
             
-            # Log the full raw output for debugging if it's not too long
-            if len(task_output.raw) < 1000:
-                logger.info(f"Full news raw output: {task_output.raw}")
+            # Try to parse the JSON
+            news_output = self.json_processor.parse_json(cleaned_output)
             
-            parsed_output = self.json_processor.parse_json(cleaned_news)
-            
-            if not parsed_output:
+            if not news_output:
                 logger.warning("Failed to parse news output")
-                
-                # Create fallback empty news data for all offices in profile data
-                if self.results["profile"] and "family_offices" in self.results["profile"]:
-                    profile_data = self.results["profile"]["family_offices"]
-                    logger.info(f"Creating fallback news data for {len(profile_data)} family offices")
-                    
-                    # Create minimal news data structure
-                    news_data = []
-                    for office in profile_data:
-                        news_item = {
-                            "name": office.get("name", ""),
-                            "recent_activities": [],
-                            "key_transactions": [],
-                            "strategy_insights": "No recent news available for this family office.",
-                            "leadership_changes": "No leadership changes reported recently.",
-                            "news_presence_score": 1
-                        }
-                        news_data.append(news_item)
-                    
-                    news_output = {"family_offices": news_data}
-                    self.results["news"] = news_output
-                    self.counts["news"] = len(news_data)
-                    return
-                else:
-                    logger.error("No profile data available for fallback news creation")
-                    return
+                return
             
-            # Standardize data structure
+            # Save the news data
+            self.results["news"] = news_output
+            
+            # Extract news data
             news_data = []
-            if isinstance(parsed_output, dict):
-                if "family_offices" in parsed_output:
-                    news_data = parsed_output["family_offices"]
-            elif isinstance(parsed_output, list):
-                news_data = parsed_output
-            
-            # Check if news data only covers a subset of profile offices
-            if self.results["profile"] and "family_offices" in self.results["profile"]:
-                profile_data = self.results["profile"]["family_offices"]
-                
-                # Get the names of offices in the news data
-                news_office_names = set(office.get("name", "") for office in news_data)
-                
-                # Identify missing offices
-                for office in profile_data:
-                    office_name = office.get("name", "")
-                    if office_name and office_name not in news_office_names:
-                        logger.info(f"News data missing for office: {office_name} - creating fallback entry")
-                        
-                        # Create a fallback news entry
-                        news_item = {
-                            "name": office_name,
-                            "recent_activities": [],
-                            "key_transactions": [],
-                            "strategy_insights": "No recent news available for this family office.",
-                            "leadership_changes": "No leadership changes reported recently.",
-                            "news_presence_score": 1
-                        }
-                        news_data.append(news_item)
+            if isinstance(news_output, dict):
+                if "family_offices" in news_output:
+                    news_data = news_output["family_offices"]
+                elif "news" in news_output:
+                    news_data = news_output["news"]
+            elif isinstance(news_output, list):
+                news_data = news_output
             
             self.counts["news"] = len(news_data)
-            logger.info(f"Processed {len(news_data)} news records")
-            
-            # Create a standardized structure
-            news_output = {"family_offices": news_data}
-            self.results["news"] = news_output
             
             # Save as JSON
             json_path = self.file_manager.save_json(news_output, "3_family_offices_news.json")
@@ -612,7 +565,7 @@ class ResultsProcessor:
             # Format and save as CSV
             flattened_news = self.data_processor.format_news_for_csv(news_data)
             news_fieldnames = ["name", "activity_date", "activity_headline", "activity_description", 
-                          "activity_source", "activity_url", "activity_type",
+                          "activity_source", "activity_url", "activity_type", "full_text",
                           "strategy_insights", "leadership_changes", "news_presence_score"]
             csv_path = self.file_manager.save_csv(flattened_news, "3_family_offices_news.csv", news_fieldnames)
             if csv_path:
@@ -749,36 +702,43 @@ def run():
             logger.info(f"Processing profile output (length: {len(result.tasks_output[1].raw)})")
             results_processor.process_profile_output(result.tasks_output[1])
         
-        # For news agent, use both discovery and profile data
+        # For news agent, use discovery data directly if profile data is missing
         if len(result.tasks_output) > 2:
             logger.info(f"Processing news output (length: {len(result.tasks_output[2].raw)})")
             results_processor.process_news_output(result.tasks_output[2])
         else:
             logger.warning("News task output is missing! Attempting to fix the issue...")
             
-            # Ensure we have profile data (either from original run or our fix)
-            if results_processor.results["profile"] and "family_offices" in results_processor.results["profile"]:
-                profile_data = results_processor.results["profile"]["family_offices"]
+            # Use discovery data directly for news agent
+            if results_processor.results["discovery"]:
+                discovery_data = None
+                if "family_offices" in results_processor.results["discovery"]:
+                    discovery_data = results_processor.results["discovery"]["family_offices"]
+                elif "family_office_profiles" in results_processor.results["discovery"]:
+                    discovery_data = results_processor.results["discovery"]["family_office_profiles"]
                 
-                # Create a modified news scraper task with explicit input
-                news_task = crew_instance.news_scraper_task()
-                context = {"profiled_offices": profile_data}
-                
-                # Execute news task directly
-                logger.info(f"Executing news task with explicit context...")
-                news_agent = crew_instance.family_office_news_agent()
-                news_result = news_agent.execute_task(news_task, context=context)
-                
-                # Create a TaskOutput-like object
-                class MockTaskOutput:
-                    def __init__(self, raw):
-                        self.raw = raw
-                
-                # Process the manually executed news task
-                mock_output = MockTaskOutput(news_result)
-                results_processor.process_news_output(mock_output)
+                if discovery_data:
+                    # Create a modified news scraper task with explicit input
+                    news_task = crew_instance.news_scraper_task()
+                    context = {"profiled_offices": discovery_data}
+                    
+                    # Execute news task directly
+                    logger.info(f"Executing news task with discovery data...")
+                    news_agent = crew_instance.family_office_news_agent()
+                    news_result = news_agent.execute_task(news_task, context=context)
+                    
+                    # Create a TaskOutput-like object
+                    class MockTaskOutput:
+                        def __init__(self, raw):
+                            self.raw = raw
+                    
+                    # Process the manually executed news task
+                    mock_output = MockTaskOutput(news_result)
+                    results_processor.process_news_output(mock_output)
+                else:
+                    logger.error("Could not find discovery data to pass to news agent")
             else:
-                logger.error("Could not find profile data to pass to news agent")
+                logger.error("No discovery data available for news agent")
         
         # Save combined results and print summary
         results_processor.save_combined_results()

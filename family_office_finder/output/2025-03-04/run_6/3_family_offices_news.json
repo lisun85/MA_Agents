@@ -1,0 +1,94 @@
+{
+  "family_offices": [
+    {
+      "name": "DNS Capital",
+      "recent_activities": [
+        {
+          "date": "2025-01-02",
+          "headline": "Vermillio Secures $16 Million Funding From Sony Music, DNS Capital",
+          "description": "Vermillio, an AI licensing and protection platform, secured $16 million in series A funding from Sony Music and DNS Capital.",
+          "source": "Variety",
+          "url": "https://variety.com/2025/music/news/vermillio-sony-music-dns-capital-16-million-funding-1236326448/",
+          "activity_type": "fundraising",
+          "full_text": "Vermillio has developed an AI-driven platform for licensing and protection of music rights, and the funding will help expand its technology and offerings."
+        },
+        {
+          "date": "2023-06-11",
+          "headline": "Food Innovator Hero Bread\u2122 Announces Series B Fundraise",
+          "description": "Hero Bread announced a Series B fundraise to expand its availability in grocery retail.",
+          "source": "DNS Capital",
+          "url": "https://www.dnscap.com/2023/06/11/food-innovator-hero-bread-announces-series-b-fundraise-and-national-retail-launch-in-2300-stores/",
+          "activity_type": "fundraising",
+          "full_text": "The Series B funding will be utilized to accelerate the national retail launch of Hero Bread products, which are known for being healthier alternatives to conventional bread."
+        }
+      ],
+      "key_transactions": [
+        {
+          "date": "2022-01-01",
+          "transaction_type": "acquisition",
+          "target": "IMI Holding Corp.",
+          "amount": "Undisclosed",
+          "description": "DNS Capital acquired IMI Holding Corp., which includes entities like Industrial Magnetics, enhancing its portfolio in the industrial sector."
+        },
+        {
+          "date": "2021-11-29",
+          "transaction_type": "acquisition",
+          "target": "Controlling interest in Penguins",
+          "amount": "Undisclosed",
+          "description": "DNS Capital entered into a deal for acquiring a controlling interest in the Penguins, pending approval from the NHL Board of Governors."
+        }
+      ],
+      "strategy_insights": "DNS Capital pursues a long-term, flexible investment strategy, focusing on building relationships with exceptional business owners and management teams.",
+      "leadership_changes": "No notable leadership changes found in the last 10 years.",
+      "news_presence_score": 8
+    },
+    {
+      "name": "Cresset Capital",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "No recent news available for this family office.",
+      "leadership_changes": "No leadership changes reported recently.",
+      "news_presence_score": 1
+    },
+    {
+      "name": "Gresham Partners",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "No recent news available for this family office.",
+      "leadership_changes": "No leadership changes reported recently.",
+      "news_presence_score": 1
+    },
+    {
+      "name": "Promus Holdings",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "No recent news available for this family office.",
+      "leadership_changes": "No leadership changes reported recently.",
+      "news_presence_score": 1
+    },
+    {
+      "name": "Henry Family Office",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "No recent news available for this family office.",
+      "leadership_changes": "No leadership changes reported recently.",
+      "news_presence_score": 1
+    },
+    {
+      "name": "Beverly Capital",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "No recent news available for this family office.",
+      "leadership_changes": "No leadership changes reported recently.",
+      "news_presence_score": 1
+    },
+    {
+      "name": "Chicago Capital",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "No recent news available for this family office.",
+      "leadership_changes": "No leadership changes reported recently.",
+      "news_presence_score": 1
+    }
+  ]
+}
