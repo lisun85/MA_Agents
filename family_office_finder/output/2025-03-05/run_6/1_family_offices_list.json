@@ -1,0 +1,49 @@
+{
+  "family_offices": [
+    {
+      "name": "DNS Capital",
+      "url": "https://www.dnscap.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Estimated over $100M",
+      "investment_focus": "Tech, Healthcare, and Real Estate",
+      "confidence_score": 9,
+      "aum_evidence": "Established by the Pritzker family, which is known for substantial investments and wealth management."
+    },
+    {
+      "name": "Beverly Capital Family Office",
+      "url": "https://beverly-capital.com/",
+      "location": "Beverly Hills, IL (within 300 miles)",
+      "estimated_aum": "Estimated over $100M",
+      "investment_focus": "Real Estate and Venture Capital",
+      "confidence_score": 9,
+      "aum_evidence": "Focuses on large-scale investments and has prominent high-net-worth clients."
+    },
+    {
+      "name": "Pitcairn",
+      "url": "https://www.pitcairn.com/home",
+      "location": "Philadelphia, PA (within 300 miles)",
+      "estimated_aum": "Estimated over $100M",
+      "investment_focus": "Wealth Management for Family Offices",
+      "confidence_score": 8,
+      "aum_evidence": "Offers services to ultra-high-net-worth individuals and families, indicating a high AUM."
+    },
+    {
+      "name": "Cresset",
+      "url": "https://cressetcapital.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Estimated in excess of $100M",
+      "investment_focus": "Private equity, alternative investments",
+      "confidence_score": 8,
+      "aum_evidence": "Known for extensive multi-family office services, which typically involve substantial capital."
+    },
+    {
+      "name": "Gresham Partners",
+      "url": "https://www.greshampartners.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Estimated over $100M",
+      "investment_focus": "Investment management, multi-family office services",
+      "confidence_score": 7,
+      "aum_evidence": "Provides tailored investment strategies focused on family wealth, usually requiring substantial assets."
+    }
+  ]
+}

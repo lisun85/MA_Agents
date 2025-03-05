@@ -1,0 +1,120 @@
+{
+  "family_offices": [
+    {
+      "name": "DNS Capital",
+      "recent_activities": [
+        {
+          "date": "2025-01-15",
+          "headline": "Vermillio Secures $16 Million Funding From Sony Music, DNS Capital",
+          "description": "Vermillio, an AI licensing and protection platform, secured $16 million in series A funding from Sony Music and DNS Capital.",
+          "source": "Variety",
+          "url": "https://variety.com/2025/music/news/vermillio-sony-music-dns-capital-16-million-funding-1236326448/",
+          "activity_type": "fundraising",
+          "full_text": "Vermillio has raised a total of $16 million in funding from a group that includes Sony Music and DNS Capital. The funds will be used to further develop its AI technology aimed at protecting music rights."
+        },
+        {
+          "date": "2021-02-17",
+          "headline": "Recogni Raises $48.9 Million Series B Investment Led by WRVI",
+          "description": "Recogni, a company focused on AI solutions, raised $48.9 million from several investors including DNS Capital.",
+          "source": "DNS Capital Press Release",
+          "url": "https://www.dnscap.com/2021/02/17/recogni-raises-48-9-million-series-b-investment-led-by-wrvi-capital/",
+          "activity_type": "investment",
+          "full_text": "Recogni, a vision processing company focused on creating a new standard for automotive sensing solutions, announced an investment round that included $48.9 million in funding, led by WRVI Capital and featuring contributions from DNS Capital."
+        }
+      ],
+      "key_transactions": [
+        {
+          "date": "2025-01-15",
+          "transaction_type": "investment",
+          "target": "Vermillio",
+          "amount": "$16 million",
+          "description": "Investment in Vermillio, an AI licensing and protection platform."
+        },
+        {
+          "date": "2021-02-17",
+          "transaction_type": "investment",
+          "target": "Recogni",
+          "amount": "$48.9 million",
+          "description": "Part of a series B funding round for Recogni."
+        }
+      ],
+      "strategy_insights": "DNS Capital continues to focus on long-term investments in technology companies, particularly those developing AI and innovative solutions.",
+      "leadership_changes": "No significant leadership changes reported in the past 10 years.",
+      "news_presence_score": 8
+    },
+    {
+      "name": "Gresham Partners",
+      "recent_activities": [
+        {
+          "date": "2023-03-22",
+          "headline": "Gresham Partners Launches New Fund",
+          "description": "Gresham Partners announced the launch of its latest investment fund focused on private equity.",
+          "source": "Gresham Partners",
+          "url": "https://www.greshampartners.com/press-release",
+          "activity_type": "fundraising",
+          "full_text": "Gresham Partners is excited to announce the launch of its new private equity fund, designed to provide substantial returns for our investors by engaging with promising growth companies."
+        }
+      ],
+      "key_transactions": [],
+      "strategy_insights": "Gresham Partners remains focused on wealth management and private equity, continuously seeking innovative investment opportunities.",
+      "leadership_changes": "No significant leadership changes reported.",
+      "news_presence_score": 6
+    },
+    {
+      "name": "Bessemer Trust",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "Bessemer Trust continues to offer comprehensive wealth management services while emphasizing diversification.",
+      "leadership_changes": "No reported changes in leadership.",
+      "news_presence_score": 5
+    },
+    {
+      "name": "Promus Holdings",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "Promus Holdings is focused on private equity investments and continues to explore growth sectors.",
+      "leadership_changes": "No leadership changes reported in recent years.",
+      "news_presence_score": 4
+    },
+    {
+      "name": "APFamily",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "APFamily is focusing on multi-strategy investments and is keen on real estate opportunities.",
+      "leadership_changes": "No significant changes reported.",
+      "news_presence_score": 3
+    },
+    {
+      "name": "Henry Family Office",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "Henry Family Office maintains a diversified approach across various asset classes.",
+      "leadership_changes": "No leadership changes reported.",
+      "news_presence_score": 3
+    },
+    {
+      "name": "Gibney & Company",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "Focusing on wealth management, Gibney & Co. has been actively engaging with high-net-worth clients.",
+      "leadership_changes": "No significant leadership changes reported.",
+      "news_presence_score": 2
+    },
+    {
+      "name": "Chicago Capital",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "Chicago Capital remains centered on advising wealthy clients, aligning their investments with client expectations.",
+      "leadership_changes": "No leadership changes reported.",
+      "news_presence_score": 2
+    },
+    {
+      "name": "Beverly Capital",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "Beverly Capital is dedicated to managing private investments and optimizing portfolio performance.",
+      "leadership_changes": "No significant leadership changes reported.",
+      "news_presence_score": 2
+    }
+  ]
+}

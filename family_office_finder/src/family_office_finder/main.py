@@ -10,6 +10,8 @@ import logging
 from family_office_finder.crew import FamilyOfficeFinderCrew
 from dotenv import load_dotenv
 import warnings
+import time
+import random
 
 # Add this at the top of your main.py file
 #warnings.filterwarnings("ignore", category=DeprecationWarning)
@@ -24,7 +26,7 @@ load_dotenv()
 
 class JsonProcessor:
     """Class for processing and cleaning JSON outputs from agents"""
-    
+
     @staticmethod
     def clean_json_output(output_text):
         """
@@ -65,7 +67,7 @@ class JsonProcessor:
         
         # Return the original as a fallback
         return output_text
-    
+
     @staticmethod
     def parse_json(json_str):
         """
@@ -201,58 +203,65 @@ class DataProcessor:
                 "confidence_score": office.get("confidence_score", "")
             }
             flattened_data.append(flat_office)
-            
+        
         return flattened_data
     
     @staticmethod
     def format_profiles_for_csv(profiles):
         """Format profile data for CSV output"""
-        flattened_profiles = []
+        flattened_data = []
         
-        for office in profiles:
-            # Extract team members as a string
-            team_members_str = ""
-            if "team_members" in office and isinstance(office["team_members"], list):
-                team_members = []
-                for member in office["team_members"]:
-                    if isinstance(member, dict):
-                        name = member.get('name', '')
-                        title = member.get('title', member.get('role', ''))
-                        if name:
-                            member_str = f"{name}: {title}" if title else name
-                            team_members.append(member_str)
-                team_members_str = "; ".join(team_members)
+        for profile in profiles:
+            flat_profile = {}
             
-            # Extract contact information
-            address = ""
-            phone = ""
-            email = ""
-            if "contact_information" in office and isinstance(office["contact_information"], dict):
-                address = office["contact_information"].get("address", "")
-                phone = office["contact_information"].get("phone_number", "")
-                email = office["contact_information"].get("email", "")
+            # Basic fields
+            flat_profile["name"] = profile.get("name", "")
+            flat_profile["url"] = profile.get("url", "") or profile.get("website", "")
+            flat_profile["location"] = profile.get("location", "")
             
-            # Create flattened profile
-            flat_profile = {
-                "name": office.get("name", ""),
-                "website": office.get("url", office.get("website", "")),
-                "address": address,
-                "phone": phone,
-                "email": email,
-                "founding_year": office.get("founding_year", ""),
-                "aum_estimate": office.get("aum_estimate", office.get("estimated_aum", "")),
-                "aum_evidence": office.get("aum_evidence", ""),
-                "investment_philosophy": office.get("investment_philosophy", ""),
-                "target_sectors": office.get("target_sectors", office.get("investment_focus", "")),
-                "geographic_preferences": office.get("geographic_preferences", ""),
-                "typical_investment_size": office.get("typical_investment_size", ""),
-                "investment_types": office.get("investment_types", ""),
-                "team_members": team_members_str,
-                "completeness_score": office.get("completeness_score", "")
-            }
-            flattened_profiles.append(flat_profile)
+            # Contact info
+            contact_info = profile.get("contact_info", {})
+            if isinstance(contact_info, dict):
+                flat_profile["address"] = contact_info.get("address", "")
+                flat_profile["phone"] = contact_info.get("phone", "")
+                flat_profile["email"] = contact_info.get("email", "")
+            else:
+                flat_profile["address"] = ""
+                flat_profile["phone"] = ""
+                flat_profile["email"] = ""
             
-        return flattened_profiles
+            # Team members
+            team_members = profile.get("team_members", [])
+            if isinstance(team_members, list):
+                flat_profile["team_members"] = ", ".join([f"{m.get('name', '')} ({m.get('title', '')})" for m in team_members if isinstance(m, dict)])
+            else:
+                flat_profile["team_members"] = ""
+            
+            # AUM
+            flat_profile["aum"] = profile.get("aum", "") or profile.get("aum_estimate", "")
+            flat_profile["aum_evidence"] = profile.get("aum_evidence", "")
+            
+            # Investment details
+            investment_details = profile.get("investment_details", {})
+            if isinstance(investment_details, dict):
+                flat_profile["investment_focus"] = investment_details.get("target_sectors", "")
+                flat_profile["investment_philosophy"] = investment_details.get("philosophy", "")
+                flat_profile["geographic_preferences"] = investment_details.get("geographic_preferences", "")
+                flat_profile["typical_investment_size"] = investment_details.get("typical_investment_size", "")
+            else:
+                flat_profile["investment_focus"] = profile.get("investment_focus", "")
+                flat_profile["investment_philosophy"] = ""
+                flat_profile["geographic_preferences"] = ""
+                flat_profile["typical_investment_size"] = ""
+            
+            # Additional fields that might be present
+            flat_profile["founding_year"] = profile.get("founding_year", "")
+            flat_profile["investment_types"] = profile.get("investment_types", "")
+            flat_profile["completeness_score"] = profile.get("completeness_score", "")
+            
+            flattened_data.append(flat_profile)
+        
+        return flattened_data
     
     @staticmethod
     def format_news_for_csv(news_data):
@@ -274,6 +283,7 @@ class DataProcessor:
                         "activity_source": activity.get("source", ""),
                         "activity_url": activity.get("url", ""),
                         "activity_type": activity.get("activity_type", ""),
+                        "full_text": activity.get("full_text", ""),
                         "strategy_insights": office_news.get("strategy_insights", ""),
                         "leadership_changes": office_news.get("leadership_changes", ""),
                         "news_presence_score": office_news.get("news_presence_score", "")
@@ -289,51 +299,82 @@ class DataProcessor:
                     "activity_source": "",
                     "activity_url": "",
                     "activity_type": "",
+                    "full_text": "",
                     "strategy_insights": office_news.get("strategy_insights", ""),
                     "leadership_changes": office_news.get("leadership_changes", ""),
                     "news_presence_score": office_news.get("news_presence_score", "")
                 }
                 flattened_news.append(flat_news)
-                
+        
         return flattened_news
 
 class ResultsProcessor:
-    """Class for processing results from all agents"""
+    """Class for processing and saving results from the crew execution"""
     
     def __init__(self, file_manager, json_processor, data_processor):
         self.file_manager = file_manager
         self.json_processor = json_processor
         self.data_processor = data_processor
-        self.generated_files = []
         self.results = {
             "discovery": None,
-            "profile": None,
+            "profiles": None,
             "news": None
         }
         self.counts = {
             "discovery": 0,
-            "profile": 0,
+            "profiles": 0,
             "news": 0
         }
+        self.generated_files = []
     
     def process_discovery_output(self, task_output):
-        """Process the output from the discovery agent"""
+        """Process discovery task output"""
         try:
-            # Clean and parse JSON
+            # Clean the JSON output by removing any code block wrapper
             cleaned_output = self.json_processor.clean_json_output(task_output.raw)
-            parsed_output = self.json_processor.parse_json(cleaned_output)
             
-            if not parsed_output:
-                logger.warning("Failed to parse discovery output")
+            # Try to parse the JSON
+            discovery_output = self.json_processor.parse_json(cleaned_output)
+            
+            if not discovery_output:
+                logger.warning("Failed to parse discovery output, trying alternative parsing")
+                # Try to extract JSON from the text using regex
+                json_pattern = r'({[\s\S]*})'
+                json_match = re.search(json_pattern, task_output.raw)
+                if json_match:
+                    try:
+                        discovery_output = json.loads(json_match.group(1))
+                        logger.info("Successfully extracted JSON using regex")
+                    except json.JSONDecodeError:
+                        logger.warning("Failed to parse JSON extracted with regex")
+            
+            if not discovery_output:
+                logger.warning("All attempts to parse discovery output failed")
+                # Save the raw output for debugging
+                debug_dir = os.path.join(self.file_manager.run_dir, "debug")
+                os.makedirs(debug_dir, exist_ok=True)
+                with open(os.path.join(debug_dir, "discovery_raw_output.txt"), "w") as f:
+                    f.write(task_output.raw)
                 return
             
-            # Standardize data structure
-            discovery_data = self.data_processor.standardize_discovery_data(parsed_output)
-            self.counts["discovery"] = len(discovery_data)
-            
-            # Create a standardized structure for consistent processing
-            discovery_output = {"family_offices": discovery_data}
+            # Save the discovery data
             self.results["discovery"] = discovery_output
+            
+            # Extract family offices list - handle different possible structures
+            family_offices = []
+            if isinstance(discovery_output, dict):
+                if "family_offices" in discovery_output:
+                    family_offices = discovery_output["family_offices"]
+                elif "results" in discovery_output:
+                    family_offices = discovery_output["results"]
+            elif isinstance(discovery_output, list):
+                family_offices = discovery_output
+                
+                # If we got a list directly, wrap it in a dict for consistency
+                discovery_output = {"family_offices": family_offices}
+                self.results["discovery"] = discovery_output
+            
+            self.counts["discovery"] = len(family_offices)
             
             # Save as JSON
             json_path = self.file_manager.save_json(discovery_output, "1_family_offices_list.json")
@@ -341,9 +382,9 @@ class ResultsProcessor:
                 self.generated_files.append(os.path.basename(json_path))
             
             # Format and save as CSV
-            flattened_data = self.data_processor.format_discovery_for_csv(discovery_data)
-            fieldnames = ["name", "url", "location", "estimated_aum", "investment_focus", "aum_evidence", "confidence_score"]
-            csv_path = self.file_manager.save_csv(flattened_data, "1_family_offices_list.csv", fieldnames)
+            flattened_data = self.data_processor.format_discovery_for_csv(family_offices)
+            discovery_fieldnames = ["name", "url", "location", "estimated_aum", "investment_focus", "aum_evidence", "confidence_score"]
+            csv_path = self.file_manager.save_csv(flattened_data, "1_family_offices_list.csv", discovery_fieldnames)
             if csv_path:
                 self.generated_files.append(os.path.basename(csv_path))
                 
@@ -353,161 +394,49 @@ class ResultsProcessor:
             logger.error(traceback.format_exc())
     
     def process_profile_output(self, task_output):
-        """Process the output from the profile agent"""
+        """Process profile scraper task output"""
         try:
-            # Clean and parse JSON
-            cleaned_profile = self.json_processor.clean_json_output(task_output.raw)
-            logger.info(f"Profile data snippet: {cleaned_profile[:200]}...")
+            # Clean the JSON output by removing any code block wrapper
+            cleaned_output = self.json_processor.clean_json_output(task_output.raw)
             
-            # Log the full raw output for debugging if it's not too long
-            if len(task_output.raw) < 1000:
-                logger.info(f"Full profile raw output: {task_output.raw}")
+            # Try to parse the JSON
+            profile_output = self.json_processor.parse_json(cleaned_output)
             
-            # Check if the output is empty or just contains an empty structure
-            if not cleaned_profile.strip() or cleaned_profile.strip() in ["{}", "[]", '{"family_offices":[]}']:
-                logger.warning("Profile output is empty or contains empty structure")
+            if not profile_output:
+                logger.warning("Failed to parse profile output, trying alternative parsing")
+                # Try to extract JSON from the text using regex
+                json_pattern = r'({[\s\S]*})'
+                json_match = re.search(json_pattern, task_output.raw)
+                if json_match:
+                    try:
+                        profile_output = json.loads(json_match.group(1))
+                        logger.info("Successfully extracted JSON using regex")
+                    except json.JSONDecodeError:
+                        logger.warning("Failed to parse JSON extracted with regex")
+            
+            if not profile_output:
+                logger.warning("All attempts to parse profile output failed")
+                # Save the raw output for debugging
+                debug_dir = os.path.join(self.file_manager.run_dir, "debug")
+                os.makedirs(debug_dir, exist_ok=True)
+                with open(os.path.join(debug_dir, "profile_raw_output.txt"), "w") as f:
+                    f.write(task_output.raw)
+                return
+            
+            # Extract profile data
+            profiles = []
+            if isinstance(profile_output, dict):
+                if "family_offices" in profile_output:
+                    profiles = profile_output["family_offices"]
+                elif "profiles" in profile_output:
+                    profiles = profile_output["profiles"]
+                elif "family_office_profiles" in profile_output:
+                    profiles = profile_output["family_office_profiles"]
+            elif isinstance(profile_output, list):
+                profiles = profile_output
                 
-                # If we have discovery results, create fallback profile data from discovery data
-                if self.results["discovery"] and "family_offices" in self.results["discovery"]:
-                    discovery_data = self.results["discovery"]["family_offices"]
-                    logger.info(f"Creating fallback profile data from {len(discovery_data)} discovery records")
-                    
-                    # Create minimal profile data from discovery data
-                    profile_data = []
-                    for office in discovery_data:
-                        profile = {
-                            "name": office.get("name", ""),
-                            "website": office.get("url", ""),
-                            "location": office.get("location", ""),
-                            "aum_estimate": office.get("estimated_aum", ""),
-                            "aum_evidence": office.get("aum_evidence", ""),
-                            "investment_philosophy": "",
-                            "target_sectors": office.get("investment_focus", ""),
-                            "geographic_preferences": "",
-                            "typical_investment_size": "",
-                            "investment_types": "",
-                            "team_members": [],
-                            "completeness_score": 3  # Low score since this is fallback data
-                        }
-                        profile_data.append(profile)
-                    
-                    logger.info(f"Created {len(profile_data)} fallback profile records")
-                    profile_output = {"family_offices": profile_data}
-                    self.results["profile"] = profile_output
-                    self.counts["profile"] = len(profile_data)
-                    return
-                else:
-                    logger.error("No discovery data available for fallback profile creation")
-                    return
-            
-            parsed_output = self.json_processor.parse_json(cleaned_profile)
-            
-            if not parsed_output:
-                logger.warning("Failed to parse profile output")
-                
-                # Attempt more aggressive parsing by looking for JSON structures
-                try:
-                    # Look for JSON arrays or objects in the text
-                    object_pattern = r'\{[^{}]*\}'
-                    array_pattern = r'\[[^\[\]]*\]'
-                    
-                    matches = re.findall(object_pattern, cleaned_profile)
-                    if matches:
-                        logger.info(f"Found {len(matches)} potential JSON objects in text")
-                        for match in matches:
-                            try:
-                                parsed_output = json.loads(match)
-                                logger.info("Successfully parsed a JSON object from text")
-                                break
-                            except:
-                                continue
-                    
-                    if not parsed_output:
-                        matches = re.findall(array_pattern, cleaned_profile)
-                        if matches:
-                            logger.info(f"Found {len(matches)} potential JSON arrays in text")
-                            for match in matches:
-                                try:
-                                    parsed_output = json.loads(match)
-                                    logger.info("Successfully parsed a JSON array from text")
-                                    break
-                                except:
-                                    continue
-                except Exception as e:
-                    logger.error(f"Error in aggressive JSON parsing: {e}")
-                
-                if not parsed_output:
-                    # If still no valid JSON, create a minimal fallback from discovery data
-                    if self.results["discovery"] and "family_offices" in self.results["discovery"]:
-                        discovery_data = self.results["discovery"]["family_offices"]
-                        logger.info(f"Creating fallback profile data from {len(discovery_data)} discovery records")
-                        
-                        # Create minimal profile data from discovery data
-                        profile_data = []
-                        for office in discovery_data:
-                            profile = {
-                                "name": office.get("name", ""),
-                                "website": office.get("url", ""),
-                                "location": office.get("location", ""),
-                                "aum_estimate": office.get("estimated_aum", ""),
-                                "aum_evidence": office.get("aum_evidence", ""),
-                                "investment_philosophy": "",
-                                "target_sectors": office.get("investment_focus", ""),
-                                "geographic_preferences": "",
-                                "typical_investment_size": "",
-                                "investment_types": "",
-                                "team_members": [],
-                                "completeness_score": 3  # Low score since this is fallback data
-                            }
-                            profile_data.append(profile)
-                        
-                        logger.info(f"Created {len(profile_data)} fallback profile records")
-                        profile_output = {"family_offices": profile_data}
-                        self.results["profile"] = profile_output
-                        self.counts["profile"] = len(profile_data)
-                        return
-                    else:
-                        return
-            
-            # Standardize data structure
-            profile_data = []
-            if isinstance(parsed_output, dict):
-                if "family_offices" in parsed_output:
-                    profile_data = parsed_output["family_offices"]
-                elif "profiles" in parsed_output:
-                    profile_data = parsed_output["profiles"]
-            elif isinstance(parsed_output, list):
-                profile_data = parsed_output
-            
-            # If no profile data was found but we have discovery data, create fallback profiles
-            if not profile_data and self.results["discovery"] and "family_offices" in self.results["discovery"]:
-                discovery_data = self.results["discovery"]["family_offices"]
-                logger.info(f"Creating fallback profile data from {len(discovery_data)} discovery records")
-                
-                # Create minimal profile data from discovery data
-                for office in discovery_data:
-                    profile = {
-                        "name": office.get("name", ""),
-                        "website": office.get("url", ""),
-                        "location": office.get("location", ""),
-                        "aum_estimate": office.get("estimated_aum", ""),
-                        "aum_evidence": office.get("aum_evidence", ""),
-                        "investment_philosophy": "",
-                        "target_sectors": office.get("investment_focus", ""),
-                        "geographic_preferences": "",
-                        "typical_investment_size": "",
-                        "investment_types": "",
-                        "team_members": [],
-                        "completeness_score": 3  # Low score since this is fallback data
-                    }
-                    profile_data.append(profile)
-            
-            self.counts["profile"] = len(profile_data)
-            logger.info(f"Processed {len(profile_data)} profile records")
-            
-            # Create a standardized structure
-            profile_output = {"family_offices": profile_data}
-            self.results["profile"] = profile_output
+            self.results["profiles"] = profile_output
+            self.counts["profiles"] = len(profiles)
             
             # Save as JSON
             json_path = self.file_manager.save_json(profile_output, "2_family_offices_profiles.json")
@@ -515,11 +444,16 @@ class ResultsProcessor:
                 self.generated_files.append(os.path.basename(json_path))
             
             # Format and save as CSV
-            flattened_profiles = self.data_processor.format_profiles_for_csv(profile_data)
-            profile_fieldnames = ["name", "website", "address", "phone", "email", "founding_year", 
-                              "aum_estimate", "aum_evidence", "investment_philosophy", 
-                              "target_sectors", "geographic_preferences", "typical_investment_size", 
-                              "investment_types", "team_members", "completeness_score"]
+            flattened_profiles = self.data_processor.format_profiles_for_csv(profiles)
+            
+            # Use all available fields for the CSV
+            profile_fieldnames = [
+                "name", "url", "location", "address", "phone", "email", 
+                "team_members", "aum", "aum_evidence", "investment_focus", 
+                "investment_philosophy", "geographic_preferences", "typical_investment_size",
+                "founding_year", "investment_types", "completeness_score"
+            ]
+            
             csv_path = self.file_manager.save_csv(flattened_profiles, "2_family_offices_profiles.csv", profile_fieldnames)
             if csv_path:
                 self.generated_files.append(os.path.basename(csv_path))
@@ -554,7 +488,7 @@ class ResultsProcessor:
                     news_data = news_output["news"]
             elif isinstance(news_output, list):
                 news_data = news_output
-            
+                
             self.counts["news"] = len(news_data)
             
             # Save as JSON
@@ -565,8 +499,8 @@ class ResultsProcessor:
             # Format and save as CSV
             flattened_news = self.data_processor.format_news_for_csv(news_data)
             news_fieldnames = ["name", "activity_date", "activity_headline", "activity_description", 
-                          "activity_source", "activity_url", "activity_type", "full_text",
-                          "strategy_insights", "leadership_changes", "news_presence_score"]
+                              "activity_source", "activity_url", "activity_type", "full_text",
+                              "strategy_insights", "leadership_changes", "news_presence_score"]
             csv_path = self.file_manager.save_csv(flattened_news, "3_family_offices_news.csv", news_fieldnames)
             if csv_path:
                 self.generated_files.append(os.path.basename(csv_path))
@@ -585,23 +519,21 @@ class ResultsProcessor:
                     "run_number": self.file_manager.run_number,
                     "timestamp": self.file_manager.current_datetime
                 },
-                "discovery_results": self.results["discovery"] if self.results["discovery"] else {},
-                "profile_results": self.results["profile"] if self.results["profile"] else {},
-                "news_results": self.results["news"] if self.results["news"] else {}
+                "discovery": self.results["discovery"],
+                "profiles": self.results["profiles"],
+                "news": self.results["news"]
             }
             
             json_path = self.file_manager.save_json(combined_data, "4_combined_results.json")
             if json_path:
                 self.generated_files.append(os.path.basename(json_path))
-                
+            
             # Save metadata about the run
             metadata = {
                 "run_date": self.file_manager.current_date,
                 "run_time": self.file_manager.current_datetime,
                 "run_number": self.file_manager.run_number,
-                "discovery_count": self.counts["discovery"],
-                "profile_count": self.counts["profile"],
-                "news_count": self.counts["news"],
+                "counts": self.counts,
                 "files_generated": self.generated_files
             }
             
@@ -663,98 +595,149 @@ def run():
         for i, task in enumerate(crew.tasks):
             logger.info(f"Task {i+1}: {task.description[:100]}...")
         
-        # Run the crew
-        result = crew.kickoff()
+        # Run the crew with retry logic for rate limit errors
+        max_retries = 3
+        retry_count = 0
         
-        # Process the results from each agent
-        if len(result.tasks_output) > 0:
-            logger.info(f"Processing discovery output (length: {len(result.tasks_output[0].raw)})")
-            results_processor.process_discovery_output(result.tasks_output[0])
-            
-        # For debugging, force reload the discovery task output for the profile task
-        if len(result.tasks_output) > 0 and (len(result.tasks_output) <= 1 or not result.tasks_output[1].raw.strip()):
-            logger.warning("Profile task output is empty or missing! Attempting to fix the issue...")
-            
-            # Get the discovery data to pass to the profile scraper task
-            if results_processor.results["discovery"] and "family_offices" in results_processor.results["discovery"]:
-                discovery_data = results_processor.results["discovery"]["family_offices"]
-                
-                # Create a modified profile scraper task with explicit input
-                profile_task = crew_instance.profile_scraper_task()
-                context = {"discovered_offices": discovery_data}
-                
-                # Execute profile task directly
-                logger.info(f"Re-executing profile task with explicit context...")
-                profile_agent = crew_instance.family_office_profile_agent()
-                profile_result = profile_agent.execute_task(profile_task, context=context)
+        while retry_count < max_retries:
+            try:
+                # Run the discovery agent
+                logger.info("Running discovery agent...")
+                discovery_agent = crew_instance.family_office_discovery_agent()
+                discovery_task = crew_instance.discovery_task()
+                discovery_result = discovery_agent.execute_task(discovery_task)
                 
                 # Create a TaskOutput-like object
                 class MockTaskOutput:
                     def __init__(self, raw):
                         self.raw = raw
                 
-                # Process the manually executed profile task
-                mock_output = MockTaskOutput(profile_result)
-                results_processor.process_profile_output(mock_output)
-            else:
-                logger.error("Could not find discovery data to pass to profile agent")
-        elif len(result.tasks_output) > 1:
-            logger.info(f"Processing profile output (length: {len(result.tasks_output[1].raw)})")
-            results_processor.process_profile_output(result.tasks_output[1])
-        
-        # For news agent, use discovery data directly if profile data is missing
-        if len(result.tasks_output) > 2:
-            logger.info(f"Processing news output (length: {len(result.tasks_output[2].raw)})")
-            results_processor.process_news_output(result.tasks_output[2])
-        else:
-            logger.warning("News task output is missing! Attempting to fix the issue...")
-            
-            # Use discovery data directly for news agent
-            if results_processor.results["discovery"]:
+                # Process the discovery output
+                mock_output = MockTaskOutput(discovery_result)
+                results_processor.process_discovery_output(mock_output)
+                
+                # Save the raw discovery output for debugging
+                debug_dir = os.path.join(file_manager.run_dir, "debug")
+                os.makedirs(debug_dir, exist_ok=True)
+                with open(os.path.join(debug_dir, "discovery_agent_raw_output.txt"), "w") as f:
+                    f.write(discovery_result)
+                
+                # Add a delay to avoid rate limits
+                time.sleep(random.uniform(5, 10))
+                
+                # Check if discovery data was processed successfully
+                if not results_processor.results["discovery"]:
+                    logger.error("Discovery data processing failed, attempting to parse raw output")
+                    try:
+                        # Try to extract JSON directly from the raw output
+                        json_pattern = r'({[\s\S]*})'
+                        json_match = re.search(json_pattern, discovery_result)
+                        if json_match:
+                            discovery_json = json_match.group(1)
+                            discovery_data = json.loads(discovery_json)
+                            results_processor.results["discovery"] = discovery_data
+                            
+                            # Extract family offices
+                            if "family_offices" in discovery_data:
+                                family_offices = discovery_data["family_offices"]
+                            elif isinstance(discovery_data, list):
+                                family_offices = discovery_data
+                                discovery_data = {"family_offices": family_offices}
+                                results_processor.results["discovery"] = discovery_data
+                            
+                            logger.info(f"Successfully extracted {len(family_offices)} family offices from raw output")
+                    except Exception as e:
+                        logger.error(f"Failed to extract discovery data from raw output: {e}")
+                
+                # Run the profile agent if discovery was successful
                 discovery_data = None
-                if "family_offices" in results_processor.results["discovery"]:
-                    discovery_data = results_processor.results["discovery"]["family_offices"]
-                elif "family_office_profiles" in results_processor.results["discovery"]:
-                    discovery_data = results_processor.results["discovery"]["family_office_profiles"]
+                if results_processor.results["discovery"]:
+                    if "family_offices" in results_processor.results["discovery"]:
+                        discovery_data = results_processor.results["discovery"]["family_offices"]
+                    elif isinstance(results_processor.results["discovery"], list):
+                        discovery_data = results_processor.results["discovery"]
                 
                 if discovery_data:
-                    # Create a modified news scraper task with explicit input
-                    news_task = crew_instance.news_scraper_task()
-                    context = {"profiled_offices": discovery_data}
+                    # Create a modified profile scraper task with explicit input
+                    profile_task = crew_instance.profile_scraper_task()
+                    context = {"discovered_offices": discovery_data}
                     
-                    # Execute news task directly
-                    logger.info(f"Executing news task with discovery data...")
-                    news_agent = crew_instance.family_office_news_agent()
-                    news_result = news_agent.execute_task(news_task, context=context)
+                    # Execute profile task directly
+                    logger.info(f"Executing profile task with explicit context...")
+                    profile_agent = crew_instance.family_office_profile_agent()
+                    profile_result = profile_agent.execute_task(profile_task, context=context)
                     
-                    # Create a TaskOutput-like object
-                    class MockTaskOutput:
-                        def __init__(self, raw):
-                            self.raw = raw
+                    # Process the manually executed profile task
+                    mock_output = MockTaskOutput(profile_result)
+                    results_processor.process_profile_output(mock_output)
                     
-                    # Process the manually executed news task
-                    mock_output = MockTaskOutput(news_result)
-                    results_processor.process_news_output(mock_output)
+                    # Save the profile output to a file for debugging
+                    debug_dir = os.path.join(file_manager.run_dir, "debug")
+                    os.makedirs(debug_dir, exist_ok=True)
+                    with open(os.path.join(debug_dir, "profile_agent_raw_output.txt"), "w") as f:
+                        f.write(profile_result)
+                    
+                    # Add a delay to avoid rate limits
+                    time.sleep(random.uniform(10, 15))
                 else:
-                    logger.error("Could not find discovery data to pass to news agent")
-            else:
-                logger.error("No discovery data available for news agent")
-        
-        # Save combined results and print summary
-        results_processor.save_combined_results()
-        results_processor.print_summary()
+                    logger.error("Could not find discovery data to pass to profile agent")
+                
+                # For news agent, use discovery data directly
+                if results_processor.results["discovery"]:
+                    discovery_data = None
+                    if "family_offices" in results_processor.results["discovery"]:
+                        discovery_data = results_processor.results["discovery"]["family_offices"]
+                    elif "family_office_profiles" in results_processor.results["discovery"]:
+                        discovery_data = results_processor.results["discovery"]["family_office_profiles"]
+                    
+                    if discovery_data:
+                        # Create a modified news scraper task with explicit input
+                        news_task = crew_instance.news_scraper_task()
+                        context = {"profiled_offices": discovery_data}
+                        
+                        # Execute news task directly
+                        logger.info(f"Executing news task with discovery data...")
+                        news_agent = crew_instance.family_office_news_agent()
+                        news_result = news_agent.execute_task(news_task, context=context)
+                        
+                        # Process the manually executed news task
+                        mock_output = MockTaskOutput(news_result)
+                        results_processor.process_news_output(mock_output)
+                        
+                        # Save the news output to a file for debugging
+                        debug_dir = os.path.join(file_manager.run_dir, "debug")
+                        os.makedirs(debug_dir, exist_ok=True)
+                        with open(os.path.join(debug_dir, "news_agent_raw_output.txt"), "w") as f:
+                            f.write(news_result)
+                    else:
+                        logger.error("Could not find discovery data to pass to news agent")
+                else:
+                    logger.error("No discovery data available for news agent")
+                
+                # Save combined results and print summary
+                results_processor.save_combined_results()
+                results_processor.print_summary()
+                
+                # If we got here, everything worked
+                break
+                
+            except Exception as e:
+                if "rate_limit" in str(e).lower() or "429" in str(e):
+                    retry_count += 1
+                    wait_time = 60 * retry_count  # Exponential backoff
+                    logger.warning(f"Rate limit exceeded. Waiting {wait_time} seconds before retry {retry_count}/{max_retries}")
+                    time.sleep(wait_time)
+                else:
+                    # For non-rate-limit errors, log and re-raise
+                    logger.error(f"Error running crew: {e}")
+                    import traceback
+                    logger.error(traceback.format_exc())
+                    raise
         
     except Exception as e:
         logger.error(f"Error running crew: {e}")
         import traceback
         logger.error(traceback.format_exc())
-        
-        # Print raw results for debugging
-        if 'result' in locals() and hasattr(result, 'tasks_output'):
-            logger.error("Raw task outputs for debugging:")
-            for i, task_output in enumerate(result.tasks_output):
-                logger.error(f"Task {i+1} output (first 500 chars):")
-                logger.error(task_output.raw[:500] + "..." if len(task_output.raw) > 500 else task_output.raw)
 
 if __name__ == "__main__":
     run()

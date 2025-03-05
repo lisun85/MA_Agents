@@ -1,0 +1,55 @@
+{
+  "family_offices": [
+    {
+      "name": "DNS Capital",
+      "recent_activities": [
+        {
+          "date": "2021-06-01",
+          "headline": "LaForce Is Acquired by DNS",
+          "description": "LaForce, LLC was recently acquired by DNS Capital in partnership with LaForce senior management. Terms of the transaction were not disclosed.",
+          "source": "Baird",
+          "url": "https://www.rwbaird.com/transactions/investment-banking/dealcard/6186/",
+          "activity_type": "acquisition",
+          "full_text": "LaForce, LLC (LaForce) was recently acquired by DNS Capital (DNS) in partnership with LaForce senior management. Terms of the transaction were not disclosed."
+        },
+        {
+          "date": "2021-07-27",
+          "headline": "IMIDomics Closes $16.5 Million Series A Financing",
+          "description": "The round was led by DNS Capital with additional investment from Bristol Myers Squibb and others.",
+          "source": "DNS Capital",
+          "url": "https://www.dnscap.com/2021/07/27/imidomicstm-closes-16-5-million-series-a-financing-to-advance-its-precision-discovery-platform-for-immune-mediated-inflammatory-diseases/",
+          "activity_type": "fundraising",
+          "full_text": "IMIDomics\u2122 closes $16.5 million Series A financing to advance its precision discovery platform for immune-mediated inflammatory diseases. The round was led by DNS Capital with additional investment from Bristol Myers Squibb, The Pritzker Organization, Tao Capital and others."
+        },
+        {
+          "date": "2021-11-29",
+          "headline": "FSG acquires controlling interest in Penguins",
+          "description": "The deal is subject to approval by the NHL Board of Governors and is expected to close before the end of the year.",
+          "source": "DNS Capital",
+          "url": "https://www.dnscap.com/2021/11/29/fsg-acquires-controlling-interest-in-penguins/",
+          "activity_type": "acquisition",
+          "full_text": "The deal, which is subject to approval by the National Hockey League (NHL) Board of Governors, is expected to close before the end of the year. It marks a significant investment by DNS Capital in the sports sector."
+        }
+      ],
+      "key_transactions": [
+        {
+          "date": "2021-06-01",
+          "transaction_type": "acquisition",
+          "target": "LaForce, LLC",
+          "amount": "Undisclosed",
+          "description": "Acquired by DNS Capital in partnership with LaForce senior management."
+        },
+        {
+          "date": "2021-07-27",
+          "transaction_type": "investment",
+          "target": "IMIDomics",
+          "amount": "$16.5 million",
+          "description": "DNS Capital leads a Series A financing round."
+        }
+      ],
+      "strategy_insights": "DNS Capital focuses on a long-term, flexible investment approach across sectors such as healthcare and technology, balancing control and minority investments.",
+      "leadership_changes": "Michael A. Pucker serves as CEO, with several other key leadership positions filled by experienced executives in various fields.",
+      "news_presence_score": 8
+    }
+  ]
+}

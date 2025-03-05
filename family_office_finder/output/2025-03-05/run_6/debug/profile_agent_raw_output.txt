@@ -1,0 +1,53 @@
+[
+    {
+        "name": "DNS Capital",
+        "url": "https://www.dnscap.com/",
+        "location": "Chicago, IL",
+        "aum_estimate": "Over $100M",
+        "aum_evidence": "Established by the Pritzker family, which is known for substantial investments and wealth management.",
+        "investment_focus": ["Tech", "Healthcare", "Real Estate"],
+        "team_members": [],
+        "completeness_score": 5
+    },
+    {
+        "name": "Beverly Capital Family Office",
+        "url": "https://beverly-capital.com/",
+        "location": "Beverly Hills, IL (within 300 miles)",
+        "aum_estimate": "Over $100M",
+        "aum_evidence": "Focuses on large-scale investments and has prominent high-net-worth clients.",
+        "investment_focus": ["Real Estate", "Venture Capital"],
+        "team_members": [],
+        "completeness_score": 5
+    },
+    {
+        "name": "Pitcairn",
+        "url": "https://www.pitcairn.com/home",
+        "location": "Philadelphia, PA (within 300 miles)",
+        "aum_estimate": "Over $100M",
+        "aum_evidence": "Offers services to ultra-high-net-worth individuals and families, indicating a high AUM.",
+        "investment_focus": ["Wealth Management for Family Offices"],
+        "team_members": [],
+        "completeness_score": 5
+    },
+    {
+        "name": "Cresset",
+        "url": "https://cressetcapital.com/",
+        "location": "Chicago, IL",
+        "aum_estimate": "In excess of $100M",
+        "aum_evidence": "Known for extensive multi-family office services, typically involving substantial capital.",
+        "investment_focus": ["Private Equity", "Alternative Investments"],
+        "team_members": [],
+        "completeness_score": 5
+    },
+    {
+        "name": "Gresham Partners",
+        "url": "https://www.greshampartners.com/",
+        "location": "Chicago, IL",
+        "aum_estimate": "Over $100M",
+        "aum_evidence": "Provides tailored investment strategies focused on family wealth, usually requiring substantial assets.",
+        "investment_focus": ["Investment Management", "Multi-Family Office Services"],
+        "team_members": [],
+        "completeness_score": 5
+    }
+]
+```

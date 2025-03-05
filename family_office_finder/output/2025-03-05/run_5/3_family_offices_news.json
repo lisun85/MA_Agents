@@ -1,0 +1,136 @@
+{
+  "family_offices": [
+    {
+      "name": "DNS Capital",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "",
+      "leadership_changes": "",
+      "news_presence_score": 0
+    },
+    {
+      "name": "Beverly Capital",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "",
+      "leadership_changes": "",
+      "news_presence_score": 0
+    },
+    {
+      "name": "Pitcairn",
+      "recent_activities": [
+        {
+          "date": "2025-01-30",
+          "headline": "Pitcairn wades into RIA business",
+          "description": "Pitcairn acquires Baltimore-based advisory firm Brightside Partners and establishes a new RIA.",
+          "source": "Investment News",
+          "url": "https://www.investmentnews.com/rias/family-office-pitcairn-wades-into-ria-business-with-brightside-partners-deal/259126",
+          "activity_type": "acquisition",
+          "full_text": "The Pennsylvania-based family office announced it has acquired Baltimore-based advisory firm Brightside Partners alongside which it's established a new RIA."
+        }
+      ],
+      "key_transactions": [
+        {
+          "date": "2025-01-30",
+          "transaction_type": "acquisition",
+          "target": "Brightside Partners",
+          "amount": "",
+          "description": "Acquisition of a Baltimore-based advisory firm."
+        }
+      ],
+      "strategy_insights": "Pitcairn is expanding into Registered Investment Advisory (RIA) space, suggesting a strategic shift towards more direct client engagement.",
+      "leadership_changes": "",
+      "news_presence_score": 5
+    },
+    {
+      "name": "Promus Holdings",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "",
+      "leadership_changes": "",
+      "news_presence_score": 0
+    },
+    {
+      "name": "AP Family Office",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "",
+      "leadership_changes": "",
+      "news_presence_score": 0
+    },
+    {
+      "name": "Ariel Investments",
+      "recent_activities": [
+        {
+          "date": "2023-11-07",
+          "headline": "Ariel Investments buys My Code",
+          "description": "Ariel Alternatives acquires a majority stake in My Code, a multicultural media and marketing services company.",
+          "source": "Wall Street Journal",
+          "url": "https://www.wsj.com/articles/ariel-investments-buys-multicultural-media-company-my-code-be07b308",
+          "activity_type": "acquisition",
+          "full_text": "Ariel Alternatives bought just under a 60% stake in My Code from private-equity firm Falfurrias Capital Partners and other investors."
+        },
+        {
+          "date": "2022-04-30",
+          "headline": "Ariel Alternatives acquires Sorenson Communications",
+          "description": "Ariel Alternatives announces the acquisition of a leading communications provider for people who are Deaf and hard-of-hearing.",
+          "source": "Ariel Investments News",
+          "url": "https://www.arielinvestments.com/article/ariel-alternatives-acquires-sorenson-communications/",
+          "activity_type": "acquisition",
+          "full_text": "In April 2022, Project Black acquired Sorenson, the leading U.S. communications provider for people who are Deaf and hard-of-hearing."
+        }
+      ],
+      "key_transactions": [
+        {
+          "date": "2023-11-07",
+          "transaction_type": "acquisition",
+          "target": "My Code",
+          "amount": "400 million",
+          "description": "Acquisition of a majority stake in My Code."
+        },
+        {
+          "date": "2022-04-30",
+          "transaction_type": "acquisition",
+          "target": "Sorenson Communications",
+          "amount": "",
+          "description": "Acquisition of Sorenson Communications."
+        }
+      ],
+      "strategy_insights": "Ariel Investments is focusing on acquiring stakes in diverse media and communication sectors, targeting minority-owned entities.",
+      "leadership_changes": "",
+      "news_presence_score": 7
+    },
+    {
+      "name": "Gresham Partners",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "",
+      "leadership_changes": "",
+      "news_presence_score": 0
+    },
+    {
+      "name": "Mandell Ventures",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "",
+      "leadership_changes": "",
+      "news_presence_score": 0
+    },
+    {
+      "name": "Dolan Family Partners",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "",
+      "leadership_changes": "",
+      "news_presence_score": 0
+    },
+    {
+      "name": "Chicago Capital",
+      "recent_activities": [],
+      "key_transactions": [],
+      "strategy_insights": "",
+      "leadership_changes": "",
+      "news_presence_score": 0
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "run_info": {
+    "date": "2025-03-05",
+    "run_number": 7,
+    "timestamp": "2025-03-05_12-19-13"
+  },
+  "discovery": {
+    "family_offices": [
+      {
+        "name": "Beverly Capital Family Office",
+        "url": "https://beverly-capital.com/",
+        "location": "Beverly Hills, CA",
+        "estimated_aum": "$100M+",
+        "investment_focus": "Various including real estate and private equity",
+        "confidence_score": 9,
+        "aum_evidence": "Publicly known to manage substantial family wealth with multiple investment types."
+      },
+      {
+        "name": "ArchPoint Investors",
+        "url": "https://archpointinvestors.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "$250M",
+        "investment_focus": "Private equity and venture capital",
+        "confidence_score": 8,
+        "aum_evidence": "Independent reports indicate their management of large funds in private equity."
+      },
+      {
+        "name": "APFamily",
+        "url": "https://apfamilyoffice.com/",
+        "location": "Naperville, IL",
+        "estimated_aum": "$300M+",
+        "investment_focus": "Technology and real estate investments",
+        "confidence_score": 8,
+        "aum_evidence": "Associated with substantial investments in tech startups and property developments."
+      },
+      {
+        "name": "Najarian Family Office",
+        "url": "https://www.najarianfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "$150M",
+        "investment_focus": "Public equities and private investments",
+        "confidence_score": 9,
+        "aum_evidence": "Known for high-profile investments and management of significant assets."
+      },
+      {
+        "name": "Promus Holdings",
+        "url": "https://promusholdings.com",
+        "location": "Chicago, IL",
+        "estimated_aum": "$500M+",
+        "investment_focus": "Diversified, including alternative investments",
+        "confidence_score": 9,
+        "aum_evidence": "Publicly reported and known for overseeing a large investment portfolio."
+      },
+      {
+        "name": "Dolan Family Partners",
+        "url": "https://www.dolanfamilypartners.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "$100M+",
+        "investment_focus": "Varied across consumer goods and real estate",
+        "confidence_score": 8,
+        "aum_evidence": "Reported involvement with high-value assets and business interests."
+      },
+      {
+        "name": "Henry Family Office",
+        "url": "https://henryfamilyoffice.com/",
+        "location": "Milwaukee, WI",
+        "estimated_aum": "$200M",
+        "investment_focus": "Philanthropic initiatives and public equity",
+        "confidence_score": 7,
+        "aum_evidence": "Often involved in sizable charitable contributions and investment activities."
+      }
+    ]
+  },
+  "profiles": [
+    {
+      "family_office": "Beverly Capital Family Office",
+      "url": "https://beverly-capital.com/",
+      "location": "Beverly Hills, CA",
+      "contact_information": {
+        "address": "Not Available",
+        "phone": "Not Available",
+        "email": "Not Available"
+      },
+      "team_members": [],
+      "aum_estimate": "$100M+",
+      "aum_evidence": "Publicly known to manage substantial family wealth with multiple investment types.",
+      "investment_details": {
+        "philosophy": "Diverse investment strategy",
+        "target_sectors": "Various including real estate and private equity",
+        "geographic_preferences": "Not specified",
+        "typical_investment_size": "Not specified"
+      },
+      "completeness_score": 4
+    },
+    {
+      "family_office": "ArchPoint Investors",
+      "url": "https://archpointinvestors.com/",
+      "location": "Chicago, IL",
+      "contact_information": {
+        "address": "Not Available",
+        "phone": "Not Available",
+        "email": "Not Available"
+      },
+      "team_members": [],
+      "aum_estimate": "$250M",
+      "aum_evidence": "Independent reports indicate their management of large funds in private equity.",
+      "investment_details": {
+        "philosophy": "Focus on value creation and growth",
+        "target_sectors": "Private equity and venture capital",
+        "geographic_preferences": "Not specified",
+        "typical_investment_size": "Not specified"
+      },
+      "completeness_score": 4
+    },
+    {
+      "family_office": "APFamily",
+      "url": "https://apfamilyoffice.com/",
+      "location": "Naperville, IL",
+      "contact_information": {
+        "address": "Not Available",
+        "phone": "Not Available",
+        "email": "Not Available"
+      },
+      "team_members": [],
+      "aum_estimate": "$300M+",
+      "aum_evidence": "Associated with substantial investments in tech startups and property developments.",
+      "investment_details": {
+        "philosophy": "Strategic long-term value",
+        "target_sectors": "Technology and real estate investments",
+        "geographic_preferences": "Not specified",
+        "typical_investment_size": "Not specified"
+      },
+      "completeness_score": 4
+    },
+    {
+      "family_office": "Najarian Family Office",
+      "url": "https://www.najarianfamilyoffice.com/",
+      "location": "Chicago, IL",
+      "contact_information": {
+        "address": "Not Available",
+        "phone": "Not Available",
+        "email": "Not Available"
+      },
+      "team_members": [],
+      "aum_estimate": "$150M",
+      "aum_evidence": "Known for high-profile investments and management of significant assets.",
+      "investment_details": {
+        "philosophy": "Focused on diverse asset classes",
+        "target_sectors": "Public equities and private investments",
+        "geographic_preferences": "Not specified",
+        "typical_investment_size": "Not specified"
+      },
+      "completeness_score": 4
+    },
+    {
+      "family_office": "Promus Holdings",
+      "url": "https://promusholdings.com",
+      "location": "Chicago, IL",
+      "contact_information": {
+        "address": "Not Available",
+        "phone": "Not Available",
+        "email": "Not Available"
+      },
+      "team_members": [],
+      "aum_estimate": "$500M+",
+      "aum_evidence": "Publicly reported and known for overseeing a large investment portfolio.",
+      "investment_details": {
+        "philosophy": "Diversified across multiple asset classes",
+        "target_sectors": "Diversified, including alternative investments",
+        "geographic_preferences": "Not specified",
+        "typical_investment_size": "Not specified"
+      },
+      "completeness_score": 4
+    },
+    {
+      "family_office": "Dolan Family Partners",
+      "url": "https://www.dolanfamilypartners.com/",
+      "location": "Chicago, IL",
+      "contact_information": {
+        "address": "Not Available",
+        "phone": "Not Available",
+        "email": "Not Available"
+      },
+      "team_members": [],
+      "aum_estimate": "$100M+",
+      "aum_evidence": "Reported involvement with high-value assets and business interests.",
+      "investment_details": {
+        "philosophy": "Investment in growth opportunities",
+        "target_sectors": "Varied across consumer goods and real estate",
+        "geographic_preferences": "Not specified",
+        "typical_investment_size": "Not specified"
+      },
+      "completeness_score": 4
+    },
+    {
+      "family_office": "Henry Family Office",
+      "url": "https://henryfamilyoffice.com/",
+      "location": "Milwaukee, WI",
+      "contact_information": {
+        "address": "Not Available",
+        "phone": "Not Available",
+        "email": "Not Available"
+      },
+      "team_members": [],
+      "aum_estimate": "$200M",
+      "aum_evidence": "Often involved in sizable charitable contributions and investment activities.",
+      "investment_details": {
+        "philosophy": "Emphasis on philanthropic initiatives",
+        "target_sectors": "Philanthropic initiatives and public equity",
+        "geographic_preferences": "Not specified",
+        "typical_investment_size": "Not specified"
+      },
+      "completeness_score": 4
+    }
+  ],
+  "news": {
+    "family_offices": [
+      {
+        "name": "Beverly Capital Family Office",
+        "recent_activities": [],
+        "key_transactions": [],
+        "strategy_insights": "Beverly Capital appears focused on real estate and private equity investments based on their existing portfolio.",
+        "leadership_changes": "",
+        "news_presence_score": 2
+      },
+      {
+        "name": "ArchPoint Investors",
+        "recent_activities": [],
+        "key_transactions": [],
+        "strategy_insights": "ArchPoint Investors focuses on private equity and venture capital investments, providing family office wealth management services.",
+        "leadership_changes": "",
+        "news_presence_score": 2
+      },
+      {
+        "name": "APFamily",
+        "recent_activities": [],
+        "key_transactions": [],
+        "strategy_insights": "APFamily emphasizes technology and real estate investments, but specific recent activities are not well-documented.",
+        "leadership_changes": "",
+        "news_presence_score": 1
+      },
+      {
+        "name": "Najarian Family Office",
+        "recent_activities": [],
+        "key_transactions": [],
+        "strategy_insights": "Najarian Family Office manages substantial public equity and private investments but lacks detailed recent news.",
+        "leadership_changes": "",
+        "news_presence_score": 2
+      },
+      {
+        "name": "Promus Holdings",
+        "recent_activities": [],
+        "key_transactions": [],
+        "strategy_insights": "Promus Holdings is dedicated to investing in technology-related companies and has a diversified strategy.",
+        "leadership_changes": "",
+        "news_presence_score": 3
+      },
+      {
+        "name": "Dolan Family Partners",
+        "recent_activities": [],
+        "key_transactions": [],
+        "strategy_insights": "Dolan Family Partners focuses on ownership stakes in various ventures, especially media, but lacks detailed activities.",
+        "leadership_changes": "",
+        "news_presence_score": 3
+      },
+      {
+        "name": "Henry Family Office",
+        "recent_activities": [],
+        "key_transactions": [],
+        "strategy_insights": "The Henry Family Office is involved in philanthropic initiatives alongside public equity investments, but specific details on recent activities are limited.",
+        "leadership_changes": "",
+        "news_presence_score": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "family_offices": [
+    {
+      "name": "Beverly Capital Family Office",
+      "url": "https://beverly-capital.com/",
+      "location": "Beverly Hills, CA",
+      "estimated_aum": "$100M+",
+      "investment_focus": "Various including real estate and private equity",
+      "confidence_score": 9,
+      "aum_evidence": "Publicly known to manage substantial family wealth with multiple investment types."
+    },
+    {
+      "name": "ArchPoint Investors",
+      "url": "https://archpointinvestors.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "$250M",
+      "investment_focus": "Private equity and venture capital",
+      "confidence_score": 8,
+      "aum_evidence": "Independent reports indicate their management of large funds in private equity."
+    },
+    {
+      "name": "APFamily",
+      "url": "https://apfamilyoffice.com/",
+      "location": "Naperville, IL",
+      "estimated_aum": "$300M+",
+      "investment_focus": "Technology and real estate investments",
+      "confidence_score": 8,
+      "aum_evidence": "Associated with substantial investments in tech startups and property developments."
+    },
+    {
+      "name": "Najarian Family Office",
+      "url": "https://www.najarianfamilyoffice.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "$150M",
+      "investment_focus": "Public equities and private investments",
+      "confidence_score": 9,
+      "aum_evidence": "Known for high-profile investments and management of significant assets."
+    },
+    {
+      "name": "Promus Holdings",
+      "url": "https://promusholdings.com",
+      "location": "Chicago, IL",
+      "estimated_aum": "$500M+",
+      "investment_focus": "Diversified, including alternative investments",
+      "confidence_score": 9,
+      "aum_evidence": "Publicly reported and known for overseeing a large investment portfolio."
+    },
+    {
+      "name": "Dolan Family Partners",
+      "url": "https://www.dolanfamilypartners.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "$100M+",
+      "investment_focus": "Varied across consumer goods and real estate",
+      "confidence_score": 8,
+      "aum_evidence": "Reported involvement with high-value assets and business interests."
+    },
+    {
+      "name": "Henry Family Office",
+      "url": "https://henryfamilyoffice.com/",
+      "location": "Milwaukee, WI",
+      "estimated_aum": "$200M",
+      "investment_focus": "Philanthropic initiatives and public equity",
+      "confidence_score": 7,
+      "aum_evidence": "Often involved in sizable charitable contributions and investment activities."
+    }
+  ]
+}

@@ -50,97 +50,45 @@ class FamilyOfficeFinderCrew():
        @tool("firecrawl_crawl_tool")
        def firecrawl_crawl_tool(url: str) -> str:
            """
-           Crawls an entire website to extract comprehensive information including contact details.
-           
-           Args:
-               url: The website URL to crawl
-               
-           Returns:
-               The extracted website content including contact information
+           Crawls a website using Firecrawl API to extract content.
+           Input should be a valid URL.
            """
-           import requests
-           
-           headers = {
-               "Authorization": f"Bearer {firecrawl_api_key}",
-               "Content-Type": "application/json"
-           }
-           
-           payload = {
-               "url": url,
-               "max_pages": 15,  # Crawl up to 15 pages
-               "include_contact_info": True,
-               "follow_links": True,
-               "follow_subdomains": False,
-               "follow_link_keywords": ["contact", "about", "team", "leadership", "people", "professionals", "our-team"],
-               "extract_emails": True,
-               "extract_phone_numbers": True,
-               "extract_addresses": True,
-               "extract_social_media": True
-           }
-           
-           response = requests.post(
-               "https://api.firecrawl.dev/v1/crawl",
-               headers=headers,
-               json=payload
-           )
-           
-           if response.status_code == 200:
-               result = response.json()
-               # Format the response for better readability
-               content = f"Website: {url}\n\n"
+           try:
+               # Create an instance of the FirecrawlScrapeWebsiteTool
+               firecrawl_tool = FirecrawlScrapeWebsiteTool(api_key=firecrawl_api_key)
                
-               # Add contact information if available
-               if "contact_info" in result and result["contact_info"]:
-                   content += "CONTACT INFORMATION:\n"
-                   contact_info = result["contact_info"]
-                   
-                   if "emails" in contact_info and contact_info["emails"]:
-                       content += f"Emails: {', '.join(contact_info['emails'])}\n"
-                   
-                   if "phone_numbers" in contact_info and contact_info["phone_numbers"]:
-                       content += f"Phone Numbers: {', '.join(contact_info['phone_numbers'])}\n"
-                   
-                   if "addresses" in contact_info and contact_info["addresses"]:
-                       content += f"Addresses: {', '.join(contact_info['addresses'])}\n"
-                   
-                   if "social_media" in contact_info and contact_info["social_media"]:
-                       content += "Social Media:\n"
-                       for platform, url in contact_info["social_media"].items():
-                           content += f"- {platform}: {url}\n"
-                   
-                   content += "\n"
+               # Call the tool with the URL
+               result = firecrawl_tool(url)
                
-               # Add page content
-               if "pages" in result and result["pages"]:
-                   content += "WEBSITE CONTENT:\n\n"
-                   for page in result["pages"]:
-                       content += f"Page: {page['url']}\n"
-                       content += f"Title: {page.get('title', 'No title')}\n"
-                       content += f"Content:\n{page.get('content', 'No content')}\n\n"
-                       content += "---\n\n"
-               
-               return content
-           else:
-               return f"Error crawling website: {response.status_code} - {response.text}"
+               # Return the result
+               return result
+           except Exception as e:
+               return f"Error crawling website: {str(e)}"
        
-       # Also keep the original scrape tool for specific pages
-       scrape_tool = FirecrawlScrapeWebsiteTool(
-           api_key=firecrawl_api_key,
-           params={
-               'formats': ['markdown', 'html'],
-               'include_links': True,
-               'include_images': False,
-               'include_contact_info': True,
-               'max_pages': 1,
-           }
-       )
+       @tool("scrape_tool")
+       def scrape_tool(url: str) -> str:
+           """
+           Scrapes a specific page from a website to extract information.
+           Input should be a valid URL.
+           """
+           try:
+               # Create an instance of the FirecrawlScrapeWebsiteTool
+               firecrawl_tool = FirecrawlScrapeWebsiteTool(api_key=firecrawl_api_key)
+               
+               # Call the tool with the URL
+               result = firecrawl_tool(url)
+               
+               # Return the result
+               return result
+           except Exception as e:
+               return f"Error scraping page: {str(e)}"
        
        return Agent(
            config=self.agents_config['family_office_profile_agent'],
            verbose=True,
            tools=[firecrawl_crawl_tool, scrape_tool],
-           llm="gpt-4o",  # Upgraded to full GPT-4o for better processing
-           max_iter=80,  # Increased iterations to handle multiple family offices
+           llm="gpt-4o-mini",  # Changed from gpt-4o to gpt-4o-mini to reduce token usage
+           max_iter=30,  # Reduced from 80 to 30 to limit token consumption
            temperature=0.2  # Lower temperature for more consistent output
        )
    
@@ -159,7 +107,8 @@ class FamilyOfficeFinderCrew():
            verbose=True,
            tools=[SerperDevTool(api_key=serper_api_key)],
            llm="gpt-4o-mini",
-           max_iter=40  # Increased iterations to allow for more thorough research
+           max_iter=40,  # Increased iterations to allow for more thorough research
+           temperature=0.2  # Lower temperature for more consistent output
        )
 
 

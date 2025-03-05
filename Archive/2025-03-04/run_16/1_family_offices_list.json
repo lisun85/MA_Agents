@@ -1,0 +1,58 @@
+{
+  "family_office_profiles": [
+    {
+      "name": "DNS Capital",
+      "url": "https://www.dnscap.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Over $100M",
+      "investment_focus": "Venture capital, private equity, and investment management for the Pritzker family.",
+      "confidence_score": 9,
+      "aum_evidence": "Connected to the Pritzker family, which is known for substantial wealth and investments."
+    },
+    {
+      "name": "Beverly Capital",
+      "url": "https://beverly-capital.com/",
+      "location": "Beverly Hills, CA",
+      "estimated_aum": "Estimated at $100M+",
+      "investment_focus": "Private investments and asset management.",
+      "confidence_score": 8,
+      "aum_evidence": "The firm's portfolio and clientele suggest significant AUM."
+    },
+    {
+      "name": "Promus Holdings",
+      "url": "https://promusholdings.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Estimated at $100M+",
+      "investment_focus": "Private equity and venture capital investments.",
+      "confidence_score": 8,
+      "aum_evidence": "Involvement in substantial investment projects indicates a high AUM."
+    },
+    {
+      "name": "APFamily",
+      "url": "https://apfamilyoffice.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Estimated at $100M+",
+      "investment_focus": "Multi-asset class investment strategies.",
+      "confidence_score": 8,
+      "aum_evidence": "Diverse investment strategies typically align with substantial AUM."
+    },
+    {
+      "name": "Gresham Partners",
+      "url": "https://www.greshampartners.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Approximately $9 billion",
+      "investment_focus": "Family wealth management and investment advisory.",
+      "confidence_score": 9,
+      "aum_evidence": "Manages significant assets under management for multiple clients, underscoring their capacity."
+    },
+    {
+      "name": "Chicago Capital",
+      "url": "https://www.chi-cap.com/",
+      "location": "Chicago, IL",
+      "estimated_aum": "Estimated at $100M+",
+      "investment_focus": "Wealth management and investment advisory services.",
+      "confidence_score": 8,
+      "aum_evidence": "Offers services to high-net-worth clients, implying substantial AUM."
+    }
+  ]
+}

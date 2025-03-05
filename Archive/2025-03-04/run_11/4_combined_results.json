@@ -1,0 +1,170 @@
+{
+  "run_info": {
+    "date": "2025-03-04",
+    "run_number": 11,
+    "timestamp": "2025-03-04_22-47-38"
+  },
+  "discovery_results": {
+    "family_offices": [
+      {
+        "name": "DNS Capital",
+        "url": "https://www.dnscap.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $100M",
+        "investment_focus": "Venture capital and investment management, with focuses on technology and healthcare.",
+        "confidence_score": 9,
+        "aum_evidence": "Association with the Pritzker family, known to have substantial assets."
+      },
+      {
+        "name": "Beverly Capital",
+        "url": "https://beverly-capital.com/",
+        "location": "Beverly Hills, CA",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Private investments and asset management.",
+        "confidence_score": 8,
+        "aum_evidence": "Management of significant private investment portfolios points to high AUM."
+      },
+      {
+        "name": "Promus Holdings",
+        "url": "https://promusholdings.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Private equity and venture capital in technology and real estate.",
+        "confidence_score": 8,
+        "aum_evidence": "Involvement in multiple high-value investments suggests a significant AUM."
+      },
+      {
+        "name": "APFamily",
+        "url": "https://apfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Multi-asset class investment strategies.",
+        "confidence_score": 8,
+        "aum_evidence": "Diverse investment strategies indicate significant assets."
+      },
+      {
+        "name": "Gresham Partners",
+        "url": "https://www.greshampartners.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Approximately $9 billion",
+        "investment_focus": "Family wealth management and investment advisory.",
+        "confidence_score": 9,
+        "aum_evidence": "Manages assets for numerous client families, highlighting significant capacity."
+      },
+      {
+        "name": "Chicago Capital",
+        "url": "https://www.chi-cap.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Wealth management and investment advisory services.",
+        "confidence_score": 8,
+        "aum_evidence": "Catering to affluent individuals suggests substantial AUM."
+      }
+    ]
+  },
+  "profile_results": {
+    "family_offices": [
+      {
+        "name": "DNS Capital",
+        "url": "https://www.dnscap.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $100M",
+        "investment_focus": "Venture capital and investment management, with focuses on technology and healthcare.",
+        "aum_evidence": "Association with the Pritzker family, known to have substantial assets.",
+        "contact_information": {
+          "address": "Not explicitly found on the website",
+          "phone": "Not explicitly found on the website",
+          "email": "Not explicitly found on the website"
+        },
+        "team_members": [
+          {
+            "name": "Michael A. Pucker",
+            "role": "Chairman & CEO"
+          },
+          {
+            "name": "Jason Schroeder",
+            "role": "Managing Director"
+          },
+          {
+            "name": "Scott Hairston",
+            "role": "Chief Operating Officer"
+          },
+          {
+            "name": "Alan Bakhos",
+            "role": "General Counsel"
+          },
+          {
+            "name": "Lauren Hirsch",
+            "role": "Chief Administrative Officer"
+          },
+          {
+            "name": "Emily Casey Brown",
+            "role": "Principal"
+          },
+          {
+            "name": "Brian Stal",
+            "role": "Director of GSD"
+          },
+          {
+            "name": "Lizzie Osmundson",
+            "role": "Senior Counsel"
+          },
+          {
+            "name": "Jeff Ehlers",
+            "role": "Operating Partner"
+          },
+          {
+            "name": "Pat Atwood",
+            "role": "Vice President"
+          },
+          {
+            "name": "George Lyman",
+            "role": "Associate"
+          },
+          {
+            "name": "Grace Martin",
+            "role": "Associate"
+          },
+          {
+            "name": "Mary Kate Holland",
+            "role": "Executive Assistant / Office Facilities Manager"
+          },
+          {
+            "name": "Charles Tollinche",
+            "role": "Senior Advisor"
+          }
+        ],
+        "completeness_score": 9
+      },
+      {
+        "name": "Beverly Capital",
+        "url": "https://beverly-capital.com/",
+        "location": "Beverly Hills, CA",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Private investments and asset management.",
+        "aum_evidence": "Management of significant private investment portfolios points to high AUM.",
+        "contact_information": {
+          "address": "2078 Prospector Avenue, Suite 14, Park City, UT 84060",
+          "phone": "847.961.9210",
+          "email": "info@beverlycap.com"
+        },
+        "team_members": [
+          {
+            "name": "Joseph P. Nolan",
+            "role": "Managing Director"
+          },
+          {
+            "name": "Michael T. Nolan",
+            "role": "Principal"
+          },
+          {
+            "name": "Lisa S. Weil",
+            "role": "Associate"
+          }
+        ],
+        "completeness_score": 10
+      }
+    ]
+  },
+  "news_results": {}
+}

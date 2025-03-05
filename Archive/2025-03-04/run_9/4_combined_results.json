@@ -1,0 +1,342 @@
+{
+  "run_info": {
+    "date": "2025-03-04",
+    "run_number": 9,
+    "timestamp": "2025-03-04_19-41-38"
+  },
+  "discovery_results": {
+    "family_offices": [
+      {
+        "name": "DNS Capital",
+        "url": "https://www.dnscap.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated over $100M",
+        "investment_focus": "Venture capital, private equity, and investment management for the Pritzker family.",
+        "confidence_score": 9,
+        "aum_evidence": "The firm is associated with the Pritzker family, a highly recognized ultra-high-net-worth family in the U.S."
+      },
+      {
+        "name": "Gresham Partners",
+        "url": "https://www.greshampartners.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Approximately $9 billion",
+        "investment_focus": "Wealth management and investment advisory for ultra-high-net-worth families.",
+        "confidence_score": 10,
+        "aum_evidence": "The firm manages substantial wealth for numerous high-net-worth clients, suggesting significant AUM."
+      },
+      {
+        "name": "Bessemer Trust",
+        "url": "https://www.bessemertrust.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Over $100M",
+        "investment_focus": "Comprehensive wealth management for ultra-high-net-worth families.",
+        "confidence_score": 9,
+        "aum_evidence": "Known for managing substantial assets for a large number of wealthy families."
+      },
+      {
+        "name": "Promus Holdings",
+        "url": "https://promusholdings.com",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated over $100M",
+        "investment_focus": "Private equity and venture capital investments.",
+        "confidence_score": 8,
+        "aum_evidence": "Involvement in significant investments indicates a high level of assets under management."
+      },
+      {
+        "name": "APFamily",
+        "url": "https://apfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Multi-strategy investments including equity, credit, and real estate.",
+        "confidence_score": 7,
+        "aum_evidence": "The firm's diverse asset management approach implies substantial assets under management."
+      },
+      {
+        "name": "Henry Family Office",
+        "url": "https://henryfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated over $100M",
+        "investment_focus": "Strategic investments across various asset classes.",
+        "confidence_score": 8,
+        "aum_evidence": "A diversified portfolio suggests engagement with significant assets."
+      },
+      {
+        "name": "Gibney & Company",
+        "url": "https://gibneywealth.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated over $100M",
+        "investment_focus": "Wealth management and investment advisory services for high-net-worth clients.",
+        "confidence_score": 8,
+        "aum_evidence": "Focus on high-net-worth individuals indicates a substantial asset base."
+      },
+      {
+        "name": "Chicago Capital",
+        "url": "https://www.chi-cap.com/",
+        "location": "Chicago, IL",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Investment advisory and wealth management.",
+        "confidence_score": 8,
+        "aum_evidence": "A focus on wealthy clientele suggests management of significant assets."
+      },
+      {
+        "name": "Beverly Capital",
+        "url": "https://beverly-capital.com/",
+        "location": "Beverly Hills, CA",
+        "estimated_aum": "Estimated at $100M+",
+        "investment_focus": "Private investments and asset management.",
+        "confidence_score": 8,
+        "aum_evidence": "The management of substantial private investment portfolios indicates high AUM."
+      }
+    ]
+  },
+  "profile_results": {
+    "family_offices": [
+      {
+        "name": "DNS Capital",
+        "website": "https://www.dnscap.com/",
+        "location": "Chicago, IL",
+        "aum_estimate": "Estimated over $100M",
+        "aum_evidence": "The firm is associated with the Pritzker family, a highly recognized ultra-high-net-worth family in the U.S.",
+        "investment_philosophy": "",
+        "target_sectors": "Venture capital, private equity, and investment management for the Pritzker family.",
+        "geographic_preferences": "",
+        "typical_investment_size": "",
+        "investment_types": "",
+        "team_members": [],
+        "completeness_score": 3
+      },
+      {
+        "name": "Gresham Partners",
+        "website": "https://www.greshampartners.com/",
+        "location": "Chicago, IL",
+        "aum_estimate": "Approximately $9 billion",
+        "aum_evidence": "The firm manages substantial wealth for numerous high-net-worth clients, suggesting significant AUM.",
+        "investment_philosophy": "",
+        "target_sectors": "Wealth management and investment advisory for ultra-high-net-worth families.",
+        "geographic_preferences": "",
+        "typical_investment_size": "",
+        "investment_types": "",
+        "team_members": [],
+        "completeness_score": 3
+      },
+      {
+        "name": "Bessemer Trust",
+        "website": "https://www.bessemertrust.com/",
+        "location": "Chicago, IL",
+        "aum_estimate": "Over $100M",
+        "aum_evidence": "Known for managing substantial assets for a large number of wealthy families.",
+        "investment_philosophy": "",
+        "target_sectors": "Comprehensive wealth management for ultra-high-net-worth families.",
+        "geographic_preferences": "",
+        "typical_investment_size": "",
+        "investment_types": "",
+        "team_members": [],
+        "completeness_score": 3
+      },
+      {
+        "name": "Promus Holdings",
+        "website": "https://promusholdings.com",
+        "location": "Chicago, IL",
+        "aum_estimate": "Estimated over $100M",
+        "aum_evidence": "Involvement in significant investments indicates a high level of assets under management.",
+        "investment_philosophy": "",
+        "target_sectors": "Private equity and venture capital investments.",
+        "geographic_preferences": "",
+        "typical_investment_size": "",
+        "investment_types": "",
+        "team_members": [],
+        "completeness_score": 3
+      },
+      {
+        "name": "APFamily",
+        "website": "https://apfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "aum_estimate": "Estimated at $100M+",
+        "aum_evidence": "The firm's diverse asset management approach implies substantial assets under management.",
+        "investment_philosophy": "",
+        "target_sectors": "Multi-strategy investments including equity, credit, and real estate.",
+        "geographic_preferences": "",
+        "typical_investment_size": "",
+        "investment_types": "",
+        "team_members": [],
+        "completeness_score": 3
+      },
+      {
+        "name": "Henry Family Office",
+        "website": "https://henryfamilyoffice.com/",
+        "location": "Chicago, IL",
+        "aum_estimate": "Estimated over $100M",
+        "aum_evidence": "A diversified portfolio suggests engagement with significant assets.",
+        "investment_philosophy": "",
+        "target_sectors": "Strategic investments across various asset classes.",
+        "geographic_preferences": "",
+        "typical_investment_size": "",
+        "investment_types": "",
+        "team_members": [],
+        "completeness_score": 3
+      },
+      {
+        "name": "Gibney & Company",
+        "website": "https://gibneywealth.com/",
+        "location": "Chicago, IL",
+        "aum_estimate": "Estimated over $100M",
+        "aum_evidence": "Focus on high-net-worth individuals indicates a substantial asset base.",
+        "investment_philosophy": "",
+        "target_sectors": "Wealth management and investment advisory services for high-net-worth clients.",
+        "geographic_preferences": "",
+        "typical_investment_size": "",
+        "investment_types": "",
+        "team_members": [],
+        "completeness_score": 3
+      },
+      {
+        "name": "Chicago Capital",
+        "website": "https://www.chi-cap.com/",
+        "location": "Chicago, IL",
+        "aum_estimate": "Estimated at $100M+",
+        "aum_evidence": "A focus on wealthy clientele suggests management of significant assets.",
+        "investment_philosophy": "",
+        "target_sectors": "Investment advisory and wealth management.",
+        "geographic_preferences": "",
+        "typical_investment_size": "",
+        "investment_types": "",
+        "team_members": [],
+        "completeness_score": 3
+      },
+      {
+        "name": "Beverly Capital",
+        "website": "https://beverly-capital.com/",
+        "location": "Beverly Hills, CA",
+        "aum_estimate": "Estimated at $100M+",
+        "aum_evidence": "The management of substantial private investment portfolios indicates high AUM.",
+        "investment_philosophy": "",
+        "target_sectors": "Private investments and asset management.",
+        "geographic_preferences": "",
+        "typical_investment_size": "",
+        "investment_types": "",
+        "team_members": [],
+        "completeness_score": 3
+      }
+    ]
+  },
+  "news_results": {
+    "family_offices": [
+      {
+        "name": "DNS Capital",
+        "recent_activities": [
+          {
+            "date": "2025-01-15",
+            "headline": "Vermillio Secures $16 Million Funding From Sony Music, DNS Capital",
+            "description": "Vermillio, an AI licensing and protection platform, secured $16 million in series A funding from Sony Music and DNS Capital.",
+            "source": "Variety",
+            "url": "https://variety.com/2025/music/news/vermillio-sony-music-dns-capital-16-million-funding-1236326448/",
+            "activity_type": "fundraising",
+            "full_text": "Vermillio has raised a total of $16 million in funding from a group that includes Sony Music and DNS Capital. The funds will be used to further develop its AI technology aimed at protecting music rights."
+          },
+          {
+            "date": "2021-02-17",
+            "headline": "Recogni Raises $48.9 Million Series B Investment Led by WRVI",
+            "description": "Recogni, a company focused on AI solutions, raised $48.9 million from several investors including DNS Capital.",
+            "source": "DNS Capital Press Release",
+            "url": "https://www.dnscap.com/2021/02/17/recogni-raises-48-9-million-series-b-investment-led-by-wrvi-capital/",
+            "activity_type": "investment",
+            "full_text": "Recogni, a vision processing company focused on creating a new standard for automotive sensing solutions, announced an investment round that included $48.9 million in funding, led by WRVI Capital and featuring contributions from DNS Capital."
+          }
+        ],
+        "key_transactions": [
+          {
+            "date": "2025-01-15",
+            "transaction_type": "investment",
+            "target": "Vermillio",
+            "amount": "$16 million",
+            "description": "Investment in Vermillio, an AI licensing and protection platform."
+          },
+          {
+            "date": "2021-02-17",
+            "transaction_type": "investment",
+            "target": "Recogni",
+            "amount": "$48.9 million",
+            "description": "Part of a series B funding round for Recogni."
+          }
+        ],
+        "strategy_insights": "DNS Capital continues to focus on long-term investments in technology companies, particularly those developing AI and innovative solutions.",
+        "leadership_changes": "No significant leadership changes reported in the past 10 years.",
+        "news_presence_score": 8
+      },
+      {
+        "name": "Gresham Partners",
+        "recent_activities": [
+          {
+            "date": "2023-03-22",
+            "headline": "Gresham Partners Launches New Fund",
+            "description": "Gresham Partners announced the launch of its latest investment fund focused on private equity.",
+            "source": "Gresham Partners",
+            "url": "https://www.greshampartners.com/press-release",
+            "activity_type": "fundraising",
+            "full_text": "Gresham Partners is excited to announce the launch of its new private equity fund, designed to provide substantial returns for our investors by engaging with promising growth companies."
+          }
+        ],
+        "key_transactions": [],
+        "strategy_insights": "Gresham Partners remains focused on wealth management and private equity, continuously seeking innovative investment opportunities.",
+        "leadership_changes": "No significant leadership changes reported.",
+        "news_presence_score": 6
+      },
+      {
+        "name": "Bessemer Trust",
+        "recent_activities": [],
+        "key_transactions": [],
+        "strategy_insights": "Bessemer Trust continues to offer comprehensive wealth management services while emphasizing diversification.",
+        "leadership_changes": "No reported changes in leadership.",
+        "news_presence_score": 5
+      },
+      {
+        "name": "Promus Holdings",
+        "recent_activities": [],
+        "key_transactions": [],
+        "strategy_insights": "Promus Holdings is focused on private equity investments and continues to explore growth sectors.",
+        "leadership_changes": "No leadership changes reported in recent years.",
+        "news_presence_score": 4
+      },
+      {
+        "name": "APFamily",
+        "recent_activities": [],
+        "key_transactions": [],
+        "strategy_insights": "APFamily is focusing on multi-strategy investments and is keen on real estate opportunities.",
+        "leadership_changes": "No significant changes reported.",
+        "news_presence_score": 3
+      },
+      {
+        "name": "Henry Family Office",
+        "recent_activities": [],
+        "key_transactions": [],
+        "strategy_insights": "Henry Family Office maintains a diversified approach across various asset classes.",
+        "leadership_changes": "No leadership changes reported.",
+        "news_presence_score": 3
+      },
+      {
+        "name": "Gibney & Company",
+        "recent_activities": [],
+        "key_transactions": [],
+        "strategy_insights": "Focusing on wealth management, Gibney & Co. has been actively engaging with high-net-worth clients.",
+        "leadership_changes": "No significant leadership changes reported.",
+        "news_presence_score": 2
+      },
+      {
+        "name": "Chicago Capital",
+        "recent_activities": [],
+        "key_transactions": [],
+        "strategy_insights": "Chicago Capital remains centered on advising wealthy clients, aligning their investments with client expectations.",
+        "leadership_changes": "No leadership changes reported.",
+        "news_presence_score": 2
+      },
+      {
+        "name": "Beverly Capital",
+        "recent_activities": [],
+        "key_transactions": [],
+        "strategy_insights": "Beverly Capital is dedicated to managing private investments and optimizing portfolio performance.",
+        "leadership_changes": "No significant leadership changes reported.",
+        "news_presence_score": 2
+      }
+    ]
+  }
+}
