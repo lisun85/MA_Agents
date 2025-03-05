@@ -4,7 +4,7 @@ from crewai.project import CrewBase, agent, crew, task
 from crewai_tools import EXASearchTool, FirecrawlScrapeWebsiteTool, SerperDevTool
 from dotenv import load_dotenv
 from langchain.tools import tool
-
+from firecrawl import FirecrawlApp
 
 # Load environment variables
 load_dotenv()
@@ -55,10 +55,10 @@ class FamilyOfficeFinderCrew():
            """
            try:
                # Create an instance of the FirecrawlScrapeWebsiteTool
-               firecrawl_tool = FirecrawlScrapeWebsiteTool(api_key=firecrawl_api_key)
+               firecrawl_tool = FirecrawlApp(api_key=firecrawl_api_key)
                
                # Call the tool with the URL
-               result = firecrawl_tool(url)
+               result = firecrawl_tool.crawl_url(url)
                
                # Return the result
                return result
@@ -73,10 +73,10 @@ class FamilyOfficeFinderCrew():
            """
            try:
                # Create an instance of the FirecrawlScrapeWebsiteTool
-               firecrawl_tool = FirecrawlScrapeWebsiteTool(api_key=firecrawl_api_key)
+               firecrawl_tool = FirecrawlApp(api_key=firecrawl_api_key)
                
                # Call the tool with the URL
-               result = firecrawl_tool(url)
+               result = firecrawl_tool.scrape_url(url)
                
                # Return the result
                return result
