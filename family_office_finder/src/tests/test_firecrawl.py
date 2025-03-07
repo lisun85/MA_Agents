@@ -2,6 +2,7 @@ import unittest
 import os
 from unittest.mock import patch, MagicMock
 from firecrawl import FirecrawlApp
+from family_office_finder.schema import FamilyOfficeSchema, SimplifiedFamilyOfficeSchema, family_office_schema
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -13,18 +14,27 @@ https://axial.net/forum/companies/construction-engineering-private-equity-firms/
 https://branfordcastle.com/media-coverage
 '''
 
+
 class TestFirecrawl(unittest.TestCase):
     def setUp(self):
         """Set up test fixtures before each test method."""
         self.api_key = os.environ.get("FIRECRAWL_API_KEY", "test_api_key")
         self.app = FirecrawlApp(api_key=self.api_key)
-        self.test_url = "https://branfordcastle.com/"
+        self.test_url = "https://branfordcastle.com/*"
+        print('schema****=', SimplifiedFamilyOfficeSchema.model_json_schema())
+        self.schema = SimplifiedFamilyOfficeSchema.model_json_schema()
 
     def test_scrape_url_real_api(self):
         """Test scraping a single URL with the real API."""
         # Call the method with actual API
-        result = self.app.scrape_url(self.test_url)
-      
+
+        params = {
+            "formats": ["extract"],
+            "extract": {
+                "schema": self.schema
+            }
+        }
+        result = self.app.scrape_url(self.test_url, params)
 
         # Assertions
         self.assertIsNotNone(result)
@@ -37,9 +47,10 @@ class TestFirecrawl(unittest.TestCase):
         """Test scraping a URL with custom options using the real API."""
         # Define scrape options
         params = {
-            "formats": ["markdown", "html"],
-            "onlyMainContent": True,
-            "waitFor": 2000,  # Wait 2 seconds for JS to load
+            "formats": ["extract"],
+            "extract": {
+                "schema": self.schema
+            }
         }
 
         # Call with params
@@ -53,7 +64,14 @@ class TestFirecrawl(unittest.TestCase):
     def test_crawl_url_real_api(self):
         """Test crawling a website with the real API."""
         # Call the method
-        result = self.app.crawl_url(self.test_url)
+        
+        params__ = {
+            "schema": FamilyOfficeSchema.get_clean_schema()#simple_schema
+        }
+        
+
+        #result = self.app.crawl_url(self.test_url, params)
+        result = self.app.extract([self.test_url], params__ )
         print('result****=', result)
 
         # Assertions
@@ -66,14 +84,11 @@ class TestFirecrawl(unittest.TestCase):
         """Test crawling a website with custom options using the real API."""
         # Define crawl options
         params = {
-            "limit": 5,
             "scrapeOptions": {
-                "formats": ["markdown"]
-            },
-            "crawlerOptions": {
-                "maxDepth": 1,
-                "allowBackwardCrawling": False,
-                "allowExternalContentLinks": False
+                "formats": ["extract"],
+                "extract": {
+                    "schema": self.schema
+                }
             }
         }
 
@@ -90,7 +105,7 @@ class TestFirecrawl(unittest.TestCase):
         # First create a crawl job
         crawl_result = self.app.crawl_url(self.test_url, {"limit": 2})
         crawl_id = crawl_result["id"]
-        
+
         # Call the method
         result = self.app.check_crawl_status(crawl_id)
 
