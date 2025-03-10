@@ -21,8 +21,9 @@ class TestFirecrawl(unittest.TestCase):
         self.api_key = os.environ.get("FIRECRAWL_API_KEY", "test_api_key")
         self.app = FirecrawlApp(api_key=self.api_key)
         self.test_url = "https://branfordcastle.com/*"
-        print('schema****=', SimplifiedFamilyOfficeSchema.model_json_schema())
-        self.schema = SimplifiedFamilyOfficeSchema.model_json_schema()
+        # FamilyOfficeSchema.get_clean_schema())
+        print('schema****=', family_office_schema)
+        self.schema = FamilyOfficeSchema.get_clean_schema()
 
     def test_scrape_url_real_api(self):
         """Test scraping a single URL with the real API."""
@@ -31,10 +32,29 @@ class TestFirecrawl(unittest.TestCase):
         params = {
             "formats": ["extract"],
             "extract": {
-                "schema": self.schema
+                "schema": {
+                    "type": "object",
+                    "properties": {
+                        "media_news_coverage": {
+                            "type": "array",
+                            "description": "Unique and complete list of every media or news coverage of this family office. Extract the COMPLETE text of each article word-for-word, not summaries. Include the exact publication date for each article.",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "date": {"type": "string", "description": "The date publication of the media coverage"},
+                                    "text": {"type": "string", "description": "The complete text word for word of the media item"}
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
-        result = self.app.scrape_url(self.test_url, params)
+        result = self.app.scrape_url(
+            "https://branfordcastle.com/media-coverage/", params)
+        print('result media coverage****=', result)
+        print('MEDIA LENGTH****=',
+              len(result['extract']['media_news_coverage']))
 
         # Assertions
         self.assertIsNotNone(result)
@@ -62,35 +82,93 @@ class TestFirecrawl(unittest.TestCase):
         self.assertIn("html", result)
 
     def test_crawl_url_real_api(self):
-        """Test crawling a website with the real API."""
-        # Call the method
-        
-        params__ = {
-            "schema": FamilyOfficeSchema.get_clean_schema()#simple_schema
+        params = {
+            "scrapeOptions": {
+                "formats": ["extract"],
+                "extract": {
+                    "schema": {
+                        "type": "object",
+                        "properties": {
+                            "media_news_coverage": {
+                                "type": "array",
+                                "description": "Unique and complete list of every media or news coverage of this family office. Extract the COMPLETE text of each article word-for-word, not summaries. Include the exact publication date for each article.",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "date": {"type": "string", "description": "The date publication of the media coverage"},
+                                        "text": {"type": "string", "description": "The complete text word for word of the media item"}
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "prompt": "Extract EVERY SINGLE media or news coverage item. There should be at least 5-10 items on this page."
+                }
+            }
         }
-        
-
-        #result = self.app.crawl_url(self.test_url, params)
-        result = self.app.extract([self.test_url], params__ )
+        result = self.app.crawl_url(
+            "https://branfordcastle.com/media-coverage/", params)
         print('result****=', result)
 
+    def test_extract_url_real_api(self):
+        """Test crawling a website with the real API."""
+        # Call the method
+
+        params__ = {
+            # FamilyOfficeSchema.get_clean_schema()#simple_schema
+            "schema": family_office_schema,
+            "prompt": "If there a list of media items extract the complete text of each article word-for-word, not summaries. Include the exact publication date for each article.",
+            'scrapeOptions': {
+                'timeout': 1200000  # 30 seconds
+            }
+        }
+
+        # result = self.app.crawl_url(self.test_url, params)
+        result = self.app.extract(
+            ["https://branfordcastle.com/*"], params__)
+        print('result****=', result)
+        #print('MEDIA LENGTH****=', len(result['data']['media_news_coverage']))
         # Assertions
         self.assertIsNotNone(result)
         self.assertTrue(result["success"])
         self.assertIn("id", result)
         self.assertIn("url", result)
 
+    def test_extract_url_real_api_single_page(self):
+        params = {
+            # FamilyOfficeSchema.get_clean_schema()#simple_schema
+            "schema": {
+                "type": "object",
+                "properties": {
+                        "media_news_coverage": {
+                            "type": "array",
+                            "description": "Unique and complete list of every media or news coverage of this family office. Extract the COMPLETE text of each article word-for-word, not summaries. Include the exact publication date for each article.",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "date": {"type": "string", "description": "The date publication of the media coverage"},
+                                    "text": {"type": "string", "description": "The complete text word for word of the media item"}
+                                }
+                            }
+                        }
+                }
+            },
+            "prompt": "If there a list of media items extract the complete text of each article word-for-word, not summaries. Include the exact publication date for each article.",
+            'scrapeOptions': {
+                'timeout': 120000,
+                'waitFor': 5000
+            }
+        }
+
+        # result = self.app.crawl_url(self.test_url, params)
+        result = self.app.extract([self.test_url], params)
+        print('result****=', result)
+        print('MEDIA LENGTH****=', len(result['data']['media_news_coverage']))
+
     def test_crawl_url_with_options_real_api(self):
         """Test crawling a website with custom options using the real API."""
         # Define crawl options
-        params = {
-            "scrapeOptions": {
-                "formats": ["extract"],
-                "extract": {
-                    "schema": self.schema
-                }
-            }
-        }
+        params = {}
 
         # Call with params
         result = self.app.crawl_url(self.test_url, params)
