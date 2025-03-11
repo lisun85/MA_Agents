@@ -2,6 +2,7 @@ import asyncio
 import os
 import json
 import re
+import datetime
 from urllib.parse import urlparse, urljoin
 from playwright.async_api import async_playwright
 from dotenv import load_dotenv
@@ -9,6 +10,9 @@ import argparse
 import time
 
 load_dotenv()
+
+# Global variable to store the output directory for this run
+CURRENT_OUTPUT_DIR = ""
 
 # Add this function to normalize URLs
 def normalize_url(url):
@@ -23,6 +27,25 @@ def normalize_url(url):
     normalized = f"{parsed.scheme}://{parsed.netloc}{path}"
     return normalized
 
+def create_output_directory(url):
+    """Create a timestamped output directory for this run"""
+    global CURRENT_OUTPUT_DIR
+    
+    # Create base output directory if it doesn't exist
+    os.makedirs("output", exist_ok=True)
+    
+    # Create a timestamped directory for this run
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    domain = urlparse(url).netloc.replace(".", "_")
+    if not domain:
+        domain = "local_site"
+    
+    CURRENT_OUTPUT_DIR = os.path.join("output", f"{timestamp}_{domain}")
+    os.makedirs(CURRENT_OUTPUT_DIR, exist_ok=True)
+    
+    print(f"Created output directory: {CURRENT_OUTPUT_DIR}")
+    return CURRENT_OUTPUT_DIR
+
 async def crawl_dynamic_website(url, max_depth=10, max_pages=0, max_time_minutes=0):
     """
     Generic crawler that handles any website with dynamic content.
@@ -33,8 +56,8 @@ async def crawl_dynamic_website(url, max_depth=10, max_pages=0, max_time_minutes
         max_pages: Maximum number of pages to crawl (0 for unlimited)
         max_time_minutes: Maximum crawl time in minutes (0 for unlimited)
     """
-    # Create output directory
-    os.makedirs("output", exist_ok=True)
+    # Create output directory for this run
+    output_dir = create_output_directory(url)
     
     # Set up time tracking
     start_time = time.time()
@@ -152,25 +175,40 @@ async def crawl_dynamic_website(url, max_depth=10, max_pages=0, max_time_minutes
                     print(f"  Found {len(static_links)} links in static content, added {len(new_static_links)} new URLs to queue")
                     print(f"  Current queue size: {len(url_queue)} URLs")
             
-            # Calculate final statistics
-            elapsed_time = time.time() - start_time
-            elapsed_minutes = elapsed_time / 60
+            # Save all data to a single file
+            all_data_filename = os.path.join(CURRENT_OUTPUT_DIR, "all_pages_data.json")
+            with open(all_data_filename, "w") as f:
+                json.dump(all_pages_data, f, indent=2)
             
-            print(f"\nCrawl complete!")
-            print(f"- Total pages crawled: {pages_crawled}")
-            print(f"- Total unique URLs found: {len(visited_urls)}")
-            print(f"- Total time: {elapsed_minutes:.1f} minutes")
-            print(f"Results saved to output/ directory")
+            print(f"\nCrawl complete! All data saved to {all_data_filename}")
+            
+            # Create a summary file
+            summary_filename = os.path.join(CURRENT_OUTPUT_DIR, "crawl_summary.txt")
+            with open(summary_filename, "w") as f:
+                elapsed_minutes = (time.time() - start_time) / 60
+                f.write(f"Crawl Summary for {url}\n")
+                f.write(f"Date: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                f.write(f"Pages Crawled: {pages_crawled}\n")
+                f.write(f"Unique URLs: {len(visited_urls)}\n")
+                f.write(f"Time Taken: {elapsed_minutes:.2f} minutes\n\n")
+                
+                f.write("Crawled Pages:\n")
+                for i, page_url in enumerate(all_pages_data.keys()):
+                    f.write(f"{i+1}. {page_url}\n")
+            
+            print(f"Crawl summary saved to {summary_filename}")
             
         except Exception as e:
             print(f"Error during crawling: {e}")
+            import traceback
+            traceback.print_exc()
         
         finally:
             # Close browser
             await browser.close()
     
     # Save a summary of all crawled pages
-    with open("output/crawl_summary.json", "w") as f:
+    with open(os.path.join(CURRENT_OUTPUT_DIR, "crawl_summary.json"), "w") as f:
         summary = [{
             "url": url,
             "title": data["title"],
@@ -323,7 +361,9 @@ async def process_interactive_elements(page, page_data, url_queue, visited_urls,
     return new_links_found
 
 def save_page_data(url, page_data):
-    """Save all data for a page to a single file"""
+    """Save all data for a page to a single file in the current output directory"""
+    global CURRENT_OUTPUT_DIR
+    
     # Create a safe filename from the URL
     filename = urlparse(url).path
     if not filename or filename == "/":
@@ -339,14 +379,16 @@ def save_page_data(url, page_data):
     if not filename:
         filename = "page"
     
-    # Save to a single file with all content
-    with open(f"output/{filename}.json", "w") as f:
+    # Save to a single file with all content - USE CURRENT_OUTPUT_DIR HERE
+    json_path = os.path.join(CURRENT_OUTPUT_DIR, f"{filename}.json")
+    with open(json_path, "w") as f:
         json.dump(page_data, f, indent=2)
     
-    print(f"  Saved complete page data to output/{filename}.json")
+    print(f"  Saved complete page data to {json_path}")
     
-    # Also save a text-only version for easy reading
-    with open(f"output/{filename}.txt", "w") as f:
+    # Also save a text-only version for easy reading - USE CURRENT_OUTPUT_DIR HERE
+    txt_path = os.path.join(CURRENT_OUTPUT_DIR, f"{filename}.txt")
+    with open(txt_path, "w") as f:
         f.write(f"URL: {page_data['url']}\n")
         f.write(f"TITLE: {page_data['title']}\n\n")
         f.write("BASE CONTENT:\n")

@@ -1,0 +1,33 @@
+Crawl Summary for https://branfordcastle.com/media-coverage/
+Date: 2025-03-10 22:02:04
+Pages Crawled: 26
+Unique URLs: 26
+Time Taken: 4.71 minutes
+
+Crawled Pages:
+1. https://branfordcastle.com/media-coverage
+2. https://branfordcastle.com/
+3. https://branfordcastle.com/what-makes-us-different
+4. https://branfordcastle.com/investment-approach
+5. https://branfordcastle.com/investment-approach/acquisition-criteria
+6. https://branfordcastle.com/portfolio
+7. https://branfordcastle.com/team
+8. https://branfordcastle.com/intermediary-compensation
+9. https://branfordcastle.com/contact-page
+10. https://branfordcastle.com/member/john-s-castle
+11. https://branfordcastle.com/member/david-castle
+12. https://branfordcastle.com/member/eric-korsten
+13. https://branfordcastle.com/member/ceon-francis
+14. https://branfordcastle.com/member/james-reddington
+15. https://branfordcastle.com/member/marilyn-yang
+16. https://branfordcastle.com/website-terms-of-use
+17. https://branfordcastle.com/contact
+18. https://branfordcastle.com/investment-approach/what-makes-us-different
+19. https://branfordcastle.com/member/john-k-castle
+20. https://branfordcastle.com/member/david-pittaway
+21. https://branfordcastle.com/member/richard-y-smith
+22. https://branfordcastle.com/member/ben-sebel
+23. https://branfordcastle.com/member/camille-pena
+24. https://branfordcastle.com/member/jennifer-swinea
+25. https://branfordcastle.com/member/lucas-christie
+26. https://branfordcastle.com/member/cole-morrison
