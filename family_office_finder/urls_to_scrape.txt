@@ -1,0 +1,5 @@
+# List of URLs to scrape (one per line)
+# Lines starting with # are ignored
+
+https://branfordcastle.com/
+# Add more URLs as needed 

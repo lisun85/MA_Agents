@@ -52,3 +52,46 @@ For support, questions, or feedback regarding the FamilyOfficeFinder Crew or cre
 - [Chat with our docs](https://chatg.pt/DWjSBZn)
 
 Let's create wonders together with the power and simplicity of crewAI.
+
+# Website Scraper
+
+A simple tool to scrape websites and save their content locally.
+
+## Setup
+
+1. Make sure you have Python 3.10+ installed
+2. Install the required packages:
+   ```
+   pip install playwright dotenv
+   ```
+3. Install Playwright browsers:
+   ```
+   playwright install
+   ```
+
+## Usage
+
+1. Create a text file with URLs to scrape (one per line)
+2. Run the scraper:
+   ```
+   python -m family_office_finder.scrape_urls --file urls_to_scrape.txt
+   ```
+
+### Options
+
+- `--file` or `-f`: Path to file containing URLs to scrape (required)
+- `--depth` or `-d`: Maximum link depth to follow (default: 2)
+- `--pages` or `-p`: Maximum number of pages to crawl per site (default: 10)
+- `--time` or `-t`: Maximum time in minutes to spend per site (default: 5)
+
+## Output
+
+All scraped content is saved to:
+`~/Documents/Github/MA_Agents/family_office_finder/output`
+
+For each website, a timestamped directory is created containing:
+- JSON files with full page data
+- TXT files with readable text content
+- A crawl_summary.json file with metadata about the crawl
+
+A global scrape_summary.json file is also created with information about all scraped sites.
