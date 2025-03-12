@@ -1,0 +1,52 @@
+[
+  {
+    "url": "https://branfordcastle.com/",
+    "title": "Branford Castle Partners, LP \u2013 Experienced Investor in Privately Held Businesses",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://branfordcastle.com/what-makes-us-different",
+    "title": "What Makes Us Different \u2013 Branford Castle Partners, LP",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://branfordcastle.com/investment-approach",
+    "title": "Investment Approach \u2013 Branford Castle Partners, LP",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://branfordcastle.com/investment-approach/acquisition-criteria",
+    "title": "Acquisition Criteria \u2013 Branford Castle Partners, LP",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://branfordcastle.com/portfolio",
+    "title": "Portfolio \u2013 Branford Castle Partners, LP",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://branfordcastle.com/team",
+    "title": "Team \u2013 Branford Castle Partners, LP",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://branfordcastle.com/intermediary-compensation",
+    "title": "Intermediary Compensation \u2013 Branford Castle Partners, LP",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://branfordcastle.com/media-coverage",
+    "title": "Media Coverage \u2013 Branford Castle Partners, LP",
+    "dynamic_states": 14
+  },
+  {
+    "url": "https://branfordcastle.com/contact-page",
+    "title": "Contact Page \u2013 Branford Castle Partners, LP",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://branfordcastle.com/investment-approach/what-makes-us-different",
+    "title": "What Makes Us Different \u2013 Branford Castle Partners, LP",
+    "dynamic_states": 0
+  }
+]
