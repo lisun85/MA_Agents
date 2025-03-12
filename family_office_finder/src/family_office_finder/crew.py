@@ -3,8 +3,9 @@ import logging
 from typing import Dict, List, Any
 from crewai import Crew, Agent, Task, Process
 from crewai.tasks.task_output import TaskOutput
-from crewai.tools import tool  # Use CrewAI's tool decorator instead
+from crewai.tools import tool  # Import the tool decorator
 from family_office_finder.tools.playwright_scraper import PlaywrightScraper
+from functools import wraps
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -16,22 +17,30 @@ class FamilyOfficeFinderCrew:
     def __init__(self):
         """Initialize the crew with necessary tools and components"""
         self.scraper = PlaywrightScraper()
-        # Bind the tool to the instance
-        self.scrape_website_tool = tool("scrape_website")(self.scrape_website)
+        
+        # Create a wrapper function that will be decorated
+        @tool("scrape_website")
+        @wraps(self.scrape_website)
+        def scrape_website_tool(url: str, max_depth: int = 2, max_pages: int = 10, max_time_minutes: int = 5) -> str:
+            """
+            Scrape a website using Playwright to extract content and follow links
+            
+            Args:
+                url: The URL to scrape
+                max_depth: Maximum link depth to follow (default: 2)
+                max_pages: Maximum number of pages to crawl (default: 10)
+                max_time_minutes: Maximum time in minutes to spend (default: 5)
+                
+            Returns:
+                A summary of the scraping results
+            """
+            return self.scrape_website(url, max_depth, max_pages, max_time_minutes)
+        
+        self.scrape_website_tool = scrape_website_tool
     
-    @tool("scrape_website")
     def scrape_website(self, url: str, max_depth: int = 2, max_pages: int = 10, max_time_minutes: int = 5) -> str:
         """
         Scrape a website using Playwright to extract content and follow links
-        
-        Args:
-            url: The URL to scrape
-            max_depth: Maximum link depth to follow (default: 2)
-            max_pages: Maximum number of pages to crawl (default: 10)
-            max_time_minutes: Maximum time in minutes to spend (default: 5)
-            
-        Returns:
-            A summary of the scraping results
         """
         try:
             result = self.scraper.scrape_url_sync(
@@ -51,14 +60,15 @@ class FamilyOfficeFinderCrew:
             role="Web Scraper",
             goal="Scrape websites thoroughly to extract all relevant information",
             backstory="I am an expert web scraper that can navigate complex websites, handle dynamic content, and extract structured data.",
-            tools=[self.scrape_website_tool],  # Use the bound tool
+            tools=[self.scrape_website_tool],  # Use the tool we created in __init__
             verbose=True
         )
     
-    def scrape_urls_task(self) -> Task:
+    def scrape_urls_task(self, urls) -> Task:
         """Create a task to scrape URLs from a file"""
+        urls_list = "\n".join([f"- {url}" for url in urls])
         return Task(
-            description="Scrape all websites listed in the urls_to_scrape.txt file",
+            description=f"Scrape the following websites:\n{urls_list}",
             expected_output="A summary of all scraped websites with their content saved to the output directory",
             agent=self.web_scraper_agent()
         )
@@ -87,19 +97,15 @@ class FamilyOfficeFinderCrew:
         
         logger.info(f"Found {len(urls)} URLs to scrape in {urls_file}")
         
-        # Create the crew
+        # Create the crew with the URLs passed to the task
         crew = Crew(
             agents=[self.web_scraper_agent()],
-            tasks=[self.scrape_urls_task()],
+            tasks=[self.scrape_urls_task(urls)],  # Pass URLs to the task
             verbose=True,
             process=Process.sequential
         )
         
         # Run the crew
-        result = crew.kickoff(
-            inputs={
-                "urls": urls
-            }
-        )
+        result = crew.kickoff()  # No need to pass inputs here anymore
         
         return result
