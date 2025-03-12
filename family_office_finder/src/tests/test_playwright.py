@@ -208,7 +208,7 @@ async def crawl_dynamic_website(url, max_depth=10, max_pages=0, max_time_minutes
             await browser.close()
     
     # Save a summary of all crawled pages
-    with open(os.path.join(CURRENT_OUTPUT_DIR, "crawl_summary.json"), "w") as f:
+    with open("output/crawl_summary.json", "w") as f:
         summary = [{
             "url": url,
             "title": data["title"],
@@ -361,9 +361,7 @@ async def process_interactive_elements(page, page_data, url_queue, visited_urls,
     return new_links_found
 
 def save_page_data(url, page_data):
-    """Save all data for a page to a single file in the current output directory"""
-    global CURRENT_OUTPUT_DIR
-    
+    """Save all data for a page to a single file"""
     # Create a safe filename from the URL
     filename = urlparse(url).path
     if not filename or filename == "/":
@@ -379,16 +377,14 @@ def save_page_data(url, page_data):
     if not filename:
         filename = "page"
     
-    # Save to a single file with all content - USE CURRENT_OUTPUT_DIR HERE
-    json_path = os.path.join(CURRENT_OUTPUT_DIR, f"{filename}.json")
-    with open(json_path, "w") as f:
+    # Save to a single file with all content
+    with open(f"output/{filename}.json", "w") as f:
         json.dump(page_data, f, indent=2)
     
-    print(f"  Saved complete page data to {json_path}")
+    print(f"  Saved complete page data to output/{filename}.json")
     
-    # Also save a text-only version for easy reading - USE CURRENT_OUTPUT_DIR HERE
-    txt_path = os.path.join(CURRENT_OUTPUT_DIR, f"{filename}.txt")
-    with open(txt_path, "w") as f:
+    # Also save a text-only version for easy reading
+    with open(f"output/{filename}.txt", "w") as f:
         f.write(f"URL: {page_data['url']}\n")
         f.write(f"TITLE: {page_data['title']}\n\n")
         f.write("BASE CONTENT:\n")

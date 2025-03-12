@@ -16,6 +16,8 @@ class FamilyOfficeFinderCrew:
     def __init__(self):
         """Initialize the crew with necessary tools and components"""
         self.scraper = PlaywrightScraper()
+        # Bind the tool to the instance
+        self.scrape_website_tool = tool("scrape_website")(self.scrape_website)
     
     @tool("scrape_website")
     def scrape_website(self, url: str, max_depth: int = 2, max_pages: int = 10, max_time_minutes: int = 5) -> str:
@@ -49,7 +51,7 @@ class FamilyOfficeFinderCrew:
             role="Web Scraper",
             goal="Scrape websites thoroughly to extract all relevant information",
             backstory="I am an expert web scraper that can navigate complex websites, handle dynamic content, and extract structured data.",
-            tools=[self.scrape_website],
+            tools=[self.scrape_website_tool],  # Use the bound tool
             verbose=True
         )
     
