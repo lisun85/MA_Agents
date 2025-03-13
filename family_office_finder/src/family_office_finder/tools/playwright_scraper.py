@@ -126,6 +126,24 @@ class PlaywrightScraper:
         logger.info(f"Created output directory: {self.current_output_dir}")
         return self.current_output_dir
     
+    def should_crawl_url(self, url):
+        """Check if a URL should be crawled based on its file extension"""
+        # Skip common non-HTML file types
+        skip_extensions = [
+            '.svg', '.png', '.jpg', '.jpeg', '.gif', '.pdf', '.doc', '.docx', 
+            '.xls', '.xlsx', '.zip', '.tar', '.gz', '.mp3', '.mp4', '.avi',
+            '.mov', '.wmv', '.css', '.js', '.xml', '.json', '.ico'
+        ]
+        
+        parsed_url = urlparse(url)
+        path = parsed_url.path.lower()
+        
+        for ext in skip_extensions:
+            if path.endswith(ext):
+                logger.info(f"Skipping non-HTML file: {url}")
+                return False
+        
+        return True
 
     async def scrape_url(self, url, max_depth=2, max_pages=10, max_time_minutes=5):
         """
@@ -210,6 +228,11 @@ class PlaywrightScraper:
                         
                     # Check depth limit (only if max_depth > 0)
                     if max_depth > 0 and depth > max_depth:
+                        continue
+                    
+                    # Skip non-HTML files
+                    if not self.should_crawl_url(normalized_url):
+                        visited_urls.add(normalized_url)  # Mark as visited so we don't try again
                         continue
                     
                     # Check robots.txt rules
@@ -326,26 +349,35 @@ class PlaywrightScraper:
     
     async def extract_page_content(self, page, url):
         """Extract the main content from a page"""
-        content = await page.evaluate("""
-            () => {
-                // Try to find the main content area
-                const contentSelectors = [
-                    'main', 'article', '[role="main"]', '#content', '.content', 
-                    '.main-content', '.page-content', '.article-content'
-                ];
-                
-                for (const selector of contentSelectors) {
-                    const element = document.querySelector(selector);
-                    if (element && element.innerText.trim().length > 100) {
-                        return element.innerText;
+        try:
+            content = await page.evaluate("""
+                () => {
+                    // Check if document.body exists
+                    if (!document.body) {
+                        return "[No text content available - this may be a non-HTML file]";
                     }
+                    
+                    // Try to find the main content area
+                    const contentSelectors = [
+                        'main', 'article', '[role="main"]', '#content', '.content', 
+                        '.main-content', '.page-content', '.article-content'
+                    ];
+                    
+                    for (const selector of contentSelectors) {
+                        const element = document.querySelector(selector);
+                        if (element && element.innerText && element.innerText.trim().length > 100) {
+                            return element.innerText;
+                        }
+                    }
+                    
+                    // Fallback to body if no content container found
+                    return document.body.innerText || "[No text content available]";
                 }
-                
-                // Fallback to body if no content container found
-                return document.body.innerText;
-            }
-        """)
-        return content
+            """)
+            return content
+        except Exception as e:
+            logger.warning(f"Error extracting content from {url}: {e}")
+            return "[Error extracting content]"
     
     async def extract_links_from_current_page(self, page):
         """Extract all links from the current page state"""
