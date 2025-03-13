@@ -1,0 +1,52 @@
+[
+  {
+    "url": "http://latticeworkcapital.com",
+    "title": "Home - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/",
+    "title": "Home - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/about-latticework",
+    "title": "About - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/team",
+    "title": "Team Members Archive - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/careers",
+    "title": "Careers - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/why-partner",
+    "title": "Why Partner - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/what-makes-us-different",
+    "title": "What Makes Us Different - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/investment-criteria",
+    "title": "Investment Criteria - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/portfolio",
+    "title": "Portfolios Archive - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/news",
+    "title": "News - Latticework Capital Management",
+    "dynamic_states": 0
+  }
+]

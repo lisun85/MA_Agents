@@ -1,17 +1,14 @@
 # List of URLs to scrape (one per line)
 # Lines starting with # are ignored
 
-#agent 1
 https://branfordcastle.com/
 www.claviscp.com 
 www.rightlanecapital.com/ 
 www.crescendocap.com/ 
 www.transomcap.com 
 www.envestcap.com/ 
-
-#agent 2
 www.a-mcapital.com/ 
 latticeworkcapital.com 
 www.redriverequity.com/ 
 www.pennspring.com/ 
-www.abacusinvestments.com 
+www.abacusinvestments.com

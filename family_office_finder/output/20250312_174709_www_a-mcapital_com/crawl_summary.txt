@@ -1,0 +1,52 @@
+[
+  {
+    "url": "http://www.a-mcapital.com/",
+    "title": "Alvarez & Marsal Capital: Multi-Strategy Private Equity Investments",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://www.a-mcapital.com/",
+    "title": "Alvarez & Marsal Capital: Multi-Strategy Private Equity Investments",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://www.a-mcapital.com/partner",
+    "title": "A&M Capital Partners \u2013 AMCP \u2013 Private Equity Investments",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://www.a-mcapital.com/opportunities",
+    "title": "A&M Capital Opportunities \u2013 AMCO \u2013 Private Equity Investments",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://www.a-mcapital.com/europe",
+    "title": "A&M Capital Europe \u2013 AMCE \u2013 Private Equity Investments",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://www.a-mcapital.com/strategic-investments",
+    "title": "A&M Capital Strategic Investments \u2013 AMCSI \u2013 Private Equity Investments",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://www.a-mcapital.com/gs-foods-group-acquires-the-danielsen-company",
+    "title": "Alvarez & Marsal Capital: Multi-Strategy Private Equity Investments - GS Foods Group Acquires The Danielsen Company",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://www.a-mcapital.com/ayesa-engineering-acquires-adp-consulting",
+    "title": "Alvarez & Marsal Capital: Multi-Strategy Private Equity Investments - Ayesa Engineering Acquires ADP Consulting",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://www.a-mcapital.com/ayesa-engineering-acquires-core",
+    "title": "Alvarez & Marsal Capital: Multi-Strategy Private Equity Investments - Ayesa Engineering Acquires CORE",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://www.a-mcapital.com/am-capital-partners-enters-into-strategic-partnership-with-east-coast-power-to-build-leading-national-electric-utility-services-provider",
+    "title": "Alvarez & Marsal Capital: Multi-Strategy Private Equity Investments - A&M Capital Partners Enters into Strategic Partnership with East Coast Power to Build Leading National Electric Utility Services Provider",
+    "dynamic_states": 0
+  }
+]

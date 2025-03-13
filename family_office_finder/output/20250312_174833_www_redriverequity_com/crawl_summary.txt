@@ -1,0 +1,32 @@
+[
+  {
+    "url": "http://www.redriverequity.com/",
+    "title": "Red River Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://www.redriverequity.com/about",
+    "title": "About \u2013 Red River Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://www.redriverequity.com/investment-philosophy",
+    "title": "Investment Criteria \u2013 Red River Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://www.redriverequity.com/portfolio",
+    "title": "Portfolio \u2013 Red River Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://www.redriverequity.com/contact-us",
+    "title": "Contact Us \u2013 Red River Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://www.redriverequity.com/intermediaries",
+    "title": "Partner with Red River Equity \u2013 Red River Equity Partners",
+    "dynamic_states": 0
+  }
+]

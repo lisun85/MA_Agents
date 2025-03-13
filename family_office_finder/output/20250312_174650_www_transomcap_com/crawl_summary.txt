@@ -1,0 +1,7 @@
+[
+  {
+    "url": "http://www.transomcap.com/",
+    "title": "Transom Capital Group: Home",
+    "dynamic_states": 0
+  }
+]

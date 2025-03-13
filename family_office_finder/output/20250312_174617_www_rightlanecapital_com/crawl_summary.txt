@@ -1,0 +1,32 @@
+[
+  {
+    "url": "http://www.rightlanecapital.com/",
+    "title": "Home",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://www.rightlanecapital.com/home.html",
+    "title": "Home",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://www.rightlanecapital.com/about-us.html",
+    "title": "About Us",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://www.rightlanecapital.com/investment-criteria.html",
+    "title": "Investment Criteria",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://www.rightlanecapital.com/current-investments.html",
+    "title": "Investments",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://www.rightlanecapital.com/contact-us.html",
+    "title": "Contact Us",
+    "dynamic_states": 0
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "url": "http://www.envestcap.com/",
+    "title": "Envest Capital Partners - Long Term Permanent Capital for Basic Industries",
+    "dynamic_states": 0
+  }
+]
