@@ -3,12 +3,14 @@ import os
 import json
 import re
 import datetime
-from urllib.parse import urlparse, urljoin
-from playwright.async_api import async_playwright
-from dotenv import load_dotenv
 import time
 import logging
 import argparse
+from urllib.parse import urlparse, urljoin
+from urllib.robotparser import RobotFileParser
+import aiohttp
+from playwright.async_api import async_playwright
+from dotenv import load_dotenv
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -23,23 +25,93 @@ class PlaywrightScraper:
     def __init__(self):
         """Initialize the scraper"""
         self.current_output_dir = ""
+        self.robots_parsers = {}  # Cache for robots.txt parsers
+        self.default_delay = 2  # Default delay in seconds if no robots.txt
+        self.user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
+    
+    async def get_robots_parser(self, url):
+        """Get or create a robots.txt parser for the given URL"""
+        parsed_url = urlparse(url)
+        base_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
+        
+        # Return cached parser if available
+        if base_url in self.robots_parsers:
+            return self.robots_parsers[base_url]
+        
+        # Create a new parser
+        parser = RobotFileParser()
+        robots_url = f"{base_url}/robots.txt"
+        parser.set_url(robots_url)
+        
+        try:
+            # Fetch robots.txt content
+            async with aiohttp.ClientSession() as session:
+                async with session.get(robots_url, timeout=10) as response:
+                    if response.status == 200:
+                        content = await response.text()
+                        # RobotFileParser expects to read from a file-like object
+                        # So we'll create a list of lines
+                        parser.parse(content.splitlines())
+                        logger.info(f"Successfully fetched and parsed robots.txt from {robots_url}")
+                    else:
+                        logger.warning(f"Could not fetch robots.txt from {robots_url} (status: {response.status})")
+                        parser = None
+        except Exception as e:
+            logger.warning(f"Error fetching robots.txt from {robots_url}: {e}")
+            parser = None
+        
+        # Cache the parser
+        self.robots_parsers[base_url] = parser
+        return parser
+    
+    async def get_crawl_delay(self, url):
+        """Get the crawl delay for the given URL from robots.txt"""
+        parser = await self.get_robots_parser(url)
+        
+        if parser:
+            delay = parser.crawl_delay("*")
+            if delay:
+                logger.info(f"Using crawl delay from robots.txt: {delay} seconds")
+                return delay
+            
+        logger.info(f"No crawl delay specified in robots.txt, using default: {self.default_delay} seconds")
+        return self.default_delay
+    
+    async def can_fetch(self, url, robots_parser):
+        """Check if the URL can be fetched according to robots.txt"""
+        if robots_parser:
+            can_fetch = robots_parser.can_fetch(self.user_agent, url)
+            if not can_fetch:
+                logger.warning(f"URL {url} is disallowed by robots.txt")
+            return can_fetch
+        
+        # If no robots.txt or error parsing, assume allowed
+        return True
     
     def normalize_url(self, url):
         """Normalize URL to avoid crawling the same page with different URL formats"""
         parsed = urlparse(url)
+        
+        # Normalize the domain (remove or add www consistently)
+        netloc = parsed.netloc
+        if netloc.startswith('www.'):
+            # We'll standardize on the non-www version
+            netloc = netloc[4:]
+        
         # Normalize the path (remove trailing slash except for homepage)
         path = parsed.path
         if path != "/" and path.endswith("/"):
             path = path.rstrip("/")
-    
-    # Rebuild the URL without query parameters and fragments
-        normalized = f"{parsed.scheme}://{parsed.netloc}{path}"
+        
+        # Rebuild the URL without query parameters and fragments
+        normalized = f"{parsed.scheme}://{netloc}{path}"
         return normalized
     
     def create_output_directory(self, url):
         """Create a timestamped output directory for this run"""
-        # Create base output directory if it doesn't exist
-        output_base = os.path.expanduser("~/Documents/Github/MA_Agents/family_office_finder/output")
+        # Create output directory in the same folder as this script
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        output_base = os.path.join(current_dir, "output")
         os.makedirs(output_base, exist_ok=True)
         
         # Create a timestamped directory for this run
@@ -54,6 +126,24 @@ class PlaywrightScraper:
         logger.info(f"Created output directory: {self.current_output_dir}")
         return self.current_output_dir
     
+    def should_crawl_url(self, url):
+        """Check if a URL should be crawled based on its file extension"""
+        # Skip common non-HTML file types
+        skip_extensions = [
+            '.svg', '.png', '.jpg', '.jpeg', '.gif', '.pdf', '.doc', '.docx', 
+            '.xls', '.xlsx', '.zip', '.tar', '.gz', '.mp3', '.mp4', '.avi',
+            '.mov', '.wmv', '.css', '.js', '.xml', '.json', '.ico'
+        ]
+        
+        parsed_url = urlparse(url)
+        path = parsed_url.path.lower()
+        
+        for ext in skip_extensions:
+            if path.endswith(ext):
+                logger.info(f"Skipping non-HTML file: {url}")
+                return False
+        
+        return True
 
     async def scrape_url(self, url, max_depth=2, max_pages=10, max_time_minutes=5):
         """
@@ -76,6 +166,19 @@ class PlaywrightScraper:
         parsed_url = urlparse(url)
         base_domain = parsed_url.netloc
         
+        # Get robots.txt settings once at the beginning
+        base_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
+        robots_parser = await self.get_robots_parser(base_url)
+        crawl_delay = self.default_delay
+        
+        if robots_parser:
+            delay = robots_parser.crawl_delay("*")
+            if delay:
+                crawl_delay = delay
+                logger.info(f"Using crawl delay from robots.txt: {crawl_delay} seconds")
+            else:
+                logger.info(f"No crawl delay specified in robots.txt, using default: {crawl_delay} seconds")
+        
         # Track visited URLs to avoid duplicates
         visited_urls = set()
         # Queue of URLs to visit with their depth
@@ -87,13 +190,14 @@ class PlaywrightScraper:
         logger.info(f"Depth limit: {'Unlimited' if max_depth <= 0 else max_depth}")
         logger.info(f"Page limit: {'Unlimited' if max_pages <= 0 else max_pages}")
         logger.info(f"Time limit: {'Unlimited' if max_time_minutes <= 0 else f'{max_time_minutes} minutes'}")
+        logger.info(f"Crawl delay: {crawl_delay} seconds")
         
         async with async_playwright() as p:
             # Launch browser
             browser = await p.chromium.launch(headless=True)
             context = await browser.new_context(
                 viewport={"width": 1280, "height": 800},
-                user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
+                user_agent=self.user_agent
             )
             
             # Create a new page
@@ -101,6 +205,7 @@ class PlaywrightScraper:
             
             # Process URLs until queue is empty or limits are reached
             pages_crawled = 0
+            disallowed_urls = 0
             
             try:
                 while url_queue:
@@ -125,6 +230,17 @@ class PlaywrightScraper:
                     if max_depth > 0 and depth > max_depth:
                         continue
                     
+                    # Skip non-HTML files
+                    if not self.should_crawl_url(normalized_url):
+                        visited_urls.add(normalized_url)  # Mark as visited so we don't try again
+                        continue
+                    
+                    # Check robots.txt rules
+                    if not await self.can_fetch(normalized_url, robots_parser):
+                        logger.warning(f"Skipping {normalized_url} (disallowed by robots.txt)")
+                        disallowed_urls += 1
+                        continue
+                    
                     visited_urls.add(normalized_url)
                     pages_crawled += 1
                     
@@ -135,6 +251,7 @@ class PlaywrightScraper:
                         print(f"- Pages crawled: {pages_crawled}")
                         print(f"- Queue size: {len(url_queue)}")
                         print(f"- Elapsed time: {elapsed_minutes:.1f} minutes")
+                        print(f"- URLs disallowed by robots.txt: {disallowed_urls}")
                     
                     logger.info(f"[{pages_crawled}] Crawling: {normalized_url} (depth {depth})")
                     
@@ -142,7 +259,7 @@ class PlaywrightScraper:
                     try:
                         await page.goto(current_url, wait_until="networkidle", timeout=30000)
                         await page.wait_for_load_state("domcontentloaded")
-                        await asyncio.sleep(2)  # Wait for any delayed JS
+                        await asyncio.sleep(crawl_delay)  # Use the crawl delay from robots.txt
                     except Exception as e:
                         print(f"  Error navigating to {current_url}: {e}")
                         continue
@@ -164,7 +281,9 @@ class PlaywrightScraper:
                     print(f"  Extracted base content: {len(base_content)} chars")
                     
                     # Find and process interactive elements - pass the url_queue to collect new links
-                    dynamic_links = await self.process_interactive_elements(page, page_data, url_queue, visited_urls, base_domain, depth)
+                    dynamic_links = await self.process_interactive_elements(
+                        page, page_data, url_queue, visited_urls, base_domain, depth, crawl_delay
+                    )
                     if dynamic_links:
                         print(f"  Found {len(dynamic_links)} new links in dynamic content")
                     
@@ -184,12 +303,12 @@ class PlaywrightScraper:
                         print(f"  Current queue size: {len(url_queue)} URLs")                    
 
                 # Save all data to a single file
-                all_data_filename = os.path.join(output_dir, "all_pages_data.json")
-                with open(all_data_filename, "w") as f:
-                    json.dump(all_pages_data, f, indent=2)
-                    logger.info(f"Saved all data to {all_data_filename}")
+                # all_data_filename = os.path.join(output_dir, "all_pages_data.json")
+                # with open(all_data_filename, "w") as f:
+                #     json.dump(all_pages_data, f, indent=2)
+                #     logger.info(f"Saved all data to {all_data_filename}")
 
-                print(f"\nCrawl complete! All data saved to {all_data_filename}")
+                # print(f"\nCrawl complete! All data saved to {all_data_filename}")
 
                 # Create a summary file
                 summary_filename = os.path.join(output_dir, "crawl_summary.txt")
@@ -230,26 +349,35 @@ class PlaywrightScraper:
     
     async def extract_page_content(self, page, url):
         """Extract the main content from a page"""
-        content = await page.evaluate("""
-            () => {
-                // Try to find the main content area
-                const contentSelectors = [
-                    'main', 'article', '[role="main"]', '#content', '.content', 
-                    '.main-content', '.page-content', '.article-content'
-                ];
-                
-                for (const selector of contentSelectors) {
-                    const element = document.querySelector(selector);
-                    if (element && element.innerText.trim().length > 100) {
-                        return element.innerText;
+        try:
+            content = await page.evaluate("""
+                () => {
+                    // Check if document.body exists
+                    if (!document.body) {
+                        return "[No text content available - this may be a non-HTML file]";
                     }
+                    
+                    // Try to find the main content area
+                    const contentSelectors = [
+                        'main', 'article', '[role="main"]', '#content', '.content', 
+                        '.main-content', '.page-content', '.article-content'
+                    ];
+                    
+                    for (const selector of contentSelectors) {
+                        const element = document.querySelector(selector);
+                        if (element && element.innerText && element.innerText.trim().length > 100) {
+                            return element.innerText;
+                        }
+                    }
+                    
+                    // Fallback to body if no content container found
+                    return document.body.innerText || "[No text content available]";
                 }
-                
-                // Fallback to body if no content container found
-                return document.body.innerText;
-            }
-        """)
-        return content
+            """)
+            return content
+        except Exception as e:
+            logger.warning(f"Error extracting content from {url}: {e}")
+            return "[Error extracting content]"
     
     async def extract_links_from_current_page(self, page):
         """Extract all links from the current page state"""
@@ -265,16 +393,30 @@ class PlaywrightScraper:
     def process_new_links(self, links, url_queue, visited_urls, base_domain, current_depth):
         """Process links and add new ones to the queue"""
         new_links = []
+        
+        # Normalize the base domain (remove www if present)
+        if base_domain.startswith('www.'):
+            base_domain = base_domain[4:]
+        
         for link in links:
             normalized_link = self.normalize_url(link)
-            if urlparse(normalized_link).netloc == base_domain and normalized_link not in visited_urls:
+            parsed_link = urlparse(normalized_link)
+            link_domain = parsed_link.netloc
+            
+            # Remove www from the link domain if present
+            if link_domain.startswith('www.'):
+                link_domain = link_domain[4:]
+            
+            # Compare domains without www
+            if link_domain == base_domain and normalized_link not in visited_urls:
                 # Check if this link is already in the queue
                 if not any(normalized_link == url for url, _ in url_queue):
                     url_queue.append((normalized_link, current_depth + 1))
                     new_links.append(normalized_link)
+        
         return new_links
 
-    async def process_interactive_elements(self, page, page_data, url_queue, visited_urls, base_domain, current_depth):
+    async def process_interactive_elements(self, page, page_data, url_queue, visited_urls, base_domain, current_depth, crawl_delay):
         """Find and interact with dynamic elements on the page and extract any new links"""
         new_links_found = []
         
@@ -320,7 +462,7 @@ class PlaywrightScraper:
                     try:
                         # Select this option
                         await page.select_option(select_selector, option['value'])
-                        await asyncio.sleep(2)  # Wait for content to update
+                        await asyncio.sleep(crawl_delay)  # Use the passed crawl delay
                         
                         # Get the updated content
                         dynamic_content = await self.extract_page_content(page, option['value'])
@@ -390,11 +532,11 @@ class PlaywrightScraper:
             filename = "page"
         
         # Save to a single file with all content
-        json_path = os.path.join(self.current_output_dir, f"{filename}.json")
-        with open(json_path, "w") as f:
-            json.dump(page_data, f, indent=2)
+        # json_path = os.path.join(self.current_output_dir, f"{filename}.json")
+        # with open(json_path, "w") as f:
+        #     json.dump(page_data, f, indent=2)
         
-        logger.info(f"Saved complete page data to {json_path}")
+        # logger.info(f"Saved complete page data to {json_path}")
         
         # Also save a text-only version for easy reading
         txt_path = os.path.join(self.current_output_dir, f"{filename}.txt")
