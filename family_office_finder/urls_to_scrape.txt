@@ -1,22 +1,8 @@
 # List of URLs to scrape (one per line)
 # Lines starting with # are ignored
 
-#agent 1
-https://branfordcastle.com/
-<<<<<<< HEAD
-www.claviscp.com 
-www.rightlanecapital.com/ 
-www.crescendocap.com/ 
-www.transomcap.com 
-www.envestcap.com/ 
 
-#agent 2
-www.a-mcapital.com/ 
-latticeworkcapital.com 
-www.redriverequity.com/ 
-www.pennspring.com/ 
-www.abacusinvestments.com 
-=======
+https://branfordcastle.com/
 https://www.claviscp.com/
 http://www.rightlanecapital.com/home.html
 https://crescendocap.com/
@@ -27,4 +13,3 @@ https://latticeworkcapital.com/
 http://www.redriverequity.com/
 https://www.pennspring.com/
 https://www.abacusinvestments.com/
->>>>>>> RL_playwright_crawl_agents

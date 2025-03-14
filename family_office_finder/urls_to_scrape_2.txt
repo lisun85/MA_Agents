@@ -1,0 +1,8 @@
+# List of URLs to scrape (one per line)
+# Lines starting with # are ignored
+
+https://foundationpartners.net/
+https://keplercapital.ca/
+https://soundcorecap.com/
+https://burlingtonstreetpartners.com/
+https://firecapital.com/
