@@ -257,11 +257,27 @@ class PlaywrightScraper:
                     
                     # Navigate to the URL
                     try:
-                        await page.goto(current_url, wait_until="networkidle", timeout=30000)
-                        await page.wait_for_load_state("domcontentloaded")
-                        await asyncio.sleep(crawl_delay)  # Use the crawl delay from robots.txt
+                        # First try with a more lenient wait strategy
+                        try:
+                            await page.goto(current_url, wait_until="domcontentloaded", timeout=15000)
+                        except Exception as e:
+                            logger.warning(f"Initial navigation to {current_url} with domcontentloaded timed out: {e}")
+                            # If that fails, try with an even more basic strategy
+                            await page.goto(current_url, wait_until="commit", timeout=10000)
+                        
+                        # Wait a bit for content to render, but don't wait for all network requests
+                        try:
+                            # Wait for common content indicators
+                            await page.wait_for_selector('body', timeout=5000)
+                            # Try to wait for main content if possible, but don't fail if not found
+                            await page.wait_for_selector('main, #content, .content, article', timeout=5000, state='attached')
+                        except Exception as content_error:
+                            logger.info(f"Some content selectors not found, but continuing: {content_error}")
+                        
+                        # Add a small delay to allow some JS to execute
+                        await asyncio.sleep(crawl_delay)
                     except Exception as e:
-                        print(f"  Error navigating to {current_url}: {e}")
+                        logger.error(f"Error navigating to {current_url}: {e}")
                         continue
                     
                     # Get page title
