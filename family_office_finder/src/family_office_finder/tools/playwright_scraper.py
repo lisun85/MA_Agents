@@ -303,12 +303,12 @@ class PlaywrightScraper:
                         print(f"  Current queue size: {len(url_queue)} URLs")                    
 
                 # Save all data to a single file
-                all_data_filename = os.path.join(output_dir, "all_pages_data.json")
-                with open(all_data_filename, "w") as f:
-                    json.dump(all_pages_data, f, indent=2)
-                    logger.info(f"Saved all data to {all_data_filename}")
+                # all_data_filename = os.path.join(output_dir, "all_pages_data.json")
+                # with open(all_data_filename, "w") as f:
+                #     json.dump(all_pages_data, f, indent=2)
+                #     logger.info(f"Saved all data to {all_data_filename}")
 
-                print(f"\nCrawl complete! All data saved to {all_data_filename}")
+                # print(f"\nCrawl complete! All data saved to {all_data_filename}")
 
                 # Create a summary file
                 summary_filename = os.path.join(output_dir, "crawl_summary.txt")
@@ -532,11 +532,11 @@ class PlaywrightScraper:
             filename = "page"
         
         # Save to a single file with all content
-        json_path = os.path.join(self.current_output_dir, f"{filename}.json")
-        with open(json_path, "w") as f:
-            json.dump(page_data, f, indent=2)
+        # json_path = os.path.join(self.current_output_dir, f"{filename}.json")
+        # with open(json_path, "w") as f:
+        #     json.dump(page_data, f, indent=2)
         
-        logger.info(f"Saved complete page data to {json_path}")
+        # logger.info(f"Saved complete page data to {json_path}")
         
         # Also save a text-only version for easy reading
         txt_path = os.path.join(self.current_output_dir, f"{filename}.txt")

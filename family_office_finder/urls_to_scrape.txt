@@ -2,4 +2,13 @@
 # Lines starting with # are ignored
 
 https://branfordcastle.com/
-# Add more URLs as needed 
+https://www.claviscp.com/
+http://www.rightlanecapital.com/home.html
+https://crescendocap.com/
+https://transomcap.com/
+https://envestcap.com/
+https://www.a-mcapital.com/
+https://latticeworkcapital.com/
+http://www.redriverequity.com/
+https://www.pennspring.com/
+https://www.abacusinvestments.com/
