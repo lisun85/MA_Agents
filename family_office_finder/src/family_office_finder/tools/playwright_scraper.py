@@ -116,7 +116,7 @@ class PlaywrightScraper:
         
         # Create a clean URL-based directory name
         # Remove protocol (http:// or https://)
-        folder_name = url.replace("https://", "").replace("http://", "")
+        folder_name = url.replace("https://", "").replace("http://", "").replace("www.", "")
         # Remove trailing slash if present
         if folder_name.endswith("/"):
             folder_name = folder_name[:-1]
