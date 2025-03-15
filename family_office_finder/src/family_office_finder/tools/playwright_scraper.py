@@ -108,19 +108,20 @@ class PlaywrightScraper:
         return normalized
     
     def create_output_directory(self, url):
-        """Create a timestamped output directory for this run"""
+        """Create an output directory for this run using the URL as the folder name"""
         # Create output directory in the same folder as this script
         current_dir = os.path.dirname(os.path.abspath(__file__))
         output_base = os.path.join(current_dir, "output")
         os.makedirs(output_base, exist_ok=True)
         
-        # Create a timestamped directory for this run
-        timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-        domain = urlparse(url).netloc.replace(".", "_")
-        if not domain:
-            domain = "local_site"
+        # Create a clean URL-based directory name
+        # Remove protocol (http:// or https://)
+        folder_name = url.replace("https://", "").replace("http://", "")
+        # Remove trailing slash if present
+        if folder_name.endswith("/"):
+            folder_name = folder_name[:-1]
         
-        self.current_output_dir = os.path.join(output_base, f"{timestamp}_{domain}")
+        self.current_output_dir = os.path.join(output_base, folder_name)
         os.makedirs(self.current_output_dir, exist_ok=True)
         
         logger.info(f"Created output directory: {self.current_output_dir}")
