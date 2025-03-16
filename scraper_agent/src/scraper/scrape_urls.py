@@ -94,7 +94,7 @@ async def scrape_urls_from_file_concurrent(file_path, batch_size=5, max_depth=2,
     results = [result for batch in batch_results for result in batch]
     
     # Save summary of all results
-    summary_path = os.path.expanduser("~/Documents/Github/MA_Agents/scraper/output/scrape_summary.json")
+    summary_path = os.path.expanduser("~/Documents/Github/MA_Agents/scraper_agent/output/scrape_summary.json")
     os.makedirs(os.path.dirname(summary_path), exist_ok=True)
     
     with open(summary_path, 'w') as f:
