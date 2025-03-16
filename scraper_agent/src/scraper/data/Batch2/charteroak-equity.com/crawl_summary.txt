@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://charteroak-equity.com/",
+    "title": "Charter Oak Equity | Focused. Committed. Driven.",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://charteroak-equity.com/about-us/overview",
+    "title": "Overview | Charter Oak Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://charteroak-equity.com/about-us/investment-criteria",
+    "title": "Investment Criteria | Charter Oak Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://charteroak-equity.com/about-us/working-with-us",
+    "title": "Working With Us | Charter Oak Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://charteroak-equity.com/investments",
+    "title": "Investments | Charter Oak Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://charteroak-equity.com/team",
+    "title": "Management Team | Charter Oak Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://charteroak-equity.com/news",
+    "title": "News | Charter Oak Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://charteroak-equity.com/advisors",
+    "title": "Advisors | Charter Oak Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://charteroak-equity.com/contact",
+    "title": "Contact | Charter Oak Equity",
+    "dynamic_states": 0
+  }
+]

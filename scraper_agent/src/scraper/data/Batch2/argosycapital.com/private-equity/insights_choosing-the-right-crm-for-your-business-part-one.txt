@@ -1,0 +1,84 @@
+URL: https://argosycapital.com/insights/choosing-the-right-crm-for-your-business-part-one
+TITLE: Choosing the Right CRM For Your Business: PART ONE - Argosy Capital
+
+BASE CONTENT:
+================================================================================
+Empirical
+
+CONSULTING SOLUTIONS
+
+JANUARY 7, 2021
+CRM
+Choosing the Right CRM For Your Business: PART ONE
+
+Published with permission of Empirical, original post can be viewed here.
+
+Congratulations! You’ve decided to seek a new – or perhaps your first – CRM for your business in the coming months. It’s a great decision as it will most definitely help drive your ROI.
+
+Customer relationship management (CRM) is a technology that manages your company’s relationships, interactions, sales histories, and more with your past, current, and potential customers. It’s a platform that helps you track relationships so you can grow your business.
+
+CRMs get a lot of attention because companies that invest time and resources in such a system then have a powerful tool to streamline processes and improve profitability.
+
+Just a couple of decades ago, CRMs were simple programs that were little more than contact databases. But in recent years, we have seen a dizzying array of choices emerge. A quick Google search shows that there are at least 10 pages of CRM options available – all promising to serve as a panacea and wipe away all problems.
+
+We understand that after the initial research takes place, the important questions come into your head: How do you even begin to make sense of all the CRM platforms out there? What’s important in a CRM system for you? Where do you even begin a comparison and evaluation of solutions?
+
+"Our advice – first sort through what your company wants and needs from a CRM platform."
+
+- Empirical Consulting Solutions
+
+Here’s the good news we can share after working closely with CRMs for many years now. While it does seem overwhelming at first, CRMs fall into a few categories that help you sort through the maze of options. In truth, it comes down to what you’re looking to accomplish by adding (or upgrading) your CRM. So start with the end result you are looking to achieve.
+
+Our advice – first sort through what your company wants and needs from a CRM platform.
+
+Needs include, but aren’t limited to:
+
+Ease of Use – it’s as simple as this: if your sales team won’t use it, it doesn’t matter what else the CRM can do.
+Output – what do you want the dashboards to look like and what data is important to you and your team?
+On-going development – how will you manage updates to data fields and reporting? Do you need someone externally to manage this, or will someone on your team own this task?
+Integrations – will the CRM exist as a standalone platform, or will you be integrating it with other systems (like billing, ERP, marketing, etc.)?
+Mobile app – this is essential for your CRM. With more people using their mobile device for input, we’ve learned this is no longer a want, but is truly a need (especially if you have digitally savvy salespeople on your team).
+Ease of accessing data – it is crucial to recognize that somewhere down the line a CRM that is a better fit for your company may come available. If that day comes, you need to easily get your data out of your CRM. If you can’t, you’re stuck.
+
+Wants include, but aren’t limited to:
+
+Email integration
+It makes the process much more streamlined and overall easier when you can integrate with your Gmail, Outlook, or other email platforms – and this also is a catalyst for internal cross-collaboration.
+Calendar integration and appointment setting
+This will streamline the process for next steps and follow-ups – and will ensure no actions are overlooked or forgotten.
+Automated actions triggered by events
+Manual processes can work fine, but there are times when automated actions, triggered by actions or milestones, will ensure nothing slips through the cracks. As well, the ability to automate repetitive tasks then frees your team to work on more strategic tasks that will help continue to grow the sales funnel.
+Document storage and easy retrieval
+It’s no surprise that the ability to collect, store, and upload documents in a centralized location will facilitate collaboration by the team – and also improve the customer experience.
+Additional detailed dashboarding
+Data is king – and will be so into perpetuity. Having additional information that is easy to access on a dashboard can help a team and leadership assess where clients stand and where attention is needed quickly.
+Voice-activated notation
+With so many people working on smaller devices, and on the go when conditions allow, voice-activated controls can be a welcome feature for the team.
+Forecasting
+Generate predictions for future sales figures or projected revenue based on past and present data/trends. Key considerations: Want the ability to use your existing data to make predictions about upcoming quarters and even new territories? Forecasting functionality puts your data to work for you, empowering you to make objective and informed decisions about the future of your company.
+More detailed reporting and analytics
+While there will be standard reports with any CRM system, some enable you to develop customized reports of sales figures or sales rep performance over different periods of time (such as daily, weekly, monthly, quarterly). This kind of detail enables one to troubleshoot problems as they arise – or even spot focus areas before they become problems. (And what sales leader doesn’t appreciate the ability to have the foresight and be strategic with sales activities?)
+
+Once you’ve got your arms around your needs and wants, identify the category of CRM you are looking to engage. CRMs vary by level of sophistication, integration into systems, and of course, cost.
+
+The next part of our CRM series will focus on the best way to sort through the CRM options out there. We’ve found some useful ways to categorize and “bucket” the platforms, so you can make the best decision for your company. And we’ve found that a great way to do this is to show where key technologies fall on the cost spectrum based on some important features, and then also pinpoint the number of target users.
+
+
+Stay tuned for Part 2 in our CRM series – but in the meantime, if you’d like to chat more about CRMs in general or about how we can support your needs, we’d be happy to talk. Feel free to reach out to any of us:
+
+Ajay Joshi – Sales Operations ajoshi@thinkempirical.com (connect on LinkedIn)
+Margo Michel – CRM Lead – mmichel@thinkempirical.com (connect on LinkedIn)
+Bill Morrow – Managing Partner – bmorrow@thinkempirical.com (connect on LinkedIn)
+
+Subscribe to Argosy Insights
+Recent Blogs
+DECEMBER 10, 2024
+Mastering Process Flow Mapping: Unlock Opportunities and Supercharge Your Production
+READ ARTICLE
+JULY 24, 2024
+The Power of Daily Management: Keeping Your Team Aligned and Moving Forward
+READ ARTICLE
+APRIL 5, 2024
+Navigating the Path of Integration: Merging Two Companies with Purpose and Respect
+READ ARTICLE
+

@@ -1,0 +1,947 @@
+[
+  {
+    "url": "https://gennx360.com/",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/about",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/team",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 7
+  },
+  {
+    "url": "https://gennx360.com/strategy",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/portfolio",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/portfolio/current",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/portfolio/exited",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/responsibility",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/video",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/contact",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-named-to-grady-campbells-2025-top-50-pe-firms-in-the-middle-market",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | February 11 2025",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-honored-as-one-of-the-top-50-private-equity-firms-for-executives-2",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | March 15 2024",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/portfolio-info/shenandoah",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/portfolio-info/subsea-global-solutions",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/portfolio-info/tensentric",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/portfolio-info/tooling-technology-holdings",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/portfolio-info/vintage-parts-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/portfolio-info/whitsons-culinary-group",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/portfolio-info/aerorepair-corp",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/portfolio-info/b2b-industrial",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/portfolio-info/horsburghscott",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/portfolio-info/nutra-med-packaging",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/portfolio-info/precision-aviation-group-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/portfolio-info/pacteon-group",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/portfolio/casestudies",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/terms",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/case-study/midwest-cancontainer-specialties",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/case-study/truck-bodiesequipment-international",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/case-study/precision-aviation-group-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/case-study/appalachian-railcar-services",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/case-study/buy-and-build-of-national-industrial-packaging-distribution",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/case-study/genserve-llc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/case-study/whitsons-culinary-group",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-whitsons-culinary-groupsacquisition-of-glendale-senior-dining-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | January 28 2025",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-key-promotions-reflecting-commitment-to-team-growth-and-excellence",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | January 14 2025",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-appoints-michael-j-dubose-asoperating-partner-for-commercial-excellence",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | December 02 2024",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-finalizes-the-sale-of-itsavvy-to-xerox-holdings-corporation",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | November 25 2024",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-nutra-meds-acquisition-of-legacy-pharma-solutions",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | October 22 2024",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-enters-agreement-to-sell-itsavvy-to-xerox-holdings-corporation",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | October 17 2024",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/precision-aviation-group-expands-its-capabilities-with-acquisitions-of-icon-aerospace-and-tag-aero-2",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | September 30 2024",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-investment-in-shenandoah",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | September 12 2024",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-the-sale-of-its-portfolio-companymiller-environmental-group",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | September 11 2024",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-promotes-rishi-verma-and-peter-white",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | September 10 2024",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-whitsons-culinary-groupsacquisition-of-arbor-management-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | August 13 2024",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-the-sale-of-its-portfolio-company-genserve",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | August 07 2024",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-pacteon-groups-acquisition-ofdescon-integrated-conveyor-solutions",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | June 25 2024",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-genserves-12th-acquisitionelectro-motion-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | June 12 2024",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-expands-with-new-director-of-business-development-jordan-buxton--punch",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | February 28 2024",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-whitsons-culinary-groupsacquisition-of-fresh-picks-caf%C3%A9-llc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | February 26 2024",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-genserves-11th-acquisitionaustin-weldergenerator-service-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | January 09 2024",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-that-aero-3-inc-parent-of-aerorepair-and-aircrafters-has-acquired-united-kingdom-based-skywheels-ltd",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | November 14 2023",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-raises-a-400-million-single-asset-continuation-fund-to-support-continued-growth-of-precision-aviation-group",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | November 13 2023",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-addition-of-marie-ffolkes-as-a-managing-partner",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | October 26 2023",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/miller-environmental-group-inc-expands-its-reach-into-connecticut",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | October 02 2023",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-genserves-10th-acquisition-rj-control-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | June 06 2023",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-miller-environmental-group-incs-acquisition-of-ab-environmental-expanding-its-east-coast-footprint",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | June 05 2023",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-honored-as-one-of-the-top-50-private-equity-firms-for-executives-",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | February 14 2023",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-itsavvys-acquisition-of-inoc-strengthening-its-presence-in-the-noc-services-market-",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | February 13 2023",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-b2b-industrial-packagings-acquisition-of-next-press",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | January 23 2023",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-genserves-9th-acquisition-illini-power-products-and-gen-power",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | January 03 2023",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-b2b-industrial-packagings-partnership-with-oak-paper-products-company-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | December 15 2022",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/genserve-a-gennx360-portfolio-company-announces-appointment-of-tech-enabled-services-executive-ted-rieple-as-chief-commercial-officer",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | December 05 2022",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-b2b-industrial-packagings-acquisition-of-tri-pro-graphics-and-packaging",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | November 02 2022",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-aerorepairs-acquisition-ofaircrafters-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | October 04 2022",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/precision-aviation-group-inc-enters-into-a-definitive-agreement-to-acquire-ptb-group-",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | August 23 2022",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-its-investment-in-itsavvy-llc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | August 10 2022",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-whitsons-culinary-group-acquisition-of-lintons-food-service-management",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | August 04 2022",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-b2b-industrial-packagings-acquisition-of-springfield-corrugated-box",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | July 18 2022",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-enters-agreement-to-sell-salford-groupto-linamar-corporation",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | April 28 2022",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-genserves-8th-acquisition-ok-generators",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | April 06 2022",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-b2b-industrial-packagings-acquisition-of-miller-bevco",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | February 28 2022",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-majority-investment-in-tensentric",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | February 15 2022",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-investment-in-nutra-med-packaging-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | February 04 2022",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-b2b-industrial-packagings-acquisition-of-accurate-packagingfulfillment-llc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | January 05 2022",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-pacteons-acquisition-of-ess-technologies",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | December 27 2021",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-b2b-industrial-packagings-acquisition-of-western-packaging-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | December 09 2021",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-sale-of-its-portfolio-company-crs-temporary-housing",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | December 02 2021",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360s-portfolio-company-precision-aviation-group-inc-continues-growth-with-acquisition-of-velocity-aerospace-group",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | November 24 2021",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-aerorepairs-acquisition-of-landmerk-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | October 15 2021",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-subsea-global-solutions-acquisition-of-srn-group-divingrov-underwater-services",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | September 14 2021",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-majority-investment-in-whitsons-culinary-group",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | September 08 2021",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-b2b-industrial-packagings-acquisition-of-direct-in-supply",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | August 31 2021",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-b2b-industrial-packagings-acquisition-of-pioneer-packaging-worldwide",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | August 19 2021",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-genserves-sixth-acquisition-lj-power",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | August 16 2021",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360s-portfolio-company-precision-aviation-group-inc-expands-landing-gear-capabilities-with-acquisition-of-trace-aviation",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | August 11 2021",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-b2b-industrial-packagings-acquisition-of-allen-packing-company",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | July 26 2021",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-b2b-industrial-packagings-acquisition-of-master-packaging-solutions",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | June 10 2021",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360s-portfolio-company-precision-aviation-group-inc-continues-its-growth-with-the-acquisition-of-keystone-turbine-services",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | May 26 2021",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-genserves-fifth-acquisition-dynatech-generators",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | May 24 2021",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-pacteons-acquisition-of-phoenix-stretch-wrappers",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | April 01 2021",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-b2b-industrial-packagings-acquisition-of-fibers-of-kalamazoo",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | February 16 2021",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-b2b-industrial-packagings-acquisition-of-lewis-industrial-supply-co",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | February 05 2021",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-sale-of-its-portfolio-company-appalachian-railcar-services-to-cathcart-rail",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | December 15 2020",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-miller-environmental-groups-acquisition-of-monarch-environmental-services-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | November 30 2020",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360s-portfolio-company-precision-aviation-group-inc-continues-to-expand-its-acquisition-strategy-with-efix-aviation-support",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | October 28 2020",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/asdadasd",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | October 10 2020",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-acquisition-of-b2b-industrial-packaging-and-amw-packaging-supply-",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | October 09 2020",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-aerorepairs-acquisition-of-aero-tire-and-tank-llc-dba-dallas-centerline",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | April 02 2020",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-sale-of-its-portfolio-company-precinmac-precision-machining",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | April 02 2020",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-genserves-acquisition-of-atlantic-switch-and-generator",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | March 18 2020",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-sale-of-its-portfolio-company-midwest-can-company-and-container-specialties-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | March 03 2020",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-subsea-global-solutions-fourth-add-on-acquisition",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | February 19 2020",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360s-portfolio-company-precision-aviation-group-inc-continues-its-growth-with-another-acquisition",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | January 28 2020",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-miller-environmental-groups-acquisition-of-environmental-productsservices-of-vermont",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | January 09 2020",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-acquisition-of-controlling-stake-in-aerorepair-corp",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | January 07 2020",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-subsea-global-solutions-expands-its-worldwide-ports-with-acquisitions-of-underwater-contractors-pte-ltd-and-gray-diving-services-pty-ltd",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | January 01 2020",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-partnership-with-schneider-packaging-equipment-company-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | September 16 2019",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-precision-aviations-acquisition-of-momentum-services-corporation",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | September 10 2019",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-genserves-acquisition-of-genassist-corporation",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | August 06 2019",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-portfolio-company-tooling-tech-group-acquires-alpha-integration",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | May 21 2019",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-genserves-acquisition-of-power-performance-industries-",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | April 22 2019",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-acquisition-of-miller-environmental-group-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | March 20 2019",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/genserve-llc-announces-acquisition-of-on-call-power-co-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | December 13 2018",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/crs-temporary-housing-announces-merger-with-klein-amp-company",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | December 03 2018",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-subsea-global-solutions-acquisition-of-muldoon-marine-services",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | November 05 2018",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-acquisition-of-precision-aviation-group-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | July 30 2018",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-portfolio-company-tooling-tech-group-expands-with-acquisition-of-die-cad-group",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | June 08 2018",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-portfolio-company-tooling-tech-group-acquires-century-tool-group-",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | April 18 2018",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-acquisition-of-genserve-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | April 16 2018",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-acquisitionof-subsea-global-solutions",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | April 03 2018",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-acquisition-of-crs-temporary-housing",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | March 20 2018",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-closing-on-sale-of-its-portfolio-company-novel-ingredients-to-innophos-holdings-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | August 31 2017",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-enters-agreement-to-sell-truck-bodies-and-equipment-internationalnbsp",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | May 08 2017",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-investment-in-appalachian-railcar-services-incnbsp",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | March 02 2017",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/daphne-dufresne-joins-new-york-based-private-equity-firm-gennx360-capital-partners-as-a-managing-partner-on-its-investment-team",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | January 19 2017",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-supports-truck-bodies-amp-equipment-international-incrsquos-acquisition-of-travis-body-amp-trailer-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | October 03 2016",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-rick-brawn-as-newest-operating-partner",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | March 21 2016",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-appoints-matthew-guenther-managing-partner",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | February 16 2016",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-salford-grouprsquos-third-add-on-acquisition",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | December 21 2015",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partnersrsquo-portfolio-company-tooling-technologynbspholdings-completes-second-add-on-acquisition",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | October 21 2015",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-investment-in-truck-bodies-and-equipment-international-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | October 01 2015",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-investment-in-vintage-parts-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | September 21 2015",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-supports-tooling-technology-holdingsrsquo-acquisition-of-majestic-industries-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | May 27 2015",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-supports-salford-grouprsquos-acquisition-of-valmar-airflo-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | May 11 2015",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-supports-salford-group-inc-in-acquisition-of-bbi-spreaders",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | October 16 2014",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-transaction-with-tooling-technology-holdings-llc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | July 23 2014",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-appointment-of-glen-bushery-as-cfo",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | April 21 2014",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-transaction-with-novel-ingredient-services",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | March 31 2014",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners39-matt-guenther-chairs-capital-roundtable39s-conference-on-private-equity-investing-in-niche-manufacturing-companies",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | March 28 2014",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-appointment-of-latasha-m-akoma",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | February 17 2014",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-appointment-of-otis-spencer-jr-as-operating-partner",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | January 06 2014",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/schramm-acquires-air-drill-and-its-sister-company-in-australia",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | December 25 2013",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-acquires-salford-farm-machinery-ltd",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | December 21 2013",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/centerbridge-partners-makes-substantial-minority-investment-in-syncreon",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | September 04 2013",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/west-chester-firm-launches-a-giant-drill-rig-for-marcellus-work",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | April 13 2013",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-acquires-horsburghscott-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | April 01 2013",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/schramm-introduces-new-drill",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | March 23 2013",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/a-new-era-begins-with-schramm-t500xd-telemast%C3%A2%C2%AE-drill-rigs-in-the-marcellus-and-utica-shale",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | March 19 2013",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-acquires-schramm-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | July 02 2012",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-lp-announces-gennx360-india-advisors-private-limited",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | January 25 2012",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/additional-investment-in-syncreon-announced-by-gennx360-capital-partners",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | November 17 2011",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/purchase-of-hoppe-technologies-announced-by-gennx360-capital-partners-and-trimaster-manufacturing",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | November 02 2011",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/sale-of-sivance-llc-is-announced-by-gennx360-capital-partners",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | October 06 2011",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/vertex-agrees-sale-of-uk-private-sector-business-to-capita",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | September 19 2011",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360s-bulk-buy-program",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | July 25 2011",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/syncreon-completes-purchase-of-compuspar",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | February 02 2011",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/anthony-willis-joins-gennx360-capital-partners-as-operating-associate",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | December 10 2010",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/matthew-guenther-is-appointed-partner-at-gennx360-capital-partners",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | October 01 2010",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/vertex-expands-indian-footprint-by-launching-joint-venture-with-domestic-major-shell-transource",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | September 21 2010",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/industry-week-profiles-gennx360s-operational-prowess",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | August 18 2010",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/maine-machine-products-company-aquired-by-gennx360-capital-partners",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | July 15 2010",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-management-company-donates-25000-to-red-cross-relief-efforts-in-haiti",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | January 14 2010",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/syncreon-acquires-nal-worldwide-holdings-inc",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | December 29 2009",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/vertex-ranked-no-1-global-bpo-provider-for-the-utilities-industry",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | November 18 2009",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-firm-promotions",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | November 03 2009",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/vertex-completes-transaction-with-lloyds-development-capital",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | September 08 2009",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/specialty-chemicals-buisness-sivance-llc-is-acquired-from-clariant-corporation-by-gennx360-capital-partners",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | August 31 2009",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-relocates-headquarters",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | August 17 2009",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/trimaster-manufacturing-is-acquired-from-edgestone-capital-partners-by-gennx360",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | July 13 2009",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/monty-yort-joins-gennx360-capital-partners-as-a-managing-partner",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | July 06 2009",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/minority-stake-in-syncreon-acquired-by-gennx360-capital-partners",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | April 01 2009",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/kimberly-berry-jeter-joins-gennx360-capital-partners-as-an-executive-assistant",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | March 09 2009",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/vertex-closes-in-on-purchase-agreement-for-alliance-datas-utility-services-business",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | July 29 2008",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/vertex-signs-agreement-for-purchase-of-alliance-datas-utility-services-business",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | July 14 2008",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/lloyd-trotter-elected-to-pepsico-board-of-directors",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | February 01 2008",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-closes-first-fund-with-more-than-500-million-in-commitments",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | January 11 2008",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/carmax-board-elects-ronald-e-blaylock",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | October 26 2007",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/oak-hill-capital-gennx360-and-knox-lawrence-to-acquire-vertex-from-united-utilities",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | January 15 2007",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/matthew-p-guenther-has-joined-gennx360-capital-partners-as-a-principal",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | January 03 2007",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/monsanto-adds-arthur-h-harper-to-board-of-directors",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | October 24 2006",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/charles-chuck-castine-joins-gennx360-capital-partners",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | May 01 2006",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/news-article/gennx360-capital-partners-announces-the-formation-of-a-new-firm-gennx360-operating-partners",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services | April 14 2006",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gennx360.com/team-info/ronald-blaylock",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 7
+  },
+  {
+    "url": "https://gennx360.com/team-info/monty-yort",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 7
+  },
+  {
+    "url": "https://gennx360.com/team-info/lloyd-trotter",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 7
+  },
+  {
+    "url": "https://gennx360.com/team-info/marie-ffolkes",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 7
+  },
+  {
+    "url": "https://gennx360.com/team-info/latasha-akoma",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 7
+  },
+  {
+    "url": "https://gennx360.com/team-info/carmen-rojas",
+    "title": "GenNx360 | Private Equity | Middle-Market | Industrial Business Services",
+    "dynamic_states": 7
+  }
+]

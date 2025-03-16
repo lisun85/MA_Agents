@@ -1,0 +1,139 @@
+URL: https://excellere.com/2023/03/ai-in-healthcare-a-great-add-on-not-a-replacement
+TITLE: AI in Healthcare: A Great Add-on, Not a Replacement - Excellere Partners
+
+BASE CONTENT:
+================================================================================
+News from Our
+Focus Industries
+AI in Healthcare: A Great Add-on, Not a Replacement
+
+There has been this huge rush to implement AI wherever it can be added. And while nothing is wrong with this, it’s important that we don’t loose sight of AI being a tool and not a replacement. There are so many great things that AI can do, such as data gathering, increased pattern recognition, etc. However, it cannot fully nor successfully replace a human. A human touch is very much still needed, not only to get the AI to function as it should but in order for patients to feel comfortable.
+
+So instead of looking for one or the other, it’s important to look for a balance. For a closer look at this balance we reached out to our wonderful Healthcare IT Today Community for their insights. Read what they had to say down below.
+
+Colin Banas, M.D., M.H.A., Chief Medical Officer at DrFirst
+
+Workflow automation and AI to automate healthcare are linked in ways you may not expect and it’s short-sighted to pit them against each other. Workflow automation that uses AI to infer clinical meaning and ML to improve its performance over time may not directly contribute to the care of my patient but improves my ability to do so. For example, using automation with AI to replace manual data entry, lengthy progress note writing, phone calls (and faxes – still!) helps ensure a safe transition of care for my patient and avoid readmissions. Ambient listening captures my notes and gives me the freedom to connect with my patients by looking them in the eyes instead of staring at my computer screen. Both of these situations illustrate that just because we think of something as “workflow automation” doesn’t mean it isn’t also improving my relationship with my patients and ability to care for them.
+
+Chris Larkin, Chief Technology Officer at Concord Technologies
+
+We see healthcare AI as becoming deeply imbedded in our systems. We also see the AI working closely in concert with human decision-making to help the healthcare system perform at its peak. As a leader, I look for repetition of tasks, and standard answers to common questions. AI is really good at detecting anomalies to a standard answer like “Is this recipe ready to be served?” but if you ask AI to clear the dishes off the dinner table, it’s a much tougher process. In other words, there is no standard for dish clearing, and dishes can be easily broken. It’s the same way in healthcare. If we see the following conditions, prescribe therapy X at dosage Y, but don’t ask AI to palpate the patient for appendicitis. The nuance is too great.
+
+Archie Mayani, SVP and Chief Product Officer at Change Healthcare
+
+We’re witnessing exciting breakthroughs in healthcare AI beyond workflow improvements. For instance, advanced predictive analytics software can now help physicians identify high-risk patients, ultimately allowing for better care at a reduced cost. With the development of new tools for diagnostics, patient monitoring, treatment and beyond, AI will usher in an era of more streamlined, personalized and proactive care for patients.
+
+Joseph Zabinski, Ph.D., Senior Director of AI & Personalized Medicine at OM1, Inc.
+
+The road to diagnosis can be long and difficult for patients, and even after reaching a diagnosis, truly personalized treatment plans are still challenging to create. Artificial intelligence (AI) applied to real-world healthcare data is getting better at helping clinicians understand disease-signaling patterns in undiagnosed patients, leading to faster diagnoses and more effective treatment plans. AI tools can provide clinicians with critical insights into patterns manifesting across thousands or millions of patients to recognize those with undiagnosed disease sooner.
+
+Similarly, by bridging insights from population data to the individual level, AI can help identify which treatments are more likely to have the greatest efficacy for specific patients, and if they’re likely to experience adverse events down the road. As we look to the future, AI-based automation will continue growing in importance and impact in healthcare. ChatGPT is currently dominating the media landscape, and tools like it will undoubtedly find more powerful applications in healthcare soon.
+
+However, while AI can benefit physicians and patients alike, it’s crucial to think critically and carefully on how to best integrate these tools at the right points in the clinical workflow and patient journey. ‘Disruption’ can be valuable in advancing the state of clinical medicine, but we can’t disrupt ongoing care in ways that cause friction or harm for patients or increase the burden on clinicians.
+
+Nigel Spier, OBGYN and Team Lead for ModMed OBGYN at ModMed
+
+Provider facilities need to think more proactively about implementing adaptive tech in physician and staff workflows. In OBGYN care, for instance, we work with high-touch patients while the physician population is expected to shrink by 50% by 2050. That combination requires a commitment to AI and automation as tools that can help to maintain clinical care standards in the face of those challenges.
+
+Nele Jessel, Chief Medical Officer at athenahealth
+
+Artificial intelligence (AI) and machine learning (ML) are increasingly being leveraged to further automate task and workflows and remove burden from providers and staff. Machine Learning has successfully assisted with back-end automation and document processing for some time, but these efforts have taken on new urgency with new interoperability regulations that have led to an exponential increase of documents coming into the chart. Providers are being inundated with information that they have to curate and put into context – AI and ML can help “read” and contextualize all that inflow to alert providers to information they need to care about. Additionally, these technologies can be leveraged to learn and anticipate provider actions within electronic health record software to reduce provider documentation burden.
+
+Charlie Clarke, SVP of Technology at hc1
+
+One challenge for screening patients for access to clinical trials and drug efficacy is the lack of an efficient, real-time method for identifying and incorporating all of the factors which can help personalize their care or treatment plan. Using automation to evaluate a longitudinal view of a patient, including their lab results and specific bio markers, empowers healthcare providers to quickly identify whether a specific treatment will work effectively for a patient.
+
+Dr. Ben Zaniello, Chief Medical Officer at PointClickCare
+
+We are entering one of the most profound moments in the history of human medicine – imagine that world in which vitals were automated. The healthcare industry not only needs to scale but also reduce human error, which is a challenge that comes with speed. Every other industry has discovered a way to do both and its automation. In healthcare, we call it remote patient monitoring, and ironically, ushering in automation to healthcare protocols isn’t robotic yet the way clinicians are currently caring for their patients is. The time to change is now and we must move faster.
+
+Krishna Kurapati, Founder and CEO at QliqSOFT
+
+Automation in healthcare improves efficiencies in a multitude of inventive ways well beyond just streamlining contact center triage. Already, clinicians and staff are implementing emerging technology tools such as artificial intelligence to automate mundane tasks such as referral management and patient outreach, for example, well-check visit reminders. Automating routine tasks makes their practice operationally effective and patient-oriented while reducing the administrative burden. What’s more, consumers of healthcare demand the ‘push’ of timely, actionable information, which is valuable for achieving a positive patient experience along with preventive care goals that prolong life and reduce care costs.
+
+Julie Rezek, Chief Executive Officer at Advata
+
+One area that we should be cautious about automating is relationships — especially the doctor-patient relationship. The direct interaction between the patient and doctor is the fundamental unit of value that we offer in healthcare. The best use of automation may be supporting that relationship, which is already taking place. But we should take care to keep this most important of connections.
+
+Part of my job as a leader is to encourage the responsible exploration of innovative approaches and technologies we can adopt or use in our offerings. Automation is one area we are actively developing and investigating. Internally, we use automation to support new and existing relationships in marketing and customer success. And our customers are using our automation offerings to manage and improve their revenue cycle management, improving their financial performance.
+
+Today, many organizations continue to invest in workflow automation as it is an opportunity for rapidly improving performance. Our customers find great value and benefit from workflow improvement. At the same time, it should also be applied where AI is appropriate. The two approaches are not in competition with each other. They are complements and used together when it is useful.
+
+Art Papier, CEO and Co-Founder at VisualDx
+
+As organizations continue to explore AI, they must avoid over-hyping the capabilities of this technology. No matter how advanced AI becomes, it will always be an assistive tool – not a perfect solution to fix all medicine, but a way to augment decisions rather than make them. By over-relying on AI, providers may place too much trust in the technology and not think critically, which could lead to incorrect medical decisions. As AI continues to emerge, organizations must get clear on the purpose and capabilities of machine learning to best capitalize on its promises.
+
+Kimberly Hartsfield, Executive Vice President of Growth Enablement at VisiQuate
+
+Automate everything is not a viable or attainable solution in healthcare. Focus on automation of high touch, low value tasks where decision making isn’t necessary. Although it may sound fairly obvious, there are some functions or process’ that should not be automated because the human interaction is so essential and valuable to an organization. Automate with intent and let the incremental wins drive the path forward for success.
+
+Adam Cole, Director of Security Operations at LifeOmic
+
+In answering what areas of healthcare should not be automated, automation in IT and security should be there to augment staff, not replace them. As an example, we can look at vulnerability management. Automation technologies, whether SOAR or Machine Learning functions, can be used to classify and manage tickets, notify participants, and maybe even locate the vulnerability in your code base. Automation cannot tell you if that application is being decommissioned next week though. Context matters and context will always require human input.
+
+Florian Otto, Co-Founder and CEO at Cedar
+
+You can’t automate the human touch that’s necessary for clinical care—and you wouldn’t want to. On the non-clinical (aka, the administrative) side of the healthcare system though, there is a massive opportunity to increase productivity and reduce cost through automation. Right now, from patient registration to post-visit billing, a majority of the process has remained manual, which causes unnecessary inefficiencies for both staff and patients. Online automation of the check-in process before a patient enters the doors or integration of systems to avoid repetitive paperwork, for example, will provide administrative staff with more time to focus on value-add work, establish financial ROI through fewer no-shows, etc., ultimately empowering consumers to take control of their digital health journey.
+
+Dr. Yossi Bahagon, Chairman at Sweetch
+
+Through the application of AI-powered tools, the quality of patient care and managing chronic conditions could be vastly enhanced. AI algorithms incorporated into healthcare management can augment our ability to proactively recognize health patterns, allowing us to predict patients at risk, thus enabling earlier interventions. As an example, JITAI technology (Just-in-time Adaptive Interventions) utilizes data points from connected devices such as mobile phones and wearables, to deliver personalized interventions with optimal timing, and real-world context. This enables patients to self-manage their conditions, and empowers medical teams to provide precise, just-in-time, high-touch care. The result is improved health outcomes and better quality of life for patients living with chronic conditions.
+
+The ability to scale up AI-powered technology is proving to have a profound influence on healthcare delivery. As chronically ill patient populations expand, and healthcare systems become more overloaded, AI-powered automation offers a solution for the provision of consistent, high-quality healthcare support in real-time. This scalability not only improves medical outcomes, but also addresses inequities in healthcare, allowing more patients in underserved communities to be reached. By adopting these new technologies, we can transcend barriers to healthcare delivery, and improve the lives of patients in communities across the globe.
+
+Nate Fox, Co-Founder and CTO at Ribbon Health
+
+Automation is making waves in many healthcare and medical use cases, but the key to efficient and ethical automation is to always have a human element to ensure things are running smoothly. Humans are initially needed to write the code for automated processes to exist, and there needs to be human oversight along the way to make sure the AI model abides by a code of ethics. Ribbon Health’s data is used to automate provider searches and directories, and we have seen demand for our platform to help patients find providers of the same race or ethnicity as themselves. However, there is no way to build a model that automates these specific provider details, as it would assume findings based on names or other demographic information. Data scientists need to stay involved to fill in what automated models cannot.
+
+Jonathan Welch, Senior Vice President of Product at Sphere
+
+The effects of automation can be seen throughout healthcare, from scheduling appointments, to automatically assessing and communicating personalized out-of-pocket expenses to patients during the check-in process. Automation enables care providers to allocate precious resources to other important business functions, helping them cut down on expenses while improving the patient experience. While there are numerous benefits to automation, it’s important to remember that offering a personalized and human touch creates a strong interpersonal relationship between patient and care provider. It is important to use automation to support an empathetic care experience, not replace the patient journey with technology.
+
+Billy Parrish, Chief Product Officer at Ensemble Health Partners
+
+Automation can certainly have a negative connotation for staff, especially if it’s perceived as a mechanism to reduce labor costs. It’s critical to position automation efforts, and technology enablement overall, as a mechanism to help people focus on meaningful work – to alleviate monotony and eliminate repetitive tasks that don’t require critical thinking. Adoption of any technology, including automation, requires trust by the end users. If your staff don’t buy into the benefit or doesn’t feel like they were part of the solution, automation efforts can fail. It’s important to design any technology-enablement program with the root cause in mind. Take the necessary time to truly understand the problems that need to be solved and don’t assume automation is the right answer. Work with your experts to examine and redefine processes where needed to ensure you aren’t automating inefficiency.
+
+Cristian Pascual, Co-Founder and CEO at Mediktor
+
+Access to healthcare is an unsolved problem worldwide, with unassisted decision-making leading to inefficiency and errors. AI-based tools are addressing this challenge by empowering patients to accurately assess and triage their symptoms and quickly access the care they need. Patients benefit by being directed to the most appropriate point of entry to care, thereby reducing wait times and eliminating unnecessary steps or interactions. The net impact of these AI tools is a more seamless, simple care navigation experience for the patient and more efficient utilization of medical services.
+
+Brian Fugere, Chief Product Officer at symplr
+
+The benefits of AI are already seen across the healthcare industry in administrative workflows, robotic surgery, data and privacy, and patient safety and risk management. The prevalence of AI is only expected to increase in the next few years as it can reduce administrative costs and significantly improve the patient journey. AI will never replace what a provider can offer at the bedside of their patients, but it absolutely can change the backend of healthcare and move human effort away from administrative tasks and back to clinical, patient-centric ones, and as a result enhance the patient experience and streamline healthcare processes.
+
+Yair Heller, Chief Operations Officer at Ibex Medical Analytics
+
+Unlike fields such as radiology, where there is a clear business case to digitize and streamline operations, the field of pathology has been slow to adopt digital and automated workflows. However, AI in pathology is not simply a tool for workflow optimization, but is the driving force behind digitization, reducing patient turnaround time and streamlining the workload of pathologists. In this critical healthcare sector, AI can serve as the driving force behind digitization, and offer a compelling business case to laboratory professionals.
+
+Through the application of AI-powered diagnostic tools, pathologists can reap the benefits of its transformative effects. With automation and AI, pathologists will see a significant increase in efficiency with the ability to review 60% more cases per unit of time when using AI. Automating through AI also ensures that almost any form of human error is caught, preventing potentially fatal outcomes. Finally, with AI, complex issues such as balancing workloads and overcoming intra-country geographical barriers can be addressed, leading to a more efficient and effective healthcare system.
+
+Susan Taylor, VP, Industry Market Leader, Healthcare and Lifesciences at Pegasystems
+
+While much of AI today is used for workflow, it’s also being used to personalize care experiences for patients and their care teams. For example, a temporary home-delivery arrangement can be made if a patient has a condition that temporarily makes it challenging to go to the pharmacy to pick up prescriptions. This is a simple example of using unrelated but relevant whole health information in a patient’s moment of need to identify adherence gaps and offer meaningful support with technology.
+
+Iman Abuzeid, Co-Founder & CEO at Incredible Health
+
+AI, specifically machine learning, combined with automation are playing a significant role in addressing the national nursing shortage by improving hiring practices and easing points of stress by automating tasks. These are techniques actively used at Incredible Health, the fastest growing career marketplace for healthcare workers. In hiring, algorithms match nurses based on preferences, experience, and other factors with employers. This saves health systems money and time – while nurses can find jobs that align best with their goals and experience, leading to higher satisfaction and retention.
+
+In addition, I expect to see more health systems incorporate AI-powered virtual nursing assistants to help ease staffing stress and support flexible scheduling for nurses – especially senior-level nurses who might otherwise consider retiring early. In 2022, the desire for more flexible scheduling was one of the main reasons that nurses decided to leave their jobs. Providing the option to monitor patients virtually or with a hybrid approach might help deter those nurses from leaving, and improve retention for the long-run.
+
+Elisabeth Schmidt, Senior Vice President at Maximus
+
+From automated phone calls, texts, and SMS messaging to chat bots and virtual assistants, automation is certainly positioned to enhance the end user experience for all citizens, including patients, healthcare workers, and clinicians as well as veterans, among others. Automation is fueling the shift to expanded self-service capabilities, addressing the desire to expand the populations being served, and increasing accessibility to important time-sensitive information. In addition, the benefits of automation to the workforce are substantial, shifting its focus from mundane and repetitive tasks to higher value, mission-driven activities, as well as capturing data insights to improve user experience, satisfaction, and trust. Even with these benefits in mind, automation can never fully replace human interaction to translate a customer’s response or provide a medical determination.
+
+Thank you to everyone that submitted a quote! We always love hearing your insights and that goes to all of our readers as well. Comment down below to share your insights on the blend of humans and AI in the world of healthcare!
+
+« Back to The Peak
+
+Top Stories
+HEALTH & PHARMACEUTICALS
+Low-Risk AI Adoption — A logical place to start
+HEALTH & PHARMACEUTICALS
+Buy and Ship Now supports access to critical medications
+BUSINESS SERVICES
+Weathering the Storm: How Specialty Pharmacies Can Navigate the 2024 Hurricane Season
+HEALTH & PHARMACEUTICALS
+Biocare Medical and Ensigna Biosystems Announce Strategic Partnership to Drive Spatial Biology, Multiomic Enablement, and Innovation in Biotechnology
+BUSINESS SERVICES
+Enhancing Patient Care with ParcelShield: Tackling Specialty Pharmacy Visibility and Tracking Challenges
+

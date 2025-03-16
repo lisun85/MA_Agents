@@ -1,0 +1,67 @@
+URL: https://hadleycapital.com/insights/selling-a-small-business/asset-sale-v-stock-sale
+TITLE: What Is the Difference Between an Asset Sale and a Stock Sale?
+
+BASE CONTENT:
+================================================================================
+What Is the Difference Between an Asset Sale and a Stock Sale?
+Paul Wormley
+April 05, 2011 - 1 min read
+
+In Part I of the Anatomy of a Letter of Intent post I suggested that a buyer benefits from buying assets versus buying stock in the acquisition of an S Corporation (or other flow through entities like LLCs).
+
+ 
+
+Before I start, a disclaimer is probably in order. In business school I took tax accounting (FNCE 447) as a pass/fail class and, as I remember, barely passed. So consider the source and I’ll try to dig up the transcript to prove it…
+
+ 
+
+This is going to be a very high level overview of asset versus stock sales. If you want a crazy detailed version check out this book from my tax accounting course (it's actually a great reference book, and priced like one!).
+
+ 
+
+It may be easiest and most instructive to understand how C Corporation acquisitions are treated because they tend to be a little more straightforward. When selling a C Corporation, the seller has a strong tax incentive to sell stock versus assets. Why? Because if assets are sold, the C Corporation that sold the assets can only distribute the proceeds of the asset sale to its shareholders through dividends. This results in double taxation – once when the assets are sold and once when the dividends are distributed to shareholders. Painful.
+
+ 
+
+In an S Corporation, the seller is generally neutral to selling stock versus selling assets because the tax treatment of the sale is often similar and the S Corp form avoids double taxation because everything flows through to the shareholders’ personal returns.
+
+ 
+
+However, a buyer receives two primary benefits from buying assets:
+
+ 
+
+_Asset Write Up _– the buyercan write up the value of the assets to fair market value. This is beneficial because the buyer can then depreciate the assets, lowering taxable income and, thus, cash taxes.
+
+ 
+
+Liability Shield– the buyer of the assets is only buying the indentified assets. All liabilities (except usually working capital liabilities like accounts payable) stay with the seller. Liabilities can range from outstanding debt to environmental liabilities to unknown liabilities. The benefits to the buyer of leaving behind these liabilities is obvious.
+
+ 
+
+Of course, like anything that involves the IRS, there are lots and lots of exceptions & like 338(h)(10) elections in stock sales to get asset sale benefits. I have presented a plain-vanilla scenario, we’ll leave the complex stuff for the accountants and attorneys.
+
+Paul Wormley - Managing Partner
+
+Paul joined Hadley in 2005. He grew up in a family business environment and has spent his entire career working with small and emerging companies.
+
+He currently works with Interstate Fabrications, Filter Holdings, J&R, AGI, Gillinder, Equustock, Pneu-Con, and Storflex. Previously he was the chairman or served on the board of directors for i-deal Optics, Centare, QDx Pathology, GT Golf Supplies, and Open Sky Media – all former Hadley companies.
+
+Paul is an outdoor enthusiast who enjoys fishing, hunting, riding motorbikes, Crossfit and an occasional craft beer. He works closely with a number of non-profit organizations including One Acre Fund, Trout & Salmon Foundation, and Northfield Parks Foundation.
+
+Paul is a graduate of the University of Colorado at Boulder and received an MBA from the Kellogg School of Management at Northwestern University. He and his wife, Rosemary, have three children.
+
+Recommended Reading
+Centare Sold to Leading Onshore Development Organization
+By Paul Wormley
+Insights on Management Buyouts for Small Businesses
+By Harrison Menaker
+Purchase Price Allocation in Small Company Acquisitions
+By Ryan Hanley
+What are Indemnification Baskets and Caps in M&A?
+By Paul Wormley
+Categories
+Managing A Small Business
+Selling A Small Business
+Small Business Private Equity
+

@@ -1,0 +1,327 @@
+[
+  {
+    "url": "https://klhcapital.com/",
+    "title": "KLH Capital \u2013 Private Equity Partners, Building Great Companies",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/firm-profile",
+    "title": "Firm Profile \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/contact",
+    "title": "Contact Us \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/approach",
+    "title": "Approach \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/solutions",
+    "title": "Solutions \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team",
+    "title": "Team \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/portfolio",
+    "title": "Portfolio \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/news",
+    "title": "News \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/visiting-our-office",
+    "title": "Visiting Our Office \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/privacy-policy",
+    "title": "Privacy Policy \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/kyle-madden",
+    "title": "Kyle Madden \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/ron-moore",
+    "title": "Ron Moore \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/peter-rozin",
+    "title": "Peter Rozin \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/management-buyouts",
+    "title": "Management Buyouts \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/majority-recapitalizations",
+    "title": "Majority Recapitalizations \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/minority-recapitalizations",
+    "title": "Minority Recapitalizations \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/family-successions",
+    "title": "Family Successions \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/nick-arledge",
+    "title": "Nick Arledge \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/david-buckel",
+    "title": "David Buckel \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/james-darnell",
+    "title": "James Darnell \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/will-dowden",
+    "title": "Will Dowden \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/gina-frankis",
+    "title": "Gina Frankis \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/brad-gates",
+    "title": "Brad Gates \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/sean-gilmore",
+    "title": "Sean Gilmore \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/ben-goldin",
+    "title": "Ben Goldin \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/tyler-hendry",
+    "title": "Tyler Hendry \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/sebastian-ix",
+    "title": "Sebastian Ix \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/richard-kelecy",
+    "title": "Richard Kelecy \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/rick-kerrigan",
+    "title": "Rick Kerrigan \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/john-moore",
+    "title": "John Moore \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/michael-nauton",
+    "title": "Michael Nauton \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/austin-ray",
+    "title": "Austin Ray \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/chris-reinhart",
+    "title": "Chris Reinhart \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/chal-smiley",
+    "title": "Chal Smiley \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/team/nancy-wall",
+    "title": "Nancy Wall \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/concrete-protection-restoration",
+    "title": "Concrete Protection & Restoration \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/selinsky-force",
+    "title": "Selinsky FORCE \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/miller-integrated-solutions",
+    "title": "Miller Integrated Solutions \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/etech-environmental-safety-solutions-inc",
+    "title": "eTech Environmental & Safety Solutions, Inc. \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/marek-sawing-and-drilling",
+    "title": "Marek Sawing and Drilling \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/thorpe-specialty-services",
+    "title": "Thorpe Specialty Services \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/the-warehouse-rentals-supplies",
+    "title": "The Warehouse Rentals & Supplies \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/precision-impacts",
+    "title": "Precision Impacts \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/jis",
+    "title": "Jackson Infrastructure Services \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/ii-soft-craft-solutions",
+    "title": "I&I Soft Craft Solutions \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/dh-united",
+    "title": "D&H United \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/frankston-packaging",
+    "title": "Frankston Packaging \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/electricom",
+    "title": "ElectriCom \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/shenandoah-industrial-solutions",
+    "title": "Shenandoah Industrial Solutions \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/apogee-lighting",
+    "title": "Apogee Lighting \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/victory-tailgate",
+    "title": "Victory Tailgate \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/premiere-precision-components",
+    "title": "Premiere Precision Components \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/curion",
+    "title": "Curion \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/bmi-merchandise",
+    "title": "BMI Merchandise \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/data-display-systems",
+    "title": "Data Display Systems \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/blusky-restoration",
+    "title": "BluSky Restoration \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/atchafalaya-measurement",
+    "title": "Atchafalaya Measurement \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/ms-industrial",
+    "title": "MS Industrial \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/ccm-wireless",
+    "title": "CCM Wireless \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/ans-distributing",
+    "title": "ANS Distributing \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/federal-resources-supply-company",
+    "title": "Federal Resources Supply Company \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/ground-works-solutions",
+    "title": "Ground Works Solutions \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/bello-international",
+    "title": "Bell\u2019O International \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/qualawash-holdings",
+    "title": "QualaWash Holdings \u2013 KLH Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://klhcapital.com/investments/recovery-holdings",
+    "title": "Recovery Holdings \u2013 KLH Capital",
+    "dynamic_states": 0
+  }
+]

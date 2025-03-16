@@ -1,0 +1,537 @@
+[
+  {
+    "url": "https://kainoscapital.com/cgi-bin/index.pl",
+    "title": "Page Not Found | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/privacy-policy",
+    "title": "Privacy Policy | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/",
+    "title": "Kainos Capital | Middle Market Private Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about",
+    "title": "About | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/process",
+    "title": "Working Together | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/portfolio",
+    "title": "Portfolio | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press",
+    "title": "News and Press | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/terms-conditions",
+    "title": "Terms and Conditions | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/investor-privacy-statement",
+    "title": "Kainos Investor Privacy Statement | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/process/sales-and-marketing",
+    "title": "Sales & Marketing | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/process/innovation",
+    "title": "Innovation | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/process/supply-chain",
+    "title": "Supply Chain | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/process/organizational-development",
+    "title": "Organizational Development | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/process/infrastructure-technology",
+    "title": "Infrastructure & Technology | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/process/manufacturing-automation",
+    "title": "Manufacturing & Automation | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/jacob-askew",
+    "title": "Jacob Askew | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/alisha-barbera",
+    "title": "Alisha Barbera | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/gage-baumli",
+    "title": "Gage Baumli | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/julie-benoist",
+    "title": "Julie Benoist | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/claire-bissot",
+    "title": "Claire Bissot | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/kevin-cook",
+    "title": "Kevin Cook | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/jay-desai",
+    "title": "Jay Desai | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/rachel-eccles",
+    "title": "Rachel Eccles | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/kevin-elliott",
+    "title": "Kevin Elliott | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/kevin-faust",
+    "title": "Kevin Faust | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/meredith-ferrell",
+    "title": "Meredith Ferrell | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/kathy-garza-garcia",
+    "title": "Kathy Garza-Garcia | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/david-gassko",
+    "title": "David Gassko | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/daniel-hopkin",
+    "title": "Daniel Hopkin | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/john-kibler",
+    "title": "John Kibler | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/dave-knickel",
+    "title": "Dave Knickel | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/steven-koch",
+    "title": "Steven Koch | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/andy-lopez",
+    "title": "Andy Lopez | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/susan-mahaffey",
+    "title": "Susan Mahaffey | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/cate-mason",
+    "title": "Cate Mason | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/allyson-miltenberger",
+    "title": "Allyson Miltenberger | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/james-mitchell",
+    "title": "James Mitchell | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/jeff-moredock",
+    "title": "Jeff Moredock | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/jerry-neisel",
+    "title": "Jerry Neisel | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/robin-olsson",
+    "title": "Robin Olsson | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/catherine-anne-prideaux",
+    "title": "Catherine Anne Prideaux | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/justin-potwora",
+    "title": "Justin Potwora | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/doug-reader",
+    "title": "Doug Reader | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/andrew-rosen",
+    "title": "Andrew Rosen | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/natalie-scott",
+    "title": "Natalie Scott | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/alex-stanek",
+    "title": "Alex Stanek | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/kerry-welch",
+    "title": "Kerry Welch | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/about/lindy-ostrander",
+    "title": "Lindy Whitacre | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-continues-to-develop-investment-and-operations-team-through-promotions",
+    "title": "Kainos Capital Continues to Develop Investment and Operations Team Through Promotions | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/specialty-sales-names-matthew-nelson-as-ceo",
+    "title": "Specialty Sales Names Matthew Nelson as CEO | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-promotes-david-gassko-and-jeff-moredock-to-partner",
+    "title": "Kainos Capital Promotes David Gassko and Jeff Moredock to Partner | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-announces-investment-team-growth",
+    "title": "Kainos Capital Announces Investment Team Growth | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-announces-promotion-of-claire-bissot-to-managing-director",
+    "title": "Kainos Capital Announces Promotion of Claire Bissot to Managing Director | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-announces-addition-of-doug-reader-as-senior-managing-director",
+    "title": "Kainos Capital Announces Addition of Doug Reader as Senior Managing Director | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/page/2",
+    "title": "News and Press | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/page/3",
+    "title": "News and Press | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/page/4",
+    "title": "News and Press | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-raises-over-1-billion-for-fund-iii",
+    "title": "Kainos Capital Raises Over $1 Billion for Fund III | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/introducing-wellful-inc-nutrisystem-and-adaptive-health-announce-new-parent-company-name",
+    "title": "Introducing Wellful Inc.: Nutrisystem and Adaptive Health Announce New Parent Company Name | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-promotes-mike-perloski-and-jacob-spitz-to-senior-associate",
+    "title": "Kainos Capital Promotes Mike Perloski and Jacob Spitz to Senior Associate | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-partners-with-citysquare",
+    "title": "Kainos Capital Partners with CitySquare | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-promotes-david-gassko-to-principal",
+    "title": "Kainos Capital Promotes David Gassko to Principal | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-sells-good2grow-to-wind-point-partners",
+    "title": "Kainos Capital Sells good2grow to Wind Point Partners | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-acquires-muenster-milling-family-owned-pet-food-and-ingredient-manufacturer",
+    "title": "Kainos Capital Acquires Muenster Milling, Family-Owned Pet Food and Ingredient Manufacturer | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-to-sell-olde-thompson-to-olam-food-ingredients",
+    "title": "Kainos Capital To Sell Olde Thompson to Olam Food Ingredients | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-sells-ferraro-foods-to-kelso-company",
+    "title": "Kainos Capital Sells Ferraro Foods To Kelso & Company | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/nutrisystem-names-stephen-mikulak-as-new-president",
+    "title": "Nutrisystem Names Stephen Mikulak As New President | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/cremosa-foods-joins-ferraro-foods",
+    "title": "Cremosa Foods Joins Ferraro Foods | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-announces-addition-of-alex-stanek-to-operations-team",
+    "title": "Kainos Capital Announces Addition of Alex Stanek to Operations Team | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/page/1",
+    "title": "News and Press | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/page/5",
+    "title": "News and Press | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-completes-acquisition-of-nutrisystem-for-575-million",
+    "title": "Kainos Capital Completes Acquisition of Nutrisystem for $575 Million | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-to-acquire-nutrisystem",
+    "title": "Kainos Capital to Acquire Nutrisystem | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-hosts-2020-annual-sales-and-finance-summit-virtually",
+    "title": "Kainos Capital Hosts 2020 Annual Sales and Finance Summit, Virtually | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-portfolio-company-olde-thompson-acquires-gel-spice-expanding-national-footprint",
+    "title": "Kainos Capital Portfolio Company Olde Thompson acquires Gel Spice, expanding national footprint | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/andrew-rosen-discusses-change-capital",
+    "title": "Andrew Rosen discusses \u201cChange Capital\u201d | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-portfolio-lends-a-hand-during-covid-19-pandemic",
+    "title": "Kainos Portfolio Supports the Frontlines | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/north-texas-food-bank-covid-19-response",
+    "title": "North Texas Food Bank COVID-19 Response | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/als-association-sporting-clay-shoot",
+    "title": "ALS Association Sporting Clay Shoot | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/cycle-for-survival-2020",
+    "title": "Cycle for Survival 2020 | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-promotes-jeff-moredock-to-principal-and-julie-sanders-to-director",
+    "title": "Kainos Capital Promotes Jeff Moredock to Principal and Julie Sanders to Director | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/whisps-ceo-details-snacking-transformation",
+    "title": "Whisps\u2019 CEO Details Snacking Transformation | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/olde-thompson-wins-redzone-productivity-award",
+    "title": "Olde Thompson Wins Redzone Productivity Award | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-celebrates-mary-wynns-retirement",
+    "title": "Kainos Capital Celebrates Mary Wynn\u2019s Retirement | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-hosts-annual-sales-and-cfo-summits",
+    "title": "Kainos Capital Hosts Annual Sales and CFO Summits | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kettle-cuisine-announces-acquisition-of-harrys-fresh-foods",
+    "title": "Kettle Cuisine Announces Acquisition of Harry\u2019s Fresh Foods | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/two-kainos-partner-companies-recognized-as-walmart-suppliers-of-the-year-for-2018",
+    "title": "Two Kainos Partner Companies Recognized as Walmart Suppliers of the Year for 2018 | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-promotes-jay-desai-to-partner",
+    "title": "Kainos Capital Promotes Jay Desai to Partner | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-to-sell-slimfast-to-glanbia",
+    "title": "Kainos Capital to Sell SlimFast to Glanbia | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-announces-combination-of-kettle-cuisine-bonewerks-culinarte-and-savory-creations",
+    "title": "Kainos Capital Announces Combination of Kettle Cuisine, Bonewerks Culinarte, and Savory Creations | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/ferraro-foods-now-carries-bonewerks-culinarte",
+    "title": "Ferraro Foods Now Carries Bonewerks Culinarte\u2019 | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-sells-florida-food-products-to-midocean-partners",
+    "title": "Kainos Capital Sells Florida Food Products to MidOcean Partners | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/mergers-acquisitions-11-rising-stars-of-private-equity-names-daniel-hopkin-partner-kainos-capital",
+    "title": "Mergers & Acquisitions\u2019 11 Rising Stars of Private Equity Names Daniel Hopkin, Partner Kainos Capital | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/slimfast-launches-walmart-exclusive-in-slimcafe",
+    "title": "SlimFast launches Walmart exclusive in SlimCaf\u00e9 | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-acquires-bonewerks-culinarte",
+    "title": "Kainos Capital Acquires Bonewerks Culinarte\u2019 | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/dave-knickel-named-outstanding-cfo-in-the-top-financial-executives-in-north-texas-2017",
+    "title": "Dave Knickel Named Outstanding CFO in the Top Financial Executives in North Texas 2017 | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-closes-895-million-fund-ii",
+    "title": "Kainos Capital Closes $895 Million Fund II | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kettle-cuisine-acquires-del-monaco-foods",
+    "title": "Kettle Cuisine Acquires Del Monaco Foods | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kevin-elliott-joins-kainos-capital-as-partner",
+    "title": "Kevin Elliott Joins Kainos Capital as Partner | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/americas-most-preferred-bone-health-brand-launches-new-caltrate-bone-joint-health-supplement",
+    "title": "America\u2019s Most-Preferred Bone Health Brand Launches New Caltrate\u00ae Bone & Joint Health Supplement | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-promotes-daniel-hopkin-and-nirav-shah-to-partner",
+    "title": "Kainos Capital Promotes Daniel Hopkin and Nirav Shah to Partner | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/interhealth-acquires-next-pharmaceuticals",
+    "title": "InterHealth Acquires Next Pharmaceuticals | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-acquires-slim-fast-from-unilever",
+    "title": "Kainos Capital Acquires Slim-Fast From Unilever | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/interhealth-acquires-chick-cart-inc",
+    "title": "InterHealth Acquires Chick Cart Inc. | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/deloitte-corporate-finance-llc-advises-kainos-capital-llc-on-its-acquisition-of-interhealth-nutraceuticals-inc",
+    "title": "Deloitte Corporate Finance LLC Advises Kainos Capital, LLC on its Acquisition of InterHealth Nutraceuticals, Inc. | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/kainos-capital-announces-acquisition-of-interhealth-nutraceuticals",
+    "title": "Kainos Capital announces acquisition of Interhealth Nutraceuticals | Kainos Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://kainoscapital.com/news-press/cfo-of-the-year-dave-knickel-kainos-capital-llc",
+    "title": "CFO of the Year: Dave Knickel, Kainos Capital LLC | Kainos Capital",
+    "dynamic_states": 0
+  }
+]

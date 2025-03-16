@@ -1,0 +1,41 @@
+URL: https://hkwinc.com/civix-expands-elections-management-platform-through-exclusive-deal-with-demtech
+TITLE: Civix Expands Elections Management Platform through Exclusive Deal with DemTech – HKW
+
+BASE CONTENT:
+================================================================================
+OCT
+22
+2021
+ UNCATEGORIZED
+Civix Expands Elections Management Platform through Exclusive Deal with DemTech
+Civix Expands Elections Management Platform through Exclusive Deal with DemTech
+Provides Fully Integrated End-to-End Elections Management System Run On Government Cloud
+
+ORLANDO, FL, October 12, 2021 – Election industry leaders Civix and DemTech announced a new partnership today that will provide election officials with an end-to-end election management system. Through an exclusive licensing agreement, DemTech’s full suite of software will be integrated into Civix’s Elections Management Platform, including electronic poll books (e-poll books), ballot delivery and marking solutions, and precinct-level elections results reporting.
+
+Civix’s newly expanded platform provides an end-to-end election management system that allows election officials to avoid the common challenge of having to rely on multiple segregated technologies for a range of complex election processes.
+
+“Civix is laser focused on innovation in elections, and that includes improving the day-to-day of election management,” said Tom Amburgey, CEO of Civix. “Adding DemTech’s solutions to Civix’s Elections Management Platform will further eliminate friction, streamline processes, and seamlessly connect county, jurisdiction, and state systems.”
+
+Civix’s newly expanded Election Management Platform will increase accessibility and transparency across the elections spectrum, including voter registration, absentee and mail-in voting, elections results reporting, elections validation and support, redistricting, campaign finance and management, poll worker administration, and e-poll books.
+
+“We are proud to partner with Civix on a solution that improves every aspect of the election process,” said John Morrison, CEO of DemTech. “For over a decade, we’ve been working with local election officials to understand their challenges and overcome them. Our partnership with Civix takes that even further with a complete solution.”
+
+The new exclusive licensing agreement with DemTech compliments Civix’s recently announced Intelligent Voter Information System (IVIS). The native application allows people to control their voting experiences right in the palm of their hands – from registration to casting ballots to viewing real-time results. With e-poll books, IVIS will seamlessly integrate with statewide voter registration systems.
+
+Like its other technologies, Civix’s Elections Management Platform is highly secure. It is run on Amazon Web Services (AWS) GovCloud (US), Amazon’s Regions designed to host sensitive data, regulated workloads, and address the most stringent U.S. government security and compliance requirements. To achieve high levels of security, Civix launched its Security 360 services creating an automated provisioning environment that eliminates opportunities for human error. The company has invested heavily in policy based automated deployments grounded in best practice security principles. This is complemented by full audit capability and 24/7/365 continuous monitoring of event data from systems, environments, and best of breed security tools such as CloudFlare, CrowdStrike, Optiv, Qualys and MimeCast.
+
+Civix elections management applications are used in 17 states and more than 1,000 jurisdictions. DemTech has thousands of e-poll books being used in multiple states.
+
+Civix and DemTech combined helped successfully manage more than 50 million voters in the 2020 general election.
+
+About DemTech
+
+DemTech specializes in developing, managing, securing and training people on the innovations of today aimed at engaging and keeping our Democracies alive with enthusiastic contributors.
+
+DemTech Voting Solutions, Inc was founded in 2011 and provides elections hardware and software designed to assist counties in managing elections. DemTech solutions consist of both on-premise software solutions that resides on hardware (tablets, etc.) and hosted software-as-a-service that allows for connection of devices across multiple voting locations.
+
+More at demtechvoting.com.
+
+BACK
+

@@ -1,0 +1,172 @@
+[
+  {
+    "url": "https://crescendocap.com/",
+    "title": "Crescendo Home - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/approach",
+    "title": "Crescendo Approach - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/portfolio",
+    "title": "Crescendo Portfolio - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/team",
+    "title": "Crescendo Team - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/news",
+    "title": "Crescendo News - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/contact",
+    "title": "Crescendo Contact - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/careers",
+    "title": "Crescendo Careers - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/www.linkedin.com/in/richard-pearsall-1baa2586",
+    "title": "Crescendo Page not found - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/in-a-relay-the-first-lap-runner-always-hands-the-baton-to-a-fresher-runner-on-1-1-25-ill-formally-pass-the-crescendo-mgp-baton-to-mike-macritchie",
+    "title": "Crescendo In a relay, the first lap runner ALWAYS hands the baton to a fresher runner.\u00a0 On 1/1/25, I\u2019ll formally pass the Crescendo MGP baton to Mike MacRitchie. - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/crescendo-receives-2024-inc-award-given-to-selected-private-equity-firms",
+    "title": "Crescendo Inc. Magazine Recognizes Crescendo Capital Partners as a 2024 Founder Friendly Investor - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/montbleau-holdings-a-portfolio-company-of-crescendo-capital-partners-completes-acquisition-of-buda-woodworks",
+    "title": "Crescendo Montbleau Holdings, a Portfolio Company of Crescendo Capital Partners, Completes Acquisition of Buda Woodworks - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/crescendo-receives-2023-inc-award-given-to-a-select-few-private-equity-firms",
+    "title": "Crescendo Crescendo is Pleased to Announce its Designation From Inc. as a \"2023 Founder Friendly Investor,\" an Award Given to a Select Few Private Equity Firms - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/crescendo-invests-in-nevada-drywall-stucco-stone",
+    "title": "Crescendo Crescendo Invests in Nevada Drywall, Stucco & Stone - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/new-crescendo-outside-fund",
+    "title": "Crescendo New Crescendo Fund - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/p3-holdings-a-portfolio-company-of-crescendo-capital-partners-completes-acquisition-of-power-plumbing-1-2",
+    "title": "Crescendo Crescendo Capital Partners named one of the top 25 buyers of lower-middle-market industrial companies by Axial (as part of its top 50 list including 25 buyers and 25 intermediaries) - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/crescendo-invests-in-montbleau-associates-and-northwest-woodworks",
+    "title": "Crescendo Crescendo Invests in Montbleau & Associates and Northwest Woodworks - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/p3-holdings-a-portfolio-company-of-crescendo-capital-partners-completes-acquisition-of-power-plumbing-1",
+    "title": "Crescendo Lor-Mar Holdings, LLC, a Portfolio Company of Crescendo Capital Partners and NewSpring, Completes Acquisition of Unitemp, Inc. and affiliates - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/crescendo-adds-new-professionals",
+    "title": "Crescendo In the last 18 months, Crescendo adds fifth, sixth and seventh investment professionals, plus its first Operating Partner - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/trivest-interviews-ccp-founder-cl-turner",
+    "title": "Crescendo Trivest Interviews CCP Founder CL Turner - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/crescendo-capital-partners-exits-investment-in-mirage-trailers",
+    "title": "Crescendo Crescendo Capital Partners exits investment in Mirage Trailers - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/crescendo-capital-partners-exits-investment-in-peltram-plumbing",
+    "title": "Crescendo Crescendo Capital Partners exits investment in Peltram Plumbing - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/p3-holdings-a-portfolio-company-of-crescendo-capital-partners-completes-acquisition-of-power-plumbing",
+    "title": "Crescendo P3 Holdings, a Portfolio Company of Crescendo Capital Partners, Completes Acquisition of Power Plumbing - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/p3-holdings-a-portfolio-company-of-crescendo-capital-partners-completes-acquisition-of-e-r-plumbing-services",
+    "title": "Crescendo P3 Holdings, a Portfolio Company of Crescendo Capital Partners, Completes Acquisition of E.R. Plumbing Services - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/crescendo-invests-in-pools-on-the-gulf-potg",
+    "title": "Crescendo Crescendo invests in Pools on the Gulf (\u201cPOTG\u201d) - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/crescendo-invests-in-lor-mar-mechanical-services",
+    "title": "Crescendo Crescendo invests in Lor-Mar Mechanical Services - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/peltram-plumbing-holdings-llc-a-portfolio-company-of-crescendo-capital-partners-completes-acquisition-of-precision-plumbing",
+    "title": "Crescendo Peltram Plumbing Holdings, LLC, a Portfolio Company of Crescendo Capital Partners, Completes Acquisition of Precision Plumbing. - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/crescendo-adds-fourth-professional-justin-bobo-in-winter-2020-justin-bobo-joined-as-an-associate-in-crescendos-chicago-office-prior-to-crescendo-bobo-was-a-financial-analyst-at-grubhub",
+    "title": "Crescendo Crescendo adds fourth professional, Justin Bobo. In winter 2020, Justin Bobo joined as an Associate in Crescendo\u2019s Chicago office. Prior to Crescendo, Bobo was a Financial Analyst at Grubhub. Bobo has investment banking (Jefferies) and investment (Grosvenor Capital Management) experience, focused primarily on the lower-middle-market. Bobo holds a BA degree in Economics from Vanderbilt University. - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/crescendo-adds-third-professional-brendan-nyhan-in-fall-2018-brendan-nyhan-joined-as-vp-in-crescendos-chicago-office-nyhan-has-significant-investment-banking-william-blair-co-and-inv",
+    "title": "Crescendo Crescendo adds third professional, Brendan Nyhan. In fall 2018, Brendan Nyhan joined as VP in Crescendo\u2019s Chicago office. Nyhan has significant investment banking (William Blair & Co.) and investing (OFS Capital) experience, all focused on the lower-middle-market. Nyhan holds BS degrees in Economics and Financial Mathematics from the University of Michigan at Ann Arbor. - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/news/page/2",
+    "title": "Crescendo News - Page 2 of 2 - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/crescendo-invests-in-peltram-plumbing",
+    "title": "Crescendo Crescendo invests in Peltram Plumbing - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/maysteel-acquires-damac",
+    "title": "Crescendo Maysteel Acquires DAMAC - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/criticalpoint-partners-advises-westcoast-gate-entry-systems-inc-in-its-sale-to-crescendo-capital-partners-and-kian-capital-partners",
+    "title": "Crescendo CriticalPoint Partners Advises Westcoast Gate & Entry Systems, Inc in its sale to Crescendo Capital Partners and Kian Capital Partners. - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/kian-partnered-with-crescendo-capital-partners-stewart-capital-management-and-empire-management-to-acquire-empire-marketing-group",
+    "title": "Crescendo Kian partnered with Crescendo Capital Partners, Stewart Capital Management, and Empire management to acquire Empire Marketing Group. - Crescendo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://crescendocap.com/investor-group-acquires-damac",
+    "title": "Crescendo Investor Group Acquires Damac. - Crescendo",
+    "dynamic_states": 0
+  }
+]

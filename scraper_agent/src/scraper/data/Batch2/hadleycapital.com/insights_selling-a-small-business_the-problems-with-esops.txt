@@ -1,0 +1,65 @@
+URL: https://hadleycapital.com/insights/selling-a-small-business/the-problems-with-esops
+TITLE: Should Your Company Do An ESOP or Sell?
+
+BASE CONTENT:
+================================================================================
+Should Your Company Do An ESOP or Sell?
+Paul Wormley
+April 04, 2012 - 2 min read
+
+Over the years we have evaluated a number of small company acquisitions where the target company was deciding between doing an ESOP or selling the business to a financial sponsor like Hadley Capital.
+
+ESOP promoters are quick to point out the significant economic benefits to ESOPs, mostly related to preferential tax treatment of ESOP contributions and distributions. However, there are a number of problems with ESOPs that are not immediately transparent to small businesses. We have developed a list of problems with ESOPs based, in some cases, on first hand accounts of companies that we were evaluating.  Here are a few:
+
+1. _ESOPs are complex and expensive _& ESOP is an acronym for Employee Stock Ownership Plan. ESOPs are qualified, defined contribution, employee benefit plans that are regulated by the Employment Retirement Security Act of 1974 (better known as ERISA) and, thus, subject to byzantine rules. The ESOP Association itself suggests that "plan sponsors consider the following":
+
+& Seek professional help in designing the ESOP documents including the Plan Document.
+
+& Strictly adhere to fiduciary structure and document all governance steps and decisions.
+
+& Continually review the investment of employer stock and develop a list of factors to be reviewed. Follow and update that list as appropriate.
+
+& Communicate accurately when discussing employer stock with employees and make sure they are clearly advised of the risks inherent with an employer stock investment.
+
+& Consider engaging in an independent trustee to serve participant interests, or a qualified outside firm for plan administration and record keeping. Request indemnification from outsiders for any errors they may make and obtain evidence of their errors and omissions insurance policy.
+
+& Purchase adequate Fiduciary Liability Insurance.
+
+Sound simple enough? It's not. That's why promoters of ESOPs are paid handsome fees to establish ESOPs and to manage ERISA compliance on a going forward basis.
+
+2. ESOPs have repurchase obligations & Employees can require ESOPs to repurchase their stock when they leave the company. These repurchase obligations must be completed at the company's current ESOP valuation, may put pressure on the company's cash flow, and are out of control of company management. This can limit a company's operating flexibility and balance sheet capacity & rather than investing in attractive growth opportunities a company may be required to maintain balance sheet capacity to fund repurchase obligations.
+
+3. ESOPs can fail and create legal exposure for trustees & Many ESOPs are formed so small business owners can realize cash proceeds from an ESOP "sale". The tax advantages of ESOPs (tax deductibility of principal payments on debt) often result in ESOP "sales" that utilize a substantial amount of deb. Debt can restrict operating flexibility and, in conjunction with a recession or loss of a major customer, can lead to the failure of a company. In this outcome, the trustees of the ESOP (often the business owner that set up the ESOP) can face substantial legal exposure from members of the ESOP.
+
+4. ESOPs are difficult to unwind & The unique structure of ESOPs make it incredibly complex to unwind or sell an ESOP company and/or to raise outside capital for an ESOP company.**
+
+** Unlike selling a closely-held small company, selling an ESOP company can be like selling a quasi-public company. ESOP participants have broad voting and information rights and trustees of an ESOP are required to "maximize shareholder value" & a difficult concept to prove in the sale of small business.  If a single ESOP participant feels like any of the above requirements are violated, even a well conceived transaction can be derailed or squashed. A more detailed outline of these problems is available here. http://www.faegrebd.com/2646
+
+5. _Raising equity capital for an ESOP company can also be very problematic & _ESOP companies must be valued on a regular basis in order to establish a value of the ESOP stock.  These valuations establish a baseline that must be considered when evaluating an equity capital raise. If the valuation is too high (from the perspective of capital sources), it will be difficult to raise outside capital. If the valuation is too low, the ESOP trustees may face disgruntled ESOP shareholders, who face dilution from the new equity capital, opening up the trustees for risks described in #3 above.** **
+
+ESOPs can be a nice exit strategy for some small business owners but they are not perfect for every situation. Small business owners should complete their own due diligence prior to entering into an ESOP arrangement & including talking to successful and unsuccessful ESOP companies. We'd also be willing to share our own experiences with ESOP companies and discuss other ways of addressing the exit goals of a small business owner.
+
+Paul Wormley - Managing Partner
+
+Paul joined Hadley in 2005. He grew up in a family business environment and has spent his entire career working with small and emerging companies.
+
+He currently works with Interstate Fabrications, Filter Holdings, J&R, AGI, Gillinder, Equustock, Pneu-Con, and Storflex. Previously he was the chairman or served on the board of directors for i-deal Optics, Centare, QDx Pathology, GT Golf Supplies, and Open Sky Media – all former Hadley companies.
+
+Paul is an outdoor enthusiast who enjoys fishing, hunting, riding motorbikes, Crossfit and an occasional craft beer. He works closely with a number of non-profit organizations including One Acre Fund, Trout & Salmon Foundation, and Northfield Parks Foundation.
+
+Paul is a graduate of the University of Colorado at Boulder and received an MBA from the Kellogg School of Management at Northwestern University. He and his wife, Rosemary, have three children.
+
+Recommended Reading
+Centare Sold to Leading Onshore Development Organization
+By Paul Wormley
+Insights on Management Buyouts for Small Businesses
+By Harrison Menaker
+Purchase Price Allocation in Small Company Acquisitions
+By Ryan Hanley
+What are Indemnification Baskets and Caps in M&A?
+By Paul Wormley
+Categories
+Managing A Small Business
+Selling A Small Business
+Small Business Private Equity
+

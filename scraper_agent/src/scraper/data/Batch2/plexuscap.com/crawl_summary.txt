@@ -1,0 +1,1162 @@
+[
+  {
+    "url": "https://plexuscap.com/",
+    "title": "Plexus Capital - Private Capital for the Lower Middle Market",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/about",
+    "title": "About - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/strategy",
+    "title": "Strategy - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team",
+    "title": "Team - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/portfolio",
+    "title": "Portfolio - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/value-creation",
+    "title": "Value Creation - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/contact",
+    "title": "Contact - Plexus Capital",
+    "dynamic_states": 3
+  },
+  {
+    "url": "https://plexuscap.com/news-media",
+    "title": "News & Media - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/privacy-policy",
+    "title": "Privacy Policy - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/disclaimers",
+    "title": "Disclaimers - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/aeg-petroleum",
+    "title": "AEG Petroleum - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/chemready",
+    "title": "ChemREADY - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/solution-group",
+    "title": "Solution Group - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/pat-tank",
+    "title": "PAT Tank - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/annie-aesthetic",
+    "title": "Annie Aesthetic - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/arc-drilling",
+    "title": "Arc Drilling - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/strategy/debt-equity",
+    "title": "Debt & Equity Strategy - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/strategy/equity",
+    "title": "Equity Strategy - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/aaron-mago",
+    "title": "Aaron Mago - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/aashal-dave",
+    "title": "Aashal Dave - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/aj-hamel",
+    "title": "AJ Hamel - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/alex-bean",
+    "title": "Alex Bean - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/andrew-burns",
+    "title": "Andrew Burns - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/barrett-biringer",
+    "title": "Barrett Biringer - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/bob-anders",
+    "title": "Bob Anders - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/bob-miller",
+    "title": "Bob Miller - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/brad-pence",
+    "title": "Brad Pence - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/cameron-coley",
+    "title": "Cameron Coley - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/chris-antonello",
+    "title": "Chris Antonello - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/chris-spitzhoff",
+    "title": "Chris Spitzhoff - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/dominik-elsaesser",
+    "title": "Dominik Elsaesser - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/don-stockton",
+    "title": "Don Stockton - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/ian-wooley",
+    "title": "Ian Wooley - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/jack-canfield",
+    "title": "Jack Canfield - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/jason-mizelle",
+    "title": "Jason Mizelle - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/jay-jester",
+    "title": "Jay Jester - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/associate",
+    "title": "Jonathan Cooke - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/2509",
+    "title": "Katie Mann - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/katie-walker",
+    "title": "Katie Walker - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/kelly-lockamy",
+    "title": "Kelly Lockamy - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/operating-partner",
+    "title": "Kevin McMahon - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/kevin-speight",
+    "title": "Kevin Speight - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/lauren-disilva",
+    "title": "Lauren DiSilva - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/lisa-dunning",
+    "title": "Lisa Goffredo - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/louis-robinson",
+    "title": "Louis Robinson - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/madelaine-thomas",
+    "title": "Madelaine Thomas - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/mark-vavolizza",
+    "title": "Mark Vavolizza - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/matt-smith",
+    "title": "Matt Smith - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/michael-dixon",
+    "title": "Michael Dixon - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/michael-painter",
+    "title": "Michael Painter - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/mike-becker",
+    "title": "Mike Becker - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/paula-newsome",
+    "title": "Paula Newsome - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/rachel-nachtrab",
+    "title": "Rachel Nachtrab - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/rob-lovejoy",
+    "title": "Rob Lovejoy - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/associate-2",
+    "title": "Robbie O'Han - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/ronda-penn",
+    "title": "Ronda Penn - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/ryne-collins",
+    "title": "Ryne Collins - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/sarah-madden",
+    "title": "Sarah Madden - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/sean-mcdonell",
+    "title": "Sean McDonell - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/shanda-owens",
+    "title": "Shanda Owens - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/shannon-richmond",
+    "title": "Shannon Richmond - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/shirley-westbrook",
+    "title": "Shirley Westbrook - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/will-anders",
+    "title": "Will Anders - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/team-member/will-fulton",
+    "title": "Will Fulton - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/360-quote",
+    "title": "360 Quote - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/360-smart-networks",
+    "title": "360 Smart Networks - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/a-plus-tree-inc",
+    "title": "A Plus Tree, Inc - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/accu-tube-llc",
+    "title": "Accu-Tube, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/accutitle",
+    "title": "AccuTitle - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/aces-risk-management-corp",
+    "title": "ACES Risk Management Corp. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/advanced-drying-systems",
+    "title": "Advanced Drying Systems - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/agility-recovery-solutions",
+    "title": "Agility Recovery Solutions - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/allegiance-fundraising-group",
+    "title": "Allegiance Fundraising Group - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/allied-holdings-gc-llc",
+    "title": "Allied Holdings GC, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/alloy-cladding",
+    "title": "Alloy Cladding - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/allways-precision",
+    "title": "Allways Precision - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/ambient-air-corporation",
+    "title": "Ambient Air Corporation - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/ap-services-inc",
+    "title": "AP Services, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/armorworks",
+    "title": "ArmorWorks - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/ascentia-home-health-care-llc",
+    "title": "Ascentia Home Health Care, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/aspt-architecture-sports-physical-therapy",
+    "title": "ASPT (Architech Sports & Physical Therapy) - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/atchafalaya-measurement",
+    "title": "Atchafalaya Measurement - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/auto-driveaway-systems-llc",
+    "title": "Auto Driveaway Systems, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/autocrat-inc",
+    "title": "Autocrat, Inc - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/avomeen-analytical-services",
+    "title": "Avomeen Analytical Services - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/awg-aquacomfort-water-group",
+    "title": "AWG (Aquacomfort Water Group) - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/bay-west",
+    "title": "Bay West - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/belco-industrial-services",
+    "title": "BELCO Industrial Services - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/bmg-services-llc",
+    "title": "BMG Services, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/bmi-group-holdings-inc",
+    "title": "BMI Group Holdings, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/broadcastmed",
+    "title": "BroadcastMed - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/bucks-county-coffee-co",
+    "title": "Bucks County Coffee Co. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/campminder",
+    "title": "CampMinder - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/carolina-beer-and-beverage-llc",
+    "title": "Carolina Beer and Beverage, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/century-mechanical",
+    "title": "Century Mechanical - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/cgl-engineering",
+    "title": "CGL Engineering - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/charter-impact",
+    "title": "Charter Impact - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/claris-vision",
+    "title": "Claris Vision - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/climate-efficiency-partners",
+    "title": "Climate Efficiency Partners - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/colorado-barricade",
+    "title": "Colorado Barricade - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/command-alkon-inc",
+    "title": "Command Alkon, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/commercial-truck-and-trailer-parts",
+    "title": "Commercial Truck and Trailer Parts - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/compass-systems-sales-llc",
+    "title": "Compass Systems & Sales, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/core-fiber-partners",
+    "title": "Core Fiber Partners - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/coronis-health-llc",
+    "title": "Coronis Health, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/csg-investments-llc",
+    "title": "CSG Investments, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/cybersheath",
+    "title": "CyberSheath - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/datacor-holdings",
+    "title": "Datacor Holdings - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/designshop-acquisition-llc",
+    "title": "DesignShop Acquisition, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/e-verifile-inc",
+    "title": "e-Verifile, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/eastern-shore-ambulance",
+    "title": "Eastern Shore Ambulance - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/eclipse-cash-systems-llc",
+    "title": "Eclipse Cash Systems, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/elk-analytics",
+    "title": "ELK Analytics - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/enaltus-llc",
+    "title": "Enaltus, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/energy-hardware",
+    "title": "Energy Hardware - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/environ-energy-holdings",
+    "title": "Environ Energy Holdings - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/eservices",
+    "title": "eServices - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/evernest-holdings-llc",
+    "title": "Evernest Holdings, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/exa-capital",
+    "title": "EXA Capital - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/florachem",
+    "title": "Florachem - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/flowbelow-aero",
+    "title": "FlowBelow Aero - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/food-evolution",
+    "title": "Food Evolution - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/frankston-packaging",
+    "title": "Frankston Packaging - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/freezing-point-frazil",
+    "title": "Freezing Point (Frazil) - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/freight-force-inc",
+    "title": "Freight Force, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/fresh-ready-foods",
+    "title": "Fresh & Ready Foods - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/fusion",
+    "title": "Fusion - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/garlock-printing",
+    "title": "Garlock Printing - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/global-telecom-technology",
+    "title": "Global Telecom & Technology - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/global-value-commerce-inc",
+    "title": "Global Value Commerce, Inc - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/gold-landscape",
+    "title": "Gold Landscape - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/grease-monkey-international-inc",
+    "title": "Grease Monkey International, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/guardian-logistics-solutions",
+    "title": "Guardian Logistics Solutions - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/haddock-collision-centers-llc",
+    "title": "Haddock Collision Centers, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/hayes-software-systems-inc",
+    "title": "Hayes Software Systems, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/health-perspectives-group",
+    "title": "Health Perspectives Group - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/heritage-health",
+    "title": "Heritage Health - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/smt-heritage",
+    "title": "Heritage Imaging - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/honeycomb-company-of-america-inc",
+    "title": "Honeycomb Company of America, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/huseby-inc",
+    "title": "Huseby, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/ic-real-tech-inc",
+    "title": "IC Real Tech, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/inco-check",
+    "title": "Inco-Check - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/infinity-homecare",
+    "title": "Infinity Homecare - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/ingram-medical",
+    "title": "Ingram Medical - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/inland-metal-technologies-inc",
+    "title": "Inland Metal Technologies, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/inspired-beauty-brands",
+    "title": "Inspired Beauty Brands - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/integra-partners",
+    "title": "Integra Partners - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/ipro-2",
+    "title": "Ipro - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/it-assist",
+    "title": "IT Assist - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/jacob-ash-holdings-inc",
+    "title": "Jacob Ash Holdings, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/knight-investment-group",
+    "title": "Knight Investment Group - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/legacy-xspire",
+    "title": "Legacy-Xspire - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/lightriver-technologies-inc",
+    "title": "LightRiver Technologies, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/locklando-door-and-millwork-company",
+    "title": "Locklando Door and Millwork Company - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/lt-energy-services-llc",
+    "title": "LT Energy Services, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/machine-specialties",
+    "title": "Machine Specialties - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/maxway-inc",
+    "title": "Maxway, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/mcci-holdings-llc",
+    "title": "MCCi Holdings, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/mcdaniel-metals",
+    "title": "McDaniel Metals - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/medhq",
+    "title": "MedHQ - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/medical-neurogenetics-llc",
+    "title": "Medical Neurogenetics, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/medicus-it-llc",
+    "title": "Medicus IT, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/memorial-holdings",
+    "title": "Memorial Holdings - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/mid-state-machine-company",
+    "title": "Mid-State Machine Company - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/mission-critical-electronics",
+    "title": "Mission Critical Electronics - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/mpd-holdings-llc",
+    "title": "MPD Holdings, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/mpf-products",
+    "title": "MPF Products - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/national-boiler-service",
+    "title": "National Boiler Service - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/national-deli-llc",
+    "title": "National Deli, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/natural-upcycling-llc",
+    "title": "Natural Upcycling, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/nauticon-imaging-systems",
+    "title": "Nauticon Imaging Systems - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/nelbud",
+    "title": "Nelbud - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/neovera",
+    "title": "Neovera - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/nextphase-medical-devices",
+    "title": "NextPhase Medical Devices - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/northeast-ship-repair-inc",
+    "title": "Northeast Ship Repair, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/nu-tek-precision-optics",
+    "title": "Nu-Tek Precision Optics - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/oakpoint",
+    "title": "Oakpoint - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/outback-buildings",
+    "title": "Outback Buildings - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/parker-school-uniforms-llc",
+    "title": "Parker School Uniforms, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/petroflex-n-a-llc",
+    "title": "Petroflex N.A., LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/piedmont-candy-company-inc",
+    "title": "Piedmont Candy Company, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/pixelogic-media-partners",
+    "title": "Pixelogic Media Partners - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/practis-2",
+    "title": "Practis - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/precision-manufacturing-group-llc",
+    "title": "Precision Manufacturing Group, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/premiere-seals-holdings-llc",
+    "title": "Premiere Seals Holdings, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/protect-plus",
+    "title": "Protect Plus - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/ptp-infinite-innovation",
+    "title": "PTP Infinite Innovation - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/qe-solar",
+    "title": "QE Solar - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/qualawash-holdings-llc",
+    "title": "Qualawash Holdings, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/quality-oil-tools-inc",
+    "title": "Quality Oil Tools, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/quantum-industrial-services",
+    "title": "Quantum Industrial Services - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/r-r-street-co-inc",
+    "title": "R.R. Street & Co., Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/race-technologies",
+    "title": "Race Technologies - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/radian-generation",
+    "title": "Radian Generation - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/radnor-group-holdings",
+    "title": "Radnor Group Holdings - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/ranger-international-services-group-inc",
+    "title": "Ranger International Services Group, Inc - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/record-connect",
+    "title": "Record Connect - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/recovery-holdings",
+    "title": "Recovery Holdings - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/reindeer-auto",
+    "title": "Reindeer Auto Relocation - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/revelation-pharma",
+    "title": "Revelation Pharma - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/revive-medical-spa",
+    "title": "Revive Medical Spa - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/rices-honey-llc",
+    "title": "Rice\u2019s Honey, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/riggs-tree-service",
+    "title": "Riggs Tree Service - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/rmg-networks-inc",
+    "title": "RMG Networks, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/rocket-health-partners",
+    "title": "Rocket Health Partners - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/rotolo-consultants-inc",
+    "title": "Rotolo Consultants, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/round-2",
+    "title": "Round 2 - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/sk-buildings",
+    "title": "S&K Buildings - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/saf-t-net-inc",
+    "title": "Saf-T-Net, Inc - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/salem-printing-company",
+    "title": "Salem Printing Company - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/salt-lake-brewing-company-llc",
+    "title": "Salt Lake Brewing Company, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/schill",
+    "title": "Schill - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/scivation-inc",
+    "title": "Scivation, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/seagull-enterprises-inc",
+    "title": "Seagull Enterprises, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/seneca-resources-holdings-llc",
+    "title": "Seneca Resources Holdings, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/shenandoah-industrial-solutions-llc",
+    "title": "Shenandoah Industrial Solutions, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/sherman-reilly-inc",
+    "title": "Sherman & Reilly, Inc - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/smash-my-trash",
+    "title": "Smash My Trash - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/solid-surface-care-holdings-inc",
+    "title": "Solid Surface Care Holdings, Inc. - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/solvair",
+    "title": "Solvair - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/southern-elevator",
+    "title": "Southern Elevator - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/southern-shade-tree",
+    "title": "Southern Shade Tree - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/successed-holdings",
+    "title": "SuccessEd Holdings - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/sumo",
+    "title": "Sumo - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/sunrise-landscape",
+    "title": "Sunrise Landscape - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/surgerystuff",
+    "title": "SurgeryStuff - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/taskray",
+    "title": "TaskRay - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/team-laboratory-chemical",
+    "title": "Team Laboratory Chemical - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/texwin",
+    "title": "Texwin - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/thermex-thermatron",
+    "title": "Thermex-Thermatron - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/ticketech-holdings-llc",
+    "title": "Ticketech Holdings, LLC - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://plexuscap.com/company/surface-water-holdings",
+    "title": "Tigris Aquatic Services - Portfolio Company - Plexus Capital",
+    "dynamic_states": 0
+  }
+]

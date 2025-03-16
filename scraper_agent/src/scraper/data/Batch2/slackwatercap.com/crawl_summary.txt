@@ -1,0 +1,52 @@
+[
+  {
+    "url": "https://slackwatercap.com/",
+    "title": "Slack Water Capital | Operationally-Focused Investors in Small and Medium-sized Businesses",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://slackwatercap.com/approach",
+    "title": "Approach | Slack Water Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://slackwatercap.com/criteria",
+    "title": "Criteria | Slack Water Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://slackwatercap.com/investments",
+    "title": "Investments | Slack Water Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://slackwatercap.com/about",
+    "title": "Team | Slack Water Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://slackwatercap.com/news",
+    "title": "News | Slack Water Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://slackwatercap.com/contact",
+    "title": "Contact | Slack Water Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://slackwatercap.com/privacy-policy",
+    "title": "Privacy Policy | Slack Water Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://slackwatercap.com/",
+    "title": "Slack Water Capital | Operationally-Focused Investors in Small and Medium-sized Businesses",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://slackwatercap.com/contact",
+    "title": "Contact | Slack Water Capital",
+    "dynamic_states": 0
+  }
+]

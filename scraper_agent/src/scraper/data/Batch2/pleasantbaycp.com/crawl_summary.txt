@@ -1,0 +1,22 @@
+[
+  {
+    "url": "http://pleasantbaycp.com/",
+    "title": "Home - Pleasant Bay Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://pleasantbaycp.com/about-us",
+    "title": "About Pleasant Bay - Pleasant Bay Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://pleasantbaycp.com/team2",
+    "title": "James Vandervelden and Scott Fisher Pleasant Bay Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://pleasantbaycp.com/investment-criteria",
+    "title": "Investment Criteria - Pleasant Bay Capital Partners",
+    "dynamic_states": 0
+  }
+]

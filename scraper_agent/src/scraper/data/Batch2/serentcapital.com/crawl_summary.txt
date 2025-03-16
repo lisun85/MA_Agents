@@ -1,0 +1,432 @@
+[
+  {
+    "url": "https://serentcapital.com/",
+    "title": "Home - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/about",
+    "title": "About - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/work-with-us",
+    "title": "Work With Us - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/investment-focus-and-criteria",
+    "title": "Investment Focus and Criteria - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/news",
+    "title": "News - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio",
+    "title": "Portfolio - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/team",
+    "title": "Team - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/operating-directors",
+    "title": "Operating Directors - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/our-representative-sector-expertise",
+    "title": "Our Representative Sector Expertise - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/case-studies",
+    "title": "Case Studies - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/news/category/toolkit-topics",
+    "title": "Toolkit Topics Archives - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/videos",
+    "title": "Videos - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/news/category/portfolio-news",
+    "title": "Portfolio News Archives - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/news/category/serent-news",
+    "title": "Serent News Archives - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/contact",
+    "title": "Contact Us - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/founders",
+    "title": "Serent is one of America's top founder-friendly firms - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/growth-team",
+    "title": "Serent Capital's Growth Team Can Help Founders Scale",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/news/category/sector-updates",
+    "title": "Sector Updates Archives - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/shr",
+    "title": "SHR - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/studio-designer",
+    "title": "Studio Designer - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/talent-wave",
+    "title": "TalentWave - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/tricolor-auto",
+    "title": "Tricolor Auto - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/united-allergy-services",
+    "title": "United Allergy Services - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/workwave",
+    "title": "WorkWave - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/xdimensional-technologies",
+    "title": "Dyad - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/zollege",
+    "title": "Zollege - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/actionstep",
+    "title": "Actionstep - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/aftermath",
+    "title": "Aftermath - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/apex-hcm",
+    "title": "Apex HCM - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/arbiter-sports",
+    "title": "Arbiter - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/aria-care-partners",
+    "title": "Aria Care Partners - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/avionte",
+    "title": "Aviont\u00e9 - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/axiom-medical",
+    "title": "Axiom Medical - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/birchstreet-systems",
+    "title": "BirchStreet Systems - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/book4time",
+    "title": "Book4Time - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/bqe-software",
+    "title": "BQE Software - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/buildertrend",
+    "title": "Buildertrend - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/bw-events",
+    "title": "BW Events - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/c2-educational-systems",
+    "title": "C2 Educational Systems - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/callrevu",
+    "title": "CallRevu - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/cardon-outreach",
+    "title": "Cardon Outreach - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/coconstruct",
+    "title": "CoConstruct - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/commissions-inc",
+    "title": "Commissions, Inc. - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/compeat",
+    "title": "Compeat - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/corelogic",
+    "title": "CoreLogic - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/davisware",
+    "title": "Davisware - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/diamond-mind",
+    "title": "Diamond Mind - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/digarc",
+    "title": "DIGARC - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/directshifts",
+    "title": "DirectShifts - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/docutech",
+    "title": "Docutech - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/education-advanced",
+    "title": "Education Advanced - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/employer-direct-healthcare",
+    "title": "Lantern - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/epaypolicy",
+    "title": "ePayPolicy - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/equinox",
+    "title": "Equinox Healthcare - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/first-due",
+    "title": "First Due - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/fran-connect",
+    "title": "FranConnect - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/gds-link",
+    "title": "GDS Link - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/intygral",
+    "title": "Intygral - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/kev-group",
+    "title": "KEV Group - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/knowland",
+    "title": "Knowland - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/kore-software",
+    "title": "KORE Software - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/lmn",
+    "title": "LMN - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/manageamerica",
+    "title": "ManageAmerica - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/mercury-network",
+    "title": "Mercury Network - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/meridian-link",
+    "title": "MeridianLink - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/modern-campus",
+    "title": "Modern Campus - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/millennium-systems-international",
+    "title": "Millennium Systems International - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/minute-key",
+    "title": "MinuteKey - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/motility-software",
+    "title": "Motility Software - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/next-gear",
+    "title": "Next Gear Solutions - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/optimal-blue",
+    "title": "Optimal Blue - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/parentsquare",
+    "title": "ParentSquare - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/payliance",
+    "title": "Payliance - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/people-2-0",
+    "title": "People 2.0 - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/pondera-solutions",
+    "title": "Pondera Solutions - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/procurement-partners",
+    "title": "Procurement Partners - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/professional-health-care-network",
+    "title": "Professional Health Care Network - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/progress-learning",
+    "title": "Progress Learning - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/quorum",
+    "title": "Quorum - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/raintree",
+    "title": "Raintree Systems - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/real-green-systems",
+    "title": "Real Green Systems - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/restaurant365",
+    "title": "Restaurant365 - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/portfolio/bio/safety-services",
+    "title": "Safety Services - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/2022-year-in-review",
+    "title": "2022 Year in Review - Serent Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/news/the-best-tool-to-begin-an-executive-recruiting-process",
+    "title": "The Interview Scorecard: The Best Tool to Begin an Executive Recruiting Process",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://serentcapital.com/news/the-economic-downturn-how-to-thrive-in-the-era-of-profitability",
+    "title": "The Economic Downturn: How To Thrive In The Era of Profitability - Serent Capital",
+    "dynamic_states": 0
+  }
+]

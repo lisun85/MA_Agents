@@ -1,0 +1,17 @@
+URL: https://plexuscap.com/company/elk-analytics
+TITLE: ELK Analytics - Portfolio Company - Plexus Capital
+
+BASE CONTENT:
+================================================================================
+Technology
+Prev
+ELK Analytics
+Next
+INVESTMENT DATE
+2023
+STATUS
+Active
+ABOUT
+
+Headquartered in Naples, FL, ELK Analytics specializes in comprehensive real-time monitoring and analysis of potential cybersecurity indicators of compromise across both on-premise and cloud-based environments. The company is dedicated to safeguarding customer IT infrastructures by employing 24×7 Managed Detection and Response (MDR) and Security Information and Event Management (SIEM) solutions.
+

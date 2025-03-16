@@ -1,0 +1,16 @@
+URL: http://slackwatercap.com/contact
+TITLE: Contact | Slack Water Capital
+
+BASE CONTENT:
+================================================================================
+Contact Us
+
+If you are an acquisition entrepreneur or self-funded searcher with a business under LOI that meets our criteria, and are looking for a value-add equity partner, we would love to hear from you!
+
+First name
+Email
+Last name
+Phone
+Message
+Submit
+

@@ -1,0 +1,114 @@
+URL: https://hadleycapital.com/insights/small-business-private-equity/private-equity-vs-venture-capital
+TITLE: Private Equity vs Venture Capital: What’s the Difference?
+
+BASE CONTENT:
+================================================================================
+Private Equity vs Venture Capital: What’s the Difference?
+Clay Brock
+April 13, 2021 - 2 min read
+
+The difference between private equity and venture capital can seem confusing but is actually fairly straightforward: 
+
+Private equity generally describes investment in or acquisition of a stable firm using a combination of equity and debt whereas venture capital means the investment of equity into a newer, high-growth company. 
+
+However, there are many other factors to consider when comparing private equity and venture capital. The infographic below describes the difference between the two from a high level:
+
+In this blog, I’m going to discuss the various types of private equity and investment firms:
+
+Private Equity Firms
+Venture Capital Firms
+Growth Equity
+The Difference Between Private Equity, Venture Capital, and Growth Equity
+Private Equity Firms
+
+Hadley Capital is a private equity firm.  We are currently investing Hadley Capital Fund III, LP a limited partnership formed to purchase control investments in small, private companies.  
+
+What this means is that our limited partner investors have legally committed to provide us with the equity capital to buy these companies upon our request for the capital. 
+
+We also use debt, both senior bank debt and sometimes mezzanine debt, to affect our transactions, thus the term ‘leveraged buyout.’
+
+Mezzanine debt is sometimes also called sub-debt.  We’ve written at greater length on how mezzanine debt is structured.
+
+When people say ‘private equity’ what they usually mean is a firm that, via a limited partnership such as Hadley Capital Fund III, conducts leveraged buyouts of stable, private companies.
+
+The buyouts can range from $5 million to billions of dollars and everywhere in between - from small businesses to extremely large, public companies. For example, Hadley has completed buyouts of businesses with only $5 million of revenue. At the other end of the spectrum, a handful of megadeals are completed each year according to Harvard Law:
+
+“There were a number of $10 billion-plus PE deals in 2019, including Blackstone’s $18.7 billion purchase of the U.S. warehouse portfolio of Singapore-based GLP (the largest private real estate deal in history), EQT’s $10.1 billion purchase of Nestlé’s skincare unit, and the $14.3 billion sale of communications infrastructure services provider Zayo Group to Digital Colony Partners and EQT. In addition, in November, it was reported that KKR had approached drugstore giant Walgreens Boots Alliance about a potential $70 billion take-private transaction—a deal that, if successful, would be the largest LBO in history.” 
+
+Buyouts most often include a change in majority control of the company. Thus, using the cash flows of their acquisition targets to make the interest and principal payments on the debt. 
+
+But private equity can also refer to other types of investment strategies such as ‘venture capital’ and ‘growth equity.’ 
+
+Venture capital and growth equity firms are often similarly structured - as limited partnerships with committed capital - but pursue different investment strategies.
+
+Private equity is also often compared to or confused with hedge funds. 
+
+Although hedge funds can be considered another form of private equity (as they typically use private capital to pursue an investment strategy), there are significant differences between traditional private equity and hedge funds including fund liquidity, term, and structure and, most significantly, the “hedged” positions of a hedge fund. 
+
+Venture Capital Firms
+
+Venture capital is a form of investing in which venture capital firms provide equity to support startup and early-stage companies that have very high growth potential, such as some companies in high technology, information technology, and biotechnology. 
+
+Most venture capital investments are structured as minority equity positions among a group of investors each owning a minority equity position.
+
+Venture capital investments, unlike private equity buyouts, have high rates of failure but they can also result in home runs. 
+
+Whereas in private equity the expected returns are more stable because the risk profile of the underlying company is less dynamic. 
+That is, the probability of a home run is quite low but so is the probability of complete failure.  
+
+Venture capital investors usually do not use any debt because high-growth companies often consume cash as opposed to providing cash flow that can be used to support leverage. 
+
+If you’re in a startup that is in need of capital to spur rapid growth, the following resources on venture capital firms may be helpful:
+
+Pitchbook’s What is Venture Capital?
+Venture Capital 101 Blog Post
+Forbes’s How Venture Capital Works
+Business Insider’s How VCs Raise Mone
+Growth Equity
+
+Growth equity is a type of investment where a firm injects additional equity into a relatively mature company to help it expand more quickly by increasing working capital assets, purchasing new equipment, adding sales and marketing personnel, buying a competitor, etc. 
+
+Companies that seek growth capital often do so to finance a transformational event. Growth capital investments can include both majority control and minority equity structures.
+
+Hadley Capital sometimes finds companies that need to do a leveraged buyout to provide liquidity for a retiring owner-operator, but which also need growth equity to grow in a targeted way.  
+
+In these cases, we often think of the investment in two parts.  
+
+In the first part, we provide the capital (equity and debt) to complete the buyout while also planning for the second part. That is, providing enough capital for completing the buyout while ensuring a robust balance sheet remains to support the growth strategy.
+
+The Difference Between Private Equity, Venture Capital, and Growth Equity
+
+So, what’s the difference between private equity, growth equity, and venture capital?   
+
+To sum it up, private equity means the buyout of a stable firm using both equity and debt, whereas growth equity means injecting equity into a stable firm to increase its growth rate, and venture capital means the investment of equity into a newer, high-growth potential company when the chances of success are riskier.
+
+Iwoca distinguishes between the two in the graph below.
+
+They are all technically forms of private investment but they vary substantially in their risk and return profiles.  
+
+Hadley Capital is primarily a private equity firm that sometimes makes growth equity investments. We do not make venture capital investments or invest in distressed situations, but we find it’s valuable to distinguish between the three so that business owners coming to us with questions know where to find the answers.
+
+If you own and/or manage a small, private company and are wondering how a buyout or ownership transition may help you achieve your goals, then contact us today to discuss more.
+
+Clay Brock - Managing Partner
+
+Clay made his first small company investment in the late 90’s and joined Hadley in 2004. Over the past thirty years he has helped dozens of small companies to implement growth and improvement initiatives.
+
+On a personal level, Clay enjoys skiing, hiking, cycling and walking his black lab. Clay is also an instrument-rated private pilot, and he is actively involved in a number of community and non-profit organizations.
+
+Clay received a degree in English from Gettysburg College and his MBA from the University of Chicago. He and his wife Amy have three children and live in Winnetka, Illinois. As a family, they enjoy spending time at a cabin outside of Knoxville, Tennessee near the Smoky Mountains.
+
+Recommended Reading
+Unlocking Growth Potential: The Hadley Independent Sponsor Alliance (HISA)
+By Paul Wormley
+What Every Business Owner Needs To Know About Senior Debt
+By Scott Dickes
+Enterprise Value vs. Equity Value: Everything You Need to Know
+By Paul Wormley
+Full EBITDA Guide: What is It & How Investors Use It (Formula)
+By Paul Wormley
+Categories
+Managing A Small Business
+Selling A Small Business
+Small Business Private Equity
+

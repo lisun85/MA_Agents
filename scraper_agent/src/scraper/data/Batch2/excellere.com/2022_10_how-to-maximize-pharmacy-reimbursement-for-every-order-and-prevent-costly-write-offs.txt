@@ -1,0 +1,78 @@
+URL: https://excellere.com/2022/10/how-to-maximize-pharmacy-reimbursement-for-every-order-and-prevent-costly-write-offs
+TITLE: How To Maximize Pharmacy Reimbursement for Every Order and Prevent Costly Write-Offs - Excellere Partners
+
+BASE CONTENT:
+================================================================================
+News from Our
+Focus Industries
+How To Maximize Pharmacy Reimbursement for Every Order and Prevent Costly Write-Offs
+
+The specialty pharmacy market is projected to continue growing exponentially, driven by new products coming to market, continued population needs for specialty pharmacy products and services, and drug price increases.
+
+The increase of new specialty medications is driven by the growth of an aging population and chronic medical conditions in the United States. An American Hospital Association report projects that the number of Americans with chronic medical conditions will grow by 9% between 2020 and 2030, an increase of 14 million people.[1] The Centers for Disease Control and Prevention (CDC) predicts that the total number of incident cancer cases will increase by approximately 50% between 2015 and 2050. The number of Americans with diabetes will double between 2010 and 2050.
+
+The average American cannot pay out of pocket for these life-critical and costly medications, so healthcare insurance providers and government-sponsored insurance will need to provide subsidies for the majority of the cost of the medicines. This means that government-sponsored health insurance will continue to be a significant and growing source of medication reimbursements,[2] and Medicare will increasingly drive more revenue for specialty pharmacies.
+
+Greater Levels of Medical Review in 2022
+
+Government-sponsored health insurance requires specific specialty pharmacy documentation to ensure full reimbursements of the disbursed patient medications. The required documentation may include: the proof of delivery information and verification for each medication delivered to a patient’s home. The proof of delivery document should include the beneficiary’s name, delivery address, and a description of the item(s) being delivered. The description can be either a narrative description, an HCPCS code, the long description of an HCPCS code, or a brand name/model number, quantity delivered, date delivered and beneficiary (or designee) signature.
+
+Additionally, depending on the payer, the documentation must be stored in a secure environment for seven to 10 years and be retrievable on-demand to provide the proof of delivery documentation to payers when requested. Ensuring that you have the required proof of delivery documentation securely stored and can provide this information on request will help to defend audits and potentially prevent costly write-offs.
+
+In response to the COVID-19 pandemic and to ensure patient health remained the number one priority, Congress rapidly relaxed the requests for documentation, providing temporary flexibility to help healthcare providers focus on serving the patient. Today, experts predict healthcare providers will see increased claim audits from Medicare and other government funding sources in 2022.[3]
+
+In fact, the CMS budget for fraud, waste and abuse has doubled in size from 2021 to 2022. Medicare Advantage issuers have been targets of multiple government investigations, Justice Department whistleblower lawsuits and Medicare audits.
+
+In July 2020, the Justice Department consolidated six such cases against Kaiser Permanente health plans. In August, California-based Sutter Health agreed to pay $90 million to settle a similar fraud case. Previous settlements have totaled more than $300 million.[4]
+
+Specialty Pharmacies Face Proof of Delivery Challenges
+
+Healthcare providers rely on US carriers like FedEx, UPS, and USPS to capture tracking information on every package delivered. Each carrier has its method of securing proof of delivery documentation, and they may not always be consistent in ensuring that the full and accurate documentation has been captured successfully. Carriers typically retain proof of delivery information for 120 days to 18 months. Depending on the payer, healthcare providers may be required to capture and retain proof of delivery information for 7 to 10 years.
+
+Additionally, since each carrier has its unique proof of delivery confirmation systems, pharmacies need to ensure that all Medicare and Medicaid-required fields and signatures are captured across all carriers. During an audit, auditors typically flag incomplete information such as: “the signature log is missing the member’s signature,” “the submitted receipt does not have the indicated prescription number or the service date,” “cannot validate receipt of medication,” and “signature log/time stamp confirming transaction completion and patient receipt of medication is not provided in submitted documentation.”[5]
+
+For those deliveries that cannot consistently capture all required documentation, pharmacies will need to track and collect a proof of delivery attestation by sending a postage-paid return envelope with the patient’s receipt, which must be signed and sent back via mail or email.
+
+It is also critical to self-audit the captured proof of delivery documentation to confirm all required information is in hand. Most audits occur five or more years after the medication has been delivered. It will be challenging to discover that the proper proof of delivery is missing five years later. It is almost impossible to return to the patient to capture the required missing information.
+
+Choosing a Proof of Delivery Solution to Capture Required Information Successfully
+
+Despite these obstacles, technology exists to streamline and store accurate proof of delivery information. Choosing the right solution can be confusing, which is why we recommend pharmacies ask specific questions when evaluating a proof of delivery solution:
+
+Is there a web-based user interface for on-demand retrieval of proof of delivery information by Package ID or Order Number?
+Can you configure by package type (cold chain, ambient, carriers or couriers)?
+Are there recipient electronic communication capabilities to confirm package delivery?
+Can it audit all carrier delivery information internally to meet external audit standards?
+When the required data is missing, can it reach out to a patient and capture the missing proof of delivery documentation, such as a recipient’s signature, as evidence of the package delivery?
+Does it provide a secure, online system that can store proof of delivery data for seven to 10 years and be retrievable on-demand?
+
+Benefits of Proof of Delivery Captured Correctly
+
+Proof of delivery protects patients who can use it to verify that they received a product from a specific company. Proof of delivery helps pharmacies keep track of medication delivery and verify whether a package was delivered. When pharmacies can produce documentation on every parcel shipped using the information expected by Medicare and Medicaid, proof of delivery ensures reimbursement for every order and prevents costly audits and write-offs.
+
+Learn more about ParcelShield Proof of Delivery
+
+[1] Source: https://www.aha.org/system/files/content/00-10/071204_H4L_FocusonWellness.pdf
+
+[2] Source: Kaiser Family Foundation analysis of CMS National Health Expenditure Data for Historical (CY2005-2014) and Projected (CY2015-2024) Retail Prescription Drug Expenditures, 2013-2024.
+
+[3] Source: HME Business https://hme-business.com/Articles/2022/02/01/Audits.aspx
+
+[4] Source: Medicaid & Medicare: A Legal Blog https://medicaidlawnc.com/2021/09/20/audits-surge-with-medicare-advantage-and-tpe-audits-increased
+
+[5] Source: Audit Firm – Healthcare Benefit Technologies (HBT)
+
+« Back to The Peak
+
+Top Stories
+HEALTH & PHARMACEUTICALS
+Low-Risk AI Adoption — A logical place to start
+HEALTH & PHARMACEUTICALS
+Buy and Ship Now supports access to critical medications
+BUSINESS SERVICES
+Weathering the Storm: How Specialty Pharmacies Can Navigate the 2024 Hurricane Season
+HEALTH & PHARMACEUTICALS
+Biocare Medical and Ensigna Biosystems Announce Strategic Partnership to Drive Spatial Biology, Multiomic Enablement, and Innovation in Biotechnology
+BUSINESS SERVICES
+Enhancing Patient Care with ParcelShield: Tackling Specialty Pharmacy Visibility and Tracking Challenges
+

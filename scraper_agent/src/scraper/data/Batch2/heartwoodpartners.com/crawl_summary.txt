@@ -1,0 +1,742 @@
+[
+  {
+    "url": "http://heartwoodpartners.com/",
+    "title": "Home - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/",
+    "title": "Home - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/growth-solutions-for-owners",
+    "title": "Growth Solutions for Owners - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/about",
+    "title": "Unique Approach - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/about/unique-approach",
+    "title": "Unique Approach - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/about/our-firm",
+    "title": "Our Firm - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/about/esg",
+    "title": "ESG - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/investments",
+    "title": "Companies - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/investments/companies",
+    "title": "Companies - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/investments/case-studies",
+    "title": "Case Studies - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/team",
+    "title": "Team - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/insights",
+    "title": "News - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/insights/news",
+    "title": "News - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/insights/blog",
+    "title": "Blog - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/contact",
+    "title": "Contact - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/investments/companies/roll-rite-llc",
+    "title": "Companies - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/investments/companies/s-m-stoller-corporation",
+    "title": "Companies - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/investments/companies/sur-seal",
+    "title": "Companies - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/investments/companies/twitchell-technical-products-llc",
+    "title": "Companies - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/investments/companies/universal-woods",
+    "title": "Companies - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/investments/companies/american-leather",
+    "title": "Companies - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/investments/companies/chromascape",
+    "title": "Companies - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/investments/companies/cmi-limited-co",
+    "title": "Companies - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/investments/companies/mq-packaging-corporation",
+    "title": "Companies - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/investments/companies/highbarbrands",
+    "title": "Companies - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/investments/companies/parkway-products-llc",
+    "title": "Companies - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/investments/case-studies/breen-color-concentrates",
+    "title": "Breen Color Concentrates - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/investments/case-studies/twitchell-technical-products",
+    "title": "Twitchell Technical Products - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/investments/case-studies/roll-rite",
+    "title": "Roll Rite - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/website-terms-and-conditions-of-use",
+    "title": "Website Terms and Conditions of Use - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/sitemap",
+    "title": "Sitemap - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/investments/case-studies/lone-star-beef",
+    "title": "Lone Star Beef - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-broadens-medical-capabilities-for-its-custom-engineering-and-converting-platform-sur-seal-with-its-acquisition-of-kent-manufacturing",
+    "title": "Heartwood Partners Broadens Medical Capabilities for its Custom Engineering and Converting Platform, Sur-Seal, with its Acquisition of Kent Manufacturing - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/bluwave-recognizes-heartwood-partners-with-2025-top-innovator-award",
+    "title": "BluWave Recognizes Heartwood Partners with 2025 Top Innovator Award - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/super-sod-expands-geographic-footprint-into-texas-with-the-acquisition-of-tri-tex-grass",
+    "title": "Super-Sod Expands Geographic Footprint into Texas with the Acquisition of Tri-Tex Grass - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-2024-year-in-review",
+    "title": "Heartwood Partners 2024 Year in Review - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-realizes-successful-exit-of-outlook-group",
+    "title": "Heartwood Partners Realizes Successful Exit of Outlook Group - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-recognized-in-inc-magazines-2024-top-founder-friendly-investors-list",
+    "title": "Heartwood Partners Recognized in Inc. Magazine\u2019s 2024 Top Founder-Friendly Investors List - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-signs-agreement-to-sell-uw-solutions",
+    "title": "Heartwood Partners Signs Agreement to Sell UW Solutions - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-invests-in-royal-products-to-support-growth",
+    "title": "Heartwood Partners Invests in Royal Products to Support Growth - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/nativeseed-group-acquires-arrow-seed-doubling-down-on-commitment-to-provide-conservation-and-premium-forage-seed",
+    "title": "NativeSeed Group Acquires Arrow Seed, Doubling Down on Commitment to Provide Conservation and Premium Forage Seed - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-appoints-three-as-managing-partners",
+    "title": "Heartwood Appoints Three as Managing Partners - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-acknowledges-team-members-while-growing-the-firm-2",
+    "title": "Heartwood Partners Acknowledges Team Members While Growing the Firm - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/bluwave-recognizes-heartwood-partners-with-2024-top-pe-innovator-award",
+    "title": "BluWave Recognizes Heartwood Partners with 2024 Top PE Innovator Award - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/amlon-adds-scale-and-expands-processing-capabilities-with-the-acquisition-of-ecowerks",
+    "title": "Amlon Adds Scale and Expands Processing Capabilities with the Acquisition of EcoWerks - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/somafina-strengthens-nutraceutical-manufacturing-expertise-with-ust-add-on-acquisition",
+    "title": "Somafina Strengthens Nutraceutical Manufacturing Expertise with UST Add-on Acquisition - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-is-proud-to-be-named-a-top-50-pe-firm-in-the-middle-market",
+    "title": "Heartwood Partners is Proud to be named a Top 50 PE Firm\u00a0in the Middle Market - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/nativeseed-expands-product-offering-and-geographic-footprint-with-the-acquisition-of-star-seed",
+    "title": "NativeSeed Expands Product Offering and Geographic Footprint with the Acquisition of Star Seed - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-2023-activity",
+    "title": "Heartwood Partners 2023 Activity - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-exits-its-investment-in-high-bar-brands",
+    "title": "Heartwood Partners Exits Its Investment in High Bar Brands - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-announces-investment-in-bush-brothers-provision-co",
+    "title": "Heartwood Partners Announces Investment in Bush Brothers Provision Co. - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/inc-magazine-puts-heartwood-partners-in-top-founder-friendly-investors-list-for-third-straight-year",
+    "title": "Inc. Magazine Puts Heartwood Partners In Top Founder-Friendly Investors List For Third Straight Year - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-invests-in-somafina-to-support-growth",
+    "title": "Heartwood Partners Invests in Somafina to Support Growth - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/high-bar-brands-expands-its-iconic-brand-portfolio-with-the-acquisition-of-dieters-accessories",
+    "title": "High Bar Brands Expands Its Iconic Brand Portfolio with the Acquisition of Dieter's Accessories - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-portfolio-company-sur-seal-acquires-ameritape-expanding-custom-engineering-converting-and-manufacturing-capabilities",
+    "title": "Heartwood Partners Portfolio Company Sur-Seal Acquires Ameritape, Expanding Custom Engineering, Converting, and Manufacturing Capabilities - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-portfolio-company-amlon-group-accelerates-its-transformation-with-two-add-on-acquisitions",
+    "title": "Heartwood Partners\u2019 Portfolio Company Amlon Group Accelerates Its Transformation With Two Add-On Acquisitions - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/microcare-llc-announces-the-acquisition-of-infection-control-technology-llc",
+    "title": "MicroCare LLC Announces the Acquisition of Infection Control Technology, LLC - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-promotes-jason-phillips-to-partner-chief-operating-officer",
+    "title": "Heartwood Partners Promotes Jason Phillips to Partner & Chief Operating Officer - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-signs-agreement-to-sell-parkway-products",
+    "title": "Heartwood Partners Signs Agreement to Sell Parkway Products - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-announces-the-acquisitions-of-nativeseed-group-a-pioneer-in-providing-native-seed-and-erosion-control-solutions",
+    "title": "Heartwood Partners Announces the Acquisition of NativeSeed Group, a Pioneer in Providing Native Seed and Erosion Control Solutions - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-is-proud-to-be-recognized-by-bluwave-as-a-top-50-private-equity-innovator-2",
+    "title": "Heartwood Partners is Proud to be Recognized by BluWave as a Top 50 Private Equity Innovator\u00a0 - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/chromascape-acquisition-of-cel-chemical-featured-in-the-north-american-edition-of-international-paper-board-industry",
+    "title": "ChromaScape Acquisition of CEL Chemical Featured in\u00a0The North American Edition of International Paper Board Industry\u00a0 - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-featured-on-bluwaves-karma-school-of-business-podcast",
+    "title": "Heartwood Partners Featured on BluWave's Karma School of Business Podcast - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-is-proud-to-be-included-in-gci-publishings-top-50-pe-firms-in-the-middle-market-2",
+    "title": "Heartwood Partners is Proud to be Included in GCI Publishing's Top\u00a050 PE Firms in the Middle Market - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-2022-year-in-review-and-outlook-for-2023",
+    "title": "Heartwood Partners 2022 Activity and Outlook for 2023 - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-realizes-successful-exit-of-cmi",
+    "title": "Heartwood Partners Realizes Successful Exit of CMI - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/chromascape-expands-its-packaging-chemical-line-with-cel-chemical-acquisition",
+    "title": "ChromaScape Expands its Packaging Chemical Line with CEL Chemical Acquisition - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-portfolio-company-wins-sustainability-award",
+    "title": "Heartwood Partners\u2019 Portfolio Company Wins Sustainability Award - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-named-in-inc-s-2022-founder-friendly-investors",
+    "title": "Heartwood Partners Named in Inc.'s 2022 Founder-Friendly Investors - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/john-willert-to-speak-at-the-september-private-equity-breakfast-series",
+    "title": "John Willert, to Speak at the September Private Equity Breakfast Series - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/high-bar-brands-expands-in-mud-flaps-with-viking-sales-acquisition",
+    "title": "High Bar Brands Expands in Mud Flaps with Viking Sales Acquisition - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-invests-in-the-amlon-group-to-support-growth",
+    "title": "Heartwood Partners Invests in The Amlon Group to Support Growth - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-adds-two-new-team-members-3",
+    "title": "Heartwood Partners Adds Two New Team Members - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-sells-portfolio-company-in-fund-iii",
+    "title": "Heartwood Partners Realizes Successful Exit of Allentown - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-is-proud-to-be-included-in-gci-publishings-top-50-pe-firms-in-the-middle-market",
+    "title": "Heartwood Partners is Proud to be Included in GCI Publishing's Top 50 PE Firms in the Middle Market\u2122 - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-acknowledges-team-members-while-growing-the-firm",
+    "title": "Heartwood Partners Acknowledges Team Members While Growing the Firm - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/label-industry-leaders-merge-to-expand-product-and-service-offerings",
+    "title": "All American Label & Packaging has merged with Western Shield Label and Packaging - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-is-proud-to-be-recognized-by-bluwave-as-a-top-50-private-equity-innovator",
+    "title": "Heartwood Partners is Proud to be Recognized by BluWave as a Top 50 Private Equity Innovator - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/sur-seal-acquires-mueller-expanding-custom-engineering-converting-and-manufacturing-capabilities",
+    "title": "Sur-Seal\u00ae Acquires Mueller\u2122, Expanding Custom Engineering, Converting, and Manufacturing Capabilities - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/subject-line-2021-year-in-review",
+    "title": "2021 Year in Review - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/patten-seed-company-expands-westward",
+    "title": "Patten Seed Company Expands Westward - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-is-proud-to-be-included-in-the-years-annual-roundup",
+    "title": "Heartwood Partners Named in Inc.'s 2021 List of Founder-Friendly Investors - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/patten-seed-company-expands-into-tennessee-with-the-acquisition-of-mid-tenn-turf",
+    "title": "Patten Seed Company Expands into Tennessee with the Acquisition of Mid Tenn Turf - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/sur-seal-expands-custom-engineering-converting-and-manufacturing-capabilities",
+    "title": "Sur-Seal Expands Custom Engineering, Converting, and Manufacturing Capabilities - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-adds-two-new-team-members-2",
+    "title": "Heartwood Partners Adds Two New Team Members - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-supports-high-bar-brands-construction-of-a-new-headquarters-facility-in-owatonna-minnesota",
+    "title": "Heartwood Supports High Bar Brands Construction of a New Headquarters Facility - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-exits-apg",
+    "title": "Heartwood Partners Exits APG - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/subject-line-2020-year-in-review",
+    "title": "2020 Year in Review - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-adds-two-new-team-members",
+    "title": "Heartwood Partners Adds Two New Team Members - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-adds-two-new-associates",
+    "title": "Heartwood Partners Adds Two New Associates - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-closes-new-platform-investment-in-patten-seed-company",
+    "title": "Heartwood Partners Closes New Platform Investment in Patten Seed Company - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-continues-to-build-a-high-performing-team",
+    "title": "Heartwood Partners Continues To Build A High-Performing Team - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-rebrands-to-heartwood-partners",
+    "title": "Capital Partners Rebrands to Heartwood Partners - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/leading-specialty-chemicals-companies-come-together-to-bring-more-color-to-customers",
+    "title": "Leading Specialty Chemicals Companies Come Together to Bring More Color to Customers - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-close-new-platform-investment-in-microcare",
+    "title": "Capital Partners Close New Platform Investment in MicroCare - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-develops-its-team-3",
+    "title": "Capital Partners Develops Its Team - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/cmi-limited-co-acquires-engineered-plastic-systems",
+    "title": "CMI Limited Co. Acquires Engineered Plastic Systems - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-portfolio-company-universal-woods-acquires-innovative-coatings-supplier",
+    "title": "Capital Partners Portfolio Company Universal Woods Acquires Innovative Coatings Supplier - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/acquisition-of-premier-accelerates-minimizers-growth-strategy",
+    "title": "Acquisition of Premier Accelerates Minimizer's Growth Strategy - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-portfolio-company-sur-seal-named-best-place-to-work-in-2019-by-rubber-plastics-news",
+    "title": "Capital Partners Portfolio Company Sur-Seal named \u201cBest Place to Work in 2019\u201d by Rubber & Plastics News - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-invests-in-allentown-to-support-growth",
+    "title": "Capital Partners Invests in Allentown to Support Growth - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-adds-chief-human-capital-officer",
+    "title": "Capital Partners Adds Chief Human Capital Officer - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/minimizer-announces-plan-to-build-new-one-hundred-thousand-square-foot-facility-in-owatonna",
+    "title": "Minimizer announces plan to build new one-hundred-thousand square foot facility in Owatonna - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/truck-tech-acquisition-expands-aftermarket-performance-groups-same-day-and-next-day-delivery-capabilities",
+    "title": "Truck Tech Acquisition Expands Aftermarket Performance Group\u2019s Same-Day and Next-Day Delivery Capabilities - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/john-willert-to-speak-at-the-acg-12th-annual-industrial-conference",
+    "title": "John Willert To Speak At The ACG 12th Annual Industrial Conference - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-portfolio-company-parkway-products-acquires-itech-plastics",
+    "title": "Capital Partners Portfolio Company Parkway Products acquires ITECH Plastics - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-invests-in-universal-woods-alongside-shareholders-and-management",
+    "title": "Capital Partners Invests in Universal Woods Alongside Shareholders and Management - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-develops-its-team-2",
+    "title": "Capital Partners Develops Its Team - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-adds-business-development-principal",
+    "title": "Capital Partners Adds Business Development Principal - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/cp-portfolio-company-parkway-products-acquires-littlestar-plastics",
+    "title": "CP Portfolio Company Parkway Products acquires Littlestar Plastics - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-adds-chief-marketing-officer",
+    "title": "Capital Partners Adds Chief Marketing Officer - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-2018-year-in-review-another-successful-year",
+    "title": "Capital Partners 2018 Year In Review: Another Successful Year - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-exits-roll-rite",
+    "title": "Capital Partners Exits Roll Rite - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/cmi-acquires-mantle-industries",
+    "title": "CMI acquires Mantle Industries - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-adds-four-professionals",
+    "title": "Capital Partners Adds Four Professionals - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/announcing-aftermarket-performance-group",
+    "title": "Announcing Aftermarket Performance Group - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-invests-in-minimizer-alongside-shareholders-and-management",
+    "title": "Capital Partners Invests in Minimizer Alongside Shareholders and Management - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-invests-in-sur-seal-alongside-family-shareholders-and-management-to-support-growth",
+    "title": "Capital Partners Invests in Sur-Seal Alongside Family Shareholders and Management To Support Growth - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-invests-in-chromascape-in-partnership-with-family-and-management-shareholders",
+    "title": "Capital Partners invests in ChromaScape in partnership with family and management shareholders - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/five-capital-partners-portfolio-companies-seek-corporate-acquisitions",
+    "title": "Five Capital Partners Portfolio Companies Seek Corporate Acquisitions - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-develops-its-team",
+    "title": "Capital Partners Develops Its Team - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/mq-packaging-acquires-flavorseal",
+    "title": "M&Q Packaging Acquires Flavorseal - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-acquires-fletcher-terry",
+    "title": "Capital Partners Acquires Fletcher-Terry - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-2017-review",
+    "title": "Capital Partners 2017 Review - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-closes-third-fund-at-600-million-hard-cap",
+    "title": "Capital Partners Closes Third Fund at $600 Million Hard Cap - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-is-pleased-to-announce-the-sale-of-breen-color-concentrates-llc",
+    "title": "Capital Partners is pleased to announce the sale of Breen Color Concentrates, LLC - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-acquires-cmi-limited-co",
+    "title": "Capital Partners Acquires CMI Limited Co. - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/two-staff-additions-and-a-promotion-capital-partners-continues-to-grow",
+    "title": "Two Staff Additions and a Promotion - Capital Partners Continues to Grow - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/parkway-products-completes-strategic-acquisition-of-lmr-plastics",
+    "title": "Parkway Products Completes Strategic Acquisition of LMR Plastics - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-exits-derby-fabricating",
+    "title": "Capital Partners Exits Derby Fabricating - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/roll-rite-llc-acquires-pulltarps-manufacturing",
+    "title": "Roll-Rite, LLC Acquires Pulltarps Manufacturing - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/capital-partners-2016-review",
+    "title": "Capital Partners 2016 Review - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/mq-acquires-outlook-group-capital-partners-strengthens-plastic-packaging-platform",
+    "title": "M&Q Acquires Outlook Group - Capital Partners\u00ae Strengthens Plastic Packaging Platform - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/american-leather-acquires-lee-industries",
+    "title": "American Leather Acquires LEE Industries - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/how-to-prepare-and-succeed-leading-a-family-owned-business-in-a-slowing-economy",
+    "title": "Heartwood Partners Strategic Approach to a Slowing Economy - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-portfolio-company-spotlight-2",
+    "title": "Heartwood Partners Portfolio Company Spotlight - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/one-persons-trash-is-another-persons-treasure",
+    "title": "One Person's Trash is Another Person's Treasure - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-portfolio-company-spotlight",
+    "title": "Heartwood Partners Portfolio Company Spotlight - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/the-expanded-skillsets-of-the-modern-cfo",
+    "title": "The Expanded Skillsets of the Modern CFO - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/the-importance-of-integration-in-an-add-on-acquisition-strategy",
+    "title": "The Importance of Integration in an Add-on Acquisition Strategy - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/the-role-of-succession-planning-in-a-family-or-management-owned-business",
+    "title": "The Role of Succession Planning in a Family or Management-Owned Business - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/supporting-value-creation-in-family-and-management-owned-businesses",
+    "title": "Supporting Value Creation in Family and Management-Owned Businesses - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/is-private-equity-the-answer",
+    "title": "Is Private Equity the Answer? - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/why-debt-leverage-isnt-all-its-cracked-up-to-be",
+    "title": "Why Debt Leverage Isn\u2019t All It\u2019s Cracked Up to Be - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/heartwood-partners-realizes-successful-exit-of-cmi/jnewman@heartwoodpartners.com",
+    "title": "Page not found - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/high-bar-brands-expands-in-mud-flaps-with-viking-sales-acquisition/jnewman@heartwoodpartners.com",
+    "title": "Page not found - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/high-bar-brands-expands-in-mud-flaps-with-viking-sales-acquisition/mmurray@heartwoodpartners.com",
+    "title": "Page not found - Heartwood Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://heartwoodpartners.com/privacy-policy",
+    "title": "Page not found - Heartwood Partners",
+    "dynamic_states": 0
+  }
+]

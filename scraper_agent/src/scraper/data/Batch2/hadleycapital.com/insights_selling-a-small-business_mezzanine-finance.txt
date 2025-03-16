@@ -1,0 +1,136 @@
+URL: https://hadleycapital.com/insights/selling-a-small-business/mezzanine-finance
+TITLE: Guide to Mezzanine Debt & Financing (With Examples)
+
+BASE CONTENT:
+================================================================================
+Guide to Mezzanine Debt & Financing (With Examples)
+Scott Dickes
+October 13, 2015 - 2 min read
+
+My last post on acquisition financing covered senior debt. This post will cover Mezzanine debt. Specifically, I’m going to talk about: 
+
+What is Mezzanine Financing?
+What is Mezzanine Debt?
+Mezzanine Debt vs. Senior Debt
+Mezzanine Debt vs. Equity
+Mezzanine Debt Uses
+Mezzanine Debt Interest Rates
+Mezzanine Finance Structure
+Mezzanine Debt in Small Company Acquisitions
+Mezzanine Debt Pros and Cons
+Sources of Mezzanine Debt
+What is Mezzanine Financing?
+
+The word mezzanine is defined as the "partial story or level between two main stories of a building". 
+
+In this case of a company’s capital structure (those sources of funds used to finance the operations of the business), the two main "finance stories" of a company’s capital structure are senior debt and equity. Mezzanine financing sits between senior debt and equity.
+
+What is Mezzanine Debt?
+
+Mezzanine debt then is the middle level or "mezzanine" between senior debt and equity.
+
+At the middle level, mezzanine debt is subordinated to senior debt but in a senior position to equity. As such, it is priced between senior debt (as the lowest cost financing) and equity (as the highest). 
+
+Mezzanine debt has both debt-like features and equity-like features. The debt-like features include a principal amount that will be repaid as well as interest to be paid current or deferred through a payment-in-kind structure. The equity-like features allow the provider of the mezzanine debt to participate in the upside of the business, like equity owners, typically through equity warrants.
+
+Mezzanine Debt vs. Senior Debt
+
+Mezzanine debt is more expensive than senior debt because 1) it is subordinate to senior debt (meaning in a liquidation the senior debt lender will be paid in full before the mezzanine lenders sees a dollar) and 2) it typically does not require any principal payment until the end of the term loan. This structure obviously creates more risk for the mezzanine lenders and as a result they charge higher interest rates. 
+
+Mezzanine Debt vs. Equity
+
+Mezzanine debt is more expensive than senior debt but is less expensive than equity. Mezzanine debt is less dilutive than raising new equity and allows existing owners to maintain control. 
+
+Mezzanine Debt Uses
+
+The unique features of mezzanine debt - mainly payment flexibility and relative risk appetite - make it a nice tool to fund capital requirements in a growing business or in the case of an acquisition. Typical uses of mezzanine debt include: 
+
+Recapitalizations
+Leveraged buyouts
+Management buyouts
+Growth capital
+Acquisitions
+Shareholder buyouts
+Refinancings
+Balance sheet restructuring
+
+However, given the high cost of mezzanine debt, it is important that a borrower ensures it does not have a cheaper source of financing available, is confident in the ability to service the mezzanine debt, and fully understands the terms of the mezzanine loan.
+
+Mezzanine Debt Interest Rates
+
+**Mezzanine loans are typically priced anywhere between 15–20%.**There are three main components of mezzanine debt: 1) current interest 2) payment-in-kind (or “PIK”) interest and 3) equity warrants. As mentioned, mezzanine loans are typically interest only with the principal due at the end of a five or seven year term. Current interest payments are typically due monthly or quarterly. For example, a $3 million 15% current pay interest mezzanine loan with a 5 year term would look something like this:
+
+Mezzanine Finance Structure
+
+In some cases mezzanine lenders will PIK (Payment-in-Kind) a portion of the interest payment and add it to the principal amount of the loan. In this case, there will be two buckets of interest: current cash interest and PIK interest. Here is what it would look like if a mezzanine lender offered a $3 million loan with 14% current cash interest and 2% PIK interest:
+
+Mezzanine debt can also frequently include equity warrants, which are very similar to equity options. Warrants give lenders equity upside when the borrower performs well. Warrants typically represent 1–5% of the fully diluted ownership of the company.
+
+Mezzanine Debt in Small Company Acquisitions
+
+Due to the high-interest rates associated with mezzanine debt, we work with management to pay it off sooner rather than later or to refinance the mezzanine debt with lower-cost senior debt.
+
+If a company is performing well and has plenty of cash, we will use some cash to pay down the mezzanine debt subject to certain prepayment penalties that may apply. 
+
+Hadley has completed more than 30 acquisitions of small companies during our history.
+
+Many of these acquisitions utilized an appropriate amount of mezzanine debt to fully fund the acquisition.
+
+We typically use 1x–1.5x EBITDA (or cash flow) of mezzanine debt in an acquisition.
+
+So if we buy a company for 5x EBITDA, a typical capital structure might be 2x senior debt, 1x mezzanine debt and 2x equity. 
+
+Our experience shows that 3x total debt (2x EBITDA of senior debt + 1x EBITDA of mezzanine debt) is typically an appropriate amount of debt in a small company acquisition. Hadley typically sources mezzanine debt from mezzanine debt funds where we have long-standing relationships with the principals of the mezzanine debt funds. See below for more information on sources of mezzanine debt.
+
+Mezzanine Debt Pros and Cons
+
+As mentioned previously, mezzanine debt can be a useful tool in the right circumstances. However, it is important that a small business borrower fully understand the implications of this type of financing:
+
+Pros:
+
+Less costly than equity
+More patient capital (no loan amortization)
+Ability to retain majority control
+More flexibility than senior debt
+Alternative capital source with higher risk appetite
+
+Cons:
+
+More costly than senior debt
+May create modest equity dilution through equity warrants
+Borrower will need to adhere to financial covenants
+Prepayment penalties may apply
+Sources of Mezzanine Debt
+
+Mezzanine debt is primarily available through non-bank lenders such as mezzanine debt funds. Some sophisticated senior bank lenders may also provide mezzanine debt alongside traditional senior debt.
+
+The U.S. Small Business Administration sponsors a program designed to provide capital to small businesses through Small Business Investment Companies (SBICs): 
+
+“An SBIC is a privately owned company that’s licensed and regulated by the SBA. SBICs invest in small businesses in the form of debt and equity. The SBA doesn’t invest directly into small businesses, but it does provide funding to qualified SBICs with expertise in certain sectors or industries. Those SBICs then use their private funds, along with SBA-guaranteed funding, to invest in small businesses.”
+
+Many mezzanine debt funds are formed as SBICs with a specific focus on providing mezzanine loans to small businesses. A list of SBICs and an overview of the SBIC program is available on the SBA’s website.
+
+Mezzanine debt can be an important part of financing a small company acquisition, management buyout or growth plan - as the story or level between traditional senior debt and equity. If you are considering a sale of your small company and would like to better understand how Hadley approaches the financing of the purchase price, please contact us today.
+
+Scott Dickes – Member of the General Partner
+
+Scott is a member of the General Partner of Hadley Capital and Managing Partner of 1719 Partners.
+
+Scott holds a BA from Duke University and received his MBA from the Kellogg School of Management at Northwestern University.
+
+Scott and his wife Erin have two grown children.
+
+Recommended Reading
+Centare Sold to Leading Onshore Development Organization
+By Paul Wormley
+Insights on Management Buyouts for Small Businesses
+By Harrison Menaker
+Purchase Price Allocation in Small Company Acquisitions
+By Ryan Hanley
+What are Indemnification Baskets and Caps in M&A?
+By Paul Wormley
+Categories
+Managing A Small Business
+Selling A Small Business
+Small Business Private Equity
+

@@ -1,0 +1,27 @@
+URL: https://rljequitypartners.com/news_media&id=138
+TITLE: RLJ Equity Partners
+
+BASE CONTENT:
+================================================================================
+ARLINGTON, VA; June 7, 2017 – Accenture (NYSE: ACN) has entered into an agreement to acquire Phase One Consulting Group, Inc., a privately held Alexandria, Virginia-based company specializing in modernization and digital transformation for the federal market. Phase One is a leader in delivering high-impact Salesforce solutions that help transform government. Once the acquisition is complete, the Phase One team will join Accenture Federal Services.
+
+Bolstering Accenture’s Cloud First strategy, Phase One will bring a complementary client footprint and large, highly skilled team offering Salesforce and management consulting services. Phase One currently delivers secure cloud solutions to cabinet departments and federal agencies with wide-ranging missions across national infrastructure, finance and regulatory services, human services, healthcare, and homeland security sectors.
+
+“New cloud and Software-as-a-Service platforms are transforming both the federal technology landscape and the way agencies serve their customers and achieve their missions,” said David Moskovitz, chief executive of Accenture Federal Services.  “Through investments like our acquisition of Phase One, we are expanding our capabilities, technology and skills to help lead our federal clients on their journey to be more agile, responsive and secure in a digital world.”
+
+The acquisition of Phase One is the seventh Salesforce-related acquisition that Accenture has made since 2014; the others include Media Hive, New Energy Group, CRMWaypoint, Cloud Sherpas, tquila and ClientHouse.
+
+“We are proud to be combining our skills and innovative approach with Accenture’s scale,” said Jerad Speigel, Phase One chief executive officer. “At Phase One, we embrace change and innovation, and we are excited to join forces with Accenture to help deliver the value of Software as a Service to US government agencies.”
+
+Phase One is a Salesforce Platinum Consulting Partner focused exclusively on the $80 billion federal IT market. This elite status reflects its expertise in Salesforce integration and development services within some of the most complex federal client technology environments.  For the federal market, Phase One has developed cloud accelerator methodologies designed to help federal clients enhance their organizational efficiency and achieve mission-specific goals.
+
+“Salesforce’s Intelligent Customer Success Platform empowers federal agencies to transform into more modern, responsive and intelligent organizations, enabling employees to connect with citizens in entirely new and powerful ways,” said Tyler Prince, Salesforce’s executive vice-president, World Wide Alliances and Go-to-Market Innovation. “With industry solutions, thousands of skilled Salesforce consultants and rapidly expanding capabilities, Accenture is a top strategic partner that empowers our mutual customers to digitally transform their businesses and succeed.”
+
+Accenture was one of the first global companies to establish a strategic alliance with Salesforce, and continues to grow and strengthen its position as a leading Salesforce partner. With more than 11,000 Salesforce-skilled professionals and an ongoing investment in building deep Salesforce skills and leading capabilities, Accenture is unique in the Salesforce ecosystem.
+
+In April, Accenture was identified as the overall leader in the “as-a-Service Winners’ Circle” in the HfS Blueprint Report: Salesforce Services 2017 for its excellence in both Salesforce innovation and execution. The report named Accenture as the “clear leader in scale” with “the largest Salesforce services practice” in the Salesforce ecosystem. In May, Salesforce named Accenture Interactive the 2017 Salesforce Commerce Cloud Global Innovation Partner of the Year in recognition of its outstanding contribution toward business growth, technology innovation and joint customer success.   
+
+The transaction is subject to regulatory reviews and other customary closing conditions, and the financial details are not being disclosed.
+
+Accenture Federal Services, a wholly owned subsidiary of Accenture LLP, is a U.S. company with offices in Arlington, Virginia. Accenture’s federal business has served every cabinet-level department and 30 of the largest federal organizations. Accenture Federal Services transforms bold ideas into breakthrough outcomes for clients at defense, intelligence, public safety, civilian and military health organizations.
+

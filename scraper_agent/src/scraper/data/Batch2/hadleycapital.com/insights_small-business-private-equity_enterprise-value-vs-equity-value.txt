@@ -1,0 +1,113 @@
+URL: https://hadleycapital.com/insights/small-business-private-equity/enterprise-value-vs-equity-value
+TITLE: Enterprise Value vs. Equity Value: Everything You Need to Know
+
+BASE CONTENT:
+================================================================================
+Enterprise Value vs. Equity Value: Everything You Need to Know
+Paul Wormley
+November 05, 2021 - 2 min read
+
+Enterprise value is the value of a company that is available to all of its debt and equity holders while equity value is the portion of enterprise value that’s available just to the equity holders. There are many items one needs to consider when determining enterprise value and equity value. In this post, we are going to cover the following items:
+
+How to Calculate Enterprise Value
+The Difference Between Enterprise Value and Equity Value
+Enterprise vs. Book Value
+How Market Capitalization Relates
+Enterprise Versus Equity Value in Small Company M&A
+How to Calculate Enterprise Value
+
+Enterprise value is equivalent to what a third party would pay for all of the stock and business assets of a firm.
+
+For a publicly traded company, calculating enterprise value is fairly straightforward: multiply the current share price by the number of shares outstanding then add outstanding debt. 
+
+In a privately held company, calculating enterprise value is more difficult because the value of the underlying stock of the corporation is not as transparent.
+
+Equity value is the portion of a company’s total value, or its ‘enterprise value,’ that is attributable to its equity investors. 
+
+It is calculated by taking a company’s enterprise value (that is, what a third party would pay for all of the stock and business assets of the firm) and subtracting the value of any debt or debt equivalents (such as capitalized leases) owed by the company and then adding the value of any excess cash or cash equivalents (such as liquid investment securities) owned by it.  
+
+The resulting figure is the value available to the company’s equity holders, or its ‘equity value.'
+
+The Difference Between Enterprise Value and Equity Value
+
+We sometimes explain the difference between enterprise value and equity value by creating an analogy to someone’s home. 
+
+The enterprise value of your home is the sale price of the home. 
+
+The equity value of the home is what the homeowner puts in their pocket after paying off their mortgage debt. 
+
+Two similar homes may sell for similar amounts but the owners will likely not end up with the same amount of proceeds because, more likely than not, they have different mortgage balances. The enterprise value is the same, the equity values are not.
+
+This Corporate Finance Institute video provides a nice overview of this analogy.
+
+Equity Value vs. Book Value
+
+Equity value is not the same as book value.
+
+The book value of a company is simply the difference between its assets and liabilities as shown on its balance sheet.  Book value is also sometimes known as net book value. Learn more about net book value and asset-based valuation approaches.
+
+A successful company with good cash flows will almost always have an enterprise value that exceeds its book value.  But this doesn’t mean that this same company will necessarily have a large equity value.  
+
+If, for example, it is carrying a large amount of debt, then much (or even all) of its enterprise value will be attributable to its lender(s).  
+
+Or consider a firm that is struggling and no longer profitable, but which generated a large amount of cash in the past and which cash has remained in the company instead of being distributed to its shareholders.  In this case its book value might exceed its enterprise value.
+
+How Market Capitalization Relates
+
+Another related concept is ‘market capitalization,’ a term used mostly by investors in public companies:  It is simply the number of shares outstanding multiplied by the stock price.  Since the stock price would already reflect the amount of any excess cash in the business, if any, to calculate the related enterprise value one simply adds the amount of any funded debt owed by the company to its market capitalization.
+
+Enterprise Versus Equity Value in Small Company M&A
+
+Firms like Hadley Capital usually write their letters of intent on a ‘debt free, cash free’ basis. 
+
+For instance, consider a firm with $1 million in free cash flow which we have determined has an enterprise value of $5 million.  
+
+The language in our letter of intent might read, “Hadley Capital will buy all of the stock and assets of Company XYZ for $5 million at cash at closing less any debt and plus any cash on the balance sheet at closing.  This is a debt free, cash free proposal.”  
+
+The shareholders of that firm would then take this $5 million ‘enterprise value’ and subtract the value of any funded debt and add the value of any cash on their company’s balance sheet in order to determine their pre-tax proceeds from the transaction, or their ‘equity value.’
+
+Companies with the same enterprise value may not have the same equity value because, as we described above, the amount of debt and cash in each company is likely not the same. 
+
+A simple example:
+
+In terms of determining enterprise value, Hadley Capital utilizes detailed financial models to examine the past and likely future cash flows of each firm and then to discount these cash flows back to the present time.  
+
+This is called ‘discounted cash flow, or DCF.’  
+
+We also use multiples of EBITDA as a shorthand way to think about valuation.  A larger firm with good management and steady cash flow will attract a higher multiple than a smaller firm with only a few customers and uneven earnings, for instance.  But this doesn’t mean the equity holders of the first firm will receive more proceeds, or equity value, than the second firm, such as if the smaller firm has no debt and a lot of cash on its balance sheet and the larger firm has a lot of debt and little or no cash on its balance sheet 
+
+Next Steps
+
+Enterprise value and equity value are foundational concepts in business valuation but they are frequently misunderstood by business owners.
+
+Developing a clear understanding of how each is calculated and used in valuation settings is important because, depending on the circumstances, they can be dramatically different numbers. 
+
+Interested in receiving a quick estimate of the enterprise value of your business? Visit our valuation calculator and download the related business valuation report.
+
+HADLEY
+Reap the rewards of your hard work.
+SET UP A CONFIDENTIAL APPOINTMENT
+Paul Wormley - Managing Partner
+
+Paul joined Hadley in 2005. He grew up in a family business environment and has spent his entire career working with small and emerging companies.
+
+He currently works with Interstate Fabrications, Filter Holdings, J&R, AGI, Gillinder, Equustock, Pneu-Con, and Storflex. Previously he was the chairman or served on the board of directors for i-deal Optics, Centare, QDx Pathology, GT Golf Supplies, and Open Sky Media – all former Hadley companies.
+
+Paul is an outdoor enthusiast who enjoys fishing, hunting, riding motorbikes, Crossfit and an occasional craft beer. He works closely with a number of non-profit organizations including One Acre Fund, Trout & Salmon Foundation, and Northfield Parks Foundation.
+
+Paul is a graduate of the University of Colorado at Boulder and received an MBA from the Kellogg School of Management at Northwestern University. He and his wife, Rosemary, have three children.
+
+Recommended Reading
+Unlocking Growth Potential: The Hadley Independent Sponsor Alliance (HISA)
+By Paul Wormley
+What Every Business Owner Needs To Know About Senior Debt
+By Scott Dickes
+Full EBITDA Guide: What is It & How Investors Use It (Formula)
+By Paul Wormley
+What are Fundless Sponsors? [FAQ + Guide]
+By Clay Brock
+Categories
+Managing A Small Business
+Selling A Small Business
+Small Business Private Equity
+

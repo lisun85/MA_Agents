@@ -1,0 +1,402 @@
+[
+  {
+    "url": "https://highviewcapital.com/",
+    "title": "Highview Capital Flexible, Long-Term, Constructive Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/about",
+    "title": "Highview Capital About",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/investment-criteria",
+    "title": "Highview Capital Investment Criteria",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team",
+    "title": "Highview Capital Team",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/portfolio",
+    "title": "Highview Capital Portfolio",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news",
+    "title": "Highview Capital News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/contact",
+    "title": "Highview Capital Contact",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/portfolio/american-plastics",
+    "title": "Highview Capital American Plastics",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/portfolio/br-auto",
+    "title": "Highview Capital B&R Auto",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/portfolio/five-star-energy-services",
+    "title": "Highview Capital Five Star Energy Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/portfolio/gs-foods",
+    "title": "Highview Capital GS Foods",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/portfolio/national-fire-safety",
+    "title": "Highview Capital National Fire & Safety",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/portfolio/quickplay",
+    "title": "Highview Capital Quickplay",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/portfolio/randall-foods",
+    "title": "Highview Capital Randall Foods",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/portfolio/safety-marking",
+    "title": "Highview Capital Safety Marking",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/portfolio/watterson",
+    "title": "Highview Capital Watterson",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/gs-foods-group-acquires-the-danielsen-company",
+    "title": "Highview Capital GS Foods Group Acquires The Danielsen Company",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/br-auto-expands-its-network-footprint-across-the-western-u-s-with-the-acquisition-of-farmington-based-highway-64",
+    "title": "Highview Capital B&R Auto expands its network footprint across the Western U.S. with the acquisition of Farmington-based Highway 64",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/br-auto-acquires-marler-auto-supply",
+    "title": "Highview Capital B&R Auto Acquires Marler Auto Supply",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/privacy-policy",
+    "title": "Highview Capital Privacy Policy",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/terms-of-use",
+    "title": "Highview Capital Terms of Use",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/makai-robinson",
+    "title": "Highview Capital Makai Robinson",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/mohamad-sadeghi",
+    "title": "Highview Capital Mohamad Sadeghi",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/alexander-ott",
+    "title": "Highview Capital Alexander Ott",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/david-cohen",
+    "title": "Highview Capital David Cohen",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/steve-russell",
+    "title": "Highview Capital Steve Russell",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/brice-baradel",
+    "title": "Highview Capital Brice Baradel",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/p-j-gilbert",
+    "title": "Highview Capital P.J. Gilbert",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/jonathan-greenway",
+    "title": "Highview Capital Jonathan Greenway",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/dan-picmann",
+    "title": "Highview Capital Dan Picmann",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/victor-bunce",
+    "title": "Highview Capital Victor Bunce",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/phil-crawford",
+    "title": "Highview Capital Phil Crawford",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/krysty-penwell",
+    "title": "Highview Capital Krysty Penwell Grey",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/john-ciancio",
+    "title": "Highview Capital John Ciancio",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/christian-boorom",
+    "title": "Highview Capital Christian Boorom",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/casey-chung-fenlon",
+    "title": "Highview Capital Casey Chung Fenlon",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/stephen-yin",
+    "title": "Highview Capital Stephen Yin",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/tracy-mcgregor",
+    "title": "Highview Capital Tracy McGregor",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/charlie-alutto",
+    "title": "Highview Capital Charlie Alutto",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/matt-soule",
+    "title": "Highview Capital Matt Soule",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/kenneth-slutsky",
+    "title": "Highview Capital Kenneth Slutsky",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/joy-baer",
+    "title": "Highview Capital Joy Baer",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/mark-barry",
+    "title": "Highview Capital Mark Barry",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/jim-clough",
+    "title": "Highview Capital Jim Clough",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/ramzi-hermiz",
+    "title": "Highview Capital Ramzi Hermiz",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/james-hyman",
+    "title": "Highview Capital James Hyman",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/john-kett",
+    "title": "Highview Capital John Kett",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/doug-knopper",
+    "title": "Highview Capital Doug Knopper",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/wayne-purboo",
+    "title": "Highview Capital Wayne Purboo",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/team/stuart-schuette",
+    "title": "Highview Capital Stuart Schuette",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/br-auto-announces-appointment-of-cris-hollingsworth-as-chief-executive-officer",
+    "title": "Highview Capital B&R Auto Announces Appointment of Cris Hollingsworth as Chief Executive Officer",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/br-auto-celebrates-strategic-acquisition-to-expand-nevada-market-presence",
+    "title": "Highview Capital B&R Auto Celebrates Strategic Acquisition to Expand Nevada Market Presence",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/randall-foods-announces-completion-of-executive-team-buildout",
+    "title": "Highview Capital Randall Foods Announces Completion of Executive Team Buildout",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/gs-foods-group-acquires-diamond-foods-expanding-operations-in-louisiana",
+    "title": "Highview Capital GS Foods Group Acquires Diamond Foods \u2013 Expanding Operations in Louisiana",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/br-auto-announces-three-acquisitions-and-new-executive-appointment",
+    "title": "Highview Capital B&R Auto Announces Three Acquisitions and New Executive Appointment",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/page/2",
+    "title": "Highview Capital News Page 2",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/page/3",
+    "title": "Highview Capital News Page 3",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/page/4",
+    "title": "Highview Capital News Page 4",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/page/5",
+    "title": "Highview Capital News Page 5",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/page/6",
+    "title": "Highview Capital News Page 6",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/page/7",
+    "title": "Highview Capital News Page 7",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/highview-sells-first-portfolio-company-american-plastics",
+    "title": "Highview Capital Highview Sells First Portfolio Company American Plastics",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/american-plastics-acquires-centrex-plastics-creative-plastic-concepts",
+    "title": "Highview Capital American Plastics Acquires Centrex Plastics & Creative Plastic Concepts",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/katy-industries-sold-renamed-american-plastics",
+    "title": "Highview Capital Katy Industries sold, renamed American Plastics",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/gs-foods-group-acquires-lamm-food-service-enhancing-operations-in-the-southeast",
+    "title": "Highview Capital GS Foods Group Acquires Lamm Food Service \u2013 Enhancing Operations in the Southeast",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/gs-foods-group-acquires-graves-foods-expanding-operations-in-the-midwest",
+    "title": "Highview Capital GS Foods Group Acquires Graves Foods \u2013 Expanding Operations in the Midwest",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/gs-foods-group-acquires-thurston-foods-expanding-and-strengthening-operations",
+    "title": "Highview Capital GS Foods Group Acquires Thurston Foods, Expanding and Strengthening Operations",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/highview-backed-national-fire-safety-announces-acquisition-of-absolute-fire-protection",
+    "title": "Highview Capital Highview-Backed National Fire & Safety Announces Acquisition of Absolute Fire Protection",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/highview-backed-national-fire-safety-announces-acquisition-of-commercial-fire-protection",
+    "title": "Highview Capital Highview-backed National Fire & Safety Announces Acquisition of Commercial Fire Protection",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/national-fire-acquires-texas-fire-alarm",
+    "title": "Highview Capital National Fire Acquires Texas Fire Alarm",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/highview-backed-national-fire-safety-announces-acquisition-of-all-pro-fire-protection",
+    "title": "Highview Capital Highview-Backed National Fire & Safety Announces Acquisition of All Pro Fire Protection",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/highview-backed-national-fire-safety-announces-acquisition-of-maxim-fire-systems",
+    "title": "Highview Capital Highview-Backed National Fire & Safety Announces Acquisition of Maxim Fire Systems",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/firstlight-media-and-thinkanalytics-partner-to-turbocharge-ott-personalization",
+    "title": "Highview Capital Firstlight Media and ThinkAnalytics Partner to Turbocharge OTT Personalization",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/firstlight-media-launches-accelerator-to-spur-growth-of-ott-services",
+    "title": "Highview Capital Firstlight Media Launches Accelerator to Spur Growth of OTT Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/highview-capital-partners-with-firstlight-media-to-acquire-quickplay-from-att",
+    "title": "Highview Capital Highview Capital Partners with Firstlight Media to Acquire Quickplay from AT&T",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/highview-capital-acquires-wilmar-to-merge-with-randall-foods",
+    "title": "Highview Capital Highview Capital Acquires WilMar, To Merge With Randall Foods",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/highview-continues-food-build-up",
+    "title": "Highview Capital Highview Continues Food Build Up",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/highview-capital-acquires-randall-foods",
+    "title": "Highview Capital Highview Capital Acquires Randall Foods",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/highview-capital-announces-partnership-with-safety-marking",
+    "title": "Highview Capital Highview Capital Announces Partnership with Safety Marking",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://highviewcapital.com/news/highview-capital-backed-watterson-acquires-armstrongs-restoration",
+    "title": "Highview Capital Highview Capital-Backed Watterson Acquires Armstrong\u2019s Restoration",
+    "dynamic_states": 0
+  }
+]

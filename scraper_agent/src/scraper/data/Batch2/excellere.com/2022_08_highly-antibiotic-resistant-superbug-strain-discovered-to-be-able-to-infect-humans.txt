@@ -1,0 +1,70 @@
+URL: https://excellere.com/2022/08/highly-antibiotic-resistant-superbug-strain-discovered-to-be-able-to-infect-humans
+TITLE: Highly Antibiotic-Resistant Superbug Strain Discovered To Be Able To Infect Humans - Excellere Partners
+
+BASE CONTENT:
+================================================================================
+News from Our
+Focus Industries
+Highly Antibiotic-Resistant Superbug Strain Discovered To Be Able To Infect Humans
+
+A highly antibiotic-resistant form of the superbug MRSA was discovered in a recent investigation.
+
+A strain of MRSA that emerged in pigs and is highly antibiotic-resistant can spread to humans.
+
+According to recent research, pig farming’s extensive use of antibiotics has likely contributed to the emergence of a highly antibiotic-resistant strain of the superbug MRSA, or methicillin-resistant Staphylococcus aureus, in livestock during the last 50 years.
+
+Over the last fifty years, the strain, known as CC398, has overtaken other MRSA strains in animals across Europe. It is also a rising source of MRSA infections in humans.
+
+According to the study, CC398 has remained resistant to antibiotics in pigs and other animals for many years. Furthermore, it can quickly adapt to human hosts while still preserving its antibiotic resistance.
+
+Intensification of farming, combined with high levels of antibiotic use in livestock, has led to particular concerns about livestock as reservoirs of antibiotic-resistant human infections. Credit: Mark Holmes
+
+The findings demonstrate the possible risk that this MRSA strain presents to the general public’s health. It has been linked to an increase in human infections in both those who have and have not directly interacted with livestock.
+
+“Historically high levels of antibiotic use may have led to the evolution of this highly antibiotic-resistant strain of MRSA on pig farms,” said Dr. Gemma Murray, a lead author of the study, previously in the University of Cambridge’s Department of Veterinary Medicine and now at the Wellcome Sanger Institute.
+
+She added: “We found that the antibiotic resistance in this livestock-associated MRSA is extremely stable – it has persisted over several decades, and also as the bacteria has spread across different livestock species.”
+
+The use of antibiotics in livestock in Europe is far lower than in the past. However, since this strain of MRSA is so persistent, the researchers claim that continued decreases in antibiotic usage on pig farms – as a result of recent regulatory changes – are expected to have a minimal influence on the existence of this strain in pigs.
+
+A highly antibiotic-resistant strain of the superbug MRSA has emerged in livestock in the last 50 years, probably due to widespread antibiotic use in pig farming. Credit: Dan Tucker
+
+A highly antibiotic-resistant strain of the superbug MRSA has emerged in livestock in the last 50 years, probably due to widespread antibiotic use in pig farming. Credit: Dan Tucker
+
+While livestock-associated CC398 is found across a broad range of livestock species, it is most commonly associated with pigs. Its rise has been particularly evident in Danish pig farms where the proportion of MRSA-positive herds has increased from less than 5% in 2008 to 90% in 2018. MRSA doesn’t cause disease in pigs.
+
+“Understanding the emergence and success of CC398 in European livestock – and its capacity to infect humans – is vitally important in managing the risk it poses to public health,” said Dr Lucy Weinert in the University of Cambridge’s Department of Veterinary Medicine, senior author of the paper.
+
+The success of CC398 in livestock and its ability to infect humans is linked to three mobile genetic elements in the MRSA genome. These are chunks of genetic material that give the MRSA certain characteristics, including its resistance to antibiotics and its ability to evade the human immune system.
+
+The researchers reconstructed the evolutionary history of two particular mobile genetic elements called Tn916 and SCCmec that confer antibiotic resistance in MRSA, and found they have persisted in a stable way in CC398 in pigs over decades. They also persist when CC398 jumps to humans – carrying with them high levels of resistance to antibiotics commonly used in farming.
+
+In contrast, a third mobile genetic element called φSa3 – which enables the CC398 strain of MRSA to evade the human immune system – was found to have frequently disappeared and reappeared over time, in both human-associated and livestock-associated CC398. This suggests that CC398 can rapidly adapt to human hosts.
+
+“Cases of livestock-associated MRSA in humans are still only a small fraction of all MRSA cases in human populations, but the fact that they’re increasing is a worrying sign,” said Weinert.
+
+Intensification of farming, combined with high levels of antibiotic use in livestock, has led to particular concerns about livestock as reservoirs of antibiotic-resistant human infections.
+
+Zinc oxide has been used for many years on pig farms to prevent diarrhea in piglets. Due to concerns about its environmental impact and its potential promotion of antibiotic resistance in livestock, the European Union will ban its use this month. But the authors say this ban may not help reduce the prevalence of CC398 because the genes conferring antibiotic resistance are not always linked to the genes that confer resistance to zinc treatment.
+
+MRSA was first identified in human patients in 1960. Due to its resistance to antibiotics, it is much harder to treat than other bacterial infections. The World Health Organisation now considers MRSA one of the world’s greatest threats to human health.
+
+Reference: “Stable antibiotic resistance and rapid human adaptation in livestock-associated MRSA” by Marta Matuszewska, Gemma GR Murray, Xiaoliang Ba, Rhiannon Wood, Mark A Holmes and Lucy A Weinert, 28 June 2022, eLife.
+DOI: 10.7554/eLife.74819
+
+The study was funded by the Wellcome Trust, the Medical Research Council, and the Raymond and Beverly Sackler Foundation.
+
+« Back to The Peak
+
+Top Stories
+HEALTH & PHARMACEUTICALS
+Low-Risk AI Adoption — A logical place to start
+HEALTH & PHARMACEUTICALS
+Buy and Ship Now supports access to critical medications
+BUSINESS SERVICES
+Weathering the Storm: How Specialty Pharmacies Can Navigate the 2024 Hurricane Season
+HEALTH & PHARMACEUTICALS
+Biocare Medical and Ensigna Biosystems Announce Strategic Partnership to Drive Spatial Biology, Multiomic Enablement, and Innovation in Biotechnology
+BUSINESS SERVICES
+Enhancing Patient Care with ParcelShield: Tackling Specialty Pharmacy Visibility and Tracking Challenges
+

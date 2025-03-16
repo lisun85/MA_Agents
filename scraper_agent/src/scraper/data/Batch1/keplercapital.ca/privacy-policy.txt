@@ -1,0 +1,78 @@
+URL: https://keplercapital.ca/privacy-policy
+TITLE: Home — Kepler Capital
+
+BASE CONTENT:
+================================================================================
+Kepler Capital is comprised of various entities across multiple jurisdictions (collectively, “Kepler”, “we” or “us”). This Privacy Policy applies to Kepler’s collection, processing, disclosure, retention and disposition of personal data required to support our fund administration services.
+
+ 
+
+PERSONAL DATA
+
+In the context of the services provided by Kepler, personal data refers to any information that relates to an identified or identifiable individual such as a name, email, postal address, phone number, an identification number or any information related to the individual’s financial, geographical or physical identity. Subject to relevant personal data protection laws in the regions where you reside and Kepler operates, we may process your personal data when you invest in one or more Kepler funds.
+
+ 
+
+COLLECTION OF PERSONAL DATA
+
+We are legally required to collect personal data from you for compliance purposes. We collect personal data to satisfy Anti-Money Laundering (“AML”) obligations which includes data relevant to international sanctions and restrictive measures, and data about relevant and significant litigation. In specific circumstances we require a copy of your passport or driver’s license to verify your identity. Therefore, we collect personal data contained in these documents, including your picture. We also collect personal data from publicly available sources and sanctions, and politically exposed persons screening application support services.
+
+ 
+
+PERSONAL DATA COLLECTED FROM YOU ABOUT OTHER INDIVIDUALS
+
+Where you provide Kepler with personal data of individuals connected with you (e.g., directors, trustees, employees, representatives, shareholders, limited partners, investors, clients, beneficial owners, agents), you must ensure that you are entitled to disclose that personal data to us and furthermore that, without us being required to take further steps, we can collect, use, store, and disclose that data in the manner described in this Privacy Policy. More specifically, you must ensure that the individual whose personal data you are sharing with us is aware of the matters discussed in this Privacy Policy, as these are relevant to that individual, including our identity, how to get in touch with us, the purposes for which we collect data, our disclosure practices, and the rights of the individual in relation to our holding of their data.
+
+ 
+
+USE AND PROCESSING OF PERSONAL DATA
+
+Kepler requires your personal data to administer your or your organization’s relationship with us including fund accounting, investor services, auditing, tax, compliance, and regulatory services. Kepler processes your personal data under the following lawful purposes:
+
+Where it is necessary for the performance of a contract which you have entered for the purpose of investment subscription into an investment fund.
+
+Where it is necessary for compliance with a legal obligation to which we are subject, such as the anti-money laundering obligation to verify the identity of investors in an investment fund and, where applicable, their beneficial owners.
+
+ 
+DISCLOSURE OF PERSONAL DATA
+
+We will never sell your data and will only share your personal data with Kepler affiliates and/or our fund administrator(s) for the purpose of managing your investment fund, and with auditors for the purpose of auditing the fund. In certain circumstances we and/or our authorized affiliates and/or delegates are legally obliged to disclose your personal data and other financial information with respect to your interest in a relevant third party such as an investment fund, to statutory regulatory bodies, and they, in turn, will share this information with foreign authorities including tax authorities. Some of these authorities are located outside of your local jurisdiction.
+
+ 
+
+STORAGE AND TRANSFER OF PERSONAL DATA
+
+The personal data that Kepler stores is located on the cloud computing platform Google Drive. The data is stored at rest in Canada. Additionally, Kepler and/or its authorized affiliates and/or delegates will in certain cases transfer your Personal Data to other entities or abroad if required to do so for the purposes of processing your personal data. If a third-party service provider is required to process your personal data on our behalf, we will make sure that they do so in accordance to our instructions only.
+
+ 
+
+SECURITY OF PERSONAL DATA
+
+We are committed to the principles of respecting your privacy and keeping your personal data safe. Kepler has implemented generally accepted standards of technology and operational security to protect personal data from loss, misuse, alteration or destruction. We continually evaluate our IT security and monitor potential cyber-risks to ensure the privacy and security of your data. For personal data stored with third-party providers we ensure that we work only with reputable third-parties who have reasonable and appropriate policies regarding the collection, processing, storage and retention of personal data. 
+
+ 
+
+RETENTION AND DISPOSAL OF PERSONAL DATA
+
+The Personal Data you submit will only be retained for as long as is required to fulfill its purpose, and any further regulatory or legal retention requirements for which it was collected or as required by the relevant laws. When the data is no longer necessary to the purpose for which it was collected, Kepler will proceed to erase all your Personal Data held in its systems without undue delay.
+
+ 
+
+RIGHTS REGARDING YOUR PERSONAL DATA
+
+In accordance with our legal obligations, you have the right to request access to the personal data that we hold about you and can inform us of and request to update any changes in your personal data. Subject to any legal requirements or exceptions, we will facilitate any request for deletion of your personal data. You also have the right to request restriction of, or object to the processing of your personal data. In each case where you exercise the rights you have regarding your personal data, we will inform you of the consequences of your request and if there are any legal limitations that prevent us from fulfilling your requests based on regulatory or contractual requirements. We will inform you, upon request, what personal data we require and for what purpose we are collecting it. If at any point in time we learn of a breach that compromises your personal data, we will notify you without undue delay. We will advise you on what protective steps to take, what to expect, and what, if any, are the risks that you may face. We will notify you through the email address that you have provided to us. In order to exercise any request over your personal data or if you have any questions about the use of your personal data, please contact info@keplercapital.ca. We will be happy to deal with any reasonable request at no cost.
+
+ 
+
+CONTACTING KEPLER
+
+If you have further questions or concerns about how Kepler manages your personal data or if you have feedback regarding this Privacy Policy, you may contact our team as follows: Kepler Capital Corporation Attention: Privacy Policy #630, 1414 8 Street SW, Calgary, AB, T2R1J6 ; info@keplercapital.ca ; 403-536-4023  
+
+ 
+
+CHANGES TO PRIVACY POLICY
+
+Any changes to Kepler’s Privacy Policy will be posted here, on Kepler’s website. Last Updated June, 2022.
+
+ 
+

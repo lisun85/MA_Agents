@@ -1,0 +1,226 @@
+URL: https://altuscapitalpartners.com/privacy-policy
+TITLE: Altus Capital Partners | Privacy Policy
+
+BASE CONTENT:
+================================================================================
+ALTUS CAPITAL PARTNERS PRIVACY POLICY UPDATED: APRIL 2024 
+
+Your privacy is important to Altus Capital Partners (hereinafter referred to as either "Altus" or "we", "us" or "our"). We are committed to maintaining the accuracy, confidentiality, and security of the Personal Data (as defined below) that we collect from individuals (“you”) in the operation of our websites located at www.altuscapitalpartners.com and the Investor Portal located at https://portal.altuscapitalpartners.com (collectively, the "Site") and our services.
+
+Please read this Privacy Policy carefully to understand our policies and practices for collecting, using, and disclosing your Personal Data. If you do not agree with our policies and practices, your choice is not to use our Site or to interact with us. By accessing or using the Site or otherwise interacting with us, you indicate that you understand, accept, and consent to the practices described in this Privacy Policy. In addition, please review our Terms of Use Agreement, which governs your use of the Site.
+
+SCOPE 
+
+To better protect your privacy, we provide this Privacy Policy explaining the types of Personal Data we collect through our Site or when you otherwise interact with us, how we use the Personal Data, with whom we share the Personal Data, and the choices you can make about the way your Personal Data is collected and used.
+
+We will only use your Personal Data in accordance with this Privacy Policy unless otherwise required by applicable law.
+
+“Personal Data" means information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a consumer or household, and includes “personal information” and “personal data” as defined in applicable state jurisdictions.
+
+This Privacy Policy does not apply to certain types of information exempted from applicable state laws including but not limited to:
+
+Publicly available information, being that which is lawfully made available from federal, state, or local government records;
+Information which has been de-identified, or is aggregate or anonymized information;
+Information which is collected, processed, or disclosed pursuant to the Federal Gramm-Leach-Bliley Act ('GLBA') and implementing regulations. We maintain a separate notice for this purpose, a copy of which can be requested by using the contact information provided in the “HOW TO CONTACT US” section of the Privacy Policy; and
+Information governed by:
+the Fair Credit Reporting Act ('FCRA');
+the California Financial Information Privacy Act ('FIPA').
+
+CONSENT 
+
+By affirmatively accepting these terms, accessing or otherwise using the Site, using our services, submitting an information request, or otherwise interacting with us, you hereby agree with and consent to the collection and processing of your Personal Data as described in this Privacy Policy.
+
+You may have a legal right to withdraw your consent to Altus's collection and processing of certain Personal Data, or to the transfer of your Personal Data across borders. To request to withdraw your consent, please contact us as set forth below.
+
+THE INFORMATION WE COLLECT 
+
+The types of Personal Data we collect depend on a variety of factors, such as the type of services you request or use, applicable legal and regulatory requirements, the means by which you communicate with us, and whether we collect that Personal Data directly from you or through automated technologies.
+
+Directly from you
+
+We may collect the following Personal Data" directly from you:
+
+The password and account designation that you enter to access the Investor Access section of the Site;
+Your name, address, phone number, and e-mail address, such as when you register for an account and password on the Site or communicate with us;
+The information that you provide (or revise) in the Prospective Investor / Limited Partner General Information section of the Site, including financial information (such as banking information and account number); taxpayer ID number; jurisdiction of tax residence; date of birth; and certain investment-related information;
+The information that you provide to us in the Feedback section of the Site;
+any other information you provide to us.
+
+Personal Data may include certain non-public personally identifiable information ("PII"), including but not limited to your name, address, telephone number, e-mail address, and ID numbers. In all such cases, you choose whether to provide us with such PII, but certain portions of the Site may not be available to you if you do not provide the PII requested.
+
+Through automated technologies
+
+In addition, we may collect certain Personal Data when you visit many of our web pages on the Site through automated means, such as the type of browser you are using, the type of operating system you are using, your IP address, your Internet service provider, network location, device characteristics, referring URLs, information on actions taken on our Site, and dates and times of Site visits.
+
+Cookies
+
+One manner of collecting such Personal Data is through cookies. We use "cookies" or similar such devices in connection with our Site and services. Cookies are small bits of data cached or stored on your computer based on Internet activity. We use cookies to monitor individual activity in the aggregate to improve the Site. The information we gather through cookies may include your IP address, user language, the operating system, browser type, the presence/absence of "flash" plug-ins, your screen resolution, connection type, and information that identifies the cookie.
+
+You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser settings to decline cookies if you prefer. If you would prefer not to accept cookies, most browsers will allow you to: (i) change your browser settings to notify you when you receive a cookie, which lets you choose whether or not to accept it; (ii) to disable existing cookies; or (iii) to set your browser to automatically reject any cookies. While you may configure your browser to reject cookies, if you do so, you may not be able to use the full functionality of the Site.
+
+Web analytics services
+
+We may use third-party web analytics services on our Site, such as those of Google Analytics. These service providers help us analyze how visitors use the Site. The information obtained for this purpose (including your IP address and other information collected by automated means) will be disclosed to or collected directly by these service providers. Google may use the data collected to contextualize and personalize the ads of its own advertising network. For more information on Google's Privacy Policy, go to https://www.google.com/intl/en/policies/privacy/. Users can opt out of Google Analytics tracking at https://tools.google.com/dlpage/gaoptout.
+
+We may combine the Personal Data you submit directly through the Site with other Personal Data we have collected from you, whether on- or offline. We may also combine it with information we receive about you from other sources, such as publicly available information sources and other third parties.
+
+HOW WE USE THE INFORMATION WE COLLECT 
+
+We may use your Personal Data, and may share such Personal Data with our affiliated entities (i.e., companies related to us by common ownership or control) and other third parties as set out in the section “HOW WE SHARE THE INFORMATION WE COLLECT”, to:
+
+Allow you to access your account;
+Update your account information;
+Fulfill your requests for additional information;
+As necessary to effect, administer, and enforce a transaction requested or authorized by you;
+Provide products and services requested or authorized by you;
+Maintain and service your account(s) with us;
+Conduct any transactions requested or authorized by you;
+Perform data analyses (including market and consumer research, demographic analyses, and anonymization and aggregation of PII);
+Operate, evaluate, and improve our business (including developing new products and services; enhancing, improving, and analyzing our products and services; managing our communications; and performing accounting, auditing, and other internal functions);
+Protect against, identify, and prevent fraud and other unlawful activity;
+Comply with and enforce applicable legal requirements, relevant industry standards, and our policies, including our Terms of Use Agreement;
+Communicate with you; and
+
+We may use the information that we collect in an anonymized form to improve the design and content of our Site and to enable us to personalize your Internet experience. We also may use this information in the aggregate to analyze Site usage. We may share certain anonymized information, such as demographics and usage statistics, with third parties to perform these functions. When this type of information is shared, the other parties do not have access to your PII. If we combine information that is not in personally identifiable form with information that is (such as combining your name with your geographical location), we will treat the combined information as Personal Data as long as it is combined.
+
+We may use your Personal Data in other ways for which we provide specific notice at the time of collection.
+
+HOW WE SHARE THE INFORMATION WE COLLECT 
+
+We may share Personal Data that we collect or that you provide as described in this Privacy Policy:
+
+To our subsidiaries and affiliates;
+To contractors, service providers, and other third parties we use to support our business (such as analytics and search engine providers that assist us with Website improvement and optimization) and who are contractually obligated to keep Personal Data confidential and use it only for the purposes for which we disclose it to them;
+For purposes as stated in the "Assignability" section below;
+To fulfill the purpose for which you provide it;
+For any other purpose disclosed by us when you provide the information or
+With your consent.
+
+We may also disclose Personal Data in response to legal process, for example, in response to a court order or a subpoena, regulation, binding order of a data protection agency, governmental request, or other legal or regulatory process. We also may disclose Personal Data in response to a law enforcement agency's request, or where we believe it is necessary to protect the confidentiality and security of our records pertaining to you, to limit our legal liability or to investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the physical safety of any person, violations of our Terms of Use Agreement, or as otherwise required or permitted by law.
+
+We do not sell Personal Data to third parties.
+
+ASSIGNABILITY 
+
+Altus reserves the right to disclose, share, assign, and/or otherwise transfer your Personal Data, including without limitation PII, in connection with a merger, acquisition, consolidation, the sale of substantially all of its assets, or any other corporate transfer, exchange or restructuring, whatever form it may take. We may transfer information, including your Personal Data, in connection with a merger, sale, acquisition, or other change of ownership or control by or of us or any affiliated company (in each case, whether in whole or in part).
+
+COLLECTION OF INFORMATION BY THIRD-PARTY SITES 
+
+Our Site may contain links to other sites whose information practices may be different than ours. Visitors should consult the other sites' respective privacy policies as we have no control over information that is submitted to or collected by these third parties. We are not responsible for the policies or practices of third parties. The privacy practices of third-party websites linked to our site are not covered by this Privacy Policy. These other sites may send their own cookies or collect personally identifiable information. We cannot control this collection of information. You should contact these entities directly if you have any questions about their use of the information they collect.
+
+OUR COMMITMENT TO SECURITY 
+
+We have put in place physical, technical, and administrative procedures as required by law and as we deem reasonable that are designed to safeguard and help prevent unauthorized access, maintain data security, and correctly use the information we collect through the Site. However, we cannot guarantee the security of any information that is disclosed online. Therefore, we make no warranty regarding the security of any information you transmit to us via the Site, and you do so at your own risk.
+
+In addition, we take reasonable steps to ensure that we retain your Personal Data only for so long as is necessary for the purpose for which it was collected, or as required under any contract or by applicable law.
+
+CROSS-BORDER TRANSFERS 
+
+Your Personal Data may be collected, processed, and stored by Altus or its service providers outside of the jurisdiction where we are located and where you reside, including in the United States and other countries. As a result, when your Personal Data is used or stored in a jurisdiction other than where you are residing, it may be subject to the law of this foreign jurisdiction, including any law permitting or requiring disclosure of the information to the government, government agencies, courts and law enforcement in that jurisdiction.
+
+You hereby agree with and consent to the transfer of your Personal Data to the United States and other countries where we and our service providers operate.
+
+NO COLLECTION OF PERSONALLY IDENTIFIABLE INFORMATION FROM CHILDREN 
+
+The Site is not directed at children, and we do not knowingly collect any PII from children under thirteen (13) years of age unless the collection complies with the Children's Online Privacy Protection Act ("COPPA"). If you are under thirteen (13) years of age, do not send any information about yourself to us. If we discover that a child under the age of 13 has provided us with PII, we will use commercially reasonable efforts to delete that child's PII from our system.
+
+RESPONSE TO DO NOT TRACK SIGNALS 
+
+Some web browsers incorporate a "Do Not Track" (DNT) or similar feature that signals to digital devices that a visitor does not want to have his/her online activity tracked. Because not all web browsers offer DNT options and DNT signals are not yet uniform, we and many other digital service operators do not respond to DNT signals.
+
+SUPPLEMENTAL STATE NOTICES 
+
+California Privacy Rights
+
+The California Consumer Privacy Act, as amended by the California Privacy Rights Act (the “CCPA”), grants users of the Site who are California residents certain rights in regard to our collection of Personal Data. These rights include:
+
+The right to request the disclosures of (1) what Personal Data has been collected; (2) the categories of sources from which the Personal Data was collected; (3) the business or commercial purpose for collection or selling Personal Data; and (4) the categories of third parties with whom we share Personal Data;
+The right to request correction of inaccurate Personal Data that we maintain about you;
+The right to request deletion of Personal Data that has been collected; and
+The right to opt out of the sale of Personal Data.
+
+Under the CCPA, a data subject may only make a Personal Data request twice in a 12-month period. We will respond to such Personal Data requests within 45 days of receipt.
+
+Additionally, if you are a California resident, you have the right to request information from us regarding the manner in which we share certain categories of your Personal Data with third parties for such third parties' direct marketing purposes. California law provides that you have the right to submit a request to us at our designated address and receive the following information:
+
+The categories of information we disclosed to third parties for such third parties' direct marketing purposes during the preceding calendar year and
+The names and addresses of third parties that received such information, or if the nature of their business cannot be determined from the name, then examples of the products or services they market.
+
+You are entitled to receive a copy of this information in a standardized format, and the information will not be specific to you individually. You may make such a request by:
+
+Mail to Altus Capital Partners, Attn: Privacy Policy, 10 Westport Road, Suite C204, Wilton, Connecticut, 06897, U.S.A.
+Email us at investor.relations@altuscapitalpartners.com.
+Call, toll-free, 1-833-775-5155.
+
+The CCPA provides California residents with the right to receive a privacy notice with information about what we have collected, disclosed for business purposes, and sold during the preceding 12 months. This Privacy Policy provides information about the categories of information we have collected, the sources of that information, the purposes for which we have used the information, and the categories of third parties to whom we have disclosed the information for business purposes during the preceding 12 months.
+
+The categories of data that we collect and disclose for a business purpose include "sensitive personal information" as defined under the CCPA. We do not use or disclose sensitive personal information for any purpose not expressly permitted by the CCPA.
+
+We will not discriminate against any consumer for exercising their rights under the CCPA.
+
+California “Shine the Light” Notice
+
+We comply with California Civil Code Section 1798.83 (the “Shine the Light” law) by not sharing your Personal Data with third parties for their direct marketing purposes without your consent. If you are a California resident, you may request information about our compliance with the Shine the Light law by using the contact information provided in the “HOW TO CONTACT US” section of the Privacy Policy.
+
+Colorado, Connecticut, Virginia, and Utah Residents
+
+Colorado, Connecticut, Virginia, and Utah have comprehensive privacy laws that are similar to the CCPA and provide state residents with certain privacy rights. However, these state laws exempt financial institutions governed by the GLBA. As Altus is considered a financial institution under the GLBA, we are exempt from the comprehensive privacy laws of Colorado, Connecticut, Virginia and Utah.
+
+Nevada Residents
+
+Under Nevada law, Altus does not sell your Personal Data. However, if you are a Nevada resident, you may submit a request that we not sell any Personal Data we have collected about you by using the contact information provided in the “HOW TO CONTACT US” section of the Privacy Policy.
+
+INTERNATIONAL USERS 
+
+We are a United States company, and we follow the laws of the United States regarding the collection, storage, processing, and transfer of your information in and to the United States or other countries and territories. While this Privacy Policy applies to Personal Data generally, the local laws, rules, and regulations of jurisdictions that are applicable to us ("Local Laws") may require standards that are stricter than this Privacy Policy, and, in such event, we will comply with applicable Local Laws. Specific privacy policies may be adopted to address the specific privacy requirements of particular jurisdictions. Your Personal Data may be stored and processed in any country where we have facilities or service providers. In these circumstances, we will, as required by applicable law, ensure that your privacy rights are protected by organizational, technical, contractual, and/or other lawful means.
+
+EU DATA SUBJECTS 
+
+In the European Economic Area and Switzerland ("EU"), "Personal Data" is defined very broadly and includes any information about a natural person who can be identified, directly or indirectly, from data that we hold about them or from data that is combined with other information. EU data protection law requires us to have a legal basis before processing any Personal Data about you. The legal basis for us processing your Personal Data for the above purposes may be because: (i) you have provided your consent; (ii) it is necessary to for the performance of a contract with you; (iii) the processing is necessary for our compliance with a legal obligation; or (iv) the processing is in our legitimate interests. To the extent provided by applicable law, you may withdraw any consent you previously provided to us or object at any time on legitimate grounds to the processing of your Personal Data. In some circumstances, withdrawing your consent to Altus's use or disclosure of your Personal Data will mean that you cannot take advantage of certain Altus products or services.
+
+We may transfer your Personal Data outside the EU to the United States or any country that Altus or its service providers may have operations. Such countries do not have the same data protection laws as the EU. Any transfer of your Personal Data will be subject to a European Commission approved contract (as permitted under the General Data Protection Regulation) that is designed to help safeguard your privacy rights and give you remedies in the unlikely event of a misuse of your Personal Data. To obtain a copy of such safeguards please contact us.
+
+Under the General Data Protection Regulation you have a number of important rights free of charge. In summary, those include rights to:
+
+Fair processing of information and transparency over how we use your use Personal Data
+Access to your Personal Data and to certain other supplementary information that this Privacy Policy is already designed to address
+Require us to correct any mistakes in your information that we hold
+Require the erasure of Personal Data concerning you in certain situations
+Receive the Personal Data concerning you that you have provided to us in a structured, commonly used, and machine-readable format and have the right to transmit those data to a third party in certain situations
+Object at any time to processing of Personal Data concerning you for direct marketing
+Object to decisions being taken by automated means which produce legal effects concerning you or similarly significantly affect you
+Object in certain other situations to our continued processing of your Personal Data
+Otherwise, restrict our processing of your Personal Data in certain circumstances
+
+For further information on each of those rights, including the circumstances in which they apply, see the Guidance from the UK Information Commissioner's Office (ICO) on individuals' rights under the General Data Protection Regulation (or other relevant guidance).
+
+If you would like to exercise any of those rights, please Email, call, or write to us with the following:
+
+Enough information to identify you
+Proof of your identity and address
+The information to which your request relates
+
+HOW TO COMPLAIN 
+
+The General Data Protection Regulation also gives you the right to lodge a complaint with a supervisory authority, in particular in the EU state where you work, normally live, or where any alleged infringement of data protection laws occurred.
+
+If you have a complaint as to our use of your information in the United States or elsewhere, you may file a complaint with us, the California Attorney General (as applicable), or any other governmental agency or judicial body.
+
+YOUR CHOICES REGARDING YOUR INFORMATION 
+
+If you are aware of any discrepancies in your personal profile or would like to update, review, or remove your Personal Data from our systems, please edit your profile or contact us at any time. You can stop the delivery of certain e-mails and newsletters by following the instructions in the e-mail you receive or updating your online personal profile. If you feel that we have violated this Privacy Policy in any manner, please contact us so we may resolve any concerns.
+
+CAN AN INVESTOR OPT OUT OF ALTUS COLLECTING PERSONAL DATA? 
+
+No, as an investor, you consented upon execution of the fund(s) subscription and related documentation; however, you may withdraw from the fund(s) as contracted and, therefore, withdraw further consent. Users who wish to opt out of using the investor portal, which is accessed from Altus's website, to access communications from Altus may do so by contacting us. Altus will provide documents to such investors through another method, such as first-class postal delivery, as agreed with the investor. Investors who do not wish to review the Altus website do not have to visit or use the site.
+
+Please note that in order to fulfill certain obligations, we may need to continue sending you notices or other important information concerning any orders or services you request. You should be aware that it is not always possible to completely remove or delete all of your information from our databases without some residual data because of backups and other reasons.
+
+UPDATES & EFFECTIVE DATE 
+
+From time to time, we may update the Privacy Policy for this Site without prior notice to you. We will post the updated Privacy Policy on the Site and indicate at the top of the Privacy Policy when it was most recently updated. We will not use Personal Data in a manner materially different than as described in the Privacy Policy in effect at the time the information was collected. We encourage you to periodically check back and review this Privacy Policy so that you will always know what information we collect, how we use it, and to whom we disclose it. By continuing to interact with us after the modified version of the Privacy Policy has been posted or you have been informed of such an update, you agree to be bound by all such changes. If you do not agree to the changes in our Privacy Policy, it is your responsibility to stop interacting with us.
+
+HOW TO CONTACT US 
+
+If you have any questions or concerns about this Privacy Policy for this Site or its implementation, you may contact us at 203-429-2000 or toll-free 1-833-775-5155. Any questions or concerns regarding the terms of this Privacy Policy should be directed to: investor.relations@altuscapitalpartners.com, or via mail to Altus Capital Partners, Attn: Privacy Policy, 10 Westport Road, Suite C204, Wilton, Connecticut, 06897, U.S.A. We will contact any person lodging a formal complaint and cooperate with appropriate regulatory authorities to resolve any complaints that cannot be resolved between us and any individual(s).
+

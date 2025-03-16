@@ -1,0 +1,462 @@
+[
+  {
+    "url": "https://latticeworkcapital.com/",
+    "title": "Home - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/about-latticework",
+    "title": "About - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/team",
+    "title": "Team Members Archive - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/careers",
+    "title": "Careers - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/why-partner",
+    "title": "Why Partner - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/what-makes-us-different",
+    "title": "What Makes Us Different - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/investment-criteria",
+    "title": "Investment Criteria - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/portfolio",
+    "title": "Portfolios Archive - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/news",
+    "title": "News - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/contact",
+    "title": "Contact - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/latticework-receives-three-honors-at-the16th-annual-ma-atlas-awards",
+    "title": "Latticework Receives Three Honors at the 16th Annual M&A Atlas Awards - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/latticework-capital-managements-2024-year-in-review",
+    "title": "Latticework Capital Management\u2019s 2024 Year in Review - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/will-fletcher-promoted-to-managing-director",
+    "title": "Will Fletcher Promoted to Managing Director - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/lcm-announces-partnership-with-life-science-connect",
+    "title": "LCM Announces Partnership with Life Science Connect - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/2024",
+    "title": "2024 - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/2023",
+    "title": "2023 - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/2022",
+    "title": "2022 - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/archives",
+    "title": "Latticework Archives - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/legal-disclaimer",
+    "title": "Legal Disclaimer - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/text-message-policy",
+    "title": "Text Message Policy - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/privacy-policy",
+    "title": "Privacy Policy - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/team/kyle-bradford",
+    "title": "Kyle Bradford - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/team/steve-neumann",
+    "title": "Steve Neumann - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/team/will-fletcher",
+    "title": "Will Fletcher - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/team/brett-lacher",
+    "title": "Brett Lacher - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/team/ben-mccown",
+    "title": "Ben McCown - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/team/tj-shepherd",
+    "title": "TJ Shepherd - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/team/travis-hennessey",
+    "title": "Travis Hennessey - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/team/nina-saboorian",
+    "title": "Nina Saboorian - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/team/dane-block-jr",
+    "title": "Dane Block Jr. - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/team/ruslan-gabidoulline",
+    "title": "Ruslan Gabidoulline - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/team/phillip-marks",
+    "title": "Phillip Marks - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/team/chris-golz",
+    "title": "Chris Golz - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/team/madison-klatt",
+    "title": "Madison Klatt - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/case-study",
+    "title": "Case Studies Archive - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/portfolio/american-veterinary-group",
+    "title": "American Veterinary Group - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/portfolio/beacon-behavioral-partners",
+    "title": "Beacon Behavioral Partners - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/portfolio/elixia",
+    "title": "Elixia - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/portfolio/healthcare-building-solutions",
+    "title": "Healthcare Building Solutions - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/portfolio/inreach-health",
+    "title": "inReach Health - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/portfolio/institutes-of-health",
+    "title": "Institutes of Health - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/portfolio/kalon-aesthetics",
+    "title": "Kalon Aesthetics - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/portfolio/life-science-connect",
+    "title": "Life Science Connect - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/portfolio/rccs",
+    "title": "RCCS - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/portfolio/salt-dental-partners",
+    "title": "SALT Dental Partners - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/portfolio/xpress-wellness",
+    "title": "Xpress Wellness - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/lcm-2024-halftime-report",
+    "title": "LCM 2024 Halftime Report - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/goldman-sachs-alternatives-completes-acquisition-of-xpress-wellness-from-latticework-capital-management",
+    "title": "Goldman Sachs Alternatives Completes Acquisition of Xpress Wellness from Latticework Capital Management - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/american-clinical-research-services-announces-strategic-acquisition-of-elixia",
+    "title": "American Clinical Research Services Announces Strategic Acquisition of Elixia - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/latticework-capital-management-closes-lcm-healthcare-fund-ii-exceeds-target-at-345-million",
+    "title": "Latticework Capital Management Closes LCM Healthcare Fund II; Exceeds Target at $345 Million - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/news/2",
+    "title": "News - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/news/3",
+    "title": "News - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/news/5",
+    "title": "News - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/latticework-capital-management-announces-formation-of-new-firm",
+    "title": "Latticework Capital Management Announces Formation of New Firm - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/portfolio-company-update-salt-dental-partners",
+    "title": "Portfolio Company Update: SALT Dental Partners - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/lcm-announces-partnership-with-ioh",
+    "title": "LCM Announces Partnership with IOH - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/acrs-announces-ceo-cfo-acquisition-of-cssipag",
+    "title": "ACRS Announces CEO, CFO and Acquisition of CSSI/PAG - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/hbs-advances-medical-planning-services-with-acquisition-of-oneeq",
+    "title": "HBS Advances Medical Planning Services with Acquisition of OneEQ - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/salt-dental-collective-names-josh-yelsey-as-cfo",
+    "title": "Salt Dental Collective Names Josh Yelsey as CFO - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/lcm-2022-promotions",
+    "title": "LCM 2022 Promotions - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/salt-dental-collective-appoints-dylan-bates-as-new-ceo",
+    "title": "Salt Dental Collective Appoints Dylan Bates as New CEO - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/welcoming-ben-as-our-new-principal",
+    "title": "Welcoming Ben As Our New Principal - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/lcm-forms-site-management-company-acquires-cri",
+    "title": "LCM Forms Site Management Company & Acquires CRI - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/hbs-announces-acquisitions-of-barrins-associates",
+    "title": "HBS Announces Acquisitions of Barrins & Associates - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/hbs-expands-healthcare-facility-with-acquisition-of-hts",
+    "title": "HBS Expands Healthcare Facility with Acquisition of HTS - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/xpress-wellness-expands-geographic-footprint",
+    "title": "Xpress Wellness Expands Geographic Footprint - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/hbs-expands-consulting-services-with-acquisition-of-patton-healthcare-consulting",
+    "title": "HBS Expands Consulting Services with Acquisition of Patton Healthcare Consulting - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/latticework-capital-managements-2021-year-in-review",
+    "title": "Latticework Capital Management\u2019s 2021 Year in Review - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/2025",
+    "title": "2025 - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/2021",
+    "title": "2021 - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/2020",
+    "title": "2020 - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/2019",
+    "title": "2019 - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/2018",
+    "title": "2018 - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/2017",
+    "title": "2017 - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/2016",
+    "title": "2016 - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/2015",
+    "title": "2015 - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/latticework-capital-management-sells-american-veterinarian-group",
+    "title": "Latticework Capital Management Sells American Veterinarian Group - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://latticeworkcapital.com/",
+    "title": "Home - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/news/4",
+    "title": "News - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/latticework-capital-management-announces-partnership-with-healthcare-building-solutions",
+    "title": "Latticework Capital Management Announces Partnership with Healthcare Building Solutions - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/animal-medical-clinic-at-st-johns-partners-with-american-veterinary-group",
+    "title": "Animal Medical Clinic at St. Johns Partners with American Veterinary Group - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/latticework-capital-management-expands-its-team",
+    "title": "Latticework Capital Management Expands Its Team - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/latticework-capital-management-recapitalizes-restoration-behavioral-health-group",
+    "title": "Latticework Capital Management Recapitalizes Restoration Behavioral Health Group - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/latticework-capital-management-partners-with-american-veterinary-group",
+    "title": "Latticework Capital Management Partners with American Veterinary Group - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/latticework-capital-management-announces-investment-in-beacon-behavioral-hospital-a-leading-provider-of-mental-health-treatment-programs",
+    "title": "Latticework Capital Management Announces Investment in Beacon Behavioral Hospital, a Leading Provider of Mental Health Treatment Programs - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/xpress-wellness-urgent-care-completes-acquisition-of-mednow-urgent-care",
+    "title": "Xpress Wellness Urgent Care Completes Acquisition of MedNOW Urgent Care - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/latticework-capital-management-is-pleased-to-welcome-nina-saboorian-as-a-new-associate",
+    "title": "Latticework Capital Management is pleased to welcome Nina Saboorian as a new Associate - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/latticework-capital-wraps-up-debut-healthcare-fund-at-120-million-plus",
+    "title": "Latticework Capital Wraps Up Debut Healthcare Fund at $120 Million Plus - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/xpress-wellness-urgent-care-announces-recapitalization",
+    "title": "Xpress Wellness Urgent Care Announces Recapitalization - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/latticework-capital-management-adds-two-investment-professionals",
+    "title": "Latticework Capital Management Adds Two Investment Professionals - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/magnolia-animal-hospital-partners-with-american-veterinary-group",
+    "title": "Magnolia Animal Hospital Partners with American Veterinary Group - Latticework Capital Management",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://latticeworkcapital.com/lakeside-animal-hospital-partners-with-american-veterinary-group-to-accelerate-growth-in-the-tampa-market",
+    "title": "Lakeside Animal Hospital Partners with American Veterinary Group to Accelerate Growth in the Tampa Market - Latticework Capital Management",
+    "dynamic_states": 0
+  }
+]

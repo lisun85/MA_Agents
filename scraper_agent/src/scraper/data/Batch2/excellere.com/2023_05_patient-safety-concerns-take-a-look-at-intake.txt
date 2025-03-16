@@ -1,0 +1,65 @@
+URL: https://excellere.com/2023/05/patient-safety-concerns-take-a-look-at-intake
+TITLE: Patient Safety Concerns? Take a Look at Intake - Excellere Partners
+
+BASE CONTENT:
+================================================================================
+News from Our
+Focus Industries
+Patient Safety Concerns? Take a Look at Intake
+
+By Shawn Brockman, MBA, RN, and Melissa Giampietri
+
+The patient intake process is a critical component of healthcare delivery, as it lays the foundation for the patient-provider relationship. A poor patient intake process can have negative consequences for both patients and healthcare providers, including reduced quality of care, increased healthcare costs, patient safety concerns, and reduced patient satisfaction. Further, gathering insufficient information at the time of intake may fail to support a comprehensive care plan, leading to inadequate preparation for care and increased length of stay.
+
+Facilitating the best patient-provider relationship and improving patient safety both begin with accurate information flowing throughout an organization securely, quickly, and reliably. Correct, complete information is the pathway to avoiding errors, spotting potential crises, and developing effective care plans. Further, ensuring that patient intake staff communicate effectively with clinical departments will determine the speed, accuracy, and quality of care delivery, helping to mitigate adverse events or, ideally, prevent them from occurring.
+
+Streamline the intake process
+
+The information gathered during the referral and admissions process will be passed through the rest of the organization as the patient receives treatment. If an error occurs during intake, either from a mistake when inputting referral documentation or from omission of vital information, care outcomes may be affected. What’s more, if the intake process is too slow, a patient may not receive lifesaving treatment. However, rushing to get a patient in as quickly as possible can also lead to costly mistakes. The key is to draw a balance: Address impediments to workflow efficiency and improve the speed of clinical decision-making, all without sacrificing accuracy.
+
+This is best accomplished with a standardized workflow. By mapping out a uniform intake and flow process and having employees adhere to it, an organization can gather more accurate operational data to identify bottlenecks. By having people repeat the same tasks each day for every incoming patient referral, patterns will begin to emerge, revealing where processes can be sped up. And if an error occurs, going back through the steps will help to identify how it happened so that it can be isolated and mitigated in the future.
+
+By assessing the current workflow and continuously monitoring performance, healthcare organizations can measure and streamline each step of the patient intake process. A robust workflow solution can help to accomplish this and should closely monitor the following factors, which directly impact the efficiency of patient flow:
+
+Time to complete intake: Tracking the time it takes for patients to complete the intake process can help to identify bottlenecks and areas for improvement and to evaluate the effectiveness of the referral process.
+Referral source pipeline: It’s important to know where patients are coming from. Further, tracking the number of patients who are referred by various sources can help to improve predictability and to evaluate the effectiveness of marketing and referral programs.
+Lost referral metrics: Tracking the details of lost referrals can address a source of significant missed revenue and decreased patient satisfaction, and improve referral source network health.
+
+Let tech tackle transfers
+
+Transfers between healthcare providers and facilities can be a vulnerable time for patients, making it essential to ensure that all relevant information about their condition and treatment plan is accurately communicated. Healthcare organizations use various communications to receive referrals, including phone calls, emails, website self-referral inquiries, and secure direct messages. However, many organizations still rely on paper faxing to transfer this information.
+
+Although many consider fax machines to be outdated technology, they are still prevalent in healthcare. Roughly 70%–80% of patient admissions rely on faxing, especially when a patient arrives as a result of a transfer. Patient records can be dozens of pages long, leading to significant delays in care. Those records also need to be reviewed manually, bogging down the process further and potentially leading to errors if records are slow to arrive or incomplete.
+
+Ideally, the first pages of a fax referral should contain all the most relevant information on why the patient is seeking care, what care they have already received, their lab results, their medications, and their insurance, if any. The quicker a provider has all this information, the faster they can act on it. But the need for manual review can still slow down the process and leave a patient waiting. Additionally, pages are often sent out of order, with critical data mixed in with less essential information.
+
+This is where AI can help. Upgrading to cloud or digital faxing can be a game-changer for referrals and transfers, and it allows AI to automate a formerly manual process. AI has the potential to significantly improve patient intake by automating data capture and surfacing the data for more effective referral triage. Here are some of the ways combining modern fax technology and AI can improve patient flow:
+
+Automated data entry: AI technology can automate the process of entering patient information from faxed documents into referral systems and EHRs.
+Improved accuracy: AI technology can improve the accuracy of data entry by reducing the risk of human error.
+Increased efficiency: Automated data entry can speed up the intake process and reduce the amount of time staff need to spend on manual data entry.
+Enhanced security: Modern fax technology can ensure that sensitive patient information is transmitted securely and in compliance with regulations such as HIPAA.
+Improved provider and patient experience: Faster and more accurate intake processes can result in a better experience for the intake coordinator and increase patient satisfaction.
+
+Information technology plays a critical role in improving patient safety and care coordination during transfers between healthcare providers and facilities. Solutions can streamline workflows to automate and standardize the transfer process, reducing the risk of errors and improving efficiency. They can also improve coordination between healthcare providers, care coordinators, and intake staff, reducing the risk of miscommunication.
+
+Conclusion
+
+The C-suite typically views workflow efficiency, particularly the speed of the intake process, as a matter of business operations. However, there is also a significant human element involved, as well as an opportunity to provide better care for patients. Conducting an inventory of the intake process, identifying and resolving issues, and improving efficiency can increase the number of patients seen and the amount of revenue generated. Just as importantly, providing comprehensive, actionable information to clinicians as quickly as possible will enhance patient safety and potentially save lives.
+
+Shawn Brockman, MBA, RN, is the director of healthcare strategy and applications for Concord Technologies. He is a registered nurse with 20 years of experience in healthcare information technology. Melissa Giampietri is the Vice President of Clinical Applications for Concord Technologies; she has nearly 20 years of experience in the behavioral health and human services arena. She is focused on helping organizations achieve the triple aim of healthcare: superior clinical quality and outcomes; lower operational costs alongside improved efficiencies, and pathways to provide person-centered “whole person” care alongside population health. Giampietri helps providers achieve those goals by offering her expertise in leveraging innovative technological and operational solutions across the continuum of care.
+
+« Back to The Peak
+
+Top Stories
+HEALTH & PHARMACEUTICALS
+Low-Risk AI Adoption — A logical place to start
+HEALTH & PHARMACEUTICALS
+Buy and Ship Now supports access to critical medications
+BUSINESS SERVICES
+Weathering the Storm: How Specialty Pharmacies Can Navigate the 2024 Hurricane Season
+HEALTH & PHARMACEUTICALS
+Biocare Medical and Ensigna Biosystems Announce Strategic Partnership to Drive Spatial Biology, Multiomic Enablement, and Innovation in Biotechnology
+BUSINESS SERVICES
+Enhancing Patient Care with ParcelShield: Tackling Specialty Pharmacy Visibility and Tracking Challenges
+

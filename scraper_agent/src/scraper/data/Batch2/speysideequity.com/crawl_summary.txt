@@ -1,0 +1,437 @@
+[
+  {
+    "url": "https://speysideequity.com/",
+    "title": "Speyside Equity \u2013 Acquisition Solutions. Business Transformations.",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/about",
+    "title": "About \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments",
+    "title": "Investments \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/team",
+    "title": "Team \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/news",
+    "title": "News \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/about",
+    "title": "About \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/ashland-foundry",
+    "title": "Ashland Foundry \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/avon-gear-co",
+    "title": "Avon Gear Co. \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/block",
+    "title": "Block \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/cp-distributors",
+    "title": "CP Distributors \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/craftsman-custom-metals",
+    "title": "Craftsman Custom Metals \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/dalton-corporation",
+    "title": "Dalton Corporation \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/golden-west",
+    "title": "Golden West Fruit Company \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/gsc-technologies-inc",
+    "title": "GSC Technologies Inc. \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/magic-valley-frozen-foods",
+    "title": "Magic Valley Frozen Foods \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/mcgregor-thompson-hardware-ltd",
+    "title": "McGregor & Thompson Hardware LTD \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/midland-stamping-fabricating",
+    "title": "Midland Stamping & Fabricating \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/motor-castings-co",
+    "title": "Motor Castings Co. \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/opta-group-llc",
+    "title": "Opta Group LLC \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/opta-minerals",
+    "title": "Opta Minerals \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/oxxynova",
+    "title": "Oxxynova \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/pacific-steel-casting-company",
+    "title": "Pacific Steel Casting Company \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/reed-minerals",
+    "title": "Reed Minerals \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/sawbrook-steel-castings-company",
+    "title": "Sawbrook Steel Castings Company \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/shanahans",
+    "title": "Shanahan\u2019s \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/skw",
+    "title": "SKW \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/stahl-specialty-company",
+    "title": "Stahl Specialty Company \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/sweet-ovations",
+    "title": "Sweet Ovations \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/syrgis-performance-initiators",
+    "title": "Syrgis Performance Initiators \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/united-initiators",
+    "title": "United Initiators \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/western-industries-epg",
+    "title": "Western Industries \u2013 EPG \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments/western-industries-plastic-products",
+    "title": "Western Industries Plastic Products \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/investments",
+    "title": "Investments \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://speysideequity.com/privacy-policy",
+    "title": "Privacy Policy \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/rob-sylvester",
+    "title": "Rob Sylvester \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/jeffrey-stone",
+    "title": "Jeffrey Stone \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/ashland-foundry",
+    "title": "Ashland Foundry \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/avon-gear-co",
+    "title": "Avon Gear Co. \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/block",
+    "title": "Block \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/craftsman-custom-metals",
+    "title": "Craftsman Custom Metals \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/dalton-corporation",
+    "title": "Dalton Corporation \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/golden-west",
+    "title": "Golden West Fruit Company \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/magic-valley-frozen-foods",
+    "title": "Magic Valley Frozen Foods \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/mcgregor-thompson-hardware-ltd",
+    "title": "McGregor & Thompson Hardware LTD \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/midland-stamping-fabricating",
+    "title": "Midland Stamping & Fabricating \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/motor-castings-co",
+    "title": "Motor Castings Co. \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/opta-group-llc",
+    "title": "Opta Group LLC \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/opta-minerals",
+    "title": "Opta Minerals \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/oxxynova",
+    "title": "Oxxynova \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/pacific-steel-casting-company",
+    "title": "Pacific Steel Casting Company \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/sawbrook-steel-castings-company",
+    "title": "Sawbrook Steel Castings Company \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/shanahans",
+    "title": "Shanahan\u2019s \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/skw",
+    "title": "SKW \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/stahl-specialty-company",
+    "title": "Stahl Specialty Company \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/sweet-ovations",
+    "title": "Sweet Ovations \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/syrgis-performance-initiators",
+    "title": "Syrgis Performance Initiators \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/united-initiators",
+    "title": "United Initiators \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/western-industries-epg",
+    "title": "Western Industries \u2013 EPG \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/investments/western-industries-plastic-products",
+    "title": "Western Industries Plastic Products \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/author/speqwpadmin",
+    "title": "speqwpadmin \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/category/acquisitions",
+    "title": "Acquisitions \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/speyside-completes-acquisition-of-gsc",
+    "title": "Speyside Completes Acquisition of GSC \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/accesssmt-and-cp-distributors-merge",
+    "title": "AccessSMT and CP Distributors Merge \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/speyside-completes-carveout-of-reed-minerals",
+    "title": "Speyside Completes Carveout of Reed Minerals \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/category/company-news",
+    "title": "Company News \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/opta-group-lp-acquires-performix-metallurgical-additives-llc",
+    "title": "Opta Group LP Acquires Performix Metallurgical Additives, LLC \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/sale-of-dalton-corporation",
+    "title": "Sale of Dalton Corporation \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/opta-group-acquires-anker-industries",
+    "title": "Opta Group Acquires Anker Industries \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/opta-group-acquires-nuflux-llc-and-nupro-corporation",
+    "title": "Opta Group Acquires NuFlux LLC and Nupro Corporation \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/speyside-completes-continuation-vehicle-with-opta",
+    "title": "Speyside Completes Continuation Vehicle With Opta \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/opta-group-acquires-metcan-industrial-corp",
+    "title": "Opta Group Acquires Metcan Industrial Corp. \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/2025/01",
+    "title": "January 2025 \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/2024/10",
+    "title": "October 2024 \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/2024/09",
+    "title": "September 2024 \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/2024/05",
+    "title": "May 2024 \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/2024/01",
+    "title": "January 2024 \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/2023/12",
+    "title": "December 2023 \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/2023/10",
+    "title": "October 2023 \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/2023/08",
+    "title": "August 2023 \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/2021/11",
+    "title": "November 2021 \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/2020/10",
+    "title": "October 2020 \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/2020/02",
+    "title": "February 2020 \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/2019/10",
+    "title": "October 2019 \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/2019/06",
+    "title": "June 2019 \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/2019/03",
+    "title": "March 2019 \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/category/portfolio-sales",
+    "title": "Portfolio Sales \u2013 Speyside Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://speysideequity.com/ashland-foundry",
+    "title": "Ashland Foundry \u2013 Speyside Equity",
+    "dynamic_states": 0
+  }
+]

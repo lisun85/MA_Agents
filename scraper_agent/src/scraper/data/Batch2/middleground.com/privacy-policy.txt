@@ -1,0 +1,55 @@
+URL: https://middleground.com/privacy-policy
+TITLE: Privacy Policy – MiddleGround Capital
+
+BASE CONTENT:
+================================================================================
+PRIVACY POLICY
+
+MiddleGround respects your privacy as a visitor to our website (the “”Site””). It is important for you to understand what information we collect about you during your visit and what we do with that information. Your visit to this Site is subject to this “”Privacy Policy”” and our Terms of Use. By visiting this Site, you agree that we may collect, disclose and use information about you except as expressly provided below. You should review this privacy policy carefully, and if you do not agree with our practices you should not visit this Site.
+
+The Types of Information We Collect About You
+
+When you visit and browse the Site or otherwise interact with MiddleGround, we may collect information about you: information you provide to us, and information that we collect by using “”cookies”” and other technological means.
+
+Information You Provide To Us
+
+In order to obtain access to certain information or services provided via the Site, you may have to provide information that we may collect and store in a way that allows us to relate it to you personally, including but not limited to your name, e-mail address, address, phone number, fascimile number and investor status. We refer to such information as personally identifiable information. Like many other web sites, we actively collect personally identifiable information from our visitors by various means, including asking questions on this website and permitting you to communicate directly with us via e-mail.
+
+Information We Collect Through Other Means
+
+When you visit this Site, you may be assigned a permanent “”cookie”” (a small text file) to be stored on your computer’s hard drive. We and other companies use cookies for a variety of purposes. For instance, when you return to our Site after logging in, cookies provide information to the Site so that the Site will remember who you are.
+
+You can choose to browse this Site without cookies. However, without these identifier files you won’t have access to many features that may make your browsing of our Site smoother, and some of our services may not function properly. Each browser is different, so check your browser’s “”Help”” menu to learn how to change your cookie preferences.
+
+We also collect certain technical information from your computer each time you request a page during a visit to this Site. This information may include the Internet protocol (IP) address used to connect your computer to the Internet; computer and connection information such as browser type, version, and timezone setting, browser plug-in types and versions, operating system, and platform; the full Uniform Resource Locator (URL) clickstream to, through, and from our Site, including date and time; cookie number; and the phone number you used to call us.
+
+We may also use browser data such as cookies, or similar data on certain parts of our Site for fraud prevention and other purposes. During some visits we may use software tools such as JavaScript to measure and collect session information, including page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), and methods used to browse away from the page.
+
+We may use this information to measure Site activity, to develop ideas for improving our Site, and for any other purpose. We may freely share this information with others so long as it is not personally identifiable information.
+
+How We Use Personally Identifiable Information
+
+We may store your personally identifiable information and use it for marketing, research and other business purposes, and we may associate your personally identifiable information with other information we collect about you, such as details about your usage patterns and interests.
+
+Additionally, sometimes we hire companies to provide services to us. In those instances, there is sometimes a need to share your information with such companies. Sometimes we also work with other companies who help either gather your information or communicate with you. However, we will not sell your information to any other business without your consent except as necessary for you to continue to receive the benefits of any program or service you specifically request. We may also disclose any information we deem necessary, in our sole discretion, to comply with any applicable law, regulation, legal process or governmental request.
+
+As we continue to develop our business, we might sell or buy entities, subsidiaries, or other business units. In such transactions, visitor information generally is one of the transferred business assets but remains subject to the promises made in any pre-existing Privacy Policy. Also, in the event that MiddleGround, or substantially all of its assets are acquired, visitor information will of course be one of the transferred assets.
+
+Protection of Information; No Guarantee of Security
+We endeavor to protect your personal information. We use both technical and procedural methods to maintain the integrity and security of our databases, including firewalls. However, we will not be responsible for or liable in connection with any loss or disclosure of your personal information, other than disclosures that we knowingly make in violation of this Privacy Policy.
+
+Links
+
+This website may contain links to or from other websites. Please be aware that we are not responsible for the privacy practices of other websites. This Privacy Policy applies only to the information we collect on this Site. We encourage you to read the privacy policies of other websites you link to from this Site or otherwise visit.
+
+Changes to this Privacy Policy
+
+We may revise this Privacy Policy from time to time. If we decide to change our Privacy Policy, we will post the revised policy here.
+Comments
+
+If you have any questions, comments or concerns about our privacy practices, or if you wish to request access to, correct or delete any personal information that you have provided to us, please contact us at:
+
+Webmaster
+MiddleGround Management, LP
+admin@middlegrouncapital.com
+

@@ -1,0 +1,562 @@
+[
+  {
+    "url": "https://excellere.com/",
+    "title": "Home - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/entrepreneurs",
+    "title": "Entrepreneurs - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/value-creation",
+    "title": "Value Creation - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/industry-expertise",
+    "title": "Industry Expertise - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/portfolio",
+    "title": "Representative Investments - Excellere Partners",
+    "dynamic_states": 3
+  },
+  {
+    "url": "https://excellere.com/team",
+    "title": "Team - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/the-peak",
+    "title": "The Peak - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/contact",
+    "title": "Contact - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-announces-key-promotions-mike-forsyth-elevated-to-principal-and-ian-beck-to-vice-president-of-origination",
+    "title": "Excellere Partners Announces Key Promotions: Mike Forsyth Elevated to Principal and Ian Beck to Vice President of Origination - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news",
+    "title": "News Items Archive - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/privacy-policy",
+    "title": "Privacy Policy - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/terms-of-service",
+    "title": "Terms of Service - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/industry-expertise/healthcare-delivery",
+    "title": "Healthcare Delivery - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/industry-expertise/medical-products",
+    "title": "Medical Products - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/industry-expertise/pharma-services-and-technologies",
+    "title": "Pharma Services and Technologies - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/industry-expertise/industrial-growth",
+    "title": "Industrial Growth - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/the-peak/page/2",
+    "title": "The Peak - Page 2 of 14 - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/the-peak/page/14",
+    "title": "The Peak - Page 14 of 14 - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-announces-exit-of-sepro-corporation",
+    "title": "Excellere Partners Announces Exit of SePRO Corporation - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-announces-promotions-and-new-vp-of-finance",
+    "title": "Excellere Partners Announces Promotions and New VP of Finance - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-announces-promotions-3",
+    "title": "Excellere Partners Announces Promotions - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-is-pleased-to-announce-that-it-has-hired-a-new-associate-of-origination",
+    "title": "Excellere Partners is Pleased to Announce that it has hired a new Associate of Origination - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-pleased-to-announce-new-additions-to-the-firm",
+    "title": "Excellere Partners Pleased to Announce New Additions to the Firm - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-announces-promotion-2",
+    "title": "Excellere Partners Announces Promotion - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-announces-promotion",
+    "title": "Excellere Partners Announces Promotion - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-announces-promotions-2",
+    "title": "Excellere Partners Announces Promotions - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news/page/2",
+    "title": "News Items Archive - Page 2 of 5 - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news/page/5",
+    "title": "News Items Archive - Page 5 of 5 - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/the-peak/page/3",
+    "title": "The Peak - Page 3 of 14 - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2020/02/how-to-enhance-your-current-disease-program-for-greater-control",
+    "title": "How to Enhance Your Current Disease Program for Greater Control - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2018/04/5-faqs-to-maximize-the-impact-of-landscape-growth-regulators",
+    "title": "5 FAQs to Maximize the Impact of Landscape Growth Regulators - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/the-peak/page/13",
+    "title": "The Peak - Page 13 of 14 - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/team-member/matt-halverson",
+    "title": "Team - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-announces-professional-staff-additions-and-promotion",
+    "title": "Excellere Partners Announces Professional Staff Additions and Promotion - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-raises-875-million-for-its-fourth-fund-excellere-capital-fund-iv-lp",
+    "title": "Excellere Partners raises $875 Million for its Fourth Fund, Excellere Capital Fund IV LP - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-announces-the-addition-of-three-new-associates",
+    "title": "Excellere Partners Announces the Addition of Three New Associates - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-enters-into-strategic-alliance-partnership-with-geoff-hall-former-ceo-and-recognized-leader-in-medical-products-and-technology",
+    "title": "Excellere Partners Enters into Strategic Alliance Partnership with Geoff Hall, Former CEO and Recognized Leader in Medical Products and Technology - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/the-vistria-group-and-excellere-partners-invest-in-sca-pharmaceuticals",
+    "title": "The Vistria Group and Excellere Partners Invest in SCA Pharmaceuticals - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-announces-promotions",
+    "title": "Excellere Partners Announces Promotions - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/industry-leaders-join-forces-to-battle-toxic-algae-invasive-aquatic-weeds-and-phosphorus-pollution",
+    "title": "Industry leaders join forces to battle toxic algae, invasive aquatic weeds and phosphorus pollution. - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/parcelshield-holdings-an-excellere-partners-portfolio-company-welcomes-two-new-board-members",
+    "title": "ParcelShield Holdings, an Excellere Partners portfolio company, welcomes two new board members - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-enters-into-strategic-alliance-partnership-with-amjed-saffarini-a-recognized-leader-in-cybersecurity-and-risk-management",
+    "title": "Excellere Partners Enters into Strategic Alliance Partnership with Amjed Saffarini, a Recognized Leader in Cybersecurity and Risk Management - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-capital-fund-iii-l-p-announces-continuation-of-commitment-period-following-overwhelmingly-affirmative-vote-from-limited-partners",
+    "title": "Excellere Capital Fund III, L.P. Announces Continuation of Commitment Period Following Overwhelmingly Affirmative Vote from Limited Partners - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news/page/3",
+    "title": "News Items Archive - Page 3 of 5 - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-announces-strategic-investment-in-riverside-radiology-and-interventional-associates",
+    "title": "Excellere Partners Announces Strategic Investment in Riverside Radiology and Interventional Associates - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news/page/4",
+    "title": "News Items Archive - Page 4 of 5 - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/the-peak/page/4",
+    "title": "The Peak - Page 4 of 14 - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2021/09/racheal-adams-to-participate-in-fdas-compounding-quality-center-of-excellence-virtual-conference",
+    "title": "Racheal Adams to participate in FDA\u2019s Compounding Quality Center of Excellence Virtual Conference - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2021/05/during-national-nurses-month-sca-pharma-recognizes-the-front-line-providers-whose-work-has-been-critical-during-the-pandemic",
+    "title": "During National Nurses Month, SCA Pharma recognizes the front-line providers whose work has been critical during the pandemic - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2021/02/sca-pharma-extends-beyond-use-dating-on-many-products",
+    "title": "SCA Pharma extends Beyond Use Dating on many products - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2021/01/thinking-of-compounding-in-house-dont-forget-to-calculate-these-three-hidden-costs",
+    "title": "Thinking of compounding in-house? Don\u2019t forget to calculate these three \u201chidden\u201d costs. - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/the-peak/page/12",
+    "title": "The Peak - Page 12 of 14 - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/team-member/eric-mattson",
+    "title": "Team - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/team-member/ross-gundry",
+    "title": "Team - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/team-member/mike-forsyth",
+    "title": "Team - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-portfolio-company-biocare-medical-hires-luis-de-luzuriaga-as-ceo",
+    "title": "Excellere Portfolio Company, Biocare Medical, Hires Luis de Luzuriaga as CEO - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-announces-a-strategic-partnership-with-parcelshield-holdings",
+    "title": "Excellere Partners announces a strategic partnership with ParcelShield Holdings - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/concord-technologies-appoints-bill-shields-to-board-of-directors",
+    "title": "Concord Technologies Appoints Bill Shields to Board of Directors - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/david-l-kessenich-in-memoriam",
+    "title": "David L. Kessenich: In Memoriam - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-portfolio-company-biocare-medical-appoints-nicolas-barthelemy-as-executive-chairman",
+    "title": "Excellere Portfolio Company, Biocare Medical, Appoints Nicolas Barthelemy as Executive Chairman - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/10-tips-for-preparing-for-and-managing-a-private-equity-investor-relationship",
+    "title": "10 Tips for Preparing for and Managing a Private Equity Investor Relationship - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/quality-of-earnings-the-most-important-term-you-probably-dont-know",
+    "title": "Quality of Earnings: The Most Important Term You Probably Don\u2019t Know - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-announces-promotions-and-team-addition",
+    "title": "Excellere Partners Announces Promotions and Team Addition - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/sepro-corporation-announces-a-strategic-partnership-with-excellere-partners",
+    "title": "SePRO Corporation announces a strategic partnership with Excellere Partners - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-announces-investment-in-concord-technologies-a-leading-provider-of-healthcare-interoperability-and-automation-solutions",
+    "title": "Excellere Partners Announces Investment in Concord Technologies, a Leading Provider of Healthcare Interoperability and Automation Solutions - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/supporting-faculty-leadership-in-entrepreneurship-and-private-equity",
+    "title": "Supporting faculty leadership in entrepreneurship and private equity - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/two-labs-acquires-pennside-partners-ltd",
+    "title": "Two Labs Acquires Pennside Partners Ltd. - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-announces-two-add-on-acquisitions-for-its-medlogix-portfolio-company",
+    "title": "Excellere Partners Announces Two Add-on Acquisitions for it\u2019s Medlogix Portfolio Company - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/premier-imaging-ventures-announces-name-change-to-lucidhealth",
+    "title": "Premier Imaging Ventures Announces Name Change to LucidHealth - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/consolidated-services-group-looks-to-the-future-with-a-powerful-new-branding-campaign-and-visual-identity",
+    "title": "Consolidated Services Group Looks to the Future with a Powerful New Branding Campaign and Visual Identity - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/robert-a-martin-in-memoriam",
+    "title": "Robert A. Martin: In Memoriam - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/urgent-care-clinics-have-taken-off-in-the-past-decade-and-it-shows-that-health-care-businesses-acting-like-amazon-will-gain-an-edge",
+    "title": "Urgent care clinics have taken off in the past decade \u2014 and it shows that health care businesses acting like Amazon will gain an edge - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-announces-investment-in-biocare-medical-a-leading-provider-of-immunohistochemistry-instrumentation-and-reagents",
+    "title": "Excellere Partners Announces Investment in Biocare Medical, a Leading Provider of Immunohistochemistry Instrumentation and Reagents - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-announces-strategic-investment-in-leading-medical-claims-management-provider-consolidated-services-group-csg",
+    "title": "Excellere Partners Announces Strategic Investment in Leading Medical Claims Management Provider Consolidated Services Group (CSG) - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/news-item/excellere-partners-announces-its-investment-in-two-labs-marketing",
+    "title": "Excellere Partners Announces Its Investment in Two Labs Marketing - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/the-peak/page/5",
+    "title": "The Peak - Page 5 of 14 - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/05/why-the-breathing-triangle",
+    "title": "Why The Breathing Triangle? - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/04/hospital-pharmacies-planning-ahead-now-for-rise-in-elective-surgeries",
+    "title": "Hospital Pharmacies Planning Ahead Now For Rise In Elective Surgeries - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/03/find-your-mach-match-which-mach-detection-is-right-for-you",
+    "title": "Find Your MACH\u2122 Match: Which MACH Detection is Right for You? - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/03/advanced-infusion-care-aic-now-offers-takeda-infusion-therapy-cuvitru-immune-globulin-subcutaneous-human-20",
+    "title": "Advanced Infusion Care (AIC) now offers Takeda infusion therapy Cuvitru\u2122 [Immune Globulin Subcutaneous (Human)] 20% - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/the-peak/page/11",
+    "title": "The Peak - Page 11 of 14 - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2023/05/patient-safety-concerns-take-a-look-at-intake",
+    "title": "Patient Safety Concerns? Take a Look at Intake - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/the-peak/page/6",
+    "title": "The Peak - Page 6 of 14 - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/05/how-are-u-s-supply-chain-issues-affecting-the-pharmaceutical-industry",
+    "title": "How Are U.S. Supply Chain Issues Affecting the Pharmaceutical Industry? - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/05/biocares-q-series-ready-to-use-antibodies-for-leica-bond",
+    "title": "Biocare\u2019s Q Series \u2013 Ready to Use Antibodies for Leica Bond - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/05/cant-fall-asleepeven-when-youre-tired",
+    "title": "Can\u2019t Fall Asleep\u2026Even When You\u2019re Tired? - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/the-peak/page/10",
+    "title": "The Peak - Page 10 of 14 - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2023/03/ai-in-healthcare-a-great-add-on-not-a-replacement",
+    "title": "AI in Healthcare: A Great Add-on, Not a Replacement - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2023/02/your-nose-is-key-to-treating-your-throat-and-sleep-apnea",
+    "title": "Your Nose is Key to Treating Your Throat and Sleep Apnea - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2023/02/concord-care-intake-transforms-the-behavioral-health-intake-process",
+    "title": "Concord Care Intake Transforms the Behavioral Health Intake Process - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/10/how-to-maximize-pharmacy-reimbursement-for-every-order-and-prevent-costly-write-offs",
+    "title": "How To Maximize Pharmacy Reimbursement for Every Order and Prevent Costly Write-Offs - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/the-peak/page/7",
+    "title": "The Peak - Page 7 of 14 - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/07/how-to-effectively-combat-insurance-fraud-in-the-digital-age",
+    "title": "How to Effectively Combat Insurance Fraud in the Digital Age - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/06/how-to-predict-on-time-patient-medication-delivery-regardless-of-carrier-logistical-challenges-or-delays",
+    "title": "How To Predict On-Time Patient Medication Delivery Regardless of Carrier-Logistical Challenges or Delays - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/06/medical-marijuana-and-driving-how-could-it-affect-your-insurance",
+    "title": "Medical Marijuana and Driving: How Could It Affect Your Insurance? - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/06/biocares-ultraline-ready-to-use-antibodies-for-roche-instruments",
+    "title": "Biocare\u2019s UltraLine \u2013 Ready to Use Antibodies for Roche Instruments - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/06/whats-wrong-with-your-nose-one-of-two-things-is-to-blame",
+    "title": "What\u2019s Wrong With Your Nose? One of Two Things is to Blame\u2026 - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/the-peak/page/9",
+    "title": "The Peak - Page 9 of 14 - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/10/breast-cancer-feedback-leads-to-fewer-worries",
+    "title": "Breast Cancer Feedback Leads to Fewer Worries - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/10/raise-the-ruse-on-false-health-claims-and-reporting",
+    "title": "Raise the \u201cRuse\u201d on False Health Claims and Reporting - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/10/enhancing-patient-engagement-with-data-insights-and-digital-tools-while-reducing-pharmacy-costs-and-improving-outcomes",
+    "title": "Enhancing Patient Engagement With Data, Insights and Digital Tools While Reducing Pharmacy Costs and Improving Outcomes - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/09/parcelshield-wins-stratus-award-for-cloud-based-artificial-intelligence-technology",
+    "title": "ParcelShield Wins Stratus Award for Cloud-based Artificial Intelligence Technology - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/09/how-can-doctors-help-combat-the-growing-opioid-crisis",
+    "title": "How Can Doctors Help Combat the Growing Opioid Crisis? - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/the-peak/page/8",
+    "title": "The Peak - Page 8 of 14 - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/08/post-nasal-drip-101-everything-you-need-to-know",
+    "title": "Post Nasal Drip 101: Everything You Need to Know - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/08/how-current-events-should-inform-your-organizations-health-and-safety-training",
+    "title": "How Current Events Should Inform Your Organization's Health and Safety Training - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/07/blocking-reagents-the-building-blocks-for-clean-staining",
+    "title": "Blocking Reagents: The Building Blocks for Clean Staining - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/07/traveling-with-sleep-apnea-your-cpap",
+    "title": "Traveling With Sleep Apnea & Your CPAP - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/08/increase-visibility-on-the-shipment-of-critical-patient-medication-and-improve-on-time-delivery",
+    "title": "Increase Visibility on the Shipment of Critical Patient Medication and Improve On-Time Delivery - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/08/highly-antibiotic-resistant-superbug-strain-discovered-to-be-able-to-infect-humans",
+    "title": "Highly Antibiotic-Resistant Superbug Strain Discovered To Be Able To Infect Humans - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/08/cpap-vs-oral-appliance-whats-best-for-me",
+    "title": "CPAP vs Oral Appliance: What\u2019s Best For Me? - Excellere Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://excellere.com/2022/08/as-fungal-infections-grow-resistant-to-medication-desperate-patients-try-drug-after-drug",
+    "title": "As fungal infections grow resistant to medication, desperate patients try drug after drug - Excellere Partners",
+    "dynamic_states": 0
+  }
+]

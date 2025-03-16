@@ -1,0 +1,182 @@
+[
+  {
+    "url": "https://gencapamerica.com/",
+    "title": "Gen Cap America \u2013 Private Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/investment-philosophy",
+    "title": "Investment Philosophy \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/transaction-structures",
+    "title": "Transaction Structures \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/investment-criteria",
+    "title": "Investment Criteria \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/team",
+    "title": "Team \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/portfolio-companies",
+    "title": "Portfolio Companies \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/contact-us",
+    "title": "Contact Us \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-company-status/exited-companies",
+    "title": "Exited Companies \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-company-status/current-companies",
+    "title": "Current Companies \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-sectors/manufacturing",
+    "title": "Manufacturing \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-sectors/distribution",
+    "title": "Distribution \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-sectors/services",
+    "title": "Services \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-industries/a-d",
+    "title": "Aerospace & Defense \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-industries/auto",
+    "title": "Auto \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-industries/consumer-products",
+    "title": "Consumer Products \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-industries/flow-control",
+    "title": "Flow Control \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-industries/food",
+    "title": "Food \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-industries/infrastructure",
+    "title": "Infrastructure \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-industries/material-handling",
+    "title": "Material Handling \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-industries/medical",
+    "title": "Medical \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-industries/packaging",
+    "title": "Packaging \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-industries/other",
+    "title": "Other \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-company-status/exited-companies/page/2",
+    "title": "Exited Companies \u2013 Page 2 \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-company-status/current-companies/page/2",
+    "title": "Current Companies \u2013 Page 2 \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-sectors/manufacturing/page/2",
+    "title": "Manufacturing \u2013 Page 2 \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-sectors/distribution/page/2",
+    "title": "Distribution \u2013 Page 2 \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-sectors/services/page/2",
+    "title": "Services \u2013 Page 2 \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-industries/consumer-products/page/2",
+    "title": "Consumer Products \u2013 Page 2 \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-industries/other/page/2",
+    "title": "Other \u2013 Page 2 \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-company-status/exited-companies/page/3",
+    "title": "Exited Companies \u2013 Page 3 \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-sectors/manufacturing/page/3",
+    "title": "Manufacturing \u2013 Page 3 \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-sectors/distribution/page/3",
+    "title": "Distribution \u2013 Page 3 \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-industries/other/page/3",
+    "title": "Other \u2013 Page 3 \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-company-status/exited-companies/page/4",
+    "title": "Exited Companies \u2013 Page 4 \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-sectors/manufacturing/page/4",
+    "title": "Manufacturing \u2013 Page 4 \u2013 Gen Cap America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://gencapamerica.com/gca-company-status/exited-companies/page/5",
+    "title": "Exited Companies \u2013 Page 5 \u2013 Gen Cap America",
+    "dynamic_states": 0
+  }
+]

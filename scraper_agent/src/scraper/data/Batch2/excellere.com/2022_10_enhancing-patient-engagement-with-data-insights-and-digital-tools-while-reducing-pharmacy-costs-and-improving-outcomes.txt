@@ -1,0 +1,71 @@
+URL: https://excellere.com/2022/10/enhancing-patient-engagement-with-data-insights-and-digital-tools-while-reducing-pharmacy-costs-and-improving-outcomes
+TITLE: Enhancing Patient Engagement With Data, Insights and Digital Tools While Reducing Pharmacy Costs and Improving Outcomes - Excellere Partners
+
+BASE CONTENT:
+================================================================================
+News from Our
+Focus Industries
+Enhancing Patient Engagement With Data, Insights and Digital Tools While Reducing Pharmacy Costs and Improving Outcomes
+
+Enhancing Patient Engagement With Data, Insights and Digital Tools While Reducing Pharmacy Costs and Improving Outcomes
+
+Specialty pharmacies need processes, systems and tools to quickly determine medication delivery status, reassure confidence, and alleviate patient anxiety.
+
+In earlier articles, we examined various ways specialty pharmacies can be proactive with their outreach to patients and informing them of the delivery status of their medication or packages:
+
+The correlation between a pharmacy’s ability to leverage multiple tailored communication channels, such as email and mobile text messaging, and greater patient engagement.
+How leveraging parcel tracking technology with data, insights, and predictive analytics—before an order is shipped—can improve the pharmacy’s operational processes and planning on the front-end to minimize lost or delayed packages and enhance patient satisfaction.
+When real-time obstacles occur, such as weather conditions, extreme temperatures, or environmental changes, specialty pharmacies need to be able to monitor all critical patient medication, proactively communicate with patients, and rescue critical and packages that are in distress or cannot be delivered on time throughout the medication delivery journey.
+
+Still, it’s just as important to be prepared to respond instantly to today’s digitally savvy patients. They often prefer to track their orders proactively on their mobile devices, are anxious about getting their medication, and check the delivery status multiple times per order.
+
+According to one UPS study, 96% of shoppers actively track their purchases as they await their arrivals. It’s especially common for specialty pharmacy patients awaiting the arrival of costly medication to experience pre-parcel anxiety, which the Urban Dictionary defines as:
+
+The nervous impatience experienced when waiting for a parcel or package you’ve ordered to be delivered. Often accompanied by frequent glances at the front door for signs of the courier driver when you hear any audible or visual [cues] of their presence. Generally, the level of pre-parcel anxiety is highly correlated with the monetary, sentimental or hype-based value placed on the package delivered.
+
+Specialty pharmacies don’t control the delivery process when patient medications leave shipping docks. Technically, it becomes the responsibility of carriers such as USPS, FedEx, or UPS—each with their online tracking and notification methodologies and systems. But patients don’t order critical medications from the carriers; they conduct business with specialty pharmacies.
+
+For this reason, when patients fear that their valued item will arrive late, be stolen from the doorstep, or get lost among the millions of packages delivered each day, many will reach out to their specialty pharmacies for delivery updates, not the carriers. Specialty pharmacies need to be prepared to answer, “when is my medication scheduled to arrive?”
+
+‘Where’s My Package’ Inquiries = Avoidable Cost
+
+Not being prepared to answer this fundamental question, which appears simple to the end user but is quite complicated on the backend, can be costly in 3 vital critical areas:
+
+Delivery inquiries from patients that reach call centers cost specialty pharmacies money because they must staff them with skilled employees who can engage with patients and access the patient-specific medication delivery information.
+Delivery inquiries that reach pharmacists pull them from their primary patient-care duties, which costs specialty pharmacies money if measured by lost productivity. If the pharmacist is taking calls from patients inquiring about the expected delivery of the medication, they cannot service other customers.
+Ninety-seven percent of customers expect the ability to monitor their orders throughout every step of the shipping process. When specialty pharmacies can’t fulfill that expectation, it can tarnish customer satisfaction.
+
+When patients experience incorrect carrier tracking numbers, inaccurate delivery information, or difficult-to-navigate carrier parcel tracking websites, the volume of inbound call traffic increases and those specialty pharmacy costs compound. Specialty pharmacies need processes, systems and tools to quickly determine a medication’s delivery status, reassure confidence, and alleviate patient anxiety.
+
+Make it Easy for Patients to Access Information from their Mobile
+
+Providing patients with a comprehensive online solution from the pharmacy with the most accurate and up-to-date delivery information on their medication is paramount. Once a digital solution is implemented, and the patient can quickly view the medication tracking information, answering “where’s my package?” becomes automated.
+
+This saves time and money because there are fewer inbound questions, thereby reducing operational costs for the pharmacy and reassuring patient confidence in their pharmacy while bolstering the customer experience.
+
+The good news is that there are solutions in the market to help specialty pharmacies manage patient delivery concerns and curiosity. Here is a checklist to help identify the right provider to help you to enhance the patient engagement:
+
+Provider leverages carrier (UPS, FedEx, and USPS) and courier-specific tracking information along with predictive analytics to display a comprehensive, intuitive, and actionable interface for patients.
+Notifications can be triggered via text or email.
+Customer call centers can view the same information patients see, including all communications and delivery activities.
+Provider offers a specialty pharmacy-branded solution featuring the pharmacy’s logos, colors, fonts, brand messaging, and more.
+The solution is easily integrated with your existing system with API or web-based user interface.
+
+Once a medication has been shipped, it does not mean that the pharmacy automatically loses control of the patient experience. Provide up-to-date, on-demand delivery statuses with an intuitive pharmacy-branded website, send proactive notifications to the patient’s mobile device via text or email, and make it simple for patients to answer their questions to maintain brand continuity.
+
+Doing so will reduce operational costs and protect your patient experience throughout the delivery journey.
+
+« Back to The Peak
+
+Top Stories
+HEALTH & PHARMACEUTICALS
+Low-Risk AI Adoption — A logical place to start
+HEALTH & PHARMACEUTICALS
+Buy and Ship Now supports access to critical medications
+BUSINESS SERVICES
+Weathering the Storm: How Specialty Pharmacies Can Navigate the 2024 Hurricane Season
+HEALTH & PHARMACEUTICALS
+Biocare Medical and Ensigna Biosystems Announce Strategic Partnership to Drive Spatial Biology, Multiomic Enablement, and Innovation in Biotechnology
+BUSINESS SERVICES
+Enhancing Patient Care with ParcelShield: Tackling Specialty Pharmacy Visibility and Tracking Challenges
+

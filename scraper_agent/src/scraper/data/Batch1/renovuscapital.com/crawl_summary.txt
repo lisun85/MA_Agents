@@ -1,0 +1,252 @@
+[
+  {
+    "url": "https://renovuscapital.com/",
+    "title": "Renovus Capital - Investing in Knowledge and Talent",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/about-us",
+    "title": "About Us - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/our-team",
+    "title": "Our Team - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/portfolio",
+    "title": "Investment Portfolio - Renovus Capital",
+    "dynamic_states": 3
+  },
+  {
+    "url": "https://renovuscapital.com/renovus-impact",
+    "title": "Our Impact - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/news-and-insights",
+    "title": "News & Insights - Renovus Capital",
+    "dynamic_states": 20
+  },
+  {
+    "url": "https://renovuscapital.com/contact",
+    "title": "Contact - Renovus Capital",
+    "dynamic_states": 4
+  },
+  {
+    "url": "https://renovuscapital.com/company/pragmatic-institute",
+    "title": "Pragmatic Institute - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/company/education-dynamics",
+    "title": "Education Dynamics - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/company/nuc",
+    "title": "NUC University - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/company/clinicalmind",
+    "title": "ClinicalMind - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/company/rxstrategies",
+    "title": "Pillr Health - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/company/behavioral-framework",
+    "title": "Behavioral Framework - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/company/inflowcx",
+    "title": "InflowCX - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/company/resultant",
+    "title": "Resultant - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/company/lockstep",
+    "title": "Lockstep - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/company/harbor",
+    "title": "Harbor - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/company/f2-strategy",
+    "title": "F2 Strategy - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/company/solomonedwards",
+    "title": "SolomonEdwards - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/company/ascension-recovery-services",
+    "title": "Ascension Recovery Services - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/company/endeavour-solutions",
+    "title": "Endeavour Solutions - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/company/tristar-event-media",
+    "title": "TriStar Event Media - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/renovus-capital-partners-named-as-a-recipient-of-bluwaves-2025-top-pe-innovator-award",
+    "title": "Renovus Capital Partners Named as a Recipient of BluWave\u2019s 2025 Top PE Innovator Award - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/2024-year-in-review",
+    "title": "2024 Year in Review - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/renovus-capital-partners-portfolio-company-angeion-group-acquires-donlin-recano-elevating-bankruptcy-administration-with-industry-leading-innovation",
+    "title": "Renovus Capital Partners\u2019 Portfolio Company Angeion Group Acquires Donlin Recano, Elevating Bankruptcy Administration with Industry-Leading Innovation - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/renovus-capital-partners-announces-strategic-partnership-with-superior-health-holdings",
+    "title": "Renovus Capital Partners Announces Strategic Partnership with Superior Health Holdings - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/renovus-capital-partners-portfolio-company-solomonedwards-acquires-leading-tax-advisory-provider-steele-consulting",
+    "title": "Renovus Capital Partners' Portfolio Company SolomonEdwards Acquires Leading Tax Advisory Provider Steele Consulting - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/renovus-capital-partners-portfolio-company-f2-strategy-appoints-former-orion-executive-and-proven-industry-operator-ryan-beach-as-ceo",
+    "title": "Renovus Capital Partners' Portfolio Company F2 Strategy Appoints Former Orion Executive and Proven Industry Operator Ryan Beach as CEO - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/disclaimer",
+    "title": "Disclaimer - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/privacy",
+    "title": "Privacy Policy - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/terms",
+    "title": "Website Terms of Use - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/cassidy-baird",
+    "title": "Cassidy Baird - Director of Capital Formation & Investor Relations - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/jisa-ben",
+    "title": "Jisa Ben - Senior Fund Accountant - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/alex-bevis",
+    "title": "Alex Bevis - Vice President - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/jane-buckley",
+    "title": "Jane Buckley - Vice President - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/cole-burkitt",
+    "title": "Cole Burkitt - Fund Accountant - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/sarah-carter",
+    "title": "Sarah Carter - RCap Chief Operating Officer - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/fernando-cordova",
+    "title": "Fernando Cordova - Analyst - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/luca-di-leonardo",
+    "title": "Luca Di Leonardo - Analyst - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/james-foxen",
+    "title": "James Foxen - Analyst - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/atif-gilani",
+    "title": "Atif Gilani - Founding Partner - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/greg-gladstone",
+    "title": "Greg Gladstone - Vice President - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/david-hammerman",
+    "title": "David Hammerman - Fund Controller - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/ruchi-hazaray",
+    "title": "Ruchi Hazaray - Principal - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/pat-heath",
+    "title": "Pat Heath - Vice President - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/1178",
+    "title": "Morgan Heller - Portfolio Associate - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/caitlin-herbert",
+    "title": "Caitlin Herbert - Vice President - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/jackson-kelly",
+    "title": "Jackson Kelly - Analyst - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/randall-kutch",
+    "title": "Randall Kutch - RCap Partner - Renovus Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://renovuscapital.com/team-member/jennifer-lowe",
+    "title": "Jennifer Lowe - Office Manager - Renovus Capital",
+    "dynamic_states": 0
+  }
+]

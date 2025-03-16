@@ -1,0 +1,892 @@
+[
+  {
+    "url": "https://argosycapital.com/private-equity",
+    "title": "Argosy Private Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/",
+    "title": "Argosy Capital - Home",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/credit-partners",
+    "title": "Argosy Credit Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/strategic-partners",
+    "title": "Strategic Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/healthcare-partners",
+    "title": "Healthcare Partners - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/private-equity/for-intermediaries",
+    "title": "Argosy Private Equity - For Intermediaries",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/private-equity/for-business-owners",
+    "title": "Argosy Private Equity - For Business Owners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/private-equity/value-acceleration",
+    "title": "Argosy Private Equity - Value Acceleration",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights",
+    "title": "Insights Archive - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/private-equity/team",
+    "title": "Argosy Private Equity - Private Equity Team",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/private-equity/careers",
+    "title": "Careers - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/private-equity/companies",
+    "title": "Argosy Private Equity - Companies",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/private-equity/news",
+    "title": "Argosy Capital - Private Equity News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/private-equity/contact",
+    "title": "Argosy Private Equity - Contact",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/argosy-private-equity-recognized-as-a-2025-top-pe-firm-in-the-middle-market",
+    "title": "Argosy Private Equity Recognized as a 2025 Top PE Firm in the Middle Market - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/2024-year-in-review-healthcare-partners",
+    "title": "2024 Year in Review - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/about",
+    "title": "Argosy Capital - About",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/companies",
+    "title": "Argosy Private Equity - Companies",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/argosy-credit-partners-welcomes-linnea-begley",
+    "title": "Argosy Credit Partners Welcomes Linnea Begley - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/argosy-private-equity-announces-the-promotions-of-jessica-buchanan-and-logan-snyder",
+    "title": "Argosy Private Equity Announces the Promotions of Jessica Buchanan and Logan Snyder - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/credit-partners/team",
+    "title": "Argosy Credit Partners - Meet the Team",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/strategic-partners/team",
+    "title": "Argosy Strategic Partners - Meet the Team",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/healthcare-partners/team",
+    "title": "Argosy Healthcare Partners - Meet the Team",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/credit-partners/for-banks-and-lenders",
+    "title": "For Banks and Lenders - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/credit-partners/for-businesses-intermediaries",
+    "title": "For Businesses & Intermediaries - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/credit-partners/credit-partners-news",
+    "title": "Credit Partners News - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/credit-partners/contact",
+    "title": "Argosy Credit Partners - Contact",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/strategic-partners/news",
+    "title": "Strategic Partners News - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/strategic-partners/contact",
+    "title": "Argosy Strategic Partners - Contact",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/healthcare-partners/portfolio",
+    "title": "Healthcare Partners Portfolio - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/healthcare-partners/criteria",
+    "title": "Healthcare Partners Criteria - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/healthcare-partners/sectors",
+    "title": "Healthcare Partners Sectors - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/healthcare-partners/news",
+    "title": "Healthcare Partners News - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/healthcare-partners/contact",
+    "title": "Argosy Healthcare Partners - Contact",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/command-medical-products-appoints-jim-fitzgerald-as-executive-chairman-of-the-board",
+    "title": "Command Medical Products Appoints Jim Fitzgerald as Executive Chairman of the Board - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/argosy-healthcare-partners-promotes-greg-mayer-to-partner",
+    "title": "Argosy Healthcare Partners Promotes Greg Mayer to Partner - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/private-equity/ceo-summit",
+    "title": "Argosy Private Equity - CEO Networking and Summits",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights/mastering-process-flow-mapping-unlock-opportunities-and-supercharge-your-production",
+    "title": "Mastering Process Flow Mapping: Unlock Opportunities and Supercharge Your Production - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights/the-power-of-daily-management-keeping-your-team-aligned-and-moving-forward",
+    "title": "The Power of Daily Management: Keeping Your Team Aligned and Moving Forward - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights/navigating-the-path-of-integration-merging-two-companies-with-purpose-and-respect",
+    "title": "Navigating the Path of Integration: Merging Two Companies with Purpose and Respect - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights/how-to-spot-and-nurture-great-leaders",
+    "title": "How to Spot and Nurture Great Leaders - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights/seven-leadership-secrets-for-effective-communications",
+    "title": "Seven Leadership Secrets for Effective Communications - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights/unleashing-the-power-of-procurement-an-argosy-partner-post-by-beckway",
+    "title": "Unleashing the Power of Procurement - an Argosy Partner Post by Beckway - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights/nine-ways-to-destroy-the-value-of-your-company",
+    "title": "9 Ways to Destroy the Value of Your Company - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights/finding-opportunity-within-supply-chain-disruption-an-argosy-partner-post-by-beckway",
+    "title": "Finding Opportunity Within Supply Chain Disruption - an Argosy Partner Post by Beckway - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights/the-esg-mindset-driving-value-creation-with-corporate-social-responsibility",
+    "title": "The ESG Mindset: Driving Value Creation with Corporate Social Responsibility - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights/how-to-future-proof-your-supply-chain",
+    "title": "How to Future-Proof Your Supply Chain - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights/page/2",
+    "title": "Insights Archive - Page 2 of 2 - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/communication",
+    "title": "Communication Archives - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/crm",
+    "title": "CRM Archives - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/executive",
+    "title": "Executive Archives - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/growth",
+    "title": "growth Archives - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/integration",
+    "title": "Integration Archives - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/management",
+    "title": "Management Archives - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/marketing",
+    "title": "Marketing Archives - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/procurement",
+    "title": "Procurement Archives - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/social-responsibility",
+    "title": "Social Responsibility Archives - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/supply-chain",
+    "title": "Supply Chain Archives - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/voc",
+    "title": "VoC Archives - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/keven-shanahan",
+    "title": "Keven Shanahan - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/lane-wiggers",
+    "title": "Lane Wiggers - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/michael-bailey",
+    "title": "Michael Bailey - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/458",
+    "title": "Don Charlton - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/jack-nugent",
+    "title": "Jack Nugent - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/john-broderick",
+    "title": "John Broderick - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/seth-wilson",
+    "title": "Seth Wilson - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/kirk-griswold",
+    "title": "Kirk Griswold - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/john-kirwin",
+    "title": "John Kirwin - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/steven-morgenthal",
+    "title": "Steven Morgenthal - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/jason-cunningham",
+    "title": "Jason Cunningham - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/jana-kenney",
+    "title": "Jana Kenney - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/associate",
+    "title": "David Young - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/kevin-moses",
+    "title": "Kevin Moses - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/mike-paniccia",
+    "title": "Mike Paniccia - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/jessica-buchanan",
+    "title": "Jessica Buchanan - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/gwyn-lando",
+    "title": "Gwyn Lando - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/logan-snyder",
+    "title": "Logan Snyder - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/barrett-pittman",
+    "title": "Barrett Pittman - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/parth-sachar",
+    "title": "Parth Sachar - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/blake-meyer",
+    "title": "Blake Meyer - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/sarah-busch",
+    "title": "Sarah Busch - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/colleen-chaney",
+    "title": "Colleen Chaney - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/sarah-roth",
+    "title": "Sarah Roth - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/sherry-gao",
+    "title": "Sherry Gao - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/melanie-lyren",
+    "title": "Melanie Lyren - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/keith-marlowe",
+    "title": "Keith Marlowe - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/mark-hausmann",
+    "title": "Mark Hausmann - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/jon-aronson",
+    "title": "Jon Aronson - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/corey-williams",
+    "title": "Corey Williams - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/steven-zeller",
+    "title": "Steven Zeller - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/adam-kenny",
+    "title": "Adam Kenny - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/eric-boyer",
+    "title": "Eric Boyer - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/molly-malloy",
+    "title": "Molly Malloy - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/tiffany-yob",
+    "title": "Tiffany Yob - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/careers/associate",
+    "title": "Argosy Private Equity Pre-MBA Associate - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/2024-year-in-review",
+    "title": "2024 Year In Review - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/argosy-makes-a-splash-with-car-wash-acquisition",
+    "title": "Argosy Makes a Splash with Car Wash Acquisition - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/argosy-exits-its-investment-in-ritas-franchise-company-llc",
+    "title": "Argosy Exits Its Investment in Rita\u2019s Franchise Company, LLC - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/argosy-goes-the-final-mile-in-partnership-with-western-peaks",
+    "title": "Argosy Goes the Final Mile in Partnership with Western Peaks - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/argosy-private-equity-welcomes-gwyn-lando",
+    "title": "Argosy Private Equity Welcomes Gwyn Lando - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/argosy-private-equity-named-2024-sbic-of-the-year-established-manager",
+    "title": "Argosy Private Equity Named 2024 SBIC of the Year \u2013 Established Manager - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/argosy-links-up-with-federal-rent-a-fence",
+    "title": "Argosy Links Up with Federal Rent-A-Fence - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/groome-an-argosy-private-equity-portfolio-company-acquires-w-s-companies-inc",
+    "title": "Groome, an Argosy Private Equity Portfolio Company, Acquires W-S Companies - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/private-equity/news/page/2",
+    "title": "Argosy Capital - Private Equity News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/private-equity/news/page/3",
+    "title": "Argosy Capital - Private Equity News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/private-equity/news/page/7",
+    "title": "Argosy Capital - Private Equity News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/2025",
+    "title": "2025 - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/2024",
+    "title": "2024 - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/2023",
+    "title": "2023 - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/2022",
+    "title": "2022 - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/2021",
+    "title": "2021 - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/2020",
+    "title": "2020 - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/2019",
+    "title": "2019 - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/2018",
+    "title": "2018 - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/matthew-hall",
+    "title": "Matthew Hall - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/drew-dampier",
+    "title": "Drew Dampier - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/wade-vandegrift",
+    "title": "Wade Vandegrift - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/linnea-begley",
+    "title": "Linnea Begley - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/michael-shen",
+    "title": "Michael Shen - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/danielle-kelly",
+    "title": "Danielle Kelly - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/christopher-kim-2",
+    "title": "Christopher Kim - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/caroline-kirwin",
+    "title": "Caroline Kirwin - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/william-wang",
+    "title": "William Wang - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/janjer-patel",
+    "title": "Janjer Patel - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/quinn-sheehan",
+    "title": "Quinn Sheehan - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/paul-barrett",
+    "title": "Paul Barrett - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/greg-mayer",
+    "title": "Greg Mayer - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/ryan-noon",
+    "title": "Ryan Noon - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/team/garrett-bill",
+    "title": "Garrett Bill - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/argosy-strategic-partners-announces-team-promotions",
+    "title": "Argosy Strategic Partners Announces Team Promotions - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/nicklas-medical-staffing-appoints-josh-mohler-as-chief-executive-officer",
+    "title": "Nicklas Medical Staffing Appoints Josh Mohler as Chief Executive Officer - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/argosy-healthcare-partners-completes-recapitalization-announces-partnership-with-nicklas-medical-staffing",
+    "title": "Argosy Healthcare Partners Completes Recapitalization & Announces Partnership with Nicklas Medical Staffing - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/hudson-appoints-werner-maas-as-chief-executive-officer",
+    "title": "Hudson Appoints Werner Maas as Chief Executive Officer - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/command-medical-products-welcomes-karen-west-to-its-board-of-directors",
+    "title": "Command Medical Products Welcomes Karen West to its Board of Directors - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/connect-life-sciences-welcomes-mark-smith-and-jerick-henley-to-its-board-of-directors",
+    "title": "Connect Life Sciences Welcomes Mark Smith and Jerick Henley to its Board of Directors - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/argosy-healthcare-partners-completes-recapitalization-announces-partnership-with-connect-life-sciences",
+    "title": "Argosy Healthcare Partners Completes Recapitalization & Announces Partnership with Connect Life Sciences - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/argosy-healthcare-partners-completes-recapitalization-of-command-medical-products",
+    "title": "Argosy Healthcare Partners Completes Recapitalization of Command Medical Products - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/healthcare-partners/news/page/2",
+    "title": "Healthcare Partners News - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights/four-keys-to-creating-a-strong-high-performing-culture-in-your-organization",
+    "title": "Four Keys to Creating a Strong, High-Performing Culture in Your Organization - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights/five-secrets-to-understanding-voice-of-customer-voc",
+    "title": "Five Secrets to Understanding Voice of Customer (VoC) - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights/how-to-build-a-marketing-plan-that-works-for-your-organization",
+    "title": "How to Build A Marketing Plan that Works for Your Organization - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights/choosing-the-right-crm-for-your-business-part-one",
+    "title": "Choosing the Right CRM For Your Business: PART ONE - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights/positioning-for-explosive-growth-a-ceos-guide-to-enthusiastic-leadership-part-six",
+    "title": "Positioning for Explosive Growth: A CEO\u2019s Guide To Enthusiastic Leadership - Part Six - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights/it-takes-three-c-to-spell-executive-success",
+    "title": "It Takes Three C\u2019s to Spell Executive Success - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/insights/page/1",
+    "title": "Insights Archive - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/communication/page/2",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/communication/page/3",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/communication/page/7",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/crm/page/2",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/crm/page/3",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/crm/page/7",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/executive/page/2",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/executive/page/3",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/executive/page/7",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/growth/page/2",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/growth/page/3",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/growth/page/7",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/integration/page/2",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/integration/page/3",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/integration/page/7",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/management/page/2",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/management/page/3",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/management/page/7",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/marketing/page/2",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/marketing/page/3",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/marketing/page/7",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/procurement/page/2",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/procurement/page/3",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/procurement/page/7",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/social-responsibility/page/2",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/social-responsibility/page/3",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/social-responsibility/page/7",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/supply-chain/page/2",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/supply-chain/page/3",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/supply-chain/page/7",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/voc/page/2",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/voc/page/3",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://argosycapital.com/tag/voc/page/7",
+    "title": "Page not found - Argosy Capital",
+    "dynamic_states": 0
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "url": "https://ninthstreetcapital.com/",
+    "title": "Homepage - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/press-releases",
+    "title": "Press Releases - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/contact",
+    "title": "Contact - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/who-we-are",
+    "title": "Who We Are - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/who-we-are/information-for-owners",
+    "title": "Information for Owners - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/who-we-are/information-for-intermediaries",
+    "title": "Information for Intermediaries - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/who-we-are/our-team",
+    "title": "Our Team - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/who-we-are/our-capital-providers",
+    "title": "Our Capital Providers - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/our-approach",
+    "title": "Our Approach - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/our-approach/the-acquisition-process",
+    "title": "The Acquisition Process - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/our-approach/the-acquisition-process/investment-criteria",
+    "title": "Investment Criteria - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/our-approach/partnering-with-management",
+    "title": "Partnering with Management - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/our-approach/long-term-planning",
+    "title": "Long-Term Planning - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/our-portfolio",
+    "title": "Our Portfolio - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/investor-login",
+    "title": "Investor Login - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/press-releases/nscp-announces-the-sale-of-premium",
+    "title": "NSCP Announces the Sale of Premium - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/press-releases/nscp-expands-its-national-millwork-portfolio",
+    "title": "NSCP Expands its National Millwork Portfolio - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/press-releases/nscp-invests-in-interior-building-systems",
+    "title": "NSCP invests in Interior Building Systems - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/press-releases/nscp-invests-in-cabinets-by-design",
+    "title": "NSCP invests in Cabinets By Design - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/press-releases/nscp-invests-in-okeefe",
+    "title": "NSCP invests in O'Keefe - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/press-releases/nscp-invests-in-freelance-enterprises",
+    "title": "NSCP invests in Freelance Enterprises - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/press-releases/kcd-appoints-randy-goldstein-as-ceo",
+    "title": "KCD Appoints Randy Goldstein as CEO - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/press-releases/nscp-invests-in-premium-testing-and-inspection",
+    "title": "NSCP invests in Premium Testing and Inspection - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/press-releases/nscp-exits-ios-investment",
+    "title": "NSCP Exits IOS Investment - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/press-releases/nscp-invests-in-kitchen-cabinet-distributors",
+    "title": "NSCP invests in Kitchen Cabinet Distributors - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/press-releases/nscp-invests-in-gss",
+    "title": "NSCP invests in GSS - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/press-releases/investment-made-in-ios",
+    "title": "Investment made in IOS - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/press-releases/nscp-exits-castronics",
+    "title": "NSCP Exits Castronics - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://ninthstreetcapital.com/press-releases/nscp-acquires-castronics",
+    "title": "NSCP acquires Castronics - Ninth Street Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "about://ninthstreetcapital.com",
+    "title": "",
+    "dynamic_states": 0
+  }
+]

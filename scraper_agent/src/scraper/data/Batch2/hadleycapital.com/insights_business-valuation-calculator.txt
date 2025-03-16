@@ -1,0 +1,146 @@
+URL: https://hadleycapital.com/insights/business-valuation-calculator
+TITLE: Small Business Valuation Calculator | Hadley Capital
+
+BASE CONTENT:
+================================================================================
+Small Business Valuation Calculator
+Get a free and confidential snapshot of your business value by using our valuation calculator.
+1. Input your company’s information
+2. Receive a valuation estimate instantly
+3. Download a Confidential Valuation Report
+Estimated Company Value
+Calculating…
+
+This is an estimate only and not a binding valuation of your company or commitment to buy.
+
+1
+EBITDA
+2
+Revenue
+3
+Business
+4
+Report
+What is your annual EBITDA? (in millions, max $5M)
+$0M
+What is your revenue growth rate? (max 50%)
+0%
+What is your EBITDA margin (as a percentage of revenue, max 50%)?
+0%
+BACK
+CONTINUE
+
+
+How Our Business Valuation Calculator Works
+
+Hadley is not a professional valuation firm. We are small company owners and investors with more than two decades of experience buying dozens of small companies.
+
+Estimates
+
+Nearly all of our conversations with business owners eventually center on valuation. Our valuation calculator is designed to provide ...
+
+Read More...
+
+Perspective
+
+Every business has unique elements that need to be considered on a case-by-case basis when completing a comp...
+
+Read More...
+
+Predictors
+
+Over the past two decades, we have determined that there are a handful of company and financial characteristics that are good...
+
+Read More...
+
+Calculations
+
+Hadley values companies based on their ability to generate future operating cash flows....
+
+Read More...
+
+Weight
+
+The valuation calculator weighs each of the inputs in developing the resulting EBITDA mult...
+
+Read More...
+
+Report
+
+The Confidential Valuation Report is generated automatically based upon your inputs into the Valuation Calculator. It has not been r...
+
+Read More...
+
+TRY IT NOW
+Understanding and using your business valuation report
+Inputs
+
+9 basic characteristics of your business that are critical to predicting future operating cash flow.
+
+Explanations
+
+Support for how each of the 9 inputs influence, positively or negatively, the resulting valuation.
+
+Multiplier
+
+The approximate multiple that is applied to annual EBITDA to arrive at an Enterprise Valuation.
+
+Valuation
+
+The approximate Enterprise Value or “Market Value” of your business before paying off debts.
+
+Different Business Valuation Methods
+Book Value
+
+An accounting approach to valuation defined as: Total Asset...
+
+Read More...
+
+Discounted Cash Flow
+
+This approach involves estimating a company’s future cash flows and the...
+
+Read More...
+
+Multiples
+
+Applying a multiplier to a specific company metric, most commonly annual cash ...
+
+Read More...
+
+Comparables
+
+Identifying public and private transactions or comparable public companies and deri...
+
+Read More...
+
+FACTS
+Important Business Valuation Considerations
+
+Valuation is more art than science — Ultimately, the value of anything being sold is what someone is willing to pay for it;
+
+Value is in the eye of the beholder — It’s easy to be emotional about the value of something that you love;
+
+Business characteristics influence valuation — Larger businesses generally receive higher valuations than smaller businesses;
+
+Comparisons must be comparable — Just because your friend sold her business for 10x EBITDA does not mean your business is worth 10x EBITDA;
+
+Transaction structure matters — All cash at a lower valuation may be more “valuable” than very little cash at a high valuation;
+
+Finding the right buyer is important — A buyer that values specific elements of the business will generally value a business more highly.
+
+Share In Our Insights
+Small Business Private Equity
+Paul Wormley
+November 05, 2021 - 2 min read
+Enterprise Value vs. Equity Value: Everything You Need to Know
+
+Enterprise value is the value of a company that is available to all of its debt and equity holders while equity value is the portion of…
+
+Selling A Small Business
+Paul Wormley
+October 20, 2021 - 2 min read
+Asset-Based Valuations: Benefits and Pitfalls
+
+Asset-Based valuations are a form of business valuation that is centered on the value of a company’s assets. Asset-Based valuations are most…
+

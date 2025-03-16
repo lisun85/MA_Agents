@@ -1,0 +1,322 @@
+[
+  {
+    "url": "https://rljequitypartners.com/home",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/about_us",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/management",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/portfolio",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/why_private_equity",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/contact",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=154",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=51",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=152",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/terms",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/strategy",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/investment_criteria",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/executive_network",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/why_rlj",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/faq",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=146",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=79",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=130",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=147",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=76",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=77",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=81",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=143",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=144",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=148",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=72",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=142",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=141",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=138",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=131",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=71",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=70",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=68",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=134",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=69",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=140",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=67",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=139",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=66",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=65",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=64",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=63",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=62",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=137",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=61",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=60",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=59",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=40",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=58",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=57",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=55",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=136",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=132",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=52",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=49",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=48",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=47",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=46",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=44",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=45",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=133",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=43",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rljequitypartners.com/news_media&id=42",
+    "title": "RLJ Equity Partners",
+    "dynamic_states": 0
+  }
+]

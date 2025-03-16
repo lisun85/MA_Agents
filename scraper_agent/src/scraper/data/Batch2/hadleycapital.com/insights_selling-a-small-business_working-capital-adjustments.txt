@@ -1,0 +1,124 @@
+URL: https://hadleycapital.com/insights/selling-a-small-business/working-capital-adjustments
+TITLE: Working Capital Adjustments: 4 Common Questions Answered
+
+BASE CONTENT:
+================================================================================
+Working Capital Adjustments: 4 Common Questions Answered
+Paul Wormley
+April 06, 2011 - 2 min read
+
+Working Capital Adjustments are purchase price adjustments in small business acquisitions. They are often a source of confusion in the sale of a small business and that’s why we want to take some time to demystify this concept.
+
+Key Takeaways:
+
+The most basic net working capital definition is: Accounts Receivable + Inventory - Accounts Payable
+Working capital adjustments and working capital cycle/cash conversion cycle are commonly confused, but are distinct concepts which rely on the same inputs. This blog explores working capital adjustments.
+In general, the lower amount of working capital a business can maintain, the better (However, cash constraints can limit operations if working capital is too low).
+
+In this blog post, I’m going to answer the following common questions we hear in regards to working capital adjustments:  
+
+What Are Working Capital Adjustments and Why Do We Use Them?
+Do Working Capital Adjustments Impact Purchase Price?
+How Do We Calculate Working Capital?
+Is It Better to Have High or Low Working Capital?
+What Are Working Capital Adjustments & Why Do We Use Them?
+
+Working capital represents the liquidity required to operate a business from day to day. 
+
+Generally, working capital includes current assets (e.g. accounts receivable) and current liabilities (e.g. accounts payable). Net working capital is the difference between current assets and current liabilities.
+
+A Working Capital Adjustment captures the performance (good or bad) of a business between executing a Letter of Intent (LOI) and closing an acquisition.
+
+It is designed to convey to the seller the ‘appropriate’ amount of working capital required to operate the business and to ‘adjust’ for amounts higher or lower.
+
+A properly structured working capital adjustment will not benefit or penalize the seller or the buyer. 
+
+According to Thomas Reuters Practical Law, “a buyer acquiring a target company or business needs to make sure that the target company or business has enough working capital after the closing to continue its operations as previously conducted by the seller. If working capital is inadequate, the buyer needs to infuse more cash into the business, effectively increasing the purchase price it is paying.”
+
+The inverse is also true - if working capital is artificially high, the seller has funded additional cash into the business, effectively decreasing the purchase price paid by the buyer.
+
+Working capital adjustments can sometimes be confused with working capital cycle or cash conversion cycle because they rely on the same inputs. These concepts are separate and distinct from working capital adjustments and are covered in this article regarding cash management techniques.
+
+Do Working Capital Adjustments Impact Purchase Price?
+
+Working capital adjustments are included in nearly all transactions but a properly structured working capital adjustment does not impact the purchase price as we outline below.
+
+The most important component of a Working Capital Adjustment is the Working Capital Target. The Target is negotiated between buyer and seller as part of the LOI.
+
+It determines the 'appropriate' level of working capital to be delivered at closing and 'appropriate' meaning the amount of working capital required to operate the business. The most common method for determining the working capital target is by calculating the average trailing twelve-month working capital amounts.
+
+If the Working Capital at Closing is more than the Target, more cash is due to the seller. 
+
+If the Working Capital at Closing is less than the Target, the cash due to the seller is decreased. 
+
+But the net impact to buyer and seller will be zero.
+
+How Do We Calculate Working Capital Adjustments?
+
+The calculation for working capital adjustments is best explained with context. 
+
+A simple example will help illustrate:
+
+In the negotiation of an LOI, the Working Capital includes only Accounts Receivable and Accounts Payable and the buyer and seller agree to set the Working Capital Target at $10:
+
+At closing, the actual working capital of the seller's business is as follows:
+
+Working Capital at Closing ($13) exceeds the Working Capital Target ($10) by $3 so the Seller receives an additional $3 at closing.
+
+From LOI to closing, the seller's business grew and, as a result, the balance sheet of the business grew. 
+
+Accounts receivable increased from $20 to $25, requiring the seller to fund $5 of cash into the business. The accounts payable also increased from $10 to $12, a source of $2 cash to the seller.  
+
+The net impact of the increase in accounts receivable (fund $5) and accounts payable (get $2) was $3 in cash funded by the seller into the business to support working capital growth.
+
+In other words, the Working Capital Adjustment 'worked'. 
+
+The net impact to the seller was $0 because the seller recaptures the $3 funded into working capital. 
+
+The net impact to the buyer was $0 because the buyer paid an additional $3 for a balance sheet that was $3 larger than at LOI.
+
+This example can obviously work in both directions but the outcome will be the same – neither buyer nor seller will benefit or be penalized by the working capital adjustment - and the net purchase price will not be impacted. Take a look at the graphic below to see these calculations from both the buyer and seller’s perspectives.
+
+Is It Better to Have High or Low Working Capital?
+
+The answer depends on the company and here’s why:
+An 'appropriate' amount will be specific to each company and must take into consideration seasonality, growth, and a host of other factors. 
+
+Generally speaking, the lower amount of working capital a business can maintain, the better. 
+
+However, if working capital is too low, a business may face cash constraints that limit its operations. 
+
+What to Keep In Mind
+
+Working Capital Adjustments are a confusing part of negotiating the sale of a business and can frequently derail a sale process.
+
+But, they are critical to ensuring the ‘appropriate’ level of working capital is conveyed to the buyer, ensures the seller is made whole if more than the ‘appropriate’ level is conveyed (and vice versa), and does not impact purchase price. 
+
+Are you evaluating a sale of your small company? At Hadley Capital, we have over 20 years of experience working with small company owners. 
+
+Want to learn more? In 30 minutes, we can describe to you how it might work. Contact us to set up a confidential, no obligation conversation.
+
+Paul Wormley - Managing Partner
+
+Paul joined Hadley in 2005. He grew up in a family business environment and has spent his entire career working with small and emerging companies.
+
+He currently works with Interstate Fabrications, Filter Holdings, J&R, AGI, Gillinder, Equustock, Pneu-Con, and Storflex. Previously he was the chairman or served on the board of directors for i-deal Optics, Centare, QDx Pathology, GT Golf Supplies, and Open Sky Media – all former Hadley companies.
+
+Paul is an outdoor enthusiast who enjoys fishing, hunting, riding motorbikes, Crossfit and an occasional craft beer. He works closely with a number of non-profit organizations including One Acre Fund, Trout & Salmon Foundation, and Northfield Parks Foundation.
+
+Paul is a graduate of the University of Colorado at Boulder and received an MBA from the Kellogg School of Management at Northwestern University. He and his wife, Rosemary, have three children.
+
+Recommended Reading
+Centare Sold to Leading Onshore Development Organization
+By Paul Wormley
+Insights on Management Buyouts for Small Businesses
+By Harrison Menaker
+Purchase Price Allocation in Small Company Acquisitions
+By Ryan Hanley
+What are Indemnification Baskets and Caps in M&A?
+By Paul Wormley
+Categories
+Managing A Small Business
+Selling A Small Business
+Small Business Private Equity
+

@@ -1,0 +1,717 @@
+[
+  {
+    "url": "https://mangroveequity.com/",
+    "title": "Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/owners-management",
+    "title": "Owners & Management Teams - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/operating-partners",
+    "title": "Operating Partners - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/core-values",
+    "title": "Core Values - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/intermediaries",
+    "title": "Intermediaries - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/independent-equity-sponsors",
+    "title": "Independent Equity Sponsors - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/testimonials",
+    "title": "In The Words of Our Partners - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/criteria",
+    "title": "Criteria - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/criteria/industries",
+    "title": "Industries - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/portfolio",
+    "title": "Portfolio - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/news",
+    "title": "News - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/the-team",
+    "title": "Team - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/contact-us",
+    "title": "Contact Us - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://mangroveequity.com/owners-management",
+    "title": "Owners & Management Teams - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://mangroveequity.com/partnerships/operating-partners",
+    "title": "Operating Partners - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://mangroveequity.com/intermediaries",
+    "title": "Intermediaries - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://mangroveequity.com/independent-equity-sponsors",
+    "title": "Independent Equity Sponsors - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://mangroveequity.com/privacy-policy",
+    "title": "Privacy Policy - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://mangroveequity.com/site-map",
+    "title": "Site Map - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/partnerships/operating-partners",
+    "title": "Operating Partners - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/author/mastermangrove",
+    "title": "Mangrove Equity Partners, Author at Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/category/uncategorized",
+    "title": "Portfolio News Archives - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-announces-launch-of-new-platform-sphere-investigations-with-investments-in-phenix-investigations-and-fraud-sniffr",
+    "title": "Mangrove Announces Launch of New Platform, Sphere Investigations, with Investments in PHENIX Investigations and Fraud Sniffr - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-announces-investment-in-griffin-gear",
+    "title": "Mangrove Announces Investment in Griffin Gear - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-announces-investment-in-a-and-r-sealcoating",
+    "title": "Mangrove Announces Investment in A&R Sealcoating - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-announces-investment-in-normco-pump-power",
+    "title": "Mangrove Announces Investment in NORMco Pump & Power - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/star-turbine-joins-forces-with-thor-precision",
+    "title": "STAR Turbine Joins Forces with Thor Precision - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/news/page/2",
+    "title": "News - Page 2 of 12 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/news/page/3",
+    "title": "News - Page 3 of 12 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/news/page/4",
+    "title": "News - Page 4 of 12 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/news/page/10",
+    "title": "News - Page 10 of 12 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/news/page/11",
+    "title": "News - Page 11 of 12 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/news/page/12",
+    "title": "News - Page 12 of 12 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/category/general-announcements",
+    "title": "General Announcements Archives - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://mangroveequity.com/portfolio",
+    "title": "Portfolio - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://mangroveequity.com/contact-us",
+    "title": "Contact Us - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/home",
+    "title": "Home - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/privacy-policy",
+    "title": "Privacy Policy - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/updates",
+    "title": "Updates - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/investor-login",
+    "title": "Investor Login - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/site-map",
+    "title": "Site Map - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/login",
+    "title": "Log In - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/login/logout",
+    "title": "Log Out - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/login/lostpassword",
+    "title": "Lost Password - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/login/register",
+    "title": "Register - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/login/resetpass",
+    "title": "Reset Password - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/author/mastermangrove/page/2",
+    "title": "Mangrove Equity Partners, Author at Mangrove Equity Partners - Page 2 of 12",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/author/mastermangrove/page/3",
+    "title": "Mangrove Equity Partners, Author at Mangrove Equity Partners - Page 3 of 12",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/author/mastermangrove/page/4",
+    "title": "Mangrove Equity Partners, Author at Mangrove Equity Partners - Page 4 of 12",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/author/mastermangrove/page/10",
+    "title": "Mangrove Equity Partners, Author at Mangrove Equity Partners - Page 10 of 12",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/author/mastermangrove/page/11",
+    "title": "Mangrove Equity Partners, Author at Mangrove Equity Partners - Page 11 of 12",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/author/mastermangrove/page/12",
+    "title": "Mangrove Equity Partners, Author at Mangrove Equity Partners - Page 12 of 12",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/category/uncategorized/page/2",
+    "title": "Portfolio News Archives - Page 2 of 11 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/category/uncategorized/page/3",
+    "title": "Portfolio News Archives - Page 3 of 11 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/category/uncategorized/page/4",
+    "title": "Portfolio News Archives - Page 4 of 11 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/category/uncategorized/page/9",
+    "title": "Portfolio News Archives - Page 9 of 11 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/category/uncategorized/page/10",
+    "title": "Portfolio News Archives - Page 10 of 11 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/category/uncategorized/page/11",
+    "title": "Portfolio News Archives - Page 11 of 11 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://mangroveequity.com/",
+    "title": "Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-announces-investment-in-wear-concepts",
+    "title": "Mangrove Announces Investment in Wear-Concepts - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/stcr-completes-partnership-with-sir-solutions",
+    "title": "STCR Completes Partnership with SIR Solutions - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-equity-recognized-as-a-2022-top-founder-friendly-investor-by-inc",
+    "title": "Mangrove Equity Recognized as a 2022 Top Founder-Friendly Investor by Inc. - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-announces-sale-of-shields-business-solutions",
+    "title": "Mangrove Announces Sale of Shields Business Solutions - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-announces-investment-in-atlas-greenhouse-llc",
+    "title": "Mangrove Announces Investment in Atlas Greenhouse, LLC - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/news/page/1",
+    "title": "News - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/news/page/5",
+    "title": "News - Page 5 of 12 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-announces-the-sale-of-rc-rasmussen-corporation",
+    "title": "Mangrove Announces the Sale of RC Rasmussen Corporation - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-announces-investment-in-vintage-air-llc",
+    "title": "Mangrove Announces Investment in Vintage Air, LLC - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-announces-investment-in-stcr",
+    "title": "Mangrove Announces Investment in STCR - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-is-pleased-to-announce-its-latest-investment",
+    "title": "Mangrove is pleased to announce its latest investment - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/pps-makes-fourth-investment-in-u-s-security-industry",
+    "title": "PPS Makes Fourth Investment in U.S. Security Industry - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/news/page/6",
+    "title": "News - Page 6 of 12 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-announces-the-sale-of-filling-machines-systems",
+    "title": "Mangrove Announces the Sale of Filling Machines & Systems - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-announces-the-sale-of-hi-lite-airfield-services",
+    "title": "Mangrove Announces the Sale of Hi-Lite Airfield Services - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-announces-investment-in-steam-turbine-alternative-resources-inc-star",
+    "title": "Mangrove Announces Investment in Steam Turbine Alternative Resources, Inc. \u201cSTAR\u201d - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/1331-2",
+    "title": "Mangrove/Sunlake close valuable add-on during COVID-19 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-announces-investment-in-hi-lite-airfield-services-llc",
+    "title": "Mangrove Announces Investment in Hi-Lite Airfield Services, LLC - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/news/page/7",
+    "title": "News - Page 7 of 12 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-equity-partners-is-pleased-to-announce-the-125mm-closing-of-mep-ii",
+    "title": "Mangrove Equity Partners is pleased to announce the $125MM closing of MEP II - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/tioga-announcement",
+    "title": "Tioga Announcement - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-is-pleased-to-announce-the-sale-of-gayesco-llc",
+    "title": "Mangrove is pleased to announce the sale of Gayesco, LLC - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/partnering-with-two-industry-innovators",
+    "title": "Partnering with two industry innovators - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/a-majority-recapitalization-of-north-american-aviation-services-inc",
+    "title": "A Majority Recapitalization of North American Aviation Services. Inc. - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/news/page/9",
+    "title": "News - Page 9 of 12 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/news/page/8",
+    "title": "News - Page 8 of 12 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/the-majority-recapitalizaton-of-westland-technologies-inc-2",
+    "title": "The Majority Recapitalizaton of Westland Technologies, Inc., - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-recently-acquired-aircraft-on-ground-inc-aog-headquartered-in-dallas",
+    "title": "Mangrove recently acquired Aircraft on Ground, Inc. (AOG) headquartered in Dallas, - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/the-management-buy-out-of-integrated-global-services-inc",
+    "title": "The Management Buy-out of Integrated Global Services, Inc., - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/a-canadian-manufacturer-of-branded-consumer-leisure-goods",
+    "title": "A Canadian manufacturer of branded-consumer leisure goods. - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangroves-third-new-platform-investment-in-the-latest-fourteen-months",
+    "title": "Mangrove\u2019s third new platform investment in the latest fourteen months. - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/recapitalization-of-rh-supply-inc",
+    "title": "Recapitalization of R&H Supply, Inc., - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-equity-partners-is-pleased-to-announce-the-recapitalization-of-everett-laboratories-inc-a-new-jersey-based-developer-and-marketer-of-specialty-prescription-nutraceuticals",
+    "title": "Recapitalization of Everett Laboratories, Inc. - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/excalibur-founders-share-their-story",
+    "title": "Excalibur Crossbow Founders Share Their Story! - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/phillip-marks-joins-mangrove-equity-team",
+    "title": "Phillip Marks Joins the Mangrove Equity Team - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-make-non-control-investments",
+    "title": "Mangrove to Make Non-Control Investments - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/updates/page/2",
+    "title": "Updates - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/updates/page/3",
+    "title": "Updates - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/updates/page/4",
+    "title": "Updates - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/updates/page/10",
+    "title": "Updates - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/updates/page/11",
+    "title": "Updates - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/updates/page/12",
+    "title": "Updates - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/lostpassword",
+    "title": "Lost Password - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/author/mastermangrove/page/1",
+    "title": "Mangrove Equity Partners, Author at Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/author/mastermangrove/page/5",
+    "title": "Mangrove Equity Partners, Author at Mangrove Equity Partners - Page 5 of 12",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/author/mastermangrove/page/6",
+    "title": "Mangrove Equity Partners, Author at Mangrove Equity Partners - Page 6 of 12",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/author/mastermangrove/page/7",
+    "title": "Mangrove Equity Partners, Author at Mangrove Equity Partners - Page 7 of 12",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/author/mastermangrove/page/9",
+    "title": "Mangrove Equity Partners, Author at Mangrove Equity Partners - Page 9 of 12",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/author/mastermangrove/page/8",
+    "title": "Mangrove Equity Partners, Author at Mangrove Equity Partners - Page 8 of 12",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/category/uncategorized/page/1",
+    "title": "Portfolio News Archives - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/category/uncategorized/page/5",
+    "title": "Portfolio News Archives - Page 5 of 11 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/category/uncategorized/page/6",
+    "title": "Portfolio News Archives - Page 6 of 11 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/category/uncategorized/page/7",
+    "title": "Portfolio News Archives - Page 7 of 11 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/the-mangrove-team-closes-on-a-new-platform-in-our-55th-industry",
+    "title": "The Mangrove Team Closes on a New Platform in Our 55th Industry - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/excalibur-sale-announcement",
+    "title": "Excalibur Sale Announcement - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/category/uncategorized/page/8",
+    "title": "Portfolio News Archives - Page 8 of 11 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/pps-makes-second-investment-in-u-s-contract-security-industry-with-acquisition-of-ahps",
+    "title": "PPS Makes Second Investment in U.S. Contract Security Industry with Acquisition of AHPS - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/david-fowles-joins-the-mangrove-equity-team",
+    "title": "David Fowles Joins The Mangrove Equity Team - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-equity-partners-is-pleased-to-announce-the-sale-of-computer-aided-technology",
+    "title": "Computer Aided Technology Sale Announcement - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-announces-investment-in-shields-business-solutions",
+    "title": "Mangrove Announces Investment in Shields Business Solutions - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/pps-makes-first-investment-in-u-s-contract-security-industry-with-acquisition-of-jbm-patrol-and-protection-additional-acquisitions-planned-throughout-the-u-s",
+    "title": "PPS Makes First Investment in U.S. Contract Security Industry with Acquisition of JBM Patrol and Protection Additional Acquisitions Planned Throughout the U.S. - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-equity-partners-is-pleased-to-announce-the-sale-of-readylift",
+    "title": "Mangrove Equity Partners is pleased to announce the sale of ReadyLIFT - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-equity-partners-announces-investment-rc-rasmussen-corporation",
+    "title": "Mangrove Equity Partners Announces Investment in RC Rasmussen Corporation",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-announces-investment-sharp-tooling-solutions",
+    "title": "Mangrove Equity Partners is Pleased to Announce its Investment in Sharp Tooling Solutions",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-announces-sale-apr-llc",
+    "title": "Mangrove Announces the Sale of APR LLC - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-announces-sale-tioga-hvac-rentals",
+    "title": "Mangrove Announces the Sale of Tioga HVAC Rentals - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-supports-computer-aided-technologies-acquisition-3dvision-technologies",
+    "title": "Mangrove Supports Computer Aided Technologies in the Acquisition of 3DVision Technologies - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-acquires-concut-support-dixie-diamond",
+    "title": "Mangrove Acquires Concut in Support of Dixie Diamond - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-pleased-announce-another-opportunity-build-value-readylift-com",
+    "title": "Mangrove is Pleased to Announce Another Opportunity to Build Value: Readylift.com - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-pleased-announce-recapitalization-apr",
+    "title": "Mangrove is Pleased to Announce the Recapitalization of APR - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-pleased-announce-sale-north-american-aircraft-services-inc",
+    "title": "Mangrove is pleased to announce the sale of North American Aircraft Services, Inc. - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/computer-aided-technologies-acquisition-mcad-technologies",
+    "title": "Computer Aided Technologies in the Acquisition of MCAD Technologies - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-equity-partners-2015-great-year",
+    "title": "Mangrove - 2015 A Great Year - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-closes-our-5th-deal-of-2015",
+    "title": "Mangrove Closes our 5th Deal of 2015 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-closes-4th-deal-2015",
+    "title": "Mangrove Closes our 4th Deal of 2015 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mangrove-equity-partners-closes-third-acquisition-2015",
+    "title": "Mangrove Closes our Third Acquisition of 2015 - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/%3C",
+    "title": "Page Not Found - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/mailto",
+    "title": "Page Not Found - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/updates/page/1",
+    "title": "Updates - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/updates/page/5",
+    "title": "Updates - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/updates/page/6",
+    "title": "Updates - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/updates/page/7",
+    "title": "Updates - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/updates/page/9",
+    "title": "Updates - Mangrove Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://mangroveequity.com/updates/page/8",
+    "title": "Updates - Mangrove Equity Partners",
+    "dynamic_states": 0
+  }
+]

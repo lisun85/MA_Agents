@@ -1,0 +1,139 @@
+URL: https://hadleycapital.com/insights/small-business-private-equity/finders-fee-agreements-in-small-company-acquisitions
+TITLE: Private Equity Finder's Fee Agreement: What is it and Do You Need it
+
+BASE CONTENT:
+================================================================================
+Private Equity Finder's Fee Agreement: What is it and Do You Need it
+Paul Wormley
+September 01, 2011 - 3 min read
+What is a Finder’s Fee?
+
+A finder's fee is compensation paid to an individual or firm (often called an intermediary) for a referral or introduction that results in an M&A transaction between a buyer and a seller.
+
+Here, we’re going to cover several different aspects of finder’s fees:
+
+An Overview of Finder’s Fees in Small Company M&A
+Typical Finder’s Fee Agreement
+Fee Structure
+Transaction Value
+Finder’s Fee Agreement Sample
+Form and Timing of Finder’s Fee Payments
+Who Can Receive a Finder’s Fee?
+Why Do I Need a Finder’s Fee?
+
+The justification for paying a finder's fee is that, without the “finder”, the parties never would have been introduced and the transaction would not have taken place. 
+
+The referral source or finder is compensated in much the same way that a commission is paid to other types of intermediaries between buyers and sellers.
+
+Finder’s fees are also sometimes referred to as “Success Fees”.
+
+That is, they are contingent upon and paid at the successful closing of an M&A transaction. 
+
+An Overview of Finder’s Fees in Small Company M&A
+
+Since our founding more than 20 years ago, Hadley has worked successfully with buy-side M&A intermediaries that identify small company acquisition opportunities and introduce Hadley to business owners. We compensate these buy-side M&A intermediaries under a finder's fee agreement.
+
+Download a sample of our standard fee agreement here.
+
+Finder's fees are also used when an M&A intermediary is marketing a business for sale but the business owner has not entered into a sell-side fee agreement with the M&A intermediary. 
+
+In this case, the M&A intermediary will seek a finder’s fee/success fee from the buyer. 
+
+Note that this is not a standard intermediary/seller relationship but it is not entirely uncommon.   
+
+Typical Finder’s Fee Agreement
+
+The two most important elements of a finder’s fee agreement are the fee structure and the definition of transaction value. These elements are strictly related as we describe below.
+
+Fee Structure
+
+Hadley’s standard finder's fee agreement includes a fee structure based on a Lehman Fee and is representative of a standard private equity finder’s fee agreement. 
+
+The Lehman Fee structure was developed by Lehman Brothers and is the most common fee structure in small company mergers and acquisitions. We wrote an additional blog post covering the Lehman Fee structure that you can read here.
+
+A Lehman Fee is calculated as follows:
+
+5% of 1st million of transaction value
+4% of the 2nd million
+3% of the 3rd million
+2% of the 4th million
+And 1% of the remaining transaction value
+
+A Lehman Fee structure is the most standard and most common form of the fee arrangement in a Finder’s Fee Agreement. Less common fee arrangements include flat fee (typically as a percentage of the transaction value) and Double Lehman (10% of the 1st million, 8% of the 2nd million, etc., etc.). Finder’s fee agreements may also include a flat, monthly retainer fee paid to the finder (often called a Retained Fee Agreement) with the monthly retainer offset against a future Finder’s Fee.
+
+Investopedia has written at greater lengths about the Lehman Formula, as well.
+
+Definition of Transaction Value
+
+Since the fee amount is dependent on increments of transaction value, the definition of transaction value is very important. M&A transactions often include multiple baskets of "value" received by the seller. 
+
+Obviously, cash is typically the most important to a seller but other sources of value are typically included in the definition of transaction value including, among other items:
+
+Most of the acquisitions completed by Hadley include substantial cash at closing, which makes calculation of the transaction value and finder’s fee relatively straightforward. However, other sources of consideration often come into play in small company acquisitions and can, collectively, be meaningful sources of Transaction Value (for the seller and, by extension, the finder).
+
+Finder’s Fee Agreement Sample
+
+Let’s take a look at how a finder’s fee would be calculated in a theoretical acquisition with a transaction value of $10,00,000. For simplicity's sake, we will assume that the entire transaction value was paid in cash at closing. 
+
+A $10 million sale results in a $200,000 fee. Take a look at the visual below:
+
+Form and Timing of Finder’s Fee Payments
+
+From the sample above, the $200,000 finder’s fee is due, in cash, at the time of closing. It is often the case that the finder’s fee is included in the sources and uses of funds prepared by the buyer.
+
+Some finders may elect to invest a portion of the finder’s fee into the target company at closing, subject to approval from the buyer. This is often referred to as “rolling” a portion of the fee into the buyer’s equity pool that is required to complete the acquisition. 
+
+If portions of the transaction proceeds relate to contingent payments, such as earn-outs and seller notes, a portion of the finder’s fee may be held back by the buyer and paid to the finder when (or if) the seller earns the contingent payments.
+
+Who Can Receive a Finder’s Fee?
+
+Traditionally, Hadley’s finder’s fee agreements were strictly between Hadley and buy-side M&A intermediaries. Buy-side M&A intermediaries are service providers whose only service is facilitating introductions between buyers and sellers. 
+
+More recently, we are entering into finder’s fee agreements with non-traditional finders - trusted small business advisors including recruiters, organizational psychologists, and family business consultants. 
+
+These advisors often develop significant relationships with business owners and are well-positioned to assist them in developing a plan to sell their business - including introducing them to potential buyers. 
+
+So long as the finder’s fee relationship is transparent to the business owner, we have no issue engaging with these advisors. Typically, the business owner is fine with the arrangement as it helps them avoid paying a fee to a sell-side M&A advisor or intermediary.
+
+Why Do I Need a Finder’s Fee?
+
+Most finder’s fee agreements in small company M&A are fairly basic, easy to understand agreements. There is very little work required to put one in place and a well-structured agreement provides important benefits to both parties - finder and buyer/payor. 
+
+The finder needs an agreement that spells out the arrangement between the finder and the buyer/payor including important elements like the fee structure and definition of transaction value (as described above).
+
+An agreement also provides important protection from a finder being cut out of a transaction between buyer/payor and seller.
+
+A buyer enters into a finder’s fee agreement with an expectation that the finder will be able to provide unique access to attractive acquisition targets.
+
+An agreement also protects the buyer as it will clearly outline how the finder is to be compensated and sets a term on the length of time that the finder and payor will be engaged.
+
+Hadley has acquired many small businesses under these finder’s fee arrangements and has paid millions of dollars in finder’s fees to our buy-side M&A intermediary partners through the years. If you are interested in learning more about working with Hadley under a finder’s fee arrangement, please learn more about the types of companies we own and seek to acquire.
+
+Contact us if you would like to discuss entering into a finder’s fee arrangement with Hadley or if you are marketing a business for sale and seeking a buyer-paid fee or a success fee. 
+
+We promise a quick evaluation of the target and feedback to the intermediary regarding our level of interest. If we are not interested, we will tell you quickly so the opportunity can be shown to other parties.
+
+Paul Wormley - Managing Partner
+
+Paul joined Hadley in 2005. He grew up in a family business environment and has spent his entire career working with small and emerging companies.
+
+He currently works with Interstate Fabrications, Filter Holdings, J&R, AGI, Gillinder, Equustock, Pneu-Con, and Storflex. Previously he was the chairman or served on the board of directors for i-deal Optics, Centare, QDx Pathology, GT Golf Supplies, and Open Sky Media – all former Hadley companies.
+
+Paul is an outdoor enthusiast who enjoys fishing, hunting, riding motorbikes, Crossfit and an occasional craft beer. He works closely with a number of non-profit organizations including One Acre Fund, Trout & Salmon Foundation, and Northfield Parks Foundation.
+
+Paul is a graduate of the University of Colorado at Boulder and received an MBA from the Kellogg School of Management at Northwestern University. He and his wife, Rosemary, have three children.
+
+Recommended Reading
+Unlocking Growth Potential: The Hadley Independent Sponsor Alliance (HISA)
+By Paul Wormley
+What Every Business Owner Needs To Know About Senior Debt
+By Scott Dickes
+Enterprise Value vs. Equity Value: Everything You Need to Know
+By Paul Wormley
+Full EBITDA Guide: What is It & How Investors Use It (Formula)
+By Paul Wormley
+Categories
+Managing A Small Business
+Selling A Small Business
+Small Business Private Equity
+

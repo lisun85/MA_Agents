@@ -1,0 +1,262 @@
+[
+  {
+    "url": "https://scaleco.com/",
+    "title": "Investing Locally in the Midwest - ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies",
+    "title": "Private Equity Success Stories from Portfolio Companies - ScaleCo",
+    "dynamic_states": 7
+  },
+  {
+    "url": "https://scaleco.com/team",
+    "title": "ScaleCo Team - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/news",
+    "title": "Private Equity News - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 9
+  },
+  {
+    "url": "https://scaleco.com/contact",
+    "title": "Contact - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/tpi-efficiency",
+    "title": "TPI Efficiency - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/safety-control-technology",
+    "title": "Safety Control Technology - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/budco-financial",
+    "title": "Budco Financial - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/heartland-companies",
+    "title": "Heartland Companies - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/stam",
+    "title": "STAM - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/accurate-group",
+    "title": "Accurate Group - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/innerpac-inc",
+    "title": "Innerpac, Inc. - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/learning-horizons-inc",
+    "title": "Learning Horizons, Inc. - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/psp-metrics-inc",
+    "title": "PSP Metrics, Inc. - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/innoplast-inc",
+    "title": "Innoplast, Inc. - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/news/ne-ohio-companies-crushing-the-sp-500",
+    "title": "Cleveland Foundation fund taps success of NE Ohio companies crushing the S&P 500 - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/our-team/vin-zachariah-new-ceo-of-tpi-efficiency",
+    "title": "ScaleCo Capital Announces Vin Zachariah as CEO of TPI Efficiency - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/our-team/scaleco-capital-announces-owen-brewer-as-operating-partner-focused-on-go-to-market-strategies",
+    "title": "ScaleCo Capital Announces Owen Brewer as Operating Partner focused on Go-to-Market Strategies - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/news/scaleco-capital-announces-sale-of-cap-city-dental-lab",
+    "title": "ScaleCo Capital Announces Sale of Cap City Dental Lab - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/the-american-eagle-mortgage-co",
+    "title": "The American Eagle Mortgage Co. - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/turf-ventures",
+    "title": "Turf Ventures - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/axiom-sales-force-development-llc",
+    "title": "Axiom Sales Force Development LLC - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/cascade-training-center",
+    "title": "Cascade Training Center - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/heavy-equipment-colleges-of-america",
+    "title": "Heavy Equipment Colleges of America - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/knowledge-center-llc",
+    "title": "Knowledge Center LLC - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/lewellyn-technology-llc",
+    "title": "Lewellyn Technology LLC - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/roi-networks-llc",
+    "title": "ROI Networks, LLC - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/cap-city-dental-lab",
+    "title": "Cap City Dental Lab - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/federos-llc-formerly-monolith-software",
+    "title": "Federos LLC (formerly Monolith Software) - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/nextech-partners",
+    "title": "NexTech Partners - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/partner-companies/renascent-salvage-holdings",
+    "title": "Renascent Salvage Holdings - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/team/brendan-anderson",
+    "title": "Brendan Anderson - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/team/dave-jacob",
+    "title": "Dave Jacob - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/team/will-quirk",
+    "title": "Will Quirk - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/team/dan-pioch",
+    "title": "Dan Pioch - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/team/owen-brewer",
+    "title": "Owen Brewer - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/team/charles-harris",
+    "title": "Charles Harris - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/team/matt-diamond",
+    "title": "Matt Diamond - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/team/holli-roberts",
+    "title": "Holli Roberts - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/team/nicholas-kuhn",
+    "title": "Nicholas Kuhn - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/team/holly-smith",
+    "title": "Holly Smith - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/our-team/scaleco-capital-announces-will-quirk-as-vice-president",
+    "title": "ScaleCo Capital Announces Will Quirk as Vice President - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/our-team/scaleco-capital-announces-jim-rubadue-as-scts-new-chief-executive-officer",
+    "title": "ScaleCo Capital Announces Jim Rubadue as SCT's New Chief Executive Officer - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/news/scaleco-capitals-must-read-books",
+    "title": "ScaleCo Capital's Must-Read Books - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/scale-community/nick-kuhn-associate",
+    "title": "ScaleCo Capital Announces Nick Kuhn as an Associate - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/our-team/scaleco-capital-announces-dan-pioch",
+    "title": "ScaleCo Capital Announces Dan Pioch as Director of Finance - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/news/scaleco-capital-announces-vin-zachariah-as-operating-partner",
+    "title": "ScaleCo Capital Announces Vin Zachariah as Operating Partner - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/blog/scalecos-innoplast-holdings-acquires-shur-tite-products",
+    "title": "ScaleCo\u2019s Innoplast Holdings Acquires Shur-Tite Products - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/news/scaleco-new-cleveland-mid-town-office-space",
+    "title": "ScaleCo Capital's New Office in Midtown Cleveland - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://scaleco.com/news/page/2",
+    "title": "Private Equity News - Page 2 of 7 - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 9
+  },
+  {
+    "url": "https://scaleco.com/news/page/3",
+    "title": "Private Equity News - Page 3 of 7 - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 9
+  },
+  {
+    "url": "https://scaleco.com/news/page/7",
+    "title": "Private Equity News - Page 7 of 7 - Investing Locally in Midwest | ScaleCo Capital",
+    "dynamic_states": 9
+  }
+]

@@ -1,0 +1,59 @@
+URL: https://hadleycapital.com/insights/selling-a-small-business/anatomy-of-a-letter-of-intent-part-i
+TITLE: Anatomy of a Letter of Intent Part I
+
+BASE CONTENT:
+================================================================================
+Anatomy of a Letter of Intent Part I
+Paul Wormley
+March 28, 2011 - 1 min read
+
+Most small business owners only sell a company once so the process of selling a company can be opaque & to put it kindly. One of the most difficult steps can be understanding and negotiating a letter of intent – the document that outlines the terms and conditions of an offer from a buyer and to a seller.
+
+Over two blog posts, I am going to attempt to explain, in plain English, the components of a Hadley Capital letter of intent. I’ll use this generic letter of intent as a template.
+
+The first post will cover:
+
+the structure of the transaction (asset sale or stock sale)
+the form of consideration paid to the seller (cash, seller debt, consulting payments, earn-outs)
+what the buyer is purchasing (everything) and not purchasing (everything else).
+
+The second post will cover:
+
+adjustments to the purchase price (working capital adjustments and net debt)
+sources of buyer financing (equity/cash and borrowed money)
+how the deal gets done (conditions to closing and exclusivity)
+
+Structure of Transaction: right up front this letter of intent states that Hadley Capital is buying the target company’s assets. I will cover asset sales versus stock sales in another post but, quickly, the vast majority of businesses in the U.S. are S corporations, and the seller of an S Corp is generally neutral (in terms of taxes) regarding a sale of assets or a sale of stock.  However, a buyer benefits from buying assets instead of stock…again, more in a future post.
+
+Total Consideration: Hadley Capital is offering the seller total sale proceeds of $5.0 million: $4.0 million in cash plus a seller note of $500,000 and a consulting and non-compete agreement of $500,000.  A large percentage of small business sales include some form of seller financing – in this case a seller note and a consulting and non-compete agreement. While overall market estimates vary, nearly all Hadley Capital acquisitions include a small portion of seller financing.
+
+A__ssets being Purchased: All of the assets required to operate the business are sold including hard assets like machinery to operating assets like inventory to intellectual property assets like customer lists. Certain assets may not be included in a sale, such as buildings and land (a buyer may elect to rent the existing facility from the seller) and personal assets like cars and boats. In most asset transactions, the sale is structured as a debt-free/cash-free transaction where the seller keeps all debt and all cash. This concept can be a little tricky, I will cover this topic in a future post…
+
+Liabilities being Assumed: Again, like most asset purchases, the only liabilities acquired by the buyer are accounts payable. All other liabilities, whether known or unknown, stay with the seller. For example, a seller would be required to repay all debt, settle all accrued vacation and paid-time-off pay, etc.
+
+That's a lot for one sitting (for you and for me). I'll pick up Part II in another post…
+
+Paul Wormley - Managing Partner
+
+Paul joined Hadley in 2005. He grew up in a family business environment and has spent his entire career working with small and emerging companies.
+
+He currently works with Interstate Fabrications, Filter Holdings, J&R, AGI, Gillinder, Equustock, Pneu-Con, and Storflex. Previously he was the chairman or served on the board of directors for i-deal Optics, Centare, QDx Pathology, GT Golf Supplies, and Open Sky Media – all former Hadley companies.
+
+Paul is an outdoor enthusiast who enjoys fishing, hunting, riding motorbikes, Crossfit and an occasional craft beer. He works closely with a number of non-profit organizations including One Acre Fund, Trout & Salmon Foundation, and Northfield Parks Foundation.
+
+Paul is a graduate of the University of Colorado at Boulder and received an MBA from the Kellogg School of Management at Northwestern University. He and his wife, Rosemary, have three children.
+
+Recommended Reading
+Centare Sold to Leading Onshore Development Organization
+By Paul Wormley
+Insights on Management Buyouts for Small Businesses
+By Harrison Menaker
+Purchase Price Allocation in Small Company Acquisitions
+By Ryan Hanley
+What are Indemnification Baskets and Caps in M&A?
+By Paul Wormley
+Categories
+Managing A Small Business
+Selling A Small Business
+Small Business Private Equity
+

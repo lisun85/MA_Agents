@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://harrenequity.com/",
+    "title": "Harren Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://harrenequity.com/Default.aspx",
+    "title": "Harren Equity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://harrenequity.com/About.aspx",
+    "title": "Harren Equity Partners | About",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://harrenequity.com/InvestmentFocus.aspx",
+    "title": "Harren Equity Partners | Investment Focus",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://harrenequity.com/Portfolio.aspx",
+    "title": "Harren Equity Partners | Portfolio",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://harrenequity.com/Team.aspx",
+    "title": "Harren Equity Partners | Team",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://harrenequity.com/Contact.aspx",
+    "title": "Harren Equity Partners | Contact",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://harrenequity.com/News.aspx",
+    "title": "Harren Equity Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://harrenequity.com/TeamBio.aspx",
+    "title": "Harren Equity Partners | Team",
+    "dynamic_states": 0
+  }
+]

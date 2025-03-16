@@ -1,0 +1,272 @@
+[
+  {
+    "url": "https://strengthcapital.com/",
+    "title": "Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/about",
+    "title": "Who We Are \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/our-values",
+    "title": "Our Values \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/approach",
+    "title": "Approach \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/portfolio",
+    "title": "Portfolio \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/team",
+    "title": "Team \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news",
+    "title": "News \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/contact",
+    "title": "Contact \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2024/5/10/truesdell-corporation-acquires-the-high-friction-surface-treatment-division-of-deangelo-contracting-services-llc",
+    "title": "Truesdell Corporation Acquires High Friction Surface Treatment Division of Deangelo Contracting \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2024/4/22/western-states-reclamation-and-naranjo-civil-constructors-combine-to-form-western-states-water",
+    "title": "Western States Reclamation and Naranjo Civil Constructors combine to form Western States Water \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2024/4/22/rw-america-acquires-all-american-building-products",
+    "title": "RW America acquires All American Building Products \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/mark-mccammon-bio",
+    "title": "Mark McCammon Bio \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/mike-bergeron-bio",
+    "title": "Mike Bergeron Bio \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/rob-mccrae-bio",
+    "title": "Rob Mcrae Bio \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/robin-fenberg-bio",
+    "title": "Robin Fenberg \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/ian-higgins-bio",
+    "title": "Ian Higgins Bio \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/john-barrett-bio",
+    "title": "John Barrett Bio \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/steven-stefanko-bio",
+    "title": "Steven Stefanko Bio \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/tommy-kreyenhagen-bio",
+    "title": "Tommy Kreyenhagen Bio \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/joey-kreyenhagen-bio",
+    "title": "Joey Kreyenhagen Bio \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/james-cook-bio",
+    "title": "James Cook Bio \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/category/acquisition",
+    "title": "acquisition \u2014 News \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/tag/News",
+    "title": "News \u2014 News \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/tag/Acquisition",
+    "title": "Acquisition \u2014 News \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2023/12/11/kansas-golf-amp-turf-announces-merger-with-ben-nelson-golf-amp-outdoor",
+    "title": "Kansas Golf & Turf Announces Merger With Ben Nelson Golf & Outdoor \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2023/7/7/western-states-reclamation-announces-the-acquisition-of-ecological-resource-consultants",
+    "title": "Western States Reclamation Announces the Acquisition of Ecological Resource Consultants \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2023/4/7/strength-capital-partners-invests-in-kansas-golf-amp-turf",
+    "title": "Strength Capital Partners Invests in Kansas Golf & Turf \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2023/4/7/dtm-distributors-announces-the-acquisition-of-acme-meat-company",
+    "title": "DTM Distributors Announces the Acquisition of ACME Meat Company \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2022/9/9/strength-capital-partners-completes-sale-of-calco-pallet-company",
+    "title": "Strength Capital Partners Completes Sale of CALco Pallet Company \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2022/4/15/strength-capital-partners-invests-in-western-states-reclamation",
+    "title": "Strength Capital Partners Invests in Western States Reclamation \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2022/4/15/esp-associates-inc-announces-the-acquisition-of-pickett-and-associates-and-us-imaging-flight-ops",
+    "title": "ESP Acquires Pickett and Associates and U.S. Imaging Flight Ops \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2021/7/2/strength-capital-partners-invests-in-pinnacle-paving-amp-sealing",
+    "title": "Strength Capital Partners Invests in Pinnacle Paving & Sealing \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2021/7/16/strength-capital-partners-invests-in-chemlock-nutrition",
+    "title": "Strength Capital Partners Invests in Chemlock Nutrition \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2021/6/17/strength-capital-acquires-truesdell-corporation",
+    "title": "Strength Capital Acquires Truesdell Corporation \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2021/7/30/esp-associates-inc-announces-the-acquisition-of-vickrey-amp-associates-llc",
+    "title": "ESP Associates, Inc. Announces the Acquisition of Vickrey & Associates, LLC \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2020/2/7/strength-capital-invests-in-rw-specialties",
+    "title": "Strength Capital Invests in RW Specialties \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2019/12/24/strength-capital-partners-invests-in-calco-pallet-company",
+    "title": "Strength Capital Partners Invests in CALco Pallet Company \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2019/4/8/strength-capital-completes-sale-of-arch-global-precision",
+    "title": "Strength Capital Completes Sale of ARCH Global Precision \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2019/2/21/arch-global-precision-announces-the-acquisition-of-american-tool-service-amp-orthogrind",
+    "title": "ARCH Global Precision Announces the Acquisition of American Tool Service & OrthoGrind \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2018/12/27/strength-capital-completes-sale-of-inland-pipe-rehabilitation-llc",
+    "title": "Strength Capital Completes Sale of Inland Pipe Rehabilitation LLC \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2018/12/14/arch-global-precision-announces-the-acquisition-of-universal-precision-instruments-inc",
+    "title": "ARCH Global Precision Announces the Acquisition of Universal Precision Instruments, Inc. \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2017/7/28/americlean-holdings-llc-acquires-ns-farrington-co",
+    "title": "AmeriClean Holdings, LLC Acquires N.S. Farrington & Co. \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/tag/americlean",
+    "title": "americlean \u2014 News \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2018/10/1/strength-capital-portfolio-company-arch-global-precision-announces-the-sale-of-hi-vol-products",
+    "title": "Strength Capital Portfolio Company, ARCH Global Precision, Announces the Sale of Hi-Vol Products \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2017/9/13/strength-capital-partners-featured-in-cincinnati-business-courier",
+    "title": "Strength Capital Partners Featured in Cincinnati Business Courier \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2017/7/10/strength-capital-partners-featured-in-crains-detroit-business",
+    "title": "Strength Capital Partners Featured in Crain\u2019s Detroit Business \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2018/4/13/strength-capital-partners-makes-investment-in-esp-associates-inc",
+    "title": "Strength Capital Partners Makes Investment in ESP Associates, Inc. \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2017/10/19/strength-capital-partners-completes-sale-of-dascom-systems-group-llc",
+    "title": "Strength Capital Partners Completes Sale of Dascom Systems Group, LLC \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2017/7/11/strength-capital-partners-completes-sale-of-propane-services-llc",
+    "title": "Strength Capital Partners Completes Sale of Propane Services, LLC \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2017/7/6/strength-capital-completes-sale-of-robert-rothschild-farm-llc",
+    "title": "Strength Capital Completes Sale of Robert Rothschild Farm, LLC \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2017/6/8/arch-global-precision-announces-the-acquisition-of-ri-carbide-tool-co",
+    "title": "ARCH Global Precision Announces the Acquisition of R.I. Carbide Tool, CO. \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2017/6/9/arch-global-precision-announces-the-acquisition-of-seabrook-international-llc-",
+    "title": "ARCH Global Precision Announces the Acquisition of Seabrook International, LLC. \u00a0 \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2017/6/7/12262016-strength-capital-partners-acquires-universal-aerospace-inc",
+    "title": "Strength Capital Partners Acquires Universal Aerospace, Inc. \u2014 Strength Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://strengthcapital.com/news/2017/6/13/strength-capital-completes-sale-of-smith-mountain-industries-inc",
+    "title": "Strength Capital Completes Sale of Smith Mountain Industries, Inc. \u2014 Strength Capital",
+    "dynamic_states": 0
+  }
+]
