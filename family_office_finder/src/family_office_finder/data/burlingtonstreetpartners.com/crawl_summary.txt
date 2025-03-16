@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://burlingtonstreetpartners.com/",
+    "title": "Burlington Street Partners",
+    "dynamic_states": 4
+  },
+  {
+    "url": "https://burlingtonstreetpartners.com/privacy-policy",
+    "title": "Privacy Policy - Burlington Street Partners",
+    "dynamic_states": 0
+  }
+]

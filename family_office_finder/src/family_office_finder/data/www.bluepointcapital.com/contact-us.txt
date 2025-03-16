@@ -1,0 +1,35 @@
+URL: https://bluepointcapital.com/contact-us
+TITLE: Blue Point Capital Partners | Contact Us
+
+BASE CONTENT:
+================================================================================
+Cleveland
+
+127 Public Square
+Suite 5100
+Cleveland, OH 44114-1312
+
+
+P: 216.535.4700
+F: 216.535.4701
+
+Charlotte
+
+201 South Tryon Street
+Suite 850
+Charlotte, NC 28202
+
+
+P: 704.347.1111
+F: 704.347.1107
+
+Seattle
+
+601 Union Street
+Suite 3022
+Seattle, WA 98101
+
+
+P: 206.332.9200
+F: 206.332.9209
+

@@ -24,7 +24,7 @@ class S3Uploader:
         # Get AWS credentials from environment variables
         self.aws_access_key = os.getenv('AWS_ACCESS_KEY_ID')
         self.aws_secret_key = os.getenv('AWS_SECRET_ACCESS_KEY')
-        self.aws_region = os.getenv('AWS_REGION', 'us-east-1')
+        self.aws_region = os.getenv('AWS_REGION', 'us-east-2')
         self.bucket_name = os.getenv('AWS_S3_BUCKET_NAME')
         
         # Validate required credentials
@@ -170,13 +170,80 @@ def upload_output_to_s3(output_dir=None, bucket_name=None):
     
     return result
 
+def test_aws_connection():
+    """Test AWS S3 connection and credentials"""
+    # Create a custom uploader with hardcoded credentials for testing
+    uploader = S3Uploader()
+    
+    # # IMPORTANT: Replace these with your actual credentials for testing
+    # # Remove or comment out these lines before committing to version control
+    # uploader.aws_access_key = os.getenv('AWS_ACCESS_KEY_ID')
+    # uploader.aws_secret_key = "AWS_SECRET_ACCESS_KEY"
+    # uploader.aws_region = "us-east-2"  # Change if needed
+    # uploader.bucket_name = "AWS_S3_BUCKET_NAME"
+    
+    # Reinitialize the S3 client with the new credentials
+    uploader.s3_client = boto3.client(
+        's3',
+        aws_access_key_id=uploader.aws_access_key,
+        aws_secret_access_key=uploader.aws_secret_key,
+        region_name=uploader.aws_region
+    )
+    
+    if not uploader.s3_client:
+        logger.error("Failed to initialize S3 client. Check your AWS credentials.")
+        return False
+    
+    try:
+        # Try to list buckets (this requires valid credentials)
+        response = uploader.s3_client.list_buckets()
+        
+        # Print bucket information
+        logger.info("AWS connection successful!")
+        logger.info(f"Your AWS account has {len(response['Buckets'])} buckets:")
+        
+        for bucket in response['Buckets']:
+            logger.info(f"- {bucket['Name']} (created: {bucket['CreationDate']})")
+        
+        # Check if the configured bucket exists
+        bucket_exists = any(bucket['Name'] == uploader.bucket_name for bucket in response['Buckets'])
+        
+        if bucket_exists:
+            logger.info(f"✅ Configured bucket '{uploader.bucket_name}' exists and is accessible")
+            
+            # Try to list objects in the bucket
+            try:
+                objects = uploader.s3_client.list_objects_v2(Bucket=uploader.bucket_name, MaxKeys=5)
+                
+                if 'Contents' in objects and objects['Contents']:
+                    logger.info(f"Sample objects in bucket:")
+                    for obj in objects['Contents'][:5]:
+                        logger.info(f"- {obj['Key']} ({obj['Size']} bytes)")
+                else:
+                    logger.info(f"Bucket is empty or you don't have permission to list objects")
+                    
+            except Exception as e:
+                logger.warning(f"Could not list objects in bucket: {e}")
+        else:
+            logger.warning(f"⚠️ Configured bucket '{uploader.bucket_name}' does not exist or is not accessible")
+            
+        return True
+        
+    except Exception as e:
+        logger.error(f"AWS connection test failed: {e}")
+        return False
+
 if __name__ == "__main__":
     import argparse
     
     parser = argparse.ArgumentParser(description='Upload scraped data to AWS S3')
     parser.add_argument('--dir', '-d', help='Path to the output directory to upload')
     parser.add_argument('--bucket', '-b', help='S3 bucket name (overrides environment variable)')
+    parser.add_argument('--test', '-t', action='store_true', help='Test AWS connection')
     
     args = parser.parse_args()
     
-    upload_output_to_s3(args.dir, args.bucket)
+    if args.test:
+        test_aws_connection()
+    else:
+        upload_output_to_s3(args.dir, args.bucket)

@@ -1,0 +1,262 @@
+[
+  {
+    "url": "https://envestcap.com/",
+    "title": "Envest Capital Partners - Long Term Permanent Capital for Basic Industries",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/investment-strategies",
+    "title": "Investment Strategies - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/who-we-are",
+    "title": "Who We Are - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/portfolio",
+    "title": "Portfolio - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/contact",
+    "title": "Contact - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/author/mster5",
+    "title": "Envest Capital Partners - Long Term Permanent Capital for Basic Industries",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/sitemap",
+    "title": "Sitemap - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/patrick-keefe",
+    "title": "Patrick Keefe - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/john-reed",
+    "title": "John Reed - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/leggett-kitchin",
+    "title": "Leggett Kitchin - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/nuscript",
+    "title": "NuScript - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/category/team",
+    "title": "Team Archives - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/bell-and-williams-associates",
+    "title": "Bell and Williams Associates - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/commonwealth-epoxy-coatings-llc",
+    "title": "Commonwealth Epoxy Coatings, LLC - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/dominion",
+    "title": "Dominion - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/payerpath",
+    "title": "PayerPath - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/category/legacy",
+    "title": "Legacy Archives - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/cbt-integrated-logistics",
+    "title": "CBT Integrated Logistics - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/category/active-investments",
+    "title": "Active Investments Archives - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/category/current",
+    "title": "Current Archives - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/authentic-auto-body",
+    "title": "Authentic Auto Body - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/heritage-union",
+    "title": "Heritage Union - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/earl-industries",
+    "title": "Earl Industries - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/commercial-credit-group",
+    "title": "Commercial Credit Group - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/digital-services",
+    "title": "Digital Services - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/inspiris",
+    "title": "Inspiris - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/endochoice",
+    "title": "EndoChoice - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/livingwell",
+    "title": "LivingWell - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/home-care-delivered",
+    "title": "Home Care Delivered - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/category/legacy/page/2",
+    "title": "Legacy Archives - Page 2 of 3 - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/americas-swimming-pool-company",
+    "title": "America's Swimming Pool Company - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/classic-air-care",
+    "title": "Classic Air Care - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/cannon-roofing",
+    "title": "Cannon Roofing - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/glenn-industrial-group",
+    "title": "GLENN INDUSTRIAL GROUP - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/luna-technologies",
+    "title": "Luna Technologies - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/visicu",
+    "title": "Visicu - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/venturecom",
+    "title": "VentureCom - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/cubic-wafer",
+    "title": "Cubic Wafer - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/miniluxe",
+    "title": "MiniLuxe - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/geeks-on-call",
+    "title": "Geeks on Call - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/liberty-tax-service",
+    "title": "Liberty Tax Service - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/1-800-pack-rat",
+    "title": "1-800-Pack Rat - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/trivirix",
+    "title": "Trivirix - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/alienware",
+    "title": "Alienware - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/category/legacy/page/3",
+    "title": "Legacy Archives - Page 3 of 3 - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/hello-world",
+    "title": "Hello world! - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/alexin-llc",
+    "title": "Alexin, LLC - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/specialty-coating-and-laminating",
+    "title": "Specialty Coating and Laminating - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/service-center-metals",
+    "title": "Service Center Metals - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/polymera",
+    "title": "Polymera - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/jls",
+    "title": "JLS - Envest Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://envestcap.com/category/uncategorized",
+    "title": "Uncategorized Archives - Envest Capital Partners",
+    "dynamic_states": 0
+  }
+]

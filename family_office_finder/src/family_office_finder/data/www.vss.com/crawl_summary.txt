@@ -1,0 +1,347 @@
+[
+  {
+    "url": "https://vss.com/",
+    "title": "Welcome | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/about-us",
+    "title": "About Us | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team",
+    "title": "Team | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/portfolio",
+    "title": "Portfolio | VSS",
+    "dynamic_states": 4
+  },
+  {
+    "url": "https://vss.com/esg",
+    "title": "ESG | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news",
+    "title": "News | VSS",
+    "dynamic_states": 4
+  },
+  {
+    "url": "https://vss.com/contact",
+    "title": "Contact | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/documents/snapshot",
+    "title": "Snapshot | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/documents/privacy",
+    "title": "Privacy | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team-member-categories/investment-team",
+    "title": "VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team-member-categories/business-development",
+    "title": "VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team-member-categories/investor-relations",
+    "title": "VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team-member-categories/finance",
+    "title": "VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team-member-categories/operations-administration",
+    "title": "VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team-member-categories/advisors",
+    "title": "VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/prithvi-aiyaswamy",
+    "title": "Prithvi Aiyaswamy | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/mike-ambrose",
+    "title": "Mike Ambrose | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/jon-michael-beckelman",
+    "title": "Jon-Michael Beckelman | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/virginia-breen",
+    "title": "Virginia Breen | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/brad-corbin",
+    "title": "Brad Corbin | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/tanya-dessereau",
+    "title": "Tanya Dessereau | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/david-fann",
+    "title": "David Fann | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/rhodes-garner",
+    "title": "Rhodes Garner | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/michael-gebhardt",
+    "title": "Michael Gebhardt | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/leyla-gomez",
+    "title": "Leyla Gomez | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/andrew-goscinski",
+    "title": "Andrew Goscinski | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/aditya-govil",
+    "title": "Aditya Govil | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/jack-hartfelder",
+    "title": "Jack Hartfelder | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/trent-hickman",
+    "title": "Trent Hickman | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/jackie-jacobs",
+    "title": "Jackie Jacobs | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/sabrina-kay",
+    "title": "Dr. Sabrina Kay | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/eric-kim",
+    "title": "Eric Kim | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/lucas-lebrao",
+    "title": "Lucas Lebrao | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/randy-lehman",
+    "title": "Randy Lehman | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/jack-lewin",
+    "title": "Jack Lewin | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/jordan-margolin",
+    "title": "Jordan Margolin | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/eileen-mcmahon",
+    "title": "Eileen McMahon | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/tommy-merola",
+    "title": "Tommy Merola | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/dan-miyoshi",
+    "title": "Dan Miyoshi | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/kathleen-oleary",
+    "title": "Kathleen O'Leary | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/ella-opatzevsky",
+    "title": "Ella Opatzevsky | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/sai-parepally",
+    "title": "Sai Parepally | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/savannah-roberts",
+    "title": "Savannah Roberts | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/jeffrey-stevenson",
+    "title": "Jeffrey Stevenson | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/samantha-stevenson",
+    "title": "Samantha Stevenson | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/john-suhler",
+    "title": "John Suhler | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/team/patrick-turner",
+    "title": "Patrick Turner | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/vss-capital-partners-announces-strategic-investment-from-pinnacle-group",
+    "title": "VSS Announces Strategic Investment from Pinnacle Group, Elevates Four VSS Professionals | VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/vss-promotes-lacey-mehran-to-managing-director",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/coretelligent-llc-and-vss-announce-acquisition-of-soundshore-technology-group-further-expanding-upon-robust-financial-services-portfolio",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/vss-announces-investment-in-podiatry-growth-partners",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/the-deal-featured-jeffrey-stevenson-managing-partner-of-vss-in-an-episode-of-behind-the-buyouts",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/jeffrey-stevenson-managing-partner---q-a-on-structured-capital-with-middle-market-review",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/jeffrey-stevenson-managing-partner-speaks-with-debtwire-about-trends-concerns-and-outlook-for-the-lower-middle-market",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/vss-capital-partners-backs-the-hfw-companies-to-grow-its-platform-in-the-architecture-engineering-and-construction-services-markets",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/vss-capital-partners-completes-successful-sale-of-coretelligent-llc-to-norwest-equity-partners",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/endo1-partners-adds-34-practices-and-expands-national-footprint",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/vss-exits-tax-credit-co",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/vss-capital-partners-closes-vss-sc-fund-iv-at-hard-cap-of-530-million",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/vss-capital-partners-announces-investment-in-center-for-rheumatology",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/vss-capital-partners-aditya-govil-offers-a-private-equity-and-consulting-perspective-on-healthcare",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/jeffrey-stevenson-joined-mergers-and-acquisitions-9-13-webinar-on-dealmaking-trends-in-2022s-second-half-and-beyond---where-do-we-go-from-here",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/vss-capital-partners-hires-brad-corbin-as-principal",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/vss-named-inc",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/vss-eximia",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/jeffrey-stevenson-latest-guest",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/managing-partner-jeffrey-stevenson-discusses-current-state-of-mid-market-deal-flow-with-baily-mccann-in-middle-market-dealmakers-fall-issue",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://vss.com/news/vss-capital-partners-announces-investment-in-olympus-cosmetic-group",
+    "title": "| VSS",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://vss.com/",
+    "title": "Welcome | VSS",
+    "dynamic_states": 0
+  }
+]

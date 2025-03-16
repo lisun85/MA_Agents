@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://civc.com/",
+    "title": "CIVC Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://civc.com/focus",
+    "title": "Focus - CIVC",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://civc.com/approach",
+    "title": "Approach - CIVC",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://civc.com/companies",
+    "title": "Portfolios - CIVC",
+    "dynamic_states": 0
+  }
+]

@@ -438,7 +438,7 @@ class PlaywrightScraper:
         new_links_found = []
         
         # 1. Process SELECT elements (dropdowns)
-        select_elements = await page.evaluate("""
+        selects = await page.evaluate("""
             () => {
                 const selects = document.querySelectorAll('select');
                 return Array.from(selects).map(select => {
@@ -454,20 +454,32 @@ class PlaywrightScraper:
             }
         """)
         
-        if select_elements:
-            print(f"  Found {len(select_elements)} select elements")
+        if selects:
+            print(f"  Found {len(selects)} select elements")
             
-            for select_idx, select in enumerate(select_elements):
+            for select_idx, select in enumerate(selects):
                 print(f"  Processing select #{select_idx+1}: {select['name'] or select['id'] or 'unnamed'} with {len(select['options'])} options")
                 
-                # Create a selector for this dropdown
-                select_selector = ""
-                if select['id']:
-                    select_selector = f"select#{select['id']}"
-                elif select['name']:
-                    select_selector = f"select[name='{select['name']}']"
-                else:
-                    select_selector = f"select:nth-of-type({select_idx+1})"
+                # Check if the select is disabled or not visible before trying to interact
+                is_enabled = await page.evaluate(f"""
+                    (selector) => {{
+                        const element = document.querySelector(selector);
+                        if (!element) return false;
+                        
+                        // Check if element is disabled
+                        if (element.disabled) return false;
+                        
+                        // Check if element is visible
+                        const style = window.getComputedStyle(element);
+                        if (style.display === 'none' || style.visibility === 'hidden') return false;
+                        
+                        return true;
+                    }}
+                """, f"select#{select['id']}" if select['id'] else f"select[name='{select['name']}']")
+                
+                if not is_enabled:
+                    print(f"    Skipping disabled or hidden select: {f"select#{select['id']}" if select['id'] else f"select[name='{select['name']}']"}")
+                    continue
                 
                 # Process each option
                 for option in select['options']:
@@ -478,7 +490,7 @@ class PlaywrightScraper:
                     
                     try:
                         # Select this option
-                        await page.select_option(select_selector, option['value'])
+                        await page.select_option(f"select#{select['id']}" if select['id'] else f"select[name='{select['name']}']", option['value'])
                         await asyncio.sleep(crawl_delay)  # Use the passed crawl delay
                         
                         # Get the updated content

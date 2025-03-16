@@ -1,0 +1,382 @@
+[
+  {
+    "url": "https://transomcap.com/",
+    "title": "Transom Capital Group: Home",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/about-us",
+    "title": "About Us - Transom Capital Group",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team",
+    "title": "Team - Transom Capital Group",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/philosophy",
+    "title": "Investment Philosphy - Transom Capital Group",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/portfolio",
+    "title": "Portfolio Companies - Transom Capital Group",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/responsible-investment",
+    "title": "Responsible Investment - Transom Capital Group",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/contact-us",
+    "title": "Contact Us - Transom Capital Group",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/our-beliefs",
+    "title": "Our Beliefs - Transom Capital Group",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/investment-criteria",
+    "title": "Investment Criteria - Transom Capital Group",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/armor",
+    "title": "ARMOR\u2120 - Transom Capital Group",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/operations-expertise",
+    "title": "Operations Expertise - Transom Capital Group",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/culture",
+    "title": "Culture - Transom Capital Group",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news",
+    "title": "News - Transom Capital Group",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-announces-closing-of-over-750-million-in-total-capital-commitments",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-backed-artivo-surfaces-acquires-tom-duffy-company",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-backed-bridgetower-media-acquires-virginia-business",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-adds-mads-jorge-to-investment-leadership-team",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-promotes-conor-davenport-and-steve-kim-to-managing-director",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-adds-dana-goldstein-to-lead-investor-relations-and-marketing",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/terms",
+    "title": "Terms & Conditions - Transom Capital Group",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/privacy-policy",
+    "title": "Privacy Policy - Transom Capital Group",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/russ-roenick-2",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/ken-firtel",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/kenny-ramsey",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/kevin-waddell",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/steven-van-camp",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/john-gillem",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/rob-randolph-2",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/matt-bristow",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/lindsey-ohern",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/max-isaacs",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/connor-davenport-2",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/mads-jorge",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/steve-kim-2",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/rob-papetti",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/travis-baker",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/tim-oh",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/phil-mcquitty",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/kaitlin-brophy",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/danielle-sokol",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/nathan-dastic-2",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/dana-goldstein",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/ashley-souvenir-2",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/lealei-magat-hino",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/team/lynn-trask",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-backed-scantron-acquires-c-net-systems",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-backed-galleher-to-combine-with-virginia-tile-expanding-presence-deepening-expertise-across-surfaces",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-backed-halo-dream-inc-completes-acquisition-of-breathablebaby-llc-an-industry-leading-juvenile-products-manufacturer",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-backed-scantron-acquires-btech",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/ampure-formerly-webasto-charging-systems-and-transom-capital-group-pioneering-the-future-of-electric-vehicle-and-industrial-charging",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-announces-strategic-sale-of-aspen-publishing-to-uworld-llc",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-group-enters-ev-market-with-acquisition-of-webasto-charging-solutions",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-and-angeleno-group-announce-sale-of-locana-to-trc-companies-inc",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-completes-acquisition-of-galleher-expanding-into-the-premium-flooring-industry",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-announces-strategic-sale-of-mackie-to-rode-microphones",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-group-wins-corporate-strategic-deal-of-the-year-for-the-acquisition-of-bose-professional",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/kevin-waddell-joins-transom-capital-group-as-operating-partner",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-completes-acquisition-of-halo-and-aden-anais-brands-expanding-into-the-premiumbaby-and-parenting-industry",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/scantron-technology-solutions-unveils-new-brand-identityreflecting-companys-transformation-and-focus-on-the-future-ofit-and-cybersecurity",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/bose-corporation-announces-sale-of-bose-professional-to-transom-capital",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/critigen-rebrands-as-locana-leading-a-new-era-in-location-intelligence",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-sells-semitorr-group-inc-to-floworks",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-acquires-wolters-kluwer-u-s-legal-education-businessbusiness-goes-forward-as-aspen-publishing",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-group-sells-heathco-to-globe-electric-company",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-backed-semitorr-acquires-mckenna-engineering-equipment-co-inc",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-backed-semitorr-expands-with-acquisition-of-m-i-c",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-acquires-bridgetower-media-2",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-group-sells-pelco-inc-to-motorola-solutions",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-acquires-scantron-corporation",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/bravo-sports-a-portfolio-company-of-transom-capital-group-acquires-dwindle-distribution",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-group-acquires-liquids-division-from-conair-corporation",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-group-acquires-pelco-inc",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-group-acquires-semitorr-group-inc",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-group-acquires-iconic-health-beauty-brand-gene-juarez-salons-spas",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/transom-capital-group-backed-loud-audio-sells-eaw-brand-to-rcf-group",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://transomcap.com/news/loud-audio-llc-announces-the-sale-of-martin-audio-london",
+    "title": "",
+    "dynamic_states": 0
+  }
+]

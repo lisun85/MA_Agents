@@ -1,0 +1,277 @@
+[
+  {
+    "url": "https://foundationpartners.net/",
+    "title": "Home - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/about-us",
+    "title": "About Us - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/partner-with-us",
+    "title": "Partner with us - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/investment-approach",
+    "title": "Investment Approach - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/our-investments",
+    "title": "Our Investments - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/news-insights",
+    "title": "News & Insights - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/contact-us",
+    "title": "Contact Us - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/privacy-notice",
+    "title": "Privacy Notice - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/terms-of-use",
+    "title": "Terms of Use - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/our-people/david-wood",
+    "title": "David Wood - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/our-investments/N/A",
+    "title": "Page not found - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/ourpeople/david-wood",
+    "title": "David Wood - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/ourpeople/ed-johnson",
+    "title": "Ed Johnson - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/ourpeople/amy-forsythe",
+    "title": "Amy Forsythe - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/ourpeople/carolyn-manley",
+    "title": "Carolyn Manley - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/our-people/joe-paulsen",
+    "title": "Joe Paulsen - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/our-people/nick-cwikla",
+    "title": "Nick Cwikla - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/foundation-investment-partners-completes-acquisition-of-american-spool-packaging-inc",
+    "title": "Foundation Investment Partners completes acquisition of American Spool & Packaging, Inc. - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/export-import-bank-of-the-united-states-recognizes-eight-customers-as-exporters-of-the-year-at-2024-annual-conference",
+    "title": "Export-Import Bank of the United States Recognizes Eight Customers as Exporters of the Year at 2024 Annual Conference - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/foundation-investment-partners-completes-acquisition-of-spartan-tool-supply-in-columbus-ohio",
+    "title": "Foundation Investment Partners Completes Acquisition of Spartan Tool Supply in Columbus, Ohio - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/miljocosale",
+    "title": "Foundation Investment Partners Announces the Sale of its Investment in Miljoco Corporation to DwyerOmega - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/wajonescfo",
+    "title": "W.A. JONES TRUCK BODIES AND EQUIPMENT ANNOUNCES NEW CHIEF FINANCIAL OFFICER - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/fipweiss",
+    "title": "FOUNDATION INVESTMENT PARTNERS FINALIZES PURCHASE OF WEISS INSTRUMENTS LLC - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/title-12",
+    "title": "ADVANCED PROBING SYSTEMS ANNOUNCES NEW PRESIDENT AND DIRECTOR OF TECHNOLOGY - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/fipbusinessdevelopment",
+    "title": "FOUNDATION INVESTMENT PARTNERS NAMES FINANCIAL INDUSTRY LEADER IN NEW BUSINESS DEVELOPMENT ROLE - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/fipexitdds",
+    "title": "FOUNDATION INVESTMENT PARTNERS EXITS INVESTMENT IN DISCOUNT DRAINAGE SUPPLY - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/woodmanagementtransitions",
+    "title": "FOUNDATION\u2019S DAVID WOOD ON MANAGEMENT TRANSITIONS - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/fipacquireswajones",
+    "title": "FOUNDATION INVESTMENT PARTNERS ACQUIRES W.A. JONES - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/needsdrivedeals",
+    "title": "FOUNDATION\u2019S DAVID WOOD: UNDERSTANDING SELLER\u2019S NEEDS DRIVES BETTER DEALS - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/wrwpacquisition",
+    "title": "WRWP ACQUIRES J&S PRODUCTS - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/ddsceo",
+    "title": "DISCOUNT DRAINAGE ANNOUNCES NEW CHIEF EXECUTIVE OFFICER - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/fipacquiresdds",
+    "title": "FIP ACQUIRES DISCOUNT DRAINAGE SUPPLY - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/fipacquiresacme",
+    "title": "FOUNDATION INVESTMENT PARTNERS ACQUIRES ACME METAL CAP - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/our-people/ed-johnson",
+    "title": "Ed Johnson - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/our-people/amy-forsythe",
+    "title": "Amy Forsythe - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/our-people/carolyn-manley",
+    "title": "Carolyn Manley - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/author/carolynmanley",
+    "title": "Carolyn Manley, Author at Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/category/acquisitions",
+    "title": "Acquisitions Archives - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/category/portfoliocos",
+    "title": "Portfolio Companies Archives - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/tag/acquisition",
+    "title": "acquisition Archives - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/tag/private-equity",
+    "title": "private equity Archives - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/tag/packaging",
+    "title": "packaging Archives - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/tag/advanced-probing-systems",
+    "title": "Advanced Probing Systems Archives - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/tag/semiconductor",
+    "title": "semiconductor Archives - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/tag/tool",
+    "title": "tool Archives - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/tag/tool-supply",
+    "title": "tool supply Archives - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/tag/spartan",
+    "title": "spartan Archives - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/tag/fip",
+    "title": "fip Archives - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/tag/distributor",
+    "title": "distributor Archives - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/author/joshyoung",
+    "title": "Josh Young, Author at Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/category/people",
+    "title": "People Archives - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/contact",
+    "title": "Contact Us - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/category/opinion",
+    "title": "Opinion Archives - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/current-investments/advanced-probing-systems",
+    "title": "Page not found - Foundation Investment Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://foundationpartners.net/author/joshyoung/page/2",
+    "title": "Josh Young, Author at Foundation Investment Partners - Page 2 of 2",
+    "dynamic_states": 0
+  }
+]
