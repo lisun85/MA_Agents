@@ -3,7 +3,6 @@
 
 #agent 1
 https://branfordcastle.com/
-<<<<<<< HEAD
 www.claviscp.com 
 www.rightlanecapital.com/ 
 www.crescendocap.com/ 
@@ -27,4 +26,4 @@ https://latticeworkcapital.com/
 http://www.redriverequity.com/
 https://www.pennspring.com/
 https://www.abacusinvestments.com/
->>>>>>> RL_playwright_crawl_agents
+
