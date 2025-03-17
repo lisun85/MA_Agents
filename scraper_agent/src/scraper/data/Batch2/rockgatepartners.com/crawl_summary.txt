@@ -1,0 +1,172 @@
+[
+  {
+    "url": "https://rockgatepartners.com/",
+    "title": "Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/why-rock-gate-1",
+    "title": "Why Rock Gate \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/criteria-1",
+    "title": "Criteria \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/investments",
+    "title": "Investments \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/our-team",
+    "title": "ROCK GATE PARTNERS \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/news-landing-page",
+    "title": "News \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/contact",
+    "title": "Contact information \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/philosophy",
+    "title": "OUR Philosophy \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/overview",
+    "title": "Overview \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/organizations",
+    "title": "Rock Gate actively supports the following organizations \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/kenneth-l-ali",
+    "title": "ROCK GATE PARTNERS \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/carl-a-stickel",
+    "title": "Carl A. Stickel \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/jeffrey-s-burns",
+    "title": "Jeffrey S. Burns \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/john-oommen",
+    "title": "John Oommen</p> \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/stephen-k-foutch",
+    "title": "ROCK GATE PARTNERS \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/j-peter-golbitz",
+    "title": "J. Peter Golbitz \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/laura-morgan",
+    "title": "Laura Morgan \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/raymond-e-bayley",
+    "title": "Raymond E. Bayley \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/luke-boland",
+    "title": "Luke Boland \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/marc-a-bushala",
+    "title": "Marc A. Bushala \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/michael-call",
+    "title": "Michael Call \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/frank-serrino",
+    "title": "Frank Serrino \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/james-t-dimitriou",
+    "title": "James T. Dimitriou \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/john-a-schweig",
+    "title": "John A. Schweig \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/news/h3manufacturing",
+    "title": "H3 Manufacturing Group Recapitalization \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/news/2022/12/08/rock-gate-partners-completes-whitewater-sale",
+    "title": "Whitewater Brands Sale \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/news/2021/10/26/rock-gate-partners-completes-perimeter-security-partners-recapitalization",
+    "title": "Perimeter Security Partners Recapitalization \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/news/2018/8/17/rock-gate-partners-sells-walpar-to-valmont-industries-fpzy5",
+    "title": "Walpar Sale \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/news/2018/8/17/rock-gate-partners-sells-walpar-to-valmont-industries-xjsz8-423d6",
+    "title": "Auto Body Toolmart Acquisition \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/news/2018/8/17/rock-gate-partners-sells-walpar-to-valmont-industries-xjsz8",
+    "title": "Sid Savage Acquisition \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/news/2018/8/17/rock-gate-partners-sells-walpar-to-valmont-industries-xjsz8-sw898",
+    "title": "Collision Services and I.D.E.A. Acquisition \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/news/2018/8/17/rock-gate-partners-sells-walpar-to-valmont-industries",
+    "title": "Walpar Acquisition \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rockgatepartners.com/news",
+    "title": "News \u2014 Rock Gate Partners Website",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://rockgatepartners.com/",
+    "title": "Rock Gate Partners Website",
+    "dynamic_states": 0
+  }
+]

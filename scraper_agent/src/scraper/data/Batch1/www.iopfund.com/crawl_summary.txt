@@ -1,0 +1,547 @@
+[
+  {
+    "url": "https://iopfund.com/",
+    "title": "Industrial Opportunity Partners | An Operations-Focused Private Investment Firm",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/about-us",
+    "title": "About Us | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/meet-the-team",
+    "title": "Meet the Team | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment-criteria",
+    "title": "Investment Criteria | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/our-stories",
+    "title": "Our Stories | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investments",
+    "title": "Investments | Industrial Opportunity Partners",
+    "dynamic_states": 2
+  },
+  {
+    "url": "https://iopfund.com/news",
+    "title": "News | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/connect",
+    "title": "Connect | Industrial Opportunity Partners",
+    "dynamic_states": 4
+  },
+  {
+    "url": "https://iopfund.com/industrial-opportunity-partners-acquires-transcendia",
+    "title": "Industrial Opportunity Partners Acquires Transcendia | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/industrial-opportunity-partners-acquires-masonite-architectural",
+    "title": "Industrial Opportunity Partners Acquires Masonite Architectural | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment",
+    "title": "Investments | Industrial Opportunity Partners",
+    "dynamic_states": 2
+  },
+  {
+    "url": "https://iopfund.com/creative-foam",
+    "title": "Creative Foam | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/edelbrock",
+    "title": "Edelbrock | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/aarrowcast",
+    "title": "Aarrowcast | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/terms-of-use",
+    "title": "Terms of Use / Disclaimers | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/kira-bockwinkel",
+    "title": "Kira Bockwinkel | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/kristin-clemens",
+    "title": "Kristin Clemens | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/pete-clifford",
+    "title": "Pete Clifford | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/ann-costello",
+    "title": "Ann Costello | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/meg-cutting",
+    "title": "Meg Cutting | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/nick-dimauro",
+    "title": "Nick DiMauro | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/david-dorfman",
+    "title": "David Dorfman | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/phil-fioravante",
+    "title": "Phil Fioravante | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/connor-greenlees",
+    "title": "Connor Greenlees | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/michael-hering",
+    "title": "Michael Hering | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/mike-hnatysko",
+    "title": "Mike Hnatysko | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/kyle-hood",
+    "title": "Kyle Hood | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/tyler-kenealey",
+    "title": "Tyler Kenealey | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/kyle-kirk",
+    "title": "Kyle Kirk | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/craig-korte",
+    "title": "Craig Korte | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/dave-mackin",
+    "title": "Dave Mackin | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/todd-mowry",
+    "title": "Todd Mowry | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/michael-nelson",
+    "title": "Michael Nelson | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/tom-ninneman",
+    "title": "Tom Ninneman | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/nathan-quattrochi",
+    "title": "Nathan Quattrochi | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/nick-quincy",
+    "title": "Nick Quincy | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/grace-richmond",
+    "title": "Grace Richmond | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/alberto-satine",
+    "title": "Alberto Satine | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/will-sullivan",
+    "title": "Will Sullivan | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/ken-tallering",
+    "title": "Ken Tallering | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/jim-todd",
+    "title": "Jim Todd | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/bob-vedra",
+    "title": "Bob Vedra | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/andy-weller",
+    "title": "Andy Weller | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/team/norman-young",
+    "title": "Norman Young | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/alexandria-moulding",
+    "title": "Alexandria Moulding | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/monroe-truck-equipment",
+    "title": "Monroe Truck Equipment | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/aaa-sales-engineering-inc",
+    "title": "AAA Sales & Engineering, Inc. | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/aarrowcast-inc",
+    "title": "Aarrowcast, Inc. | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/alexandria-moulding-lp",
+    "title": "Alexandria Moulding, LP | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/algoma-hardwoods-inc",
+    "title": "Algoma Hardwoods, Inc. | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/betty-machine-inc",
+    "title": "Betty Machine, Inc. | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/carlson-systems-holdings-inc",
+    "title": "Carlson Systems Holdings, Inc. | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/center-manufacturing-inc",
+    "title": "Center Manufacturing, Inc. | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/coldwater-veneer",
+    "title": "Coldwater Veneer | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/e-b-bradley-co",
+    "title": "E.B. Bradley Co. | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/edelbrock-llc",
+    "title": "Edelbrock LLC | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/el-dorado-packaging-inc",
+    "title": "El Dorado Packaging, Inc. | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/fas-controls-inc",
+    "title": "FAS Controls, Inc. | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/gulf-coast-machine-supply-company",
+    "title": "Gulf Coast Machine & Supply Company | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/kic-llc",
+    "title": "KIC LLC | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/kuss-filtration-inc",
+    "title": "Kuss Filtration, Inc. | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/midwest-paper-group",
+    "title": "Midwest Paper Group | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/monroe-truck-equipment-inc",
+    "title": "Monroe Truck Equipment, Inc. | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/roadtrek-motorhomes-inc",
+    "title": "Roadtrek Motorhomes Inc. | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/toledo-molding-die-inc",
+    "title": "Toledo Molding & Die, Inc. | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/trantech-radiator-products-inc",
+    "title": "Trantech Radiator Products, Inc. | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/union-corrugating-company",
+    "title": "Union Corrugating Company | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/united-poly-systems-llc",
+    "title": "United Poly Systems LLC | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/vita-nonwovens",
+    "title": "Vita Nonwovens | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/creative-foam-corporation",
+    "title": "Creative Foam Corporation | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/edelbrock-group",
+    "title": "Edelbrock Group | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/gt-technologies-inc",
+    "title": "GT Technologies, Inc. | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/greenfiber",
+    "title": "Greenfiber | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/harvest-food-group",
+    "title": "Harvest Food Group | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/forte-opening-solutions",
+    "title": "Forte Opening Solutions | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/little-giant-ladder-systems",
+    "title": "Little Giant Ladder Systems | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/nb-handy-company",
+    "title": "N.B. Handy Company | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/polyvision-corporation",
+    "title": "PolyVision Corporation | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/royston-group",
+    "title": "Royston Group | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/transcendia",
+    "title": "Transcendia | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/viaflex",
+    "title": "Viaflex | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/investment/york-design-group",
+    "title": "York Design Group | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/industrial-opportunity-partners-portfolio-company-nb-handy-company-acquires-4m-metals-inc",
+    "title": "Industrial Opportunity Partners\u2019 Portfolio Company N.B. Handy Company Acquires 4M Metals, Inc. | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/industrial-opportunity-partners-acquires-harvest-food-group-inc",
+    "title": "Industrial Opportunity Partners Acquires Harvest Food Group, Inc. | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/industrial-opportunity-partners-portfolio-company-applegate-greenfiber-acquires-united-fibers",
+    "title": "Industrial Opportunity Partners\u2019 Portfolio Company Applegate Greenfiber Acquires United Fibers | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/news/page/2",
+    "title": "News | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/2024",
+    "title": "2024 | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/2023",
+    "title": "2023 | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/2022",
+    "title": "2022 | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/2021",
+    "title": "2021 | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/2020",
+    "title": "2020 | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/2019",
+    "title": "2019 | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/2018",
+    "title": "2018 | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/2017",
+    "title": "2017 | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/2016",
+    "title": "2016 | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/category/news",
+    "title": "News Archives | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/portfolio_category/administration",
+    "title": "Administration Archives | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/portfolio_category/investments",
+    "title": "Investments Archives | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/portfolio_category/operations",
+    "title": "Operations Archives | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/portfolio_category/business-development",
+    "title": "Business Development Archives | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/industrial-opportunity-partners-closes-fund-iv-at-650-million",
+    "title": "Industrial Opportunity Partners Closes Fund\u00a0IV at $650 Million | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/industrial-opportunity-partners-completes-sale-of-portfolio-company-united-poly-systems",
+    "title": "Industrial Opportunity Partners Completes Sale of Portfolio Company United Poly Systems | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/industrial-opportunity-partners-acquires-nb-handy-company",
+    "title": "Industrial Opportunity Partners Acquires N.B. Handy Company | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/industrial-opportunity-partners-acquires-raven-engineered-films-division-from-cnh-industrial",
+    "title": "Industrial Opportunity Partners Acquires Raven Engineered Films Division from CNH Industrial | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/industrial-opportunity-partners-completes-sale-of-portfolio-company-midwest-paper-group",
+    "title": "Industrial Opportunity Partners Completes Sale of Portfolio Company Midwest Paper Group | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/news/page/3",
+    "title": "News | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/2022/page/2",
+    "title": "2022 | Page 2 of 2 | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/industrial-opportunity-partners-completes-sale-of-portfolio-company-union-corrugating-company",
+    "title": "Industrial Opportunity Partners Completes Sale of Portfolio Company Union Corrugating Company | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://iopfund.com/industrial-opportunity-partners-completes-sale-of-portfolio-company-aarrowcast-inc",
+    "title": "Industrial Opportunity Partners Completes Sale of Portfolio Company Aarrowcast, Inc. | Industrial Opportunity Partners",
+    "dynamic_states": 0
+  }
+]

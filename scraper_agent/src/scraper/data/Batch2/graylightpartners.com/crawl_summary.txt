@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://graylightpartners.com/",
+    "title": "Graylight",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://graylightpartners.com/meet-the-team/ryan-simon",
+    "title": "Graylight",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://graylightpartners.com/meet-the-team/mitch-kern",
+    "title": "Graylight",
+    "dynamic_states": 0
+  }
+]

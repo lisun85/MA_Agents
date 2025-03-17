@@ -1,0 +1,46 @@
+URL: https://hadleycapital.com/insights/selling-a-small-business/financial-reporting
+TITLE: Financial Reporting Requirements in Small Company Acquisition
+
+BASE CONTENT:
+================================================================================
+Financial Reporting Requirements in Small Company Acquisition
+Scott Dickes
+October 13, 2015 - 1 min read
+
+
+Small business owners are often apprehensive about the changes that may occur when their business is acquired by a private equity firm.  When Hadley Capital acquires a company we do not look to make immediate changes to the business. However, financial reporting is something that does change after the deal closes. This typically means two changes for a business: 1) monthly reporting is completed in a more timely manner and 2) additional financial reporting is required.
+
+Timely Monthly Reporting.
+
+Hadley Capital receives monthly financials (income statement and balance sheet) from our portfolio companies within 30 days after month end. Most small businesses are not used to producing monthly financials this quickly. While this can be an adjustment, our portfolio companies eventually see the benefits of timely reporting. It is much easier to manage a business when you have timely data.
+
+Additional Financial Reporting.
+
+Borrowing Base Certificate. All of our portfolio companies have a revolving line of credit to manage working capital. A line of credit is supported by a borrowing base certificate. A borrowing base lists a company’s eligible accounts receivable and inventory and dictates how much the company can borrow. Many small businesses are not accustomed to providing monthly accounts receivable aging reports and monthly inventory reports. However, the benefits of access to additional capital (via a line of credit) are greater than the administrative burden of creating these reports.
+
+Financial Covenant Calculations. Banks and mezzanine lenders use financial covenants to monitor the performance of a borrower. These lenders receive quarterly financial covenants calculations from the borrower. Financial Covenants give the lenders a heads up if the financial standing of the borrower has changed over a given period of time. For example, one common financial covenant is Total Leverage. The Total Leverage covenant measures the Total Debt (senior debt + mezzanine debt) in relation to the trailing twelve months (TTM) of EBITDA. So if the Total Leverage covenant is Total Debt must be less than 4.0x TTM EBITDA, the borrower has to perform this calculation each quarter and send the results to the lender in a covenant compliance certificate. If the Total Leverage is less than 4.0x then the borrower is in compliance with the covenant. However, if Total Leverage goes above 4.0x, the borrower is not in compliance and the lender will want to sit down with the borrower and understand why things have changed. Covenant calculations are not difficult, but most small businesses are not used to completing them so it can take some time getting used to.
+
+Individually none of these financial reporting requirements are a big deal, but collectively they can seem like a lot to a small business. However, we have been through the process many times and we work with our portfolio companies to make it a smooth transition. The lenders that work with our portfolio companies typically require our companies to submit a monthly borrowing base certificate and quarterly financial covenant certificates.
+
+Scott Dickes – Member of the General Partner
+
+Scott is a member of the General Partner of Hadley Capital and Managing Partner of 1719 Partners.
+
+Scott holds a BA from Duke University and received his MBA from the Kellogg School of Management at Northwestern University.
+
+Scott and his wife Erin have two grown children.
+
+Recommended Reading
+Centare Sold to Leading Onshore Development Organization
+By Paul Wormley
+Insights on Management Buyouts for Small Businesses
+By Harrison Menaker
+Purchase Price Allocation in Small Company Acquisitions
+By Ryan Hanley
+What are Indemnification Baskets and Caps in M&A?
+By Paul Wormley
+Categories
+Managing A Small Business
+Selling A Small Business
+Small Business Private Equity
+

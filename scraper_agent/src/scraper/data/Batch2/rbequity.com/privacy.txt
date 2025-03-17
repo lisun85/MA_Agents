@@ -1,0 +1,96 @@
+URL: https://rbequity.com/privacy
+TITLE: Privacy Policy - Rockbridge Growth Equity
+
+BASE CONTENT:
+================================================================================
+Privacy Policy
+
+Rockbridge Growth Equity (“Rockbridge,” “our,” “us” or “we”) collects and processes Personal Data (which we define below) about you from your use of this website and through other means, such as by contacting us directly by phone or email or more generally in the course of operating our business. This Privacy Notice explains how we collect Personal Data, how we use your Personal Data and how you can assert your rights in accordance with applicable data protection laws. This Privacy Notice does not address our privacy practices with respect to any Personal Data we may collect from an investor in the funds that we sponsor or manage. We address these practices in separate notices to investors as required by law.
+
+1. What is Personal Data and what Personal Data do we collect?
+
+“Personal Data” is any information relating to you or that we can otherwise link to you or your household.
+
+The Personal Data we collect on this website may include your name, email address, residential address, IP address and other contact information. Some of this information we will only have access to if you provide it to us. When you visit our website, we may collect information about you when you enter and browse our website through the use of “cookies,” web server logs and other electronic tools. This information may include, without limitation, the number and frequency of your visits to our website, the websites accessed before and after you visit our website, the internet browser used by you and your IP address.
+
+2. How do we collect Personal Data?
+
+We collect Personal Data that you voluntarily provide to us, such as through “contact us” forms you choose to submit on our website to obtain more information about Rockbridge or our funds. We may also collect Personal Data through the use of “cookies” on our website, in the ordinary course of evaluating service providers, vendors and investments, in marketing our funds or from publicly available or accessible directories, databases and agencies. We may combine personal information that you provide to us with information that we collect from or about you from publicly available sources. This will include information collected in an online or offline context.
+
+In addition to Personal Data collected from your use of our website, we may also collect Personal Data regarding our business contacts, partners, current and prospective investors, vendors and other contacts. We will collect some of this Personal Data if you contact our office or employees directly.
+
+3. How do we use your Personal Data?
+
+We use the Personal Data we collect from you on our website for communication purposes, such as, but not limited to (i) sending you information about Rockbridge and/or our investment funds and (ii) maintaining our list of contacts. We use the Personal Data we collect from you through other means for business purposes, such as, but not limited to (i) communicating with service providers and vendors (ii) researching investment opportunities and (iii) managing our investments. No automated decision-making, including profiling, is used when processing your personal information.
+
+4. Why do we process your Personal Data?
+
+We process your Personal Data collected from your use of this website for certain business reasons, including communication and marketing purposes. We process your Personal Data collected by other means for other business reasons, including managing our business and our funds’ investments.
+
+5. What legal basis do we use to process your Personal Data?
+
+In accordance with the European Union’s General Data Protection Regulation (“GDPR”), we rely on our legitimate business interests (including, but not limited to, internal administrative purposes, direct marketing or conducting market research), contractual obligations, legal obligations or your consent in maintaining business relationships, communicating about Rockbridge’s business and performing other business services as the basis for collecting and processing your Personal Data.
+
+6. Is it necessary to provide Personal Data?
+
+You are not required to submit information to us through this website. However, we may collect “cookies”, which may be automatically collected and will not necessarily require your consent. For our service providers, vendors, investors and other contacts, it is necessary to provide some Personal Data in order for us to do business with you.
+
+7. With whom do we share your Personal Data?
+
+We will not share your Personal Data with third parties except as permitted or required by law or regulation and to affiliates and service providers, including in the context of those third parties acting as data processors on our behalf and with whom we have a need to share such information. For example, we may use a customer relationship manager software platform to organize our business contacts, and your Personal Data may reside on that software. Where relevant, we will ensure that contractual safeguards are implemented with these third-party data processors to ensure the protection of your Personal Data.
+
+Rockbridge does not sell or transfer Personal Data to affiliates or third parties for value and does not intend to do so in the future. We will amend this Privacy Notice promptly upon any changes to this policy.
+
+8. How long do we retain your Personal Data?
+
+Your Personal Data will be retained for as long as you are one of our business contacts, or longer as required by applicable law. Your Personal Data may be deleted when it is no longer relevant or when you withdraw consent (pursuant to the rights detailed directly below which may be exercised by using the contact information contained at the end of this Privacy Notice), again within the parameters of applicable law. If we send you emails and/or market to you, you may unsubscribe at any time from communications from us, and we will cease sending you further communications.
+
+9. What are my rights with respect to my Personal Data?
+
+Your rights described in this Privacy Notice are applicable only if you reside in a jurisdiction where the provision of such rights is required by the data protection and privacy laws of the governing regulatory authority, as outlined further below. These rights may be limited and subject to further legal requirements.
+
+California Consumer Privacy Act, 2020
+
+• The right to be informed about what Personal Data is being processed and the rationale for the processing;
+• The right to know whether and to whom your Personal Data is sold or disclosed and to opt out of the sale, if applicable;
+• The right to access (i.e. view or request copies of) your Personal Data that is being processed;
+• The right to request that we delete your Personal Data under certain circumstances; and
+• The right to not be discriminated against for exercising your rights under the California Consumer Privacy Act.
+
+GDPR, 2018
+
+• The right to be informed about what Personal Data is being processed and the rationale for the processing;
+• The right to access (i.e. view or request copies of) your Personal Data that is being processed;
+• The right to request that we rectify Personal Data if it is inaccurate or out of date;
+• The right to request that we delete your Personal Data (the right to be “forgotten”) under certain circumstances;
+• The right to restrict processing your Personal Data if you contest its accuracy, the lawfulness of its processing or if we no longer need it;
+• The right to object to the processing of your Personal Data if processing is based on our legitimate interests or for direct marketing purposes;
+• The right to be informed about and object to the existence of automated decision making, including profiling, and about its significance and consequences on you; and
+• The right to request a transfer of your Personal Data to a third party in certain circumstances.
+
+Should you wish to lodge a complaint with regards to how your Personal Data has been processed by us, please contact the applicable supervisory authority which will vary based on jurisdiction, but generally include the following for individuals protected by the GDPR: https://edpb.europa.eu/about-edpb/board/members_en and for individuals protected by the CCPA can be reported to the Office of the Attorney General of California at oag.ca.gov/report or by calling 800-952-5225.
+
+Minors
+
+This website and the services offered by Rockbridge are not intended for minors and Rockbridge does not knowingly collect Personal Data relating to minors and in the event of any inadvertent collection of Personal Data related to a minor, Rockbridge expects to delete such Personal Data upon notice, but in any event, will comply with any provision of applicable data protection laws. The determination of whether an individual is a minor varies by jurisdiction, and may be as low as 13 years of age in some jurisdictions; however, Rockbridge has determined to extend the protection afforded to minors to individuals less than 18 years of age.
+
+11. What security do we have in place over your Personal Data?
+
+Rockbridge has implemented appropriate procedural and technical security measures to help protect your Personal Data against loss and to safeguard your Personal Data against access by unauthorized persons. We consider the protection of sensitive information to be a sound business practice and a top priority, and to that end we employ physical, electronic and procedural safeguards to protect your Personal Data. Although we employ certain safeguards to protect your Personal Data, we cannot guarantee the security of any information or data transmitted to or through our site; any transmission of information or data by you to or through this site is at your sole risk.
+
+If you would like to request more information regarding the procedural and technical safeguards we have in place, please contact us at the email address below.
+
+12. What are our procedures in the event of a breach to your Personal Data?
+
+Depending on the applicable law, Rockbridge may be required to notify you or the appropriate authority in the event of a breach. Various jurisdictions that have enacted data protection laws may require different procedures in the event of a breach of your Personal Data, including with regard to notification to certain regulators or agencies and the data subject; in each case and in the event of such a breach to your Personal Data, we will follow the laws of the applicable jurisdiction.
+
+13. Updates to this Privacy Notice
+
+This Privacy Notice was updated in November 2021. We may amend this Privacy Notice from time to time and for any reason, in our sole discretion, without notice, to reflect changes in our practices with respect to the processing of Personal Data or changes in applicable law. Future changes to this Privacy Notice will similarly be posted to this website; however, we will use information only in accordance with the Privacy Notice under which the information was collected.
+
+14. Contact information
+
+If you have any questions about how we process your Personal Data or to make a request regarding such Personal Data pursuant to one of the rights enumerated above, please contact us at info@rbequity.com and (313) 373-7000. If you would like to contact us by telephone without incurring telephone charges, please submit your request and telephone number through the Contact Us form, and we will call you on the following business day. We may require additional information prior to completing any such request, but will in any case respond in a timely manner to any request, including, if necessary, a response notifying you that additional time is required to complete such request.
+
+ 
+

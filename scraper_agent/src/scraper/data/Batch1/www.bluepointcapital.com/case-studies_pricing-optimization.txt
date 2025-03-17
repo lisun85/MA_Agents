@@ -1,0 +1,16 @@
+URL: https://bluepointcapital.com/case-studies/pricing-optimization
+TITLE: Blue Point Capital Partners | Pricing Optimization
+
+BASE CONTENT:
+================================================================================
+Pricing Analytically And Strategically
+We’re focused on helping our teams generate incremental margin by managing pricing more analytically, strategically and systematically.
+It’s been particularly applicable to businesses with high customer counts, high SKU counts and high order frequencies.
+Steps to Gains
+Building the requisite technology stack.
+Rigorously measuring fully burdened customer and product profitability.
+Creating granular customer, product and channel segments by size and profitability.
+Prioritizing areas for price increases with greatest potential impact and least risk.
+Operationalizing and maintaining gains via process, tightened controls and exception monitoring.
+Impact (not applicable to all portfolio)
+

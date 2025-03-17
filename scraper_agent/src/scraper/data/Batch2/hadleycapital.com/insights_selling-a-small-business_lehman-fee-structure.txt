@@ -1,0 +1,45 @@
+URL: https://hadleycapital.com/insights/selling-a-small-business/lehman-fee-structure
+TITLE: How the Lehman Fee Structure Works (Example)
+
+BASE CONTENT:
+================================================================================
+How the Lehman Fee Structure Works (Example)
+Scott Dickes
+August 15, 2012 - 1 min read
+
+We recently got an email from a business broker asking us what type of finders fee structure we typically use. Our standard finder's fee structure is based on the Lehman structure. Since that post has gotten a nice response from the business broker community we thought it might be helpful to walk through a detailed example of how the Lehman structure works. For this example let's assume we have a finder's fee agreement with a Lehman structure with a business broker, and we end up buying a business that they introduced to us for $10 million. This is is how the agreement would pay out:
+
+$1 million x 5% = $50,000
+
+$1 million x 4% = $40,000
+
+$1 million x 3% = $30,000
+
+$1 million x 2% = $20,000
+
+$6 million x 1% = $60,000
+
+The total fee for this transaction would be $200,000 (or 2% of the sale price) and it would be payable at closing.This fee structure was created in the early 1970's by Lehman Brothers and it is a very common fee structure for small business acquisitions. We have used this structure with many of our existing portfolio companies. If you are a business broker and you have a business that meets our criteria, please contact us.
+
+Scott Dickes – Member of the General Partner
+
+Scott is a member of the General Partner of Hadley Capital and Managing Partner of 1719 Partners.
+
+Scott holds a BA from Duke University and received his MBA from the Kellogg School of Management at Northwestern University.
+
+Scott and his wife Erin have two grown children.
+
+Recommended Reading
+Centare Sold to Leading Onshore Development Organization
+By Paul Wormley
+Insights on Management Buyouts for Small Businesses
+By Harrison Menaker
+Purchase Price Allocation in Small Company Acquisitions
+By Ryan Hanley
+What are Indemnification Baskets and Caps in M&A?
+By Paul Wormley
+Categories
+Managing A Small Business
+Selling A Small Business
+Small Business Private Equity
+

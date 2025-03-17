@@ -1,0 +1,1092 @@
+[
+  {
+    "url": "https://bluepointcapital.com/",
+    "title": "Blue Point Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/who-we-are",
+    "title": "Blue Point Capital Partners | Who We Are",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/how-we-invest",
+    "title": "Blue Point Capital Partners | How We Invest",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/value-added-partner",
+    "title": "Blue Point Capital Partners | Value-Added Partner",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/for-business-owners",
+    "title": "Blue Point Capital Partners | For Business Owners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio",
+    "title": "Blue Point Capital Partners | Our Portfolio",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team",
+    "title": "Blue Point Capital Partners | Our Team",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/contact-us",
+    "title": "Blue Point Capital Partners | Contact Us",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news",
+    "title": "Blue Point Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-completes-the-recapitalization-of-hvac-and-plumbing-services-platform-pinnacle-mep",
+    "title": "Blue Point Capital Partners | Blue Point Completes the\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-capital-partners-ii-ships-out-trademark-global-leading-manufacturer-fulfiller-and-distributor-to-online-retailers",
+    "title": "Blue Point Capital Partners | Blue Point Capital Partners II Ships\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/case-studies/leveraging-blue-points-value-added-toolkit",
+    "title": "Blue Point Capital Partners | Value-Added Partner to Transtar",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-exits-alco-manufacturing-corporation-llc",
+    "title": "Blue Point Capital Partners | Blue Point Exits Alco Manufacturing\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/value-added-partner/unique-global-supply-chain-capabilities",
+    "title": "Blue Point Capital Partners | Unique Global Supply Chain Capabilities",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/case-studies/creating-value-via-global-markets",
+    "title": "Blue Point Capital Partners | Creating Value via Global Markets",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/case-studies/pricing-optimization",
+    "title": "Blue Point Capital Partners | Pricing Optimization",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/brimar-industries-llc",
+    "title": "Blue Point Capital Partners | Brimar Industries, LLC",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/consolidated-precision-products",
+    "title": "Blue Point Capital Partners | Consolidated Precision Products Corp.",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/country-pure-foods",
+    "title": "Blue Point Capital Partners | Country Pure Foods, Inc.",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/europa-eyewear",
+    "title": "Blue Point Capital Partners | Europa Eyewear",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/sylvan-group",
+    "title": "Blue Point Capital Partners | Sylvan Group",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/mattco-forge-inc.",
+    "title": "Blue Point Capital Partners | Mattco Forge, Inc.",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/national-ondemand-inc.",
+    "title": "Blue Point Capital Partners | National OnDemand, Inc.",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/next-level-apparel",
+    "title": "Blue Point Capital Partners | Next Level Apparel",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/premier-needle-arts",
+    "title": "Blue Point Capital Partners | Local Crafts",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/russell-hendrix-foodservice-equipment",
+    "title": "Blue Point Capital Partners | Russell Hendrix Foodservice Equipment",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/siffron",
+    "title": "Blue Point Capital Partners | siffron",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/spector-co.",
+    "title": "Blue Point Capital Partners | Spector & Co.",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/stax.inc",
+    "title": "Blue Point Capital Partners | Stax LLC",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/tas-environmental-services",
+    "title": "Blue Point Capital Partners | TAS Environmental Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/transtar-industries",
+    "title": "Blue Point Capital Partners | Transtar Holding Company",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/vrc-holdings-inc.",
+    "title": "Blue Point Capital Partners | VRC Engineered Solutions",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/weaver-leather",
+    "title": "Blue Point Capital Partners | Weaver",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/water-lilies-food-llc",
+    "title": "Blue Point Capital Partners | Water Lilies Food, LLC",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/national-safety-apparel",
+    "title": "Blue Point Capital Partners | National Safety Apparel",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/pinnacle-mep-pinnacle",
+    "title": "Blue Point Capital Partners | Pinnacle MEP (Pinnacle)",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/privacy-policy",
+    "title": "Blue Point Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/terms-and-conditions",
+    "title": "Blue Point Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/value-added-partner/human-capital",
+    "title": "Blue Point Capital Partners | Human Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/value-added-partner/blue-point-data-digital",
+    "title": "Blue Point Capital Partners | Blue Point Data & Digital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/value-added-partner/m-a-execution",
+    "title": "Blue Point Capital Partners | M&A Execution",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/value-added-partner/operating-executive-group",
+    "title": "Blue Point Capital Partners | Operating Executive Group",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/inc.-founder-friendly-award",
+    "title": "Blue Point Capital Partners | Blue Point Named as one of Inc's 2022\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/grant-beard-1",
+    "title": "Blue Point Capital Partners | Grant Beard",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/taryn-boose",
+    "title": "Blue Point Capital Partners | Taryn Boose",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/brian-castleberry",
+    "title": "Blue Point Capital Partners | Brian Castleberry",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/chip-chaikin",
+    "title": "Blue Point Capital Partners | Chip Chaikin",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/evan-cottington-1-1",
+    "title": "Blue Point Capital Partners | Evan Cottington",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/lance-curtis-1",
+    "title": "Blue Point Capital Partners | Lance Curtis",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/bobby-exler",
+    "title": "Blue Point Capital Partners | Bobby Exler",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/jim-fleming-1",
+    "title": "Blue Point Capital Partners | Jim Fleming",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/maddie-gaugler",
+    "title": "Blue Point Capital Partners | Maddie Gaugler",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/charley-geiger",
+    "title": "Blue Point Capital Partners | Charley Geiger",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/rachel-glenn",
+    "title": "Blue Point Capital Partners | Rachel Glenn",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/muj-haidri",
+    "title": "Blue Point Capital Partners | Mujteba Haidri",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/kim-katzenberger",
+    "title": "Blue Point Capital Partners | Kim Katzenberger",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/megan-kneipp-1-1",
+    "title": "Blue Point Capital Partners | Megan Kneipp",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/john-lemay",
+    "title": "Blue Point Capital Partners | John LeMay",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/graham-lloyd",
+    "title": "Blue Point Capital Partners | Graham Lloyd",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/juli-marley",
+    "title": "Blue Point Capital Partners | Juli Marley",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/bailey-villa",
+    "title": "Blue Point Capital Partners | Bailey Moledor",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/sean-murphy",
+    "title": "Blue Point Capital Partners | Sean Murphy",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/stacey-neric",
+    "title": "Blue Point Capital Partners | Stacey Neric",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/tom-pitera",
+    "title": "Blue Point Capital Partners | Tom Pitera",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/jonathan-pressnell",
+    "title": "Blue Point Capital Partners | Jonathan Pressnell",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/jeff-robich",
+    "title": "Blue Point Capital Partners | Jeff Robich",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/rick-soukup-1",
+    "title": "Blue Point Capital Partners | Rick Soukup",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/rachel-spiegelman",
+    "title": "Blue Point Capital Partners | Rachel Spiegelman",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/julie-stacey",
+    "title": "Blue Point Capital Partners | Julie Stacey",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/scott-stone",
+    "title": "Blue Point Capital Partners | Scott Stone",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/alena-tkach",
+    "title": "Blue Point Capital Partners | Alena Tkach",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/sean-ward",
+    "title": "Blue Point Capital Partners | Sean Ward",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/alex-weinstein",
+    "title": "Blue Point Capital Partners | Alex Weinstein",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/jake-white",
+    "title": "Blue Point Capital Partners | Jake White",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/sarah-wild",
+    "title": "Blue Point Capital Partners | Sarah Wild",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/dennis-wu",
+    "title": "Blue Point Capital Partners | Dennis Wu",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/neliya-zakharchuk",
+    "title": "Blue Point Capital Partners | Neliya Zakharchuk",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/ed-zelaski",
+    "title": "Blue Point Capital Partners | Ed Zelaski",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/jackie-zhang",
+    "title": "Blue Point Capital Partners | Jackie Zhang",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media",
+    "title": "Blue Point Capital Partners | Media",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-named-a-2025-top-private-equity-innovator-by-bluwave",
+    "title": "Blue Point Capital Partners | Blue Point Named a 2025 Top Private\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-takes-home-two-awards-at-the-16th-annual-americas-m-a-atlas-awards",
+    "title": "Blue Point Capital Partners | Blue Point Takes Home Two Awards at the\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-backed-national-ondemand-signals-growth-with-j.-tucker-construction-add-on",
+    "title": "Blue Point Capital Partners | Blue Point-Backed National OnDemand\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-named-one-of-the-top-50-pe-firms-in-the-middle-market-by-gci",
+    "title": "Blue Point Capital Partners | Blue Point Named One of the Top 50 PE\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-named-on-acgs-list-of-top-100-notable-acquisitions-of-2024",
+    "title": "Blue Point Capital Partners | Blue Point Named on ACG\u2019s List of Top\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-points-brimar-industries-locks-down-acquisition-in-the-safety-products-sector",
+    "title": "Blue Point Capital Partners | Blue Point\u2019s Brimar Industries Locks\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-backed-nsa-adds-warren-heim-to-its-tool-bag",
+    "title": "Blue Point Capital Partners | Blue Point-Backed NSA Adds Warren Heim\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-awarded-private-equity-deal-of-the-year-for-acquisition-of-nsa",
+    "title": "Blue Point Capital Partners | Blue Point Awarded Private Equity Deal\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-points-pinnacle-mep-expands-indiana-presence-with-bell-plumbing-services-add-on",
+    "title": "Blue Point Capital Partners | Blue Point\u2019s Pinnacle MEP Expands\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/nexamotion-group-revs-up-growth-in-texas-and-the-west-coast-with-two-acquisitions",
+    "title": "Blue Point Capital Partners | NexaMotion Group Revs Up Growth in\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-named-on-inc.s-2024-founder-friendly-investors-list",
+    "title": "Blue Point Capital Partners | Blue Point Named on Inc.\u2019s 2024\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-launches-support-program-for-portfolio-company-employees-facing-unexpected-hardships",
+    "title": "Blue Point Capital Partners | Blue Point Launches Support Program for\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/p2",
+    "title": "Blue Point Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://bluepointcapital.com/",
+    "title": "Blue Point Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-named-as-one-of-incs-2023-founder-friendly-investors",
+    "title": "Blue Point Capital Partners | Blue Point Named as one of Inc.'s 2023\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-exits-kendall-vegetation-services",
+    "title": "Blue Point Capital Partners | Blue Point Exits Kendall Vegetation\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/back-to-back-acg-private-deal-of-the-year-awards-for-blue-point-ii-portfolio-companies",
+    "title": "Blue Point Capital Partners | Back-to-Back ACG Private Deal of the\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-backed-transtar-fuels-growth-with-pro-form-products-acquisition",
+    "title": "Blue Point Capital Partners | Blue Point-Backed Transtar Fuels Growth\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-backed-transtar-picks-up-speed-with-c-m-auto-parts-reinforcing-general-automotive-repair-focus",
+    "title": "Blue Point Capital Partners | Blue Point-Backed Transtar Picks Up\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-makes-platform-acquisition-of-transtar-industries-in-local-partnership-to-accelerate-data-enabled-growth",
+    "title": "Blue Point Capital Partners | Blue Point Makes Platform Acquisition\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/sbg-holdings-inc.",
+    "title": "Blue Point Capital Partners | SBG Holdings, Inc.",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-builds-on-experience-in-safety-vertical-and-e-commerce-channel-with-platform-investment-in-brimar-industries",
+    "title": "Blue Point Capital Partners | Blue Point Builds on Experience in\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-points-safety-products-platform-brimar-industries-acquires-crowd-control-warehouse-a-distributor-of-crowd-control-safety-products",
+    "title": "Blue Point Capital Partners | Blue Point\u2019s Safety Products Platform\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-exits-selmet-inc.",
+    "title": "Blue Point Capital Partners | Blue Point Exits Selmet, Inc.",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/italian-rose",
+    "title": "Blue Point Capital Partners | Perimeter Brands",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-exits-the-hilsinger-company",
+    "title": "Blue Point Capital Partners | Blue Point Exits The Hilsinger Company",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/the-hilsinger-company",
+    "title": "Blue Point Capital Partners | The Hilsinger Company",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-and-management-recapitalize-fm-sylvan--inc.",
+    "title": "Blue Point Capital Partners | Blue Point and Management Recapitalize\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-forms-local-partnership-with-platform-investment-in-national-ondemand",
+    "title": "Blue Point Capital Partners | Blue Point Forms Local Partnership with\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-named-one-of-inc.-magazines-2021-founder-friendly-investors",
+    "title": "Blue Point Capital Partners | Blue Point Named One of Inc. Magazine\u2019s\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/ortholite",
+    "title": "Blue Point Capital Partners | OrthoLite",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/selmet-inc",
+    "title": "Blue Point Capital Partners | Selmet",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-inks-another-deal-partnering-with-management-to-recapitalize-spector-co.",
+    "title": "Blue Point Capital Partners | Blue Point Inks Another Deal,\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/kendall-vegetation-services",
+    "title": "Blue Point Capital Partners | Kendall Vegetation Services",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-stays-local-with-acquisition-of-nsa",
+    "title": "Blue Point Capital Partners | Blue Point Stays Local with Acquisition\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/area-wide-protective",
+    "title": "Blue Point Capital Partners | Area Wide Protective",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/firm-longevity-valuing-legacy",
+    "title": "Blue Point Capital Partners | Firm Longevity & Valuing Legacy",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-and-concrete-industry-platform-sase-company-cement-growth-focused-partnership-with-bartell-global-1-1",
+    "title": "Blue Point Capital Partners | Blue Point Named in GrowthCap\u2019s Top 25\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-and-concrete-industry-platform-sase-company-cement-growth-focused-partnership-with-bartell-global-1",
+    "title": "Blue Point Capital Partners | Blue Point Recognized for the 2022 Deal\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/portfolio/fire-life-safety-america",
+    "title": "Blue Point Capital Partners | Fire & Life Safety America",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/blue-point-data-digital",
+    "title": "Blue Point Capital Partners | Blue Point Data & Digital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/nsa-company-overview",
+    "title": "Blue Point Capital Partners | NSA Company Overview",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/europa-eyewear-company-overview",
+    "title": "Blue Point Capital Partners | Europa Eyewear Company Overview",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/national-ondemand-company-overview",
+    "title": "Blue Point Capital Partners | National OnDemand Company Overview",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/regional-presence",
+    "title": "Blue Point Capital Partners | Blue Point's Regional Presence",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/value-creation-hilsinger",
+    "title": "Blue Point Capital Partners | Value Creation (Hilsinger)",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/kendall-company-overview",
+    "title": "Blue Point Capital Partners | Kendall Company Overview",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/italian-rose-company-overview",
+    "title": "Blue Point Capital Partners | Italian Rose Company Overview",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/spector-co-company-overview",
+    "title": "Blue Point Capital Partners | Spector & Co. Company Overview",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/blue-point-named-2018-private-equity-firm-of-the-year-by-acg-cleveland",
+    "title": "Blue Point Capital Partners | Blue Point Named 2018 Private Equity\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/value-creation-russell-hendrix",
+    "title": "Blue Point Capital Partners | Value Creation (Russell Hendrix)",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/flsa-company-overview",
+    "title": "Blue Point Capital Partners | FLSA Company Overview",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/p2",
+    "title": "Blue Point Capital Partners | Media",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-named-lower-mid-market-firm-of-the-year-and-receives-usa-private-equity-deal-of-the-year-2",
+    "title": "Blue Point Capital Partners | Blue Point Recognized on Mergers &\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-backed-national-ondemand-expands-bandwidth-through-two-acquisitions",
+    "title": "Blue Point Capital Partners | Blue Point-Backed National OnDemand\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-awarded-add-on-deal-of-the-year-megan-kneipp-named-top-woman-dealmaker-by-m-a-atlas-awards",
+    "title": "Blue Point Capital Partners | Blue Point Awarded Add-On Deal of the\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-backed-transtar-holding-company-adds-arch-auto-parts-to-general-automotive-repair-distribution-platform",
+    "title": "Blue Point Capital Partners | Blue Point-Backed Transtar Holding\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-backed-nsa-and-tri-star-glove-are-a-tailor-made-fit",
+    "title": "Blue Point Capital Partners | Blue Point-Backed NSA and Tri-Star\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/transtar-holding-company-shifts-into-high-gear-with-ppi-automotive-add-on",
+    "title": "Blue Point Capital Partners | Transtar Holding Company Shifts into\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/sylvans-expansion-rolls-on-with-acquisition-of-anchor-conveyor-products",
+    "title": "Blue Point Capital Partners | Sylvan\u2019s Expansion Rolls On With\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-kicks-off-2024-with-a-look-at-some-of-its-latest-accomplishments",
+    "title": "Blue Point Capital Partners | Blue Point Kicks Off 2024 with a Look\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-prepares-the-foundation-for-sbg-holdings-exit",
+    "title": "Blue Point Capital Partners | Blue Point Prepares the Foundation for\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-named-lower-mid-market-firm-of-the-year-and-receives-usa-private-equity-deal-of-the-year-1",
+    "title": "Blue Point Capital Partners | Blue Point Named One of the Top 50\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-named-lower-mid-market-firm-of-the-year-and-receives-usa-private-equity-deal-of-the-year",
+    "title": "Blue Point Capital Partners | Blue Point Named Lower Mid-Market Firm\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/p3",
+    "title": "Blue Point Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-shines-with-its-acquisition-of-sase-company-inc",
+    "title": "Blue Point Capital Partners | Blue Point Shines with its Acquisition\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-spices-up-its-portfolio-with-the-acquisition-of-italian-rose-gourmet-products",
+    "title": "Blue Point Capital Partners | Blue Point Spices Up its Portfolio with\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-and-italian-rose-show-good-taste-with-the-acquisition-of-la-mexicana-food-products",
+    "title": "Blue Point Capital Partners | Blue Point and Italian Rose Show Good\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-and-hilco-vision-set-their-sights-on-added-growth-with-lbi-eyewear",
+    "title": "Blue Point Capital Partners | Blue Point and Hilco Vision Set Their\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-named-one-of-the-top-50-lower-middle-market-consumer-investors-m-a-advisors-1",
+    "title": "Blue Point Capital Partners | Blue Point Named One of The Top 25\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-named-one-of-the-top-50-lower-middle-market-consumer-investors-m-a-advisors",
+    "title": "Blue Point Capital Partners | Blue Point Named One of The Top 50\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-named-as-2019-operational-excellence-award-winner-for-the-americas-by-private-equity-international",
+    "title": "Blue Point Capital Partners | Blue Point Named as 2019 Operational\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-capital-partners-exits-ortholite",
+    "title": "Blue Point Capital Partners | Blue Point Capital Partners Exits\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-and-concrete-industry-platform-sase-company-cement-growth-focused-partnership-with-bartell-global",
+    "title": "Blue Point Capital Partners | Blue Point and Specialty Concrete\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/sase-company-launches-new-parent-brand-sbg",
+    "title": "Blue Point Capital Partners | SASE Company Launches New Parent Brand,\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-capital-partners-named-2018-private-equity-firm-of-the-year-by-acg-cleveland",
+    "title": "Blue Point Capital Partners | Blue Point Capital Partners Named 2018\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-celebrates-its-20th-anniversary",
+    "title": "Blue Point Capital Partners | Blue Point Celebrates its 20th\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-completes-the-acquisition-of-fire-life-safety-america",
+    "title": "Blue Point Capital Partners | Blue Point Completes the Acquisition of\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-and-fire---life-safety-america-acquire-integrated-fire-protection",
+    "title": "Blue Point Capital Partners | Blue Point and Fire & Life Safety\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-announces-investment-in-europa-eyewear-to-support-growth-and-development-of-new-platform",
+    "title": "Blue Point Capital Partners | Blue Point Announces Investment in\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-acquires-eyebobs-setting-its-sights-on-expanded-eyewear-platform",
+    "title": "Blue Point Capital Partners | Blue Point Acquires eyebobs, Setting\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/value-creation-awp",
+    "title": "Blue Point Capital Partners | Value Creation (AWP)",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-plants-seed-in-vegetation-management-industry-with-the-recapitalization-of-w.a.-kendall-and-co.",
+    "title": "Blue Point Capital Partners | Blue Point Plants Seed in Vegetation\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/how-blue-point-finds-good-returns-in-an-era-of-slow-growth-and-tougher-competition",
+    "title": "Blue Point Capital Partners | How Blue Point Finds Good Returns in an\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/vetta-company-overview",
+    "title": "Blue Point Capital Partners | Vetta Company Overview",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/ortholite-company-overview",
+    "title": "Blue Point Capital Partners | OrthoLite Company Overview",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/premier-needle-arts-company-overview",
+    "title": "Blue Point Capital Partners | Premier Needle Arts Company Overview",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/media/trademark-global-company-overview",
+    "title": "Blue Point Capital Partners | Trademark Global Company Overview",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-backed-sylvan-group-acquires-great-lakes-mechanical",
+    "title": "Blue Point Capital Partners | Blue Point-Backed Sylvan Group Acquires\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-backed-weaver-leather-fetches-partnership-with-premium-dog-products-brand-rex-specs",
+    "title": "Blue Point Capital Partners | Blue Point-Backed Weaver Leather\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-backed-next-level-apparel-fashions-international-expansion-with-stedman-acquisition",
+    "title": "Blue Point Capital Partners | Blue Point-Backed Next Level Apparel\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-backed-tas-expands-with-acquisition-of-environmental-concepts-services",
+    "title": "Blue Point Capital Partners | Blue Point-Backed TAS Expands with\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-awarded-usa-private-equity-deal-of-the-year-award-by-global-m-a-network",
+    "title": "Blue Point Capital Partners | Blue Point Awarded USA Private Equity\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-named-as-one-of-the-top-50-private-equity-firms-for-executives",
+    "title": "Blue Point Capital Partners | Blue Point Named as One of the Top 50\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-named-lower-mid-market-firm-of-the-year-and-receives-usa-private-equity-deal-of-the-year-2-1",
+    "title": "Blue Point Capital Partners | Blue Point Honored on Mergers &\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/our-2023-promotions",
+    "title": "Blue Point Capital Partners | Blue Point's 2023 Promotions",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/p4",
+    "title": "Blue Point Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/the-50-best-private-equity-firms-for-entrepreneurs",
+    "title": "Blue Point Capital Partners | The Top 50 Founder-Friendly Private\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-wastes-nothing-with-the-recapitalization-of-tas-environmental-services",
+    "title": "Blue Point Capital Partners | Blue Point Wastes Nothing with the\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/strength-in-numbers-blue-point-iv-and-tas-acquire-its-third-add-on",
+    "title": "Blue Point Capital Partners | Strength in Numbers \u2013 Blue Point IV and\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-backed-weaver-leather-zips-up-local-partnership-with-ohio-travel-bag-acquisition",
+    "title": "Blue Point Capital Partners | Blue Point-Backed Weaver Leather Zips\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-backed-stax-expands-international-presence-with-acquisition-of-london-based-consulting-firm-amr-international",
+    "title": "Blue Point Capital Partners | Blue Point-Backed Stax Expands\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-recognized-for-the-second-time-in-axials-consumer-top-50-list",
+    "title": "Blue Point Capital Partners | Blue Point Recognized for the Second\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/local-partnership-is-a-fixture-in-blue-point-and-riversides-platform-investment-in-siffron",
+    "title": "Blue Point Capital Partners | Local Partnership is a Fixture in Blue\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-serves-up-packaged-food-experience-in-partnership-with-water-lilies-food",
+    "title": "Blue Point Capital Partners | Blue Point Serves Up Packaged Food\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/p5",
+    "title": "Blue Point Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-and-tas-cleaned-up-with-the-acquisitions-of-frac-n-vac-tanks-and-duckwater-services",
+    "title": "Blue Point Capital Partners | Blue Point and TAS Cleaned Up with the\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-backed-tas-environmental-services-acquires-texas-water-management",
+    "title": "Blue Point Capital Partners | Blue Point-Backed TAS Environmental\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/we-are-proud-to-highlight-our-2022-senior-leadership-promotions-at-blue-point.",
+    "title": "Blue Point Capital Partners | We are proud to highlight our 2022\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/platform-investment-announcement-m-a-strategy-consulting-firm-stax-inc",
+    "title": "Blue Point Capital Partners | Platform Investment Announcement: M&A\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-in-partnership-with-portfolio-company-vrc-engineered-solutions-finds-perfect-fit-in-cascadia-acquisition",
+    "title": "Blue Point Capital Partners | Blue Point, in Partnership with\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-makes-local-platform-acquisition-of-niche-market-leader-weaver-leather",
+    "title": "Blue Point Capital Partners | Blue Point Makes Local Platform\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/aftermarketnews-amn-executive-interview-with-transtar-and-blue-point",
+    "title": "Blue Point Capital Partners | aftermarketNews (AMN) Executive\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/p6",
+    "title": "Blue Point Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-announces-three-senior-investment-professional-promotions-including-one-to-partner",
+    "title": "Blue Point Capital Partners | Blue Point Announces Three Senior\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-hires-kimberly-reed-as-managing-director-of-talent",
+    "title": "Blue Point Capital Partners | Blue Point Hires Kimberly Reed as\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/diligent-builds-momentum-behind-modern-leadership-initiative-providing-unprecedented-transparency-into-board-recruitment-to-advance-diversity",
+    "title": "Blue Point Capital Partners | \u200bDiligent Builds Momentum Behind Modern\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-ii-exits-u.s.-drinks-llc",
+    "title": "Blue Point Capital Partners | Blue Point II Exits U.S. Drinks, LLC",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-iv-and-management-drink-it-all-in-with-the-latest-platform-acquisition-of-country-pure-foods-inc.",
+    "title": "Blue Point Capital Partners | Blue Point IV and Management Drink It\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-iv-and-management-forge-its-sixth-platform-with-the-acquisition-of-mattco",
+    "title": "Blue Point Capital Partners | Blue Point IV and Management Forge its\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/p7",
+    "title": "Blue Point Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/our-team/bobby-grebenc-1-1-1",
+    "title": "Blue Point Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/vrc-holdings-inc.-fits-the-blue-point-mold-as-blue-point-and-management-acquire-its-latest-platform-investment",
+    "title": "Blue Point Capital Partners | VRC Holdings Inc. Fits the Blue Point\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-and-hilco-vision-keep-their-eye-on-the-prize--with-the-acquisition-of-eye-care---cure-1",
+    "title": "Blue Point Capital Partners | Blue Point and Hilco Vision Keep Their\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-levels-up--recapitalizes-next-level-apparel--inc.",
+    "title": "Blue Point Capital Partners | Blue Point Levels Up, Recapitalizes\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/succession-planning-the-thorny-conversation-no-gp-wants-to-have",
+    "title": "Blue Point Capital Partners | Succession Planning: The Thorny\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-hires-megan-kneipp-as-head-of-business-development",
+    "title": "Blue Point Capital Partners | Blue Point Hires Megan Kneipp as Head\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/p8",
+    "title": "Blue Point Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-capital-partners-selects-pef-services-for-fund-administration",
+    "title": "Blue Point Capital Partners | Blue Point Capital Partners Selects PEF\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-capital-partners-closes-fund-iv-at--700-million",
+    "title": "Blue Point Capital Partners | Blue Point Capital Partners Closes Fund\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-capital-partners-exits-linestar-services--inc.",
+    "title": "Blue Point Capital Partners | Blue Point Capital Partners Exits\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/upping-the-ante-in-e-commerce-trademark-global-wins-big-in-endless-aisle",
+    "title": "Blue Point Capital Partners | Upping the Ante in E-Commerce:\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-capital-partners-exits-smith-cooper-international",
+    "title": "Blue Point Capital Partners | Blue Point Capital Partners Exits\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/p9",
+    "title": "Blue Point Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-and-gesco-acquire-savoia-canada-distributor-of-ceramic-porcelain-and-stone",
+    "title": "Blue Point Capital Partners | Blue Point and GESCO Acquire Savoia\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-and-j.-america-inc.-tip-their-hats-to-top-of-the-world-llc",
+    "title": "Blue Point Capital Partners | Blue Point and J. America, Inc. Tip\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-and-premier-needle-arts-are-tight-knit-with-crafts-americana-group-inc.",
+    "title": "Blue Point Capital Partners | Blue Point and Premier Needle Arts Are\u2026",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://bluepointcapital.com/news/blue-point-adds-three-to-investment-team",
+    "title": "Blue Point Capital Partners | Blue Point Adds Three to Investment Team",
+    "dynamic_states": 0
+  }
+]

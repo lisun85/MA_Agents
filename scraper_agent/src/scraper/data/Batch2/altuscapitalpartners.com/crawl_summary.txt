@@ -1,0 +1,367 @@
+[
+  {
+    "url": "https://altuscapitalpartners.com/",
+    "title": "Altus Capital Partners | Private Equity | North American Manufacturing",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/team",
+    "title": "Altus Capital Partners | Team",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/portfolio",
+    "title": "Altus Capital Partners | Portfolio",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/whyaltus",
+    "title": "Altus Capital Partners | Why Altus",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/news",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/contact",
+    "title": "Altus Capital Partners | Contact",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/privacy-policy",
+    "title": "Altus Capital Partners | Privacy Policy",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/10-oct-2023/pinnacle-x-ray-solutions-announces-expansion",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/10-oct-2023/investment-and-installation---2-3700t-machines",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/20-sep-2023/choicespine%C2%AE-announces-standalone-indication-for-blackhawk%C2%AE-ti-3d-printed-cervical-spacer-system",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/10-jul-2023/thomson-plastics-inc-installs-spotting-press",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/09-jun-2023/nichols-portland-inc-completes-acquisition-of-neota-product-solutions-llc",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/03-jan-2023/altus-capital-partners-announces-sale-of-mgc-diagnostics-corporation-to-caire-inc-",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/22-nov-2022/choicespine%E2%84%A2-announces-line-extension-of-their-harrier%E2%84%A2-stand-alone-anterior-lumbar-interbody-fusion-system",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/02-nov-2022/altus-capital-partners-acquires-pinnacle-x-ray-solutions-llc",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/04-oct-2022/altus-capital-partners-completes-first-acquisition-for-winsert-with-alloy-cast-products-inc-",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/22-jun-2022/ecential-robotics-and-choicespine-announce-long-term-partnership-to-enhance-robotic-spine-implant-surgery",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/21-jun-2022/mpif-2022-design-excellence-awards",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/25-may-2022/winsert-awarded-wisconsin-manufacturer-of-the-year",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/02-mar-2022/altus-capital-partners-acquires-winsert-llc",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/29-dec-2021/nichols-portland-inc-announces-the-asset-acquisition-of-alpha-precision-group-llc",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/22-nov-2021/altus-capital-partners-backed-mgc-diagnostics-corporation-acquires-lemon-medical-gmbh",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/29-oct-2021/mgc-diagnostics-debuts-on-the-minneapolisst-paul-business-journal%E2%80%99s-fast-50-list-of-growing-companies",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/05-oct-2021/choicespine-llc-announced-today-that-it-has-received-clearance-from-the-us-food-and-drug-administration-fda-to-market-the-triton-sacroiliac-joint-fixation-system",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/12-jul-2021/max-environmental-holdings-inc-a-portfolio-company-of-altus-capital-partners-ii-lp-acquires-lei-inc",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/04-may-2021/thermal-solutions-manufacturing-%E2%80%9Ctsm%E2%80%9D-names-richard-t-ruebusch-president-and-chief-executive-officermr-ruebusch-to-lead-tsm-through-its-next-phase-of-growth",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/02-oct-2020/choicespine%E2%84%A2-announces-addition-to-executive-leadership-position-",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/01-may-2020/thermal-solutions-manufacturing-names-joe-apuzzo-president-and-chief-executive-officer",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/16-apr-2020/trends-watch-manufacturing--covid-19-affects-on-investing-in-manufacturing-",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/16-mar-2020/update-from-altus-capital-partners-regarding-covid-19-",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/13-mar-2020/altus-capital-co-founder-says-coronavirus-could-drive-more-manufacturing-back-to-usthe-manufacturing-focused-private-equity-firm-sees-the-virus-outbreak-fueling-a-move-to-repatriate-production-operations-from-offshore-sites",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/09-mar-2020/altus-capital-partners-ii-lp-sells-ged-integrated-solutions-inc",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/03-mar-2020/reshoring-tariffs-brighten-us-manufacturing-outlook",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/09-jan-2020/thermal-solutions-manufacturing-a-portfolio-company-of-altus-capital-partners-iii-lp-acquires-alfa-laval-champ",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/15-nov-2019/nichols-portland-the-worlds-first-manufacturer-of-gerotors-continues-to-innovate",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/08-oct-2019/choicespine%E2%84%A2-announces-changes-in-key-growth-leadership-positions--several-sales-and-marketing-leadership-changes-made-to-drive-company-growth",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/24-sep-2019/nichols-portland-holds-grand-opening-of-new-facility-for-the-pump-division",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/09-sep-2019/nichols-portland-the-worlds-first-manufacturer-of-gerotors-continues-to-innovate",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/04-sep-2019/ged-launches-the-ged-store-at-glassbuild-america-expo",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/25-jun-2019/altus-capital-partners-inc-names-nick-demarco-as-principal-and-joshua-tesoriero-as-vice-president-",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/12-jun-2019/ged-acquires-elite-manufacturing-solutions",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/07-may-2019/manufacturers-association-of-maine-selects-nichols-portland-to-be-finalist-for-the-2019-manufacturer-of-the-year-award",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/news-article/10097/04-mar-2019/thermal-solutions-manufacturing-inc-acquired-by-altus-capital-partners-iii-lp",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/11-dec-2018/altus-capital-partners-ii-lp-sells-international-imaging-materials-inc-to-acon-investments",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/20-nov-2018/altus-capital-partners-inc-acquires-choicespine-lp",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/28-sep-2018/ged-introduces-window-tracking-technology-at-glassbuild-america",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/28-sep-2018/ged-introduces-robotic-gas-fill-close-and-seal-product-for-glassbuild-america",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/12-jun-2018/powder-metallurgy-review-features-new-president-and-ceo-of-nichols-portland",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/19-mar-2018/altus-capital-partners-receives-buyouts%E2%80%99-small-market-deal-of-the-year-award-for-rocla-investment",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/03-jan-2018/altus-capital-partners-inc-completes-tender-offer-for-mgc-diagnostics-",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/03-apr-2017/altus-capital-partners-completes-second-exit-of-2017",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/21-mar-2017/rocla-sleeping-giant",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/23-feb-2017/profiler-talk-altus-capital%E2%80%99s-heidi-goldstein-on-a-successful-investment-in-rail-infrastructure",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/07-feb-2017/altus-capital-partners-ii-lp-acquires-max-environmental-technologies-inc",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/11-jan-2017/altus-capital-partners-announces-promotions-of-three-key-investment-team-members",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/04-jan-2017/altus-capital-partners-ii-lp-sells-rocla-concrete-tie-inc-to-german-based-vossloh-group",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/10-aug-2016/ged-integrated-solutions-wins-national-2016-crystal-achievement-award-for-most-innovative-machine",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/06-jul-2016/altus-capital-partners-names-heidi-goldstein-as-partner",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/28-jun-2016/prism-plastics-acquires-tech-molded-plastics-inc",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/article/27-jun-2016/prism-acquires-tech-molded-plastics-",
+    "title": "Altus Capital Partners | News",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/terms-of-use",
+    "title": "Altus Capital Partners | TERMS OF USE",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/team/russell-j-greenberg",
+    "title": "Altus Capital Partners | Team | Russell J. Greenberg",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/team/gregory-l-greenberg",
+    "title": "Altus Capital Partners | Team | Gregory L. Greenberg",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/team/heidi-m-goldstein",
+    "title": "Altus Capital Partners | Team | Heidi M. Goldstein",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/team/thomas-r-groh",
+    "title": "Altus Capital Partners | Team | Thomas R. Groh",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/team/andrew-matney",
+    "title": "Altus Capital Partners | Team | Andrew Matney",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/team/preetam-beram",
+    "title": "Altus Capital Partners | Team | Preetam Beram",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/team/peter-polimino",
+    "title": "Altus Capital Partners | Team | Peter Polimino",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/team/lauriesiegel",
+    "title": "Altus Capital Partners | Team | Laurie Siegel",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/portfolio/sort-current",
+    "title": "Altus Capital Partners | Portfolio",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/portfolio/sort-realized",
+    "title": "Altus Capital Partners | Portfolio",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/portfolio/air-innovations",
+    "title": "Altus Capital Partners | Portfolio | Air Innovations",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://altuscapitalpartners.com/portfolio/pinnacle-x-ray-solutions",
+    "title": "Altus Capital Partners | Portfolio | Pinnacle X-Ray Solutions",
+    "dynamic_states": 0
+  }
+]

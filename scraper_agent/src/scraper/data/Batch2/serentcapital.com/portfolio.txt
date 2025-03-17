@@ -1,0 +1,23 @@
+URL: https://serentcapital.com/portfolio
+TITLE: Portfolio - Serent Capital
+
+BASE CONTENT:
+================================================================================
+PORTFOLIO COMPANIES
+
+Serent Capital invests in profitable, growing software and services companies. We typically invest in founder-led companies and often represent the first institutional capital in the company. We are highly selective, choosing to invest in only a handful of businesses each year. Our selectivity ensures that all our companies receive the attention and expertise that they need.
+
+SHOW ALL
+FILTER BY
+BUSINESS MODEL
+SAAS
+SERVICES
+INDUSTRY
+BUSINESS
+EDUCATION
+FINANCIAL
+HEALTHCARE
+STATUS
+CURRENT
+EXITED
+

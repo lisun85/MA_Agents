@@ -1,0 +1,56 @@
+URL: https://hadleycapital.com/insights/valuation-guide
+TITLE: Business Valuation Guide | Hadley Capital
+
+BASE CONTENT:
+================================================================================
+Valuation Guide
+What is Your Business Worth?
+Common Methods of Valuation
+
+Ultimately, the value of anything being sold is what someone is willing to pay for it. There are, however, many accepted methods for determining value when it comes to your business: Book Value, Discounted Cash Flow, Multiple of Cash Flow, and Multiples of something else—for example, some industries are valued at a multiple of subscribers, a multiple of revenue, etc.
+
+Our Approach to Valuation
+
+Hadley Capital values Companies based on their ability generate sustainable, operating cash flows. We typically apply a multiple to the annual, sustainable operating cash flow of a business to estimate its value. We use EBITDA as a rough but good estimation of operating cash flow. To determine sustainable cash flow, we adjust EBITDA to include some positive and negative add backs.
+
+Positive add backs that increase EBITDA may include:
+
+Owners excess compensation
+Rental expense above market rates
+Owners' Benefits that are not required to run the business such as automobiles, vacations, etc.
+
+Add backs that may decrease EBITDA include:
+
+Rental expense below market value
+Substantial annual capital expenditures
+Additional salaries required when the owner departs
+A Valuation Tool
+EBITDA Multiples
+
+Once sustainable EBITDA is determined, Hadley Capital applies a multiple of EBITDA to determine the Enterprise Value of your business. In general, smaller companies typically trade for between 3x to 5x normalized EBITDA. The difference in the multiple is generally the result of a variety of characteristics specific to your business, including:
+
+Sales growth rate
+Gross Profit Margin
+Annual EBITDA
+EBITDA Margin
+Annual capital expenditures
+Working capital requirements
+Customer concentration
+The Structure of the Offer is Important
+Comparing Offers
+
+Not all offers are the same or comparable. Some buyers may offer a higher “headline number”, that suggests your business is worth more, but contingency payments like earnouts, seller financing requirements and complicated financing structures may add risk to the offer by stretching out payments over time rather than a single, substantial check at closing.
+
+Committed Capital
+
+At Hadley Capital, we are private equity investors with capital on hand, which means that most of our transactions involve substantial cash at closing. We can structure payment using a variety of financing techniques but most sellers prefer cash even if our valuation appears slightly lower than a competing offer with complicated or protracted buyout contingencies. We are happy to discuss options and explain how price differences really work and how cash can pay added dividends.
+
+Common Pitfalls
+Enterprise Value vs. Equity Value
+
+Hadley Capital’s valuations are almost always based on an enterprise value, rather than an equity value, and are usually on a cash-free, debt-free basis. As the seller, you are responsible for satisfying (paying off) any existing debts. Equity Value is what is left after subtracting debt from Enterprise Value. Enterprise Value and Equity value may be most easily understood by comparing them to someone’s home value. The Enterprise Value of a home is the total value of the home. The Equity Value of the house is the total value less the mortgage on the home. It’s the same with your business; Equity Value is what’s left after you pay off any debts.
+
+Working Capital Adjustment
+
+Working capital is the capital required to operate a business in a steady state environment. Hadley Capital acquisitions always include a working capital adjustment at closing. A working capital adjustment increases or decreases cash at closing based on the performance of the business between executing a LOI and closing a transaction. If the business grows between LOI and closing, the working capital adjustment will result in higher sale proceeds because the working capital grows. If working capital declines, the purchase price will be lower. The working capital adjustment is not meant to benefit the seller or the buyer but, rather, to compensate for balance sheet changes (to the positive or negative) between LOI and closing.
+

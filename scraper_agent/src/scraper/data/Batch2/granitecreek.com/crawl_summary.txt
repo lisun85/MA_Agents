@@ -1,0 +1,932 @@
+[
+  {
+    "url": "https://granitecreek.com/",
+    "title": "Home - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/about",
+    "title": "About - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team",
+    "title": "Team - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/executive-council",
+    "title": "Executive Council - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/careers",
+    "title": "Careers - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/our-businesses",
+    "title": "Our Businesses - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/our-businesses/corporate-investing",
+    "title": "Corporate Investing - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/our-businesses/agribusiness-investing",
+    "title": "Agribusiness Investing - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/our-businesses/real-estate-investing",
+    "title": "Specialized Real Estate Investing - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio",
+    "title": "Portfolio - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news",
+    "title": "News - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/contact",
+    "title": "Contact - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/investor-login",
+    "title": "Investor Login - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-announce-sale-of-odyssey-aviation",
+    "title": "Granite Creek Announce Sale of Odyssey Aviation - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-announces-acquisition-of-ritchie-industries",
+    "title": "Granite Creek Capital Partners Announces Acquisition of Ritchie Industries - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-named-to-inc-s-2024-list-of-founder-friendly-investors-for-fifth-year",
+    "title": "Granite Creek Named to Inc.\u2019s 2024 List of Founder-Friendly Investors for Fifth Year - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/ritchie-industries",
+    "title": "Ritchie Industries - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/seedbox-solution",
+    "title": "Seedbox Solution - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/global-animal-products",
+    "title": "Global Animal Products - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/madwire",
+    "title": "Madwire - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/morgan-baer",
+    "title": "Morgan Baer - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/michael-barry",
+    "title": "Michael Barry - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/nick-bell",
+    "title": "Nick Bell - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/rebekah-bender",
+    "title": "Rebekah Bender - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/brian-b-boorstein",
+    "title": "Brian Boorstein - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/james-f-clark",
+    "title": "James Clark - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/dhani-jones",
+    "title": "Dhani Jones - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/andrew-kearney",
+    "title": "Andrew Kearney - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/ken-kruger",
+    "title": "Ken Kruger - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/angie-kuna",
+    "title": "Angie Kuna - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/peter-g-lehman",
+    "title": "Peter Lehman - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/jordan-liss",
+    "title": "Jordan Liss - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/michael-mo",
+    "title": "Michael Mo - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/pete-pacelli",
+    "title": "Pete Pacelli - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/gino-piscopo",
+    "title": "Gino Piscopo - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/mark-a-radzik-cpa",
+    "title": "Mark Radzik - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/michael-ray",
+    "title": "Michael Ray - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/eliza-reinisch",
+    "title": "Eliza Reinisch - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/desiree-shafaie",
+    "title": "Desiree Shafaie - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/alix-singer",
+    "title": "Alix Singer - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/rob-webb",
+    "title": "Rob Webb - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/team/jim-zimmer",
+    "title": "Jim Zimmer - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/cp-direct",
+    "title": "CP Direct - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/peak-toolworks",
+    "title": "Peak Toolworks - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/odyssey-aviation-u-s",
+    "title": "Odyssey Aviation U.S. - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/bundle",
+    "title": "Bundle - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/veterinary-pharmaceutical-solutions",
+    "title": "Veterinary Pharmaceutical Solutions - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/moraine-farmland-partners-l-p",
+    "title": "Moraine Farmland Partners - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/dcg",
+    "title": "DCG - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/sayres-defense",
+    "title": "Sayres Defense - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/salem-one",
+    "title": "Salem One - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/nyp-corp",
+    "title": "NYP Corp. - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/pinstripes",
+    "title": "Pinstripes - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/knox-title",
+    "title": "Knox Title - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/cc-manufacturing",
+    "title": "S2 Manufacturing - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/diamond-blade-warehouse-llc",
+    "title": "Diamond Blade Warehouse, LLC - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/big-easy-blends-llc",
+    "title": "Big Easy Blends, LLC - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/life-spine-inc",
+    "title": "Life Spine, Inc. - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/royal-biologics",
+    "title": "Royal Biologics - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/auto-driveaway-systems-llc",
+    "title": "Auto Driveaway Systems, LLC - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/sunset-pacific-transportation-llc",
+    "title": "Sunset Pacific Transportation, LLC - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/auto-rescue-solutions",
+    "title": "Auto Rescue Solutions - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/morrow-sodali",
+    "title": "Morrow Sodali - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/renovo-financial",
+    "title": "Renovo Financial - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/sms-assist",
+    "title": "SMS Assist - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/american-diabetes",
+    "title": "American Diabetes - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/arnold-defense",
+    "title": "Arnold Defense - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/aspen-earthmoving",
+    "title": "Aspen Earthmoving - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/big-joe",
+    "title": "Big Joe - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/bsn",
+    "title": "BSN - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/the-chia-co",
+    "title": "The Chia Co - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/cyalume-technologies",
+    "title": "Cyalume Technologies - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/derma-sciences",
+    "title": "Derma Sciences - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/globale",
+    "title": "Globale - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/hughes-telematics",
+    "title": "Hughes Telematics - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/the-iron-horse-hotel",
+    "title": "The Iron Horse Hotel - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/mincron",
+    "title": "Mincron - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/mobilelife",
+    "title": "MobileLife - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/national-direct-packaging",
+    "title": "National Direct Packaging - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/red-envelope",
+    "title": "Red Envelope - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/spiegel",
+    "title": "Spiegel - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/symphonix-health-insurance",
+    "title": "Symphonix Health Insurance - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/portfolio/weld",
+    "title": "Weld - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/royal-biologics-announces-strategic-partnership-with-coldplasmatech-gmbh",
+    "title": "Royal Biologics announces Strategic Partnership with Coldplasmatech GmbH - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/ritchie-industries-inc-acquired-by-granite-creek-capital-partners",
+    "title": "Ritchie Industries Inc. Acquired by Granite Creek Capital Partners - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-portfolio-company-salem-one-named-a-fast-track-leader-for-growth-in-the-wide-format-industry-by-wide-format-impressions-magazine",
+    "title": "Granite Creek Portfolio Company Salem One Named a Fast Track Leader for Growth in the Wide Format Industry by Wide Format Impressions Magazine - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/video-interview-with-feedstuffs-granite-creek-capital-partners-acquires-ritchie-industries",
+    "title": "Video Interview with Feedstuffs: Granite Creek Capital Partners Acquires Ritchie Industries - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/as-private-equity-agribusiness-deals-slow-down-granite-creek-picks-up-the-pace",
+    "title": "As Private-Equity Agribusiness Deals Slow Down, Granite Creek Picks Up the Pace - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/video-interview-with-feedstuffs-investment-in-global-animal-products-broadens-granite-creeks-agribusiness-portfolio",
+    "title": "Video Interview with Feedstuffs: Investment in Global Animal Products Broadens Granite Creek's Agribusiness Portfolio - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-finances-managements-acquisition-of-seedbox-solution",
+    "title": "Granite Creek Capital Partners Finances Management's Acquisition of Seedbox Solution - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-steps-up-agribusiness-push-with-latest-private-equity-deal",
+    "title": "Granite Creek steps up agribusiness push with latest private-equity deal - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-broadens-agribusiness-portfolio-with-investment-in-global-animal-products",
+    "title": "Granite Creek Broadens Agribusiness Portfolio with Investment in Global Animal Products - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/feedstuffs-365-technology-adoption-whats-on-the-ag-tech-horizon-for-2025",
+    "title": "Feedstuffs 365 - Technology Adoption: What's on the Ag Tech Horizon for 2025 - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/summer-internships-offer-an-on-ramp-for-talent",
+    "title": "Summer Internships Offer an On-Ramp for Talent - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-portfolio-company-dcg-launches-newest-joint-venture-avvy-insights",
+    "title": "Granite Creek Portfolio Company, DCG, Launches Newest Joint Venture, Avvy Insights - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-announces-investment-in-madwire",
+    "title": "Granite Creek Announces Investment in Madwire - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/vps-discusses-how-pharmaceutical-solutions-fit-into-a-sustainability-platform-from-an-environmental-social-and-economic-standpoint",
+    "title": "VPS Discusses how Pharmaceutical Solutions Fit into a Sustainability Platform from an Environmental, Social and Economic Standpoint - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/vet-care-is-private-equitys-best-friend-5-deals-in-first-half-of-2024",
+    "title": "Vet Care Sees Strong Demand: 4 Deals Announced in 2024 with More to Come - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-expands-its-animal-health-portfolio",
+    "title": "Granite Creek Expands Its Animal Health Portfolio - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/beyond-pet-care-pe-sees-greener-pastures-on-the-farm",
+    "title": "Beyond Pet Care: PE Sees Greener Pastures on the Farm - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/in-an-onerous-sector-for-private-equity-granite-creek-sees-chance-to-gain-an-edge",
+    "title": "In an onerous sector for private equity, Granite Creek sees chance to gain an edge - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-expands-its-animal-health-portfolio-with-veterinary-pharmaceutical-solutions-acquisition-of-diamond-animal-health",
+    "title": "Granite Creek Expands its Animal Health Portfolio with Veterinary Pharmaceutical Solutions\u2019 Acquisition of Diamond Animal Health - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-bets-on-dc-comms-firm-tie-up-with-boathouse-capital",
+    "title": "Granite Creek bets on DC comms firm tie-up with Boathouse Capital - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-announces-investment-in-the-district-communications-group-dcg",
+    "title": "Granite Creek Announces Investment in The District Communications Group (DCG) - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-announces-investment-in-sayres-to-support-its-acquisition-of-global-systems-technologies-inc",
+    "title": "Granite Creek Announces Investment in Sayres to Support its Acquisition of Global Systems Technologies, Inc. - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/small-business-secrets-to-success-series",
+    "title": "Owner of Zonatherm Reveals the Firm's Number One Secret to Success: An Employee-Focused Culture - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/diamond-blade-warehouse-could-acquire-cutting-tool-suppliers-as-part-of-growth-plan-ceo-says",
+    "title": "Diamond Blade Warehouse could acquire cutting tool suppliers as part of growth plan, CEO says - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-stays-flexible-with-300m-fund",
+    "title": "Granite Creek Stays Flexible With $300M Fund - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/the-evolving-role-of-private-equity-in-the-food-and-beverage-space",
+    "title": "The Evolving Role of Private Equity in the Food and Beverage Space - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-portfolio-company-salem-one-announces-acquisition-of-itek-graphics",
+    "title": "Granite Creek Portfolio Company, Salem One, Announces Acquisition of iTek Graphics - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-portfolio-company-veterinary-pharmaceutical-solutions-announces-acquisition-of-diamond-animal-health",
+    "title": "Granite Creek Portfolio Company, Veterinary Pharmaceutical Solutions, Announces Acquisition of Diamond Animal Health - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/pinstripes-completes-business-combination-with-banyan-acquisition-corporation-and-will-begin-trading-on-new-york-stock-exchange",
+    "title": "Pinstripes Completes Business Combination with Banyan Acquisition Corporation and Will Begin Trading on New York Stock Exchange - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-portfolio-company-diamond-blade-warehouse-announces-acquisition-of-peak-toolworks",
+    "title": "Granite Creek Portfolio Company, Diamond Blade Warehouse, Announces Acquisition of Peak Toolworks - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/warren-werbitt-goes-printer-to-printer-with-salem-ones-phil-kelley",
+    "title": "Warren Werbitt Goes Printer to Printer with Salem One's Phil Kelley - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-announces-acquisition-of-nyp-corp",
+    "title": "Granite Creek Capital Partners Announces Acquisition of NYP Corp. - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-raises-300-million-for-growth-investments",
+    "title": "Granite Creek Capital Raises $300 Million for Growth Investments - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-closes-oversubscribed-fund-iii-at-300-million",
+    "title": "Granite Creek Capital Partners Closes Oversubscribed Fund III at $300 Million - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-named-to-inc-s-2023-list-of-founder-friendly-investors-for-fourth-year",
+    "title": "Granite Creek Named to Inc.\u2019s 2023 List of Founder-Friendly Investors for Fourth Year - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/pinstripes-unique-recipe-for-success-bistro-bowling-and-bocce",
+    "title": "Pinstripes\u2019 Unique Recipe for Success: Bistro, Bowling and Bocce - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/pinstripes-expands-senior-leadership-team",
+    "title": "Pinstripes Expands Senior Leadership Team, Hires Chief Financial Officer and Chief Marketing Officer in Advance of Public Listing - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-promotes-jordan-liss-to-principal",
+    "title": "Granite Creek Promotes Jordan Liss to Principal - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-announces-investment-in-salem-one",
+    "title": "Granite Creek Capital Partners Announces Investment in Salem One - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/morrow-sodali-buys-esg-strategy-consultancy-hxe-partners",
+    "title": "Morrow Sodali Acquires ESG strategy consultancy HXE Partners - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-promotes-andrew-kearney-to-director",
+    "title": "Granite Creek Capital Partners Promotes Andrew Kearney to Director - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/pe-boosts-direct-mail-resurgence",
+    "title": "PE Boosts Direct Mail Resurgence - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-pinstripes-polish-bowling-technique",
+    "title": "Granite Creek, Pinstripes Polish Bowling Technique - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-announces-investment-in-pinstripes-inc",
+    "title": "Granite Creek Capital Partners Announces Investment in Pinstripes, Inc. - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/royal-biologics-announces-licensing-and-u-s-commercial-launch-of-bio-reign-3d",
+    "title": "Royal Biologics Announces Licensing and U.S. Commercial Launch of Bio-Reign 3D - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-promotes-ken-kruger-to-director",
+    "title": "Granite Creek Capital Partners Promotes Ken Kruger to Director - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/auto-rescue-solutions-announces-acquisition-of-road-service-1",
+    "title": "Auto Rescue Solutions Announces Acquisition of Road Service 1 - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/odyssey-aviation-u-s-announces-acquisition-of-golden-isles-aviation-expands-fbo-network",
+    "title": "Odyssey Aviation U.S. Announces Acquisition of Golden Isles Aviation, Expands FBO Network - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-announces-investment-in-cp-direct",
+    "title": "Granite Creek Capital Partners Announces Investment in CP Direct - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-announces-funding-of-peak-toolworks",
+    "title": "Granite Creek Capital Partners Announces Funding of Peak Toolworks - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-named-to-inc-s-2022-list-of-founder-friendly-investors-for-third-year",
+    "title": "Granite Creek Capital Partners Named To Inc.'s 2022 List Of Founder-Friendly Investors For Third Year - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-invests-in-odyssey-aviation",
+    "title": "Granite Creek Invests in Odyssey Aviation - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-portfolio-company-knox-precision-holdings-acquires-lenders-title-group",
+    "title": "Granite Creek Portfolio Company, Knox-Precision Holdings, Acquires Lenders Title Group - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-announces-sale-of-its-stake-in-sunset-pacific-transportation",
+    "title": "Granite Creek Announces Sale of its Stake in Sunset Pacific Transportation - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-announces-investment-in-bunde",
+    "title": "Granite Creek Capital Partners Announces Investment in Bundle - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-announces-investment-from-tpg-growth-in-morrow-sodali",
+    "title": "Granite Creek Announces Investment from TPG Growth in Morrow Sodali - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/andrew-kearney-is-promoted-to-senior-associate",
+    "title": "Andrew Kearney is Promoted to Senior Associate - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/warras-named-ceo-of-veterinary-pharmaceutical-solutions",
+    "title": "Warras Named CEO of Veterinary Pharmaceutical Solutions - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-promotes-jordan-liss-to-director",
+    "title": "Granite Creek Capital Partners Promotes Jordan Liss to Director - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-selected-for-inc-s-2021-list-of-founder-friendly-investors",
+    "title": "Granite Creek Capital Partners Selected for Inc.\u2019s 2021 List of Founder-Friendly Investors - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-announces-investment-in-cc-manufacturing",
+    "title": "Granite Creek Capital Partners Announces Investment in C&C Manufacturing - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/royal-biologics-announces-fda-approval-of-the-maxx-concentration-system",
+    "title": "Royal Biologics Announces FDA Approval of the Maxx\u2122 Concentration System. - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-and-the-farrell-family-back-acquisition-of-diamond-blade",
+    "title": "Granite Creek Capital Partners and the Farrell Family Back Acquisition of Diamond Blade - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-l-l-c-announces-investment-in-big-easy-blends-llc",
+    "title": "Granite Creek Capital Partners, L.L.C. Announces Investment in Big Easy Blends, LLC - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/morrow-sodali-continues-its-ranking-climb-now-1-in-ma-and-2-in-activism",
+    "title": "Morrow Sodali Continues its Ranking Climb \u2013 Now #1 in M&A and #2 in Activism - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/royal-biologics-wound-care-portfolio-receives-high-tier-reimbursement",
+    "title": "Royal Biologics Wound Care Portfolio Receives High-Tier Reimbursement - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-llc-announces-investment-in-life-spine-inc",
+    "title": "Granite Creek Capital Partners LLC Announces Investment In Life Spine, Inc. - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/granite-creek-capital-partners-named-to-inc-s-2020-private-equity-50-list",
+    "title": "Granite Creek Capital Partners Named to Inc.\u2019s 2020 Private Equity 50 List - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news/royal-biologics-announces-the-acquisition-of-fibrinet",
+    "title": "Royal Biologics Announces the Acquisition of FIBRINET - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/aviation",
+    "title": "Aviation Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/exit",
+    "title": "Exit Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/sale",
+    "title": "Sale Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/agribusiness",
+    "title": "Agribusiness Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/agriculture",
+    "title": "Agriculture Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/award",
+    "title": "award Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/founderfriendly",
+    "title": "founderfriendly Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/awards",
+    "title": "awards Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/printing",
+    "title": "printing Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/printing-industry",
+    "title": "Printing Industry Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/wide-format",
+    "title": "Wide Format Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/feedstuffs",
+    "title": "Feedstuffs Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/global-animal-products",
+    "title": "Global Animal Products Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/management-buyout",
+    "title": "Management Buyout Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/packaging",
+    "title": "Packaging Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/agtech",
+    "title": "AgTech Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/direct-mail",
+    "title": "Direct Mail Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/marketing",
+    "title": "Marketing Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/marketing-software",
+    "title": "Marketing Software Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/software",
+    "title": "Software Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/animal-health",
+    "title": "Animal Health Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/diamond-animal-health",
+    "title": "Diamond Animal Health Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/feed-additive",
+    "title": "Feed Additive Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/veterinary-pharmaceutical-solutions",
+    "title": "Veterinary Pharmaceutical Solutions Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/communications",
+    "title": "Communications Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/sbic",
+    "title": "SBIC Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/veteran",
+    "title": "Veteran Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/aerospace-defence",
+    "title": "Aerospace & Defence Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/secrets-to-success",
+    "title": "Secrets to Success Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/acquisition",
+    "title": "Acquisition Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/industrials",
+    "title": "Industrials Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/manufacturing",
+    "title": "Manufacturing Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/pinstripes",
+    "title": "Pinstripes Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://granitecreek.com/news-tag/transportation",
+    "title": "Transportation Archives - Granite Creek Capital Partners",
+    "dynamic_states": 0
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "url": "https://hanoverpartners.com/",
+    "title": "Home | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/about-us",
+    "title": "About Us | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/our-team",
+    "title": "Our Team | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/investment-criteria",
+    "title": "Investment Criteria | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/portfolio-2",
+    "title": "Portfolio | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/for-management-partners",
+    "title": "For CEO Partners, Owners, Management Teams & Executives | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/for-intermediaries",
+    "title": "For Intermediaries | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/faqs",
+    "title": "FAQs | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/aaronaiken",
+    "title": "Aaron C. Aiken | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/vineet-varma",
+    "title": "Vineet Varma | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/andrewford",
+    "title": "Andrew N. Ford | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/johnpalmer",
+    "title": "John E. Palmer | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/ska-fab-holdings-llc",
+    "title": "Ska Fab Holdings, LLC | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/blast-deflectors-group-llc",
+    "title": "Blast Deflectors Group, LLC | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/pyramid-technologies-inc-2",
+    "title": "Pyramid Technologies, Inc. | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/wohler-technologies-inc-2",
+    "title": "Wohler Technologies, Inc. | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/ligchine-international-corporation",
+    "title": "Ligchine International Corporation | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/powertronix",
+    "title": "Powertronix, Inc. | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/consolidated-equipment-group-llc",
+    "title": "Consolidated Equipment Group, LLC | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/westside-equipment-holdings-llc",
+    "title": "Westside Equipment Holdings, LLC | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/freedom-communication-technologies",
+    "title": "Freedom Communication Technologies, Inc. | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/hamer-llc-2",
+    "title": "Hamer, LLC | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/bri-mar-manufacturing-llc",
+    "title": "Bri-Mar Manufacturing, LLC | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/handi-quilter-inc",
+    "title": "Handi Quilter, Inc. | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/solidscape",
+    "title": "Solidscape, Inc. | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/rugby-manufacturing-company-2",
+    "title": "Rugby Manufacturing Company | Hanover Partners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hanoverpartners.com/audio-precision-2",
+    "title": "Audio Precision, Inc. | Hanover Partners",
+    "dynamic_states": 0
+  }
+]

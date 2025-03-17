@@ -1,0 +1,202 @@
+[
+  {
+    "url": "https://presidioinvestors.com/",
+    "title": "Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/team",
+    "title": "Team \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/portfolio-companies",
+    "title": "Portfolio Companies \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/presidio-in-the-news",
+    "title": "Presidio In The News \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/contact",
+    "title": "Contact \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/privacy-policy",
+    "title": "Privacy Policy \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/karl-schade",
+    "title": "Karl Schade \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/christian-puscasiu",
+    "title": "CHRISTIAN PUSCASIU \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/victor-masaya",
+    "title": "VICTOR MASAYA \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/josef-auboeck",
+    "title": "JOSEF AUBOECK \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/turner-baty",
+    "title": "Turner Baty \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/mallory-baker",
+    "title": "MALLORY BAKER \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/andrew-birge",
+    "title": "ANDREW BIRGE \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/scott-bolick",
+    "title": "Scott Bolick \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/kyle-echerd",
+    "title": "Kyle Echerd \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/mark-goldman",
+    "title": "Mark Goldman \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/meg-kaufman",
+    "title": "Meg Kaufman \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/susan-michaels",
+    "title": "Susan Michaels \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/meredith-moss",
+    "title": "Meredith Moss \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/javier-saade",
+    "title": "Javier Saade \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/dirk-swaneveld",
+    "title": "DIRK SWANEVELD \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/yvonne-yang",
+    "title": "Yvonne Yang \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/amy-zhang",
+    "title": "AMY ZHANG \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/team/karl-schade",
+    "title": "Karl Schade \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/team/christian-puscasiu",
+    "title": "CHRISTIAN PUSCASIU \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/team/victor-masaya",
+    "title": "VICTOR MASAYA \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/team/josef-auboeck",
+    "title": "JOSEF AUBOECK \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/team/turner-baty",
+    "title": "Turner Baty \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/team/mallory-baker",
+    "title": "MALLORY BAKER \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/team/andrew-birge",
+    "title": "ANDREW BIRGE \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/team/scott-bolick",
+    "title": "Scott Bolick \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/team/kyle-echerd",
+    "title": "Kyle Echerd \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/team/mark-goldman",
+    "title": "Mark Goldman \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/team/meg-kaufman",
+    "title": "Meg Kaufman \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/team/susan-michaels",
+    "title": "Susan Michaels \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/team/meredith-moss",
+    "title": "Meredith Moss \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/team/javier-saade",
+    "title": "Javier Saade \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/team/dirk-swaneveld",
+    "title": "DIRK SWANEVELD \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/team/yvonne-yang",
+    "title": "Yvonne Yang \u2013 Presidio Investors",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://presidioinvestors.com/team/amy-zhang",
+    "title": "AMY ZHANG \u2013 Presidio Investors",
+    "dynamic_states": 0
+  }
+]

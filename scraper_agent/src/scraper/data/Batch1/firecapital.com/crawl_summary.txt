@@ -1,0 +1,67 @@
+[
+  {
+    "url": "https://firecapital.com/",
+    "title": "firecapital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://firecapital.com/home.html",
+    "title": "FIRE Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://firecapital.com/InvestmentPhilosophy.html",
+    "title": "FIRE Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://firecapital.com/Investments.html",
+    "title": "FIRE Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://firecapital.com/PressCoverage.html",
+    "title": "FIRE Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://firecapital.com/index.html",
+    "title": "firecapital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://firecapital.com/Contact.html",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://firecapital.com/SiteMap.html",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://firecapital.com/Aboutus.html",
+    "title": "FIRE Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://firecapital.com/Disclaimer.html",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://firecapital.com/indore.html",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://firecapital.com/bangalore.html",
+    "title": "",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://firecapital.com/nagpur.html",
+    "title": "",
+    "dynamic_states": 0
+  }
+]

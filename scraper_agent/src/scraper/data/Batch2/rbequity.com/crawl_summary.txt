@@ -1,0 +1,297 @@
+[
+  {
+    "url": "https://rbequity.com/",
+    "title": "Rockbridge Growth Equity - Detroit-based Private Equity Firm",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/team",
+    "title": "Investment Team - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/approach",
+    "title": "Approach to Private Equity - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/portfolio",
+    "title": "Private Equity Portfolio - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/news",
+    "title": "Latest News and Press - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/contact",
+    "title": "Contact Us - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/privacy",
+    "title": "Privacy Policy - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/rockbridge-growth-equity-makes-significant-growth-investment-in-vici-media",
+    "title": "Rockbridge Growth Equity Makes Significant Growth Investment in Vici Media - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/white-glove-and-touchfuse-announce-merger-creating-a-full-service-omni-channel-marketing-services-company-for-financial-advisors",
+    "title": "White Glove and TouchFuse Announce Merger, Creating a Full-Service, Omni-Channel Marketing Services Company for Financial Advisors - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/terms-of-use",
+    "title": "Terms of Use - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/team-member/brian-hermelin",
+    "title": "Brian Hermelin - Managing Partner - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/team-member/kevin-prokop",
+    "title": "Kevin Prokop - Managing Partner - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/team-member/steve-linden",
+    "title": "Steve Linden - Partner - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/team-member/ziv-weizman",
+    "title": "Ziv Weizman - Partner - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/team-member/andre-martinelli",
+    "title": "Andr\u00e9 Martinelli - Head of Portfolio Resources - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/team-member/maura-hynes",
+    "title": "Maura Hynes - Chief Financial Officer - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/team-member/alison-frankel",
+    "title": "Alison Frankel - Vice President - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/team-member/spencer-hughes",
+    "title": "Spencer Hughes - Principal - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/team-member/clay-behrman",
+    "title": "Clay Behrman - Vice President - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/team-member/sukhbir-singh",
+    "title": "Sukhbir Singh - Director, Portfolio Resources Group - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/team-member/victor-lu",
+    "title": "Victor Lu - Vice President - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/team-member/austin-fillmore",
+    "title": "Austin Fillmore - Senior Associate - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/team-member/chris-triplett",
+    "title": "Chris Triplett - Associate - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/team-member/mobeen-kambod",
+    "title": "Mobeen Kambod - Associate - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/team-member/deanna-kuzel",
+    "title": "Deanna Kuzel - Assistant Controller - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/team-member/emily-kotula",
+    "title": "Emily Kotula - Executive Assistant - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/family-of-companies",
+    "title": "Family of Companies - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/case-studies/prosites",
+    "title": "ProSites Case Study - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/case-studies/rapid-finance",
+    "title": "Rapid Finance Case Study - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/abuv-media",
+    "title": "ABUV Media - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/acquire-up",
+    "title": "AcquireUp - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/checkedup",
+    "title": "CheckedUp - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/connect-america",
+    "title": "Connect America - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/gstv",
+    "title": "GSTV - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/kings-iii-emergency-communications",
+    "title": "Kings III Emergency Communications - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/marquis",
+    "title": "Marquis - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/northcentral-university-2",
+    "title": "Northcentral University - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/one-reverse-mortgage",
+    "title": "One Reverse Mortgage - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/prosites",
+    "title": "ProSites - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/protect-america",
+    "title": "Protect America - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/protect-environmental",
+    "title": "Protect Environmental - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/purchasing-power",
+    "title": "Purchasing Power - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/quartile",
+    "title": "Quartile - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/rapid-finance",
+    "title": "Rapid Finance - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/robb-report",
+    "title": "Robb Report - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/the-nest-schools",
+    "title": "The Nest Schools - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/triad-retail-media",
+    "title": "Triad Retail Media - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/partners/vici-media",
+    "title": "Vici Media - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/marquis-acquires-zag-interactive-a-provider-of-website-and-digital-marketing-services",
+    "title": "Marquis Acquires ZAG Interactive, a Provider of Website and Digital Marketing Services - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/rockbridge-growth-equity-2022-year-in-review",
+    "title": "Rockbridge Growth Equity 2022 Year in Review - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/rockbridge-backed-checkedup-acquires-health-media-network",
+    "title": "Rockbridge-Backed CheckedUp Acquires Health Media Network - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/rockbridge-growth-equity-named-to-inc-s-2022-list-of-founder-friendly-investors",
+    "title": "Rockbridge Growth Equity Named to Inc.\u2019s 2022 List of Founder-Friendly Investors - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/rockbridge-growth-equity-makes-strategic-investment-in-the-nest-schools-a-leader-in-premium-early-childhood-education",
+    "title": "Rockbridge Growth Equity Makes Strategic Investment in The Nest Schools, a Leader in Premium Early Childhood Education - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/rockbridge-growth-equity-sells-kings-iii-of-america-a-provider-of-elevator-and-pool-emergency-monitoring-solutions",
+    "title": "Rockbridge Growth Equity Sells Kings III of America - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/checkedup-receives-significant-investment-from-rockbridge-growth-equity-to-support-growth-initiatives",
+    "title": "CheckedUp Receives Significant Investment from Rockbridge Growth Equity to Support Growth Initiatives - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/rockbridge-growth-equity-acquires-stake-in-marquis-software-solutions-2",
+    "title": "Rockbridge Growth Equity Acquires Stake in Marquis Software Solutions - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/rockbridge-growth-equity-acquires-protect-environmental",
+    "title": "Rockbridge Growth Equity Acquires Protect Environmental - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/he-turned-down-a-bigger-offer-from-another-investor-the-result-was-6-times-revenue-growth",
+    "title": "He Turned Down a Bigger Offer From Another Investor. The Result Was 6-Times Revenue Growth - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://rbequity.com/privacy-policy",
+    "title": "Privacy Policy - Rockbridge Growth Equity",
+    "dynamic_states": 0
+  }
+]

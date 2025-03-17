@@ -1,0 +1,60 @@
+URL: https://excellere.com/2022/07/how-to-effectively-combat-insurance-fraud-in-the-digital-age
+TITLE: How to Effectively Combat Insurance Fraud in the Digital Age - Excellere Partners
+
+BASE CONTENT:
+================================================================================
+News from Our
+Focus Industries
+How to Effectively Combat Insurance Fraud in the Digital Age
+
+The Coalition Against Insurance Fraud (CAIF) estimates that workers’ compensation insurance fraud costs insurers and employers an average of $30 billion annually. In an article posted by the Business Insurance Journal, a New York criminal defense lawyer noted that the pandemic made it easier to file claims under COVID, resulting in more overall filing and potentially more people committing fraud.
+
+With fraudulent activity continually increasing, it is more important than ever that insurance companies arm themselves with education and resources to protect their business.
+
+Types of Fraud
+
+Unfortunately, fraud is a common occurrence in the insurance industry. Although it can look different for each sector, fraud often fits into one of three categories.
+
+Organized “rings” that coordinate and execute fraudulent activities on a large scale.
+Healthcare professionals or staff who inflate costs or charge for services not rendered.
+Individuals who bolster or fabricate their claim to make money.
+
+Among the insurance categories most vulnerable to fraud is workers’ compensation. This category presents a challenge because there is the opportunity for fraud at every stage of the claim by multiple parties. For example, employers can misrepresent their payroll or apply under false names to avoid detection of their claim records. In addition, healthcare providers can alter codes, file duplicate claims, or fabricate billing for procedures never performed. Furthermore, employees can falsify injuries or prolong treatment to gain income or benefits without working.
+
+Additional fraudulent actions can include:
+
+Exaggeration of symptoms
+Working while allegedly disabled and not reporting income
+Claiming a job-related injury that never occurred
+Claiming a non-work-related injury as a work-related injury
+
+Prevention and Response
+
+Anti-fraud technologies are essential to anticipating and flagging early signs before payment is issued. In 2018, 80% of insurance companies utilized predictive modeling to detect fraud.
+
+Since then, the new capability of artificial intelligence has been making fraud detection more sophisticated than ever before.
+
+Fraud bureaus often direct anti-fraud legislation at the state level. Because each state operates with its own statutes and limitations, these rules can significantly vary state-to-state. In some cases, the complexities of regulations can result in more fraudulent activity.
+
+“Unfortunately, there are bad eggs in this world that try to take advantage of complex systems and hide behind them to maximize return,” said Craig Goldstein, President of Medlogix. “Companies, vendors, and clients struggle to figure out how to manage the complexity.”
+
+How Medlogix Manages Fraud
+
+“Our job is figuring out how to manage the complexities created by these regulations that can result in a lot of fraud, waste, and abuse if not kept in check,” said Goldstein. We cut our teeth in these markets where others struggle to navigate so that we can add a lot of value. It puts us one step ahead of those taking fraudulent workers’ compensation or auto medical actions.”
+
+Medlogix’s comprehensive suite of software applications is specifically designed to improve decision making, maximize efficiencies, increase ROI, and enhance outcomes in medical claims management. The system seamlessly integrates the latest regulatory guidelines, medical best practices, and business-partner interfaces. Plus, all modules include capabilities to fully integrate with any claims system—standard or proprietary.
+
+« Back to The Peak
+
+Top Stories
+HEALTH & PHARMACEUTICALS
+Low-Risk AI Adoption — A logical place to start
+HEALTH & PHARMACEUTICALS
+Buy and Ship Now supports access to critical medications
+BUSINESS SERVICES
+Weathering the Storm: How Specialty Pharmacies Can Navigate the 2024 Hurricane Season
+HEALTH & PHARMACEUTICALS
+Biocare Medical and Ensigna Biosystems Announce Strategic Partnership to Drive Spatial Biology, Multiomic Enablement, and Innovation in Biotechnology
+BUSINESS SERVICES
+Enhancing Patient Care with ParcelShield: Tackling Specialty Pharmacy Visibility and Tracking Challenges
+

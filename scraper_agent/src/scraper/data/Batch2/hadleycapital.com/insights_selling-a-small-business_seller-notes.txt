@@ -1,0 +1,173 @@
+URL: https://hadleycapital.com/insights/selling-a-small-business/seller-notes
+TITLE: Seller Notes: What Are They Are and How They Work
+
+BASE CONTENT:
+================================================================================
+Seller Notes: What Are They Are and How They Work
+Fitz Dickes
+July 26, 2021 - 4 min read
+What is a Seller Note?
+
+A seller note, also commonly known as seller paper and seller debt, is a form of financing used in small company sale transactions whereby a seller agrees to receive a portion of the acquisition proceeds in a series of debt payments. 
+
+A seller note is commonly used to bridge a gap between the amount a seller is seeking in a sale transaction and the amount a buyer is willing or able to pay. 
+
+Seller notes are also often used to fund buy/sell agreements between two partners in a business and when a seller elects to sell his or her company to their management team.
+
+In this blog, we will describe the following scenarios:
+
+Where a Seller Note is Used
+How a Seller Note Works
+Different Types of Principal and Interest Payments on Seller Notes
+Benefits and Risks to the Seller
+Where a Seller Note is Used
+Bridge the Gap
+
+Seller notes are a tool to bridge a gap between total financing available to a buyer and the purchase price and/or to bridge a value gap between buyer and seller 
+
+In the first instance , a seller note can bridge a gap between the amount of capital a buyer can access and the total purchase price. If the buyer can only secure a bank loan that is 70% of the acquisition price and equity that is 20%, there may be a seller note issued that holds the remaining 10% of the price. 
+
+In the second, if a buyer values a business at $9 million and the seller is seeking $10 million, a seller can help bridge the $1 million gap by issuing a seller note.
+
+There are a few options if the purchase price exceeds the capital available to a buyer. 
+
+The buyer can seek a larger bank loan or use more equity, the buyer and seller could agree on an earnout, and/or the seller could issue a seller note.
+
+First, the buyer could secure a larger bank loan to cover the gap with leverage. However, a bank may be hesitant to increase their loan size if the Fixed Charge Coverage Ratio is above the bank's comfort level. 
+
+A Fixed Charge Coverage Ratio (“FCCR”) is calculated by dividing the target companies EBITDA less CAPEX and cash taxes by the interest and principal on the bank’s loan.
+
+In small company transactions, most banks require a FCCR of 1.2 to 1.25. That is, there needs to be enough EBITDA (or free cash) to pay a little over 1x the annual interest and principal payments on the loan.
+
+The bank will enforce this requirement (also commonly called a covenant) to reduce the risk of the loan. 
+
+As a result, if there is a gap between the buyer’s available financing and the purchase price, a bank may not lend additional bank debt because it will bring the FCCR below the required level. 
+
+Another option for the buyer to bridge the financing gap is to use more equity. 
+
+However, equity is an expensive form of financing as it is the riskiest form of capital and a buyer may not have enough capital to fund a larger portion of the purchase price.
+
+The buyer and seller could also bridge the financing gap via an earnout . 
+
+An earnout is similar to a seller note, in that the seller agrees to receive a portion of the purchase price over time. Most Earn-Outs are contingent on future performance – often based on future revenue, gross profit or EBITDA performance. 
+
+In exchange for accepting this risk, Earn-Outs often have a larger total value than seller notes. The value of the Earn-Out is driven solely on the future performance of the business. If the business does not perform, the seller may not be paid. 
+
+A seller note is a nice middle ground for the buyer and seller by  bridging the financing gap and providing benefits to both parties . 
+
+A seller note may be more desirable for the seller than an Earn-Out because the buyer receives interest and principal payments, the seller note is senior to the equity, and most Earn-Outs are tied to future performance. 
+
+Rather, the seller note becomes an obligation of the business and must be repaid according to its terms (more on this below). 
+
+Example of a Seller Note:
+
+Bridging a Valuation Gap 
+
+A seller note can be an effective way to bridge a gap between the price a buyer is willing to pay and the price a seller is willing to accept. If a buyer and seller are close, but not together, the seller note can be one way to make the transaction work for both parties. 
+
+The buyer can close the transaction without raising additional outside capital by receiving a seller note from the seller.
+
+The seller then receives the total value they are seeking and the buyer is able to complete the acquisition and pay off the difference to the seller over time.
+
+Fund a Buy-Sell Agreement
+
+Seller notes are also often used to fund Buy-Sell Agreements between two partners.
+
+A Buy-Sell agreement is a contract that states how a company’s shares will be valued, and subsequently purchased, when one partner decides to leave the partnership, dies, or is fired. 
+
+If the remaining partner lacks the cash/equity to purchase the departing partners’ shares, the departing partner may issue a seller note to the remaining partner to “fund” the purchase.
+
+Sell the Business to the Management Team
+
+Similarly, when a business owner seeks a sale of his or her business to their management team, a seller note is often used to fund a portion or all of the purchase price. In many cases, the management team will not have the equity capital required to fund the purchase price so the seller will issue a seller note to the management team. 
+
+This allows the business owner to exit at the time that they want and receive the purchase price over time as the seller note is paid back.
+
+How a Seller Note Works
+
+Seller notes are a form of debt financing that is structured as an interest-bearing loan. 
+
+Seller notes are typically subordinated to any bank loans (commonly called “Senior Debt”) used to finance a transaction. If there is no Senior Debt, the seller note will not be subordinated. 
+
+Subordination is an important topic to understand in small company transactions.
+
+In a typical acquisition including Senior Debt, seller notes, and equity, the Senior Debt has the highest priority for payment, followed by seller notes and then equity. As a result, there is more risk to a seller note than Senior Debt.
+
+To offset this risk, seller notes often pay a higher rate than Senior Debt. 
+
+In relation to the current market, most Senior Debt is repaid on a straight line basis over five years at a rate of 4% - 5%.  A typical seller note will mature over a similar period and carry an interest rate of 6-10%. Further, the interest on a seller note may or may not be paid on a current basis through the maturity date. Instead, the interest may be deferred or accrued until the maturity date. 
+
+Deferred interest payments may be necessary in order to reduce the annual cash interest expense. 
+
+This way the seller note does not affect the bank’s required FCCR or other covenants. Deferred interest payments also improve the cash flow in the business– ensuring it has adequate cash flow to cover working capital requirements, other operating needs, and/or investment opportunities.
+
+Different Types of Principal and Interest Payments on Seller Notes
+Bullet (PIK)
+
+A bullet note describes a loan that pays all the principal at the maturity date. 
+
+Bullet loans can have deferred interest payments or recurring interest payments. Deferred interest payments are often called Payment in Kind, (“PIK”) interest. PIK interest is deferred and added to the principal balance of the seller note. The interest is then compounding over time.
+
+For example, if the principal balance of the seller note is $10,000 with an annual PIK interest of 5%, the first-year interest expense is $500. 
+
+The second year would be $525 because the prior year's interest payment is added to the principal.
+
+The third year interest would be $551.3 and so forth. Each year, the PIK interest is added to the principal amount and is due at the maturity date.
+
+Bullet (No PIK)
+
+A bullet note can also include current interest payments rather than PIK interest payments. The original principal is still paid at maturity date, but the interest payments are made annually and do not compound. Using the same example above - a $10,000 seller note with 5% interest - the annual cash interest expense would be $500 each year. In the figure below, the interest is paid annually (or current) to the holder of the seller note.
+
+Amortization (Straight Line)
+
+The most common method of repaying a bank loan is straight-line principal amortization over the term of the note with regular cash interest. 
+
+In simple terms, paying a portion of the principal and interest at every installment date. Each principal payment will be the same amount and the interest payment will decline over the life of the loan. Most bank loans with straight line amortization do not include deferred or PIK interest payments.
+
+A straight line amortization note contrasts with a mortgage-style note where each payment amount is the same and the portion of principal paid increases over the life of the loan while the interest portion decreases. 
+
+Most commercial loans, including seller notes, rarely use this method of repayment.
+
+Seller notes are most commonly structured as five-year bullet notes with current (no PIK) interest.
+
+Benefits and Risks to the Seller
+
+There are many benefits to a seller of utilizing a seller note in small company transactions:
+
+Benefits to the Seller:
+
+Typically, a seller note allows for more flexibility in the acquisition and increases the probability of closing the transaction at a value acceptable to the seller.
+Receiving interest over the life of the loan will increase the total value received, and the interest is often much higher than a seller can receive from cash sitting in a bank account. Cash can only earn at most 1%, if it sits in a bank, while a note can earn 6-10%. 
+The seller knows the business well and can have confidence they will be repaid.
+
+Where there are benefits to the seller, there are also risks.
+
+Risks to the Seller:
+
+Most seller notes are unsecured. This means if the business were to fail, and the seller note defaults, there may not be any collateral to cover the seller note. The future performance of the business is unknown and, like any lender, this presents a risk that the seller note may not be repaid.
+Seller notes are subordinated to Senior Debt. If the business is not producing enough free cash to cover all of its obligations, including the seller note, the seller note may be impaired.
+Conclusion
+
+A seller note can be a great option to bridge a valuation or financing gap in a small company acquisition, to “fund” a buy/sell agreement, or to “fund” the sale of a business to a management team. Seller notes benefit both parties and can be structured to meet the unique requirements of the transaction. 
+
+However, it’s important to understand the structure as well as the benefits and risks of seller notes.
+
+Have more questions about the use of seller notes in small company transactions or want to discuss a potential sale of your company to Hadley? Please contact us today.
+
+HADLEY
+Reap the rewards of your hard work.
+SET UP A CONFIDENTIAL APPOINTMENT
+Recommended Reading
+Centare Sold to Leading Onshore Development Organization
+By Paul Wormley
+Insights on Management Buyouts for Small Businesses
+By Harrison Menaker
+Purchase Price Allocation in Small Company Acquisitions
+By Ryan Hanley
+What are Indemnification Baskets and Caps in M&A?
+By Paul Wormley
+Categories
+Managing A Small Business
+Selling A Small Business
+Small Business Private Equity
+

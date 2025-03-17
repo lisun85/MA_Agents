@@ -1,0 +1,68 @@
+URL: https://excellere.com/portfolio
+TITLE: Representative Investments - Excellere Partners
+
+BASE CONTENT:
+================================================================================
+Representative Investments
+SECTOR
+›
+All
+Industrial Growth
+Healthcare
+Business Services
+STATUS
+›
+All
+Active
+Realized
+
+DYNAMIC CONTENT:
+================================================================================
+[1] SELECT
+--------------------------------------------------------------------------------
+Representative Investments
+SECTOR
+Industrial Growth
+›
+All
+Industrial Growth
+Healthcare
+Business Services
+STATUS
+›
+All
+Active
+Realized
+
+[2] SELECT
+--------------------------------------------------------------------------------
+Representative Investments
+SECTOR
+Healthcare
+›
+All
+Industrial Growth
+Healthcare
+Business Services
+STATUS
+›
+All
+Active
+Realized
+
+[3] SELECT
+--------------------------------------------------------------------------------
+Representative Investments
+SECTOR
+Business Services
+›
+All
+Industrial Growth
+Healthcare
+Business Services
+STATUS
+›
+All
+Active
+Realized
+

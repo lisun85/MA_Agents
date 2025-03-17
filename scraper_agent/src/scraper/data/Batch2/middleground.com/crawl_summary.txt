@@ -1,0 +1,662 @@
+[
+  {
+    "url": "https://middleground.com/",
+    "title": "MiddleGround Capital \u2013 Middle Market Private Equity Firm",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/about",
+    "title": "About \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/approach",
+    "title": "Approach \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/esg",
+    "title": "ESG \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team",
+    "title": "Team \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies",
+    "title": "Companies \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://middleground.com/news",
+    "title": "News \u2013 MiddleGround Capital",
+    "dynamic_states": 4
+  },
+  {
+    "url": "https://middleground.com/news",
+    "title": "News \u2013 MiddleGround Capital",
+    "dynamic_states": 4
+  },
+  {
+    "url": "https://middleground.com/blog",
+    "title": "Blog \u2013 MiddleGround Capital",
+    "dynamic_states": 6
+  },
+  {
+    "url": "http://middleground.com/contact",
+    "title": "Contact Us \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/contact",
+    "title": "Contact Us \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/careers",
+    "title": "Careers \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://middleground.com/about",
+    "title": "About \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://middleground.com/approach",
+    "title": "Approach \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "http://middleground.com/team",
+    "title": "Team \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/stemmer-imaging",
+    "title": "Stemmer Imaging \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/integral-powertrain-limited-helix",
+    "title": "Integral Powertrain Limited (Helix) \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/l-s-starrett-company",
+    "title": "L.S. Starrett Company \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/it8",
+    "title": "IT8 \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/a-m-castle-co",
+    "title": "A. M. Castle & Co. \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/xtrac",
+    "title": "Xtrac \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/tpm",
+    "title": "TPM \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/mantel-precision",
+    "title": "Mantel Precision \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/attala-steel",
+    "title": "Attala Steel Industries \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/six-axis",
+    "title": "SixAxis \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/hlc",
+    "title": "HLC \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/pvi-holdings-inc",
+    "title": "Vytl Controls Group \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/race-winning-brands",
+    "title": "Race Winning Brands \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/lindsay-precast",
+    "title": "Lindsay Precast \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/new-eagle",
+    "title": "New Eagle \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/plasman",
+    "title": "Plasman \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/arrow-tru-line",
+    "title": "Arrow Tru-Line \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/shiloh-industries",
+    "title": "Shiloh Industries \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/dura-automotive",
+    "title": "DURA Automotive \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/banner-industries",
+    "title": "Banner Industries \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/steel-craft",
+    "title": "Steel Craft \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/peterson-american-corporation",
+    "title": "Peterson American Corporation \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/companies/alco",
+    "title": "Alco Manufacturing \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/privacy-policy",
+    "title": "Privacy Policy \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/terms-of-use",
+    "title": "Terms of Use \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/pri-confirms-middleground-capital-as-first-sub-1-billion-aum-industrial-focused-signatory",
+    "title": "PRI Confirms MiddleGround Capital as First Sub $1 Billion AUM Industrial Focused Signatory \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/miles-anderson",
+    "title": "Miles Anderson \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/dyana-baurley",
+    "title": "Dyana Baurley \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/rick-brawn",
+    "title": "Rick Brawn \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/mike-bridge",
+    "title": "Mike Bridge \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/jennifer-cohagen",
+    "title": "Jennifer Cohagen \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/nick-cooper",
+    "title": "Nick Cooper \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/anthony-denaix",
+    "title": "Anthony Denaix \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/john-dotson",
+    "title": "John Dotson \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/scot-duncan",
+    "title": "Scot Duncan \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/blake-frazier",
+    "title": "Blake Frazier \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/dana-frishman",
+    "title": "Dana Frishman \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/jordan-gabbert",
+    "title": "Jordan Gabbert \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/troy-gonzales",
+    "title": "Troy Gonzales \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/joost-gottgens",
+    "title": "Joost Gottgens \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/brandon-hamel",
+    "title": "Brandon Hamel \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/tess-horany",
+    "title": "Tess Horany \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/shelby-hundley",
+    "title": "Shelby Hundley \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/zach-jackson",
+    "title": "Zach Jackson \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/jason-jacob",
+    "title": "Jason Jacob \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/robert-jonkers",
+    "title": "Robert Jonkers \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/christian-kellner",
+    "title": "Christian Kellner \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/alicia-lokovich",
+    "title": "Alicia Lokovich \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/joe-ludwig",
+    "title": "Joe Ludwig \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/tyler-may",
+    "title": "Tyler May \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/monica-mcclinton",
+    "title": "Monica McClinton \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/ryan-mccomb",
+    "title": "Ryan McComb \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/zach-miller",
+    "title": "Zach Miller \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/alicia-motomura",
+    "title": "Alicia Motomura \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/lauren-mulholland",
+    "title": "Lauren Mulholland \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/kelly-myers",
+    "title": "Kelly Myers \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/paul-obrien",
+    "title": "Paul O\u2019Brien \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/melis-ozbek",
+    "title": "Melis \u00d6zbek \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/ron-pankratz",
+    "title": "Ron Pankratz \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/christen-paras",
+    "title": "Christen Paras \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/eric-polen",
+    "title": "Eric Polen \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/lindsay-quintero",
+    "title": "Lindsay Quintero \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/erica-richardson",
+    "title": "Erica Richardson \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/22143",
+    "title": "Aaron Shapiro \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/marty-sjoquist",
+    "title": "Marty Sjoquist \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/del-soltani",
+    "title": "Del Soltani \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/graham-sparks",
+    "title": "Graham Sparks \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/chris-speight",
+    "title": "Chris Speight \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/zach-spencer",
+    "title": "Zach Spencer \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/sean-spero",
+    "title": "Sean Spero \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/justin-steil",
+    "title": "Justin Steil \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/alex-stewart",
+    "title": "Alex Stewart \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/john-stewart",
+    "title": "John Stewart \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/madelyn-tutewiler",
+    "title": "Madelyn Tutewiler \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/alex-van-der-have",
+    "title": "Alex van der Have \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/sarah-varghese",
+    "title": "Sarah Varghese \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/dinesh-vasandani",
+    "title": "Dinesh Vasandani \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/roland-veldhuijzen-van-zanten",
+    "title": "Roland Veldhuijzen van Zanten \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/dave-wagner",
+    "title": "Dave Wagner \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/david-walden",
+    "title": "David Walden \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/matt-weir",
+    "title": "Matt Weir \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/team/yuji-yokoi",
+    "title": "Yuji Yokoi \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-completes-acquisition-of-stemmer-imaging-ag",
+    "title": "MiddleGround Capital Completes Acquisition of STEMMER IMAGING AG \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-completes-acquisition-of-majority-ownership-stake-in-helix",
+    "title": "MiddleGround Capital Completes Acquisition of Majority Ownership Stake in Helix \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-completes-add-on-acquisition-of-gms-instruments-through-its-pvi-holdings-platform",
+    "title": "MiddleGround Capital Completes Add-On Acquisition of GMS Instruments Through its PVI Holdings Platform \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-completes-the-l-s-starrett-company-transaction",
+    "title": "MiddleGround Completes the L.S. Starrett Company Transaction \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-completes-acquisition-of-spain-based-global-engineering-service-provider-it8",
+    "title": "MiddleGround Capital Completes Acquisition of Spain-Based Global Engineering Service Provider IT8 \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-closes-440-million-continuation-vehicle-to-combine-castle-metals-and-banner-industries",
+    "title": "MiddleGround Capital Closes $440 Million Continuation Vehicle to Combine Castle Metals and Banner Industries \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-hires-christopher-speight-as-partner",
+    "title": "MiddleGround Capital Hires Christopher Speight as Partner \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capitals-european-office-makes-first-platform-acquisition-with-close-of-xtrac",
+    "title": "MiddleGround Capital\u2019s European Office Makes First Platform Acquisition with Close of Xtrac \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-acquires-a-m-castle-co-targeting-capital-raise-for-spv",
+    "title": "MiddleGround Capital Acquires A.M. Castle & Co. Targeting Capital Raise for SPV \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-completes-first-add-on-for-its-megatech-platform-with-acquisition-of-advantage-metal-products",
+    "title": "MiddleGround Capital Completes First Add-On for its Megatech Platform with Acquisition of Advantage Metal Products \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-acquires-megatech",
+    "title": "MiddleGround Capital Acquires Megatech \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-completes-add-on-acquisition-of-dutchland-inc-for-its-lindsay-precast-platform",
+    "title": "MiddleGround Capital Completes Add-on Acquisition of Dutchland Inc. for Its Lindsay Precast Platform \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/9097",
+    "title": "MiddleGround Capital Acquires SixAxis \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-acquires-hlc",
+    "title": "MiddleGround Capital Acquires HLC \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-acquires-pvi-holdings-inc",
+    "title": "MiddleGround Capital Acquires PVI Holdings, Inc. \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-completes-fourth-add-on-acquisition-of-tmg-performance-products-for-its-race-winning-brands-platform",
+    "title": "MiddleGround Capital Completes Fourth Add-On Acquisition of TMG Performance Products for Its Race Winning Brands Platform \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-completes-third-add-on-acquisition-of-haltech-for-its-race-winning-brands-platform",
+    "title": "MiddleGround Capital Completes Third Add-on Acquisition of Haltech for Its Race Winning Brands Platform \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-completes-third-add-on-for-its-alco-platform-with-acquisition-of-teale-machine-company",
+    "title": "MiddleGround Capital Completes Third Add-on for Its Alco Platform With Acquisition of Teale Machine Company \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-completes-second-add-on-for-acquisition-of-tpt-solutions-for-its-race-winning-brands-platform",
+    "title": "MiddleGround Capital Completes Second Add-on for Acquisition of TPT Solutions For Its Race Winning Brands Platform \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-acquires-race-winning-brands-its-third-fund-ii-platform-in-two-weeks",
+    "title": "MiddleGround Capital Acquires Race Winning Brands \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-completes-second-add-on-for-its-alco-platform-with-acquisition-of-kaddis",
+    "title": "MiddleGround Capital Completes Second Add-On for Its Alco Platform with Acquisition of Kaddis \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-completes-third-add-on-for-its-banner-platform-with-acquisition-of-national-kwikmetal-services",
+    "title": "MiddleGround Capital Completes Third Add-On For Its Banner Platform with Acquisition of National Kwikmetal Services \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-acquires-lindsay-precast-its-third-infrastructure-acquisition",
+    "title": "MiddleGround Acquires Lindsay Precast, Its Third Infrastructure Acquisition \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-acquires-plasman-holdings-its-third-automotive-platform-in-14-months",
+    "title": "MiddleGround Capital Acquires Plasman Holdings, Its Third Automotive Platform in 14 Months \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/shiloh-industries-a-portfolio-company-of-middleground-capital-acquires-two-us-automotive-facilities-from-benteler",
+    "title": "Shiloh Industries, a Portfolio Company of MiddleGround Capital, Acquires Two US Automotive Facilities From Benteler \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-acquires-arrow-tru-line-inc",
+    "title": "MiddleGround Capital Acquires Arrow Tru-Line, Inc. \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-raises-over-1-billion-less-than-two-years-after-raising-its-460-million-debut-fund-increasing-aum-to-1-9-billion",
+    "title": "MiddleGround Capital Raises Over $1 Billion, Less Than Two Years After Raising Its $460 Million Debut Fund, Increasing AUM to $1.9 Billion \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/justin-w-steil-joins-middleground-capital-as-managing-director",
+    "title": "Justin W. Steil joins MiddleGround Capital as Managing Director \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-closes-on-736-million-for-its-current-fund-offerings-buoyed-by-strong-demand-from-existing-lps",
+    "title": "MiddleGround Capital Closes on $736 Million for Its Current Fund Offerings, Buoyed by Strong Demand From Existing LPs \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-protecting-workers-safety-and-ensuring-business-continuity-in-2020",
+    "title": "MiddleGround Capital Protecting Workers\u2019 Safety and Ensuring Business Continuity in 2020 \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-adds-to-edsco-fasteners-with-acquisition-of-attala-steel-industries",
+    "title": "MiddleGround Capital Adds to EDSCO Fasteners with Acquisition of Attala Steel Industries \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-acquires-shiloh-industries-inc",
+    "title": "MiddleGround Capital Acquires Shiloh Industries, Inc. \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/4080",
+    "title": "MiddleGround Capital Adds to its Alco Platform with Acquisition of Manth-Brownell \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-acquires-dura-automotive",
+    "title": "MiddleGround Capital Acquires Dura Automotive Systems \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://middleground.com/news/middleground-capital-acquires-supra-alloys-and-edge-international",
+    "title": "MiddleGround Capital Acquires Supra Alloys and EDGE International \u2013 MiddleGround Capital",
+    "dynamic_states": 0
+  }
+]

@@ -1,0 +1,114 @@
+URL: https://hadleycapital.com/insights/selling-a-small-business/my-business-is-worth-less-than-its-asset-value
+TITLE: Asset-Based Valuations: Benefits and Pitfalls
+
+BASE CONTENT:
+================================================================================
+Asset-Based Valuations: Benefits and Pitfalls
+Paul Wormley
+October 20, 2021 - 2 min read
+
+Asset-Based valuations are a form of business valuation that is centered on the value of a company’s assets. Asset-Based valuations are most commonly calculated using Net Book Value. 
+
+Net Book Value = Total Assets - Total Liabilities
+
+There are a number of issues related to Asset-Based valuations that will be covered in this post:
+
+Asset Valuation Approaches
+Asset-Based Valuation Example
+Asset-Based Valuation Versus Enterprise Value and Equity Value
+Businesses Worth More Than Asset Value
+Businesses Worth Less Than Asset Value
+Asset Valuation Approaches
+
+Since the core of an asset-based valuation is determining the underlying value of the assets (subtracted from liabilities) it is important to determine how the assets will be valued in the first place. There are multiple ways to value assets:
+
+GAAP or balance sheet value is the balance of the assets as displayed on a company’s balance sheet including fixed assets net of depreciation. This is the most common approach to calculating net book value but may understate value. 
+Replacement value is what it would cost to replace the assets in hand and often requires a formal appraisal in order to determine. Replacement value is often the highest value assigned to assets.
+Fair market value (FMV) of assets is often a better proxy for true asset value because FMV generally reflects the earning potential of the assets. Orderly liquidation value may be a more appropriate FMV if a business is not producing positive earnings. 
+Asset-Based Valuation Example
+
+Let’s look at an example Net Book Value calculation using our hypothetical business - Bob’s Tees R Us:
+
+Using the most recent balance sheet from Bob’s Tees R Us we calculate the Net Book Value as Total Assets minus Total Liabilities.
+
+The GAAP balance sheet produces a Net Book Value of $380. This is the lowest of the three calculations of net book value because Bob has aggressively depreciated his fixed assets over the last three years, lowering the Total Asset amount by $175.
+
+Using the replacement value of assets, the Net Book Value is $555. This is because the replacement costs of Bob’s fixed assets are assumed to be the same as their purchase price. This increases the Total Asset amount by $175.
+
+Using the fair market value of assets, the Net Book Value is $480. This is between the GAAP and replacement netbook values because the fair market value is $100 higher than the GAAP value but $75 lower than the replacement value.
+
+Asset-Based Valuation vs Enterprise Value and Equity Value
+
+As shown above, asset-based valuations can be calculated simply by knowing the assets and liabilities of a company. It does not rely on placing a value on a company’s underlying equity. While this simplicity makes asset-based valuations useful, it may also result in an understatement of the actual market value (or ‘enterprise value’) of a business. 
+
+Enterprise value and equity value are related in that equity value is a part of enterprise value. Enterprise value is equivalent to what a third party would pay for all of the stock and assets of a firm.  
+
+Equity value is the portion of enterprise value that is attributable to its equity investors. It is calculated by taking a company’s enterprise value and subtracting the value of any debt owed by the company and then adding the value of any excess cash owned by it. 
+
+More detail on enterprise versus equity value is available in this blog post. 
+
+Enterprise value is typically derived from market comparable valuations, discounted cash flow analysis, and/or cash flow multiples. We’ve written in more detail about these valuation techniques.
+
+As a result, these valuation techniques tend to be more accurate reflections of the value of a business. The downside is they are more complicated to calculate.
+
+Businesses Worth More Than Asset Value
+
+In nearly every case, a successful company with good cash flows will have an enterprise value that exceeds its asset value. 
+
+One reason this is the case is that, as described above, book value tends to understate market value because many businesses have significant intangible assets (brand name, reputation, service level, etc.) that don’t show up on the balance sheet, and thus, are not included in a calculation of book value.
+
+Further, these same intangible assets, in combination with other assets, are often used to create significant value for a customer that, in turn, creates repeatable profits and cash flow for the company.  
+
+Businesses Worth Less Than Asset Value
+
+However, it’s not always the case that a company’s enterprise value will exceed its asset value. Recently, we’ve come across several companies for sale with substantial fixed assets – generally in the form of manufacturing equipment. A large asset base is normally positive in the sale of a small business because it provides a buyer with the collateral necessary to obtain financing from a bank. 
+
+In the particular cases we were evaluating, each company’s large fixed asset base actually prevented a transaction from occurring. 
+
+Why?
+
+Because these businesses did not generate enough free cash flow to support an enterprise value/purchase price equal to or in excess of the replacement value of assets. 
+
+That is, using Enterprise Valuation techniques described above, the business was worth less than the replacement value of assets. The owners of these companies had a hard time reconciling that their business was worth less than the assets in place. 
+
+It comes down to the old saying, cash is king…free cash flow in this case. 
+
+Most buyers value a company on its ability to produce free cash flow or EBITDA. Click here for a more detailed overview of EBITDA. 
+
+If a company’s free cash flow is low relative to a large asset base, it may be the case that the enterprise value is lower than the net asset value. 
+
+In this situation, a business owner has two primary options:
+
+Increase the return on assets: use the existing assets in place to generate higher profits and free cash flow.
+Sell the assets, not the business: determine if an orderly liquidation of the assets would result in more proceeds than selling the business outright.
+
+Asset-Based valuations are one approach to business valuation. 
+
+In most cases, asset-based valuations are likely to understate the market value of the enterprise value of a business. However, there are circumstances where asset-based valuations are useful including for businesses that are not making positive profits or where calculating enterprise valuations would be complex, expensive, or impractical. 
+
+If you’d like to reach out to Hadley to learn more about what we can offer you as a business owner, contact us today.
+
+Paul Wormley - Managing Partner
+
+Paul joined Hadley in 2005. He grew up in a family business environment and has spent his entire career working with small and emerging companies.
+
+He currently works with Interstate Fabrications, Filter Holdings, J&R, AGI, Gillinder, Equustock, Pneu-Con, and Storflex. Previously he was the chairman or served on the board of directors for i-deal Optics, Centare, QDx Pathology, GT Golf Supplies, and Open Sky Media – all former Hadley companies.
+
+Paul is an outdoor enthusiast who enjoys fishing, hunting, riding motorbikes, Crossfit and an occasional craft beer. He works closely with a number of non-profit organizations including One Acre Fund, Trout & Salmon Foundation, and Northfield Parks Foundation.
+
+Paul is a graduate of the University of Colorado at Boulder and received an MBA from the Kellogg School of Management at Northwestern University. He and his wife, Rosemary, have three children.
+
+Recommended Reading
+Centare Sold to Leading Onshore Development Organization
+By Paul Wormley
+Insights on Management Buyouts for Small Businesses
+By Harrison Menaker
+Purchase Price Allocation in Small Company Acquisitions
+By Ryan Hanley
+What are Indemnification Baskets and Caps in M&A?
+By Paul Wormley
+Categories
+Managing A Small Business
+Selling A Small Business
+Small Business Private Equity
+

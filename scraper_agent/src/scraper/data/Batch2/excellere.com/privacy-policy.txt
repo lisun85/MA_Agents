@@ -1,0 +1,86 @@
+URL: https://excellere.com/privacy-policy
+TITLE: Privacy Policy - Excellere Partners
+
+BASE CONTENT:
+================================================================================
+Privacy Policy
+
+LAST UPDATED: February 1, 2023
+
+Excellere Partners wants you to be familiar with how we collect, use, and disclose information.
+
+In Section I, below, we describe our practices in connection with this website.
+If you are a California resident who is an employee of, or otherwise associated with, any of our portfolio companies, vendors, or other entities with which we do business, please see Section II, below, for our California Consumer Privacy Act notice.
+If you are an individual who has invested with us for your own purposes (that is, not on behalf of another person or entity), please read our Regulation S-P Privacy Notice available at https://viewmyportal.investorflow.com/.
+
+I. OUR WEBSITE
+
+We do not collect any information that identifies you as an individual or relates to an identifiable individual through our website. We and our service providers may collect and use other information as follows:
+
+Your browser or device.
+Certain information is collected by most browsers or automatically through your device, such as your Media Access Control (MAC) address, computer type (Windows or Mac), screen resolution, operating system name and version, device manufacturer and model, language, and Internet browser type and version. We use this information to ensure that the website functions properly.
+Cookies.
+Cookies are pieces of information stored directly on your computer. Cookies allow us to collect such information as browser type, time spent on the website, pages visited, language preferences, and traffic data. We use the information for security purposes, to facilitate navigation, to display information more effectively, and to personalize your experience. We also gather statistical information about website use in order to continually improve its design and functionality, understand how it is used, and assist us with resolving questions about it. We do not currently respond to browser do-not-track signals. If you do not want information collected through the use of cookies, most browsers allow you to automatically decline cookies or be given the choice of declining or accepting particular cookies from a particular website. You may also wish to refer to http://www.allaboutcookies.org/manage-cookies/index.html. If, however, you do not accept cookies, you may experience some inconvenience in your use of the website.
+Pixel tags and other similar technologies.
+Pixel tags. We may use pixel tags (also known as web beacons and clear GIFs) to, among other things, track the actions of website users (and email recipients), measure the success of our marketing campaigns, and compile statistics about website use and email response rates.
+Analytics. We use Google Analytics, which uses cookies and similar technologies to collect and analyze information about website use and report on activities and trends. This service may also collect information regarding the use of other websites, apps, and online services. You can learn about Google’s practices by going to www.google.com/policies/privacy/partners/ and exercise the opt-out provided by Google by downloading the Google Analytics opt-out browser add-on, available at https://tools.google.com/dlpage/gaoptout.
+Invisible reCAPTCHA. We use Google’s invisible reCAPTCHA application on our website in order to protect against spam and other automated abuse. The reCAPTCHA tool may make use of cookies, as well as such other information as IP address, date, time, language, screen size and resolution, and mouse movements. The use of the reCAPTCHA tool and information collected through it are subject to Google’s privacy policy, available at https://policies.google.com/privacy and Google’s terms of service, available at https://policies.google.com/terms?hl=en.
+Adobe Flash technology (including Flash Local Shared Objects (“Flash LSOs”)) and similar technologies.
+We may use Flash LSOs and other technologies to, among other things, collect and store information about your use of the website. If you do not want Flash LSOs stored on your computer, you can adjust the settings of your Flash player to block Flash LSO storage using the tools contained in the Website Storage Settings Panel. You can also go to the Global Storage Settings Panel and follow the instructions. Setting the Flash Player to restrict or limit acceptance of Flash LSOs may reduce or impede the functionality of some Flash applications.
+IP address. We may collect your IP address in order to determine your general location.
+Physical Location.
+We may collect the physical location of your device by, for example, using satellite, cell phone tower, or Wi-Fi signals. We may use your device’s physical location to provide you with personalized location-based services and content.
+
+II. CALIFORNIA RESIDENTS
+
+We receive personal information of California residents in connection with our relationships with our portfolio companies, intermediaries, entrepreneurs, and others. Below are details about our collection, use, and disclosure of such residents’ personal information.
+
+Collection and Disclosure of Personal Information
+The following chart details the categories of personal information we receive and process, as well as the categories of personal information we disclose to third parties for our operational business purposes, including within the 12 months preceding the date this Privacy Policy was last updated.
+
+Categories of Personal Information	Disclosed to Which Categories of Third Parties for Operational Business Purposes
+Internet or network activity information, such as browsing history and interactions with our website	service providers
+
+We may also disclose your personal information to a third party in connection with any reorganization, financing transaction, merger, sale, joint venture, partnership, assignment, transfer, or other disposition of all or any portion of our business, assets, or stock (including in connection with any bankruptcy or similar proceedings).
+
+We do not sell personal information, and we do not share personal information for purposes of cross-context behavioral advertising. Without limiting the foregoing, we do not sell or share the personal information of minors under 16 years of age.
+
+Sources of Personal Information|
+We collect personal information directly from you.
+
+Purposes for the Collection, Use, and Disclosure of Personal Information
+We may collect, use, or disclose personal information to conduct analytics in order to improve our website.
+
+Retention Period
+We retain personal information for as long as needed or permitted in light of the purpose for which it was collected. The criteria used to determine our retention periods include:
+
+The length of time we have an ongoing relationship with you;
+Whether there is a legal obligation to which we are subject; and/or
+Whether retention is advisable in light of our legal position (such as in regard to applicable statutes of limitations, litigation, or regulatory investigations).
+
+Individual Requests
+You may, subject to applicable law and our ability to associate the information we collect to you, make the following requests:
+
+You may request to know whether we process your personal information and to access such information. Specifically, you may request that we disclose to you the following information covering the 12 months preceding your request:
+The categories of personal information we collected about you and the categories of sources from which we collected such information;
+The business or commercial purpose for collecting personal information about you; and
+The categories of personal information about you that we disclosed and the categories of third parties to whom we disclosed such information.
+You may request to correct inaccuracies in your personal information;
+You may request to have personal information we collected from you deleted.
+You may request to receive a copy of your personal information, including in a portable, readily usable format.
+
+We will not unlawfully discriminate or retaliate against you exercising your rights.
+
+To make a privacy request, please contact us at questions@excellere.com or 303-765-2400. We will verify and respond to your request consistent with applicable law, taking into account the type of personal information subject to the request.
+
+Authorized Agents
+If an agent would like to make a request on your behalf as permitted under applicable law, the agent may use the submission methods noted above. As part of our verification process, we may request that the agent provide, as applicable, proof concerning his or her status as an authorized agent. In addition, we may require that you verify your identity as described above or confirm that you provided the agent permission to submit the request.
+
+III. UPDATES TO THIS PRIVACY POLICY
+
+The “LAST UPDATED” legend at the top of this Privacy Policy indicates when this Privacy Policy was last revised. Any changes will become effective when we post the revised Privacy Policy on the Services.
+
+IV. CONTACT US
+
+If you have any questions about this Privacy Policy, please contact us at questions@excellere.com. Because email communications are not always secure, please do not include sensitive information in your emails to us.
+

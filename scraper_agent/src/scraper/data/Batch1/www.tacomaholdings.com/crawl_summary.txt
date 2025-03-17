@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://tacomaholdings.com/",
+    "title": "Tacoma Holdings | Long-term investment firm",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://tacomaholdings.com/aboutus",
+    "title": "About Our Firm | Tacoma Holdings",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://tacomaholdings.com/investments",
+    "title": "Investments | Tacoma Holdings",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://tacomaholdings.com/criteria",
+    "title": "Criteria | Tacoma Holdings",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://tacomaholdings.com/news",
+    "title": "News | Tacoma Holdings",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://tacomaholdings.com/contact",
+    "title": "Contact | Tacoma Holdings",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://tacomaholdings.com/medical-supply",
+    "title": "Medical Supply | Tacoma Holdings",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://tacomaholdings.com/frontpoint-health",
+    "title": "Frontpoint health | Tacoma Holdings",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://tacomaholdings.com/reva-dental-implant-center",
+    "title": "Reva dental implant center | Tacoma Holdings",
+    "dynamic_states": 0
+  }
+]

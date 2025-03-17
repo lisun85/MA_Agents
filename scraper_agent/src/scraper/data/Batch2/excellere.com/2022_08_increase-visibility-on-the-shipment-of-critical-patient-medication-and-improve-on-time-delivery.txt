@@ -1,0 +1,85 @@
+URL: https://excellere.com/2022/08/increase-visibility-on-the-shipment-of-critical-patient-medication-and-improve-on-time-delivery
+TITLE: Increase Visibility on the Shipment of Critical Patient Medication and Improve On-Time Delivery - Excellere Partners
+
+BASE CONTENT:
+================================================================================
+News from Our
+Focus Industries
+Increase Visibility on the Shipment of Critical Patient Medication and Improve On-Time Delivery
+
+Increase Visibility on the Shipment of Critical Patient Medication and Improve On-Time Delivery
+
+Part III in a series outlining five crucial steps so pharmacies can enhance patient engagement and lower operational costs.
+
+In earlier articles, we established the correlation between greater patient engagement and a pharmacy’s ability to leverage multiple communication channels, like email and mobile text messaging, by tailoring them to the preferences of today’s digital-savvy consumers. We also examined how leveraging parcel tracking technology with data, insights and predictive analytics can improve the pharmacy’s operational processes and planning on the front-end — before an order is shipped — to minimize lost or delayed packages and enhance patient satisfaction (Net Promoter Score).
+
+However, we can’t anticipate every challenge life throws at carriers. When real-time obstacles occur, such as weather conditions, extreme temperature or environmental changes, they likely will increase shipping delays and costs, negatively impact patient engagement, and create havoc in pharmacy operations. We need better data, analytics and insights throughout the medication delivery journey that can help healthcare providers measure and determine the impact these unanticipated conditions will have on the successful delivery of critical patient medication. Additionally, to help to plan and prepare the pharmacy for proactive patient communications and coordination with carriers in real-time and to help ensure the medication is not lost or delayed. These insights and analytics will help the pharmacy proactively reach out to patients and establish proper expectations on the delivery of their medication.
+
+Medication Resends are Costly
+
+Specialty pharmacies spend millions of dollars each year for medication resends due to carrier-related delays or lost packages resulting from mechanical, weather or in-transit delays. For most of 2021, nearly 18% of final-mile retail deliveries failed to be delivered on time.*
+
+Regardless of the cause, carrier-related delays contribute to lost revenues, increased resend costs, negative customer experiences, and challenges to adherence compliance.
+
+Knowing unanticipated delays will occur, specialty pharmacies should focus on improving their operations in three critical areas.
+
+1. Monitoring all critical patient medication in real-time from start to finish across all carrier delivery systems. You need improved visibility across the package delivery journey when the medication leaves the pharmacy’s loading dock.
+
+If specialty pharmacies rely on carrier scans alone to alert them to package problems, they may not find out there’s a problem until it’s potentially too late to do anything about it. Instead, they can be proactive participants as the medication leaves the pharmacy loading dock to the patient’s front door by monitoring delivery data and analytics across all carriers and visually managing what is getting delivered on time, what may be in distress or experiencing delivery delays, and what needs to be rescued or intervened — all in an intuitive reporting system and dashboard. Pharmacies need to know when the medication will arrive at every step in the delivery journey to manage their operations and patient communication effectively.
+
+To manage the daily complexity of the delivery process, a reporting system will need to:
+
+Track parcels across all carrier facilities and determine if packages are scheduled to be delivered with the expected service level.
+Provide daily analytics on parcel delivery trends across carrier and courier performance, by zip code, state and day of the week; and
+Identify and alert calamity reporting on all recent shipment disruptions so intelligent contingency decisions can be made using the best available information.
+
+2. Proactively communicating to increase patient confidence in package delivery, reduce patient stress, and enhance patient engagement.
+
+Specialty pharmacies that use intelligent, proactive notification tools (e.g., emails, texts and telephone calls) to keep patients informed when packages experience distress or delay improve customer engagement, alleviate anxiety, and reduce call center labor costs by slashing the number of inbound calls. With a mobile phone, patients should be able to look up and track the medication delivery schedule.
+
+3. Rescuing critical packages that are in distress or could not be delivered on time.
+
+Delivery delays can be a hassle for any logistics manager, but when it comes to life-critical, climate-controlled medications, it’s more than just a headache—it’s an emergency.
+
+Specialty pharmacies that monitor and respond in real-time to all at-risk shipments by rerouting or rescuing them can ensure the most time-sensitive therapies get into their patients’ hands exactly when they need them.
+
+Focusing on ‘Monitoring,’ ‘Communication,’ and ‘Rescue’ to Cut Down on Unnecessary, Costly Expenses and Write-offs
+
+By becoming proficient in managing the critical areas of parcel monitoring, patient communication, and parcel intervention or rescue, specialty pharmacies can reduce: pharmacists fielding customer calls; call center labor costs by reducing the number of inbound calls; reships by minimizing unclaimed return-to-sender (RTS) packages; compliance issues by achieving higher adherence rates; freight expenses by optimizing carrier service levels; and liability by ensuring patient receive their critical medications on time.
+
+What to Look for When Choosing a Solution
+
+Choosing a technology solution provider to ensure critical patient medication arrives on time and to the correct location doesn’t have to be a daunting task. Here is a checklist to help identify the right provider:
+
+Package Delivery Monitoring: Does the provider:
+Constantly monitor flight delays, power outages, and severe weather?
+Provide calamity reporting on all recent shipment disruptions?
+Provide weekly analytics on carrier and courier performance?
+Provide a convenient reporting dashboard for call center agents?
+Proactive Communication: Does the solution have a system for automatically notifying patients:
+When the package was shipped?
+When is the package scheduled to be delivered?
+When the package is in distress?
+When the package was delivered?
+Last Mile Delivery, Intervention or Rescue: Is the provider part of a courier network:
+With regional and local partners in all 50 states — including Hawaii and Alaska — and Puerto Rico?
+That can work directly with FedEx, UPS, or any other major carrier to deliver medication on the same day on your behalf?
+That can protect the efficacy of your specialty therapies by holding your cold chain or ambient shipments overnight at certified storage facilities across the country?
+That employs HIPAA-compliant, medically certified, professional agents, who are available around the clock? Remember, couriers, are an extension of your brand in these situations.
+
+*Source: On-time rates dip for USPS and UPS, climb for FedEx ahead of holidays: Convey. Average based on reporting Jan-Oct 2021.
+
+« Back to The Peak
+
+Top Stories
+HEALTH & PHARMACEUTICALS
+Low-Risk AI Adoption — A logical place to start
+HEALTH & PHARMACEUTICALS
+Buy and Ship Now supports access to critical medications
+BUSINESS SERVICES
+Weathering the Storm: How Specialty Pharmacies Can Navigate the 2024 Hurricane Season
+HEALTH & PHARMACEUTICALS
+Biocare Medical and Ensigna Biosystems Announce Strategic Partnership to Drive Spatial Biology, Multiomic Enablement, and Innovation in Biotechnology
+BUSINESS SERVICES
+Enhancing Patient Care with ParcelShield: Tackling Specialty Pharmacy Visibility and Tracking Challenges
+

@@ -1,0 +1,462 @@
+[
+  {
+    "url": "https://hadleycapital.com/",
+    "title": "Small Business Private Equity | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies",
+    "title": "Our Companies | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/working-with-us/acquisition-types/family-business/what-to-expect",
+    "title": "Family Business Acquisition | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/working-with-us/acquisition-types/management-buyout/what-to-expect",
+    "title": "Management Buyout | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/working-with-us/acquisition-types/acquisition-recapitalization",
+    "title": "Acquisition Recapitalization | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/working-with-us/our-focus",
+    "title": "Our Focus | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/working-with-us/selling",
+    "title": "Selling a Small Business | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/working-with-us/acquisition-process",
+    "title": "Small Business Acquisition Process | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/working-with-us/our-strategy",
+    "title": "Small Business Private Equity Strategy | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights",
+    "title": "Small Private Equity Firm Insights | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/blog",
+    "title": "Small Business Private Equity Blog | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/newsroom",
+    "title": "Newsroom | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/managing-a-small-business",
+    "title": "Managing a Small Business | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/selling-a-small-business",
+    "title": "Selling a Small Business - Process | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/small-business-private-equity",
+    "title": "Small Business Private Equity | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/about-us",
+    "title": "About Us | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/about-us/our-people",
+    "title": "Meet Our Team | Small Business Private Equity Experts | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/about-us/contact-us",
+    "title": "Contact Us | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/business-valuation-calculator",
+    "title": "Small Business Valuation Calculator | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/sga-production-services",
+    "title": "SGA Production Services | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/gillinder-glass",
+    "title": "Gillinder Glass | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/qdx-pathology-services",
+    "title": "QDx Pathology Services | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/i-deal-optics",
+    "title": "i-deal Optics | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/insights/small-business-private-equity/hadley-independent-sponsor-alliance",
+    "title": "Unlocking Growth Potential: The Hadley Independent Sponsor Alliance (HISA)",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/selling-a-small-business/centare-sold-to-leading-onshore-development-organization",
+    "title": "Centare Sold to Leading Onshore Development Organization",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/selling-a-small-business/management-buyout",
+    "title": "Insights on Management Buyouts",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/faq",
+    "title": "Small Business Private Equity FAQ | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/glossary",
+    "title": "Glossary of Private Equity Terms | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/privacy-and-terms",
+    "title": "Privacy & Terms | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/4allpromos",
+    "title": "4AllPromos | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/advanced-glass-industries",
+    "title": "Advanced Glass Industries | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/bluff-manufacturing",
+    "title": "Bluff Manufacturing | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/cambridge-major-laboratories",
+    "title": "Cambridge Major Laboratories | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/centare",
+    "title": "Centare | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/custom-label",
+    "title": "Custom Label | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/equustock",
+    "title": "Equustock | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/filter-holdings",
+    "title": "Filter Holdings | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/gt-golf-supplies",
+    "title": "GT Golf Supplies | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/harris-seeds",
+    "title": "Harris Seeds | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/international-specialty-supply",
+    "title": "International Specialty Supply | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/jr-manufacturing",
+    "title": "J&R Manufacturing | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/jri-industries",
+    "title": "JRI Industries | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/kelatron",
+    "title": "Kelatron | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/new-age-cryo",
+    "title": "New Age Cryo | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/open-sky-media",
+    "title": "Open Sky Media | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/packaging-specialists",
+    "title": "Packaging Specialists | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/pneu-con",
+    "title": "Pneu-Con | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/schmidt",
+    "title": "Schmidt | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/storflex-fixture-corporation",
+    "title": "Storflex Fixture Corporation | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/companies/w-c-rouse-son",
+    "title": "W.C. Rouse & Son | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/managing-a-small-business/cash-flow",
+    "title": "Cash Flow: What Does it Mean for Your Business?",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/selling-a-small-business/purchase-price-allocation",
+    "title": "Purchase Price Allocation in Small Company Acquisitions",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/small-business-private-equity/senior-debt",
+    "title": "What Every Business Owner Needs To Know About Senior Debt",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/small-business-private-equity/enterprise-value-vs-equity-value",
+    "title": "Enterprise Value vs. Equity Value: Everything You Need to Know",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/selling-a-small-business/what-are-baskets-and-caps",
+    "title": "What are Indemnification Baskets and Caps in M&A?",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/selling-a-small-business/my-business-is-worth-less-than-its-asset-value",
+    "title": "Asset-Based Valuations: Benefits and Pitfalls",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/newsroom/2023-11-30-hadley-capital-completes-50-million-fundraise-for-fund-iv",
+    "title": "Hadley Capital Completes $50 Million Fundraise for Fund IV",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/newsroom/2023-01-12-hadley-completes-successful-sale-of-gt-golf-holdings",
+    "title": "Hadley Completes Successful Sale of GT Golf Holdings",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/newsroom/2020-01-15-hadley-capital-aquires-equustock",
+    "title": "Hadley Capital Acquires Equustock",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/newsroom/2019-11-18-hadley-capital-opens-satellite-office-in-dallas-tx",
+    "title": "Hadley Capital Opens Satellite Office in Dallas, TX",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/newsroom/2018-03-19-hadley-capital-acquires-new-age-cryo-inc",
+    "title": "Hadley Capital Acquires New Age Cryo, Inc.",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/newsroom/2017-06-02-hadley-capital-partners-with-family-to-recapitalize-gillinder-glass",
+    "title": "Hadley Capital and Gillinder Family Recapitalize Gillinder Glass",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/newsroom/2017-02-28-hadley-capital-acquires-pneumatic-conveying-inc",
+    "title": "Hadley Capital Acquires Pneumatic Conveying, Inc.",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/newsroom/2016-08-19-hadley-capital-raises-third-small-company-fund",
+    "title": "Hadley Capital Raises Third Small Company Fund",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/newsroom/2016-05-05-hadley-capital-acquires-gt-golf-supplies",
+    "title": "Hadley Capital Acquires GT Golf Supplies",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/small-business-private-equity/finders-fee-agreements-in-small-company-acquisitions",
+    "title": "Private Equity Finder's Fee Agreement: What is it and Do You Need it",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/contact-us",
+    "title": "Contact Us | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/small-business-private-equity/what-is-ebitda",
+    "title": "Full EBITDA Guide: What is It & How Investors Use It (Formula)",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/small-business-private-equity/working-with-fundless-sponsors",
+    "title": "What are Fundless Sponsors? [FAQ + Guide]",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/selling-a-small-business/when-should-i-tell-my-employees",
+    "title": "The Guide to Exit Strategy for Small Business Owners",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/selling-a-small-business/seller-notes",
+    "title": "Seller Notes: What Are They Are and How They Work",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/selling-a-small-business/the-problems-with-esops",
+    "title": "Should Your Company Do An ESOP or Sell?",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/managing-a-small-business/how-to-calculate-ltv-of-customer",
+    "title": "How To Calculate a Customer\u2019s Lifetime Value [Ultimate Guide]",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/managing-a-small-business/entrepreneurship-through-acquisition",
+    "title": "Entrepreneurship Through Acquisition Models Overview",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/managing-a-small-business/business-succession-planning",
+    "title": "Business Succession Planning in the Era of Baby Boomer Retirement",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/managing-a-small-business/getting-the-finance-team-right",
+    "title": "The Importance of a Finance Team in Small Business",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/selling-a-small-business/asset-sale-v-stock-sale",
+    "title": "What Is the Difference Between an Asset Sale and a Stock Sale?",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/selling-a-small-business/anatomy-of-a-letter-of-intent-part-ii",
+    "title": "Anatomy of a Letter of Intent Part II",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/selling-a-small-business/mezzanine-finance",
+    "title": "Guide to Mezzanine Debt & Financing (With Examples)",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/small-business-private-equity/operating-without-personal-guarantees",
+    "title": "Operating Without Personal Guarantees",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/selling-a-small-business/anatomy-of-a-letter-of-intent-part-i",
+    "title": "Anatomy of a Letter of Intent Part I",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/valuation-guide",
+    "title": "Business Valuation Guide | Hadley Capital",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/small-business-private-equity/we-eat-our-own-cooking",
+    "title": "Private Equity Buyers: Think and Act as An Owner",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/selling-a-small-business/lehman-fee-structure",
+    "title": "How the Lehman Fee Structure Works (Example)",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/small-business-private-equity/what-is-ebitda-margin",
+    "title": "EBITDA Margins: What Every Small Company Owner Needs to Know",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/selling-a-small-business/how-important-are-you-to-your-small-business",
+    "title": "Evaluating Leadership Transition Risk",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/small-business-private-equity/private-equity-vs-venture-capital",
+    "title": "Private Equity vs Venture Capital: What\u2019s the Difference?",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/small-business-private-equity/private-equity-fund-vs-fundless-sponsor",
+    "title": "Private Equity Fund vs. Fundless Sponsor",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/selling-a-small-business/baby-boomers-and-small-business-ma",
+    "title": "Baby Boomers and Small Business M&A",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/selling-a-small-business/financial-reporting",
+    "title": "Financial Reporting Requirements in Small Company Acquisition",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/selling-a-small-business/working-capital-adjustments",
+    "title": "Working Capital Adjustments: 4 Common Questions Answered",
+    "dynamic_states": 0
+  },
+  {
+    "url": "https://hadleycapital.com/insights/small-business-private-equity/small-business-private-equity-first-do-no-harm",
+    "title": "Small Business Private Equity - 'First, Do No Harm'",
+    "dynamic_states": 0
+  }
+]
