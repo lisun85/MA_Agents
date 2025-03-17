@@ -1,6 +1,0 @@
-scrape_websites:
-  description: "Scrape all websites listed in the urls_to_scrape.txt file"
-  expected_output: "A summary of all scraped websites with their content saved to the output directory"
-  agent: "scraper_agent"
-  async_execution: false
-  context: []

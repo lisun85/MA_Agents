@@ -1,8 +1,0 @@
-URL: https://vss.com/documents/privacy
-TITLE: Privacy | VSS
-
-BASE CONTENT:
-================================================================================
-Press Option+1 for screen-reader mode, Option+0 to cancel
-Accessibility Screen-Reader Guide, Feedback, and Issue Reporting
-
