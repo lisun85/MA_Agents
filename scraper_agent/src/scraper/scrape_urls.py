@@ -10,7 +10,7 @@ import argparse
 import logging
 import asyncio
 from dotenv import load_dotenv
-from scraper.tools.playwright_scraper import PlaywrightScraper
+from tools.playwright_scraper import PlaywrightScraper
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -147,9 +147,9 @@ def main():
     parser = argparse.ArgumentParser(description='Scrape websites from a list of URLs')
     parser.add_argument('--file', '-f', help='Path to file containing URLs to scrape (one per line)')
     parser.add_argument('--url', '-u', help='Single URL to scrape')
-    parser.add_argument('--depth', '-d', type=int, default=10, help='Maximum link depth to follow (default: 2)')
-    parser.add_argument('--pages', '-p', type=int, default=0, help='Maximum number of pages to crawl per site (default: 10)')
-    parser.add_argument('--time', '-t', type=int, default=10, help='Maximum time in minutes to spend per site (default: 5)')
+    parser.add_argument('--depth', '-d', type=int, default=10, help='Maximum link depth to follow (default: 10)')
+    parser.add_argument('--pages', '-p', type=int, default=0, help='Maximum number of pages to crawl per site (default: 0)')
+    parser.add_argument('--time', '-t', type=int, default=10, help='Maximum time in minutes to spend per site (default: 10)')
     parser.add_argument('--batch-size', '-b', type=int, default=5, help='Number of URLs to process per batch (default: 5)')
     
     args = parser.parse_args()
