@@ -882,27 +882,6 @@ wheels = [
 ]
 
 [[package]]
-name = "family-office-finder"
-version = "0.1.0"
-source = { editable = "." }
-dependencies = [
-    { name = "crawl4ai" },
-    { name = "crewai", extra = ["tools"] },
-    { name = "exa-py" },
-    { name = "firecrawl-py" },
-    { name = "pymongo" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "crawl4ai", specifier = ">=0.5.0.post4" },
-    { name = "crewai", extras = ["tools"], specifier = ">=0.102.0,<1.0.0" },
-    { name = "exa-py", specifier = ">=1.8.9" },
-    { name = "firecrawl-py", specifier = ">=1.12.0" },
-    { name = "pymongo", specifier = ">=4.11.2" },
-]
-
-[[package]]
 name = "fastapi"
 version = "0.115.11"
 source = { registry = "https://pypi.org/simple" }
@@ -3748,6 +3727,27 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/d4/01/0ea2e66bad2f13271e93b729c653747614784d3ebde219679e41ccdceecd/schema-0.7.7.tar.gz", hash = "sha256:7da553abd2958a19dc2547c388cde53398b39196175a9be59ea1caf5ab0a1807", size = 44245 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ad/1b/81855a88c6db2b114d5b2e9f96339190d5ee4d1b981d217fa32127bb00e0/schema-0.7.7-py2.py3-none-any.whl", hash = "sha256:5d976a5b50f36e74e2157b47097b60002bd4d42e65425fcc9c9befadb4255dde", size = 18632 },
+]
+
+[[package]]
+name = "scraper"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "crawl4ai" },
+    { name = "crewai", extra = ["tools"] },
+    { name = "exa-py" },
+    { name = "firecrawl-py" },
+    { name = "pymongo" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "crawl4ai", specifier = ">=0.5.0.post4" },
+    { name = "crewai", extras = ["tools"], specifier = ">=0.102.0,<1.0.0" },
+    { name = "exa-py", specifier = ">=1.8.9" },
+    { name = "firecrawl-py", specifier = ">=1.12.0" },
+    { name = "pymongo", specifier = ">=4.11.2" },
 ]
 
 [[package]]

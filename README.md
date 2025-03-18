@@ -34,4 +34,106 @@ The system is powered by six AI agents, each handling a specialized task:
 ## 🛠️ Installation & Setup
 1. **Install Dependencies**
 ```bash
-pip install crewai[tools] qdrant-client firecrawl-py
+# Using uv (recommended)
+uv pip install -e .
+
+# For development dependencies
+uv pip install -e ".[dev]"
+```
+
+# QuickChat - Full Stack Chat Application
+
+A real-time chat application with React frontend and FastAPI backend.
+
+## Project Structure
+
+```
+/
+├── frontend/           # React + TypeScript + Vite.js + Tailwind CSS
+│   ├── src/            # React source code
+│   ├── dist/           # Built frontend (after running build)
+│   └── ...
+├── backend/            # Backend server directory
+│   ├── main.py         # Main FastAPI application
+│   └── ...
+├── pyproject.toml      # Project configuration and dependencies
+└── uv.lock             # Dependency lock file for uv
+```
+
+## Setup & Development
+
+### Prerequisites
+
+- Node.js v22.14.0
+- Python 3.11 or higher
+- pnpm package manager
+- uv package manager for Python
+
+### Frontend Development
+
+1. Install frontend dependencies:
+
+```bash
+cd frontend
+pnpm install
+```
+
+2. Start the frontend development server:
+
+```bash
+pnpm dev
+```
+
+The frontend will be available at http://localhost:5173
+
+### Backend Development
+
+1. Create and activate a virtual environment (optional but recommended):
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+2. Install Python dependencies with uv:
+
+```bash
+uv pip install -e .
+```
+
+3. Start the backend server:
+
+```bash
+# From the backend directory
+cd backend
+python main.py
+```
+
+The backend will be available at http://localhost:8080
+
+### Production Build
+
+For production, you should build the frontend and then run the backend:
+
+1. Build the frontend:
+
+```bash
+cd frontend
+pnpm build
+```
+
+2. Run the backend (which will serve the built frontend):
+
+```bash
+cd backend
+python main.py
+```
+
+The complete application will be available at http://localhost:8080
+
+## Features
+
+- Real-time chat interface with WebSocket connection
+- Responsive design with Tailwind CSS
+- TypeScript for type safety
+- FastAPI backend with WebSocket support

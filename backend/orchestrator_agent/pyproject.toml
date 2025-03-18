@@ -1,0 +1,19 @@
+[project]
+name = "orchestrator-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.1.5",
+    "langchain-core>=0.1.0",
+    "pydantic>=2.0.0",
+    "langchain-community>=0.3.19",
+    "langchain-qdrant>=0.2.0",
+    "langchain-openai>=0.3.9",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.uv]
+# Configure this as a separate project
+managed = true
