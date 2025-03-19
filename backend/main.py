@@ -3,10 +3,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 import json
-import uuid
-from datetime import datetime
-from typing import Dict, List, Optional
+import os
 from pathlib import Path
+from backend.websocket import websocket_endpoint
 
 # Initialize FastAPI application
 app = FastAPI(title="QuickChat API", description="WebSocket API for QuickChat")
@@ -20,111 +19,40 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Store for active connections
-class ConnectionManager:
-    def __init__(self):
-        # active_connections: WebSocket instance -> user identifier
-        self.active_connections: Dict[WebSocket, str] = {}
-    
-    async def connect(self, websocket: WebSocket, client_id: str):
-        await websocket.accept()
-        self.active_connections[websocket] = client_id
-        print(f"Client {client_id} connected. Total connections: {len(self.active_connections)}")
-    
-    def disconnect(self, websocket: WebSocket):
-        client_id = self.active_connections.get(websocket)
-        if websocket in self.active_connections:
-            del self.active_connections[websocket]
-            print(f"Client {client_id} disconnected. Total connections: {len(self.active_connections)}")
-    
-    async def send_personal_message(self, message: dict, websocket: WebSocket):
-        await websocket.send_text(json.dumps(message))
-    
-    async def broadcast(self, message: dict, exclude: Optional[WebSocket] = None):
-        for connection in self.active_connections:
-            if connection != exclude:
-                await connection.send_text(json.dumps(message))
-
-
-# Create manager instance
-manager = ConnectionManager()
+# Add WebSocket endpoint
+@app.websocket("/chat")
+async def chat_endpoint(websocket: WebSocket):
+    await websocket_endpoint(websocket)
 
 # Mount the static files (built frontend)
-frontend_dist_path = Path("../frontend/dist")
+# Get the absolute path of the frontend dist directory relative to either the
+# current directory when running as a module or from backend directory
+current_file = Path(__file__).resolve()
+if current_file.parent.name == 'backend':
+    # Running from backend directory
+    frontend_dist_path = current_file.parent.parent / "frontend" / "dist"
+else:
+    # Running as a module from root
+    frontend_dist_path = Path("frontend/dist").resolve()
+
 if frontend_dist_path.exists():
+    print(f"Frontend dist path found at: {frontend_dist_path}")
+    # Mount the assets directory for JS/CSS files
     app.mount("/assets", StaticFiles(directory=str(frontend_dist_path / "assets")), name="assets")
-
-# Root endpoint - serve the index.html from the frontend build
-@app.get("/", response_class=HTMLResponse)
-async def get_root(request: Request):
-    index_path = frontend_dist_path / "index.html"
-    if index_path.exists():
-        with open(index_path) as f:
-            return HTMLResponse(content=f.read())
-    else:
+    # Mount the dist directory at root
+    app.mount("/", StaticFiles(directory=str(frontend_dist_path), html=True), name="static")
+    print("Frontend files mounted successfully")
+else:
+    print(f"Frontend dist path not found at: {frontend_dist_path}")
+    # Add a root route to display an error message if frontend is not available
+    @app.get("/", response_class=HTMLResponse)
+    async def get_root(request: Request):
         return HTMLResponse(content="<html><body><h1>QuickChat API is running but the frontend build is not available. Run 'pnpm build' in the frontend directory.</h1></body></html>")
-
-
-# WebSocket endpoint - must match 'ws://localhost:8080/chat' used in the frontend
-@app.websocket("/chat")
-async def websocket_endpoint(websocket: WebSocket):
-    # Generate a unique ID for this connection
-    client_id = str(uuid.uuid4())
-    
-    # Accept the connection
-    await manager.connect(websocket, client_id)
-    
-    try:
-        # Send a welcome message
-        welcome_message = {
-            "id": str(uuid.uuid4()),
-            "text": "Welcome to QuickChat! Type a message to begin.",
-            "timestamp": datetime.now().isoformat(),
-            "sender": "bot"
-        }
-        await manager.send_personal_message(welcome_message, websocket)
-        
-        # Message handling loop
-        while True:
-            # Receive a message from the client
-            data = await websocket.receive_text()
-            
-            # Parse the message
-            try:
-                message = json.loads(data)
-                print(f"Received message from client {client_id}: {message}")
-                
-                # Echo the message back for now (in a real app, you'd process it)
-                response = {
-                    "id": str(uuid.uuid4()),
-                    "text": f"You said: {message['text']}",
-                    "timestamp": datetime.now().isoformat(),
-                    "sender": "bot"
-                }
-                
-                # Send response back to the client
-                await manager.send_personal_message(response, websocket)
-                
-            except json.JSONDecodeError:
-                print(f"Received invalid JSON from client {client_id}")
-                error_response = {
-                    "id": str(uuid.uuid4()),
-                    "text": "Error: Invalid message format",
-                    "timestamp": datetime.now().isoformat(),
-                    "sender": "bot"
-                }
-                await manager.send_personal_message(error_response, websocket)
-                
-    except WebSocketDisconnect:
-        # Handle disconnection
-        manager.disconnect(websocket)
-    except Exception as e:
-        # Handle other exceptions
-        print(f"Error with client {client_id}: {str(e)}")
-        manager.disconnect(websocket)
-
 
 # If this file is run directly, start the server
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=8080, reload=True) 
+    # Get port from environment variable or use default 8080
+    port = int(os.environ.get("PORT", 8080))
+    print(f"Starting server on port {port}")
+    uvicorn.run("main:app", host="0.0.0.0", port=port, reload=True) 

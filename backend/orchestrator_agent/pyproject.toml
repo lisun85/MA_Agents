@@ -3,7 +3,7 @@ name = "orchestrator-agent"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
     "langgraph>=0.1.5",
     "langchain-core>=0.1.0",
@@ -14,6 +14,19 @@ dependencies = [
     "python-dotenv>=1.0.0",
 ]
 
+[project.scripts]
+orchestrator = "orchestrator:Orchestrator"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [tool.uv]
 # Configure this as a separate project
 managed = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[tool.setuptools]
+py-modules = ["orchestrator", "tools", "prompt", "main"]

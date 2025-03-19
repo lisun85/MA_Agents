@@ -1,0 +1,20 @@
+[project]
+name = "ma-agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv-python>=0.0.1",
+    "fastapi>=0.115.11",
+    "langchain-core>=0.3.45",
+    "langchain-openai>=0.3.9",
+    "langchain-qdrant>=0.2.0",
+    "langgraph>=0.3.16",
+    "python-dotenv>=1.0.1",
+    "redis>=5.2.1",
+    "uvicorn[standard]>=0.34.0",
+    "websockets>=11.0.3",
+    "httptools>=0.6.0",
+    "uvloop>=0.21.0",
+]

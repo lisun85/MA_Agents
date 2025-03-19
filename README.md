@@ -109,7 +109,7 @@ cd backend
 python main.py
 ```
 
-The backend will be available at http://localhost:8080
+The backend will be available at http://localhost:8080 (or whichever port you configure via the PORT environment variable)
 
 ### Production Build
 
@@ -129,11 +129,11 @@ cd backend
 python main.py
 ```
 
-The complete application will be available at http://localhost:8080
+The complete application will be available at http://localhost:8080 (or whichever port you configure)
 
 ## Features
 
-- Real-time chat interface with WebSocket connection
+- Real-time chat interface with WebSocket connection that automatically adapts to any port
 - Responsive design with Tailwind CSS
 - TypeScript for type safety
 - FastAPI backend with WebSocket support
