@@ -9,6 +9,7 @@ import os
 from redis import Redis
 from redis.exceptions import ConnectionError
 import traceback
+from backend.orchestrator_agent.orchestrator import Orchestrator
 
 class ConnectionManager:
     def __init__(self):
@@ -188,7 +189,7 @@ async def handle_chat(websocket: WebSocket, user_message: str, message_type: str
         chunks_received = 0
         
         async for message, metadata in astream:
-            if isinstance(message, AIMessageChunk):
+            if isinstance(message, AIMessageChunk) and metadata["langgraph_node"] == Orchestrator.name:
                 chunks_received += 1
                 if first_chunk:
                     await websocket.send_json({
