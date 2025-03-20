@@ -1,4 +1,5 @@
 import { Message, WebSocketMessage } from '../types/message';
+import { generateUUID } from '../utils/uuid';
 
 // Events for subscribers
 export enum WebSocketEvent {
@@ -134,7 +135,7 @@ export class ChatService {
   
   private handleStreamStart(wsMessage: WebSocketMessage): void {
     const message: Message = {
-      id: wsMessage.message_id || crypto.randomUUID(),
+      id: wsMessage.message_id || generateUUID(),
       text: wsMessage.content,
       timestamp: new Date().toISOString(),
       sender: wsMessage.sender,
@@ -159,7 +160,7 @@ export class ChatService {
   
   private handleMessage(wsMessage: WebSocketMessage): void {
     const message: Message = {
-      id: wsMessage.message_id || crypto.randomUUID(),
+      id: wsMessage.message_id || generateUUID(),
       text: wsMessage.content,
       timestamp: new Date().toISOString(),
       sender: wsMessage.sender,

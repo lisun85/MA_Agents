@@ -4,6 +4,7 @@ import { Message } from '../types/message';
 import MessageList from './MessageList';
 import MessageInput from './MessageInput';
 import InitialForm from './InitialForm';
+import { generateUUID } from '../utils/uuid';
 
 // Interface for the form data
 interface FormData {
@@ -114,7 +115,7 @@ const Chat = () => {
     
     // Create a new message object
     const newMessage: Message = {
-      id: crypto.randomUUID(),
+      id: generateUUID(),
       text,
       timestamp: new Date().toISOString(),
       sender: 'user',
