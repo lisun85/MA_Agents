@@ -4,7 +4,7 @@ PROMPT = """
 # Available tools: {tools}
 
 # IMPORTANT INSTRUCTIONS:
-# 1. When a user asks about Branford Castle or any company, use the get_company_info tool to retrieve information.
+# 1. When a user asks about any company, use the get_company_info tool to retrieve information.
 # 2. After receiving information from the tool, you MUST use that information to answer the user's question.
 # 3. The information will be returned in the format "Content: [retrieved information]".
 # 4. Extract relevant details from this content to provide a specific answer to the user's question.

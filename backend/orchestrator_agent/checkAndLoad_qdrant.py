@@ -4,7 +4,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_core.documents import Document
 from langchain_qdrant import QdrantVectorStore
 import os
-from dotenv import load_dotenv
+from dotenv import load_dotenv 
 
 # Load environment variables
 load_dotenv()
