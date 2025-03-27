@@ -180,18 +180,27 @@ def get_company_info(query: str) -> str:
             )
             logger.info("Successfully initialized Qdrant with alternative method")
         
-        retriever = vector_store.as_retriever(search_kwargs={"k": 3})
+        # Log the query embedding for debugging
+        query_embedding = embeddings.embed_query(query)
+        logger.info(f"Query embedding created, dimension: {len(query_embedding)}")
+        
+        # Increase k to get more results for debugging
+        retriever = vector_store.as_retriever(search_kwargs={"k": 5})
         
         docs = retriever.get_relevant_documents(query)
         
         logger.info(f"Found {len(docs)} documents")
         for i, doc in enumerate(docs):
-            logger.info(f"Doc {i+1} content: {doc.page_content[:100]}...")
+            logger.info(f"Doc {i+1} content (first 100 chars): {doc.page_content[:100]}...")
             logger.info(f"Doc {i+1} metadata: {doc.metadata}")
+            logger.info(f"Doc {i+1} source: {doc.metadata.get('source', 'No source')}")
+            # Log similarity scores if available
+            if hasattr(doc, 'score'):
+                logger.info(f"Doc {i+1} score: {doc.score}")
         
         if docs:
             # Combine the content from the top documents
-            result = "\n\n".join([doc.page_content for doc in docs])
+            result = "\n\n".join([f"Source: {doc.metadata.get('source', 'Unknown')}\n{doc.page_content}" for doc in docs])
             return result
         else:
             return f"No information found for query: {query}"
