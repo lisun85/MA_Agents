@@ -59,9 +59,20 @@ def orchestrator_router(state):
     print(f"DEBUG ROUTER - check_size: {state.get('check_size', 'Not Found')}")
     print(f"DEBUG ROUTER - geographical_location: {state.get('geographical_location', 'Not Found')}")
     
+    # Check if we have tool calls in the last message
     if state["messages"] and hasattr(state["messages"][-1], "tool_calls") and state["messages"][-1].tool_calls:
         print("DEBUG ROUTER - Routing to orchestrator_action")
         return "orchestrator_action"
+    # After processing tool calls, mark reasoning as completed to avoid reasoning_orchestrator
+    elif state.get("messages") and any(
+        hasattr(msg, "name") and msg.name == "get_company_info" 
+        for msg in state["messages"]
+    ):
+        print("DEBUG ROUTER - Tool results processed, routing to END")
+        # Set reasoning_completed to True to avoid reasoning_orchestrator
+        state["reasoning_completed"] = True
+        return END
+    # Only go to reasoning_orchestrator if we haven't processed tools yet
     elif not state.get("reasoning_completed", False) and state.get("sector") and state.get("check_size") and state.get("geographical_location"):
         print("DEBUG ROUTER - Routing to reasoning_orchestrator")
         return "reasoning_orchestrator"

@@ -27,9 +27,9 @@ class State(TypedDict):
     
 def create_graph() -> StateGraph:
     graph = StateGraph(State)
-    graph.add_node(Orchestrator.name, Orchestrator(llm=ChatOpenAI(model="gpt-4o")))
+    graph.add_node(Orchestrator.name, Orchestrator(llm=ChatOpenAI(model="gpt-4o", temperature=0.2)))
     graph.add_node("orchestrator_action", orchestrator_action)
-    reasoning_orchestrator = ReasoningOrchestrator(llm=ChatOpenAI(model="gpt-4o"))
+    reasoning_orchestrator = ReasoningOrchestrator(llm=ChatOpenAI(model="gpt-4o", temperature=0.2))
     graph.add_node(ReasoningOrchestrator.name, reasoning_orchestrator)
     graph.add_node('reasoning_completion', reasoning_completion)
     for i, ra in enumerate(reasoning_orchestrator.agents):
