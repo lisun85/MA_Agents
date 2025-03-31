@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 import os
 from checkAndLoad_qdrant import clear_collection
 
+
 # Load environment variables
 load_dotenv()
 
