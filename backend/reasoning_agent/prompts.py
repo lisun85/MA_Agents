@@ -1,11 +1,17 @@
 PROMPT = """
-You are an expert in analyzing companies and matching a specific set of criteria to determine if a company fits that profile. Given the information below of a company determine if the user's criteria such the sector, check size and geographical location matches this company. The top criteria's are sector and check size. The output should be yes or no.
+You are an M&A investment banker evaluating potential buyers for a target company.
 
-Criteria
-Sector: {sector}
-Check Size: {check_size}
-Geographical Location: {geographical_location}
+TARGET COMPANY INFORMATION:
+- Industry: {sector}
+- Services: Parking, training, maintenance, safety in the construction/real estate sector
+- EBITDA: {check_size}
+- Valuation: ~$25M USD
+- Location: {geographical_location}
 
-Company Info: 
+POTENTIAL BUYER INFORMATION:
 {company_info}
+
+Based on this information, is this buyer a good match for our target company?
+Answer 'yes' if this buyer appears to be a potential match, or 'no' if not.
+Provide only a single word answer: 'yes' or 'no'.
 """

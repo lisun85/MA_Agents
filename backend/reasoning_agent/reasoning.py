@@ -8,19 +8,26 @@ load_dotenv()
 
 def retrieve_company_info(url):
     print(f"DEBUG - Retrieving company info from {url}")
-    return "Company Info" # this should be AWS access to S3 bucket, need to chunk data and into vector db?
+    # This is a placeholder that would be replaced with actual S3 retrieval logic
+    return "Company Info" 
 
 class ReasoningOrchestrator:
     name = 'reasoning_orchestrator'
     
-    def __init__(self, llm):
+    def __init__(self, llm, urls=None):
         print("DEBUG - Initializing ReasoningOrchestrator")
-        self.urls = CONFIG["urls"]
+        # Use provided URLs or default from CONFIG
+        self.urls = urls if urls is not None else CONFIG["urls"]
         self.agent_size = CONFIG["agent_size"]
         self.agents = []
         
+        # If no URLs, create a single agent with empty URL list
+        if not self.urls:
+            self.agents.append(Reasoning(llm=llm, urls=[]))
+            return
+            
         # Calculate how many URLs each agent should handle
-        urls_per_agent = len(self.urls) // self.agent_size
+        urls_per_agent = max(1, len(self.urls) // self.agent_size)
         remainder = len(self.urls) % self.agent_size
         
         # Distribute URLs as evenly as possible among agents
@@ -52,15 +59,23 @@ class Reasoning:
 
     def __call__(self, state) -> Dict[str, Any]:
         print(f"DEBUG - Reasoning agent called with state: {state}")
+        # Get default values from config
+        default_values = CONFIG.get("default_values", {})
+        
+        # Use state values or fall back to defaults
+        sector = state.get("sector", default_values.get("sector", ""))
+        check_size = state.get("check_size", default_values.get("check_size", ""))
+        geographical_location = state.get("geographical_location", default_values.get("geographical_location", ""))
+        
         urls = []
         for url in self.urls:
             print(f"DEBUG - Processing URL: {url}")
             company_info = retrieve_company_info(url)
             prompt = self.prompt.partial(
                 company_info=company_info,
-                sector=state["sector"],
-                check_size=state["check_size"],
-                geographical_location=state["geographical_location"]
+                sector=sector,
+                check_size=check_size,
+                geographical_location=geographical_location
             )
             chain = prompt | self.llm
             print(f"DEBUG - Invoking LLM for URL: {url}")
