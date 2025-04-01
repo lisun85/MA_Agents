@@ -1,0 +1,80 @@
+{
+  "success": true,
+  "directory": "branfordcastle.com",
+  "file_count": 27,
+  "summary": {
+    "portfolio_companies": [
+      {
+        "name": "Eastern Dental Management",
+        "description": "Leading dental services organization with 20 locations throughout New Jersey",
+        "details": "Acquired in January 2025, provides general and specialized dentistry services",
+        "source_file": "media-coverage.txt, member_ceon-francis.txt, member_eric-korsten.txt, member_john-s-castle.txt",
+        "confidence_score": 0.9
+      },
+      {
+        "name": "Testek Solutions",
+        "description": "Manufacturer of proprietary aviation component testing equipment",
+        "details": "Acquired in November 2024, based in Wixom, MI",
+        "source_file": "media-coverage.txt, member_eric-korsten.txt",
+        "confidence_score": 0.9
+      },
+      {
+        "name": "Hoffman Engineering",
+        "description": "Provider of night vision test equipment and aviation LED specialty lighting products",
+        "details": "Acquired in October 2024, based in Stamford, CT",
+        "source_file": "media-coverage.txt, member_ceon-francis.txt, member_eric-korsten.txt",
+        "confidence_score": 0.9
+      },
+      {
+        "name": "Marine Floats",
+        "description": "Specialty marine contractor providing marina and floating dock services",
+        "details": "Acquired in October 2023, based in Tacoma, Washington",
+        "source_file": "media-coverage.txt, member_ceon-francis.txt, member_john-s-castle.txt, member_marilyn-yang.txt",
+        "confidence_score": 0.9
+      },
+      {
+        "name": "GPT Industries",
+        "description": "Manufacturer of critical pipeline sealing and electrical isolation products",
+        "details": "Acquired in January 2023, based in Denver, Colorado",
+        "source_file": "media-coverage.txt, member_marilyn-yang.txt",
+        "confidence_score": 0.9
+      },
+      {
+        "name": "Handi Quilter",
+        "description": "Manufacturer and designer of longarm quilting machines and products",
+        "details": "Acquired in June 2022, based in North Salt Lake, UT",
+        "source_file": "media-coverage.txt, member_ceon-francis.txt",
+        "confidence_score": 0.9
+      },
+      {
+        "name": "Caribbean Restaurants, LLC",
+        "description": "No description available",
+        "details": "Current board membership of David Pittaway",
+        "source_file": "member_david-pittaway.txt",
+        "confidence_score": 0.9
+      },
+      {
+        "name": "ABC Industries",
+        "description": "No description available",
+        "details": "Current board membership by Eric Korsten",
+        "source_file": "member_eric-korsten.txt, member_marilyn-yang.txt",
+        "confidence_score": 0.9
+      },
+      {
+        "name": "Vitrek",
+        "description": "No description available",
+        "details": "Board member position mentioned",
+        "source_file": "member_john-s-castle.txt",
+        "confidence_score": 0.9
+      },
+      {
+        "name": "Titan Production Equipment",
+        "description": "No description available",
+        "details": "Board member position mentioned",
+        "source_file": "member_john-s-castle.txt",
+        "confidence_score": 0.9
+      }
+    ]
+  },
+  "timestamp": "2025-03-31 22:01:09"
+}

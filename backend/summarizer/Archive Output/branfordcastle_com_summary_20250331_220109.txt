@@ -1,0 +1,59 @@
+
+==========================================================================
+                DIRECTORY SUMMARY: BRANFORDCASTLE.COM
+==========================================================================
+Generated: 2025-03-31 22:01:09
+Files analyzed: 27
+==========================================================================
+
+PORTFOLIO COMPANIES:
+------------------
+1. Eastern Dental Management
+   Description: Leading dental services organization with 20 locations throughout New Jersey
+   Details: Acquired in January 2025, provides general and specialized dentistry services
+   Source: media-coverage.txt, member_ceon-francis.txt and 2 more files
+
+2. Testek Solutions
+   Description: Manufacturer of proprietary aviation component testing equipment
+   Details: Acquired in November 2024, based in Wixom, MI
+   Source: media-coverage.txt, member_eric-korsten.txt
+
+3. Hoffman Engineering
+   Description: Provider of night vision test equipment and aviation LED specialty lighting products
+   Details: Acquired in October 2024, based in Stamford, CT
+   Source: media-coverage.txt, member_ceon-francis.txt, member_eric-korsten.txt
+
+4. Marine Floats
+   Description: Specialty marine contractor providing marina and floating dock services
+   Details: Acquired in October 2023, based in Tacoma, Washington
+   Source: media-coverage.txt, member_ceon-francis.txt and 2 more files
+
+5. GPT Industries
+   Description: Manufacturer of critical pipeline sealing and electrical isolation products
+   Details: Acquired in January 2023, based in Denver, Colorado
+   Source: media-coverage.txt, member_marilyn-yang.txt
+
+6. Handi Quilter
+   Description: Manufacturer and designer of longarm quilting machines and products
+   Details: Acquired in June 2022, based in North Salt Lake, UT
+   Source: media-coverage.txt, member_ceon-francis.txt
+
+7. Caribbean Restaurants, LLC
+   Details: Current board membership of David Pittaway
+   Source: member_david-pittaway.txt
+
+8. ABC Industries
+   Details: Current board membership by Eric Korsten
+   Source: member_eric-korsten.txt, member_marilyn-yang.txt
+
+9. Vitrek
+   Details: Board member position mentioned
+   Source: member_john-s-castle.txt
+
+10. Titan Production Equipment
+   Details: Board member position mentioned
+   Source: member_john-s-castle.txt
+
+==========================================================================
+Note: This summary was automatically generated and should be reviewed for accuracy.
+==========================================================================
