@@ -132,7 +132,7 @@ def main():
     summarizer = LocalSummarizer()
     
     try:
-        # Extract and summarize the directory
+        # Extract and summarize the directory using only LLM extraction
         logger.info(f"Summarizing local directory: {args.directory}")
         summary_result = summarizer.summarize_directory(args.directory)
         

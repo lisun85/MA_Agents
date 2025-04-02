@@ -18,17 +18,18 @@ sys.path.insert(0, str(project_root))
 
 # Import the S3 client
 from backend.aws.s3 import get_s3_client
-from langchain_anthropic import ChatAnthropic
+from langchain_google_genai import ChatGoogleGenerativeAI  # Changed to Google Gemini
 from dotenv import load_dotenv
+from backend.summarizer.prompts import get_company_extraction_prompt, get_connection_test_prompt
 
 # Load environment variables
 load_dotenv()
 
-# Get Anthropic API key from environment variables
-anthropic_api_key = os.getenv("ANTHROPIC_API_KEY")
-if not anthropic_api_key:
-    logger.error("ANTHROPIC_API_KEY not found in environment variables. Please add it to your .env file.")
-    raise ValueError("ANTHROPIC_API_KEY is required and not set in environment.")
+# Get Google API key from environment variables
+google_api_key = os.getenv("GOOGLE_API_KEY")
+if not google_api_key:
+    logger.error("GOOGLE_API_KEY not found in environment variables. Please add it to your .env file.")
+    raise ValueError("GOOGLE_API_KEY is required and not set in environment.")
 
 class Summarizer:
     """Agent that summarizes key information from S3 directory documents."""
@@ -40,11 +41,11 @@ class Summarizer:
         
         self.s3_client = get_s3_client()
         
-        # Initialize ChatAnthropic with Claude 3.5 Sonnet model
-        self.llm = ChatAnthropic(
-            model="claude-3-5-sonnet-20241022",  # Change to Claude 3.5 Sonnet
+        # Initialize Google Gemini 2.5 Pro Experimental model
+        self.llm = ChatGoogleGenerativeAI(
+            model="gemini-2.5-pro-exp-03-25",  # Specific Gemini 2.5 Pro experimental model
             temperature=0,
-            anthropic_api_key=anthropic_api_key  # Explicitly pass the API key
+            google_api_key=google_api_key  # Explicitly pass the API key
         )
         
         # Test LLM connection
@@ -56,13 +57,13 @@ class Summarizer:
     def _test_llm_connection(self):
         """Test the LLM connection to verify API key is working."""
         try:
-            test_prompt = "This is a connection test. Respond with 'Connection successful' only."
+            test_prompt = get_connection_test_prompt()
             response = self.llm.invoke(test_prompt)
-            self.logger.info(f"Claude 3.5 Sonnet connection test: {response.content[:50]}...")
+            self.logger.info(f"Google Gemini 2.5 Pro connection test: {response.content[:50]}...")
         except Exception as e:
             self.logger.error(f"LLM connection test failed: {str(e)}")
-            self.logger.error("Check if your ANTHROPIC_API_KEY is correct in the .env file")
-            # Continue execution to allow fallback methods to work
+            self.logger.error("Check if your GOOGLE_API_KEY is correct in the .env file")
+            # Continue execution to allow the program to run
     
     def summarize_directory(self, directory_name: str) -> Dict[str, Any]:
         """
@@ -131,7 +132,7 @@ class Summarizer:
     
     def _extract_portfolio_companies(self, file_contents, is_portfolio_file=False):
         """
-        Extract portfolio companies from file contents.
+        Extract portfolio companies from file contents using LLM only.
         
         Args:
             file_contents: Dictionary mapping file paths to their contents
@@ -140,35 +141,25 @@ class Summarizer:
         Returns:
             List of company objects
         """
-        # Known portfolio companies for Branford Castle as a fallback
-        known_portfolio_companies = [
-            {"name": "Titan Production Equipment", "description": "Manufacturer of oil & gas production equipment", "details": "Acquired in 2018", "confidence_score": 1.0},
-            {"name": "Drew Foam", "description": "Manufacturer of custom foam products", "details": "Custom EPS manufacturer", "confidence_score": 1.0},
-            {"name": "Earthlite", "description": "Manufacturer of massage and spa equipment", "details": "Massage tables, spa and wellness equipment", "confidence_score": 1.0},
-            {"name": "Vitrek", "description": "Electrical safety testing and measurement equipment", "details": "Electrical safety test equipment", "confidence_score": 1.0},
-            {"name": "BEL", "description": "Manufacturer of rapid prototyping equipment", "details": "Industrial machinery", "confidence_score": 1.0},
-            {"name": "Canadian Superstore Industries", "description": "Operator of retail supermarkets", "details": "Retail supermarkets", "confidence_score": 1.0},
-            {"name": "Logistick", "description": "Manufacturer of cargo restraint systems", "details": "Adhesive cargo restraints", "confidence_score": 1.0}
-        ]
-        
-        # Add a standard source and other metadata
-        for company in known_portfolio_companies:
-            company["source_file"] = "fallback_known_companies"
-        
         all_companies = []
+        portfolio_companies = []  # Companies extracted from portfolio.txt
+        other_companies = []      # Companies extracted from other files
         
         # First, look for a dedicated portfolio file
         portfolio_files = [f for f in file_contents.keys() if "portfolio" in f.lower()]
         if portfolio_files:
             for portfolio_file in portfolio_files:
-                # Try LLM extraction first
+                # Use LLM extraction
+                self.logger.info(f"Extracting from authoritative file: {portfolio_file}")
                 companies = self._extract_companies_with_llm(file_contents[portfolio_file], portfolio_file, True)
                 
-                # If LLM extraction failed, try regex
-                if not companies:
-                    companies = self._extract_companies_with_regex(file_contents[portfolio_file], portfolio_file)
-                
-                all_companies.extend(companies)
+                # Set a higher confidence score and flag as from portfolio file
+                for company in companies:
+                    company['confidence_score'] = 0.95  # Higher confidence for portfolio file
+                    company['from_portfolio_file'] = True
+                    
+                portfolio_companies.extend(companies)
+                self.logger.info(f"Extracted {len(companies)} companies from portfolio file: {portfolio_file}")
         
         # Then process all other files
         for file_path, content in file_contents.items():
@@ -176,22 +167,21 @@ class Summarizer:
             if "portfolio" in file_path.lower():
                 continue
                 
-            # Try LLM extraction first
+            # Use LLM extraction for each file
             companies = self._extract_companies_with_llm(content, file_path, False)
             
-            # If LLM extraction failed or found nothing, try regex
-            if not companies:
-                companies = self._extract_companies_with_regex(content, file_path)
+            # Flag as from non-portfolio file
+            for company in companies:
+                company['from_portfolio_file'] = False
                 
-            all_companies.extend(companies)
+            other_companies.extend(companies)
+        
+        # Combine all companies, putting portfolio companies first
+        all_companies = portfolio_companies + other_companies
         
         # If we found companies, deduplicate them
         if all_companies:
             all_companies = self._deduplicate_companies(all_companies)
-        # Otherwise fall back to known companies
-        elif known_portfolio_companies:
-            self.logger.warning("No companies found in any files, using fallback list of known companies")
-            all_companies = known_portfolio_companies
         
         return all_companies
     
@@ -213,36 +203,8 @@ class Summarizer:
         # Truncate content to avoid token limits
         truncated_content = content[:50000]
         
-        prompt = f"""
-        Extract all portfolio companies CURRENTLY OWNED BY Branford Castle Partners from the following text from file: {os.path.basename(source_file)}.
-        
-        IMPORTANT INSTRUCTIONS:
-        1. ONLY include companies that are CLEARLY CURRENT portfolio companies or investments OWNED BY Branford Castle Partners - not past investments, not general mentions, not employers, not clients.
-        2. Do NOT include Branford Castle itself or related entities like Castle Harlan.
-        3. Do NOT include companies where team members previously worked or served as directors unless explicitly stated as current portfolio companies.
-        4. If ownership is ambiguous, set the "is_owned" field to false.
-        5. Pay special attention to phrases like "current portfolio includes", "acquired", "invested in" to identify actual portfolio companies.
-        
-        Return your answer as a valid JSON array of objects, where each object has these properties:
-        - "name": The exact company name, properly capitalized
-        - "description": Brief description if available (or "No description available")
-        - "details": Any additional details like sector, location, or investment date (or "No additional details")
-        - "is_owned": Boolean indicating high confidence this is a CURRENTLY OWNED portfolio company (true/false)
-        
-        If there are no portfolio companies found, return an empty array: []
-        
-        The format should be:
-        [
-          {{"name": "Company Name 1", "description": "Brief description", "details": "Additional details", "is_owned": true}},
-          {{"name": "Company Name 2", "description": "Brief description", "details": "Additional details", "is_owned": false}}
-        ]
-        
-        ONLY return the JSON array, nothing else - no explanations, no markdown formatting, just the raw JSON array.
-        
-        Here's the text to analyze:
-        
-        {truncated_content}
-        """
+        # Get the prompt from the prompts module
+        prompt = get_company_extraction_prompt(os.path.basename(source_file), truncated_content)
         
         try:
             # Log file being processed
@@ -280,11 +242,18 @@ class Summarizer:
                     self.logger.error(f"LLM returned non-list JSON for {os.path.basename(source_file)}")
                     return []
                 
-                # Modify the companies processing section to clean up descriptions and details
+                # Clean up and standardize company names and details
                 companies = []
                 for company in extracted_companies:
-                    if isinstance(company, dict) and "name" in company and company.get("is_owned", False):
-                        # Clean up description text - remove any partial sentences, limit to 200 chars
+                    if isinstance(company, dict) and "name" in company:
+                        # Clean up the company name - filter out URLs as company names
+                        name = company["name"]
+                        
+                        # Skip if the name is likely an invalid or generic entry
+                        if name.lower() in ["unknown", "none", "n/a", "no name provided", "not specified"]:
+                            continue
+                        
+                        # Clean up description text
                         description = company.get("description", "No description available")
                         if len(description) > 200:
                             # Find the last complete sentence within 200 chars
@@ -294,27 +263,24 @@ class Summarizer:
                             else:
                                 description = description[:200] + "..."
                         
-                        # Clean up details text - remove any unwanted contexts
+                        # Ensure website is in the details field, not the company name
                         details = company.get("details", "No additional details")
-                        if details.startswith("Context:"):
-                            # Extract only relevant info from context
-                            details_lines = details.split('\n')
-                            if len(details_lines) > 1:
-                                details = details_lines[0].replace("Context:", "").strip()
-                            else:
-                                # Find first complete sentence
-                                first_period = details.find('.')
-                                if first_period > 0 and first_period < 150:
-                                    details = details[8:first_period+1].strip()  # Skip "Context: "
-                                else:
-                                    details = "No structured details available"
+                        
+                        # If name looks like a URL but details doesn't have a website field, add it
+                        if (name.lower().endswith('.com') or name.lower().endswith('.net')) and "website:" not in details.lower():
+                            # Generate proper company name from domain
+                            proper_name = self._extract_company_name_from_url(name)
+                            details = f"Website: {name}, {details}"
+                            name = proper_name
                         
                         companies.append({
-                            "name": company["name"],
+                            "name": name,
                             "description": description,
                             "details": details,
                             "source_file": os.path.basename(source_file),
-                            "confidence_score": base_confidence
+                            "confidence_score": base_confidence,
+                            "is_owned": company.get("is_owned", True),  # Default to True
+                            "affiliate": company.get("affiliate", False)  # Default to False
                         })
                 
                 self.logger.info(f"LLM extracted {len(companies)} owned portfolio companies from {os.path.basename(source_file)}")
@@ -331,128 +297,39 @@ class Summarizer:
             self.unprocessed_files.append(os.path.basename(source_file))
             return []
     
-    def _extract_companies_with_regex(self, content: str, source_file: str) -> List[Dict[str, Any]]:
+    def _extract_company_name_from_url(self, url: str) -> str:
         """
-        Extract company names using regex patterns.
+        Extract a proper company name from a URL.
         
         Args:
-            content: The text content to analyze
-            source_file: Source file path for reference
+            url: The URL to process
             
         Returns:
-            List of company objects
+            Extracted company name
         """
-        companies = []
+        # Remove common prefixes
+        clean_url = url.lower().replace('www.', '').replace('http://', '').replace('https://', '')
         
-        # Patterns to identify current portfolio companies
-        ownership_phrases = [
-            r"current portfolio",
-            r"portfolio company",
-            r"portfolio companies",
-            r"acquired in \d{4}",
-            r"acquired by Branford Castle",
-            r"Branford's investment in",
-            r"Branford invested in",
-            r"investment in"
-        ]
-        
-        # Check if this is a portfolio or company page
-        is_portfolio_page = any(term in source_file.lower() for term in ["portfolio", "companies", "investments"])
-        
-        # Pattern 1: Headings or emphasized company names in portfolio pages
-        if is_portfolio_page:
-            # Look for heading patterns (company names followed by descriptive text)
-            heading_pattern = r'(?:^|\n)(?:\**|#{1,3})\s*([A-Z][A-Za-z0-9\'\.\-\&\,\s]{2,40})[\s\**#]*(?:\n|\:|$)'
-            for match in re.finditer(heading_pattern, content, re.MULTILINE):
-                company_name = match.group(1).strip()
-                
-                # Skip if it's Branford Castle itself or related entities
-                if any(name.lower() in company_name.lower() for name in ["branford castle", "castle harlan"]):
-                    continue
-                    
-                # Skip if it's clearly not a company name (enhanced check)
-                if (len(company_name.split()) > 6 or 
-                    company_name.lower().startswith(("deploying", "pursuing", "opening", "spearheading", "enhanced", "global", "promoting")) or
-                    # Check for fragments of verbs ending with "ing"
-                    any(word.lower().endswith('ing') for word in company_name.split()) or
-                    # Check for prepositions that suggest it's a sentence fragment
-                    any(word.lower() in ['of', 'the', 'and', 'for', 'with', 'on', 'by'] for word in company_name.split())):
-                    continue
-                    
-                # Get the description - text after the company name until the next heading
-                start_pos = match.end()
-                next_heading = re.search(heading_pattern, content[start_pos:], re.MULTILINE)
-                description_end = next_heading.start() + start_pos if next_heading else len(content)
-                description = content[start_pos:description_end].strip()
-                
-                # Check if this is likely a current portfolio company
-                is_owned = any(re.search(phrase, description, re.IGNORECASE) for phrase in ownership_phrases)
-                
-                if is_owned:
-                    companies.append({
-                        "name": company_name,
-                        "description": description[:200] + ("..." if len(description) > 200 else ""),
-                        "details": "Extracted from portfolio page heading",
-                        "source_file": os.path.basename(source_file),
-                        "confidence_score": 0.8
-                    })
-        
-        # Pattern 2: Portfolio company mentions with ownership indicators in all pages
-        company_pattern = r'([A-Z][A-Za-z0-9\'\.\-\&\,\s]{2,40})\s*(?:,|is|was)?\s*(?:a|an)?\s*(?:' + '|'.join(ownership_phrases) + r')'
-        for match in re.finditer(company_pattern, content, re.IGNORECASE):
-            company_name = match.group(1).strip()
+        # Extract domain without extension
+        domain_parts = clean_url.split('.')
+        if len(domain_parts) >= 1:
+            domain_name = domain_parts[0]
             
-            # Skip if it's Branford Castle itself or related entities
-            if any(name.lower() in company_name.lower() for name in ["branford castle", "castle harlan"]):
-                continue
-                
-            # Enhanced filtering to exclude false positives - THIS IS THE FIX
-            if (len(company_name.split()) > 6 or  # Too many words
-                # Keywords that indicate it's not a company name
-                company_name.lower().startswith(("deploying", "pursuing", "opening", "spearheading", "enhanced", "global", "promoting")) or
-                # Ends with preposition or verb
-                company_name.lower().split()[-1] in ["of", "for", "with", "on", "by", "to", "as", "in"] or
-                # Contains fragments of sentences with prepositions
-                any(word.lower() in ["of", "the", "to", "by", "with", "from", "as", "for"] for word in company_name.split()) or
-                # Words ending with 'ing' likely not company names (often verbs)
-                any(word.lower().endswith("ing") for word in company_name.split()[:2]) or
-                # Very short names that might be partial words
-                (len(company_name) < 5 and len(company_name.split()) == 1) or
-                # Special case for this exact match
-                "value-added strategies" in company_name.lower()):
-                continue
-                
-            # Context - grab some text around the match
-            start_pos = max(0, match.start() - 100)
-            end_pos = min(len(content), match.end() + 200)
-            context = content[start_pos:end_pos].strip()
+            # Handle domains with dashes
+            if '-' in domain_name:
+                # Convert dashed names to proper casing (e.g., "abc-industries" to "ABC Industries")
+                words = [word.capitalize() for word in domain_name.split('-')]
+                return ' '.join(words)
             
-            # Clean up the context to include just one or two sentences
-            context_parts = re.split(r'[.!?]', context)
-            if len(context_parts) > 1:
-                clean_context = '. '.join(context_parts[:2]) + '.'
-            else:
-                clean_context = context
-                
-            companies.append({
-                "name": company_name,
-                "description": "No detailed description available",
-                "details": f"Context: {clean_context}",
-                "source_file": os.path.basename(source_file),
-                "confidence_score": 0.7
-            })
+            # Handle camelCase or single word domains
+            if domain_name:
+                # Split camelCase if present (e.g., "handyQuilter" to "Handy Quilter")
+                result = re.sub(r'([a-z])([A-Z])', r'\1 \2', domain_name)
+                # Capitalize properly
+                return result.capitalize()
         
-        # Deduplicate companies from this file
-        unique_companies = []
-        seen_names = set()
-        for company in companies:
-            normalized_name = company["name"].lower()
-            if normalized_name not in seen_names:
-                seen_names.add(normalized_name)
-                unique_companies.append(company)
-        
-        self.logger.info(f"Regex extracted {len(unique_companies)} owned portfolio companies from {os.path.basename(source_file)}")
-        return unique_companies
+        # Fallback if we can't parse it properly
+        return url
     
     def generate_summary_report(self, summary_result: Dict[str, Any]) -> str:
         """
@@ -472,6 +349,10 @@ class Summarizer:
         portfolio_companies = summary.get("portfolio_companies", [])
         timestamp = summary_result["timestamp"]
         
+        # Count portfolio file companies
+        portfolio_file_count = sum(1 for c in portfolio_companies if c.get('from_portfolio_file', False))
+        affiliate_count = sum(1 for c in portfolio_companies if c.get('affiliate', False))
+        
         # Build the report
         report = f"""
 ==========================================================================
@@ -479,49 +360,87 @@ class Summarizer:
 ==========================================================================
 Generated: {timestamp}
 Files analyzed: {summary_result['file_count']}
+Portfolio.txt companies: {portfolio_file_count}
+Including affiliate transactions: {affiliate_count}
+Total portfolio companies: {len(portfolio_companies)}
 ==========================================================================
 
 PORTFOLIO COMPANIES:
 ------------------
 """
         
-        if portfolio_companies:
-            # Add each company to the report with cleaner formatting
-            for i, company in enumerate(portfolio_companies):
-                report += f"{i+1}. {company['name']}\n"
+        # First, add all companies from portfolio.txt file
+        portfolio_file_companies = [c for c in portfolio_companies if c.get('from_portfolio_file', False)]
+        if portfolio_file_companies:
+            report += "\n----- COMPANIES FROM PORTFOLIO.TXT -----\n\n"
+            for i, company in enumerate(portfolio_file_companies):
+                # Add "(Affiliate)" label for affiliate companies
+                company_name = company['name']
+                if company.get('affiliate', False):
+                    company_name += " (Affiliate)"
+                    
+                report += f"{i+1}. {company_name}\n"
                 
                 if company['description'] and company['description'] != "No description available":
-                    # Clean up description
                     description = company['description']
                     if "Context:" in description:
                         description = description.replace("Context:", "").strip()
                     report += f"   Description: {description}\n"
                     
                 if company['details'] and company['details'] != "No additional details":
-                    # Clean up details
                     details = company['details']
                     if "Context:" in details:
                         details = details.replace("Context:", "").strip()
-                        
-                    # Look for first sentence to avoid partial text
-                    if len(details) > 150:
-                        period_pos = details.find('.')
-                        if period_pos > 0 and period_pos < 150:
-                            details = details[:period_pos+1]
-                    
                     report += f"   Details: {details}\n"
                     
-                # Simplify source display if it's too long
+                # Simplify source display
                 sources = company['source_file'].split(', ')
                 if len(sources) > 3:
                     source_display = f"{sources[0]}, {sources[1]} and {len(sources)-2} more files"
                 else:
                     source_display = company['source_file']
                     
-                report += f"   Source: {source_display}\n"
-                report += "\n"
-        else:
-            report += "No portfolio companies found in the analyzed documents.\n\n"
+                report += f"   Source: {source_display}\n\n"
+        
+        # Then add companies from other files
+        other_companies = [c for c in portfolio_companies if not c.get('from_portfolio_file', False)]
+        if other_companies:
+            report += "\n----- COMPANIES FROM OTHER SOURCES -----\n\n"
+            for i, company in enumerate(other_companies):
+                # Add "(Affiliate)" label for affiliate companies
+                company_name = company['name']
+                if company.get('affiliate', False):
+                    company_name += " (Affiliate)"
+                    
+                report += f"{i+1}. {company_name}\n"
+                
+                if company['description'] and company['description'] != "No description available":
+                    description = company['description']
+                    if "Context:" in description:
+                        description = description.replace("Context:", "").strip()
+                    report += f"   Description: {description}\n"
+                    
+                if company['details'] and company['details'] != "No additional details":
+                    details = company['details']
+                    if "Context:" in details:
+                        details = details.replace("Context:", "").strip()
+                    report += f"   Details: {details}\n"
+                    
+                # Simplify source display
+                sources = company['source_file'].split(', ')
+                if len(sources) > 3:
+                    source_display = f"{sources[0]}, {sources[1]} and {len(sources)-2} more files"
+                else:
+                    source_display = company['source_file']
+                    
+                report += f"   Source: {source_display}\n\n"
+        
+        # If no companies were found
+        if not portfolio_companies:
+            report += "No portfolio companies identified from the analyzed documents.\n"
+            report += "This could indicate either:\n"
+            report += "1. The documents don't contain portfolio company information\n"
+            report += "2. The LLM extraction method couldn't identify portfolio companies\n\n"
         
         # Add unprocessed files section
         if hasattr(summary_result, 'unprocessed_files') and summary_result.get('unprocessed_files'):
@@ -529,7 +448,7 @@ PORTFOLIO COMPANIES:
             report += "The following files could not be fully processed by the LLM:\n"
             for file in sorted(set(summary_result['unprocessed_files'])):
                 report += f"- {file}\n"
-            report += "\nNote: These files were processed using fallback methods.\n"
+            report += "\nNote: These files were skipped during portfolio company extraction.\n"
         
         report += "==========================================================================\n"
         report += "Note: This summary was automatically generated and should be reviewed for accuracy.\n"
@@ -567,7 +486,7 @@ PORTFOLIO COMPANIES:
             report += "The following files could not be fully processed by the LLM:\n"
             for file in sorted(set(self.unprocessed_files)):
                 report += f"- {file}\n"
-            report += "\nNote: These files were processed using fallback methods.\n"
+            report += "\nNote: These files were skipped during portfolio company extraction.\n"
         
         return report
 
@@ -628,7 +547,7 @@ PORTFOLIO COMPANIES:
 
     def _deduplicate_companies(self, companies: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """
-        Deduplicate companies by name similarity.
+        Deduplicate companies by name similarity, preserving ALL portfolio file entries.
         
         Args:
             companies: List of company objects
@@ -639,19 +558,58 @@ PORTFOLIO COMPANIES:
         if not companies:
             return []
             
-        # Sort by confidence score (highest first)
-        sorted_companies = sorted(companies, key=lambda x: x["confidence_score"], reverse=True)
+        # Store original companies for reporting
+        self.all_extracted_companies = companies.copy()
+        self.duplicate_records = []
         
-        # Use a dict to track deduplicated companies
+        # Preprocess to ensure URLs are handled properly
+        preprocessed_companies = []
+        for company in companies:
+            # Check if company name is just a URL/domain
+            name = company["name"]
+            details = company["details"]
+            
+            # If the name contains a domain extension but doesn't have website in details
+            if (name.lower().endswith('.com') or name.lower().endswith('.net')) and "website" not in details.lower():
+                # Extract proper name and add website to details
+                proper_name = self._extract_company_name_from_url(name)
+                company["name"] = proper_name
+                company["details"] = f"Website: {name}, {details}"
+            
+            preprocessed_companies.append(company)
+        
+        # Create separate lists for portfolio and non-portfolio companies
+        portfolio_companies = [c for c in preprocessed_companies if c.get('from_portfolio_file', False)]
+        other_companies = [c for c in preprocessed_companies if not c.get('from_portfolio_file', False)]
+        
+        # Create a dictionary to store deduplicated companies
         deduplicated = {}
         
-        for company in sorted_companies:
+        # First, add ALL portfolio companies to the deduplicated list
+        # This ensures we don't lose ANY entries from portfolio.txt
+        for company in portfolio_companies:
+            name = company["name"]
+            normalized_name = name.lower()
+            deduplicated[normalized_name] = company
+        
+        # Log how many portfolio companies were preserved
+        self.logger.info(f"Preserved all {len(portfolio_companies)} portfolio file companies")
+        
+        # Now process non-portfolio companies, only merging them if they're obvious duplicates
+        for company in other_companies:
             name = company["name"]
             normalized_name = name.lower()
             
-            # Check for direct match
+            # Skip if this exact name is already in deduplicated (direct match)
             if normalized_name in deduplicated:
-                # Update with additional information if available
+                self.duplicate_records.append({
+                    "duplicate_name": name,
+                    "matched_with": deduplicated[normalized_name]["name"],
+                    "match_type": "exact",
+                    "source": company["source_file"]
+                })
+                
+                # Update with additional information if needed
                 if company["description"] != "No description available" and deduplicated[normalized_name]["description"] == "No description available":
                     deduplicated[normalized_name]["description"] = company["description"]
                 if company["details"] != "No additional details" and deduplicated[normalized_name]["details"] == "No additional details":
@@ -660,29 +618,81 @@ PORTFOLIO COMPANIES:
                 if deduplicated[normalized_name]["source_file"] != company["source_file"]:
                     deduplicated[normalized_name]["source_file"] = f"{deduplicated[normalized_name]['source_file']}, {company['source_file']}"
                 continue
-                
-            # Check for similar names
-            found_similar = False
-            for existing_norm in list(deduplicated.keys()):
-                # Check if names are similar enough (e.g., "Company Inc" vs "Company")
-                if (normalized_name in existing_norm or existing_norm in normalized_name or
-                    self._name_similarity(normalized_name, existing_norm) > 0.8):
-                    # Update with additional information if available
-                    if company["description"] != "No description available" and deduplicated[existing_norm]["description"] == "No description available":
-                        deduplicated[existing_norm]["description"] = company["description"]
-                    if company["details"] != "No additional details" and deduplicated[existing_norm]["details"] == "No additional details":
-                        deduplicated[existing_norm]["details"] = company["details"]
-                    # Combine source files
-                    if deduplicated[existing_norm]["source_file"] != company["source_file"]:
-                        deduplicated[existing_norm]["source_file"] = f"{deduplicated[existing_norm]['source_file']}, {company['source_file']}"
-                    found_similar = True
-                    break
             
-            if not found_similar:
-                deduplicated[normalized_name] = company
+            # Check for similar companies, but ONLY for non-portfolio companies
+            # This avoids merging different portfolio companies together
+            found_match = False
+            for existing_name in list(deduplicated.keys()):
+                # Skip if the existing company is from portfolio.txt
+                if deduplicated[existing_name].get('from_portfolio_file', False):
+                    # Only consider an exact match or domain variant for portfolio companies
+                    if normalized_name == existing_name:
+                        found_match = True
+                        break
+                    
+                    # Check for domain variants (e.g., "pulsevet" vs "pulsevet.com")
+                    domain_base = normalized_name.replace('.com', '').replace('.net', '').replace('www.', '')
+                    existing_base = existing_name.replace('.com', '').replace('.net', '').replace('www.', '')
+                    if domain_base == existing_base:
+                        found_match = True
+                        self.duplicate_records.append({
+                            "duplicate_name": name,
+                            "matched_with": deduplicated[existing_name]["name"],
+                            "match_type": "domain variant",
+                            "source": company["source_file"]
+                        })
+                        
+                        # Update with additional information if available
+                        if company["description"] != "No description available" and deduplicated[existing_name]["description"] == "No description available":
+                            deduplicated[existing_name]["description"] = company["description"]
+                        if company["details"] != "No additional details" and deduplicated[existing_name]["details"] == "No additional details":
+                            deduplicated[existing_name]["details"] = company["details"]
+                        # Combine source files
+                        if deduplicated[existing_name]["source_file"] != company["source_file"]:
+                            deduplicated[existing_name]["source_file"] = f"{deduplicated[existing_name]['source_file']}, {company['source_file']}"
+                        break
+                
+                continue
+            
+            # For non-portfolio companies, use standard similarity check
+            similarity_score = self._name_similarity(normalized_name, existing_name)
+            if similarity_score > 0.85:  # Stricter threshold
+                found_match = True
+                self.duplicate_records.append({
+                    "duplicate_name": name,
+                    "matched_with": deduplicated[existing_name]["name"],
+                    "match_type": "similar",
+                    "similarity_score": similarity_score,
+                    "source": company["source_file"]
+                })
+                
+                # Update with additional information if available
+                if company["description"] != "No description available" and deduplicated[existing_name]["description"] == "No description available":
+                    deduplicated[existing_name]["description"] = company["description"]
+                if company["details"] != "No additional details" and deduplicated[existing_name]["details"] == "No additional details":
+                    deduplicated[existing_name]["details"] = company["details"]
+                # Combine source files
+                if deduplicated[existing_name]["source_file"] != company["source_file"]:
+                    deduplicated[existing_name]["source_file"] = f"{deduplicated[existing_name]['source_file']}, {company['source_file']}"
+                break
         
-        self.logger.info(f"Deduplicated {len(companies)} companies to {len(deduplicated)} unique companies")
-        return list(deduplicated.values())
+        # If no match was found, add this as a new company
+        if not found_match:
+            deduplicated[normalized_name] = company
+        
+        # Create final deduplicated list
+        deduplicated_list = list(deduplicated.values())
+        
+        # Verify all portfolio companies are included
+        portfolio_company_count = sum(1 for company in deduplicated_list if company.get('from_portfolio_file', False))
+        self.logger.info(f"Final deduplicated list has {portfolio_company_count} portfolio file companies")
+        
+        self.logger.info(f"Deduplicated {len(companies)} companies to {len(deduplicated_list)} unique companies")
+        
+        # Save the kept companies for the report
+        self.kept_companies = deduplicated_list.copy()
+        
+        return deduplicated_list
     
     def _name_similarity(self, name1: str, name2: str) -> float:
         """
@@ -794,6 +804,16 @@ PORTFOLIO COMPANIES:
         cleaned_companies = self._clean_company_data(companies)
         summary_result["summary"]["portfolio_companies"] = cleaned_companies
         
+        # Generate and save the deduplication report if we have the data
+        if hasattr(self, 'all_extracted_companies') and output_dir:
+            try:
+                dedup_path = self._save_deduplication_report(directory, output_dir)
+                self.logger.info(f"Generated deduplication report at: {dedup_path}")
+            except Exception as e:
+                self.logger.error(f"Error generating deduplication report: {str(e)}")
+        else:
+            self.logger.warning("No deduplication data available for reporting")
+        
         # Generate report from the summary result
         report = self.generate_summary_report(summary_result)
         
@@ -801,4 +821,111 @@ PORTFOLIO COMPANIES:
         if output_dir:
             return self._save_summary(report, cleaned_companies, directory, output_dir, output_json)
         
-        return report 
+        return report
+
+    def _save_deduplication_report(self, directory_name: str, output_dir: str) -> str:
+        """
+        Save a detailed report of the deduplication process.
+        
+        Args:
+            directory_name: The name of the directory
+            output_dir: Directory to save output
+            
+        Returns:
+            Path to the deduplication report file
+        """
+        if not hasattr(self, 'all_extracted_companies') or not hasattr(self, 'duplicate_records'):
+            self.logger.warning("No deduplication data available")
+            return None
+        
+        # Create output directory if it doesn't exist
+        os.makedirs(output_dir, exist_ok=True)
+        
+        # Sanitize directory name for filename
+        safe_name = "".join(c if c.isalnum() or c in "._- " else "_" for c in directory_name)
+        safe_name = safe_name.replace(" ", "_").lower()
+        
+        # Generate report filename
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        report_filename = f"{safe_name}_deduplication_report_{timestamp}.txt"
+        report_path = os.path.join(output_dir, report_filename)
+        
+        # Count affiliates
+        affiliate_count = sum(1 for c in self.all_extracted_companies if c.get('affiliate', False))
+        final_affiliate_count = sum(1 for c in self.kept_companies if c.get('affiliate', False))
+        
+        # Build the report
+        report = f"""
+==========================================================================
+            DEDUPLICATION REPORT: {directory_name.upper()}
+==========================================================================
+Generated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
+==========================================================================
+
+SUMMARY:
+-------
+Total companies extracted: {len(self.all_extracted_companies)}
+Including affiliate transactions: {affiliate_count}
+Duplicates found: {len(self.duplicate_records)}
+Final unique companies: {len(self.kept_companies)}
+Final affiliate transactions: {final_affiliate_count}
+
+==========================================================================
+ALL EXTRACTED COMPANIES ({len(self.all_extracted_companies)}):
+==========================================================================
+"""
+        
+        # Add each extracted company
+        for i, company in enumerate(self.all_extracted_companies):
+            # Add "(Affiliate)" label if needed
+            company_name = company['name']
+            if company.get('affiliate', False):
+                company_name += " (Affiliate)"
+                
+            report += f"{i+1}. {company_name}\n"
+            report += f"   Description: {company['description']}\n"
+            report += f"   Source: {company['source_file']}\n"
+            report += f"   Confidence Score: {company['confidence_score']}\n\n"
+        
+        report += f"""
+==========================================================================
+DUPLICATE COMPANIES ({len(self.duplicate_records)}):
+==========================================================================
+"""
+        
+        # Add each duplicate and what it matched with
+        for i, dup in enumerate(self.duplicate_records):
+            report += f"{i+1}. \"{dup['duplicate_name']}\" was merged with \"{dup['matched_with']}\"\n"
+            report += f"   Match Type: {dup['match_type']}\n"
+            if 'similarity_score' in dup:
+                report += f"   Similarity Score: {dup['similarity_score']:.2f}\n"
+            report += f"   Source: {dup['source']}\n\n"
+        
+        report += f"""
+==========================================================================
+FINAL UNIQUE COMPANIES ({len(self.kept_companies)}):
+==========================================================================
+"""
+        
+        # Add each final company
+        for i, company in enumerate(self.kept_companies):
+            # Add "(Affiliate)" label if needed
+            company_name = company['name']
+            if company.get('affiliate', False):
+                company_name += " (Affiliate)"
+                
+            report += f"{i+1}. {company_name}\n"
+            report += f"   Description: {company['description']}\n"
+            report += f"   Details: {company['details']}\n"
+            report += f"   Source: {company['source_file']}\n"
+            report += f"   Confidence Score: {company['confidence_score']}\n\n"
+        
+        report += "==========================================================================\n"
+        
+        # Write report to file
+        with open(report_path, "w") as f:
+            f.write(report)
+        
+        self.logger.info(f"Deduplication report saved to: {report_path}")
+        
+        return report_path

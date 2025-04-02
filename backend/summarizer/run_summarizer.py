@@ -60,9 +60,29 @@ def main():
     logger.info(f"Using output directory: {output_dir}")
     
     try:
-        # Extract and summarize the directory
+        # Extract and summarize the directory using only LLM-based extraction
         logger.info(f"Summarizing directory: {args.directory}")
         summary_result = summarizer.summarize_directory(args.directory)
+        
+        # Verify portfolio companies - perform a sanity check
+        portfolio_companies = summary_result['summary']['portfolio_companies']
+        
+        # Count different types of companies
+        portfolio_count = sum(1 for company in portfolio_companies if company.get('from_portfolio_file', False))
+        affiliate_count = sum(1 for company in portfolio_companies if company.get('affiliate', False))
+        domain_count = sum(1 for company in portfolio_companies if '.com' in company.get('name', '').lower() or '.net' in company.get('name', '').lower())
+        
+        logger.info(f"Final portfolio file companies count: {portfolio_count}")
+        logger.info(f"Including affiliate transactions: {affiliate_count}")
+        
+        # Warning if we still have companies that look like domains
+        if domain_count > 0:
+            logger.warning(f"Found {domain_count} companies with domain-like names. Should be 0.")
+        
+        # Additional check: if portfolio count is too low, print a warning
+        if portfolio_count < 15 and any(f.lower().endswith('portfolio.txt') for f in summarizer.s3_client.list_files_by_directory().get(args.directory, [])):
+            logger.warning(f"WARNING: Only {portfolio_count} companies from portfolio.txt were included in the final results.")
+            logger.warning("This may indicate an issue with extraction or deduplication.")
         
         # Generate the summary report
         report = summarizer.generate_summary_report(summary_result)
@@ -91,6 +111,15 @@ def main():
                 json.dump(summary_result, f, indent=2)
             logger.info(f"JSON data saved to: {json_path}")
             print(f"JSON data saved to: {json_path}")
+            
+        # Generate deduplication report
+        if hasattr(summarizer, 'all_extracted_companies'):
+            dedup_path = summarizer._save_deduplication_report(args.directory, output_dir)
+            if dedup_path:
+                logger.info(f"Deduplication report saved to: {dedup_path}")
+                print(f"Deduplication report saved to: {dedup_path}")
+            else:
+                logger.warning("Could not generate deduplication report")
         
         return 0
     
