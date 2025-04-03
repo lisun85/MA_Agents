@@ -5,21 +5,26 @@ This file contains all prompt templates used by the summarizer
 to extract information from documents.
 """
 
-def get_company_extraction_prompt(source_file: str, content: str) -> str:
+def get_company_extraction_prompt(source_file: str, content: str, firm_name: str = None) -> str:
     """
     Generate the prompt for extracting portfolio companies from text.
     
     Args:
         source_file: Name of the source file
         content: Text content to analyze
+        firm_name: Name of the private equity firm (dynamically determined)
         
     Returns:
         Formatted prompt string
     """
+    # If firm name not provided, use a generic reference
+    if not firm_name:
+        firm_name = "the private equity firm"
+    
     # Special handling for portfolio.txt with stronger instructions
     if "portfolio" in source_file.lower():
         return f"""
-        Please extract ALL portfolio companies owned by Branford Castle from the following file: {source_file}.
+        Please extract ALL portfolio companies owned by {firm_name} from the following file: {source_file}.
         
         CRITICAL INSTRUCTIONS:
         1. This file is the PRIMARY AUTHORITATIVE SOURCE of portfolio companies
@@ -29,14 +34,14 @@ def get_company_extraction_prompt(source_file: str, content: str) -> str:
         5. If a URL appears directly below a company description, it belongs to that company
         6. If only a URL is provided without a clear company name, extract the company name from the URL (e.g., "acme" from "acme.com")
         7. Mark ALL companies as currently owned (is_owned: true)
-        8. For companies under "BRANFORD AFFILIATE TRANSACTIONS" section, add "affiliate: true" to mark them as affiliates
+        8. For companies under "AFFILIATE TRANSACTIONS" section, add "affiliate: true" to mark them as affiliates
         
         For each company, provide these details as a JSON array:
         - "name": The company name (NOT just the URL). Extract properly from context.
         - "description": Brief description of what the company does
         - "details": Include "Website: [URL]" when a URL is provided
         - "is_owned": true for ALL companies (both direct investments and affiliates)
-        - "affiliate": true for companies under "BRANFORD AFFILIATE TRANSACTIONS", false or omitted otherwise
+        - "affiliate": true for companies under "AFFILIATE TRANSACTIONS", false or omitted otherwise
         
         The format should be:
         [
@@ -53,7 +58,7 @@ def get_company_extraction_prompt(source_file: str, content: str) -> str:
     else:
         # Regular prompt for non-portfolio files
         return f"""
-        Please extract any portfolio companies owned by Branford Castle from the following text from file: {source_file}.
+        Please extract any portfolio companies owned by {firm_name} from the following text from file: {source_file}.
         
         IMPORTANT:
         1. Identify actual company names, not just URLs

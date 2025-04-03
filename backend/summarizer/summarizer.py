@@ -112,6 +112,9 @@ class Summarizer:
             if i < len(contents):
                 file_content_map[file_path] = contents[i]
         
+        # Extract firm name early
+        self.current_firm_name = self._extract_firm_name(directory_name, file_content_map)
+        
         # Step 4: Extract portfolio companies
         self.logger.info("Extracting portfolio companies...")
         portfolio_companies = self._extract_portfolio_companies(file_content_map)
@@ -120,6 +123,7 @@ class Summarizer:
         summary_result = {
             "success": True,
             "directory": directory_name,
+            "firm_name": self.current_firm_name,
             "file_count": len(contents),
             "summary": {
                 "portfolio_companies": portfolio_companies
@@ -127,16 +131,15 @@ class Summarizer:
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         }
         
-        self.logger.info(f"Summarization complete. Found {len(portfolio_companies)} portfolio companies.")
+        self.logger.info(f"Summarization complete. Found {len(portfolio_companies)} portfolio companies for {self.current_firm_name}.")
         return summary_result
     
-    def _extract_portfolio_companies(self, file_contents, is_portfolio_file=False):
+    def _extract_portfolio_companies(self, file_contents):
         """
         Extract portfolio companies from file contents using LLM only.
         
         Args:
             file_contents: Dictionary mapping file paths to their contents
-            is_portfolio_file: Whether the file is a dedicated portfolio file
             
         Returns:
             List of company objects
@@ -151,7 +154,7 @@ class Summarizer:
             for portfolio_file in portfolio_files:
                 # Use LLM extraction
                 self.logger.info(f"Extracting from authoritative file: {portfolio_file}")
-                companies = self._extract_companies_with_llm(file_contents[portfolio_file], portfolio_file, True)
+                companies = self._extract_companies_with_llm(file_contents[portfolio_file], portfolio_file, True, self.current_firm_name)
                 
                 # Set a higher confidence score and flag as from portfolio file
                 for company in companies:
@@ -168,7 +171,7 @@ class Summarizer:
                 continue
                 
             # Use LLM extraction for each file
-            companies = self._extract_companies_with_llm(content, file_path, False)
+            companies = self._extract_companies_with_llm(content, file_path, False, self.current_firm_name)
             
             # Flag as from non-portfolio file
             for company in companies:
@@ -185,7 +188,7 @@ class Summarizer:
         
         return all_companies
     
-    def _extract_companies_with_llm(self, content: str, source_file: str, is_portfolio_file: bool) -> List[Dict[str, Any]]:
+    def _extract_companies_with_llm(self, content: str, source_file: str, is_portfolio_file: bool, firm_name: str) -> List[Dict[str, Any]]:
         """
         Use LLM to extract company names from content.
         
@@ -193,6 +196,7 @@ class Summarizer:
             content: The text content to analyze
             source_file: Source file path for reference
             is_portfolio_file: Whether this is a dedicated portfolio file
+            firm_name: Name of the private equity firm
             
         Returns:
             List of company objects
@@ -203,8 +207,8 @@ class Summarizer:
         # Truncate content to avoid token limits
         truncated_content = content[:50000]
         
-        # Get the prompt from the prompts module
-        prompt = get_company_extraction_prompt(os.path.basename(source_file), truncated_content)
+        # Get the prompt from the prompts module, passing the firm name
+        prompt = get_company_extraction_prompt(os.path.basename(source_file), truncated_content, firm_name)
         
         try:
             # Log file being processed
@@ -349,6 +353,9 @@ class Summarizer:
         portfolio_companies = summary.get("portfolio_companies", [])
         timestamp = summary_result["timestamp"]
         
+        # Determine firm name from directory
+        firm_name = getattr(self, 'current_firm_name', directory.split('.')[0].capitalize())
+        
         # Count portfolio file companies
         portfolio_file_count = sum(1 for c in portfolio_companies if c.get('from_portfolio_file', False))
         affiliate_count = sum(1 for c in portfolio_companies if c.get('affiliate', False))
@@ -358,6 +365,7 @@ class Summarizer:
 ==========================================================================
                 DIRECTORY SUMMARY: {directory.upper()}
 ==========================================================================
+Private Equity Firm: {firm_name}
 Generated: {timestamp}
 Files analyzed: {summary_result['file_count']}
 Portfolio.txt companies: {portfolio_file_count}
@@ -547,7 +555,7 @@ PORTFOLIO COMPANIES:
 
     def _deduplicate_companies(self, companies: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """
-        Deduplicate companies by name similarity, preserving ALL portfolio file entries.
+        Deduplicate companies by name similarity, preserving content from portfolio file entries.
         
         Args:
             companies: List of company objects
@@ -557,7 +565,7 @@ PORTFOLIO COMPANIES:
         """
         if not companies:
             return []
-            
+        
         # Store original companies for reporting
         self.all_extracted_companies = companies.copy()
         self.duplicate_records = []
@@ -585,8 +593,7 @@ PORTFOLIO COMPANIES:
         # Create a dictionary to store deduplicated companies
         deduplicated = {}
         
-        # First, add ALL portfolio companies to the deduplicated list
-        # This ensures we don't lose ANY entries from portfolio.txt
+        # First, add all portfolio companies to the deduplicated dictionary
         for company in portfolio_companies:
             name = company["name"]
             normalized_name = name.lower()
@@ -595,7 +602,10 @@ PORTFOLIO COMPANIES:
         # Log how many portfolio companies were preserved
         self.logger.info(f"Preserved all {len(portfolio_companies)} portfolio file companies")
         
-        # Now process non-portfolio companies, only merging them if they're obvious duplicates
+        # Set of normalized portfolio company names for quick lookup
+        portfolio_names = set(name.lower() for name in deduplicated.keys())
+        
+        # Now process non-portfolio companies
         for company in other_companies:
             name = company["name"]
             normalized_name = name.lower()
@@ -619,66 +629,78 @@ PORTFOLIO COMPANIES:
                     deduplicated[normalized_name]["source_file"] = f"{deduplicated[normalized_name]['source_file']}, {company['source_file']}"
                 continue
             
-            # Check for similar companies, but ONLY for non-portfolio companies
-            # This avoids merging different portfolio companies together
+            # Check for similar companies - using more lenient matching
             found_match = False
-            for existing_name in list(deduplicated.keys()):
-                # Skip if the existing company is from portfolio.txt
-                if deduplicated[existing_name].get('from_portfolio_file', False):
-                    # Only consider an exact match or domain variant for portfolio companies
-                    if normalized_name == existing_name:
-                        found_match = True
-                        break
-                    
-                    # Check for domain variants (e.g., "pulsevet" vs "pulsevet.com")
-                    domain_base = normalized_name.replace('.com', '').replace('.net', '').replace('www.', '')
-                    existing_base = existing_name.replace('.com', '').replace('.net', '').replace('www.', '')
-                    if domain_base == existing_base:
-                        found_match = True
-                        self.duplicate_records.append({
-                            "duplicate_name": name,
-                            "matched_with": deduplicated[existing_name]["name"],
-                            "match_type": "domain variant",
-                            "source": company["source_file"]
-                        })
-                        
-                        # Update with additional information if available
-                        if company["description"] != "No description available" and deduplicated[existing_name]["description"] == "No description available":
-                            deduplicated[existing_name]["description"] = company["description"]
-                        if company["details"] != "No additional details" and deduplicated[existing_name]["details"] == "No additional details":
-                            deduplicated[existing_name]["details"] = company["details"]
-                        # Combine source files
-                        if deduplicated[existing_name]["source_file"] != company["source_file"]:
-                            deduplicated[existing_name]["source_file"] = f"{deduplicated[existing_name]['source_file']}, {company['source_file']}"
-                        break
-                
-                continue
             
-            # For non-portfolio companies, use standard similarity check
-            similarity_score = self._name_similarity(normalized_name, existing_name)
-            if similarity_score > 0.85:  # Stricter threshold
-                found_match = True
-                self.duplicate_records.append({
-                    "duplicate_name": name,
-                    "matched_with": deduplicated[existing_name]["name"],
-                    "match_type": "similar",
-                    "similarity_score": similarity_score,
-                    "source": company["source_file"]
-                })
+            for existing_name in list(deduplicated.keys()):
+                # Check for domain variants (e.g., "pulsevet" vs "pulsevet.com")
+                domain_base = normalized_name.replace('.com', '').replace('.net', '').replace('www.', '')
+                existing_base = existing_name.replace('.com', '').replace('.net', '').replace('www.', '')
                 
-                # Update with additional information if available
-                if company["description"] != "No description available" and deduplicated[existing_name]["description"] == "No description available":
-                    deduplicated[existing_name]["description"] = company["description"]
-                if company["details"] != "No additional details" and deduplicated[existing_name]["details"] == "No additional details":
-                    deduplicated[existing_name]["details"] = company["details"]
-                # Combine source files
-                if deduplicated[existing_name]["source_file"] != company["source_file"]:
-                    deduplicated[existing_name]["source_file"] = f"{deduplicated[existing_name]['source_file']}, {company['source_file']}"
-                break
-        
-        # If no match was found, add this as a new company
-        if not found_match:
-            deduplicated[normalized_name] = company
+                if domain_base == existing_base:
+                    found_match = True
+                    self.duplicate_records.append({
+                        "duplicate_name": name,
+                        "matched_with": deduplicated[existing_name]["name"],
+                        "match_type": "domain variant",
+                        "source": company["source_file"]
+                    })
+                    
+                    # Update with additional information if available
+                    if company["description"] != "No description available" and deduplicated[existing_name]["description"] == "No description available":
+                        deduplicated[existing_name]["description"] = company["description"]
+                    if company["details"] != "No additional details" and deduplicated[existing_name]["details"] == "No additional details":
+                        deduplicated[existing_name]["details"] = company["details"]
+                    # Combine source files
+                    if deduplicated[existing_name]["source_file"] != company["source_file"]:
+                        deduplicated[existing_name]["source_file"] = f"{deduplicated[existing_name]['source_file']}, {company['source_file']}"
+                    break
+                
+                # Use simple name variant matching (restored from previous version)
+                if self._is_same_company_simple(normalized_name, existing_name):
+                    found_match = True
+                    self.duplicate_records.append({
+                        "duplicate_name": name,
+                        "matched_with": deduplicated[existing_name]["name"],
+                        "match_type": "name variant",
+                        "source": company["source_file"]
+                    })
+                    
+                    # Update with additional information if available
+                    if company["description"] != "No description available" and deduplicated[existing_name]["description"] == "No description available":
+                        deduplicated[existing_name]["description"] = company["description"]
+                    if company["details"] != "No additional details" and deduplicated[existing_name]["details"] == "No additional details":
+                        deduplicated[existing_name]["details"] = company["details"]
+                    # Combine source files
+                    if deduplicated[existing_name]["source_file"] != company["source_file"]:
+                        deduplicated[existing_name]["source_file"] = f"{deduplicated[existing_name]['source_file']}, {company['source_file']}"
+                    break
+                
+                # Use similarity score as a fallback - with a lower threshold of 0.8 instead of 0.95
+                similarity_score = self._name_similarity(normalized_name, existing_name)
+                if similarity_score > 0.8:
+                    found_match = True
+                    self.duplicate_records.append({
+                        "duplicate_name": name,
+                        "matched_with": deduplicated[existing_name]["name"],
+                        "match_type": "similar",
+                        "similarity_score": similarity_score,
+                        "source": company["source_file"]
+                    })
+                    
+                    # Update with additional information if available
+                    if company["description"] != "No description available" and deduplicated[existing_name]["description"] == "No description available":
+                        deduplicated[existing_name]["description"] = company["description"]
+                    if company["details"] != "No additional details" and deduplicated[existing_name]["details"] == "No additional details":
+                        deduplicated[existing_name]["details"] = company["details"]
+                    # Combine source files
+                    if deduplicated[existing_name]["source_file"] != company["source_file"]:
+                        deduplicated[existing_name]["source_file"] = f"{deduplicated[existing_name]['source_file']}, {company['source_file']}"
+                    break
+            
+            # If no match was found, add this as a new company
+            if not found_match:
+                deduplicated[normalized_name] = company
         
         # Create final deduplicated list
         deduplicated_list = list(deduplicated.values())
@@ -693,7 +715,53 @@ PORTFOLIO COMPANIES:
         self.kept_companies = deduplicated_list.copy()
         
         return deduplicated_list
-    
+
+    def _is_same_company_simple(self, name1: str, name2: str) -> bool:
+        """
+        Simple check to see if two company names refer to the same entity.
+        
+        This handles cases like "Company" vs "Company Inc" or "Company" vs "Company Management"
+        
+        Args:
+            name1: First company name (normalized/lowercase)
+            name2: Second company name (normalized/lowercase)
+            
+        Returns:
+            True if the names are likely the same company
+        """
+        # Check if one is a substring of the other at the beginning
+        if name1.startswith(name2 + " ") or name2.startswith(name1 + " "):
+            return True
+        
+        # Split into words
+        words1 = name1.split()
+        words2 = name2.split()
+        
+        # Skip if lengths are too different
+        if len(words1) > 3 and len(words2) > 3 and abs(len(words1) - len(words2)) > 2:
+            return False
+        
+        # Check for common suffixes
+        ignore_terms = ["inc", "corp", "llc", "ltd", "management", "solutions", "technologies", "technology", "systems", "products", "group", "company"]
+        
+        # Get core company name by removing common suffixes
+        core_words1 = [w for w in words1 if w.lower() not in ignore_terms]
+        core_words2 = [w for w in words2 if w.lower() not in ignore_terms]
+        
+        # Check if core words are identical
+        if len(core_words1) > 0 and len(core_words2) > 0:
+            # If one is a single word and it matches the first word of the other, it's a match
+            if len(core_words1) == 1 and core_words1[0] == core_words2[0]:
+                return True
+            if len(core_words2) == 1 and core_words2[0] == core_words1[0]:
+                return True
+            
+            # If all core words match (in any order), it's a match
+            if set(core_words1) == set(core_words2):
+                return True
+        
+        return False
+
     def _name_similarity(self, name1: str, name2: str) -> float:
         """
         Calculate similarity between two company names.
@@ -705,36 +773,73 @@ PORTFOLIO COMPANIES:
         Returns:
             Similarity score (0-1)
         """
-        # Remove common suffixes for comparison
-        suffixes = [" inc", " corp", " llc", " ltd", " co", " company", " group", " holdings"]
-        clean_name1 = name1
-        clean_name2 = name2
+        # Normalize names
+        name1 = name1.lower()
+        name2 = name2.lower()
         
-        for suffix in suffixes:
-            clean_name1 = clean_name1.replace(suffix, "")
-            clean_name2 = clean_name2.replace(suffix, "")
+        # Stopwords and common company suffixes to ignore
+        ignore_words = ["inc", "corp", "llc", "ltd", "company", "co", "group", 
+                       "industries", "solutions", "technology", "technologies",
+                       "systems", "products", "services", "management"]
+                       
+        # Check for location information in parentheses
+        location1 = ""
+        location2 = ""
         
-        # Compute Levenshtein distance
-        distance = 0
-        m, n = len(clean_name1), len(clean_name2)
+        # Extract location if present (e.g., "Company Name (Location)")
+        loc_match1 = re.search(r'\((.*?)\)', name1)
+        loc_match2 = re.search(r'\((.*?)\)', name2)
         
-        # Simple case: if one is empty, distance is length of the other
-        if m == 0:
-            return 0
-        if n == 0:
-            return 0
-            
-        # Early exit for exact match
-        if clean_name1 == clean_name2:
-            return 1.0
-            
-        # Use a simple ratio of matching characters
-        matches = 0
-        for c1 in clean_name1:
-            if c1 in clean_name2:
-                matches += 1
-                
-        return matches / max(m, n)
+        if loc_match1:
+            location1 = loc_match1.group(1).lower()
+        if loc_match2:
+            location2 = loc_match2.group(1).lower()
+        
+        # Remove locations from names for comparison
+        clean_name1 = re.sub(r'\s*\(.*?\)', '', name1).lower()
+        clean_name2 = re.sub(r'\s*\(.*?\)', '', name2).lower()
+        
+        # Remove common suffixes
+        for suffix in ignore_words:
+            pattern = r'\b' + re.escape(suffix) + r'\b'
+            clean_name1 = re.sub(pattern, '', clean_name1)
+            clean_name2 = re.sub(pattern, '', clean_name2)
+        
+        # Clean up extra spaces
+        clean_name1 = re.sub(r'\s+', ' ', clean_name1).strip()
+        clean_name2 = re.sub(r'\s+', ' ', clean_name2).strip()
+        
+        # If one name is completely contained in the other, high similarity
+        if clean_name1 in clean_name2 or clean_name2 in clean_name1:
+            # If they're exact matches after cleaning
+            if clean_name1 == clean_name2:
+                return 0.95
+            # If one is just a shorter version of the other
+            return 0.85
+        
+        # Split into words for comparison
+        words1 = clean_name1.split()
+        words2 = clean_name2.split()
+        
+        # If the first word matches, increase baseline similarity
+        baseline = 0.3 if (words1 and words2 and words1[0] == words2[0]) else 0.0
+        
+        # Count word matches
+        common_words = set(words1).intersection(set(words2))
+        
+        # Calculate Jaccard similarity (intersection over union)
+        total_unique_words = len(set(words1).union(set(words2)))
+        if total_unique_words == 0:
+            return baseline
+        
+        word_similarity = len(common_words) / total_unique_words
+        
+        # Boost similarity if first words match
+        if words1 and words2 and words1[0] == words2[0]:
+            word_similarity = word_similarity * 1.2
+        
+        # Cap at 1.0
+        return min(baseline + word_similarity, 1.0)
 
     def _clean_company_data(self, companies: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """
@@ -929,3 +1034,90 @@ FINAL UNIQUE COMPANIES ({len(self.kept_companies)}):
         self.logger.info(f"Deduplication report saved to: {report_path}")
         
         return report_path
+
+    def _extract_firm_name(self, directory_name: str, file_contents: Dict[str, str]) -> str:
+        """
+        Extract the private equity firm name from the index.txt file.
+        
+        Args:
+            directory_name: The directory name (domain)
+            file_contents: Dictionary of file path to content
+            
+        Returns:
+            Extracted firm name or default name
+        """
+        # Look for index.txt file
+        index_files = [f for f in file_contents.keys() if "index" in f.lower()]
+        if not index_files:
+            self.logger.warning(f"No index.txt found in {directory_name}, using domain as firm name")
+            # Extract domain name from directory (remove .com, etc.)
+            domain_parts = directory_name.split('.')
+            return domain_parts[0].capitalize()
+        
+        # Get content from the first index file
+        index_content = file_contents[index_files[0]]
+        
+        # Look for TITLE line in the content
+        title_match = re.search(r'TITLE:\s*(.*?)(?:\s*-|\n)', index_content)
+        if title_match:
+            title = title_match.group(1).strip()
+            # Extract first word that seems like a company name
+            words = title.split()
+            # Skip common words like "Home", "Welcome", etc.
+            common_words = ["home", "welcome", "the", "a", "an"]
+            for word in words:
+                if word.lower() not in common_words and len(word) > 2:
+                    self.logger.info(f"Extracted firm name '{word}' from index.txt title")
+                    return word
+        
+        # If we couldn't find a good name in the title, try to find it in the content
+        # Look for phrases like "About [Company]", "[Company] is a private equity firm", etc.
+        about_match = re.search(r'About\s+(\w+)', index_content)
+        if about_match:
+            return about_match.group(1)
+        
+        # If all else fails, use the domain name
+        domain_parts = directory_name.split('.')
+        firm_name = domain_parts[0].capitalize()
+        self.logger.info(f"Using domain as firm name: {firm_name}")
+        return firm_name
+
+    def _company_types_compatible(self, name1: str, name2: str) -> bool:
+        """
+        Check if two companies are of compatible types based on their names.
+        
+        Args:
+            name1: First company name
+            name2: Second company name
+            
+        Returns:
+            True if companies appear to be of compatible types
+        """
+        # Extract company type indicators from names
+        def extract_type(name):
+            types = []
+            name_lower = name.lower()
+            
+            # Check for specific industry keywords
+            if any(term in name_lower for term in ["fluid", "water", "liquid", "pump"]):
+                types.append("fluid")
+            
+            if any(term in name_lower for term in ["display", "retail", "store", "shop"]):
+                types.append("retail")
+            
+            if any(term in name_lower for term in ["handling", "packaging", "container"]):
+                types.append("material handling")
+            
+            if any(term in name_lower for term in ["tech", "software", "digital", "data"]):
+                types.append("technology")
+            
+            return types
+        
+        type1 = extract_type(name1)
+        type2 = extract_type(name2)
+        
+        # If both have type indicators and they don't overlap, they're different companies
+        if type1 and type2 and not set(type1).intersection(set(type2)):
+            return False
+        
+        return True

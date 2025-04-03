@@ -64,6 +64,10 @@ def main():
         logger.info(f"Summarizing directory: {args.directory}")
         summary_result = summarizer.summarize_directory(args.directory)
         
+        # Get the firm name
+        firm_name = summary_result.get("firm_name", args.directory.split('.')[0].capitalize())
+        logger.info(f"Analyzing portfolio companies for: {firm_name}")
+        
         # Verify portfolio companies - perform a sanity check
         portfolio_companies = summary_result['summary']['portfolio_companies']
         
@@ -90,8 +94,9 @@ def main():
         # Generate filenames based on directory name and timestamp
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         safe_dir_name = args.directory.replace(".", "_").replace("/", "_")
-        txt_filename = f"{safe_dir_name}_summary_{timestamp}.txt"
-        json_filename = f"{safe_dir_name}_summary_{timestamp}.json"
+        safe_firm_name = firm_name.replace(" ", "_").lower()
+        txt_filename = f"{safe_dir_name}_{safe_firm_name}_summary_{timestamp}.txt"
+        json_filename = f"{safe_dir_name}_{safe_firm_name}_summary_{timestamp}.json"
         
         # Create full file paths
         txt_path = os.path.join(output_dir, txt_filename)
