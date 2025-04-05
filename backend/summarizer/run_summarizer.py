@@ -32,6 +32,10 @@ def parse_args():
                         help="Output directory for the summary report")
     parser.add_argument("--json", "-j", action="store_true",
                         help="Also save as JSON")
+    parser.add_argument("--parallel", "-p", action="store_true",
+                        help="Use parallel extraction for faster processing")
+    parser.add_argument("--debug", action="store_true",
+                        help="Enable debug mode with verbose logging")
     
     return parser.parse_args()
 
@@ -39,6 +43,12 @@ def main():
     """Main entry point for the directory summarizer tool."""
     # Parse command line arguments
     args = parse_args()
+    
+    # Set debug mode if requested
+    if args.debug:
+        logging.getLogger().setLevel(logging.DEBUG)
+        os.environ["SUMMARIZER_DEBUG"] = "true"
+        logger.info("Debug mode enabled")
     
     # Initialize the summarizer
     summarizer = Summarizer()
@@ -60,9 +70,11 @@ def main():
     logger.info(f"Using output directory: {output_dir}")
     
     try:
-        # Extract and summarize the directory using only LLM-based extraction
+        # Extract and summarize the directory, using parallel extraction if specified
         logger.info(f"Summarizing directory: {args.directory}")
-        summary_result = summarizer.summarize_directory(args.directory)
+        if args.parallel:
+            logger.info("Using parallel extraction for faster processing")
+        summary_result = summarizer.summarize_directory(args.directory, use_parallel=args.parallel)
         
         # Get the firm name
         firm_name = summary_result.get("firm_name", args.directory.split('.')[0].capitalize())
@@ -133,6 +145,10 @@ def main():
         import traceback
         logger.error(traceback.format_exc())
         return 1
+
+def run_summarizer():
+    """Entry point for package execution."""
+    sys.exit(main())
 
 if __name__ == "__main__":
     sys.exit(main()) 

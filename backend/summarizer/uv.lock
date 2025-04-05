@@ -1,0 +1,533 @@
+{
+  "version": "1",
+  "metadata": {
+    "python_version": "3.12.4"
+  },
+  "resolution-markers": [
+    "python_full_version >= '3.12.4' and python_full_version < '3.13'",
+    "python_full_version < '3.12.4'"
+  ],
+  "package_metadata": {
+    "aiohappyeyeballs": {
+      "version": "2.6.1",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "aiohttp": {
+      "version": "3.11.14",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "aiosignal": {
+      "version": "1.3.2",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "annotated-types": {
+      "version": "0.7.0",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "anyio": {
+      "version": "4.9.0",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "attrs": {
+      "version": "25.3.0",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "boto3": {
+      "version": "1.37.26",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "botocore": {
+      "version": "1.37.26",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "cachetools": {
+      "version": "5.5.2",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "certifi": {
+      "version": "2025.1.31",
+      "requires_python": ">=3.6",
+      "source": "pypi"
+    },
+    "charset-normalizer": {
+      "version": "3.4.1",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "dataclasses-json": {
+      "version": "0.6.7",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "distro": {
+      "version": "1.9.0",
+      "requires_python": ">=3.6",
+      "source": "pypi"
+    },
+    "filetype": {
+      "version": "1.2.0",
+      "requires_python": ">=3.5",
+      "source": "pypi"
+    },
+    "frozenlist": {
+      "version": "1.5.0",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "google-ai-generativelanguage": {
+      "version": "0.6.17",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "google-api-core": {
+      "version": "2.24.2",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "google-auth": {
+      "version": "2.38.0",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "googleapis-common-protos": {
+      "version": "1.69.2",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "grpcio": {
+      "version": "1.71.0",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "grpcio-status": {
+      "version": "1.71.0",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "grpcio-tools": {
+      "version": "1.71.0",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "h11": {
+      "version": "0.14.0",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "h2": {
+      "version": "4.2.0",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "hpack": {
+      "version": "4.1.0",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "httpcore": {
+      "version": "1.0.7",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "httpx": {
+      "version": "0.28.1",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "httpx-sse": {
+      "version": "0.4.0",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "hyperframe": {
+      "version": "6.1.0",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "idna": {
+      "version": "3.10",
+      "requires_python": ">=3.5",
+      "source": "pypi"
+    },
+    "jiter": {
+      "version": "0.9.0",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "jmespath": {
+      "version": "1.0.1",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "jsonpatch": {
+      "version": "1.33",
+      "requires_python": ">=2.7",
+      "source": "pypi"
+    },
+    "jsonpointer": {
+      "version": "3.0.0",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "langchain": {
+      "version": "0.3.20",
+      "requires_python": ">=3.8.1,<4.0",
+      "source": "pypi"
+    },
+    "langchain-community": {
+      "version": "0.3.19",
+      "requires_python": ">=3.8.1,<4.0",
+      "source": "pypi"
+    },
+    "langchain-core": {
+      "version": "0.3.50",
+      "requires_python": ">=3.8.1,<4.0",
+      "source": "pypi"
+    },
+    "langchain-google-genai": {
+      "version": "2.1.2",
+      "requires_python": ">=3.8.1,<4.0",
+      "source": "pypi"
+    },
+    "langchain-openai": {
+      "version": "0.3.9",
+      "requires_python": ">=3.8.1,<4.0",
+      "source": "pypi"
+    },
+    "langchain-qdrant": {
+      "version": "0.2.0",
+      "requires_python": ">=3.8.1,<4.0",
+      "source": "pypi"
+    },
+    "langchain-text-splitters": {
+      "version": "0.3.7",
+      "requires_python": ">=3.8.1,<4.0",
+      "source": "pypi"
+    },
+    "langgraph": {
+      "version": "0.3.14",
+      "requires_python": ">=3.8.1",
+      "source": "pypi"
+    },
+    "langgraph-checkpoint": {
+      "version": "2.0.21",
+      "requires_python": ">=3.8.1",
+      "source": "pypi"
+    },
+    "langgraph-prebuilt": {
+      "version": "0.1.3",
+      "requires_python": ">=3.8.1,<4.0",
+      "source": "pypi"
+    },
+    "langgraph-sdk": {
+      "version": "0.1.57",
+      "requires_python": ">=3.8.1",
+      "source": "pypi"
+    },
+    "langsmith": {
+      "version": "0.3.15",
+      "requires_python": ">=3.8.1,<4.0",
+      "source": "pypi"
+    },
+    "marshmallow": {
+      "version": "3.26.1",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "msgpack": {
+      "version": "1.1.0",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "multidict": {
+      "version": "6.2.0",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "mypy-extensions": {
+      "version": "1.0.0",
+      "requires_python": ">=3.5",
+      "source": "pypi"
+    },
+    "numpy": {
+      "version": "2.2.4",
+      "requires_python": ">=3.10",
+      "source": "pypi"
+    },
+    "openai": {
+      "version": "1.66.3",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "orjson": {
+      "version": "3.10.15",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "packaging": {
+      "version": "24.2",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "portalocker": {
+      "version": "2.10.1",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "propcache": {
+      "version": "0.3.0",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "proto-plus": {
+      "version": "1.26.1",
+      "requires_python": ">=3.6",
+      "source": "pypi"
+    },
+    "protobuf": {
+      "version": "5.29.3",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "pyasn1": {
+      "version": "0.6.1",
+      "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7",
+      "source": "pypi"
+    },
+    "pyasn1-modules": {
+      "version": "0.4.2",
+      "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7",
+      "source": "pypi"
+    },
+    "pydantic": {
+      "version": "2.10.6",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "pydantic-core": {
+      "version": "2.27.2",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "pydantic-settings": {
+      "version": "2.8.1",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "python-dateutil": {
+      "version": "2.9.0.post0",
+      "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*",
+      "source": "pypi"
+    },
+    "python-dotenv": {
+      "version": "1.0.1",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "pyyaml": {
+      "version": "6.0.2",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "qdrant-client": {
+      "version": "1.13.3",
+      "requires_python": ">=3.8,<4.0",
+      "source": "pypi"
+    },
+    "regex": {
+      "version": "2024.11.6",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "requests": {
+      "version": "2.32.3",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "requests-toolbelt": {
+      "version": "1.0.0",
+      "requires_python": ">=3.7.0",
+      "source": "pypi"
+    },
+    "rsa": {
+      "version": "4.9",
+      "requires_python": ">=3.6,<4",
+      "source": "pypi"
+    },
+    "s3transfer": {
+      "version": "0.11.4",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "sniffio": {
+      "version": "1.3.1",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "sqlalchemy": {
+      "version": "2.0.39",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "tenacity": {
+      "version": "9.0.0",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "tiktoken": {
+      "version": "0.9.0",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "tqdm": {
+      "version": "4.67.1",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "typing-extensions": {
+      "version": "4.12.2",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    },
+    "typing-inspect": {
+      "version": "0.9.0",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "urllib3": {
+      "version": "2.3.0",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "yarl": {
+      "version": "1.18.3",
+      "requires_python": ">=3.7",
+      "source": "pypi"
+    },
+    "zstandard": {
+      "version": "0.23.0",
+      "requires_python": ">=3.8",
+      "source": "pypi"
+    }
+  },
+  "dependencies": {
+    "langchain": [
+      "langchain-core>=0.3.50",
+      "langsmith>=0.1.0",
+      "packaging>=2.0",
+      "pydantic>=2.4.0",
+      "pydantic-core>=2.14.0",
+      "requests>=2.0.0",
+      "tenacity>=8.1.0"
+    ],
+    "langchain-community": [
+      "dataclasses-json>=0.5.7",
+      "langchain-core>=0.3.50",
+      "requests>=2.0.0",
+      "tenacity>=8.1.0"
+    ],
+    "langchain-core": [
+      "jsonpatch>=1.33",
+      "langsmith>=0.1.0",
+      "packaging>=2.0",
+      "pydantic>=2.4.0",
+      "pydantic-core>=2.14.0",
+      "tenacity>=8.1.0"
+    ],
+    "langchain-google-genai": [
+      "google-generativeai>=0.3.0",
+      "langchain-core>=0.3.0",
+      "tenacity>=8.1.0"
+    ],
+    "langchain-openai": [
+      "httpx>=0.25.1",
+      "langchain-core>=0.3.0",
+      "openai>=1.3.0",
+      "tenacity>=8.1.0"
+    ],
+    "langchain-qdrant": [
+      "langchain-core>=0.3.0",
+      "qdrant-client>=1.3.2,<2"
+    ],
+    "aiohttp": [
+      "aiosignal>=1.1.2",
+      "attrs>=17.3.0",
+      "frozenlist>=1.1.1",
+      "multidict>=4.5",
+      "yarl>=1.0"
+    ],
+    "boto3": [
+      "botocore>=1.37.26,<1.38.0",
+      "jmespath>=0.7.1,<2.0.0",
+      "s3transfer>=0.11.0,<0.12.0"
+    ],
+    "botocore": [
+      "jmespath>=0.7.1,<2.0.0",
+      "python-dateutil>=2.1,<3.0.0",
+      "urllib3>=1.25.4"
+    ],
+    "dataclasses-json": [
+      "marshmallow>=3.18.0",
+      "typing-inspect>=0.8.0"
+    ],
+    "google-api-core": [
+      "googleapis-common-protos>=1.56.2",
+      "protobuf>=3.19.5",
+      "requests>=2.18.0"
+    ],
+    "google-auth": [
+      "cachetools>=2.0.0",
+      "pyasn1-modules>=0.2.1",
+      "rsa>=3.1.4"
+    ],
+    "google-generativeai": [
+      "google-ai-generativelanguage>=0.6.3",
+      "google-api-core>=1.34.0",
+      "proto-plus>=1.22.3",
+      "protobuf>=3.19.0"
+    ],
+    "httpx": [
+      "certifi",
+      "httpcore>=1.0.0",
+      "idna",
+      "sniffio"
+    ],
+    "langgraph": [
+      "jiter>=0.9.0",
+      "langchain-core>=0.3.9",
+      "langgraph-checkpoint>=2.0.0",
+      "langgraph-sdk>=0.1.23",
+      "langsmith>=0.1.60",
+      "pydantic>=2.0.0"
+    ],
+    "openai": [
+      "anyio>=3.5.0",
+      "distro>=1.7.0",
+      "httpx>=0.23.0",
+      "pydantic>=2.0.0,<3.0",
+      "sniffio>=1.1.0",
+      "tqdm>4"
+    ],
+    "qdrant-client": [
+      "grpcio>=1.58.0",
+      "grpcio-tools>=1.53.0",
+      "httpx>=0.24.1",
+      "numpy>=1.22.0",
+      "portalocker>=2.7.0",
+      "pydantic>=2.0",
+      "urllib3>=1.26.12"
+    ],
+    "python-dotenv": [],
+    "regex": [],
+    "numpy": []
+  }
+} 

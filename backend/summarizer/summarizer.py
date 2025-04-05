@@ -6,6 +6,8 @@ from typing import List, Dict, Any, Set, Tuple, Optional
 import json
 from datetime import datetime
 import re
+import asyncio
+from backend.summarizer.parallel_extraction import ParallelExtractionManager
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -20,7 +22,17 @@ sys.path.insert(0, str(project_root))
 from backend.aws.s3 import get_s3_client
 from langchain_google_genai import ChatGoogleGenerativeAI  # Changed to Google Gemini
 from dotenv import load_dotenv
-from backend.summarizer.prompts import get_company_extraction_prompt, get_connection_test_prompt
+from backend.summarizer.prompts import (
+    get_company_extraction_prompt, 
+    get_connection_test_prompt, 
+    get_investment_strategy_prompt,  # New consolidated prompt
+    get_industry_focus_prompt, 
+    get_industry_focus_summary_prompt, 
+    get_geographic_focus_prompt, 
+    get_geographic_focus_summary_prompt, 
+    get_team_and_contacts_prompt, 
+    get_media_and_news_prompt
+)
 
 # Load environment variables
 load_dotenv()
@@ -41,9 +53,9 @@ class Summarizer:
         
         self.s3_client = get_s3_client()
         
-        # Initialize Google Gemini 2.5 Pro Experimental model
+        # Initialize Google Gemini 2.0 Flash model (changed from 2.5 Pro)
         self.llm = ChatGoogleGenerativeAI(
-            model="gemini-2.5-pro-exp-03-25",  # Specific Gemini 2.5 Pro experimental model
+            model="gemini-2.0-flash",  # Changed from gemini-2.5-pro-exp-03-25
             temperature=0,
             google_api_key=google_api_key  # Explicitly pass the API key
         )
@@ -59,22 +71,26 @@ class Summarizer:
         try:
             test_prompt = get_connection_test_prompt()
             response = self.llm.invoke(test_prompt)
-            self.logger.info(f"Google Gemini 2.5 Pro connection test: {response.content[:50]}...")
+            self.logger.info(f"Google Gemini 2.0 Flash connection test: {response.content[:50]}...")
         except Exception as e:
             self.logger.error(f"LLM connection test failed: {str(e)}")
             self.logger.error("Check if your GOOGLE_API_KEY is correct in the .env file")
             # Continue execution to allow the program to run
     
-    def summarize_directory(self, directory_name: str) -> Dict[str, Any]:
+    def summarize_directory(self, directory_name: str, use_parallel: bool = False) -> Dict[str, Any]:
         """
         Extract and summarize key information from a directory in S3.
         
         Args:
             directory_name: The name of the directory in S3 (e.g., "branfordcastle.com")
+            use_parallel: Whether to use parallel extraction for faster processing
             
         Returns:
             Dict containing summary data and metadata
         """
+        # Remove trailing slashes for consistency
+        directory_name = directory_name.rstrip('/')
+        
         self.logger.info(f"Summarizing content from directory: {directory_name}")
         
         # Step 1: List all files in the directory
@@ -115,9 +131,47 @@ class Summarizer:
         # Extract firm name early
         self.current_firm_name = self._extract_firm_name(directory_name, file_content_map)
         
-        # Step 4: Extract portfolio companies
-        self.logger.info("Extracting portfolio companies...")
+        # Step 4: Extract information - either parallel or sequential
+        if use_parallel:
+            self.logger.info("Using parallel extraction")
+            try:
+                # Initialize the parallel extraction manager
+                manager = ParallelExtractionManager(self)
+                
+                # Run parallel extraction asynchronously using asyncio
+                loop = asyncio.get_event_loop()
+                summary_result = loop.run_until_complete(
+                    manager.run_parallel_extraction(file_content_map, directory_name)
+                )
+                
+                # If parallel extraction succeeded, return the result
+                if summary_result and summary_result.get("success", False):
+                    self.logger.info(f"Parallel summarization complete. Found {len(summary_result['summary']['portfolio_companies'])} portfolio companies for {self.current_firm_name}.")
+                    return summary_result
+                    
+                # Otherwise, fall back to sequential extraction
+                self.logger.warning("Parallel extraction failed, falling back to sequential extraction")
+            except Exception as e:
+                self.logger.error(f"Error during parallel extraction: {str(e)}")
+                self.logger.warning("Falling back to sequential extraction")
+        
+        # Sequential extraction (original implementation)
+        self.logger.info("Using sequential extraction")
+        
+        # Step 4: Extract all sections
+        self.logger.info("Extracting information from files...")
+        
+        # Extract portfolio companies (existing functionality)
         portfolio_companies = self._extract_portfolio_companies(file_content_map)
+        
+        # Extract combined investment strategy and criteria (replacing separate methods)
+        investment_strategy = self._extract_investment_strategy(file_content_map)
+        
+        # Extract other sections
+        industry_focus = self._extract_industry_focus(file_content_map)
+        geographic_focus = self._extract_geographic_focus(file_content_map)
+        team_and_contacts = self._extract_team_and_contacts(file_content_map)
+        media_and_news = self._extract_media_and_news(file_content_map)
         
         # Step 5: Create the summary result
         summary_result = {
@@ -126,9 +180,14 @@ class Summarizer:
             "firm_name": self.current_firm_name,
             "file_count": len(contents),
             "summary": {
-                "portfolio_companies": portfolio_companies
+                "portfolio_companies": portfolio_companies,
+                "investment_strategy": investment_strategy,
+                "industry_focus": industry_focus,
+                "geographic_focus": geographic_focus,
+                "team_and_contacts": team_and_contacts,
+                "media_and_news": media_and_news
             },
-            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            "timestamp": self.get_timestamp()
         }
         
         self.logger.info(f"Summarization complete. Found {len(portfolio_companies)} portfolio companies for {self.current_firm_name}.")
@@ -335,12 +394,359 @@ class Summarizer:
         # Fallback if we can't parse it properly
         return url
     
-    def generate_summary_report(self, summary_result: Dict[str, Any]) -> str:
+    def _extract_investment_strategy(self, file_contents: Dict[str, str]) -> Dict[str, Any]:
         """
-        Generate a formatted summary report.
+        Extract investment strategy, approach, and criteria information from file contents.
+        This replaces the separate approach and criteria extraction methods.
         
         Args:
-            summary_result: The result from summarize_directory
+            file_contents: Dictionary mapping file paths to their contents
+            
+        Returns:
+            Dictionary with extracts and source files
+        """
+        all_extracts = []
+        source_files = set()
+        
+        # Process all files, looking for investment strategy information
+        for file_path, content in file_contents.items():
+            # Skip very large files or binary content
+            if len(content) > 50000 or not self._is_text_content(content):
+                continue
+            
+            try:
+                # Log file being processed
+                file_basename = os.path.basename(file_path)
+                self.logger.info(f"Extracting investment strategy from: {file_basename}")
+                
+                # Get the prompt
+                prompt = get_investment_strategy_prompt(file_basename, content[:50000], self.current_firm_name)
+                
+                # Call the LLM
+                response = self.llm.invoke(prompt)
+                
+                # Extract JSON from the response
+                extracts = self._extract_json_from_response(response.content)
+                
+                if extracts and isinstance(extracts, list):
+                    for extract in extracts:
+                        if isinstance(extract, dict) and "text" in extract:
+                            # Add source file information and track unique source files
+                            extract["source_file"] = file_basename
+                            source_files.add(file_basename)
+                            all_extracts.append(extract)
+            
+            except Exception as e:
+                self.logger.error(f"Error extracting investment strategy from {file_basename}: {str(e)}")
+        
+        self.logger.info(f"Extracted {len(all_extracts)} investment strategy statements from {len(source_files)} files")
+        
+        # Return both the extracts and the set of source files
+        return {
+            "extracts": all_extracts,
+            "source_files": sorted(list(source_files))
+        }
+
+    def _extract_industry_focus(self, file_contents: Dict[str, str]) -> Dict[str, Any]:
+        """
+        Extract industry focus information from file contents.
+        
+        Args:
+            file_contents: Dictionary mapping file paths to their contents
+            
+        Returns:
+            Dictionary with industry focus extracts and summary
+        """
+        all_extracts = []
+        
+        # Process all files, looking for industry focus information
+        for file_path, content in file_contents.items():
+            # Skip very large files or binary content
+            if len(content) > 50000 or not self._is_text_content(content):
+                continue
+            
+            try:
+                # Log file being processed
+                self.logger.info(f"Extracting industry focus from: {os.path.basename(file_path)}")
+                
+                # Get the prompt
+                prompt = get_industry_focus_prompt(os.path.basename(file_path), content[:50000], self.current_firm_name)
+                
+                # Call the LLM
+                response = self.llm.invoke(prompt)
+                
+                # Extract JSON from the response
+                extracts = self._extract_json_from_response(response.content)
+                
+                if extracts and isinstance(extracts, list):
+                    for extract in extracts:
+                        if isinstance(extract, dict) and "text" in extract:
+                            # Add source file information
+                            extract["source_file"] = os.path.basename(file_path)
+                            all_extracts.append(extract)
+                
+            except Exception as e:
+                self.logger.error(f"Error extracting industry focus from {os.path.basename(file_path)}: {str(e)}")
+        
+        self.logger.info(f"Extracted {len(all_extracts)} industry focus statements")
+        
+        # Generate a summary of the industry focus
+        summary = ""
+        if all_extracts:
+            try:
+                self.logger.info("Generating industry focus summary")
+                prompt = get_industry_focus_summary_prompt(all_extracts)
+                response = self.llm.invoke(prompt)
+                summary = response.content.strip()
+            except Exception as e:
+                self.logger.error(f"Error generating industry focus summary: {str(e)}")
+                summary = "Error generating summary."
+        
+        return {
+            "extracts": all_extracts,
+            "summary": summary
+        }
+
+    def _extract_geographic_focus(self, file_contents: Dict[str, str]) -> Dict[str, Any]:
+        """
+        Extract geographic focus information from file contents.
+        
+        Args:
+            file_contents: Dictionary mapping file paths to their contents
+            
+        Returns:
+            Dictionary with geographic focus extracts and summary
+        """
+        all_extracts = []
+        
+        # Process all files, looking for geographic focus information
+        for file_path, content in file_contents.items():
+            # Skip very large files or binary content
+            if len(content) > 50000 or not self._is_text_content(content):
+                continue
+            
+            try:
+                # Log file being processed
+                self.logger.info(f"Extracting geographic focus from: {os.path.basename(file_path)}")
+                
+                # Get the prompt
+                prompt = get_geographic_focus_prompt(os.path.basename(file_path), content[:50000], self.current_firm_name)
+                
+                # Call the LLM
+                response = self.llm.invoke(prompt)
+                
+                # Extract JSON from the response
+                extracts = self._extract_json_from_response(response.content)
+                
+                if extracts and isinstance(extracts, list):
+                    for extract in extracts:
+                        if isinstance(extract, dict) and "text" in extract:
+                            # Add source file information
+                            extract["source_file"] = os.path.basename(file_path)
+                            all_extracts.append(extract)
+                
+            except Exception as e:
+                self.logger.error(f"Error extracting geographic focus from {os.path.basename(file_path)}: {str(e)}")
+        
+        self.logger.info(f"Extracted {len(all_extracts)} geographic focus statements")
+        
+        # Generate a summary of the geographic focus
+        summary = ""
+        if all_extracts:
+            try:
+                self.logger.info("Generating geographic focus summary")
+                prompt = get_geographic_focus_summary_prompt(all_extracts)
+                response = self.llm.invoke(prompt)
+                summary = response.content.strip()
+            except Exception as e:
+                self.logger.error(f"Error generating geographic focus summary: {str(e)}")
+                summary = "Error generating summary."
+        
+        return {
+            "extracts": all_extracts,
+            "summary": summary
+        }
+
+    def _extract_team_and_contacts(self, file_contents: Dict[str, str]) -> List[Dict[str, Any]]:
+        """
+        Extract team and contact information from file contents.
+        
+        Args:
+            file_contents: Dictionary mapping file paths to their contents
+            
+        Returns:
+            List of team and contact extracts
+        """
+        all_extracts = []
+        
+        # Process all files, looking for team and contact information
+        for file_path, content in file_contents.items():
+            # Skip very large files or binary content
+            if len(content) > 50000 or not self._is_text_content(content):
+                continue
+            
+            try:
+                # Log file being processed
+                self.logger.info(f"Extracting team and contacts from: {os.path.basename(file_path)}")
+                
+                # Get the prompt
+                prompt = get_team_and_contacts_prompt(os.path.basename(file_path), content[:50000], self.current_firm_name)
+                
+                # Call the LLM
+                response = self.llm.invoke(prompt)
+                
+                # Extract JSON from the response
+                extracts = self._extract_json_from_response(response.content)
+                
+                if extracts and isinstance(extracts, list):
+                    for extract in extracts:
+                        if isinstance(extract, dict) and "text" in extract:
+                            # Add source file information
+                            extract["source_file"] = os.path.basename(file_path)
+                            all_extracts.append(extract)
+                
+            except Exception as e:
+                self.logger.error(f"Error extracting team and contacts from {os.path.basename(file_path)}: {str(e)}")
+        
+        self.logger.info(f"Extracted {len(all_extracts)} team and contact statements")
+        return all_extracts
+
+    def _extract_media_and_news(self, file_contents: Dict[str, str]) -> List[Dict[str, Any]]:
+        """
+        Extract media and news information from file contents.
+        
+        Args:
+            file_contents: Dictionary mapping file paths to their contents
+            
+        Returns:
+            List of dictionaries containing media and news extracts
+        """
+        # Log the start of extraction
+        self.logger.info("Extracting media and news information")
+        
+        # Initialize variables
+        media_extracts = []
+        
+        # List of files to prioritize based on content indicators
+        priority_files = [p for p in file_contents.keys() if any(
+            term in os.path.basename(p).lower() for term in 
+            ["media", "news", "press", "coverage", "article", "release"]
+        )]
+        
+        # Process priority files first, then others
+        all_files = priority_files + [p for p in file_contents.keys() if p not in priority_files]
+        
+        # Process each file
+        for file_path in all_files:
+            try:
+                # Check if the file is likely to contain text content
+                content = file_contents[file_path]
+                if not self._is_text_content(content):
+                    continue
+                
+                # Determine if this is a priority file by content indicators
+                file_basename = os.path.basename(file_path)
+                is_priority = any(term in file_basename.lower() for term in 
+                                 ["media", "news", "press", "coverage", "article", "release"])
+                
+                # Generate the prompt
+                prompt = get_media_and_news_prompt(
+                    file_basename,
+                    content[:40000],  # Reasonable limit for context
+                    self.current_firm_name,
+                    is_priority=is_priority
+                )
+                
+                # Call the LLM
+                response = self.llm.invoke(prompt)
+                
+                # Extract JSON from the response
+                extracts = self._extract_json_from_response(response.content)
+                
+                if extracts and isinstance(extracts, list):
+                    # Filter out only blatant placeholder responses
+                    valid_extracts = [
+                        extract for extract in extracts
+                        if isinstance(extract, dict) and "text" in extract and 
+                        len(extract["text"]) > 10 and
+                        extract["text"].lower() not in ["media", "news", "no media found"]
+                    ]
+                    
+                    if valid_extracts:
+                        # Add source_file to each extract
+                        for extract in valid_extracts:
+                            extract["source_file"] = file_basename
+                        
+                        self.logger.info(f"Extracted {len(valid_extracts)} media items from {file_basename}")
+                        media_extracts.extend(valid_extracts)
+                    else:
+                        self.logger.warning(f"No valid media extracts found in {file_basename}")
+                else:
+                    self.logger.warning(f"Failed to parse media extracts from {file_basename}")
+                
+            except Exception as e:
+                self.logger.error(f"Error extracting media from {file_path}: {str(e)}")
+        
+        # Return all media extracts - no deduplication
+        self.logger.info(f"Total media and news extracts: {len(media_extracts)}")
+        return media_extracts
+
+    def _extract_json_from_response(self, response_text: str) -> Any:
+        """
+        Extract JSON from LLM response text.
+        
+        Args:
+            response_text: Response text from LLM
+            
+        Returns:
+            Parsed JSON object or None
+        """
+        try:
+            # Try to find a JSON array in the response
+            match = re.search(r'(\[\s*\{.*\}\s*\])', response_text, re.DOTALL)
+            if match:
+                json_str = match.group(1)
+            else:
+                json_start = response_text.find('[')
+                json_end = response_text.rfind(']') + 1
+                
+                if json_start >= 0 and json_end > json_start:
+                    json_str = response_text[json_start:json_end]
+                else:
+                    # No JSON found
+                    return None
+            
+            # Parse the JSON
+            return json.loads(json_str)
+        except json.JSONDecodeError:
+            self.logger.error(f"JSON parsing error: {response_text[:100]}...")
+            return None
+        except Exception as e:
+            self.logger.error(f"Error extracting JSON: {str(e)}")
+            return None
+
+    def _is_text_content(self, content: str) -> bool:
+        """
+        Check if content is likely text (not binary data).
+        
+        Args:
+            content: Content to check
+            
+        Returns:
+            True if content appears to be text
+        """
+        # Simple heuristic: check if content is mostly ASCII
+        try:
+            return len([c for c in content[:1000] if ord(c) < 128]) / len(content[:1000]) > 0.8
+        except:
+            return False
+
+    def generate_summary_report(self, summary_result: Dict[str, Any]) -> str:
+        """
+        Generate a well-formatted summary report.
+        
+        Args:
+            summary_result: Dictionary containing all summary information
             
         Returns:
             Formatted report as a string
@@ -350,17 +756,30 @@ class Summarizer:
         
         directory = summary_result["directory"]
         summary = summary_result["summary"]
-        portfolio_companies = summary.get("portfolio_companies", [])
         timestamp = summary_result["timestamp"]
         
-        # Determine firm name from directory
-        firm_name = getattr(self, 'current_firm_name', directory.split('.')[0].capitalize())
+        # Determine firm name
+        firm_name = summary_result.get("firm_name", directory.split('.')[0].capitalize())
+        
+        # Extract all sections
+        portfolio_companies = summary.get("portfolio_companies", [])
+        investment_strategy = summary.get("investment_strategy", {"extracts": [], "source_files": []})
+        industry_focus = summary.get("industry_focus", {"extracts": [], "summary": ""})
+        geographic_focus = summary.get("geographic_focus", {"extracts": [], "summary": ""})
+        team_and_contacts = summary.get("team_and_contacts", [])
+        media_and_news = summary.get("media_and_news", [])
+        
+        # Track source files for sections that don't have it built in
+        team_sources = sorted(set(extract["source_file"] for extract in team_and_contacts))
+        media_sources = sorted(set(extract.get("source_file", "Unknown source") 
+                                 for extract in media_and_news 
+                                 if isinstance(extract, dict)))
         
         # Count portfolio file companies
         portfolio_file_count = sum(1 for c in portfolio_companies if c.get('from_portfolio_file', False))
         affiliate_count = sum(1 for c in portfolio_companies if c.get('affiliate', False))
         
-        # Build the report
+        # Build the report with semantic sections
         report = f"""
 ==========================================================================
                 DIRECTORY SUMMARY: {directory.upper()}
@@ -368,19 +787,122 @@ class Summarizer:
 Private Equity Firm: {firm_name}
 Generated: {timestamp}
 Files analyzed: {summary_result['file_count']}
-Portfolio.txt companies: {portfolio_file_count}
-Including affiliate transactions: {affiliate_count}
-Total portfolio companies: {len(portfolio_companies)}
+Sections extracted: 6 (Portfolio Companies, Investment Strategy/Criteria, 
+                     Industry Focus, Geographic Focus, Team/Contacts, Media/News)
 ==========================================================================
 
-PORTFOLIO COMPANIES:
-------------------
+"""
+        
+        # INVESTMENT STRATEGY SECTION (combined approach and criteria)
+        report += f"""<section name="INVESTMENT_STRATEGY_APPROACH_AND_CRITERIA">
+# INVESTMENT STRATEGY, APPROACH & CRITERIA
+
+"""
+        if investment_strategy.get("extracts"):
+            # Organize extracts by type
+            approach_extracts = [e for e in investment_strategy["extracts"] if e.get("type") == "approach"]
+            criteria_extracts = [e for e in investment_strategy["extracts"] if e.get("type") == "criteria"]
+            other_extracts = [e for e in investment_strategy["extracts"] if e.get("type") not in ["approach", "criteria"]]
+            
+            # Add approach extracts first
+            if approach_extracts:
+                report += "## Investment Approach & Philosophy\n\n"
+                for extract in approach_extracts:
+                    report += f"{extract['text']}\n\n"
+            
+            # Add criteria extracts next
+            if criteria_extracts:
+                report += "## Investment Criteria\n\n"
+                for extract in criteria_extracts:
+                    report += f"{extract['text']}\n\n"
+            
+            # Add unclassified extracts
+            if other_extracts:
+                if not (approach_extracts or criteria_extracts):
+                    # If no other sections, don't need a header
+                    for extract in other_extracts:
+                        report += f"{extract['text']}\n\n"
+                else:
+                    report += "## Additional Investment Information\n\n"
+                    for extract in other_extracts:
+                        report += f"{extract['text']}\n\n"
+            
+            # Add sources at the end of the section
+            if investment_strategy.get("source_files"):
+                sources_list = ", ".join(investment_strategy["source_files"])
+                report += f"Sources: [{sources_list}]\n"
+        else:
+            report += "No specific investment strategy, approach, or criteria information found in the analyzed documents.\n"
+        report += "</section>\n\n"
+        
+        # INDUSTRY FOCUS SECTION
+        report += f"""<section name="INDUSTRY_FOCUS">
+# INDUSTRY FOCUS
+
+<subsection name="SUMMARY">
+"""
+        if industry_focus.get("summary"):
+            report += f"{industry_focus['summary']}\n"
+        else:
+            report += "No industry focus summary available.\n"
+        report += "</subsection>\n\n"
+        
+        report += f"""<subsection name="EXTRACTED_CONTENT">
+"""
+        if industry_focus.get("extracts"):
+            for extract in industry_focus["extracts"]:
+                report += f"{extract['text']}\n\n"
+            
+            # Add sources at the end
+            industry_sources = sorted(set(extract["source_file"] for extract in industry_focus["extracts"]))
+            if industry_sources:
+                sources_list = ", ".join(industry_sources)
+                report += f"Sources: [{sources_list}]\n"
+        else:
+            report += "No specific industry focus information found in the analyzed documents.\n"
+        report += "</subsection>\n</section>\n\n"
+        
+        # GEOGRAPHIC FOCUS SECTION
+        report += f"""<section name="GEOGRAPHIC_FOCUS">
+# GEOGRAPHIC FOCUS
+
+<subsection name="SUMMARY">
+"""
+        if geographic_focus.get("summary"):
+            report += f"{geographic_focus['summary']}\n"
+        else:
+            report += "No geographic focus summary available.\n"
+        report += "</subsection>\n\n"
+        
+        report += f"""<subsection name="EXTRACTED_CONTENT">
+"""
+        if geographic_focus.get("extracts"):
+            for extract in geographic_focus["extracts"]:
+                report += f"{extract['text']}\n\n"
+            
+            # Add sources at the end
+            geo_sources = sorted(set(extract["source_file"] for extract in geographic_focus["extracts"]))
+            if geo_sources:
+                sources_list = ", ".join(geo_sources)
+                report += f"Sources: [{sources_list}]\n"
+        else:
+            report += "No specific geographic focus information found in the analyzed documents.\n"
+        report += "</subsection>\n</section>\n\n"
+        
+        # PORTFOLIO COMPANIES SECTION
+        report += f"""<section name="PORTFOLIO_COMPANIES">
+# PORTFOLIO COMPANIES
+
+Total portfolio companies: {len(portfolio_companies)}
+From portfolio.txt: {portfolio_file_count}
+Including affiliate transactions: {affiliate_count}
+
 """
         
         # First, add all companies from portfolio.txt file
         portfolio_file_companies = [c for c in portfolio_companies if c.get('from_portfolio_file', False)]
         if portfolio_file_companies:
-            report += "\n----- COMPANIES FROM PORTFOLIO.TXT -----\n\n"
+            report += "----- COMPANIES FROM PORTFOLIO.TXT -----\n\n"
             for i, company in enumerate(portfolio_file_companies):
                 # Add "(Affiliate)" label for affiliate companies
                 company_name = company['name']
@@ -401,19 +923,18 @@ PORTFOLIO COMPANIES:
                         details = details.replace("Context:", "").strip()
                     report += f"   Details: {details}\n"
                     
-                # Simplify source display
-                sources = company['source_file'].split(', ')
-                if len(sources) > 3:
-                    source_display = f"{sources[0]}, {sources[1]} and {len(sources)-2} more files"
-                else:
-                    source_display = company['source_file']
-                    
-                report += f"   Source: {source_display}\n\n"
+                report += "\n"
+            
+            # Add portfolio sources at the end of this subsection
+            portfolio_sources = sorted(set(c['source_file'] for c in portfolio_file_companies))
+            if portfolio_sources:
+                sources_list = ", ".join(portfolio_sources)
+                report += f"Sources: [{sources_list}]\n\n"
         
         # Then add companies from other files
         other_companies = [c for c in portfolio_companies if not c.get('from_portfolio_file', False)]
         if other_companies:
-            report += "\n----- COMPANIES FROM OTHER SOURCES -----\n\n"
+            report += "----- COMPANIES FROM OTHER SOURCES -----\n\n"
             for i, company in enumerate(other_companies):
                 # Add "(Affiliate)" label for affiliate companies
                 company_name = company['name']
@@ -433,22 +954,71 @@ PORTFOLIO COMPANIES:
                     if "Context:" in details:
                         details = details.replace("Context:", "").strip()
                     report += f"   Details: {details}\n"
-                    
-                # Simplify source display
-                sources = company['source_file'].split(', ')
-                if len(sources) > 3:
-                    source_display = f"{sources[0]}, {sources[1]} and {len(sources)-2} more files"
-                else:
-                    source_display = company['source_file']
-                    
-                report += f"   Source: {source_display}\n\n"
+                
+                report += "\n"
+            
+            # Add other sources at the end of this subsection
+            other_sources = sorted(set(c['source_file'] for c in other_companies))
+            if other_sources:
+                sources_list = ", ".join(other_sources)
+                report += f"Sources: [{sources_list}]\n"
         
         # If no companies were found
         if not portfolio_companies:
             report += "No portfolio companies identified from the analyzed documents.\n"
-            report += "This could indicate either:\n"
-            report += "1. The documents don't contain portfolio company information\n"
-            report += "2. The LLM extraction method couldn't identify portfolio companies\n\n"
+        report += "</section>\n\n"
+        
+        # TEAM AND CONTACTS SECTION
+        report += f"""<section name="TEAM_AND_CONTACTS">
+# TEAM AND CONTACTS
+
+"""
+        if team_and_contacts:
+            for extract in team_and_contacts:
+                report += f"{extract['text']}\n\n"
+            
+            # Add sources at the end
+            if team_sources:
+                sources_list = ", ".join(team_sources)
+                report += f"Sources: [{sources_list}]\n"
+        else:
+            report += "No specific team or contact information found in the analyzed documents.\n"
+        report += "</section>\n\n"
+        
+        # MEDIA AND NEWS SECTION
+        report += f"""<section name="MEDIA_AND_NEWS">
+# MEDIA AND NEWS
+
+"""
+        if media_and_news:
+            # Safely get source files with a default value if key is missing
+            media_sources = sorted(set(extract.get("source_file", "Unknown source") 
+                                     for extract in media_and_news 
+                                     if isinstance(extract, dict)))
+            
+            if media_sources:
+                report += f"Sources: {', '.join(media_sources)}\n"
+            
+            # Process ALL media items with improved formatting
+            for i, extract in enumerate(media_and_news):
+                if isinstance(extract, dict) and "text" in extract:
+                    text = extract["text"].strip()
+                    if text:
+                        # Add a separator between media items for better readability
+                        if i > 0:
+                            report += "-" * 40  # Add separator line between items
+                        
+                        # Format the text with proper spacing
+                        # Split into paragraphs and preserve formatting
+                        paragraphs = text.split("\n")
+                        for paragraph in paragraphs:
+                            if paragraph.strip():
+                                report += paragraph
+                        
+                        report += "\n"  # Add extra blank line after each item
+        else:
+            report += "No media or news information available.\n"
+        report += "</section>\n\n"
         
         # Add unprocessed files section
         if hasattr(summary_result, 'unprocessed_files') and summary_result.get('unprocessed_files'):
@@ -456,7 +1026,7 @@ PORTFOLIO COMPANIES:
             report += "The following files could not be fully processed by the LLM:\n"
             for file in sorted(set(summary_result['unprocessed_files'])):
                 report += f"- {file}\n"
-            report += "\nNote: These files were skipped during portfolio company extraction.\n"
+            report += "\nNote: These files were skipped during information extraction.\n"
         
         report += "==========================================================================\n"
         report += "Note: This summary was automatically generated and should be reviewed for accuracy.\n"
@@ -464,94 +1034,92 @@ PORTFOLIO COMPANIES:
         
         return report
 
-    def _generate_summary_report(self, companies: List[Dict[str, Any]], directory_name: str) -> str:
+    def _extract_firm_name(self, directory_name: str, file_contents: Dict[str, str]) -> str:
         """
-        Generate a summary report for the directory.
+        Extract the private equity firm name from the index.txt file.
         
         Args:
-            companies: List of company objects
-            directory_name: Name of the directory
+            directory_name: The directory name (domain)
+            file_contents: Dictionary of file path to content
             
         Returns:
-            Summary report text
+            Extracted firm name or default name
         """
-        # ... existing code ...
+        # Look for index.txt file
+        index_files = [f for f in file_contents.keys() if "index" in f.lower()]
+        if not index_files:
+            self.logger.warning(f"No index.txt found in {directory_name}, using domain as firm name")
+            # Extract domain name from directory (remove .com, etc.)
+            domain_parts = directory_name.split('.')
+            return domain_parts[0].capitalize()
         
-        # Add summary of companies found
-        report += f"\nAnalysis found {len(companies)} portfolio companies currently owned by Branford Castle Partners:\n\n"
+        # Get content from the first index file
+        index_content = file_contents[index_files[0]]
         
-        # Add each company to the report
-        for i, company in enumerate(companies, 1):
-            report += f"{i}. {company['name']}\n"
-            report += f"   Description: {company['description']}\n"
-            report += f"   Details: {company['details']}\n"
-            report += f"   Source: {company['source_file']}\n"
-            report += f"   Confidence: {company['confidence_score']}\n\n"
+        # Look for TITLE line in the content
+        title_match = re.search(r'TITLE:\s*(.*?)(?:\s*-|\n)', index_content)
+        if title_match:
+            title = title_match.group(1).strip()
+            # Extract first word that seems like a company name
+            words = title.split()
+            # Skip common words like "Home", "Welcome", etc.
+            common_words = ["home", "welcome", "the", "a", "an"]
+            for word in words:
+                if word.lower() not in common_words and len(word) > 2:
+                    self.logger.info(f"Extracted firm name '{word}' from index.txt title")
+                    return word
         
-        # Add unprocessed files section
-        if hasattr(self, 'unprocessed_files') and self.unprocessed_files:
-            report += "\n===== FILES WITH PROCESSING ISSUES =====\n"
-            report += "The following files could not be fully processed by the LLM:\n"
-            for file in sorted(set(self.unprocessed_files)):
-                report += f"- {file}\n"
-            report += "\nNote: These files were skipped during portfolio company extraction.\n"
+        # If we couldn't find a good name in the title, try to find it in the content
+        # Look for phrases like "About [Company]", "[Company] is a private equity firm", etc.
+        about_match = re.search(r'About\s+(\w+)', index_content)
+        if about_match:
+            return about_match.group(1)
         
-        return report
+        # If all else fails, use the domain name
+        domain_parts = directory_name.split('.')
+        firm_name = domain_parts[0].capitalize()
+        self.logger.info(f"Using domain as firm name: {firm_name}")
+        return firm_name
 
-    def _save_summary(self, report: str, companies: List[Dict[str, Any]], directory_name: str, output_dir: str, output_json: bool) -> str:
+    def _company_types_compatible(self, name1: str, name2: str) -> bool:
         """
-        Save summary report to file.
+        Check if two companies are of compatible types based on their names.
         
         Args:
-            report: Summary report text
-            companies: List of company objects
-            directory_name: Name of the directory
-            output_dir: Directory to save output
-            output_json: Whether to output JSON
+            name1: First company name
+            name2: Second company name
             
         Returns:
-            Path to summary report
+            True if companies appear to be of compatible types
         """
-        # Create output directory if it doesn't exist
-        os.makedirs(output_dir, exist_ok=True)
-        
-        # Sanitize directory name for filename
-        safe_name = "".join(c if c.isalnum() or c in "._- " else "_" for c in directory_name)
-        safe_name = safe_name.replace(" ", "_").lower()
-        
-        # Generate report filename
-        report_filename = f"{safe_name}_analysis_report.txt"
-        report_path = os.path.join(output_dir, report_filename)
-        
-        # Write report to file
-        with open(report_path, "w") as f:
-            f.write(report)
-        
-        self.logger.info(f"Saved summary report to {report_path}")
-        
-        # Save JSON if requested
-        if output_json:
-            json_filename = f"{safe_name}_analysis_data.json"
-            json_path = os.path.join(output_dir, json_filename)
+        # Extract company type indicators from names
+        def extract_type(name):
+            types = []
+            name_lower = name.lower()
             
-            # Prepare JSON data
-            json_data = {
-                "directory": directory_name,
-                "portfolio_companies": companies,
-                "company_count": len(companies)
-            }
+            # Check for specific industry keywords
+            if any(term in name_lower for term in ["fluid", "water", "liquid", "pump"]):
+                types.append("fluid")
             
-            # Add unprocessed files to JSON data
-            if hasattr(self, 'unprocessed_files') and self.unprocessed_files:
-                json_data["unprocessed_files"] = sorted(set(self.unprocessed_files))
+            if any(term in name_lower for term in ["display", "retail", "store", "shop"]):
+                types.append("retail")
             
-            # Write JSON to file
-            with open(json_path, "w") as f:
-                json.dump(json_data, f, indent=2)
+            if any(term in name_lower for term in ["handling", "packaging", "container"]):
+                types.append("material handling")
             
-            self.logger.info(f"Saved JSON data to {json_path}")
+            if any(term in name_lower for term in ["tech", "software", "digital", "data"]):
+                types.append("technology")
+            
+            return types
         
-        return report_path
+        type1 = extract_type(name1)
+        type2 = extract_type(name2)
+        
+        # If both have type indicators and they don't overlap, they're different companies
+        if type1 and type2 and not set(type1).intersection(set(type2)):
+            return False
+        
+        return True
 
     def _deduplicate_companies(self, companies: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """
@@ -578,7 +1146,7 @@ PORTFOLIO COMPANIES:
             details = company["details"]
             
             # If the name contains a domain extension but doesn't have website in details
-            if (name.lower().endswith('.com') or name.lower().endswith('.net')) and "website" not in details.lower():
+            if (name.lower().endswith('.com') or name.lower().endswith('.net')) and "website:" not in details.lower():
                 # Extract proper name and add website to details
                 proper_name = self._extract_company_name_from_url(name)
                 company["name"] = proper_name
@@ -656,7 +1224,7 @@ PORTFOLIO COMPANIES:
                         deduplicated[existing_name]["source_file"] = f"{deduplicated[existing_name]['source_file']}, {company['source_file']}"
                     break
                 
-                # Use simple name variant matching (restored from previous version)
+                # Use simple name variant matching
                 if self._is_same_company_simple(normalized_name, existing_name):
                     found_match = True
                     self.duplicate_records.append({
@@ -676,7 +1244,7 @@ PORTFOLIO COMPANIES:
                         deduplicated[existing_name]["source_file"] = f"{deduplicated[existing_name]['source_file']}, {company['source_file']}"
                     break
                 
-                # Use similarity score as a fallback - with a lower threshold of 0.8 instead of 0.95
+                # Use similarity score as a fallback
                 similarity_score = self._name_similarity(normalized_name, existing_name)
                 if similarity_score > 0.8:
                     found_match = True
@@ -841,283 +1409,74 @@ PORTFOLIO COMPANIES:
         # Cap at 1.0
         return min(baseline + word_similarity, 1.0)
 
-    def _clean_company_data(self, companies: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    def _save_deduplication_report(self, directory_name: str, output_dir: str) -> Optional[str]:
         """
-        Clean up company data to remove partial sentences and irrelevant context.
+        Save a report of deduplication decisions.
         
         Args:
-            companies: List of company objects
+            directory_name: The name of the processed directory
+            output_dir: Directory to save the report
             
         Returns:
-            Cleaned list of company objects
+            Path to the saved report or None if no report generated
         """
-        cleaned_companies = []
-        
-        for company in companies:
-            # Clean up description
-            description = company.get("description", "")
-            if "Context:" in description:
-                description = description.replace("Context:", "").strip()
-                # Find first complete sentence
-                first_period = description.find('.')
-                if first_period > 0:
-                    description = description[:first_period+1]
-                
-            # Clean up details
-            details = company.get("details", "")
-            if "Context:" in details:
-                details = details.replace("Context:", "").strip()
-                # Find the first sentence if it's long
-                if len(details) > 100:
-                    first_period = details.find('.')
-                    if first_period > 0 and first_period < 100:
-                        details = details[:first_period+1]
-            
-            # Create cleaned company entry
-            cleaned_company = company.copy()
-            cleaned_company["description"] = description if description else "No description available"
-            cleaned_company["details"] = details if details else "No additional details"
-            
-            cleaned_companies.append(cleaned_company)
-        
-        return cleaned_companies
-
-    def summarize(self, directory: str, output_dir: str = None, output_json: bool = False) -> str:
-        """
-        Summarize the directory contents and save the report.
-        
-        Args:
-            directory: Directory name to analyze
-            output_dir: Directory to save output files
-            output_json: Whether to save JSON data
-            
-        Returns:
-            Path to the summary report file
-        """
-        # Reset unprocessed files list
-        self.unprocessed_files = []
-        
-        # Get the summary result
-        summary_result = self.summarize_directory(directory)
-        
-        if not summary_result["success"]:
-            self.logger.error(f"Summarization failed: {summary_result.get('error', 'Unknown error')}")
+        if not hasattr(self, 'duplicate_records') or not hasattr(self, 'all_extracted_companies'):
+            self.logger.warning("No deduplication data available to generate report")
             return None
         
-        # Clean up company data
-        companies = summary_result["summary"]["portfolio_companies"]
-        cleaned_companies = self._clean_company_data(companies)
-        summary_result["summary"]["portfolio_companies"] = cleaned_companies
-        
-        # Generate and save the deduplication report if we have the data
-        if hasattr(self, 'all_extracted_companies') and output_dir:
-            try:
-                dedup_path = self._save_deduplication_report(directory, output_dir)
-                self.logger.info(f"Generated deduplication report at: {dedup_path}")
-            except Exception as e:
-                self.logger.error(f"Error generating deduplication report: {str(e)}")
-        else:
-            self.logger.warning("No deduplication data available for reporting")
-        
-        # Generate report from the summary result
-        report = self.generate_summary_report(summary_result)
-        
-        # Save the report and return the path
-        if output_dir:
-            return self._save_summary(report, cleaned_companies, directory, output_dir, output_json)
-        
-        return report
-
-    def _save_deduplication_report(self, directory_name: str, output_dir: str) -> str:
-        """
-        Save a detailed report of the deduplication process.
-        
-        Args:
-            directory_name: The name of the directory
-            output_dir: Directory to save output
+        try:
+            # Generate report filename
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            safe_dir_name = directory_name.replace(".", "_").replace("/", "_")
+            filename = f"{safe_dir_name}_deduplication_report_{timestamp}.txt"
+            report_path = os.path.join(output_dir, filename)
             
-        Returns:
-            Path to the deduplication report file
-        """
-        if not hasattr(self, 'all_extracted_companies') or not hasattr(self, 'duplicate_records'):
-            self.logger.warning("No deduplication data available")
+            # Write report
+            with open(report_path, "w") as f:
+                f.write(f"Deduplication Report for {directory_name}\n")
+                f.write(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                f.write(f"Total companies before deduplication: {len(self.all_extracted_companies)}\n")
+                f.write(f"Total companies after deduplication: {len(self.kept_companies)}\n")
+                f.write(f"Duplicates found: {len(self.duplicate_records)}\n\n")
+                
+                # Report on exact matches
+                exact_matches = [r for r in self.duplicate_records if r.get('match_type') == 'exact']
+                if exact_matches:
+                    f.write(f"EXACT MATCHES ({len(exact_matches)}):\n")
+                    for match in exact_matches:
+                        f.write(f"  \"{match['duplicate_name']}\" -> \"{match['matched_with']}\" [Source: {match['source']}]\n")
+                    f.write("\n")
+                
+                # Report on domain variants
+                domain_variants = [r for r in self.duplicate_records if r.get('match_type') == 'domain variant']
+                if domain_variants:
+                    f.write(f"DOMAIN VARIANTS ({len(domain_variants)}):\n")
+                    for match in domain_variants:
+                        f.write(f"  \"{match['duplicate_name']}\" -> \"{match['matched_with']}\" [Source: {match['source']}]\n")
+                    f.write("\n")
+                
+                # Report on name variants
+                name_variants = [r for r in self.duplicate_records if r.get('match_type') == 'name variant']
+                if name_variants:
+                    f.write(f"NAME VARIANTS ({len(name_variants)}):\n")
+                    for match in name_variants:
+                        f.write(f"  \"{match['duplicate_name']}\" -> \"{match['matched_with']}\" [Source: {match['source']}]\n")
+                    f.write("\n")
+                
+                # Report on similarity matches
+                similarity_matches = [r for r in self.duplicate_records if r.get('match_type') == 'similar']
+                if similarity_matches:
+                    f.write(f"SIMILARITY MATCHES ({len(similarity_matches)}):\n")
+                    for match in similarity_matches:
+                        score = match.get('similarity_score', 'N/A')
+                        f.write(f"  \"{match['duplicate_name']}\" -> \"{match['matched_with']}\" (score: {score}) [Source: {match['source']}]\n")
+                    f.write("\n")
+            
+            return report_path
+        except Exception as e:
+            self.logger.error(f"Error generating deduplication report: {str(e)}")
             return None
-        
-        # Create output directory if it doesn't exist
-        os.makedirs(output_dir, exist_ok=True)
-        
-        # Sanitize directory name for filename
-        safe_name = "".join(c if c.isalnum() or c in "._- " else "_" for c in directory_name)
-        safe_name = safe_name.replace(" ", "_").lower()
-        
-        # Generate report filename
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        report_filename = f"{safe_name}_deduplication_report_{timestamp}.txt"
-        report_path = os.path.join(output_dir, report_filename)
-        
-        # Count affiliates
-        affiliate_count = sum(1 for c in self.all_extracted_companies if c.get('affiliate', False))
-        final_affiliate_count = sum(1 for c in self.kept_companies if c.get('affiliate', False))
-        
-        # Build the report
-        report = f"""
-==========================================================================
-            DEDUPLICATION REPORT: {directory_name.upper()}
-==========================================================================
-Generated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
-==========================================================================
 
-SUMMARY:
--------
-Total companies extracted: {len(self.all_extracted_companies)}
-Including affiliate transactions: {affiliate_count}
-Duplicates found: {len(self.duplicate_records)}
-Final unique companies: {len(self.kept_companies)}
-Final affiliate transactions: {final_affiliate_count}
-
-==========================================================================
-ALL EXTRACTED COMPANIES ({len(self.all_extracted_companies)}):
-==========================================================================
-"""
-        
-        # Add each extracted company
-        for i, company in enumerate(self.all_extracted_companies):
-            # Add "(Affiliate)" label if needed
-            company_name = company['name']
-            if company.get('affiliate', False):
-                company_name += " (Affiliate)"
-                
-            report += f"{i+1}. {company_name}\n"
-            report += f"   Description: {company['description']}\n"
-            report += f"   Source: {company['source_file']}\n"
-            report += f"   Confidence Score: {company['confidence_score']}\n\n"
-        
-        report += f"""
-==========================================================================
-DUPLICATE COMPANIES ({len(self.duplicate_records)}):
-==========================================================================
-"""
-        
-        # Add each duplicate and what it matched with
-        for i, dup in enumerate(self.duplicate_records):
-            report += f"{i+1}. \"{dup['duplicate_name']}\" was merged with \"{dup['matched_with']}\"\n"
-            report += f"   Match Type: {dup['match_type']}\n"
-            if 'similarity_score' in dup:
-                report += f"   Similarity Score: {dup['similarity_score']:.2f}\n"
-            report += f"   Source: {dup['source']}\n\n"
-        
-        report += f"""
-==========================================================================
-FINAL UNIQUE COMPANIES ({len(self.kept_companies)}):
-==========================================================================
-"""
-        
-        # Add each final company
-        for i, company in enumerate(self.kept_companies):
-            # Add "(Affiliate)" label if needed
-            company_name = company['name']
-            if company.get('affiliate', False):
-                company_name += " (Affiliate)"
-                
-            report += f"{i+1}. {company_name}\n"
-            report += f"   Description: {company['description']}\n"
-            report += f"   Details: {company['details']}\n"
-            report += f"   Source: {company['source_file']}\n"
-            report += f"   Confidence Score: {company['confidence_score']}\n\n"
-        
-        report += "==========================================================================\n"
-        
-        # Write report to file
-        with open(report_path, "w") as f:
-            f.write(report)
-        
-        self.logger.info(f"Deduplication report saved to: {report_path}")
-        
-        return report_path
-
-    def _extract_firm_name(self, directory_name: str, file_contents: Dict[str, str]) -> str:
-        """
-        Extract the private equity firm name from the index.txt file.
-        
-        Args:
-            directory_name: The directory name (domain)
-            file_contents: Dictionary of file path to content
-            
-        Returns:
-            Extracted firm name or default name
-        """
-        # Look for index.txt file
-        index_files = [f for f in file_contents.keys() if "index" in f.lower()]
-        if not index_files:
-            self.logger.warning(f"No index.txt found in {directory_name}, using domain as firm name")
-            # Extract domain name from directory (remove .com, etc.)
-            domain_parts = directory_name.split('.')
-            return domain_parts[0].capitalize()
-        
-        # Get content from the first index file
-        index_content = file_contents[index_files[0]]
-        
-        # Look for TITLE line in the content
-        title_match = re.search(r'TITLE:\s*(.*?)(?:\s*-|\n)', index_content)
-        if title_match:
-            title = title_match.group(1).strip()
-            # Extract first word that seems like a company name
-            words = title.split()
-            # Skip common words like "Home", "Welcome", etc.
-            common_words = ["home", "welcome", "the", "a", "an"]
-            for word in words:
-                if word.lower() not in common_words and len(word) > 2:
-                    self.logger.info(f"Extracted firm name '{word}' from index.txt title")
-                    return word
-        
-        # If we couldn't find a good name in the title, try to find it in the content
-        # Look for phrases like "About [Company]", "[Company] is a private equity firm", etc.
-        about_match = re.search(r'About\s+(\w+)', index_content)
-        if about_match:
-            return about_match.group(1)
-        
-        # If all else fails, use the domain name
-        domain_parts = directory_name.split('.')
-        firm_name = domain_parts[0].capitalize()
-        self.logger.info(f"Using domain as firm name: {firm_name}")
-        return firm_name
-
-    def _company_types_compatible(self, name1: str, name2: str) -> bool:
-        """
-        Check if two companies are of compatible types based on their names.
-        
-        Args:
-            name1: First company name
-            name2: Second company name
-            
-        Returns:
-            True if companies appear to be of compatible types
-        """
-        # Extract company type indicators from names
-        def extract_type(name):
-            types = []
-            name_lower = name.lower()
-            
-            # Check for specific industry keywords
-            if any(term in name_lower for term in ["fluid", "water", "liquid", "pump"]):
-                types.append("fluid")
-            
-            if any(term in name_lower for term in ["display", "retail", "store", "shop"]):
-                types.append("retail")
-            
-            if any(term in name_lower for term in ["handling", "packaging", "container"]):
-                types.append("material handling")
-            
-            if any(term in name_lower for term in ["tech", "software", "digital", "data"]):
-                types.append("technology")
-            
-            return types
-        
-        type1 = extract_type(name1)
-        type2 = extract_type(name2)
-        
-        # If both have type indicators and they don't overlap, they're different companies
-        if type1 and type2 and not set(type1).intersection(set(type2)):
-            return False
-        
-        return True
+    def get_timestamp(self) -> str:
+        """Get current timestamp formatted as string."""
+        return datetime.now().strftime("%Y-%m-%d %H:%M:%S")

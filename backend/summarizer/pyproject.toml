@@ -1,0 +1,68 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "summarizer"
+version = "0.1.0"
+description = "Private equity firm website summarizer tool"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = { text = "Proprietary" }
+dependencies = [
+    # Core dependencies
+    "langchain>=0.3.20",
+    "langchain-google-genai>=2.1.2",
+    "langchain-core>=0.3.50",
+    "langchain-community>=0.3.19",
+    "google-generativeai>=0.6.17",
+    "python-dotenv>=1.0.1",
+    "boto3>=1.37.26",
+    "regex>=2024.11.6",
+    
+    # Additional dependencies from your environment
+    "httpx>=0.28.1",
+    "pydantic>=2.10.6",
+    "tenacity>=9.0.0",
+    "tqdm>=4.67.1",
+    "numpy>=2.2.4",
+    "aiohttp>=3.11.14",
+    "pyyaml>=6.0.2",
+    "tiktoken>=0.9.0",
+    "dataclasses-json>=0.6.7",
+    "sqlalchemy>=2.0.39",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+]
+
+rag = [
+    "langchain-text-splitters>=0.3.7",
+    "langchain-qdrant>=0.2.0",
+    "qdrant-client>=1.13.3",
+]
+
+workflow = [
+    "langgraph>=0.3.14",
+    "langgraph-sdk>=0.1.57",
+    "langgraph-checkpoint>=2.0.21",
+]
+
+openai = [
+    "langchain-openai>=0.3.9",
+    "openai>=1.66.3",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["backend"]
+
+[tool.black]
+line-length = 88
+target-version = ["py312"]
+
+[project.scripts]
+run_summarizer = "backend.summarizer.run_summarizer:main" 
