@@ -16,6 +16,7 @@ IMPORTANT INSTRUCTIONS:
 6. For portfolio information, include both company names AND their websites when available.
 7. If the original response appears incomplete, proactively mention that you're providing the full list.
 8. Only say "I'm sorry, I don't know the answer to that question" if the retrieved information does not contain any relevant details.
+9. DO NOT add or invent information that is not present in the retrieved content or chat history.
 
 Example:
 User: What is Branford's portfolio?

@@ -1,0 +1,120 @@
+Functionality,Summary,Algorithms/Techniques
+Search,"Finding and retrieving relevant information based on queries or parameters. Search systems analyze and index large volumes of data to quickly return the most relevant results to user queries.","• Inverted indexing: Maps terms to documents containing them
+• Vector search/embeddings: Represent documents and queries in a semantic vector space
+• BM25/TF-IDF: Term frequency-based relevance scoring
+• PageRank: Ranking webpages based on linking patterns
+• BERT/transformers: Contextual understanding of search queries
+• Hybrid search: Combining keyword and semantic search techniques
+• Learning to Rank (LTR): Machine learning approaches for result ranking
+• Query expansion: Adding related terms to improve recall
+• LLM-based search: Using LLMs to understand queries and rank results based on semantic understanding"
+Recommendation,"Suggesting relevant items, content, or actions based on user preferences, behavior patterns, and contextual data. Recommendation systems aim to predict user interests and provide personalized suggestions.","• Collaborative filtering: Recommendations based on similar users' preferences
+• Content-based filtering: Recommendations based on item attributes
+• Matrix factorization: Decomposing user-item interaction matrices (e.g., SVD)
+• Deep learning models: Neural networks to capture complex preference patterns
+• Association rule mining: Finding relationships between items
+• Session-based recommendations: Using short-term behavior patterns
+• Hybrid approaches: Combining multiple recommendation strategies
+• Reinforcement learning: Learning from user feedback and rewards
+• LLM-based recommendations: Using LLMs to understand user preferences and generate contextual recommendations
+• Knowledge graph-based: Using entity relationships for recommendations"
+Resource Allocation,"Optimally distributing limited resources (time, computing power, physical assets) across competing demands while accounting for constraints and dependencies. Involves sophisticated decision-making about how to distribute various resources to achieve objectives.","• Linear programming: Optimizing linear objective functions with constraints
+• Integer programming: Resource allocation with indivisible resources
+• Genetic algorithms: Evolutionary approaches to optimization
+• Simulated annealing: Probabilistic optimization technique
+• Constraint satisfaction: Finding solutions that satisfy all constraints
+• Multi-objective optimization: Balancing multiple competing objectives
+• Queuing theory: Managing resource access and service times
+• Reinforcement learning: Learning optimal allocation policies through experience
+• LLM-assisted decision-making: Using LLMs to analyze complex constraint scenarios and suggest allocation strategies
+• Auction-based allocation: Market-based approaches to resource distribution"
+Planning and Optimization,"Determining the most efficient sequence of actions to achieve goals, often under constraints, and finding the best possible solutions from a set of alternatives. Planning systems create structured pathways to accomplish complex objectives.","• A* search: Heuristic-based path finding
+• Monte Carlo Tree Search: Simulation-based planning
+• Dynamic programming: Breaking problems into subproblems
+• Stochastic optimization: Planning under uncertainty
+• PDDL (Planning Domain Definition Language): Symbolic planning
+• Hierarchical Task Networks: Breaking goals into sub-goals
+• Mixed-integer programming: Optimization with discrete and continuous variables
+• Evolutionary algorithms: Nature-inspired search techniques
+• LLM-based planning: Using LLMs to generate and evaluate plans in natural language
+• Reinforcement learning for planning: Learning optimal policies through simulation"
+Natural Language Understanding/Processing,"Comprehending, interpreting, and generating human language to enable meaningful interactions between machines and people. NLP systems process and analyze text data to extract meaning and facilitate communication.","• Transformer-based models: BERT, GPT, T5, etc. for contextual understanding
+• Word embeddings: Word2Vec, GloVe for semantic representations
+• Named Entity Recognition: Identifying persons, organizations, locations, etc.
+• Sentiment analysis: Determining emotional tone of text
+• Topic modeling: LDA, BERTopic for discovering themes in text
+• Dependency parsing: Analyzing grammatical structure
+• Sequence-to-sequence models: For translation, summarization
+• Retrieval-augmented generation (RAG): Combining knowledge retrieval with generation
+• Few-shot learning: Teaching LLMs with minimal examples
+• Fine-tuning: Adapting language models to specific domains"
+Knowledge Representation,"Structuring and storing information in ways that enable machines to perform reasoning, inference, and complex problem-solving. Knowledge representations capture relationships and facts about the world in machine-usable formats.","• Ontologies: Formal representations of domain knowledge
+• Knowledge graphs: Entity-relationship structures
+• Semantic networks: Concept maps and relationships
+• Rules-based systems: Logic-based inference engines
+• Bayesian networks: Probabilistic graphical models
+• Frame-based representations: Structured templates for concepts
+• Description logics: Formal knowledge representation languages
+• Vector embeddings: Numerical representations of concepts
+• LLM-based knowledge distillation: Extracting structured knowledge from LLMs
+• Neuro-symbolic approaches: Combining neural networks with symbolic reasoning"
+Anomaly Detection,"Identifying patterns, events, or observations that deviate significantly from expected behavior, often indicating potential issues or opportunities. Anomaly detection systems monitor data streams to find outliers and unusual patterns.","• Statistical methods: Z-score, DBSCAN, IQR
+• Isolation Forest: Efficient outlier isolation
+• One-class SVM: Learning the boundary of normal data
+• Autoencoders: Neural networks for anomaly detection
+• Local Outlier Factor: Density-based approach
+• Time series decomposition: Trend, seasonality, and residual analysis
+• Gaussian mixture models: Modeling data distributions
+• LSTM/RNN-based detection: For sequence anomalies
+• LLM-guided anomaly interpretation: Using LLMs to explain and contextualize detected anomalies
+• Graph-based anomaly detection: Finding unusual patterns in networks"
+Classification and Categorization,"Organizing entities, data, or content based on their attributes into meaningful groups to enable better understanding and processing. Classification systems assign items to predefined categories based on their features.","• Support Vector Machines: Finding optimal decision boundaries
+• Random Forests: Ensemble of decision trees
+• Neural Networks: Deep learning for complex patterns
+• Naive Bayes: Probabilistic classifier based on Bayes' theorem
+• k-Nearest Neighbors: Instance-based learning
+• Logistic Regression: Probabilistic classification
+• Gradient Boosting: Sequential ensemble methods
+• Transfer learning: Reusing knowledge across domains
+• Zero-shot classification: LLM-based categorization without specific training
+• Few-shot learning: Classification with minimal examples"
+Prediction and Forecasting,"Anticipating future events, trends, or values based on historical data and identified patterns to support proactive decision-making. Prediction systems model relationships in data to estimate future outcomes.","• ARIMA/SARIMA: Time series forecasting models
+• Prophet: Time series forecasting with seasonality
+• LSTM/GRU networks: Deep learning for sequential data
+• Regression techniques: Linear, polynomial, ridge, lasso
+• XGBoost/LightGBM: Gradient boosting frameworks
+• Bayesian methods: Probabilistic forecasting
+• Ensemble methods: Combining multiple predictive models
+• Neural forecasting: Transformer-based time series models
+• LLM-based scenario planning: Using LLMs to generate possible future scenarios
+• Causal inference: Understanding cause-effect relationships"
+Decision Support,"Providing insights, analysis, and recommendations to help humans make better-informed decisions by processing complex data sets. Decision support systems augment human judgment with data-driven insights.","• Decision trees: Modeling decision paths and outcomes
+• Bayesian decision theory: Probabilistic decision-making
+• Multi-criteria decision analysis: Balancing competing priorities
+• Influence diagrams: Graphical decision models
+• Analytic hierarchy process: Structured decision technique
+• Monte Carlo simulation: Modeling uncertainty in decisions
+• Expert systems: Rule-based decision guidance
+• Optimization models: Finding optimal solutions to decision problems
+• LLM-based decision analysis: Using LLMs to consider multiple perspectives and explain trade-offs
+• Explainable AI: Techniques for understanding model recommendations"
+Personalization,"Adapting experiences, interfaces, and content to individual user preferences, needs, and behaviors to increase relevance and engagement. Personalization systems create tailored interactions based on user profiles and context.","• User profiling: Building models of user preferences
+• Clustering techniques: Grouping similar users
+• A/B testing: Experimental approach to personalization
+• Reinforcement learning: Learning optimal personalization strategies
+• Contextual bandits: Balancing exploration and exploitation
+• Collaborative filtering: Using group behavior for personalization
+• Rule-based personalization: Using predefined logic rules
+• Deep learning for user modeling: Neural networks for preference prediction
+• LLM-based adaptive content generation: Creating personalized content with LLMs
+• Online learning: Continuously updating personalization models"
+Computer Vision,"Processing and understanding visual information from the world, including image recognition, object detection, and scene understanding. Computer vision systems interpret and analyze visual data to extract meaning and automate visual tasks.","• Convolutional Neural Networks (CNNs): Deep learning for image analysis
+• YOLO/Faster R-CNN: Object detection frameworks
+• U-Net/Mask R-CNN: Image segmentation models
+• Generative models: GANs, Diffusion models for image generation
+• SIFT/SURF: Feature detection and matching
+• Optical flow: Motion estimation between frames
+• Pose estimation: Identifying position and orientation
+• Visual transformers (ViT): Attention-based computer vision
+• Multimodal LLMs: Combining visual and language understanding
+• Vision-language models: Connecting images with text descriptions"

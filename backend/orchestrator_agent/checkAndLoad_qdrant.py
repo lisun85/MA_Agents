@@ -1,8 +1,9 @@
 from qdrant_client import QdrantClient
 from qdrant_client.http.models import Distance, VectorParams, Filter
-from langchain_openai import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_core.documents import Document
 from langchain_qdrant import QdrantVectorStore
+from langchain_core.prompts import PromptTemplate
 import os
 from dotenv import load_dotenv 
 import re
@@ -86,6 +87,34 @@ def clear_collection(client, collection_name):
         except Exception as e2:
             print(f"Failed to recreate collection: {e2}")
             return False
+        
+def reformat_text(text, filename):
+    PROMPT = PromptTemplate(
+        template="""
+        Given the following text create and filename, create a new format with two sections separated by newlines. Take advantage of the filename to create a title and summary. A filename that contains the word 'portfolio' or equalivent could indicate a list of portfolio companies.
+        
+        1. Title that summarizes the content
+        2. Summary of the content
+        
+        Filename: {filename}
+        Text:
+        {text}
+        """
+    )
+    
+    # Initialize the ChatOpenAI model
+    llm = ChatOpenAI(temperature=0.0, model="gpt-4o")
+    
+    # Format the prompt with the input text
+    formatted_prompt = PROMPT.format(text=text, filename=filename)
+    
+    # Get the response from the model
+    response = llm.invoke(formatted_prompt)
+    
+    # Return the reformatted text
+    print(f'{filename}***********REFORMATTED TEXT: ', response.content)
+    return response.content + "\n\n" + text
+    
 
 
 # If this file is run directly (not imported), execute this code
@@ -117,14 +146,12 @@ if __name__ == "__main__":
 
             # Process and upload the Branford Castle documents
             file_paths = [
-                # Original files
-                "/Users/lisun/Library/CloudStorage/GoogleDrive-lisun08@gmail.com/My Drive/AgentPE/Scraped_Buyers/data/Batch1/branfordcastle.com/investment-approach_what-makes-us-different.txt",
-                "/Users/lisun/Library/CloudStorage/GoogleDrive-lisun08@gmail.com/My Drive/AgentPE/Scraped_Buyers/data/Batch1/branfordcastle.com/investment-approach.txt",
-                # New files
-                "/Users/lisun/Library/CloudStorage/GoogleDrive-lisun08@gmail.com/My Drive/AgentPE/Scraped_Buyers/data/Batch1/branfordcastle.com/media-coverage.txt",
-                "/Users/lisun/Library/CloudStorage/GoogleDrive-lisun08@gmail.com/My Drive/AgentPE/Scraped_Buyers/data/Batch1/branfordcastle.com/investment-approach_acquisition-criteria.txt",
-                "/Users/lisun/Library/CloudStorage/GoogleDrive-lisun08@gmail.com/My Drive/AgentPE/Scraped_Buyers/data/Batch1/branfordcastle.com/portfolio.txt",
-                "/Users/lisun/Library/CloudStorage/GoogleDrive-lisun08@gmail.com/My Drive/AgentPE/Scraped_Buyers/data/Batch1/branfordcastle.com/team.txt"
+                "backend/orchestrator_agent/tests/data/investment-approach.txt",
+                "backend/orchestrator_agent/tests/data/investment-approach_acquisition-criteria.txt",
+                "backend/orchestrator_agent/tests/data/investment-approach_what-makes-us-different.txt",
+                "backend/orchestrator_agent/tests/data/media-coverage.txt",
+                "backend/orchestrator_agent/tests/data/portfolio.txt",
+                "backend/orchestrator_agent/tests/data/team.txt"
             ]
 
             # Function to determine document type based on filename and content
@@ -313,7 +340,7 @@ if __name__ == "__main__":
                     }
                     
                     # For large files like media-coverage.txt, split into chunks
-                    if len(base_content) > 8000:  # If content is large
+                    if len(base_content) > 8000000:  # If content is large RL: I set it large to ignore. BTW should use tokens max 120k - prompt length 
                         print(f"Chunking large file: {file_path}")
                         # Split by paragraphs or sections
                         chunks = []
@@ -331,7 +358,7 @@ if __name__ == "__main__":
                                 # Generate and add summary for this chunk
                                 chunk_metadata["summary"] = generate_summary(chunk_content, doc_type, title)
                                 
-                                chunks.append(Document(page_content=chunk_content, metadata=chunk_metadata))
+                                chunks.append(Document(page_content=reformat_text(chunk_content, file_path), metadata=chunk_metadata))
                                 
                                 # Start a new chunk
                                 current_chunk = [line]
@@ -349,14 +376,14 @@ if __name__ == "__main__":
                             # Generate and add summary for the last chunk
                             chunk_metadata["summary"] = generate_summary(chunk_content, doc_type, title)
                             
-                            chunks.append(Document(page_content=chunk_content, metadata=chunk_metadata))
+                            chunks.append(Document(page_content=reformat_text(chunk_content, file_path), metadata=chunk_metadata))
                         
                         documents.extend(chunks)
                         print(f"Created {len(chunks)} chunks from {file_path}")
                     else:
                         # For smaller files, just add as a single document
                         metadata["summary"] = generate_summary(base_content, doc_type, title)
-                        documents.append(Document(page_content=base_content, metadata=metadata))
+                        documents.append(Document(page_content=reformat_text(base_content, file_path), metadata=metadata))
                 else:
                     print(f"File not found: {file_path}")
 
@@ -418,3 +445,5 @@ if __name__ == "__main__":
 
     except Exception as e:
         print(f"Error connecting to Qdrant: {str(e)}")
+        
+

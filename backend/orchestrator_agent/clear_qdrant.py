@@ -1,7 +1,7 @@
 from qdrant_client import QdrantClient
 from dotenv import load_dotenv
 import os
-from checkAndLoad_qdrant import clear_collection
+from .checkAndLoad_qdrant import clear_collection
 
 
 # Load environment variables
