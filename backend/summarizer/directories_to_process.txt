@@ -1,0 +1,23 @@
+# Directories to process - one per line
+# Lines starting with # are comments
+
+# Private Equity firms
+
+altuscapitalpartners.com
+argosycapital.com
+crescendocap.com
+cstonecapital.com
+envestcap.com
+
+
+
+
+
+
+
+
+
+
+
+# Add more directories as needed
+# example.com 
