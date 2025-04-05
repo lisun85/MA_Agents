@@ -130,15 +130,15 @@ def main():
             print(f"JSON data saved to: {json_path}")
             
         # Generate deduplication report
-        if hasattr(summarizer, 'all_extracted_companies'):
-            dedup_path = summarizer._save_deduplication_report(args.directory, output_dir)
-            if dedup_path:
-                logger.info(f"Deduplication report saved to: {dedup_path}")
-                print(f"Deduplication report saved to: {dedup_path}")
-            else:
-                logger.warning("Could not generate deduplication report")
+        # if hasattr(summarizer, 'all_extracted_companies'):
+        #     dedup_path = summarizer._save_deduplication_report(args.directory, output_dir)
+        #     if dedup_path:
+        #         logger.info(f"Deduplication report saved to: {dedup_path}")
+        #         print(f"Deduplication report saved to: {dedup_path}")
+        #     else:
+        #         logger.warning("Could not generate deduplication report")
         
-        return 0
+        # return 0
     
     except Exception as e:
         logger.error(f"Error during summarization: {str(e)}")

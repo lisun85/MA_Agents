@@ -352,8 +352,8 @@ def get_media_and_news_prompt(source_file: str, content: str, firm_name: str = N
     # More specific instructions for priority files
     priority_instructions = """
     This file is likely to contain media content. Look carefully for:
-    - Press releases or announcements (often containing dates)
-    - Deal announcements (acquisitions, investments, exits)
+    - Press releases or announcements (with dates and/or locations)
+    - Deal announcements
     - Awards or recognition
     - Media mentions or quotes from news sources
     - Annual reports or investor communications
@@ -373,18 +373,24 @@ def get_media_and_news_prompt(source_file: str, content: str, firm_name: str = N
        - Major events and milestones
        - Executive appointments and leadership changes
     
-    2. Look for content that has news value, often indicated by:
-       - Dates or time references
-       - Quotes from executives
-       - Mentions of transactions, financial figures, or business outcomes
-       - References to industry recognition or awards
+    2. Look specifically for these key indicators of news content:
+       - Date patterns (e.g., "September 10, 2024", "04.25.24", "June 2023")
+       - Location formats (e.g., "NEW YORK, NY", "CHANTILLY, Va.", "Boston and San Francisco")
+       - News announcement phrases (e.g., "announced today", "has acquired", "completed the sale")
+       - Title-like text (often capitalized words at the beginning of paragraphs)
+       - Quotes from executives or organizations
     
-    3. Preserve the exact wording from the text - copy and paste the relevant passages
-    4. DO NOT use general labels like "MEDIA" - extract the actual text content
-    5. DO NOT summarize or paraphrase - only provide direct quotes
-    6. Each extract should be substantive content about specific media mentions or news items
-    7. If no relevant content is found, return an empty JSON array
-    8. DO NOT include general website navigation text or headers that don't contain actual news content
+    3. Extract COMPLETE paragraphs containing these patterns, including:
+       - The full title when present
+       - The complete date and location information
+       - The entire news content
+       - Any quoted material
+    
+    4. Preserve the exact wording and formatting from the text
+    5. DO NOT use general labels like "MEDIA" - extract the actual text content
+    6. DO NOT summarize or paraphrase - only provide direct quotes
+    7. Each extract should be substantive content about specific media mentions or news items
+    8. If no relevant content is found, return an empty JSON array
     
     For each extract, provide:
     - "text": The exact verbatim text from the document (NOT placeholder text like "MEDIA")

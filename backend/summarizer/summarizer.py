@@ -613,7 +613,9 @@ class Summarizer:
 
     def _extract_media_and_news(self, file_contents: Dict[str, str]) -> List[Dict[str, Any]]:
         """
-        Extract media and news information from file contents.
+        Extract media and news information from file contents using a two-stage approach:
+        1. First check file metadata (filenames) for media indicators
+        2. Then perform content-based extraction for other files
         
         Args:
             file_contents: Dictionary mapping file paths to their contents
@@ -627,16 +629,66 @@ class Summarizer:
         # Initialize variables
         media_extracts = []
         
-        # List of files to prioritize based on content indicators
-        priority_files = [p for p in file_contents.keys() if any(
-            term in os.path.basename(p).lower() for term in 
-            ["media", "news", "press", "coverage", "article", "release"]
-        )]
+        # Stage 1: Keyword-based file matching
+        # Keywords that indicate a file likely contains media content
+        media_keywords = [
+            "news", "media", "press", "insight", "archive", "event", "post", 
+            "article", "newsroom", "blog", "case study", "case studies", 
+            "acquires", "acquire", "acquisition", "coverage", "release"
+        ]
         
-        # Process priority files first, then others
-        all_files = priority_files + [p for p in file_contents.keys() if p not in priority_files]
+        # Files that definitely contain media content based on their names
+        media_files = []
+        for file_path in file_contents.keys():
+            file_basename = os.path.basename(file_path).lower()
+            if any(keyword in file_basename for keyword in media_keywords):
+                media_files.append(file_path)
+                self.logger.info(f"Identified media file by name: {file_basename}")
         
-        # Process each file
+        # Process media files first - include entire content of these files
+        for file_path in media_files:
+            try:
+                content = file_contents[file_path]
+                file_basename = os.path.basename(file_path)
+                
+                # Check if the file is likely to contain text content
+                if not self._is_text_content(content):
+                    continue
+                    
+                # Format the content for readability
+                formatted_content = self._format_media_content(content)
+                
+                # Add the entire file as a media item, with sections separated for readability
+                media_extracts.append({
+                    "text": formatted_content,
+                    "location": f"Media file: {file_basename}",
+                    "source_file": file_basename
+                })
+                
+                self.logger.info(f"Added entire content of {file_basename} as media item")
+                
+            except Exception as e:
+                self.logger.error(f"Error processing media file {os.path.basename(file_path)}: {str(e)}")
+        
+        # Stage 2: Content-based extraction for other files
+        # Get remaining files that weren't processed in Stage 1
+        remaining_files = [path for path in file_contents.keys() if path not in media_files]
+        
+        # Prioritize files that might have media content based on keywords in content
+        priority_files = []
+        regular_files = []
+        
+        for file_path in remaining_files:
+            content = file_contents[file_path]
+            # Check if content contains media indicators
+            if any(term in content.lower() for term in ["announce", "acquisition", "press release", "news"]):
+                priority_files.append(file_path)
+            else:
+                regular_files.append(file_path)
+        
+        # Process all remaining files, with priority files first
+        all_files = priority_files + regular_files
+        
         for file_path in all_files:
             try:
                 # Check if the file is likely to contain text content
@@ -644,15 +696,13 @@ class Summarizer:
                 if not self._is_text_content(content):
                     continue
                 
-                # Determine if this is a priority file by content indicators
                 file_basename = os.path.basename(file_path)
-                is_priority = any(term in file_basename.lower() for term in 
-                                 ["media", "news", "press", "coverage", "article", "release"])
+                is_priority = file_path in priority_files
                 
                 # Generate the prompt
                 prompt = get_media_and_news_prompt(
                     file_basename,
-                    content[:40000],  # Reasonable limit for context
+                    content[:40000],  # Limit content to avoid token limits
                     self.current_firm_name,
                     is_priority=is_priority
                 )
@@ -669,7 +719,7 @@ class Summarizer:
                         extract for extract in extracts
                         if isinstance(extract, dict) and "text" in extract and 
                         len(extract["text"]) > 10 and
-                        extract["text"].lower() not in ["media", "news", "no media found"]
+                        not any(placeholder in extract["text"].lower() for placeholder in ["media", "news", "no media found"])
                     ]
                     
                     if valid_extracts:
@@ -680,16 +730,134 @@ class Summarizer:
                         self.logger.info(f"Extracted {len(valid_extracts)} media items from {file_basename}")
                         media_extracts.extend(valid_extracts)
                     else:
-                        self.logger.warning(f"No valid media extracts found in {file_basename}")
+                        self.logger.info(f"No valid media extracts found in {file_basename}")
+                        
+                        # For priority files with no extracts, check for patterns directly
+                        if is_priority:
+                            self.logger.info(f"Attempting pattern-based extraction for {file_basename}")
+                            pattern_extracts = self._extract_media_by_patterns(content, file_basename)
+                            if pattern_extracts:
+                                self.logger.info(f"Found {len(pattern_extracts)} pattern-based extracts in {file_basename}")
+                                media_extracts.extend(pattern_extracts)
                 else:
                     self.logger.warning(f"Failed to parse media extracts from {file_basename}")
-                
+                    
             except Exception as e:
-                self.logger.error(f"Error extracting media from {file_path}: {str(e)}")
+                self.logger.error(f"Error extracting media from {os.path.basename(file_path)}: {str(e)}")
         
-        # Return all media extracts - no deduplication
+        # Log the total number of media extracts
         self.logger.info(f"Total media and news extracts: {len(media_extracts)}")
         return media_extracts
+
+    def _format_media_content(self, content: str) -> str:
+        """
+        Format media content for better readability.
+        
+        Args:
+            content: Raw content to format
+            
+        Returns:
+            Formatted content string
+        """
+        # Remove excessive newlines
+        formatted = '\n'.join(line for line in content.splitlines() if line.strip())
+        
+        # Break content into paragraphs for readability
+        paragraphs = []
+        current_paragraph = []
+        
+        for line in formatted.splitlines():
+            if not line.strip():
+                if current_paragraph:
+                    paragraphs.append(' '.join(current_paragraph))
+                    current_paragraph = []
+            else:
+                current_paragraph.append(line.strip())
+        
+        # Add the last paragraph if it exists
+        if current_paragraph:
+            paragraphs.append(' '.join(current_paragraph))
+        
+        # Join paragraphs with double newlines for readability
+        return '\n\n'.join(paragraphs)
+
+    def _extract_media_by_patterns(self, content: str, file_basename: str) -> List[Dict[str, Any]]:
+        """
+        Extract media content by looking for specific patterns.
+        
+        Args:
+            content: Text content to analyze
+            file_basename: Name of the source file
+            
+        Returns:
+            List of extracted media items
+        """
+        extracts = []
+        lines = content.splitlines()
+        
+        # Define patterns for dates, locations, and news indicators
+        date_patterns = [
+            r'\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]* \d{1,2},? \d{4}\b',
+            r'\b\d{1,2}/\d{1,2}/\d{2,4}\b',
+            r'\b\d{1,2}\.\d{1,2}\.\d{2,4}\b'
+        ]
+        
+        location_patterns = [
+            r'[A-Z][A-Z\s]+,\s+[A-Z]{2}',  # NEW YORK, NY
+            r'[A-Z][a-z]+,\s+[A-Z]{2}',    # Boston, MA
+        ]
+        
+        news_indicators = [
+            "announced today", "has acquired", "completed the sale", 
+            "press release", "news release", "acquisition of",
+            "announces", "announced", "acquires", "acquired"
+        ]
+        
+        # Process each line looking for patterns
+        i = 0
+        while i < len(lines):
+            line = lines[i].strip()
+            
+            # Check for patterns in the current line
+            has_date = any(re.search(pattern, line) for pattern in date_patterns)
+            has_location = any(re.search(pattern, line) for pattern in location_patterns)
+            has_indicator = any(indicator in line.lower() for indicator in news_indicators)
+            
+            # If we found a pattern, extract a full paragraph
+            if has_date or has_location or has_indicator:
+                # Start with the current line
+                paragraph = [line]
+                
+                # Look back for title (if current line isn't a title)
+                if i > 0 and not line.isupper() and not line.endswith(':'):
+                    prev_line = lines[i-1].strip()
+                    if prev_line and (prev_line.isupper() or (
+                        prev_line[0].isupper() and len(prev_line.split()) <= 10)):
+                        paragraph.insert(0, prev_line)
+                
+                # Look ahead for the rest of the paragraph
+                j = i + 1
+                while j < len(lines) and lines[j].strip():
+                    paragraph.append(lines[j].strip())
+                    j += 1
+                
+                # Join the paragraph and add as an extract
+                extract_text = ' '.join(paragraph)
+                
+                # Only add if the paragraph is substantial (more than just a date)
+                if len(extract_text) > 20:
+                    extracts.append({
+                        "text": extract_text,
+                        "location": f"Pattern match in {file_basename}",
+                        "source_file": file_basename
+                    })
+                
+                # Skip to after this paragraph
+                i = j
+            else:
+                i += 1
+        
+        return extracts
 
     def _extract_json_from_response(self, response_text: str) -> Any:
         """
@@ -985,44 +1153,112 @@ Including affiliate transactions: {affiliate_count}
             report += "No specific team or contact information found in the analyzed documents.\n"
         report += "</section>\n\n"
         
-        # MEDIA AND NEWS SECTION
+        # MEDIA AND NEWS SECTION - improved formatting with clear separation between items
         report += f"""<section name="MEDIA_AND_NEWS">
 # MEDIA AND NEWS
 
 """
+        
         if media_and_news:
-            # Safely get source files with a default value if key is missing
+            # Get unique source files with a default value if key is missing
             media_sources = sorted(set(extract.get("source_file", "Unknown source") 
-                                     for extract in media_and_news 
-                                     if isinstance(extract, dict)))
+                               for extract in media_and_news 
+                               if isinstance(extract, dict)))
             
             if media_sources:
-                report += f"Sources: {', '.join(media_sources)}\n"
+                report += f"Sources: {', '.join(media_sources)}\n\n"
             
-            # Process ALL media items with improved formatting
+            # Process media items with improved formatting
             for i, extract in enumerate(media_and_news):
                 if isinstance(extract, dict) and "text" in extract:
                     text = extract["text"].strip()
                     if text:
-                        # Add a separator between media items for better readability
+                        # Add separator between items for better readability
                         if i > 0:
-                            report += "-" * 40  # Add separator line between items
+                            report += f"\n{'-' * 80}\n\n"
                         
-                        # Format the text with proper spacing
-                        # Split into paragraphs and preserve formatting
-                        paragraphs = text.split("\n")
-                        for paragraph in paragraphs:
-                            if paragraph.strip():
-                                report += paragraph
+                        # Format the text with proper spacing and structure
+                        # Split into paragraphs for better readability
+                        paragraphs = []
+                        lines = text.split("\n")
                         
-                        report += "\n"  # Add extra blank line after each item
+                        # Process text with improved formatting
+                        current_section = []
+                        
+                        for line in lines:
+                            line = line.strip()
+                            
+                            # Identify section headers (all caps or starts with URL/title indicators)
+                            is_header = (line.isupper() or 
+                                        line.startswith("URL:") or 
+                                        line.startswith("TITLE:") or
+                                        (len(line) > 0 and line[0].isupper() and len(line.split()) <= 8))
+                            
+                            # Format section headers with newlines before them
+                            if is_header and current_section:
+                                paragraphs.append(" ".join(current_section))
+                                current_section = []
+                                
+                                # Add extra spacing before headers
+                                if line.startswith("URL:") or line.startswith("TITLE:"):
+                                    paragraphs.append("")  # Add blank line
+                                
+                                paragraphs.append(line)
+                            elif line.startswith("BASE CONTENT:") or "=" * 10 in line:
+                                # Special case for base content separators
+                                if current_section:
+                                    paragraphs.append(" ".join(current_section))
+                                    current_section = []
+                                paragraphs.append("")  # Add blank line
+                                paragraphs.append(line)
+                            elif not line:
+                                # Empty line indicates paragraph break
+                                if current_section:
+                                    paragraphs.append(" ".join(current_section))
+                                    current_section = []
+                                paragraphs.append("")  # Preserve blank line
+                            else:
+                                # Regular content line - add to current section
+                                current_section.append(line)
+                        
+                        # Add the last paragraph if it exists
+                        if current_section:
+                            paragraphs.append(" ".join(current_section))
+                        
+                        # Format financial/fee information in tables or with proper spacing
+                        formatted_paragraphs = []
+                        for p in paragraphs:
+                            # Check if paragraph contains tabular fee data
+                            if re.search(r'\$\d+MM\s+\$[\d\.]+MM', p) or re.search(r'\$\d+MM\s+\$[\d,\.]+', p):
+                                # Split at dollar signs and format as a table
+                                parts = re.split(r'(\$\d+MM\s+\$[\d\.,]+)', p)
+                                formatted_parts = []
+                                for part in parts:
+                                    if re.match(r'\$\d+MM\s+\$[\d\.,]+', part):
+                                        # Format fee data with proper spacing
+                                        fee_parts = part.split('$')
+                                        if len(fee_parts) >= 3:
+                                            formatted_parts.append(f"${fee_parts[1].strip()}    ${fee_parts[2].strip()}")
+                                    else:
+                                        formatted_parts.append(part)
+                                formatted_paragraphs.append("".join(formatted_parts))
+                            else:
+                                formatted_paragraphs.append(p)
+                        
+                        # Join paragraphs with newlines
+                        formatted_text = "\n".join(formatted_paragraphs)
+                        
+                        # Add the formatted text to the report
+                        report += formatted_text
+                        report += "\n\n"  # Add extra blank line after each item
         else:
             report += "No media or news information available.\n"
+        
         report += "</section>\n\n"
         
         # Add unprocessed files section
         if hasattr(summary_result, 'unprocessed_files') and summary_result.get('unprocessed_files'):
-            report += "\n===== FILES WITH PROCESSING ISSUES =====\n"
+            report += "\n===== FILES WITH PROCESSING ISSUES =====\n\n"
             report += "The following files could not be fully processed by the LLM:\n"
             for file in sorted(set(summary_result['unprocessed_files'])):
                 report += f"- {file}\n"
