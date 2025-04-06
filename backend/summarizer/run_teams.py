@@ -2,7 +2,7 @@
 """
 Team Manager for Summarizer Agents.
 
-This script runs two separate teams of summarizer agents in parallel,
+This script runs three separate teams of summarizer agents in parallel,
 each processing its own batch of directories.
 """
 
@@ -29,8 +29,10 @@ logger = logging.getLogger(__name__)
 # Constants
 TEAM1_DIRS_FILE = "batch1_directories.txt"
 TEAM2_DIRS_FILE = "batch2_directories.txt"
+TEAM3_DIRS_FILE = "batch3_directories.txt"
 TEAM1_NAME = "Team1"
 TEAM2_NAME = "Team2"
+TEAM3_NAME = "Team3"
 DEFAULT_OUTPUT_DIR = "output"
 
 def parse_args():
@@ -48,6 +50,12 @@ def parse_args():
         type=int, 
         default=4,
         help="Number of workers for Team 2 (default: 4)"
+    )
+    parser.add_argument(
+        "--team3-workers", 
+        type=int, 
+        default=4,
+        help="Number of workers for Team 3 (default: 4)"
     )
     parser.add_argument(
         "--parallel", "-p", 
@@ -96,6 +104,7 @@ def run_team(team_name, dirs_file, num_workers, parallel, output_dir, debug):
     cmd = [
         "python", 
         run_script,
+        "--team-name", team_name,
         "--dirs-file", dirs_file,
         "--max-workers", str(num_workers),
         "--output-dir", team_output_dir
@@ -152,10 +161,10 @@ def main():
     # Create output directory if it doesn't exist
     os.makedirs(args.output_dir, exist_ok=True)
     
-    # Run both teams in parallel
-    logger.info("Starting both teams in parallel")
+    # Run all teams in parallel
+    logger.info("Starting all teams in parallel")
     
-    with ThreadPoolExecutor(max_workers=2) as executor:
+    with ThreadPoolExecutor(max_workers=3) as executor:
         # Submit team tasks
         team1_future = executor.submit(
             run_team, 
@@ -177,12 +186,24 @@ def main():
             args.debug
         )
         
+        team3_future = executor.submit(
+            run_team, 
+            TEAM3_NAME, 
+            TEAM3_DIRS_FILE, 
+            args.team3_workers, 
+            args.parallel, 
+            args.output_dir, 
+            args.debug
+        )
+        
         # Get results
         team1_result = team1_future.result()
         team2_result = team2_future.result()
+        team3_result = team3_future.result()
     
     # Report results
     logger.info("All teams completed")
+    
     logger.info(f"{TEAM1_NAME}: {'Success' if team1_result['success'] else 'Failed'}")
     if 'duration' in team1_result:
         logger.info(f"{TEAM1_NAME} duration: {team1_result['duration']:.2f} seconds")
@@ -191,7 +212,18 @@ def main():
     if 'duration' in team2_result:
         logger.info(f"{TEAM2_NAME} duration: {team2_result['duration']:.2f} seconds")
     
-    return 0 if team1_result["success"] and team2_result["success"] else 1
+    logger.info(f"{TEAM3_NAME}: {'Success' if team3_result['success'] else 'Failed'}")
+    if 'duration' in team3_result:
+        logger.info(f"{TEAM3_NAME} duration: {team3_result['duration']:.2f} seconds")
+    
+    # Updated return condition to check all three teams
+    success = all([
+        team1_result["success"], 
+        team2_result["success"],
+        team3_result["success"]
+    ])
+    
+    return 0 if success else 1
 
 if __name__ == "__main__":
     sys.exit(main()) 

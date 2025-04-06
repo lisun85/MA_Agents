@@ -1,4 +1,4 @@
-# Batch 1 Directories - Team 1
+# Batch Directories - Team1
 # Lines starting with # are comments
 
 altuscapitalpartners.com
@@ -21,13 +21,3 @@ hadleycapital.com
 hanoverpartners.com
 harrenequity.com
 heartwoodpartners.com
-highviewcapital.com
-kainoscapital.com
-keplercapital.ca
-latticeworkcapital.com
-mangroveequity.com
-middleground.com
-ninthstreetcapital.com
-peakrockcapital.com
-pleasantbaycp.com
-plexuscap.com
