@@ -33,6 +33,12 @@ def parse_args():
     """Parse command line arguments."""
     parser = argparse.ArgumentParser(description="Run summarizer on multiple directories")
     
+    # Add team name parameter
+    parser.add_argument(
+        "--team-name",
+        help="Name of the team running this process"
+    )
+    
     # Input options - either a file or comma-separated list
     input_group = parser.add_mutually_exclusive_group(required=False)
     input_group.add_argument(

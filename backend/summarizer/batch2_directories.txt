@@ -1,0 +1,33 @@
+# Batch 2 Directories - Team 2
+# Lines starting with # are comments
+
+presidioinvestors.com
+rbequity.com
+renovuscapital.com
+rljequitypartners.com
+rockgatepartners.com
+rockwoodequity.com
+scaleco.com
+serentcapital.com
+slackwatercap.com
+soundcorecap.com
+speysideequity.com
+stonehengepartners.com
+strengthcapital.com
+transomcap.com
+a-mcapital.com
+abacusinvestments.com
+bluepointcapital.com
+bwforsyth.com
+civc.com
+claviscp.com
+clearviewcap.com
+gemini-investors.com
+hkwinc.com
+iopfund.com
+klhcapital.com
+pennspring.com
+redriverequity.com
+rightlanecapital.com
+tacomaholdings.com
+vss.com

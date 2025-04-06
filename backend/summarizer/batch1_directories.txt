@@ -1,0 +1,33 @@
+# Batch 1 Directories - Team 1
+# Lines starting with # are comments
+
+altuscapitalpartners.com
+argosycapital.com
+branfordcastle.com
+burlingtonstreetpartners.com
+charteroak-equity.com
+crescendocap.com
+cstonecapital.com
+envestcap.com
+excellere.com
+firecapital.com
+foundationpartners.net
+gencapamerica.com
+gennx360.com
+granitecreek.com
+graylightpartners.com
+greylion.com
+hadleycapital.com
+hanoverpartners.com
+harrenequity.com
+heartwoodpartners.com
+highviewcapital.com
+kainoscapital.com
+keplercapital.ca
+latticeworkcapital.com
+mangroveequity.com
+middleground.com
+ninthstreetcapital.com
+peakrockcapital.com
+pleasantbaycp.com
+plexuscap.com
