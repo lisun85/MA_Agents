@@ -1,94 +1,245 @@
-from langchain_core.prompts import PromptTemplate
-from typing import Dict, Any
+import os
+import sys
+import logging
+import json
+from pathlib import Path
+import boto3
+from datetime import datetime
 from dotenv import load_dotenv
-from .prompts import PROMPT
-from .config import CONFIG 
+from backend.reasoning_agent.prompts import PROMPT
+from backend.reasoning_agent.config import MODEL_ID, TEMPERATURE, OUTPUT_DIR
 
+# Load environment variables
 load_dotenv()
 
-def retrieve_company_info(url):
-    print(f"DEBUG - Retrieving company info from {url}")
-    # This is a placeholder that would be replaced with actual S3 retrieval logic
-    return "Company Info" 
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(),
+        logging.FileHandler('reasoning_agent.log')
+    ]
+)
+logger = logging.getLogger(__name__)
 
-class ReasoningOrchestrator:
-    name = 'reasoning_orchestrator'
-    
-    def __init__(self, llm, urls=None):
-        print("DEBUG - Initializing ReasoningOrchestrator")
-        # Use provided URLs or default from CONFIG
-        self.urls = urls if urls is not None else CONFIG["urls"]
-        self.agent_size = CONFIG["agent_size"]
-        self.agents = []
+# Ensure the output directory exists
+output_dir = Path(OUTPUT_DIR)
+output_dir.mkdir(parents=True, exist_ok=True)
+
+def get_s3_client():
+    """
+    Create and return an S3 client using environment variables or default settings.
+    """
+    try:
+        # Configure S3 client
+        return boto3.client(
+            's3',
+            aws_access_key_id=os.getenv('AWS_ACCESS_KEY_ID'),
+            aws_secret_access_key=os.getenv('AWS_SECRET_ACCESS_KEY'),
+            region_name=os.getenv('AWS_REGION', 'us-east-1')
+        )
+    except Exception as e:
+        logger.error(f"Failed to initialize S3 client: {str(e)}")
+        raise
+
+class DeepSeekReasoner:
+    """
+    A wrapper class for the DeepSeek Reasoning API.
+    """
+    def __init__(self, model_id, temperature=0):
+        self.model_id = model_id
+        self.temperature = temperature
+        # Get API key from environment variables only
+        self.api_key = os.getenv("DEEPSEEK_API_KEY")
+        if not self.api_key:
+            raise ValueError("DeepSeek API key not found in .env file. Please add DEEPSEEK_API_KEY to your .env file.")
+        logger.info(f"Initialized DeepSeekReasoner with model: {model_id}")
         
-        # If no URLs, create a single agent with empty URL list
-        if not self.urls:
-            self.agents.append(Reasoning(llm=llm, urls=[]))
-            return
+    def generate(self, prompt):
+        """
+        Generate a response using the DeepSeek Reasoning API.
+        Captures both reasoning_content (Chain of Thought) and the final content.
+        """
+        try:
+            from openai import OpenAI
             
-        # Calculate how many URLs each agent should handle
-        urls_per_agent = max(1, len(self.urls) // self.agent_size)
-        remainder = len(self.urls) % self.agent_size
-        
-        # Distribute URLs as evenly as possible among agents
-        start_idx = 0
-        for i in range(self.agent_size):
-            # Give one extra URL to the first 'remainder' agents
-            agent_url_count = urls_per_agent + (1 if i < remainder else 0)
-            end_idx = start_idx + agent_url_count
-            
-            # Assign this slice of URLs to a new Reasoning agent
-            agent_urls = self.urls[start_idx:end_idx]
-            self.agents.append(Reasoning(llm=llm, urls=agent_urls))
-            
-            start_idx = end_idx
-        print(f"DEBUG - Created {len(self.agents)} reasoning agents")
-
-    def __call__(self, state) -> Dict[str, Any]:
-        print(f"DEBUG - ReasoningOrchestrator called with state: {state}")
-        return state
-
-class Reasoning:
-    name = 'reasoning'
-    
-    def __init__(self, llm, urls):
-        print(f"DEBUG - Initializing Reasoning agent with {len(urls)} URLs")
-        self.llm = llm
-        self.prompt = PromptTemplate.from_template(PROMPT)
-        self.urls = urls
-
-    def __call__(self, state) -> Dict[str, Any]:
-        print(f"DEBUG - Reasoning agent called with state: {state}")
-        # Get default values from config
-        default_values = CONFIG.get("default_values", {})
-        
-        # Use state values or fall back to defaults
-        sector = state.get("sector", default_values.get("sector", ""))
-        check_size = state.get("check_size", default_values.get("check_size", ""))
-        geographical_location = state.get("geographical_location", default_values.get("geographical_location", ""))
-        
-        urls = []
-        for url in self.urls:
-            print(f"DEBUG - Processing URL: {url}")
-            company_info = retrieve_company_info(url)
-            prompt = self.prompt.partial(
-                company_info=company_info,
-                sector=sector,
-                check_size=check_size,
-                geographical_location=geographical_location
+            # Initialize client with DeepSeek API base URL
+            client = OpenAI(
+                api_key=self.api_key,
+                base_url="https://api.deepseek.com"
             )
-            chain = prompt | self.llm
-            print(f"DEBUG - Invoking LLM for URL: {url}")
-            response = chain.invoke(state)
-            print(f"DEBUG - LLM response for URL {url}: {response}")
-            if response == "yes":
-                urls.append(url)
-        print(f"DEBUG - Reasoning agent returning URLs: {urls}")
-        return {"urls": urls}
+            
+            # Create the completion request
+            response = client.chat.completions.create(
+                model=self.model_id,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=self.temperature
+            )
+            
+            # Extract both reasoning content and final response
+            reasoning_content = response.choices[0].message.reasoning_content
+            final_content = response.choices[0].message.content
+            
+            # Create a combined output with reasoning clearly labeled
+            combined_output = f"""
+# Analysis Process
+{reasoning_content if reasoning_content else "No explicit reasoning process provided by the model."}
 
-def reasoning_completion(state):
-    print(f"DEBUG - reasoning_completion called with state: {state}")
-    return {"reasoning_completed": True}
+# Final Assessment
+{final_content}
+"""
+            
+            logger.info(f"Generated response with {len(reasoning_content) if reasoning_content else 0} chars of reasoning")
+            return combined_output
+            
+        except Exception as e:
+            logger.error(f"Error in DeepSeek API call: {str(e)}")
+            
+            # Fallback to direct API call if OpenAI client fails
+            try:
+                import requests
+                
+                headers = {
+                    "Authorization": f"Bearer {self.api_key}",
+                    "Content-Type": "application/json"
+                }
+                
+                data = {
+                    "model": self.model_id,
+                    "messages": [{"role": "user", "content": prompt}],
+                    "temperature": self.temperature
+                }
+                
+                response = requests.post(
+                    "https://api.deepseek.com/v1/chat/completions",
+                    headers=headers,
+                    json=data
+                )
+                
+                if response.status_code != 200:
+                    logger.error(f"API request failed with status {response.status_code}: {response.text}")
+                    return f"Error: API request failed with status {response.status_code}"
+                
+                result = response.json()
+                return result["choices"][0]["message"]["content"]
+                
+            except Exception as fallback_e:
+                logger.error(f"Fallback API call also failed: {str(fallback_e)}")
+                return f"Error in DeepSeek API call: {str(e)}\nFallback also failed: {str(fallback_e)}"
+
+def retrieve_company_info():
+    """
+    Retrieve the specific company summary from S3.
+    
+    Returns:
+        str: The content of the summary file
+    """
+    s3_client = get_s3_client()
+    bucket_name = "pe-profiles"  # Use your actual bucket name
+    file_path = "Summaries/crescendocap_com_crescendo_summary_20250405_231050.txt"
+    
+    try:
+        logger.info(f"Retrieving company info from S3: {file_path}")
+        response = s3_client.get_object(Bucket=bucket_name, Key=file_path)
+        content = response['Body'].read().decode('utf-8')
+        logger.info(f"Successfully retrieved {len(content)} characters of company data")
+        return content
+    except Exception as e:
+        logger.error(f"Error retrieving file from S3: {str(e)}")
+        # Provide a fallback for testing if S3 retrieval fails
+        logger.warning("Using fallback test data since S3 retrieval failed")
+        return "No company information available due to retrieval error."
+
+def run_reasoning():
+    """
+    Run the reasoning agent on the company summary.
+    
+    Returns:
+        str: The reasoning output
+    """
+    # Get the company information
+    company_info = retrieve_company_info()
+    
+    # Create the reasoner with the specified model
+    reasoner = DeepSeekReasoner(
+        model_id=MODEL_ID,
+        temperature=TEMPERATURE
+    )
+    
+    # Create the full prompt with the company information
+    full_prompt = PROMPT.replace("{COMPANY_INFO}", company_info)
+    
+    # Run the reasoning
+    logger.info("Running reasoning on company information")
+    try:
+        response = reasoner.generate(full_prompt)
+        logger.info("Reasoning completed successfully")
+        return response
+    except Exception as e:
+        logger.error(f"Error during reasoning: {str(e)}")
+        return f"Error during reasoning: {str(e)}"
+
+def save_output(output):
+    """
+    Save the reasoning output to a file.
+    
+    Args:
+        output (str): The reasoning output to save
+    """
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    output_file = output_dir / f"reasoning_result_{timestamp}.txt"
+    
+    try:
+        with open(output_file, "w") as f:
+            f.write(output)
+        logger.info(f"Saved reasoning output to {output_file}")
+        return output_file
+    except Exception as e:
+        logger.error(f"Error saving output: {str(e)}")
+        return None
+
+def main():
+    """
+    Main entry point for the reasoning agent.
+    """
+    logger.info("Starting reasoning agent")
+    
+    # Run the reasoning
+    output = run_reasoning()
+    
+    # Format the output for better readability
+    formatted_output = f"""
+==========================================================================
+                       REASONING AGENT RESULTS
+==========================================================================
+Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+Model: {MODEL_ID}
+Temperature: {TEMPERATURE}
+==========================================================================
+
+{output}
+
+==========================================================================
+Note: This assessment was automatically generated and should be reviewed
+for accuracy by an investment professional.
+==========================================================================
+"""
+    
+    # Save the output
+    output_file = save_output(formatted_output)
+    
+    # Print a summary to console
+    if output_file:
+        print(f"\nReasoning completed successfully!")
+        print(f"Output saved to: {output_file}")
+    else:
+        print("\nReasoning completed but there was an error saving the output.")
+    
+    return 0
+
+if __name__ == "__main__":
+    sys.exit(main())
   
 
     

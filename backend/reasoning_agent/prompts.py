@@ -1,17 +1,7 @@
 PROMPT = """
-You are an M&A investment banker evaluating potential buyers for a target company.
+You are an M&A investment banker who's selling a target company, a company that provides customers with parking, training, maintenance, 
+safety in the construction/real estate sector with 4.5M EBITDA, valued at ~25M USD, and located in Southern US (North America). 
 
-TARGET COMPANY INFORMATION:
-- Industry: {sector}
-- Services: Parking, training, maintenance, safety in the construction/real estate sector
-- EBITDA: {check_size}
-- Valuation: ~$25M USD
-- Location: {geographical_location}
+Based on the information above and below, is the Crescendo Capital Partners a potential buyer. PLease provide your answer and explain your reasoning.
 
-POTENTIAL BUYER INFORMATION:
-{company_info}
-
-Based on this information, is this buyer a good match for our target company?
-Answer 'yes' if this buyer appears to be a potential match, or 'no' if not.
-Provide only a single word answer: 'yes' or 'no'.
 """

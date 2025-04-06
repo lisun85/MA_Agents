@@ -1,23 +1,5 @@
 # Batch Directories - Team3
 # Lines starting with # are comments
 
-speysideequity.com
-stonehengepartners.com
-strengthcapital.com
-transomcap.com
-www.a-mcapital.com
-www.abacusinvestments.com
-www.bluepointcapital.com
-www.bwforsyth.com
-www.civc.com
-www.claviscp.com
-www.clearviewcap.com
-www.gemini-investors.com
-www.hkwinc.com
-www.iopfund.com
-www.klhcapital.com
-www.pennspring.com
-www.redriverequity.com
-www.rightlanecapital.com
-www.tacomaholdings.com
-www.vss.com
+charteroak-equity.com
+crescendocap.com
