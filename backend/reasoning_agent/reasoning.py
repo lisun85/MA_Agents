@@ -81,12 +81,14 @@ class DeepSeekReasoner:
             reasoning_content = response.choices[0].message.reasoning_content
             final_content = response.choices[0].message.content
             
-            # Create a combined output with reasoning clearly labeled
+            # Create a combined output with cleaner formatting
             combined_output = f"""
-# Analysis Process
+ANALYSIS PROCESS
+-------------------------------------------------------------------------------
 {reasoning_content if reasoning_content else "No explicit reasoning process provided by the model."}
 
-# Final Assessment
+FINAL ASSESSMENT
+-------------------------------------------------------------------------------
 {final_content}
 """
             
@@ -122,7 +124,16 @@ class DeepSeekReasoner:
                     return f"Error: API request failed with status {response.status_code}"
                 
                 result = response.json()
-                return result["choices"][0]["message"]["content"]
+                # Apply clean formatting to fallback response too
+                return f"""
+ANALYSIS PROCESS
+-------------------------------------------------------------------------------
+No explicit reasoning process available from fallback API.
+
+FINAL ASSESSMENT
+-------------------------------------------------------------------------------
+{result["choices"][0]["message"]["content"]}
+"""
                 
             except Exception as fallback_e:
                 logger.error(f"Fallback API call also failed: {str(fallback_e)}")
@@ -175,7 +186,10 @@ def run_reasoning():
     try:
         response = reasoner.generate(full_prompt)
         logger.info("Reasoning completed successfully")
-        return response
+        
+        # Clean up the response format
+        cleaned_response = clean_output_format(response)
+        return cleaned_response
     except Exception as e:
         logger.error(f"Error during reasoning: {str(e)}")
         return f"Error during reasoning: {str(e)}"
@@ -184,8 +198,6 @@ def save_output(output):
     """
     Save the reasoning output to a file.
     
-    Args:
-        output (str): The reasoning output to save
     """
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     output_file = output_dir / f"reasoning_result_{timestamp}.txt"
@@ -198,6 +210,26 @@ def save_output(output):
     except Exception as e:
         logger.error(f"Error saving output: {str(e)}")
         return None
+
+def clean_output_format(text):
+    """
+    Clean the output format by removing asterisks and ensuring consistent formatting.
+    
+    """
+    # Remove asterisks (bold markers)
+    cleaned_text = text.replace("**", "")
+    
+    # Replace markdown headers with capitalized headers and separators
+    cleaned_text = cleaned_text.replace("# Analysis Process", "ANALYSIS PROCESS\n-------------------------------------------------------------------------------")
+    cleaned_text = cleaned_text.replace("# Final Assessment", "FINAL ASSESSMENT\n-------------------------------------------------------------------------------")
+    
+    # If these replacements didn't work (different casing), try alternatives
+    if "# analysis process" in cleaned_text.lower() and "ANALYSIS PROCESS" not in cleaned_text:
+        import re
+        cleaned_text = re.sub(r'(?i)# analysis process.*?\n', "ANALYSIS PROCESS\n-------------------------------------------------------------------------------\n", cleaned_text)
+        cleaned_text = re.sub(r'(?i)# final assessment.*?\n', "FINAL ASSESSMENT\n-------------------------------------------------------------------------------\n", cleaned_text)
+    
+    return cleaned_text
 
 def main():
     """
