@@ -17,5 +17,5 @@ S3_SUMMARIES_PREFIX = "Summaries/"  # Prefix path for company summaries
 OUTPUT_DIR = "./backend/reasoning_agent/output"
 
 # Batch processing configuration
-MAX_COMPANIES_TO_PROCESS = 50  # Limit to prevent processing too many files
+MAX_COMPANIES_TO_PROCESS = 300  # Limit to prevent processing too many files
 SKIP_EXISTING_OUTPUTS = True   # Skip companies that already have output files
