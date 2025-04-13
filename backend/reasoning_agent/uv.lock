@@ -197,7 +197,7 @@ langchain-text-splitters==0.3.7
     # via
     #   reasoning-agent (pyproject.toml)
     #   langchain
-langgraph==0.3.14
+langgraph==0.3.16
     # via
     #   reasoning-agent (pyproject.toml)
     #   orchestrator-agent
