@@ -19,6 +19,3 @@ OUTPUT_DIR = "./backend/reasoning_agent/output"
 # Batch processing configuration
 MAX_COMPANIES_TO_PROCESS = 300  # Limit to prevent processing too many files
 SKIP_EXISTING_OUTPUTS = True   # Skip companies that already have output files
-
-# Parallel processing configuration
-NUM_REASONING_AGENTS = 6  # Number of parallel reasoning agents to use

@@ -1,7 +1,3 @@
-"""
-Reasoning Agent for company profile analysis.
-This module provides the DeepSeekReasoner class which will be used by the LangGraph orchestrator.
-"""
 import os
 import sys
 import logging
@@ -334,17 +330,50 @@ def clean_output_format(text):
 
 def main():
     """
-    Main entry point for running the reasoning orchestrator.
+    Main entry point for the reasoning agent.
     """
-    from backend.reasoning_agent.graph import run_orchestrator
+    logger.info("Starting multi-company reasoning agent")
     
-    print("Starting parallel reasoning orchestrator with DeepSeek Reasoning API")
-    print(f"Using {MODEL_ID} at temperature {TEMPERATURE}")
-    print(f"Processing company files from S3 bucket: {S3_BUCKET}/{S3_REGION}")
-    print(f"Results will be saved to: {OUTPUT_DIR}")
+    # List all company files
+    company_files = list_company_files()
     
-    results = run_orchestrator()
-    return 0
+    if not company_files:
+        logger.error("No company files found to process")
+        return 1
+    
+    # Limit the number of companies to process if needed
+    if len(company_files) > MAX_COMPANIES_TO_PROCESS:
+        logger.warning(f"Limiting processing to {MAX_COMPANIES_TO_PROCESS} companies (found {len(company_files)})")
+        company_files = company_files[:MAX_COMPANIES_TO_PROCESS]
+    
+    # Process each company
+    successful = 0
+    failed = 0
+    skipped = 0
+    
+    for i, company_file in enumerate(company_files):
+        logger.info(f"Processing company {i+1}/{len(company_files)}: {company_file['company_name']}")
+        success, output_file = process_company(company_file)
+        
+        if success:
+            if output_file:
+                successful += 1
+            else:
+                skipped += 1
+        else:
+            failed += 1
+    
+    # Print summary
+    logger.info(f"Multi-company processing complete. "
+                f"Successful: {successful}, Failed: {failed}, Skipped: {skipped}")
+    
+    print(f"\nProcessing completed!")
+    print(f"Successfully processed: {successful} companies")
+    print(f"Failed to process: {failed} companies")
+    print(f"Skipped (already processed): {skipped} companies")
+    print(f"Results saved to: {output_dir}")
+    
+    return 0 if failed == 0 else 1
 
 if __name__ == "__main__":
     sys.exit(main())
