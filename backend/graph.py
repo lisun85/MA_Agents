@@ -1,4 +1,4 @@
-from langgraph.graph import StateGraph, add_messages,  END
+from langgraph.graph import StateGraph, add_messages, END
 from langgraph.checkpoint.memory import MemorySaver
 from backend.orchestrator_agent.orchestrator import Orchestrator, orchestrator_action, orchestrator_router
 from backend.reasoning_agent.reasoning import Reasoning, ReasoningOrchestrator, reasoning_completion
@@ -8,6 +8,18 @@ from typing_extensions import Annotated, TypedDict
 import asyncio
 from typing import List, Optional
 import operator
+import logging
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(),
+        logging.FileHandler('graph.log')
+    ]
+)
+logger = logging.getLogger(__name__)
 
 # Custom append function for merging lists
 def append(left: Optional[List] = None, right: Optional[List] = None):
@@ -26,12 +38,18 @@ class State(TypedDict):
     reasoning_completed: bool
     
 def create_graph() -> StateGraph:
+    logger.info("Creating LangGraph workflow for DeepSeek reasoning")
+    
     graph = StateGraph(State)
     graph.add_node(Orchestrator.name, Orchestrator(llm=ChatOpenAI(model="gpt-4o", temperature=0)))
     graph.add_node("orchestrator_action", orchestrator_action)
-    reasoning_orchestrator = ReasoningOrchestrator(llm=ChatOpenAI(model="gpt-4o", temperature=0))
+    
+    # Create the ReasoningOrchestrator with the specified number of agents
+    reasoning_orchestrator = ReasoningOrchestrator()
     graph.add_node(ReasoningOrchestrator.name, reasoning_orchestrator)
     graph.add_node('reasoning_completion', reasoning_completion)
+    
+    # Add each reasoning agent to the graph
     for i, ra in enumerate(reasoning_orchestrator.agents):
         graph.add_node(f'reasoning{i}', ra)
         graph.add_edge(ReasoningOrchestrator.name, f'reasoning{i}')
@@ -43,6 +61,8 @@ def create_graph() -> StateGraph:
         orchestrator_router
     )
     graph.set_entry_point(Orchestrator.name)
+    
+    logger.info(f"Graph created with {len(reasoning_orchestrator.agents)} reasoning agents")
     return graph
 
 # Create and compile the graph for use by the websocket implementation

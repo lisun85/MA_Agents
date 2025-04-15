@@ -19,3 +19,19 @@ OUTPUT_DIR = "./backend/reasoning_agent/output"
 # Batch processing configuration
 MAX_COMPANIES_TO_PROCESS = 300  # Limit to prevent processing too many files
 SKIP_EXISTING_OUTPUTS = True   # Skip companies that already have output files
+
+# Parallel processing configuration
+NUM_REASONING_AGENTS = 6  # Number of parallel reasoning agents to use
+
+# LangGraph Configuration
+CONFIG = {
+    "agent_size": NUM_REASONING_AGENTS,
+    "urls": {
+        "pe-profiles": "https://pe-profiles.com"
+    },
+    "default_values": {
+        "sector": "finance",
+        "check_size": "medium",
+        "geographical_location": "US"
+    }
+}

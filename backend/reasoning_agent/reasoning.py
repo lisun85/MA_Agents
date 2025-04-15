@@ -2,6 +2,7 @@ import os
 import sys
 import logging
 import json
+import concurrent.futures
 from pathlib import Path
 import boto3
 from datetime import datetime
@@ -11,8 +12,14 @@ from backend.reasoning_agent.prompts import PROMPT
 from backend.reasoning_agent.config import (
     MODEL_ID, TEMPERATURE, OUTPUT_DIR, 
     S3_BUCKET, S3_REGION, S3_SUMMARIES_PREFIX,
-    MAX_COMPANIES_TO_PROCESS, SKIP_EXISTING_OUTPUTS
+    MAX_COMPANIES_TO_PROCESS, SKIP_EXISTING_OUTPUTS,
+    NUM_REASONING_AGENTS, CONFIG
 )
+from langchain.schema import AgentAction, AgentFinish
+from langchain_core.tools import BaseTool
+from typing import Dict, List, Any, Optional, Type, ClassVar, Literal
+from langchain_core.runnables import Runnable
+from langchain_core.callbacks.manager import CallbackManagerForToolRun
 
 # Load environment variables
 load_dotenv()
@@ -84,7 +91,11 @@ def list_company_files():
                 'key': file_key,
                 'filename': filename,
                 'company_name': company_name,
-                'size': obj['Size']
+                'size': obj['Size'],
+                'processed': False,
+                'success': None,
+                'output_file': None,
+                'error': None
             })
         
         logger.info(f"Found {len(company_files)} company files in S3")
@@ -107,7 +118,6 @@ def extract_company_name(filename):
 def check_output_exists(company_name):
     """
     Check if an output file already exists for this company.
-
     """
     if not SKIP_EXISTING_OUTPUTS:
         return False
@@ -133,11 +143,30 @@ def retrieve_company_info(file_key):
         logger.error(f"Error retrieving file from S3: {str(e)}")
         raise Exception(f"Failed to retrieve {file_key} from S3: {str(e)}")
 
+def clean_output_format(text):
+    """
+    Clean the output format by removing asterisks and ensuring consistent formatting.
+    """
+    # Remove asterisks (bold markers)
+    cleaned_text = text.replace("**", "")
+    
+    # Replace markdown headers with capitalized headers and separators
+    cleaned_text = cleaned_text.replace("# Analysis Process", "ANALYSIS PROCESS\n-------------------------------------------------------------------------------")
+    cleaned_text = cleaned_text.replace("# Final Assessment", "FINAL ASSESSMENT\n-------------------------------------------------------------------------------")
+    
+    # If these replacements didn't work (different casing), try alternatives
+    if "# analysis process" in cleaned_text.lower() and "ANALYSIS PROCESS" not in cleaned_text:
+        import re
+        cleaned_text = re.sub(r'(?i)# analysis process.*?\n', "ANALYSIS PROCESS\n-------------------------------------------------------------------------------\n", cleaned_text)
+        cleaned_text = re.sub(r'(?i)# final assessment.*?\n', "FINAL ASSESSMENT\n-------------------------------------------------------------------------------\n", cleaned_text)
+    
+    return cleaned_text
+
 class DeepSeekReasoner:
     """
     A wrapper class for the DeepSeek Reasoning API.
     """
-    def __init__(self, model_id, temperature=0):
+    def __init__(self, model_id=MODEL_ID, temperature=TEMPERATURE):
         self.model_id = model_id
         self.temperature = temperature
         # Get API key from environment variables only
@@ -229,49 +258,61 @@ FINAL ASSESSMENT
                 logger.error(f"Fallback API call also failed: {str(fallback_e)}")
                 return f"Error in DeepSeek API call: {str(e)}\nFallback also failed: {str(fallback_e)}"
 
-def process_company(company_file):
-    """
-    Process a single company file.
+# Create standalone classes instead of extending BaseTool
+class Reasoning:
+    name = "reasoning"
+    description = "Process company files to determine if they are potential buyers."
     
-    Args:
-        company_file (dict): Dictionary with company file information
-        
-    Returns:
-        tuple: (success, output_file_path or None)
-    """
-    company_name = company_file['company_name']
-    file_key = company_file['key']
+    def __init__(self, agent_id=0):
+        self.agent_id = agent_id
+        self.reasoner = DeepSeekReasoner(model_id=MODEL_ID, temperature=TEMPERATURE)
+        logger.info(f"Initialized Reasoning agent {agent_id}")
     
-    logger.info(f"Processing company: {company_name} (file: {file_key})")
+    def __call__(self, companies, **kwargs):
+        return self._run(companies)
     
-    # Check if output already exists
-    if check_output_exists(company_name):
-        logger.info(f"Output for {company_name} already exists, skipping...")
-        return (True, None)
-    
-    try:
-        # Retrieve company info
-        company_info = retrieve_company_info(file_key)
+    def _run(self, companies):
+        """
+        Process a list of companies.
         
-        # Create the reasoner
-        reasoner = DeepSeekReasoner(
-            model_id=MODEL_ID,
-            temperature=TEMPERATURE
-        )
+        Args:
+            companies: List of company dictionaries to process
+            
+        Returns:
+            Dictionary with results and statistics
+        """
+        logger.info(f"Agent {self.agent_id} processing {len(companies)} companies")
         
-        # Create the full prompt with the company information
-        full_prompt = PROMPT.replace("{COMPANY_INFO}", company_info).replace("{COMPANY_NAME}", company_name)
+        results = []
+        errors = []
+        stats = {"total": len(companies), "processed": 0, "successful": 0, "failed": 0, "skipped": 0}
         
-        # Run the reasoning
-        logger.info(f"Running reasoning on {company_name}")
-        response = reasoner.generate(full_prompt)
-        logger.info(f"Reasoning for {company_name} completed successfully")
-        
-        # Clean up the response format
-        cleaned_response = clean_output_format(response)
-        
-        # Format the output for better readability
-        formatted_output = f"""
+        for company in companies:
+            company_name = company['company_name']
+            file_key = company['key']
+            
+            # Check if this company should be skipped
+            if check_output_exists(company_name):
+                logger.info(f"Agent {self.agent_id}: Output already exists for {company_name}, skipping")
+                stats["skipped"] += 1
+                continue
+            
+            try:
+                # Retrieve company info
+                company_info = retrieve_company_info(file_key)
+                
+                # Create the full prompt with the company information
+                full_prompt = PROMPT.replace("{COMPANY_INFO}", company_info).replace("{COMPANY_NAME}", company_name)
+                
+                # Run the reasoning
+                logger.info(f"Agent {self.agent_id} running reasoning on {company_name}")
+                response = self.reasoner.generate(full_prompt)
+                
+                # Clean up the response format
+                cleaned_response = clean_output_format(response)
+                
+                # Format the output
+                formatted_output = f"""
 ==========================================================================
                        REASONING AGENT RESULTS
 ==========================================================================
@@ -279,6 +320,7 @@ Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 Company: {company_name}
 Model: {MODEL_ID}
 Temperature: {TEMPERATURE}
+Agent ID: {self.agent_id}
 ==========================================================================
 
 {cleaned_response}
@@ -288,92 +330,201 @@ Note: This assessment was automatically generated and should be reviewed
 for accuracy by an investment professional.
 ==========================================================================
 """
+                
+                # Save the output
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                output_file = output_dir / f"{company_name}_reasoning_result_{timestamp}.txt"
+                
+                with open(output_file, "w") as f:
+                    f.write(formatted_output)
+                
+                logger.info(f"Agent {self.agent_id} saved output for {company_name} to {output_file}")
+                
+                results.append({
+                    "company_name": company_name,
+                    "file_key": file_key,
+                    "output_file": str(output_file),
+                    "success": True,
+                    "agent_id": self.agent_id
+                })
+                
+                stats["successful"] += 1
+                
+            except Exception as e:
+                logger.error(f"Agent {self.agent_id} error processing {company_name}: {str(e)}")
+                
+                errors.append({
+                    "company_name": company_name,
+                    "file_key": file_key,
+                    "error": str(e),
+                    "agent_id": self.agent_id
+                })
+                
+                stats["failed"] += 1
+            
+            stats["processed"] += 1
         
-        # Save the output
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_file = output_dir / f"{company_name}_reasoning_result_{timestamp}.txt"
+        logger.info(f"Agent {self.agent_id} completed processing with stats: {stats}")
         
-        with open(output_file, "w") as f:
-            f.write(formatted_output)
-        
-        logger.info(f"Saved reasoning output for {company_name} to {output_file}")
-        return (True, output_file)
-        
-    except Exception as e:
-        logger.error(f"Error processing company {company_name}: {str(e)}")
-        return (False, None)
+        return {
+            "agent_id": self.agent_id,
+            "results": results,
+            "errors": errors,
+            "stats": stats
+        }
 
-def clean_output_format(text):
+class ReasoningOrchestrator:
     """
-    Clean the output format by removing asterisks and ensuring consistent formatting.
+    LangGraph tool for orchestrating multiple DeepSeek reasoning agents.
+    """
+    name = "reasoning_orchestrator"
+    description = "Orchestrate multiple reasoning agents to process company files in parallel."
     
-    Args:
-        text (str): The text to clean
+    def __init__(self, llm: Optional[Runnable] = None):
+        # Create agents
+        self.agents = [Reasoning(agent_id=i) for i in range(NUM_REASONING_AGENTS)]
         
-    Returns:
-        str: The cleaned text
+        logger.info(f"Initialized ReasoningOrchestrator with {len(self.agents)} agents")
+    
+    def __call__(self, urls: Optional[List[str]] = None, **kwargs):
+        return self._run(urls)
+    
+    def _run(self, urls: Optional[List[str]] = None):
+        """
+        Orchestrate the processing of companies by multiple reasoning agents.
+        
+        Args:
+            urls: Optional list of URLs (unused, kept for compatibility)
+            
+        Returns:
+            Dictionary with results and statistics
+        """
+        logger.info("Starting reasoning orchestration")
+        
+        # List all company files
+        all_companies = list_company_files()
+        
+        if not all_companies:
+            logger.warning("No company files found to process")
+            return {
+                "status": "complete",
+                "message": "No company files found to process",
+                "stats": {"total": 0, "processed": 0, "successful": 0, "failed": 0, "skipped": 0}
+            }
+        
+        # Limit the number of companies if needed
+        if len(all_companies) > MAX_COMPANIES_TO_PROCESS:
+            logger.warning(f"Limiting processing to {MAX_COMPANIES_TO_PROCESS} companies")
+            all_companies = all_companies[:MAX_COMPANIES_TO_PROCESS]
+        
+        # Distribute companies evenly among agents
+        agent_assignments = [[] for _ in range(len(self.agents))]
+        
+        for i, company in enumerate(all_companies):
+            agent_idx = i % len(self.agents)
+            agent_assignments[agent_idx].append(company)
+        
+        logger.info(f"Distributed {len(all_companies)} companies among {len(self.agents)} agents")
+        
+        # Track statistics
+        overall_stats = {
+            "total": len(all_companies),
+            "processed": 0,
+            "successful": 0,
+            "failed": 0,
+            "skipped": 0
+        }
+        
+        all_results = []
+        all_errors = []
+        
+        # Launch agents with their assigned companies
+        for i, agent in enumerate(self.agents):
+            if not agent_assignments[i]:
+                logger.info(f"Agent {i} has no companies to process")
+                continue
+                
+            logger.info(f"Launching agent {i} with {len(agent_assignments[i])} companies")
+            
+            try:
+                # Run the agent and get results
+                agent_output = agent(agent_assignments[i])
+                
+                # Merge results and errors
+                all_results.extend(agent_output["results"])
+                all_errors.extend(agent_output["errors"])
+                
+                # Update statistics
+                agent_stats = agent_output["stats"]
+                overall_stats["processed"] += agent_stats["processed"]
+                overall_stats["successful"] += agent_stats["successful"]
+                overall_stats["failed"] += agent_stats["failed"]
+                overall_stats["skipped"] += agent_stats["skipped"]
+                
+                logger.info(f"Agent {i} completed processing {len(agent_assignments[i])} companies")
+                
+            except Exception as e:
+                logger.error(f"Error running agent {i}: {str(e)}")
+                overall_stats["failed"] += len(agent_assignments[i])
+        
+        logger.info(f"Orchestration complete. Stats: {overall_stats}")
+        
+        return {
+            "status": "complete",
+            "results": all_results,
+            "errors": all_errors,
+            "stats": overall_stats,
+            "reasoning_completed": True
+        }
+
+def reasoning_completion(state: Dict[str, Any]) -> Dict[str, Any]:
     """
-    # Remove asterisks (bold markers)
-    cleaned_text = text.replace("**", "")
+    Process the completion of reasoning tasks.
+    """
+    logger.info("Processing reasoning completion")
     
-    # Replace markdown headers with capitalized headers and separators
-    cleaned_text = cleaned_text.replace("# Analysis Process", "ANALYSIS PROCESS\n-------------------------------------------------------------------------------")
-    cleaned_text = cleaned_text.replace("# Final Assessment", "FINAL ASSESSMENT\n-------------------------------------------------------------------------------")
+    # Check if we have results
+    if "stats" in state:
+        stats = state["stats"]
+        
+        # Log a summary of the results
+        logger.info(f"Reasoning completed. "
+                    f"Processed: {stats.get('processed', 0)}, "
+                    f"Successful: {stats.get('successful', 0)}, "
+                    f"Failed: {stats.get('failed', 0)}, "
+                    f"Skipped: {stats.get('skipped', 0)}")
+        
+        # Generate a summary file
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        summary_file = output_dir / f"reasoning_summary_{timestamp}.json"
+        
+        try:
+            with open(summary_file, "w") as f:
+                json.dump(state, f, indent=2, default=str)
+            
+            logger.info(f"Saved reasoning summary to {summary_file}")
+            
+        except Exception as e:
+            logger.error(f"Error saving summary: {str(e)}")
     
-    # If these replacements didn't work (different casing), try alternatives
-    if "# analysis process" in cleaned_text.lower() and "ANALYSIS PROCESS" not in cleaned_text:
-        import re
-        cleaned_text = re.sub(r'(?i)# analysis process.*?\n', "ANALYSIS PROCESS\n-------------------------------------------------------------------------------\n", cleaned_text)
-        cleaned_text = re.sub(r'(?i)# final assessment.*?\n', "FINAL ASSESSMENT\n-------------------------------------------------------------------------------\n", cleaned_text)
-    
-    return cleaned_text
+    return {"reasoning_completed": True}
 
 def main():
     """
-    Main entry point for the reasoning agent.
+    Main entry point for running the reasoning agent standalone (without graph).
     """
-    logger.info("Starting multi-company reasoning agent")
+    logger.info("Starting reasoning orchestration")
     
-    # List all company files
-    company_files = list_company_files()
+    # Create orchestrator
+    orchestrator = ReasoningOrchestrator()
     
-    if not company_files:
-        logger.error("No company files found to process")
-        return 1
+    # Run orchestration
+    result = orchestrator()
     
-    # Limit the number of companies to process if needed
-    if len(company_files) > MAX_COMPANIES_TO_PROCESS:
-        logger.warning(f"Limiting processing to {MAX_COMPANIES_TO_PROCESS} companies (found {len(company_files)})")
-        company_files = company_files[:MAX_COMPANIES_TO_PROCESS]
+    # Process completion
+    reasoning_completion(result)
     
-    # Process each company
-    successful = 0
-    failed = 0
-    skipped = 0
-    
-    for i, company_file in enumerate(company_files):
-        logger.info(f"Processing company {i+1}/{len(company_files)}: {company_file['company_name']}")
-        success, output_file = process_company(company_file)
-        
-        if success:
-            if output_file:
-                successful += 1
-            else:
-                skipped += 1
-        else:
-            failed += 1
-    
-    # Print summary
-    logger.info(f"Multi-company processing complete. "
-                f"Successful: {successful}, Failed: {failed}, Skipped: {skipped}")
-    
-    print(f"\nProcessing completed!")
-    print(f"Successfully processed: {successful} companies")
-    print(f"Failed to process: {failed} companies")
-    print(f"Skipped (already processed): {skipped} companies")
-    print(f"Results saved to: {output_dir}")
-    
-    return 0 if failed == 0 else 1
+    return 0
 
 if __name__ == "__main__":
     sys.exit(main())
