@@ -6,7 +6,7 @@ This module contains configuration settings for the reasoning agent.
 
 # Model configuration
 MODEL_ID = "deepseek-reasoner"
-TEMPERATURE = 0
+TEMPERATURE = 1
 
 # S3 configuration
 S3_BUCKET = "pe-profiles"
@@ -17,7 +17,7 @@ S3_SUMMARIES_PREFIX = "Summaries/"  # Prefix path for company summaries
 OUTPUT_DIR = "./backend/reasoning_agent/output"
 
 # Batch processing configuration
-MAX_COMPANIES_TO_PROCESS = 300  # Limit to prevent processing too many files
+MAX_COMPANIES_TO_PROCESS = 1000  # Limit to prevent processing too many files
 SKIP_EXISTING_OUTPUTS = True   # Skip companies that already have output files
 
 # Parallel processing configuration

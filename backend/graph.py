@@ -1,3 +1,4 @@
+import argparse
 from langgraph.graph import StateGraph, add_messages, END
 from langgraph.checkpoint.memory import MemorySaver
 from backend.orchestrator_agent.orchestrator import Orchestrator, orchestrator_action, orchestrator_router
@@ -65,12 +66,12 @@ def create_graph() -> StateGraph:
     logger.info(f"Graph created with {len(reasoning_orchestrator.agents)} reasoning agents")
     return graph
 
-# Create and compile the graph for use by the websocket implementation
+# Create and compile the graph for use
 graph = create_graph()
 memory = MemorySaver()
 workflow = graph.compile(checkpointer=memory)
 
-async def run(app):
+async def run_interactive(app):
     from langchain_core.messages import AIMessageChunk, HumanMessage
     config = {"configurable": {"thread_id": 1}}
     _user_input = input("User: ")
@@ -83,13 +84,70 @@ async def run(app):
                 out+=msg.content
         print('Assistant: ', out)
         _user_input = input("User: ")
+
+async def process_documents():
+    """
+    Run the workflow in document processing mode. This bypasses the interactive mode and directly runs the reasoning orchestration.
+    """
+    logger.info("Starting document processing with LangGraph workflow")
     
+    # Initial state with instruction to process documents
+    initial_state = {
+        "messages": [{
+            "role": "user", 
+            "content": "Process all company documents from S3."
+        }],
+        "sector": REASONING_CONFIG["default_values"]["sector"],
+        "check_size": REASONING_CONFIG["default_values"]["check_size"],
+        "geographical_location": REASONING_CONFIG["default_values"]["geographical_location"],
+        "urls": [],
+        "reasoning_completed": False
+    }
+    
+    # Run the workflow with this initial state
+    config = {"configurable": {"thread_id": 2}}
+    result = workflow.invoke(initial_state, config=config)
+    
+    logger.info("Document processing workflow completed")
+    
+    # Check if reasoning was completed
+    if result.get("reasoning_completed", False):
+        print("✅ Successfully processed all company documents!")
+    else:
+        print("❌ Document processing did not complete successfully.")
+    
+    # Print any results or messages
+    if "stats" in result:
+        stats = result["stats"]
+        print(f"📊 Stats: Processed {stats.get('processed', 0)} documents, "
+              f"Success: {stats.get('successful', 0)}, "
+              f"Failed: {stats.get('failed', 0)}")
+    
+    print("🔍 Check the output directory for results.")
+    return result
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Run reasoning orchestrator")
+    parser.add_argument("--process", action="store_true", help="Process S3 documents")
+    parser.add_argument("--interactive", action="store_true", help="Run in interactive mode")
+    return parser.parse_args()
 
 if __name__ == "__main__":
-    graph = create_graph() 
-    memory = MemorySaver()
-    app  = graph.compile(checkpointer=memory)
-    asyncio.run(run(app))
+    args = parse_args()
+    
+    if args.process:
+        # Run in document processing mode
+        asyncio.run(process_documents())
+    elif args.interactive:
+        # Run in interactive mode
+        graph = create_graph() 
+        memory = MemorySaver()
+        app = graph.compile(checkpointer=memory)
+        asyncio.run(run_interactive(app))
+    else:
+        # Default to document processing
+        print("No mode specified, defaulting to document processing.")
+        asyncio.run(process_documents())
 
 
 

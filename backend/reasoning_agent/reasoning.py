@@ -108,12 +108,26 @@ def list_company_files():
 def extract_company_name(filename):
     """
     Extract company name from filename (characters before first underscore).
+    Skip 'www_' prefix if present to avoid duplicate company names.
+    
+    Args:
+        filename (str): The filename
+        
+    Returns:
+        str: The extracted company name
     """
     # Split by underscore and take the first part
     parts = filename.split('_')
-    if parts:
-        return parts[0]
-    return "unknown"  # Fallback if no underscore found
+    
+    if not parts:
+        return "unknown"  # Fallback if no underscore found
+    
+    # If the first part is "www" and there are more parts, use the second part
+    if parts[0] == "www" and len(parts) > 1:
+        return parts[1]  # Use the next part after "www_"
+    
+    # Otherwise use the first part as before
+    return parts[0]
 
 def check_output_exists(company_name):
     """
@@ -283,6 +297,16 @@ class Reasoning:
         """
         logger.info(f"Agent {self.agent_id} processing {len(companies)} companies")
         
+        # Check if companies is not a list or is not a list of dictionaries
+        if not isinstance(companies, list) or not companies or not isinstance(companies[0], dict):
+            logger.warning(f"Agent {self.agent_id} received invalid companies data: {type(companies)}")
+            return {
+                "agent_id": self.agent_id,
+                "results": [],
+                "errors": [{"error": "Invalid companies data format"}],
+                "stats": {"total": 0, "processed": 0, "successful": 0, "failed": 0, "skipped": 0}
+            }
+        
         results = []
         errors = []
         stats = {"total": len(companies), "processed": 0, "successful": 0, "failed": 0, "skipped": 0}
@@ -391,13 +415,7 @@ class ReasoningOrchestrator:
     
     def _run(self, urls: Optional[List[str]] = None):
         """
-        Orchestrate the processing of companies by multiple reasoning agents.
-        
-        Args:
-            urls: Optional list of URLs (unused, kept for compatibility)
-            
-        Returns:
-            Dictionary with results and statistics
+        Orchestrate the processing of companies by multiple reasoning agents in parallel.
         """
         logger.info("Starting reasoning orchestration")
         
@@ -438,36 +456,39 @@ class ReasoningOrchestrator:
         all_results = []
         all_errors = []
         
-        # Launch agents with their assigned companies
-        for i, agent in enumerate(self.agents):
-            if not agent_assignments[i]:
-                logger.info(f"Agent {i} has no companies to process")
-                continue
-                
-            logger.info(f"Launching agent {i} with {len(agent_assignments[i])} companies")
+        # Create a thread pool to run agents in parallel
+        with concurrent.futures.ThreadPoolExecutor(max_workers=len(self.agents)) as executor:
+            # Submit tasks for each agent
+            future_to_agent = {
+                executor.submit(self._run_agent, i, agent, agent_assignments[i]): i 
+                for i, agent in enumerate(self.agents) 
+                if agent_assignments[i]  # Only submit if there are companies to process
+            }
             
-            try:
-                # Run the agent and get results
-                agent_output = agent(agent_assignments[i])
-                
-                # Merge results and errors
-                all_results.extend(agent_output["results"])
-                all_errors.extend(agent_output["errors"])
-                
-                # Update statistics
-                agent_stats = agent_output["stats"]
-                overall_stats["processed"] += agent_stats["processed"]
-                overall_stats["successful"] += agent_stats["successful"]
-                overall_stats["failed"] += agent_stats["failed"]
-                overall_stats["skipped"] += agent_stats["skipped"]
-                
-                logger.info(f"Agent {i} completed processing {len(agent_assignments[i])} companies")
-                
-            except Exception as e:
-                logger.error(f"Error running agent {i}: {str(e)}")
-                overall_stats["failed"] += len(agent_assignments[i])
+            # Process results as they complete
+            for future in concurrent.futures.as_completed(future_to_agent):
+                agent_id = future_to_agent[future]
+                try:
+                    agent_results, agent_errors, agent_stats = future.result()
+                    
+                    # Merge results and errors
+                    all_results.extend(agent_results)
+                    all_errors.extend(agent_errors)
+                    
+                    # Update statistics
+                    overall_stats["processed"] += agent_stats["processed"]
+                    overall_stats["successful"] += agent_stats["successful"]
+                    overall_stats["failed"] += agent_stats["failed"]
+                    overall_stats["skipped"] += agent_stats["skipped"]
+                    
+                    logger.info(f"Agent {agent_id} completed processing with stats: {agent_stats}")
+                    
+                except Exception as e:
+                    logger.error(f"Error running agent {agent_id}: {str(e)}")
+                    # Count as failures
+                    overall_stats["failed"] += len(agent_assignments[agent_id])
         
-        logger.info(f"Orchestration complete. Stats: {overall_stats}")
+        logger.info(f"Parallel orchestration complete. Stats: {overall_stats}")
         
         return {
             "status": "complete",
@@ -477,37 +498,70 @@ class ReasoningOrchestrator:
             "reasoning_completed": True
         }
 
+    def _run_agent(self, agent_id, agent, companies):
+        """Helper method to run an agent and return results in the expected format"""
+        if not companies:
+            logger.info(f"Agent {agent_id} has no companies to process")
+            return [], [], {"processed": 0, "successful": 0, "failed": 0, "skipped": 0}
+        
+        logger.info(f"Agent {agent_id} processing {len(companies)} companies in parallel thread")
+        
+        try:
+            # Run the agent and get results
+            agent_output = agent(companies)
+            
+            # Extract components
+            results = agent_output.get("results", [])
+            errors = agent_output.get("errors", [])
+            stats = agent_output.get("stats", {})
+            
+            return results, errors, stats
+            
+        except Exception as e:
+            logger.error(f"Unexpected error running agent {agent_id}: {str(e)}")
+            return [], [{"error": str(e), "agent_id": agent_id}], {"processed": 0, "successful": 0, "failed": len(companies), "skipped": 0}
+
 def reasoning_completion(state: Dict[str, Any]) -> Dict[str, Any]:
     """
     Process the completion of reasoning tasks.
     """
     logger.info("Processing reasoning completion")
     
-    # Check if we have results
+    # Extract results from the state if they exist
+    results = []
+    stats = {"processed": 0, "successful": 0, "failed": 0, "skipped": 0}
+    
+    if "results" in state:
+        results = state["results"]
     if "stats" in state:
         stats = state["stats"]
-        
-        # Log a summary of the results
-        logger.info(f"Reasoning completed. "
-                    f"Processed: {stats.get('processed', 0)}, "
-                    f"Successful: {stats.get('successful', 0)}, "
-                    f"Failed: {stats.get('failed', 0)}, "
-                    f"Skipped: {stats.get('skipped', 0)}")
-        
-        # Generate a summary file
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        summary_file = output_dir / f"reasoning_summary_{timestamp}.json"
-        
-        try:
-            with open(summary_file, "w") as f:
-                json.dump(state, f, indent=2, default=str)
-            
-            logger.info(f"Saved reasoning summary to {summary_file}")
-            
-        except Exception as e:
-            logger.error(f"Error saving summary: {str(e)}")
     
-    return {"reasoning_completed": True}
+    # Log a summary of the results
+    logger.info(f"Reasoning completed. "
+                f"Processed: {stats.get('processed', 0)}, "
+                f"Successful: {stats.get('successful', 0)}, "
+                f"Failed: {stats.get('failed', 0)}, "
+                f"Skipped: {stats.get('skipped', 0)}")
+    
+    # Generate a summary file
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    summary_file = output_dir / f"reasoning_summary_{timestamp}.json"
+    
+    try:
+        with open(summary_file, "w") as f:
+            json.dump(state, f, indent=2, default=str)
+        
+        logger.info(f"Saved reasoning summary to {summary_file}")
+    except Exception as e:
+        logger.error(f"Error saving summary: {str(e)}")
+    
+    # Return a clean state that won't trigger more processing
+    # The key change is here - we return only necessary fields, not the full results
+    return {
+        "reasoning_completed": True,
+        "summary_file": str(summary_file),
+        "stats_summary": stats
+    }
 
 def main():
     """

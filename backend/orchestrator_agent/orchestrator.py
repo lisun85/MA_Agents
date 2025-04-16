@@ -52,13 +52,38 @@ def orchestrator_action(state):
 
     return {"messages": messages}
     
-def orchestrator_router(state):
+def orchestrator_router(state: dict) -> str:
+    """
+    Route based on the orchestrator's decision.
+    """
     print(f"DEBUG ROUTER - State keys: {state.keys()}")
     print(f"DEBUG ROUTER - reasoning_completed: {state.get('reasoning_completed', 'Not Found')}")
     print(f"DEBUG ROUTER - sector: {state.get('sector', 'Not Found')}")
     print(f"DEBUG ROUTER - check_size: {state.get('check_size', 'Not Found')}")
     print(f"DEBUG ROUTER - geographical_location: {state.get('geographical_location', 'Not Found')}")
-    
+
+    # Check if a request to process documents was made
+    messages = state.get("messages", [])
+    for message in messages:
+        # Print message type for debugging
+        print(f"DEBUG ROUTER - Message type: {type(message).__name__}")
+        
+        # Check if it's a HumanMessage by checking the type name
+        is_human_message = type(message).__name__ == "HumanMessage"
+        
+        # Get message content safely
+        if hasattr(message, "content"):
+            message_content = message.content
+        else:
+            continue  # Skip messages without content
+            
+        # Check if it's a human message and contains process documents
+        if (is_human_message and 
+            "process" in message_content.lower() and 
+            "document" in message_content.lower()):
+            print("DEBUG ROUTER - Explicit document processing request, routing to reasoning_orchestrator")
+            return "reasoning_orchestrator"
+            
     # Check if we have tool calls in the last message
     if state["messages"] and hasattr(state["messages"][-1], "tool_calls") and state["messages"][-1].tool_calls:
         print("DEBUG ROUTER - Routing to orchestrator_action")
