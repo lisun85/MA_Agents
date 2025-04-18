@@ -1,5 +1,23 @@
 # Batch Directories - Team2
 # Lines starting with # are comments
 
-branfordcastle.com
-burlingtonstreetpartners.com
+highviewcapital.com
+kainoscapital.com
+keplercapital.ca
+latticeworkcapital.com
+mangroveequity.com
+middleground.com
+ninthstreetcapital.com
+peakrockcapital.com
+pleasantbaycp.com
+plexuscap.com
+presidioinvestors.com
+rbequity.com
+renovuscapital.com
+rljequitypartners.com
+rockgatepartners.com
+rockwoodequity.com
+scaleco.com
+serentcapital.com
+slackwatercap.com
+soundcorecap.com

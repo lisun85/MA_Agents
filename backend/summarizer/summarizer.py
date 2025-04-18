@@ -8,6 +8,7 @@ from datetime import datetime
 import re
 import asyncio
 from backend.summarizer.parallel_extraction import ParallelExtractionManager
+from transformers import AutoTokenizer
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -994,11 +995,6 @@ Sections extracted: 6 (Portfolio Companies, Investment Strategy/Criteria,
                     report += "## Additional Investment Information\n\n"
                     for extract in other_extracts:
                         report += f"{extract['text']}\n\n"
-            
-            # Add sources at the end of the section
-            if investment_strategy.get("source_files"):
-                sources_list = ", ".join(investment_strategy["source_files"])
-                report += f"Sources: [{sources_list}]\n"
         else:
             report += "No specific investment strategy, approach, or criteria information found in the analyzed documents.\n"
         report += "</section>\n\n"
@@ -1020,12 +1016,6 @@ Sections extracted: 6 (Portfolio Companies, Investment Strategy/Criteria,
         if industry_focus.get("extracts"):
             for extract in industry_focus["extracts"]:
                 report += f"{extract['text']}\n\n"
-            
-            # Add sources at the end
-            industry_sources = sorted(set(extract["source_file"] for extract in industry_focus["extracts"]))
-            if industry_sources:
-                sources_list = ", ".join(industry_sources)
-                report += f"Sources: [{sources_list}]\n"
         else:
             report += "No specific industry focus information found in the analyzed documents.\n"
         report += "</subsection>\n</section>\n\n"
@@ -1047,12 +1037,6 @@ Sections extracted: 6 (Portfolio Companies, Investment Strategy/Criteria,
         if geographic_focus.get("extracts"):
             for extract in geographic_focus["extracts"]:
                 report += f"{extract['text']}\n\n"
-            
-            # Add sources at the end
-            geo_sources = sorted(set(extract["source_file"] for extract in geographic_focus["extracts"]))
-            if geo_sources:
-                sources_list = ", ".join(geo_sources)
-                report += f"Sources: [{sources_list}]\n"
         else:
             report += "No specific geographic focus information found in the analyzed documents.\n"
         report += "</subsection>\n</section>\n\n"
@@ -1092,12 +1076,6 @@ Including affiliate transactions: {affiliate_count}
                     report += f"   Details: {details}\n"
                     
                 report += "\n"
-            
-            # Add portfolio sources at the end of this subsection
-            portfolio_sources = sorted(set(c['source_file'] for c in portfolio_file_companies))
-            if portfolio_sources:
-                sources_list = ", ".join(portfolio_sources)
-                report += f"Sources: [{sources_list}]\n\n"
         
         # Then add companies from other files
         other_companies = [c for c in portfolio_companies if not c.get('from_portfolio_file', False)]
@@ -1124,12 +1102,6 @@ Including affiliate transactions: {affiliate_count}
                     report += f"   Details: {details}\n"
                 
                 report += "\n"
-            
-            # Add other sources at the end of this subsection
-            other_sources = sorted(set(c['source_file'] for c in other_companies))
-            if other_sources:
-                sources_list = ", ".join(other_sources)
-                report += f"Sources: [{sources_list}]\n"
         
         # If no companies were found
         if not portfolio_companies:
@@ -1144,11 +1116,6 @@ Including affiliate transactions: {affiliate_count}
         if team_and_contacts:
             for extract in team_and_contacts:
                 report += f"{extract['text']}\n\n"
-            
-            # Add sources at the end
-            if team_sources:
-                sources_list = ", ".join(team_sources)
-                report += f"Sources: [{sources_list}]\n"
         else:
             report += "No specific team or contact information found in the analyzed documents.\n"
         report += "</section>\n\n"
@@ -1160,14 +1127,6 @@ Including affiliate transactions: {affiliate_count}
 """
         
         if media_and_news:
-            # Get unique source files with a default value if key is missing
-            media_sources = sorted(set(extract.get("source_file", "Unknown source") 
-                               for extract in media_and_news 
-                               if isinstance(extract, dict)))
-            
-            if media_sources:
-                report += f"Sources: {', '.join(media_sources)}\n\n"
-            
             # Process media items with improved formatting
             for i, extract in enumerate(media_and_news):
                 if isinstance(extract, dict) and "text" in extract:
@@ -1268,7 +1227,8 @@ Including affiliate transactions: {affiliate_count}
         report += "Note: This summary was automatically generated and should be reviewed for accuracy.\n"
         report += "==========================================================================\n"
         
-        return report
+        # Apply token limit before returning
+        return self.apply_token_limit(report, max_tokens=65000)
 
     def _extract_firm_name(self, directory_name: str, file_contents: Dict[str, str]) -> str:
         """
@@ -1716,3 +1676,102 @@ Including affiliate transactions: {affiliate_count}
     def get_timestamp(self) -> str:
         """Get current timestamp formatted as string."""
         return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    def count_tokens(self, text: str) -> int:
+        """Count tokens in a string using a tokenizer."""
+        try:
+            tokenizer = AutoTokenizer.from_pretrained("google/gemini-1.5-base")
+            tokens = tokenizer.encode(text)
+            return len(tokens)
+        except Exception as e:
+            # Fallback approximation if tokenizer fails
+            return len(text) // 4  # Rough approximation: ~4 chars per token
+
+    def apply_token_limit(self, report: str, max_tokens: int = 65000) -> str:
+        """Apply token limit by preserving as much Media & News content as possible."""
+        token_count = self.count_tokens(report)
+        
+        # If already under limit, return as is
+        if token_count <= max_tokens:
+            return report
+        
+        # Find the Media and News section
+        media_section_match = re.search(r'(<section name="MEDIA_AND_NEWS">.*?</section>)', report, re.DOTALL)
+        
+        if not media_section_match:
+            # If no media section found, truncate the end as fallback
+            self.logger.warning(f"No Media section found for truncation, report is {token_count} tokens")
+            return report[:int(len(report) * 0.95)] + "\n\n[Content truncated to meet 65K token limit]"
+        
+        # Extract the three parts of the report
+        before_media = report[:media_section_match.start()]
+        media_section = media_section_match.group(1)
+        after_media = report[media_section_match.end():]
+        
+        # Calculate available tokens for the media section
+        non_media_tokens = self.count_tokens(before_media + after_media)
+        available_media_tokens = max_tokens - non_media_tokens - 100  # Reserve 100 tokens for truncation message
+        
+        # If we don't have reasonable space for media, replace with minimal notice
+        if available_media_tokens < 500:
+            truncation_message = "\n<section name=\"MEDIA_AND_NEWS\">\n# MEDIA AND NEWS\n\n[Media content truncated due to token limit]\n</section>"
+            return before_media + truncation_message + after_media
+        
+        # Extract the media section content between section tags
+        content_match = re.search(r'<section name="MEDIA_AND_NEWS">(.*?)</section>', media_section, re.DOTALL)
+        if not content_match:
+            return report  # Something went wrong, return original
+        
+        media_content = content_match.group(1)
+        section_start = "<section name=\"MEDIA_AND_NEWS\">"
+        section_end = "</section>"
+        
+        # Split the media content by horizontal line separators
+        # This is a common pattern in the media section from the previous code
+        entries = re.split(r'\n{1,2}-{80}\n{1,2}', media_content)
+        
+        # If no separator found, split by paragraphs
+        if len(entries) <= 1:
+            entries = re.split(r'\n\n+', media_content)
+        
+        # Keep the section header
+        header_match = re.search(r'(# MEDIA AND NEWS.*?)(?:\n{2,}|\Z)', media_content, re.DOTALL)
+        new_media_content = header_match.group(1) if header_match else "# MEDIA AND NEWS\n\n"
+        current_tokens = self.count_tokens(section_start + new_media_content + section_end)
+        
+        # Add entries until we approach the limit
+        entries_included = 0
+        
+        for i, entry in enumerate(entries):
+            if not entry.strip() or entry.strip() == "# MEDIA AND NEWS":
+                continue
+            
+            # Add separator before entry (except first non-header entry)
+            if entries_included > 0:
+                separator = f"\n\n{'-' * 80}\n\n"
+                entry_with_separator = separator + entry.strip()
+            else:
+                entry_with_separator = "\n\n" + entry.strip()
+            
+            entry_tokens = self.count_tokens(entry_with_separator)
+            
+            if current_tokens + entry_tokens <= available_media_tokens:
+                new_media_content += entry_with_separator
+                current_tokens += entry_tokens
+                entries_included += 1
+            else:
+                # No space for this entry
+                break
+        
+        # Add truncation message if we couldn't include all entries
+        if entries_included < len([e for e in entries if e.strip() and e.strip() != "# MEDIA AND NEWS"]):
+            remaining = len([e for e in entries if e.strip() and e.strip() != "# MEDIA AND NEWS"]) - entries_included
+            new_media_content += f"\n\n[{remaining} additional media entries were truncated to meet 65K token limit]"
+        
+        # Assemble the final report
+        truncated_report = before_media + section_start + new_media_content + section_end + after_media
+        
+        self.logger.info(f"Included {entries_included} media entries while staying under token limit")
+        self.logger.info(f"Reduced token count from {token_count} to approximately {self.count_tokens(truncated_report)}")
+        
+        return truncated_report

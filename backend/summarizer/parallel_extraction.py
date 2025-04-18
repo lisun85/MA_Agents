@@ -244,9 +244,130 @@ class CompilationAgent:
         self.summarizer = parent_summarizer
         self.logger = logging.getLogger(f"{__name__}.CompilationAgent")
     
+    def _deduplicate_text_content(self, content):
+        """
+        Remove duplicate paragraphs from extracted text content.
+        
+        Args:
+            content: String or list of strings containing potentially duplicated content
+            
+        Returns:
+            Deduplicated content in the same format as the input
+        """
+        if not content:
+            return content
+            
+        # Handle different input types
+        is_string_input = isinstance(content, str)
+        if is_string_input:
+            # Split the content into paragraphs
+            paragraphs = [p.strip() for p in content.split("\n\n") if p.strip()]
+        elif isinstance(content, list) and all(isinstance(item, str) for item in content):
+            # If it's a list of strings, treat each as a paragraph
+            paragraphs = [p.strip() for p in content if p.strip()]
+        else:
+            # For other types (like structured data), return as is
+            return content
+            
+        # Track seen paragraphs to avoid duplicates
+        unique_paragraphs = []
+        seen_paragraphs = set()
+        
+        for para in paragraphs:
+            if para not in seen_paragraphs:
+                unique_paragraphs.append(para)
+                seen_paragraphs.add(para)
+        
+        # Log deduplication statistics
+        original_count = len(paragraphs)
+        deduped_count = len(unique_paragraphs)
+        if original_count > deduped_count:
+            self.logger.info(f"Removed {original_count - deduped_count} duplicate paragraphs ({(original_count - deduped_count) / original_count * 100:.1f}%)")
+        
+        # Return in the same format as input
+        if is_string_input:
+            return "\n\n".join(unique_paragraphs)
+        else:
+            return unique_paragraphs
+    
+    def _deduplicate_extracts_list(self, extracts):
+        """
+        Deduplicate a list of extract dictionaries.
+        
+        Args:
+            extracts: List of dictionaries with 'text' keys
+            
+        Returns:
+            Deduplicated list of extract dictionaries
+        """
+        if not extracts or not isinstance(extracts, list):
+            return extracts
+            
+        # Extract just the text values to deduplicate
+        texts = [item.get('text', '') for item in extracts if isinstance(item, dict)]
+        
+        # Track seen texts and corresponding extracts
+        unique_extracts = []
+        seen_texts = set()
+        
+        for extract in extracts:
+            if not isinstance(extract, dict) or 'text' not in extract:
+                continue
+                
+            text = extract['text']
+            if text not in seen_texts:
+                unique_extracts.append(extract)
+                seen_texts.add(text)
+        
+        # Log deduplication statistics
+        original_count = len(extracts)
+        deduped_count = len(unique_extracts)
+        if original_count > deduped_count:
+            self.logger.info(f"Removed {original_count - deduped_count} duplicate extracts ({(original_count - deduped_count) / original_count * 100:.1f}%)")
+            
+        return unique_extracts
+    
+    def _deduplicate_structured_content(self, data):
+        """
+        Deduplicate structured content containing text fields.
+        
+        Args:
+            data: Dictionary or list of dictionaries with mixed content
+            
+        Returns:
+            Deduplicated structured content
+        """
+        if isinstance(data, dict):
+            result = {}
+            for key, value in data.items():
+                # Recursively deduplicate nested structures
+                if isinstance(value, (dict, list)):
+                    result[key] = self._deduplicate_structured_content(value)
+                # Deduplicate string content
+                elif isinstance(value, str) and len(value) > 100:  # Only deduplicate longer text fields
+                    result[key] = self._deduplicate_text_content(value)
+                # Keep other values as is
+                else:
+                    result[key] = value
+            return result
+            
+        elif isinstance(data, list):
+            # If it's a list of dictionaries with 'text' fields, treat as extracts
+            if all(isinstance(item, dict) and 'text' in item for item in data if isinstance(item, dict)):
+                return self._deduplicate_extracts_list(data)
+            # If it's a list of strings, deduplicate as text content
+            elif all(isinstance(item, str) for item in data):
+                return self._deduplicate_text_content(data)
+            # For lists of other structures, recursively deduplicate each item
+            else:
+                return [self._deduplicate_structured_content(item) for item in data]
+                
+        # Return non-container types as is
+        return data
+    
     async def compile(self, extraction_results: Dict[str, Any], directory_name: str, firm_name: str, file_count: int) -> Dict[str, Any]:
         """
-        Compile extraction results into the final summary.
+        Compile extraction results into the final summary, with deduplication.
         
         Args:
             extraction_results: Dictionary of extraction results from all agents
@@ -260,14 +381,18 @@ class CompilationAgent:
         self.logger.info("Compiling extraction results into final summary")
         
         try:
+            # First, deduplicate the extraction results
+            self.logger.info("Deduplicating extraction results")
+            deduplicated_results = self._deduplicate_structured_content(extraction_results)
+            
             # Merge all extraction results into a single dictionary
             summary_data = {
-                "portfolio_companies": extraction_results.get("portfolio_companies", []),
-                "investment_strategy": extraction_results.get("investment_strategy", {"extracts": [], "source_files": []}),
-                "industry_focus": extraction_results.get("industry_focus", {"extracts": [], "summary": ""}),
-                "geographic_focus": extraction_results.get("geographic_focus", {"extracts": [], "summary": ""}),
-                "team_and_contacts": extraction_results.get("team_and_contacts", []),
-                "media_and_news": extraction_results.get("media_and_news", [])
+                "portfolio_companies": deduplicated_results.get("portfolio_companies", []),
+                "investment_strategy": deduplicated_results.get("investment_strategy", {"extracts": [], "source_files": []}),
+                "industry_focus": deduplicated_results.get("industry_focus", {"extracts": [], "summary": ""}),
+                "geographic_focus": deduplicated_results.get("geographic_focus", {"extracts": [], "summary": ""}),
+                "team_and_contacts": deduplicated_results.get("team_and_contacts", []),
+                "media_and_news": deduplicated_results.get("media_and_news", [])
             }
             
             # Create the final summary result dictionary
@@ -280,7 +405,7 @@ class CompilationAgent:
                 "timestamp": self.summarizer.get_timestamp()
             }
             
-            self.logger.info("Successfully compiled extraction results")
+            self.logger.info("Successfully compiled and deduplicated extraction results")
             return summary_result
             
         except Exception as e:
