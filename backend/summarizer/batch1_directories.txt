@@ -1,23 +1,10 @@
 # Batch Directories - Team1
 # Lines starting with # are comments
 
-altuscapitalpartners.com
-argosycapital.com
-branfordcastle.com
-burlingtonstreetpartners.com
-charteroak-equity.com
-crescendocap.com
-cstonecapital.com
-envestcap.com
-excellere.com
-firecapital.com
-foundationpartners.net
-gencapamerica.com
-gennx360.com
-granitecreek.com
-graylightpartners.com
-greylion.com
-hadleycapital.com
-hanoverpartners.com
-harrenequity.com
-heartwoodpartners.com
+claviscp.com
+rightlanecapital.com
+a-mcapital.com
+redriverequity.com
+pennspring.com
+abacusinvestments.com
+tacomaholdings.com

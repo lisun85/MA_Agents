@@ -23,6 +23,13 @@ SKIP_EXISTING_OUTPUTS = True   # Skip companies that already have output files
 # Parallel processing configuration
 NUM_REASONING_AGENTS = 6  # Number of parallel reasoning agents to use
 
+# Buyer categorization configuration
+BUYER_CATEGORIES = {
+    "STRONG": "Strong_buyer",
+    "MEDIUM": "Medium_buyer",
+    "NOT": "Not_buyer"
+}
+
 # LangGraph Configuration
 CONFIG = {
     "agent_size": NUM_REASONING_AGENTS,

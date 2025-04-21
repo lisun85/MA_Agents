@@ -46,6 +46,35 @@ def parse_args():
     
     return parser.parse_args()
 
+def clean_url(url):
+    """
+    Clean URL by removing 'https://', 'http://', 'www.' prefixes,
+    and any path components after the domain.
+    
+    Args:
+        url: The URL or directory name to clean
+        
+    Returns:
+        Cleaned URL
+    """
+    # Remove leading/trailing whitespace
+    cleaned = url.strip()
+    
+    # Remove http:// or https:// prefix
+    if cleaned.startswith('http://'):
+        cleaned = cleaned[7:]
+    elif cleaned.startswith('https://'):
+        cleaned = cleaned[8:]
+    
+    # Remove www. prefix
+    if cleaned.startswith('www.'):
+        cleaned = cleaned[4:]
+    
+    # Remove path components (anything after first /)
+    cleaned = cleaned.split('/')[0]
+    
+    return cleaned
+
 def load_directories(file_path):
     """Load directories from a file."""
     if not os.path.exists(file_path):
@@ -55,9 +84,21 @@ def load_directories(file_path):
     with open(file_path, "r") as f:
         # Read lines, strip whitespace, and filter out empty lines and comments
         directories = [
+            clean_url(line.strip()) for line in f
+            if line.strip() and not line.strip().startswith('#')
+        ]
+    
+    # Log any URLs that were cleaned
+    original_directories = []
+    with open(file_path, "r") as f:
+        original_directories = [
             line.strip() for line in f
             if line.strip() and not line.strip().startswith('#')
         ]
+    
+    cleaned_count = sum(1 for orig, cleaned in zip(original_directories, directories) if orig != cleaned)
+    if cleaned_count > 0:
+        print(f"Cleaned {cleaned_count} URLs by removing http://, https://, and www. prefixes")
     
     return directories
 

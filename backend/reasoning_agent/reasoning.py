@@ -13,13 +13,14 @@ from backend.reasoning_agent.config import (
     MODEL_ID, TEMPERATURE, OUTPUT_DIR, 
     S3_BUCKET, S3_REGION, S3_SUMMARIES_PREFIX,
     MAX_COMPANIES_TO_PROCESS, SKIP_EXISTING_OUTPUTS,
-    NUM_REASONING_AGENTS, CONFIG
+    NUM_REASONING_AGENTS, CONFIG, BUYER_CATEGORIES
 )
 from langchain.schema import AgentAction, AgentFinish
 from langchain_core.tools import BaseTool
 from typing import Dict, List, Any, Optional, Type, ClassVar, Literal
 from langchain_core.runnables import Runnable
 from langchain_core.callbacks.manager import CallbackManagerForToolRun
+import re
 
 # Load environment variables
 load_dotenv()
@@ -310,6 +311,8 @@ class Reasoning:
         results = []
         errors = []
         stats = {"total": len(companies), "processed": 0, "successful": 0, "failed": 0, "skipped": 0}
+        # Add category tracking to stats
+        category_stats = {"STRONG": 0, "MEDIUM": 0, "NOT": 0}
         
         for company in companies:
             company_name = company['company_name']
@@ -335,41 +338,67 @@ class Reasoning:
                 # Clean up the response format
                 cleaned_response = clean_output_format(response)
                 
-                # Format the output
+                # Categorize the buyer potential
+                buyer_category, confidence, company_url, contacts = categorize_buyer_potential(cleaned_response)
+                category_stats[buyer_category] += 1
+                
+                # Get the appropriate filename prefix based on the category
+                filename_prefix = buyer_category
+                
+                # Format the output with additional information
                 formatted_output = f"""
 ==========================================================================
                        REASONING AGENT RESULTS
 ==========================================================================
 Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 Company: {company_name}
+URL: {company_url if company_url else company_name + ".com"}
 Model: {MODEL_ID}
 Temperature: {TEMPERATURE}
 Agent ID: {self.agent_id}
+Buyer Category: {buyer_category}
 ==========================================================================
 
 {cleaned_response}
 
+==========================================================================
+CONTACT INFORMATION
+==========================================================================
+"""
+                
+                # Add contact information if available
+                if contacts:
+                    for name, title, email in contacts:
+                        formatted_output += f"{name} {title} {email}\n"
+                else:
+                    formatted_output += "No contact information found.\n"
+                
+                formatted_output += """
 ==========================================================================
 Note: This assessment was automatically generated and should be reviewed
 for accuracy by an investment professional.
 ==========================================================================
 """
                 
-                # Save the output
+                # Save the output with the categorized prefix
                 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                output_file = output_dir / f"{company_name}_reasoning_result_{timestamp}.txt"
+                output_file = output_dir / f"{filename_prefix}_{company_name}_reasoning_{timestamp}.txt"
                 
                 with open(output_file, "w") as f:
                     f.write(formatted_output)
                 
-                logger.info(f"Agent {self.agent_id} saved output for {company_name} to {output_file}")
+                logger.info(f"Agent {self.agent_id} saved output for {company_name} to {output_file} (Category: {buyer_category})")
                 
                 results.append({
                     "company_name": company_name,
                     "file_key": file_key,
                     "output_file": str(output_file),
                     "success": True,
-                    "agent_id": self.agent_id
+                    "agent_id": self.agent_id,
+                    "buyer_category": buyer_category,
+                    "confidence": confidence,
+                    "url": company_url,
+                    "contacts": contacts
                 })
                 
                 stats["successful"] += 1
@@ -388,6 +417,8 @@ for accuracy by an investment professional.
             
             stats["processed"] += 1
         
+        # Add category stats to the output
+        stats["categories"] = category_stats
         logger.info(f"Agent {self.agent_id} completed processing with stats: {stats}")
         
         return {
@@ -427,7 +458,7 @@ class ReasoningOrchestrator:
             return {
                 "status": "complete",
                 "message": "No company files found to process",
-                "stats": {"total": 0, "processed": 0, "successful": 0, "failed": 0, "skipped": 0}
+                "stats": {"total": 0, "processed": 0, "successful": 0, "failed": 0, "skipped": 0, "categories": {"STRONG": 0, "MEDIUM": 0, "NOT": 0}}
             }
         
         # Limit the number of companies if needed
@@ -450,7 +481,8 @@ class ReasoningOrchestrator:
             "processed": 0,
             "successful": 0,
             "failed": 0,
-            "skipped": 0
+            "skipped": 0,
+            "categories": {"STRONG": 0, "MEDIUM": 0, "NOT": 0}
         }
         
         all_results = []
@@ -480,6 +512,11 @@ class ReasoningOrchestrator:
                     overall_stats["successful"] += agent_stats["successful"]
                     overall_stats["failed"] += agent_stats["failed"]
                     overall_stats["skipped"] += agent_stats["skipped"]
+                    
+                    # Update category stats
+                    if "categories" in agent_stats:
+                        for category, count in agent_stats["categories"].items():
+                            overall_stats["categories"][category] += count
                     
                     logger.info(f"Agent {agent_id} completed processing with stats: {agent_stats}")
                     
@@ -562,6 +599,60 @@ def reasoning_completion(state: Dict[str, Any]) -> Dict[str, Any]:
         "summary_file": str(summary_file),
         "stats_summary": stats
     }
+
+def categorize_buyer_potential(response_text):
+    """
+    Extract the buyer category directly from the 'Answer:' line in the response.
+    Also extracts the company URL if available.
+    
+    Args:
+        response_text (str): The full response text from the reasoning model
+        
+    Returns:
+        tuple: (category, confidence, url, contacts)
+    """
+    # Default values
+    category = "MEDIUM"
+    confidence = "unknown"
+    url = ""
+    contacts = []
+    
+    # Look for explicit Answer line
+    answer_match = re.search(r'Answer:\s*(.*?)\s*(?:\n|$)', response_text, re.IGNORECASE)
+    if answer_match:
+        answer_text = answer_match.group(1).strip()
+        
+        # Determine category from the answer text
+        if re.search(r'strong\s+buyer', answer_text, re.IGNORECASE):
+            category = "STRONG"
+        elif re.search(r'medium\s+buyer', answer_text, re.IGNORECASE):
+            category = "MEDIUM"
+        elif re.search(r'not\s+buyer', answer_text, re.IGNORECASE):
+            category = "NOT"
+    
+    # Try to extract company URL from the text
+    url_patterns = [
+        r'(?:https?://)?(?:www\.)?([a-zA-Z0-9][-a-zA-Z0-9]*\.[-a-zA-Z0-9.]+)',
+        r'website:\s*(?:https?://)?(?:www\.)?([a-zA-Z0-9][-a-zA-Z0-9]*\.[-a-zA-Z0-9.]+)',
+        r'url:\s*(?:https?://)?(?:www\.)?([a-zA-Z0-9][-a-zA-Z0-9]*\.[-a-zA-Z0-9.]+)'
+    ]
+    
+    for pattern in url_patterns:
+        url_match = re.search(pattern, response_text, re.IGNORECASE)
+        if url_match:
+            url = url_match.group(1).strip()
+            break
+    
+    # Extract contact information - look for email patterns
+    contact_pattern = r'([A-Za-z.\s]+)\s+([A-Za-z,\s]+)(?:\.|,)?\s+([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})'
+    contacts = re.findall(contact_pattern, response_text)
+    
+    return category, confidence, url, contacts
+
+# Add a function to get the correct filename prefix
+def get_buyer_prefix(category):
+    """Get the filename prefix for a given buyer category."""
+    return BUYER_CATEGORIES.get(category, BUYER_CATEGORIES["MEDIUM"])
 
 def main():
     """
