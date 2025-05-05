@@ -1,5 +1,5 @@
 """
-Email Generation Prompts.
+Email Generation Prompts (Still Need Tuning)
 
 This module contains prompt templates for email generation.
 """
