@@ -7,7 +7,7 @@ import os
 from pathlib import Path
 
 # Model configuration
-MODEL_ID = "models/gemini-2.5-pro-preview-03-25"
+MODEL_ID = "models/gemini-2.5-flash-preview-04-17"
 TEMPERATURE = 0.2
 MAX_OUTPUT_TOKENS = 4096
 
@@ -29,4 +29,4 @@ EMAIL_TEMPLATE_PATH = Path(os.path.expanduser("~/Documents/GitHub/MA_Agents/back
 
 # Additional settings
 LOG_LEVEL = "INFO"
-MAX_EMAILS_TO_GENERATE = 100  # Set a reasonable limit 
+MAX_EMAILS_TO_GENERATE = 1000  # Set a reasonable limit 

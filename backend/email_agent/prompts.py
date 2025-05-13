@@ -17,6 +17,23 @@ IMPORTANT FORMATTING REQUIREMENTS:
    - For bullet points, use the • symbol with NO EXTRA SPACES after the bullet (e.g., •Industry Alignment: not • Industry Alignment:)
    - Make sure bullet points are tight with no extra spaces in front of the text
 
+BUYER QUALIFICATION CRITERIA - IMPORTANT:
+Analyze the buyer profile carefully for the following criteria:
+1. Industry Alignment: Does the buyer invest in real estate and/or construction or has portfolio companies in these sectors?
+2. Investment Criteria: Does the buyer's investment criteria match our target's EBITDA range of $3.0-4.5M?
+3. Geography: Does the buyer have portfolio companies or investments in South Eastern US?
+
+CONDITIONAL EMAIL STRUCTURE:
+- If BOTH Industry Alignment AND Investment Criteria are met, include the section "We believe Project Elevate represents a compelling opportunity for [Company]" with all appropriate bullet points.
+- If Geography is also met, include the Geography bullet point under "compelling opportunity" section.
+- If either Industry Alignment OR Investment Criteria is NOT met, OMIT the entire "compelling opportunity" section and its bullets.
+- Always include the "Beyond the specific potential fit" section with Project Elevate's fundamentals.
+
+REQUIRED EXCLUSIONS:
+- DO NOT include any "Portfolio Precedents" bullet point or section in any case
+- DO NOT mention or reference previous investments as precedents for this opportunity
+- ONLY use the following bullet points when applicable: Industry Alignment, Investment Criteria Fit, and Geographic Focus
+
 -Make sure to emphasize the reasoning on why attached buyer is a strong potential buyer (which is listed in the attached file), but caveate the reasonings with words such as "could" or "likely" or "appears to".  But do not caveats on statements factual statements about the target company, e.g. "The business seems to be profitable and cash-generative, consistent with your preferences" is wrong, it should be "The business is profitable and cash-generative, and seems to be consistent with your preferences"
 -Do not explicitly mention target company's EBITDA Multiple or implied multiple, and never mention the value/price of the Target company we are selling.
 -Do not be too specific, for example this is way to specific "Therefore, the Target's safety services and client base (condos, hotels, offices) could likely create cross-selling opportunities with Agellus's existing fire/life safety portfolio companies (e.g., Bluejack, Orcus)." Since we are not sure of the logic, we can simply say something more generic like "the Target could provide synergies and cross-selling opportunities to Agellus's existing portfolio companies"
@@ -40,10 +57,14 @@ I hope you are doing well.
 
 We are reaching out to share an exciting buyout opportunity of a premier "parking lift" distributor with operations in the southern US ("Project Elevate")
 
+[CONDITIONAL SECTION - INCLUDE ONLY IF BOTH INDUSTRY ALIGNMENT AND INVESTMENT CRITERIA ARE MET:]
 We believe Project Elevate represents a compelling opportunity for [Company] based on the following reasons:
 
 •**Industry Alignment:** [Company specializes in construction, maintenance, and facility services...]
 •**Investment Criteria Fit:** [Project Elevate's $3.0 - $4.0M EBITDA aligns...]
+[INCLUDE ONLY IF GEOGRAPHY CRITERIA IS ALSO MET:]
+•**Geographic Focus:** [Your portfolio companies in the South Eastern region would complement...]
+[END CONDITIONAL SECTION]
 
 Beyond the specific potential fit for [Company], Project Elevate boasts strong fundamentals:
 

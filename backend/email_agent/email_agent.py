@@ -19,6 +19,7 @@ from docx import Document
 from docx.shared import Pt, Inches
 import base64
 from io import BytesIO
+import platform
 
 from backend.email_agent.config import (
     MODEL_ID, TEMPERATURE, MAX_OUTPUT_TOKENS, API_KEY,
@@ -37,6 +38,15 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger(__name__)
+
+# Do not import Windows-specific modules on non-Windows platforms
+if platform.system() == "Windows":
+    import win32com.client
+    import pythoncom
+    import comtypes.client
+else:
+    # Flag to indicate Windows modules are unavailable
+    HAS_WIN32COM = False
 
 class EmailAgent:
     """
@@ -71,7 +81,7 @@ class EmailAgent:
     
     def list_strong_buyer_files(self) -> List[Dict[str, Any]]:
         """
-        List all strong buyer files in the reasoning output directory.
+        List all buyer files (STRONG, MEDIUM, and NOT) in the reasoning output directory.
         
         Returns:
             List of dictionaries with file information
@@ -87,17 +97,29 @@ class EmailAgent:
             all_files = list(REASONING_DIR.glob("*"))
             logger.info(f"All files in directory ({len(all_files)}): {[f.name for f in all_files]}")
             
-            # Get all files in the reasoning output directory
-            pattern = f"{BUYER_PREFIX}*.txt"
-            logger.info(f"Looking for pattern: {pattern}")
-            matching_files = list(REASONING_DIR.glob(pattern))
-            logger.info(f"Found {len(matching_files)} matching files")
+            # Get all buyer files in the reasoning output directory (STRONG, MEDIUM, and NOT)
+            # Create patterns for all buyer types
+            patterns = ["STRONG*.txt", "MEDIUM*.txt", "NOT*.txt"] 
+            
+            all_matching_files = []
+            for pattern in patterns:
+                logger.info(f"Looking for pattern: {pattern}")
+                matching_files = list(REASONING_DIR.glob(pattern))
+                logger.info(f"Found {len(matching_files)} files matching {pattern}")
+                all_matching_files.extend(matching_files)
+            
+            logger.info(f"Found {len(all_matching_files)} total buyer files")
             
             # Process all found files
-            for file_path in matching_files:
+            for file_path in all_matching_files:
                 # Extract company name from filename
                 filename = file_path.name
-                company_name_match = re.search(r'(?:STRONG|Strong|strong)_(?:buyer_)?(.+?)_reasoning_', filename, re.IGNORECASE)
+                
+                # Extract buyer type (STRONG, MEDIUM, NOT)
+                buyer_type = filename.split("_")[0]
+                
+                # Extract company name
+                company_name_match = re.search(r'(?:STRONG|MEDIUM|NOT)_(.+?)_reasoning_', filename, re.IGNORECASE)
                 
                 if company_name_match:
                     company_name = company_name_match.group(1)
@@ -106,13 +128,14 @@ class EmailAgent:
                         "path": str(file_path),  # Convert Path to string
                         "company_name": company_name,
                         "filename": filename,
+                        "buyer_type": buyer_type,  # Add buyer type for reference
                         "processed": False,
                         "success": None,
                         "output_file": None,
                         "error": None
                     })
             
-            logger.info(f"Found {len(files)} strong buyer files to process")
+            logger.info(f"Found {len(files)} buyer files to process")
             
             # Limit the number of files if needed
             if len(files) > MAX_EMAILS_TO_GENERATE:
@@ -122,7 +145,7 @@ class EmailAgent:
             return files
             
         except Exception as e:
-            logger.error(f"Error listing strong buyer files: {str(e)}")
+            logger.error(f"Error listing buyer files: {str(e)}")
             return []
     
     def extract_buyer_info(self, file_path: Path) -> Dict[str, Any]:
@@ -443,6 +466,103 @@ class EmailAgent:
             logger.error(f"Error saving email as Word document: {str(e)}")
             return None
     
+    def save_email_as_outlook_msg(self, email_content: str, buyer_info: Dict[str, Any]) -> Optional[Path]:
+        """
+        Save generated email as an Outlook .msg file on Windows or fallback to docx on other platforms.
+        
+        Args:
+            email_content: The generated email content
+            buyer_info: Buyer information dictionary
+            
+        Returns:
+            Path to the saved message file or None if failed
+        """
+        # Check if we're on Windows and have the required modules
+        if platform.system() != "Windows":
+            logger.info("Not running on Windows, falling back to docx format")
+            return self.save_email_as_docx(email_content, buyer_info)
+        
+        try:
+            # Initialize COM objects
+            pythoncom.CoInitialize()
+            outlook = win32com.client.Dispatch("Outlook.Application")
+            msg = outlook.CreateItem(0)  # 0 = olMailItem
+            
+            # Extract subject line
+            subject_match = re.search(r'\*\*Subject:(.*?)\*\*', email_content)
+            if subject_match:
+                subject = subject_match.group(1).strip()
+            else:
+                subject = "Project Elevate: Premier Parking Lift Distributor Buyout Opportunity"
+            
+            # Set subject
+            msg.Subject = subject
+            
+            # Extract and set email recipients
+            recipients = []
+            # Extract from buyer_info contacts
+            if buyer_info['contacts']:
+                for contact in buyer_info['contacts']:
+                    # Try to find email in the contact string
+                    email_match = re.search(r'([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)', contact)
+                    if email_match:
+                        recipients.append(email_match.group(1))
+            
+            # If no recipients found, try to extract from email_content
+            if not recipients:
+                email_pattern = r'([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)'
+                email_matches = re.findall(email_pattern, email_content)
+                recipients = list(set(email_matches))  # Remove duplicates
+            
+            # Add recipients to the message
+            if recipients:
+                msg.To = "; ".join(recipients)
+            
+            # Format the email body
+            # Remove metadata sections and format body
+            body = email_content
+            
+            # Clean up the formatting for Outlook
+            # Remove URL and Team Members sections
+            url_pattern = r'\*\*URL:\*\*.*?\n'
+            team_pattern = r'\*\*Team Members:\*\*.*?(?=\*\*Subject:|$)'
+            subject_pattern = r'\*\*Subject:.*?\*\*'
+            
+            body = re.sub(url_pattern, '', body, flags=re.DOTALL)
+            body = re.sub(team_pattern, '', body, flags=re.DOTALL)
+            body = re.sub(subject_pattern, '', body, flags=re.DOTALL)
+            
+            # Replace markdown with HTML formatting
+            body = body.replace('**', '')  # Remove bold markers
+            body = body.replace('•', '- ')  # Replace bullet with hyphen and space
+            
+            # Set the body
+            msg.Body = body.strip()
+            
+            # Save message
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            company_name = buyer_info['company_name'].replace('/', '_').replace('\\', '_')
+            output_file = self.output_dir / f"Email_{company_name}_{timestamp}.msg"
+            
+            # Convert to string path for saving
+            output_file_str = str(output_file)
+            msg.SaveAs(output_file_str)
+            
+            # Release COM objects
+            msg = None
+            outlook = None
+            pythoncom.CoUninitialize()
+            
+            logger.info(f"Saved email to {output_file}")
+            
+            return output_file
+            
+        except Exception as e:
+            logger.error(f"Error saving email as Outlook message: {str(e)}")
+            # Fallback to docx if Outlook message creation fails
+            logger.info("Falling back to docx format")
+            return self.save_email_as_docx(email_content, buyer_info)
+    
     def process_file(self, file_info: Dict[str, Any]) -> Dict[str, Any]:
         """
         Process a single strong buyer file.
@@ -467,8 +587,8 @@ class EmailAgent:
             # Generate email
             email_content = self.generate_email(buyer_info)
             
-            # Save as Word document
-            output_file = self.save_email_as_docx(email_content, buyer_info)
+            # Save as Outlook message
+            output_file = self.save_email_as_outlook_msg(email_content, buyer_info)
             
             # Update file information
             file_info.update({
