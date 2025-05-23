@@ -19,9 +19,21 @@ IMPORTANT FORMATTING REQUIREMENTS:
 
 BUYER QUALIFICATION CRITERIA - IMPORTANT:
 Analyze the buyer profile carefully for the following criteria:
-1. Industry Alignment: Does the buyer invest in real estate and/or construction or has portfolio companies in these sectors?
-2. Investment Criteria: Does the buyer's investment criteria match our target's EBITDA range of $3.0-4.5M?
-3. Geography: Does the buyer have portfolio companies or investments in South Eastern US?
+1. Industry Alignment: Does the buyer invest in real estate and/or construction sectors? Look specifically for current or previous portfolio companies in these sectors. This is critical for understanding market synergies.
+2. Investment Criteria: Does the buyer's investment criteria match our target company's EBITDA range of $3.0-4.5M?
+3. Geography: Does the buyer have portfolio companies in Southeastern US?
+
+TONE GUIDANCE FOR INDUSTRY ALIGNMENT - IMPORTANT:
+When discussing Industry Alignment, use a softer tone and VARIED phrasing. DO NOT use the same sentence structure for every email. Customize each description based on the specific buyer profile:
+
+EXAMPLE VARIATIONS (use these as inspiration, not as templates to copy):
+- "With investments across several sectors including real estate and construction, [Company] might find synergies with Project Elevate's business model."
+- "[Company]'s portfolio includes companies in the property services space, which could complement Project Elevate's offerings."
+- "Given [Company]'s interest in facility management and property services, Project Elevate's parking solutions might align with your investment strategy."
+- "The commercial real estate service sector appears to be an area of interest for [Company], making Project Elevate potentially relevant to your portfolio."
+- "As your firm has previously invested in property-related businesses, Project Elevate's parking solutions could be of interest."
+
+IMPORTANT: Craft a UNIQUE opening for each Industry Alignment section. DO NOT start every email with the same phrasing or sentence structure.
 
 CONDITIONAL EMAIL STRUCTURE:
 - If BOTH Industry Alignment AND Investment Criteria are met, include the section "We believe Project Elevate represents a compelling opportunity for [Company]" with all appropriate bullet points.
@@ -60,7 +72,7 @@ We are reaching out to share an exciting buyout opportunity of a premier "parkin
 [CONDITIONAL SECTION - INCLUDE ONLY IF BOTH INDUSTRY ALIGNMENT AND INVESTMENT CRITERIA ARE MET:]
 We believe Project Elevate represents a compelling opportunity for [Company] based on the following reasons:
 
-•**Industry Alignment:** [Company specializes in construction, maintenance, and facility services...]
+•**Industry Alignment:** [Craft a unique description about how the company's interest or investments in real estate/construction could align with Project Elevate]
 •**Investment Criteria Fit:** [Project Elevate's $3.0 - $4.0M EBITDA aligns...]
 [INCLUDE ONLY IF GEOGRAPHY CRITERIA IS ALSO MET:]
 •**Geographic Focus:** [Your portfolio companies in the South Eastern region would complement...]
@@ -80,4 +92,4 @@ We are available to connect on a call to advance our discussion at your convenie
 Best regards,
 
 [Your Name]
-""" 
+"""

@@ -647,6 +647,10 @@ def categorize_buyer_potential(response_text):
     contact_pattern = r'([A-Za-z.\s]+)\s+([A-Za-z,\s]+)(?:\.|,)?\s+([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})'
     contacts = re.findall(contact_pattern, response_text)
     
+    # For improved confidence rating, check for criteria analysis
+    if "Industry Alignment" in response_text and "Investment Criteria" in response_text:
+        confidence = "high"
+    
     return category, confidence, url, contacts
 
 # Add a function to get the correct filename prefix

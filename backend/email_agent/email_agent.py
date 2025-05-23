@@ -10,7 +10,7 @@ import re
 import sys
 import logging
 import json
-import google.generativeai as genai
+import openai
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Any, Optional
@@ -20,6 +20,7 @@ from docx.shared import Pt, Inches
 import base64
 from io import BytesIO
 import platform
+import msglib  # You'll need to install this: pip install msglib
 
 from backend.email_agent.config import (
     MODEL_ID, TEMPERATURE, MAX_OUTPUT_TOKENS, API_KEY,
@@ -56,18 +57,10 @@ class EmailAgent:
     def __init__(self, template_path=None, output_dir=None):
         """Initialize the email agent."""
         if not API_KEY:
-            raise ValueError("Google API key not found. Please set the GOOGLE_API_KEY environment variable.")
+            raise ValueError("OpenAI API key not found. Please set the OPENAI_API_KEY environment variable.")
         
-        # Configure Gemini API
-        genai.configure(api_key=API_KEY)
-        
-        self.model = genai.GenerativeModel(
-            model_name=MODEL_ID,
-            generation_config={
-                "temperature": TEMPERATURE,
-                "max_output_tokens": MAX_OUTPUT_TOKENS,
-            }
-        )
+        # Configure OpenAI client
+        self.client = openai.OpenAI(api_key=API_KEY)
         
         # Use custom template path if provided
         self.template_path = template_path if template_path else EMAIL_TEMPLATE_PATH
@@ -76,6 +69,11 @@ class EmailAgent:
         # Use custom output directory if provided
         self.output_dir = output_dir if output_dir else OUTPUT_DIR
         self.output_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Create No_Contact_Info subdirectory
+        self.no_contact_dir = self.output_dir / "No_Contact_Info"
+        self.no_contact_dir.mkdir(parents=True, exist_ok=True)
+        logger.info(f"Created No_Contact_Info directory at: {self.no_contact_dir}")
         
         logger.info(f"Initialized EmailAgent with model: {MODEL_ID}")
     
@@ -260,7 +258,7 @@ class EmailAgent:
     
     def generate_email(self, buyer_info: Dict[str, Any]) -> str:
         """
-        Generate a personalized email using the Gemini model.
+        Generate a personalized email using the OpenAI model.
         
         Args:
             buyer_info: Dictionary with buyer information
@@ -269,64 +267,56 @@ class EmailAgent:
             Generated email content
         """
         try:
-            # Prepare prompt with buyer information
-            prompt = EMAIL_PROMPT
+            # Prepare content for the prompt
+            prompt_text = EMAIL_PROMPT
             
-            # Create message parts
-            parts = [{"text": prompt}]
-            
-            # Check if the template is an image or text file
+            # Add template content
             if self.template_path.suffix.lower() in ['.jpg', '.jpeg', '.png', '.gif']:
-                # Handle image template
-                template_image_b64 = self.encode_image(self.template_path)
-                if not template_image_b64:
-                    raise ValueError(f"Failed to encode template image at {self.template_path}")
-                
-                parts.append({
-                    "inline_data": {
-                        "mime_type": f"image/{self.template_path.suffix.lower().lstrip('.')}",
-                        "data": template_image_b64
-                    }
-                })
+                # Can't directly include images with text-only OpenAI models
+                prompt_text += "\n\nNote: Please generate the email based on the template description provided in the prompt."
             else:
-                # Handle text template (assume it's a text file)
+                # Handle text template
                 try:
                     with open(self.template_path, 'r') as f:
                         template_text = f.read()
-                    parts.append({"text": f"Email Template:\n\n{template_text}"})
+                    prompt_text += f"\n\nEmail Template:\n\n{template_text}"
                 except Exception as e:
                     logger.error(f"Error reading template file: {e}")
                     raise ValueError(f"Failed to read template file at {self.template_path}")
             
             # Add buyer information
-            parts.append({"text": "Buyer profile information:\n" + buyer_info['full_content']})
+            prompt_text += f"\n\nBuyer profile information:\n{buyer_info['full_content']}"
             
-            # Create the template content
-            template_content = {
-                "role": "user",
-                "parts": parts
-            }
-            
-            # Generate response
+            # Generate response using OpenAI
             logger.info(f"Generating email for {buyer_info['company_name']}")
-            response = self.model.generate_content([template_content])
+            response = self.client.chat.completions.create(
+                model=MODEL_ID,
+                messages=[
+                    {"role": "system", "content": "You are an expert email writer for investment banking"},
+                    {"role": "user", "content": prompt_text}
+                ],
+                temperature=TEMPERATURE,
+                max_tokens=MAX_OUTPUT_TOKENS
+            )
             
-            if not response or not response.text:
-                raise ValueError("Empty response from Gemini API")
+            if not response or not response.choices or not response.choices[0].message.content:
+                raise ValueError("Empty response from OpenAI API")
             
-            return response.text
+            return response.choices[0].message.content
             
         except Exception as e:
             logger.error(f"Error generating email: {str(e)}")
             return f"Error generating email: {str(e)}"
     
-    def save_email_as_docx(self, email_content: str, buyer_info: Dict[str, Any]) -> Optional[Path]:
+    def save_email_as_docx(self, email_content: str, buyer_info: Dict[str, Any], has_contacts: bool, buyer_type: str = "UNKNOWN") -> Optional[Path]:
         """
         Save generated email as a Word document with proper formatting.
         
         Args:
             email_content: The generated email content
             buyer_info: Buyer information dictionary
+            has_contacts: Whether contact information was found
+            buyer_type: Type of buyer (STRONG, MEDIUM, NOT)
             
         Returns:
             Path to the saved document or None if failed
@@ -452,10 +442,15 @@ class EmailAgent:
                         # No formatting needed
                         p.add_run(paragraph)
             
-            # Save document
+            # Save document with modified filename and directory
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             company_name = buyer_info['company_name'].replace('/', '_').replace('\\', '_')
-            output_file = self.output_dir / f"Email_{company_name}_{timestamp}.docx"
+            
+            # Determine output directory based on contact info presence
+            output_dir = self.no_contact_dir if not has_contacts else self.output_dir
+            
+            # Use buyer type in filename
+            output_file = output_dir / f"{buyer_type}_Email_{company_name}_{timestamp}.docx"
             
             doc.save(output_file)
             logger.info(f"Saved email to {output_file}")
@@ -466,106 +461,162 @@ class EmailAgent:
             logger.error(f"Error saving email as Word document: {str(e)}")
             return None
     
-    def save_email_as_outlook_msg(self, email_content: str, buyer_info: Dict[str, Any]) -> Optional[Path]:
+    def save_email_as_outlook_msg(self, email_content: str, buyer_info: Dict[str, Any], has_contacts: bool, buyer_type: str = "UNKNOWN") -> Optional[Path]:
         """
-        Save generated email as an Outlook .msg file on Windows or fallback to docx on other platforms.
+        Save generated email as an Outlook .msg file on any platform.
         
         Args:
             email_content: The generated email content
             buyer_info: Buyer information dictionary
+            has_contacts: Whether contact information was found
+            buyer_type: Type of buyer (STRONG, MEDIUM, NOT)
             
         Returns:
             Path to the saved message file or None if failed
         """
-        # Check if we're on Windows and have the required modules
-        if platform.system() != "Windows":
-            logger.info("Not running on Windows, falling back to docx format")
-            return self.save_email_as_docx(email_content, buyer_info)
-        
         try:
-            # Initialize COM objects
-            pythoncom.CoInitialize()
-            outlook = win32com.client.Dispatch("Outlook.Application")
-            msg = outlook.CreateItem(0)  # 0 = olMailItem
+            logger.info(f"Creating .eml file for {buyer_info['company_name']}")
             
             # Extract subject line
-            subject_match = re.search(r'\*\*Subject:(.*?)\*\*', email_content)
-            if subject_match:
-                subject = subject_match.group(1).strip()
-            else:
-                subject = "Project Elevate: Premier Parking Lift Distributor Buyout Opportunity"
+            subject = "Project Elevate: Premier Parking Lift Distributor Buyout Opportunity"  # Default
+            subject_patterns = [
+                r'\*\*Subject:(.*?)\*\*',  # Markdown format
+                r'Subject:(.*?)(?:\n|$)',  # Plain text format
+                r'Subject Line:(.*?)(?:\n|$)'  # Alternative format
+            ]
             
-            # Set subject
-            msg.Subject = subject
+            for pattern in subject_patterns:
+                subject_match = re.search(pattern, email_content, re.IGNORECASE)
+                if subject_match:
+                    potential_subject = subject_match.group(1).strip()
+                    if potential_subject:  # Ensure we have actual content
+                        subject = potential_subject
+                        break
             
-            # Extract and set email recipients
+            logger.info(f"Setting email subject: '{subject}'")
+            
+            # Extract and format recipients
             recipients = []
-            # Extract from buyer_info contacts
+            recipient_emails = set()  # Using set to avoid duplicates
+            
+            # Extract from buyer_info contacts with improved regex
             if buyer_info['contacts']:
+                logger.info(f"Processing {len(buyer_info['contacts'])} contact entries")
+                
                 for contact in buyer_info['contacts']:
-                    # Try to find email in the contact string
-                    email_match = re.search(r'([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)', contact)
-                    if email_match:
-                        recipients.append(email_match.group(1))
+                    # Various email patterns
+                    email_matches = []
+                    
+                    # Standard email pattern
+                    std_emails = re.findall(r'([a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,})', contact)
+                    email_matches.extend(std_emails)
+                    
+                    # "Email:" label pattern
+                    labeled_emails = re.findall(r'Email:\s*([a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,})', contact, re.IGNORECASE)
+                    email_matches.extend(labeled_emails)
+                    
+                    for email in email_matches:
+                        email = email.strip()
+                        if email and email not in recipient_emails and self._is_valid_email(email):
+                            recipient_emails.add(email)
+                            recipients.append(email)
+                            logger.debug(f"Found recipient: {email}")
             
-            # If no recipients found, try to extract from email_content
+            # If no recipients found, search email content
             if not recipients:
-                email_pattern = r'([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)'
-                email_matches = re.findall(email_pattern, email_content)
-                recipients = list(set(email_matches))  # Remove duplicates
+                logger.info("No recipients found in contacts, searching email content")
+                team_section = re.search(r'\*\*Team Members:\*\*(.*?)(?:\*\*Subject:|$)', email_content, re.DOTALL)
+                
+                if team_section:
+                    team_text = team_section.group(1).strip()
+                    
+                    # Look for emails in team section
+                    team_emails = re.findall(r'([a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,})', team_text)
+                    
+                    for email in team_emails:
+                        email = email.strip()
+                        if email and email not in recipient_emails and self._is_valid_email(email):
+                            recipient_emails.add(email)
+                            recipients.append(email)
+                            logger.debug(f"Found recipient in team section: {email}")
             
-            # Add recipients to the message
-            if recipients:
-                msg.To = "; ".join(recipients)
+            recipients_str = "; ".join(recipients) if recipients else ""
+            logger.info(f"Recipients: {recipients_str or 'None'}")
             
-            # Format the email body
-            # Remove metadata sections and format body
+            # Format email body - clean up markdown
             body = email_content
             
-            # Clean up the formatting for Outlook
-            # Remove URL and Team Members sections
-            url_pattern = r'\*\*URL:\*\*.*?\n'
-            team_pattern = r'\*\*Team Members:\*\*.*?(?=\*\*Subject:|$)'
-            subject_pattern = r'\*\*Subject:.*?\*\*'
+            # Remove metadata sections
+            metadata_patterns = [
+                (r'\*\*URL:\*\*.*?(?=\n\n|\n\*\*|\Z)', ''),  # URL section
+                (r'\*\*Team Members:\*\*.*?(?=\n\n\*\*|\*\*Subject:|\Z)', ''),  # Team Members section
+                (r'\*\*Subject:.*?(?=\n\n|\Z)', '')  # Subject line
+            ]
             
-            body = re.sub(url_pattern, '', body, flags=re.DOTALL)
-            body = re.sub(team_pattern, '', body, flags=re.DOTALL)
-            body = re.sub(subject_pattern, '', body, flags=re.DOTALL)
+            for pattern, replacement in metadata_patterns:
+                body = re.sub(pattern, replacement, body, flags=re.DOTALL)
             
-            # Replace markdown with HTML formatting
-            body = body.replace('**', '')  # Remove bold markers
-            body = body.replace('•', '- ')  # Replace bullet with hyphen and space
+            # Remove markdown formatting
+            body = re.sub(r'\*\*(.*?)\*\*', r'\1', body)  # Remove bold markers
+            body = re.sub(r'^\s*[•*]\s*', '- ', body, flags=re.MULTILINE)  # Format bullet points
+            body = re.sub(r'\n{3,}', '\n\n', body)  # Normalize line breaks
+            body = re.sub(r' +$', '', body, flags=re.MULTILINE)  # Remove trailing whitespace
             
-            # Set the body
-            msg.Body = body.strip()
-            
-            # Save message
+            # Create output file path
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            company_name = buyer_info['company_name'].replace('/', '_').replace('\\', '_')
-            output_file = self.output_dir / f"Email_{company_name}_{timestamp}.msg"
+            company_name = buyer_info['company_name'].replace('/', '_').replace('\\', '_').replace(':', '_')
+            sanitized_name = re.sub(r'[<>:"/\\|?*]', '_', company_name)
             
-            # Convert to string path for saving
-            output_file_str = str(output_file)
-            msg.SaveAs(output_file_str)
+            # Determine output directory
+            output_dir = self.no_contact_dir if not has_contacts else self.output_dir
+            output_dir.mkdir(parents=True, exist_ok=True)
             
-            # Release COM objects
-            msg = None
-            outlook = None
-            pythoncom.CoUninitialize()
+            # Create output file path - Use .eml which is more universally supported
+            output_file = output_dir / f"{buyer_type}_Email_{sanitized_name}_{timestamp}.eml"
             
-            logger.info(f"Saved email to {output_file}")
+            # Create an .eml file (standard email format)
+            with open(output_file, 'w') as f:
+                # Add email headers
+                f.write(f"From: sender@example.com\n")
+                f.write(f"To: {recipients_str}\n")
+                f.write(f"Subject: {subject}\n")
+                f.write("MIME-Version: 1.0\n")
+                f.write("Content-Type: text/plain; charset=utf-8\n")
+                f.write("\n")  # Empty line separates headers from body
+                f.write(body)
             
+            logger.info(f"Successfully created .eml file: {output_file}")
             return output_file
             
         except Exception as e:
-            logger.error(f"Error saving email as Outlook message: {str(e)}")
-            # Fallback to docx if Outlook message creation fails
+            logger.error(f"Error creating email file: {str(e)}")
+            import traceback
+            logger.error(f"Detailed error traceback:\n{traceback.format_exc()}")
+            
+            # Fall back to docx format
             logger.info("Falling back to docx format")
-            return self.save_email_as_docx(email_content, buyer_info)
+            return self.save_email_as_docx(email_content, buyer_info, has_contacts, buyer_type)
+
+    def _is_valid_email(self, email: str) -> bool:
+        """
+        Validate if a string is a properly formatted email address.
+        
+        Args:
+            email: Email address to validate
+            
+        Returns:
+            Boolean indicating if the email is valid
+        """
+        if not email or '@' not in email:
+            return False
+        
+        # More comprehensive email validation pattern
+        pattern = r'^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$'
+        return bool(re.match(pattern, email))
     
     def process_file(self, file_info: Dict[str, Any]) -> Dict[str, Any]:
         """
-        Process a single strong buyer file.
+        Process a single buyer file.
         
         Args:
             file_info: Dictionary with file information
@@ -581,21 +632,41 @@ class EmailAgent:
             if isinstance(file_path, str):
                 file_path = Path(file_path)
             
+            # Get buyer type from file info or extract from filename
+            buyer_type = file_info.get('buyer_type', 'UNKNOWN')
+            if buyer_type == 'UNKNOWN' and isinstance(file_path, Path):
+                # Extract from filename (first part before underscore)
+                buyer_type = file_path.name.split('_')[0]
+            
             # Extract buyer information
             buyer_info = self.extract_buyer_info(file_path)
+            
+            # Check if contact information was found
+            has_contacts = True  # Default to true
+            if not buyer_info['contacts']:
+                # Check if the content has "No contact information found"
+                if 'full_content' in buyer_info and "No contact information found" in buyer_info['full_content']:
+                    has_contacts = False
+                    logger.info(f"No contact information found for {buyer_info['company_name']}")
             
             # Generate email
             email_content = self.generate_email(buyer_info)
             
-            # Save as Outlook message
-            output_file = self.save_email_as_outlook_msg(email_content, buyer_info)
+            # Save as Outlook message with appropriate placement
+            output_file = self.save_email_as_outlook_msg(
+                email_content, 
+                buyer_info,
+                has_contacts,
+                buyer_type
+            )
             
             # Update file information
             file_info.update({
                 "processed": True,
                 "success": output_file is not None,
                 "output_file": str(output_file) if output_file else None,  # Convert Path to string
-                "error": None
+                "error": None,
+                "has_contacts": has_contacts
             })
             
             return file_info

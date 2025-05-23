@@ -7,15 +7,15 @@ import os
 from pathlib import Path
 
 # Model configuration
-MODEL_ID = "models/gemini-2.5-flash-preview-04-17"
+MODEL_ID = "gpt-4.1-mini"
 TEMPERATURE = 0.2
 MAX_OUTPUT_TOKENS = 4096
 
 # API configuration
-API_KEY = os.environ.get("GOOGLE_API_KEY", "")
+API_KEY = os.environ.get("OPENAI_API_KEY", "")
 
 # File paths
-REASONING_DIR = Path(os.path.expanduser("~/Documents/GitHub/MA_Agents/backend/reasoning_agent/output/7th_Run_TestRun_(Success)"))
+REASONING_DIR = Path(os.path.expanduser("~/Documents/GitHub/MA_Agents/backend/reasoning_agent/output/8th_Run-155"))
 OUTPUT_DIR = Path(os.path.expanduser("~/Documents/Github/MA_Agents/backend/email_agent/output"))
 
 # Ensure the output directory exists
