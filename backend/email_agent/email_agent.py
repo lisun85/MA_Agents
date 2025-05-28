@@ -256,6 +256,126 @@ class EmailAgent:
             logger.error(f"Error encoding image: {str(e)}")
             return ""
     
+    def extract_contact_name(self, buyer_info: Dict[str, Any]) -> str:
+        """
+        Extract the first contact name from buyer information.
+        
+        Args:
+            buyer_info: Dictionary with buyer information
+            
+        Returns:
+            First name of contact, "Investment Team", or "Team" as fallback
+        """
+        try:
+            if not buyer_info.get('contacts', []):
+                logger.info(f"No contacts found for {buyer_info['company_name']}, using generic greeting")
+                return "Team"
+            
+            # Get the first contact entry
+            first_contact = buyer_info['contacts'][0]
+            logger.debug(f"Extracting name from contact: {first_contact}")
+            
+            # Try different patterns to extract a person's name
+            
+            # Pattern: "John Smith (Managing Director)"
+            name_with_title = re.match(r'^([A-Za-z\s.-]+)(?:\(|\|)', first_contact)
+            if name_with_title:
+                full_name = name_with_title.group(1).strip()
+                first_name = full_name.split()[0]
+                logger.info(f"Extracted first name from name with title: {first_name}")
+                return first_name
+            
+            # Pattern: "John Smith | Email: john@example.com"
+            name_with_email = re.match(r'^([A-Za-z\s.-]+)(?:\s*\|\s*Email:)', first_contact, re.IGNORECASE)
+            if name_with_email:
+                full_name = name_with_email.group(1).strip()
+                first_name = full_name.split()[0]
+                logger.info(f"Extracted first name from name with email: {first_name}")
+                return first_name
+            
+            # Check if it's just a plain name
+            if re.match(r'^[A-Za-z\s.-]+$', first_contact) and ' ' in first_contact.strip():
+                full_name = first_contact.strip()
+                first_name = full_name.split()[0]
+                logger.info(f"Extracted first name from plain name: {first_name}")
+                return first_name
+            
+            # Check if it contains a generic email like info@company.com
+            if re.search(r'info@|contact@|hello@|team@', first_contact, re.IGNORECASE):
+                logger.info(f"Found generic email in {buyer_info['company_name']} contact, using 'Investment Team'")
+                return "Investment Team"
+            
+            # Check if it has any email
+            if '@' in first_contact:
+                # Try to get a name from the email prefix
+                email_parts = re.search(r'([a-zA-Z0-9._%+-]+)@', first_contact)
+                if email_parts:
+                    email_prefix = email_parts.group(1)
+                    # If it looks like a person's name (not info, admin, etc.)
+                    if not re.match(r'(info|contact|admin|support|team|hello|sales)', email_prefix, re.IGNORECASE):
+                        logger.info(f"Using email prefix as name: {email_prefix}")
+                        return email_prefix.capitalize()
+                    
+                logger.info(f"Email doesn't contain personal name, using 'Investment Team'")
+                return "Investment Team"
+            
+            # If we've reached here, no good name pattern was found
+            logger.info(f"No clear name pattern found in contacts for {buyer_info['company_name']}, using 'Investment Team'")
+            return "Investment Team"
+            
+        except Exception as e:
+            logger.error(f"Error extracting contact name: {str(e)}")
+            return "Team"  # Safe fallback
+
+    def process_email_content(self, email_content: str, contact_name: str) -> str:
+        """
+        Process the generated email content to update greeting with personalized name.
+        
+        Args:
+            email_content: The generated email content
+            contact_name: The extracted contact name to use
+            
+        Returns:
+            Updated email content with personalized greeting
+        """
+        try:
+            # Find the greeting line in various formats
+            greeting_patterns = [
+                r'(Hello|Dear|Hi)(\s+)(\[Contact Name\]|[A-Za-z]+)(\s*),',  # Match "Hello [Contact Name]," or similar
+                r'^([A-Za-z]+)(\s*),'  # Match greetings at start of line
+            ]
+            
+            for pattern in greeting_patterns:
+                greeting_match = re.search(pattern, email_content, re.MULTILINE)
+                if greeting_match:
+                    # Replace the entire greeting with our standardized one
+                    old_greeting = greeting_match.group(0)
+                    new_greeting = f"Dear {contact_name},"
+                    logger.info(f"Replacing greeting '{old_greeting}' with '{new_greeting}'")
+                    email_content = email_content.replace(old_greeting, new_greeting)
+                    return email_content
+            
+            # If no greeting was found, the email might not have followed the template
+            # Let's check for the first paragraph after any URL/Team Members/Subject sections
+            sections_end = re.search(r'\*\*Subject:.*?\*\*\s*\n+', email_content, re.DOTALL)
+            if sections_end:
+                position = sections_end.end()
+                # Insert our greeting after the Subject section
+                content_parts = [
+                    email_content[:position],
+                    f"\nDear {contact_name},\n\n",
+                    email_content[position:].lstrip()
+                ]
+                return ''.join(content_parts)
+            
+            # If all else fails, just return the original content
+            logger.warning(f"Could not locate greeting pattern in email for {contact_name}")
+            return email_content
+            
+        except Exception as e:
+            logger.error(f"Error processing email greeting: {str(e)}")
+            return email_content  # Return original if there's an error
+
     def generate_email(self, buyer_info: Dict[str, Any]) -> str:
         """
         Generate a personalized email using the OpenAI model.
@@ -267,22 +387,12 @@ class EmailAgent:
             Generated email content
         """
         try:
-            # Prepare content for the prompt
-            prompt_text = EMAIL_PROMPT
+            # Extract contact name for personalization
+            recipient_name = self.extract_contact_name(buyer_info)
+            logger.info(f"Using recipient name: {recipient_name} for {buyer_info['company_name']}")
             
-            # Add template content
-            if self.template_path.suffix.lower() in ['.jpg', '.jpeg', '.png', '.gif']:
-                # Can't directly include images with text-only OpenAI models
-                prompt_text += "\n\nNote: Please generate the email based on the template description provided in the prompt."
-            else:
-                # Handle text template
-                try:
-                    with open(self.template_path, 'r') as f:
-                        template_text = f.read()
-                    prompt_text += f"\n\nEmail Template:\n\n{template_text}"
-                except Exception as e:
-                    logger.error(f"Error reading template file: {e}")
-                    raise ValueError(f"Failed to read template file at {self.template_path}")
+            # Prepare content for the prompt
+            prompt_text = EMAIL_PROMPT.replace("[Name]", recipient_name)
             
             # Add buyer information
             prompt_text += f"\n\nBuyer profile information:\n{buyer_info['full_content']}"
@@ -292,7 +402,7 @@ class EmailAgent:
             response = self.client.chat.completions.create(
                 model=MODEL_ID,
                 messages=[
-                    {"role": "system", "content": "You are an expert email writer for investment banking"},
+                    {"role": "system", "content": "You are an expert email writer for investment banking. Follow the template exactly."},
                     {"role": "user", "content": prompt_text}
                 ],
                 temperature=TEMPERATURE,
@@ -477,21 +587,15 @@ class EmailAgent:
         try:
             logger.info(f"Creating .eml file for {buyer_info['company_name']}")
             
-            # Extract subject line
-            subject = "Project Elevate: Premier Parking Lift Distributor Buyout Opportunity"  # Default
-            subject_patterns = [
-                r'\*\*Subject:(.*?)\*\*',  # Markdown format
-                r'Subject:(.*?)(?:\n|$)',  # Plain text format
-                r'Subject Line:(.*?)(?:\n|$)'  # Alternative format
-            ]
+            # Use standardized subject line
+            subject = "Project Elevate: Premier Parking Lift Distributor Buyout Opportunity"
             
-            for pattern in subject_patterns:
-                subject_match = re.search(pattern, email_content, re.IGNORECASE)
-                if subject_match:
-                    potential_subject = subject_match.group(1).strip()
-                    if potential_subject:  # Ensure we have actual content
-                        subject = potential_subject
-                        break
+            # Extract subject line if it exists in the content (but still use standardized one)
+            subject_match = re.search(r'Subject:(.*?)(?:\n|$)', email_content, re.IGNORECASE)
+            if subject_match:
+                # Just log what was found, but don't use it
+                potential_subject = subject_match.group(1).strip()
+                logger.debug(f"Found subject in content: '{potential_subject}', using standard subject instead")
             
             logger.info(f"Setting email subject: '{subject}'")
             
@@ -548,17 +652,14 @@ class EmailAgent:
             
             # Remove metadata sections
             metadata_patterns = [
-                (r'\*\*URL:\*\*.*?(?=\n\n|\n\*\*|\Z)', ''),  # URL section
-                (r'\*\*Team Members:\*\*.*?(?=\n\n\*\*|\*\*Subject:|\Z)', ''),  # Team Members section
-                (r'\*\*Subject:.*?(?=\n\n|\Z)', '')  # Subject line
+                (r'Subject:(.*?)(?=\n\n|\Z)', ''),  # Subject line
             ]
             
             for pattern, replacement in metadata_patterns:
                 body = re.sub(pattern, replacement, body, flags=re.DOTALL)
             
-            # Remove markdown formatting
-            body = re.sub(r'\*\*(.*?)\*\*', r'\1', body)  # Remove bold markers
-            body = re.sub(r'^\s*[•*]\s*', '- ', body, flags=re.MULTILINE)  # Format bullet points
+            # Make sure bullet points are formatted consistently
+            body = re.sub(r'^\s*[•*-]\s*', '• ', body, flags=re.MULTILINE)  # Format bullet points
             body = re.sub(r'\n{3,}', '\n\n', body)  # Normalize line breaks
             body = re.sub(r' +$', '', body, flags=re.MULTILINE)  # Remove trailing whitespace
             
@@ -567,11 +668,11 @@ class EmailAgent:
             company_name = buyer_info['company_name'].replace('/', '_').replace('\\', '_').replace(':', '_')
             sanitized_name = re.sub(r'[<>:"/\\|?*]', '_', company_name)
             
-            # Determine output directory
+            # Determine output directory based on contact info presence
             output_dir = self.no_contact_dir if not has_contacts else self.output_dir
             output_dir.mkdir(parents=True, exist_ok=True)
             
-            # Create output file path - Use .eml which is more universally supported
+            # Create output file path - Use .eml format
             output_file = output_dir / f"{buyer_type}_Email_{sanitized_name}_{timestamp}.eml"
             
             # Create an .eml file (standard email format)
