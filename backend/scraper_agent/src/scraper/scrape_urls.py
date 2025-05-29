@@ -10,7 +10,7 @@ import argparse
 import logging
 import asyncio
 from dotenv import load_dotenv
-from tools.playwright_scraper import PlaywrightScraper
+from backend.scraper_agent.src.scraper.tools.playwright_scraper import PlaywrightScraper
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
